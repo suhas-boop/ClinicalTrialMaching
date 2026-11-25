@@ -5,14 +5,26 @@ import json
 import os
 import tempfile
 from datetime import date, datetime, timedelta
+from functools import lru_cache
 from pathlib import Path
 from zipfile import ZipFile
 from zoneinfo import ZoneInfo, ZoneInfoNotFoundError
 
 HERE = Path(__file__).resolve().parent
-STUDIES = json.loads((HERE / 'inventory.json').read_text())['studies']
 QUESTIONS = json.loads((HERE / 'coordinator_questions.json').read_text())
 SCHEMA = 'pocketmd-trial-onboarding-v1'
+
+
+@lru_cache(maxsize=1)
+def study_inventory():
+    """Load the required source index when an indexed-study operation requests it."""
+    return json.loads((HERE / 'inventory.json').read_text())
+
+
+def __getattr__(name):
+    if name == 'STUDIES':
+        return study_inventory()['studies']
+    raise AttributeError(name)
 
 
 def timestamp(value):
@@ -25,7 +37,7 @@ def timestamp(value):
 
 
 def create_profile(study, archive, timezone, uploaded_at=None, simulate=False):
-    spec = STUDIES[study]
+    spec = study_inventory()['studies'][study]
     with ZipFile(archive) as source:
         digest = hashlib.sha256(source.read(spec['protocol_member'])).hexdigest()
     if digest != spec['protocol_sha256']:
@@ -42,7 +54,7 @@ def create_profile(study, archive, timezone, uploaded_at=None, simulate=False):
 
 def validate(profile, study):
     if (profile.get('schema') != SCHEMA or profile.get('study') != study
-            or profile.get('protocol_sha256') != STUDIES[study]['protocol_sha256']):
+            or profile.get('protocol_sha256') != study_inventory()['studies'][study]['protocol_sha256']):
         raise ValueError('Onboarding record is for a different study or amendment.')
     ZoneInfo(profile['timezone'])
     timestamp(profile['uploaded_at'])
@@ -116,7 +128,7 @@ def install(path, proposed):
 
 if __name__=='__main__':
     p=argparse.ArgumentParser(description=__doc__)
-    p.add_argument('study',choices=STUDIES);p.add_argument('site_zip',type=Path);p.add_argument('profile',type=Path)
+    p.add_argument('study',choices=study_inventory()['studies']);p.add_argument('site_zip',type=Path);p.add_argument('profile',type=Path)
     p.add_argument('--timezone',default='UTC',help='Trial onboarding time zone, e.g. America/Los_Angeles. Defaults to UTC.')
     p.add_argument('--uploaded-at',help='Recorded upload timestamp for importing an earlier upload. Defaults to now.')
     p.add_argument('--test-cycle-start',action='store_true',help='In this test profile only, model C1D1 seven calendar days after onboarding.')

@@ -13,16 +13,20 @@ from zoneinfo import ZoneInfo, ZoneInfoNotFoundError
 from evidence import instant, ref, single, decision, meets_inclusive_minimum
 from agreement import evaluate_agreement
 from prescreen import evaluate_tissue_assay, is_prescreening
-from onboarding import test_cycle, validate as validate_onboarding
+from onboarding import study_inventory, test_cycle, validate as validate_onboarding
 
 HERE = Path(__file__).resolve().parent
 def load(name):
     return json.loads((HERE/name).read_text())
-INVENTORY = load('inventory.json')
 RULES = load('rules.json')
 CATALOG_DATA = load('catalog.json')
 CATALOG = {c['key']: c for c in CATALOG_DATA['mappings']}
 COMPARE = {'lt': operator.lt, 'le': operator.le, 'ge': operator.ge}
+
+def __getattr__(name):
+    if name == 'INVENTORY':
+        return study_inventory()
+    raise AttributeError(name)
 
 def screening_cutoff(as_of=None, timezone_name=None):
     """Resolve the evaluation clock once. Explicit timestamps retain their offset by default."""
@@ -296,6 +300,7 @@ def grouped(states):
     return {'outputs':outputs,'pipeline_holds':holds}
 
 def run(study,bundle,patient,encounter,as_of=None,*,timezone_name=None,onboarding=None):
+    inventory = study_inventory()
     if onboarding is not None:
         validate_onboarding(onboarding,study)
         timezone_name=timezone_name or onboarding['timezone']
@@ -303,7 +308,7 @@ def run(study,bundle,patient,encounter,as_of=None,*,timezone_name=None,onboardin
     as_of = screening_cutoff(as_of, timezone_name)
     screening_day = instant(as_of).date().isoformat()
     cycle=test_cycle(onboarding,as_of) if onboarding is not None else None
-    criteria=[r for r in INVENTORY['criteria'] if r['study']==study]
+    criteria=[r for r in inventory['criteria'] if r['study']==study]
     if not criteria:raise ValueError('Unknown study')
     results={}
     for row in criteria:
@@ -323,11 +328,11 @@ def run(study,bundle,patient,encounter,as_of=None,*,timezone_name=None,onboardin
                 'MET':'COMPLETED','NOT_MET':'COMPLETED',
                 'INVESTIGATOR_ACTIONS':'ACTION_REQUIRED','MISSING_DATA':'VERIFY_EVIDENCE'
             }[result['state']]}
-    return {**({'mode':'simulation','simulated_schedule':cycle} if cycle else {}),'study':study,'as_of':as_of,'screening_date':screening_day,'as_of_source':source,'catalog':CATALOG_DATA['version'],'protocol_sha256':INVENTORY['studies'][study]['protocol_sha256'],'patient':'Patient/'+patient,'criteria':results,**grouped(results)}
+    return {**({'mode':'simulation','simulated_schedule':cycle} if cycle else {}),'study':study,'as_of':as_of,'screening_date':screening_day,'as_of_source':source,'catalog':CATALOG_DATA['version'],'protocol_sha256':inventory['studies'][study]['protocol_sha256'],'patient':'Patient/'+patient,'criteria':results,**grouped(results)}
 
 if __name__=='__main__':
     p=argparse.ArgumentParser()
-    p.add_argument('study',choices=INVENTORY['studies'])
+    p.add_argument('study',choices=study_inventory()['studies'])
     p.add_argument('--bundle',required=True,type=Path)
     p.add_argument('--patient',required=True)
     p.add_argument('--as-of',help='Optional replay cutoff. Use an offset timestamp, or a date for Michigan.')

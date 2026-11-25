@@ -2,6 +2,8 @@
 
 Start here after extracting the archive and opening the PocketMD folder. The core CLI is pocketmd.py. This package brings together the R21 research implementation and its subsequent combined TrialGPT replay. Older READMEs and stored outputs are preserved for reproducibility.
 
+The public checkout includes the matching code, demo fixtures and public TrialGPT benchmark inputs. Workflows for the separate oncology study packs require the original site files. The historical Criteria2SQL replay pins the [original runtime source](https://github.com/suhas-boop/ClinicalTrialMaching/tree/866bfe3b9bd9308a9198c5240b590d7e4e637c7b) and uses its site inventory at startup. The public demo loads that inventory only for study-specific operations.
+
 ## Run one criterion from text through evaluation
 
 Use Python 3.11 or 3.12. Commands below use python3. Choose fresh output paths. The recorded authoring demo needs no API key.
