@@ -1,0 +1,42 @@
+{
+  "clear": {
+    "criterion": "At screening, participants must be at least 18 years old and have an ECOG performance status of 0 or 1.",
+    "protocol": "Assess both age and performance status at the study screening encounter."
+  },
+  "open": {
+    "criterion": "Participants must meet the study's ECOG performance status requirement at screening.",
+    "protocol": "Measure ECOG performance status at the screening encounter. The supplied eligibility section gives no qualifying scores."
+  },
+  "unmapped": {
+    "criterion": "At screening, participants must be at least 18 years old and have a serum albumin concentration of at least 3.0 g/dL.",
+    "protocol": "Use the serum albumin concentration from the screening encounter."
+  },
+  "answered_narrow": {
+    "criterion": "Participants must meet the study's ECOG performance status requirement at screening.",
+    "protocol": "Measure ECOG performance status at the screening encounter. The supplied eligibility section gives no qualifying scores.",
+    "question:Q1": "Which ECOG performance status scores qualify a participant at the screening encounter?",
+    "answer:Q1": "At screening, only ECOG scores of 0 or 1 qualify."
+  },
+  "answered_wide": {
+    "criterion": "Participants must meet the study's ECOG performance status requirement at screening.",
+    "protocol": "Measure ECOG performance status at the screening encounter. The supplied eligibility section gives no qualifying scores.",
+    "question:Q1": "Which ECOG performance status scores qualify a participant at the screening encounter?",
+    "answer:Q1": "At screening, ECOG scores of 0, 1, or 2 qualify."
+  },
+  "answered_unclear": {
+    "criterion": "Participants must meet the study's ECOG performance status requirement at screening.",
+    "protocol": "Measure ECOG performance status at the screening encounter. The supplied eligibility section gives no qualifying scores.",
+    "question:Q1": "Which ECOG performance status scores qualify a participant at the screening encounter?",
+    "answer:Q1": "The screening team should use the usual scores."
+  },
+  "neok_age": {
+    "criterion": "2. Participant is ≥ 18 years of age",
+    "protocol": "NEOK001-1 Protocol Amendment 2, 26 June 2026. Section 5.1, inclusion criterion 2, page 49. Page 54: If at any time in the screening period a participant fails to meet the eligibility criteria, the participant will be designated a screen failure.",
+    "polarity": "inclusion"
+  },
+  "exclusion": {
+    "criterion": "ECOG performance status of 3 or higher.",
+    "protocol": "Use the ECOG score from the screening encounter.",
+    "polarity": "exclusion"
+  }
+}

@@ -1,0 +1,547 @@
+{
+  "baseline_freeze_sha256": "88d1fd3fe4b48699b9a00c55aa64394a97657503db92b464f3308b2f6b485627",
+  "candidate_freeze_sha256": "ef0864f5007e0a4b9cdd277246e19f37b6c24b5e60780aa0c149a55fdc52a359",
+  "release_predictions_sha256": "f0eb605ec1998262c2b2d6071b8e866a46bd744788abcff076255aab6de21d1a",
+  "publisher_sha256": "14c547184fac9b013cd17441fd028845b40150c76b022e58334f5494077e5234",
+  "original_notes_sha256": "25f9b95d633c111c607e7a552f36af337d7de949d21c610310391cb2f0b3fc66",
+  "baseline_outputs_sha256": {
+    "charts.json": "1df5d07751a47b1aa1a687850662580e70c7ec997f91ef6a7b970f9e6ba53667",
+    "predictions.json": "18bafc233f610aaed59e2b79fa1166b2da128604f92ba9ac9a39f55f33ee98d0"
+  },
+  "candidate_outputs_sha256": {
+    "charts.json": "1df5d07751a47b1aa1a687850662580e70c7ec997f91ef6a7b970f9e6ba53667",
+    "predictions.json": "dda016d455e5bf12cdd8cf64dd26ab21dc53c23af9aee8fb5dfb0ce9943ede8f"
+  },
+  "catalog_sha256": {
+    "baseline": "8f74ae1b4fb2c4de07965dd52dc56fba5a04a9e82d1ae500452e9e414eaf2e66",
+    "candidate": "8f74ae1b4fb2c4de07965dd52dc56fba5a04a9e82d1ae500452e9e414eaf2e66"
+  },
+  "source": "Non-training NCBI TrialGPT criterion assignments; physician eligibility labels",
+  "verified_original_assignments": 134,
+  "publisher_blind_projection_sha256": "7f208d1476911716d9ceef00162f5ac94bd6b5719d01678492daf78f631519a3",
+  "baseline": {
+    "assignments": 134,
+    "physician_definitive": 91,
+    "physician_indeterminate": 43,
+    "agree": 6,
+    "opposite_definitive": 0,
+    "definitive_on_indeterminate": 0,
+    "total_unsupported_or_opposite_definitives": 0,
+    "pending_physician_definitive": 85,
+    "pending_by_state": {
+      "AUTHORING_HOLD": 12,
+      "INVESTIGATOR_ACTIONS": 5,
+      "MISSING_DATA": 62,
+      "PATIENT_SURVEY": 2,
+      "SOURCE_SCOPE_HOLD": 4
+    },
+    "all_assignment_abstentions": 128
+  },
+  "candidate": {
+    "assignments": 134,
+    "physician_definitive": 91,
+    "physician_indeterminate": 43,
+    "agree": 6,
+    "opposite_definitive": 0,
+    "definitive_on_indeterminate": 0,
+    "total_unsupported_or_opposite_definitives": 0,
+    "pending_physician_definitive": 85,
+    "pending_by_state": {
+      "AUTHORING_HOLD": 12,
+      "INVESTIGATOR_ACTIONS": 5,
+      "MISSING_DATA": 62,
+      "PATIENT_SURVEY": 2,
+      "SOURCE_SCOPE_HOLD": 4
+    },
+    "all_assignment_abstentions": 128
+  },
+  "lost_baseline_decision_cases": [],
+  "state_changes": 0,
+  "changed_rows_or_used_evidence": 8,
+  "changes": [
+    {
+      "case": "26",
+      "study": "NCT00149227",
+      "subject": "Patient/sigir-20141",
+      "criterion_type": "exclusion",
+      "criterion": "Pregnant women and women of childbearing potential",
+      "baseline_state": "MISSING_DATA",
+      "candidate_state": "MISSING_DATA",
+      "changed_fields": [
+        "decision"
+      ],
+      "changed_used_resources": [],
+      "baseline_row_sha256": "25bfc3d78adbf41182460a3bab727880b08da43b1d4317885b27913b648ee847",
+      "candidate_row_sha256": "78a2ba843acadba2b4b8c1d56554a3b9dea3a2de02eaaefaf038992d43b9777e",
+      "cited_lines": [
+        {
+          "line": 0,
+          "text": "0. A 58-year-old African-American woman presents to the ER with episodic pressing/burning anterior chest pain that began two days earlier for the first time in her life."
+        }
+      ],
+      "candidate_decision": {
+        "evidence": [
+          "Observation/x-04a182c6f7a5add745e5d7738c6aac"
+        ],
+        "facts": {
+          "childbearing_potential": {
+            "contract": "f-2622bb939481c519d0f8f007",
+            "evidence": [],
+            "label": "childbearing_potential",
+            "state": "MISSING_DATA",
+            "value": null
+          },
+          "pregnant": {
+            "contract": "f-898914ae782cda111574ac88",
+            "evidence": [],
+            "label": "pregnant",
+            "state": "MISSING_DATA",
+            "value": null
+          },
+          "woman": {
+            "contract": "f-0a8b5aef0881950a32c8e3b3",
+            "evidence": [
+              "Observation/x-04a182c6f7a5add745e5d7738c6aac"
+            ],
+            "label": "woman",
+            "state": "AVAILABLE",
+            "value": true
+          }
+        },
+        "partial_evidence": [
+          "Observation/x-04a182c6f7a5add745e5d7738c6aac"
+        ],
+        "partial_source_sentences": [
+          0
+        ],
+        "reason": "Negated protocol condition. Obtain source-linked pregnant. Obtain source-linked childbearing potential.",
+        "source_sentences": [
+          0
+        ],
+        "state": "MISSING_DATA"
+      },
+      "source_sha256": "2f12c68c43f30f489cf4cd56b180bdde99acef642cdaeec017d7ad18a2d93202",
+      "baseline_result": "abstained",
+      "candidate_result": "abstained"
+    },
+    {
+      "case": "55",
+      "study": "NCT02390596",
+      "subject": "Patient/sigir-20144",
+      "criterion_type": "exclusion",
+      "criterion": "Preterm and neonates, pregnancy",
+      "baseline_state": "MISSING_DATA",
+      "candidate_state": "MISSING_DATA",
+      "changed_fields": [
+        "decision"
+      ],
+      "changed_used_resources": [],
+      "baseline_row_sha256": "278b1e53e2a665bbbbc338decaa4e582eaf7ab376fff05658a1971f70f527576",
+      "candidate_row_sha256": "7f62931bb0eff06b3b872d1a15899ec9d11300376cf7fae5bc6ad41e3ddd3685",
+      "cited_lines": [],
+      "candidate_decision": {
+        "evidence": [],
+        "facts": {
+          "current_age_0_through_27_days": {
+            "contract": "f-ca31ca2db4ab8b0b44ff4097",
+            "evidence": [
+              "Observation/x-25b20b985877026af7ba56280e8b19"
+            ],
+            "label": "current_age_0_through_27_days",
+            "state": "AVAILABLE",
+            "value": false
+          },
+          "current_pregnancy_exclusion_status_or_documented_nonapplicability": {
+            "contract": "f-dab01adab3f03a5c78911cee",
+            "evidence": [],
+            "label": "current_pregnancy_exclusion_status_or_documented_nonapplicability",
+            "state": "MISSING_DATA",
+            "value": null
+          },
+          "current_preterm_newborn": {
+            "contract": "f-9e7508436aa576264deece4e",
+            "evidence": [
+              "Observation/x-25b20b985877026af7ba56280e8b19"
+            ],
+            "label": "current_preterm_newborn",
+            "state": "AVAILABLE",
+            "value": false
+          }
+        },
+        "partial_evidence": [
+          "Observation/x-25b20b985877026af7ba56280e8b19"
+        ],
+        "partial_source_sentences": [
+          0
+        ],
+        "reason": "Negated protocol condition. Obtain source-linked current pregnancy exclusion status or documented nonapplicability.",
+        "source_sentences": [],
+        "state": "MISSING_DATA"
+      },
+      "source_sha256": "b84f8404e9c22885aa68fdc3dcafea94221f249e77b257611aa12581d9195e7b",
+      "baseline_result": "abstained",
+      "candidate_result": "abstained"
+    },
+    {
+      "case": "132",
+      "study": "NCT00845988",
+      "subject": "Patient/sigir-20147",
+      "criterion_type": "exclusion",
+      "criterion": "pregnant or breast feeding women",
+      "baseline_state": "MISSING_DATA",
+      "candidate_state": "MISSING_DATA",
+      "changed_fields": [
+        "decision"
+      ],
+      "changed_used_resources": [],
+      "baseline_row_sha256": "f2d257ade60c98a944db1b4642ca828d8ca8abb4f26f2201c2e75bc45238665d",
+      "candidate_row_sha256": "71332ec9d63c65ec3696afcdde48709fdde99f6edc4695047a9341e2eff1d988",
+      "cited_lines": [],
+      "candidate_decision": {
+        "evidence": [],
+        "facts": {
+          "breastfeeding": {
+            "contract": "f-454e1dd9eebcf3ac5e43a4dc",
+            "evidence": [],
+            "label": "breastfeeding",
+            "state": "MISSING_DATA",
+            "value": null
+          },
+          "in_protocol_women_population": {
+            "contract": "f-8c601db8dce2fcccf15997ad",
+            "evidence": [
+              "Observation/x-e9aa8f0896ece8d01c660464d6b7a3"
+            ],
+            "label": "in_protocol_women_population",
+            "state": "AVAILABLE",
+            "value": true
+          },
+          "pregnant": {
+            "contract": "f-898914ae782cda111574ac88",
+            "evidence": [],
+            "label": "pregnant",
+            "state": "MISSING_DATA",
+            "value": null
+          }
+        },
+        "partial_evidence": [
+          "Observation/x-e9aa8f0896ece8d01c660464d6b7a3"
+        ],
+        "partial_source_sentences": [
+          0
+        ],
+        "reason": "Negated protocol condition. Obtain source-linked pregnant. Obtain source-linked breastfeeding.",
+        "source_sentences": [],
+        "state": "MISSING_DATA"
+      },
+      "source_sha256": "867d6d6173382ea0098563cdd4ba6bca14e5b05368f31b6aa0d696316fd9160b",
+      "baseline_result": "abstained",
+      "candidate_result": "abstained"
+    },
+    {
+      "case": "230",
+      "study": "NCT01869855",
+      "subject": "Patient/sigir-201414",
+      "criterion_type": "inclusion",
+      "criterion": "Patient at least 18 years of age presenting with a symptomatic chronic subdural hematoma",
+      "baseline_state": "MISSING_DATA",
+      "candidate_state": "MISSING_DATA",
+      "changed_fields": [
+        "decision"
+      ],
+      "changed_used_resources": [],
+      "baseline_row_sha256": "2042161562ab25aba2a5f4389316de539e8a393ce52ea596313cc54803bff580",
+      "candidate_row_sha256": "28f214d0c81102516373c2865a6c63be63330ed4c76f6e82e42120093c26002b",
+      "cited_lines": [],
+      "candidate_decision": {
+        "evidence": [],
+        "facts": {
+          "age_years": {
+            "contract": "f-294019d9f0bf6d5c69f1dd3a",
+            "evidence": [
+              "Observation/x-6de1bc7a7da407540b922737f1f9c6"
+            ],
+            "label": "age_years",
+            "state": "AVAILABLE",
+            "value": 85
+          },
+          "symptomatic_chronic_subdural_hematoma": {
+            "contract": "f-c79b8b599929fd008f6810c3",
+            "evidence": [],
+            "label": "symptomatic_chronic_subdural_hematoma",
+            "state": "MISSING_DATA",
+            "value": null
+          }
+        },
+        "partial_evidence": [
+          "Observation/x-6de1bc7a7da407540b922737f1f9c6"
+        ],
+        "partial_source_sentences": [
+          0
+        ],
+        "reason": "Obtain source-linked symptomatic chronic subdural hematoma.",
+        "source_sentences": [],
+        "state": "MISSING_DATA"
+      },
+      "source_sha256": "907ec481451b6bd039e1d00846ab29534a5a5dc42174521b3ee1bd25b2f4d7ea",
+      "baseline_result": "abstained",
+      "candidate_result": "abstained"
+    },
+    {
+      "case": "323",
+      "study": "NCT02556359",
+      "subject": "Patient/sigir-201417",
+      "criterion_type": "inclusion",
+      "criterion": "Immune Deficiency and early BMF in childhood",
+      "baseline_state": "MISSING_DATA",
+      "candidate_state": "MISSING_DATA",
+      "changed_fields": [
+        "decision"
+      ],
+      "changed_used_resources": [],
+      "baseline_row_sha256": "d775d45ce4631efe21ff268a4d916ca000559da1a419121d913543961d38aa67",
+      "candidate_row_sha256": "9a9c637de3f8b4bf7192308dd02ff06242b82e475f7275a7b3422f40f10db4b9",
+      "cited_lines": [],
+      "candidate_decision": {
+        "evidence": [],
+        "facts": {
+          "early_bone_marrow_failure_in_childhood": {
+            "contract": "f-2d79a3fedd426d2901ebbe8b",
+            "evidence": [],
+            "label": "early_bone_marrow_failure_in_childhood",
+            "state": "MISSING_DATA",
+            "value": null
+          },
+          "immune_deficiency": {
+            "contract": "f-4e458ee942ca1715501b79bf",
+            "evidence": [
+              "Observation/x-dfb214169afb3e5aa424ef9813b6f3"
+            ],
+            "label": "immune_deficiency",
+            "state": "AVAILABLE",
+            "value": true
+          }
+        },
+        "partial_evidence": [
+          "Observation/x-dfb214169afb3e5aa424ef9813b6f3"
+        ],
+        "partial_source_sentences": [
+          0
+        ],
+        "reason": "Obtain source-linked early bone marrow failure in childhood.",
+        "source_sentences": [],
+        "state": "MISSING_DATA"
+      },
+      "source_sha256": "844349228fe841ce2694e062a791d890bf1ec69be986c3274ce2f92b88d12679",
+      "baseline_result": "abstained",
+      "candidate_result": "abstained"
+    },
+    {
+      "case": "454",
+      "study": "NCT02229695",
+      "subject": "Patient/sigir-201424",
+      "criterion_type": "inclusion",
+      "criterion": "Adults male or female over 18 year old undergoing emergency laparotomy.",
+      "baseline_state": "MISSING_DATA",
+      "candidate_state": "MISSING_DATA",
+      "changed_fields": [
+        "decision"
+      ],
+      "changed_used_resources": [],
+      "baseline_row_sha256": "59cb5ccc63d4719a6cb6afe43a50949ea67fc712a272a77b0e846c986f837654",
+      "candidate_row_sha256": "afdafb48547f2e017bf9c76ef1ac2b4183d3deebcf052e2b859356758b5a82b1",
+      "cited_lines": [],
+      "candidate_decision": {
+        "evidence": [],
+        "facts": {
+          "age_years": {
+            "contract": "f-294019d9f0bf6d5c69f1dd3a",
+            "evidence": [
+              "Observation/x-9ba5fb01800472c287b5607de0fd4f"
+            ],
+            "label": "age_years",
+            "state": "AVAILABLE",
+            "value": 33
+          },
+          "male_or_female": {
+            "contract": "f-b1ef73b8433077f434b77340",
+            "evidence": [
+              "Observation/x-889bbabc1db78e75da4554cb1d056d"
+            ],
+            "label": "male_or_female",
+            "state": "AVAILABLE",
+            "value": true
+          },
+          "undergoing_emergency_laparotomy": {
+            "contract": "f-c732050fe6236a1a90184fb6",
+            "evidence": [],
+            "label": "undergoing_emergency_laparotomy",
+            "state": "MISSING_DATA",
+            "value": null
+          }
+        },
+        "partial_evidence": [
+          "Observation/x-889bbabc1db78e75da4554cb1d056d",
+          "Observation/x-9ba5fb01800472c287b5607de0fd4f"
+        ],
+        "partial_source_sentences": [
+          0
+        ],
+        "reason": "Obtain source-linked undergoing emergency laparotomy.",
+        "source_sentences": [],
+        "state": "MISSING_DATA"
+      },
+      "source_sha256": "c793d7320c8a16a8c71b768394696ee0f2b478b6157e1ef6a06afca6842d300e",
+      "baseline_result": "abstained",
+      "candidate_result": "abstained"
+    },
+    {
+      "case": "460",
+      "study": "NCT00282269",
+      "subject": "Patient/sigir-201425",
+      "criterion_type": "inclusion",
+      "criterion": "have a severe traumatic brain injury as defined by either a GCS ≤ 8 and an abnormal CT scan (intracranial hemorrhage, cerebral edema or diffuse axonal injury) or a motor score ≤ 3 and normal CT scan",
+      "baseline_state": "MISSING_DATA",
+      "candidate_state": "MISSING_DATA",
+      "changed_fields": [
+        "decision"
+      ],
+      "changed_used_resources": [],
+      "baseline_row_sha256": "409550bbaeeeec90935e1db5dac447a1f989bdcb163ab1272d0639c75cbe81b6",
+      "candidate_row_sha256": "8d548a7dc5d1a6ee5de5483d30800fc525b4ec7bde37660a9a614ba41c3ea563",
+      "cited_lines": [],
+      "candidate_decision": {
+        "evidence": [],
+        "facts": {
+          "ct_cerebral_edema": {
+            "contract": "f-536c70f82cbf3118c9f829a1",
+            "evidence": [],
+            "label": "ct_cerebral_edema",
+            "state": "MISSING_DATA",
+            "value": null
+          },
+          "ct_diffuse_axonal_injury": {
+            "contract": "f-594192aad7d214826b9a16a0",
+            "evidence": [],
+            "label": "ct_diffuse_axonal_injury",
+            "state": "MISSING_DATA",
+            "value": null
+          },
+          "ct_intracranial_hemorrhage": {
+            "contract": "f-ba086e7d57051740540d35dd",
+            "evidence": [],
+            "label": "ct_intracranial_hemorrhage",
+            "state": "MISSING_DATA",
+            "value": null
+          },
+          "gcs": {
+            "contract": "f-16580c0d06fe8c8e20d6ee79",
+            "evidence": [
+              "Observation/x-46e19641e6e0882a01f80f239a1388"
+            ],
+            "label": "gcs",
+            "state": "AVAILABLE",
+            "value": 6
+          },
+          "gcs_motor": {
+            "contract": "f-ce50747b17a43b49cfcba1b8",
+            "evidence": [],
+            "label": "gcs_motor",
+            "state": "MISSING_DATA",
+            "value": null
+          },
+          "normal_head_ct": {
+            "contract": "f-c70ecfa21c5cc8731b70f283",
+            "evidence": [],
+            "label": "normal_head_ct",
+            "state": "MISSING_DATA",
+            "value": null
+          },
+          "traumatic_brain_injury": {
+            "contract": "f-2d6c97437a9791a863c4f588",
+            "evidence": [],
+            "label": "traumatic_brain_injury",
+            "state": "MISSING_DATA",
+            "value": null
+          }
+        },
+        "partial_evidence": [
+          "Observation/x-46e19641e6e0882a01f80f239a1388"
+        ],
+        "partial_source_sentences": [
+          5
+        ],
+        "reason": "Obtain source-linked traumatic brain injury. Obtain source-linked ct intracranial hemorrhage. Obtain source-linked ct cerebral edema. Obtain source-linked ct diffuse axonal injury. Obtain source-linked gcs motor. Obtain source-linked normal head ct.",
+        "source_sentences": [],
+        "state": "MISSING_DATA"
+      },
+      "source_sha256": "5b417970f16785d4e7019681dd5b4d5656d774dad0c859520884c165ef16ec87",
+      "baseline_result": "abstained",
+      "candidate_result": "abstained"
+    },
+    {
+      "case": "795",
+      "study": "NCT00827463",
+      "subject": "Patient/sigir-201514",
+      "criterion_type": "exclusion",
+      "criterion": "pregnency women who don't speak french",
+      "baseline_state": "MISSING_DATA",
+      "candidate_state": "MISSING_DATA",
+      "changed_fields": [
+        "decision"
+      ],
+      "changed_used_resources": [],
+      "baseline_row_sha256": "802627bbd6824bcfd49efb1584d85e97c496c8a5e4b1babfef39cc1cf957572b",
+      "candidate_row_sha256": "f2e553349eea31d66c3c2dd2bd48153695c4137bc764ff4dda645897983033c4",
+      "cited_lines": [],
+      "candidate_decision": {
+        "evidence": [],
+        "facts": {
+          "in_protocol_women_population": {
+            "contract": "f-8c601db8dce2fcccf15997ad",
+            "evidence": [
+              "Observation/x-39407fa600c37e9f5e94b6841e7548"
+            ],
+            "label": "in_protocol_women_population",
+            "state": "AVAILABLE",
+            "value": true
+          },
+          "pregnant": {
+            "contract": "f-898914ae782cda111574ac88",
+            "evidence": [
+              "Observation/x-2ab753a6259d322136ccd96ada59bf"
+            ],
+            "label": "pregnant",
+            "state": "AVAILABLE",
+            "value": true
+          },
+          "unable_to_speak_french": {
+            "contract": "f-f65f2f5dccc01ab4c96ee274",
+            "evidence": [],
+            "label": "unable_to_speak_french",
+            "state": "MISSING_DATA",
+            "value": null
+          }
+        },
+        "partial_evidence": [
+          "Observation/x-2ab753a6259d322136ccd96ada59bf",
+          "Observation/x-39407fa600c37e9f5e94b6841e7548"
+        ],
+        "partial_source_sentences": [
+          0
+        ],
+        "reason": "Negated protocol condition. Obtain source-linked unable to speak french.",
+        "source_sentences": [],
+        "state": "MISSING_DATA"
+      },
+      "source_sha256": "15f4ae4ac277be2315b46530d91485319f9c8d9e955b44706864e5ddd54b3c53",
+      "baseline_result": "abstained",
+      "candidate_result": "abstained"
+    }
+  ],
+  "changed_chart_subjects": [],
+  "candidate_false_or_unsupported_cases": [],
+  "scorer_sha256": "92c8a12b93611548eff69f701b95df66b8be47a04d209fd43192d27375df0cbd",
+  "python": "3.13.13",
+  "duckdb": "1.5.5"
+}

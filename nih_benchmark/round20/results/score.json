@@ -1,0 +1,39 @@
+{
+  "assignments": 134,
+  "physician_definitive": 91,
+  "freeze_sha256": "feaabba54b405121904b1672be8590a171d15526b5c6522367c73faf6f1e9877",
+  "strict": {
+    "agreements": 6,
+    "disagreements": 0,
+    "definitive_on_indeterminate": 0
+  },
+  "heart_exam": {
+    "agreements": 7,
+    "disagreements": 0,
+    "definitive_on_indeterminate": 0
+  },
+  "supported_exam": {
+    "agreements": 7,
+    "disagreements": 0,
+    "definitive_on_indeterminate": 0
+  },
+  "textbook_sensitivity": {
+    "agreements": 8,
+    "disagreements": 0,
+    "definitive_on_indeterminate": 0
+  },
+  "lower_cutoff_sensitivity": {
+    "agreements": 7,
+    "disagreements": 0,
+    "definitive_on_indeterminate": 0
+  },
+  "changed_from_r19": [],
+  "changed_only_in_textbook_sensitivity": [
+    {
+      "case": "187",
+      "primary": "MISSING_DATA",
+      "sensitivity": "MET",
+      "reference": "MET"
+    }
+  ]
+}

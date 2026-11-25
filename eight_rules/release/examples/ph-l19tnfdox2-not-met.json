@@ -1,0 +1,366 @@
+{
+  "context": {
+    "study": "PH-L19TNFDOX2",
+    "protocol_sha256": "6697833eab6e9c9ae5ebb8333d8d052a497858e1e9cc11c092a5c95a1b08aa34",
+    "patient": "demo",
+    "encounter": "screen",
+    "episode": "index-demo",
+    "as_of": "2026-05-01T12:00:00Z",
+    "site_zone": "UTC",
+    "enabled_contracts": [
+      "f-04be14dad917ef62aafb4568",
+      "f-0740b50a32c994103cafb88e",
+      "f-07c63ebe63c46ff0f7af4a16",
+      "f-07dedeb68a4297a4b6e24c3d",
+      "f-080357e610e628802ed144c6",
+      "f-0851d4c0d2f242ddfb56b257",
+      "f-0c4d01a3abcb51bc65e06e0d",
+      "f-0e9c43f8cf5fc4bcfadcd7cf",
+      "f-1119fa765712f5435d262883",
+      "f-115b2ff39f52880ec4148da1",
+      "f-193f96ad118bdd469dac817f",
+      "f-196e095f72c5614dbc82ddec",
+      "f-1c5409d6b0522b41471b1c2e",
+      "f-1c6ddc9034696471acbbca87",
+      "f-1caefa06bc4804c61963ba5c",
+      "f-1e2472cf246a902c7f91380c",
+      "f-1e9d54ca4c21ecb6aca3c0ca",
+      "f-2a9e4b3493a035200d996449",
+      "f-2b55b6c31f01dc1e6baa7f0d",
+      "f-2c3c0d4553d7a4e282efc651",
+      "f-2fdb872a9d132d3b0f1cdb0f",
+      "f-3227ee9007745058e599a9be",
+      "f-32de9a76ff6daa88ab233dcf",
+      "f-332b03ec27ba243452c9b6e1",
+      "f-33b8b897face2c0912c12c8f",
+      "f-356bb385ad9a432b5879dd8a",
+      "f-396b966a0a0e86ce81235b5b",
+      "f-4083ac221cae169187072aab",
+      "f-410b1e7efd2dc128355cbfc4",
+      "f-45873c2518a92566a5bde738",
+      "f-475c63186a29f3e238506ee5",
+      "f-487c4b0fb151573e5c2bf560",
+      "f-48b35e2b92230526f08d411c",
+      "f-4a82518ca5afcf051b93eea6",
+      "f-4a928f429c30ad0e35325c09",
+      "f-4c99949f2de163104e28a7be",
+      "f-57ecf89fb19bafe7580c2075",
+      "f-58c04775643d7ca2ebb0a5b2",
+      "f-59802f1d0df61c43969292e6",
+      "f-5a8598c70106b18e45e93631",
+      "f-5ea7701c42282bea9011081b",
+      "f-645feb57b276fa666c3f681d",
+      "f-65747243b62564456422d74d",
+      "f-663aaa1986ff60b7f8feae03",
+      "f-663b766023b89195004eb6ca",
+      "f-68c5b377c23b74c8fca2d4e3",
+      "f-68f4ca208a0c0a8af4b6bbe9",
+      "f-6d23b29a96378927c71cc95a",
+      "f-72141e83c2ebe44c202762e3",
+      "f-757af9aa3b226c81fdba4a5b",
+      "f-76aef4636f4b8b2160d18d4e",
+      "f-78236e22f8078c7c142ef865",
+      "f-79d9173743888bcbc991316f",
+      "f-7dad62376f597b51a86c0bc8",
+      "f-7e674bd066ef260269eb0026",
+      "f-8694d4a93f18bebfa66aff7c",
+      "f-87012f317a76177b5eb66344",
+      "f-8884ce14f0ec59efb23b9cb2",
+      "f-88c3d12c1b7a046c556dc1ca",
+      "f-88cc4fd7543002c930669fcc",
+      "f-893146192d4abc22753e569e",
+      "f-8a26ab8d0107c15bc3402dfb",
+      "f-8ac994752dddf9035848410a",
+      "f-8c603bff0a400d53263b684d",
+      "f-8d845f9426763f7649bf168a",
+      "f-9179915e0a43ff5f39190fa5",
+      "f-942c4aff421085780d365791",
+      "f-94a665fc0cc7c9908bd37b9b",
+      "f-95bac3ee8383fd1178863030",
+      "f-9b38ce58aab7d7ecabad44b9",
+      "f-9c5f2c9faaddffe4a29ba92d",
+      "f-9c7dc4ac79b1b1bf06b9a5bf",
+      "f-9d2b4652d934e0d3ab43df68",
+      "f-9db73f034cf83f9e22be7e85",
+      "f-9f830d9462cdf5e49eb5c792",
+      "f-a8dc2123c71c8620a8523fc0",
+      "f-ac9626b87dcdfeec6eea8936",
+      "f-ae929257d43f4fb35113f2fd",
+      "f-b1376a2a8bdb0a153f3ec6b4",
+      "f-b44d4c21dca561b1d8ceb619",
+      "f-b7b32d9e5e864198de3cc5d1",
+      "f-b8269d88ab4c0f9a30776d05",
+      "f-b889a59970ed8348ebf9c5cf",
+      "f-b99cb08d84c4c66bba75790f",
+      "f-be22f0a8c4d71b58a9f1d5f8",
+      "f-be26eba09ee281dbc388d964",
+      "f-c0359c5a8f57d4919b91dd0a",
+      "f-c45f348a1f8b6597301b996c",
+      "f-c5bb8159db6c48c4ddbe3f6a",
+      "f-c7a48875c70cee5621c78697",
+      "f-c82ec4b94525c7f5d9a4b221",
+      "f-cab07b1729c7bb718ca2ef2f",
+      "f-cffcbe0e19171b9e572adb4f",
+      "f-d087028471cd51bc45c04d74",
+      "f-d15831b33904da7899eef3f9",
+      "f-d2a4b8682774680737733b9e",
+      "f-d4b11b0930a6a3734e64a0f7",
+      "f-d717daf2718af91adbc23374",
+      "f-d821753daf7fa2db69067833",
+      "f-daa7a3cbf6c1cb4f8166c45e",
+      "f-df2766ecfc41222943332e80",
+      "f-e1e351441a76cd807e7a62f9",
+      "f-e2dd18887da7b1a5a8d4b768",
+      "f-e3eed40cb15f66e763690c01",
+      "f-e4c80b3732f1ac894428423f",
+      "f-e6e7053193e2ebca71f19032",
+      "f-e982a5b48d6864f4fc4e861f",
+      "f-e9d310ba6a18d2ab2ae5426a",
+      "f-ecdf5da2a24d72ab27ce2041",
+      "f-f10cf4b233a18ac85a7d2d2c",
+      "f-fcf7e0df16fb1028653bda15",
+      "f-fd42d1998402a265e1aa517e",
+      "f-ff6100514e4bde33759fe0ef"
+    ],
+    "trusted_roles": {
+      "record": [
+        "Organization/demo-record"
+      ],
+      "investigator": [
+        "PractitionerRole/demo-investigator"
+      ],
+      "site": [
+        "Organization/demo-site"
+      ]
+    },
+    "purpose": "historical_replay"
+  },
+  "bundle": {
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+      {
+        "resource": {
+          "resourceType": "Patient",
+          "id": "demo",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-05-01T12:00:00Z"
+          }
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Condition",
+          "id": "index-demo",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-05-01T12:00:00Z"
+          },
+          "subject": {
+            "reference": "Patient/demo"
+          }
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "screen",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-05-01T12:00:00Z"
+          },
+          "status": "in-progress",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB"
+          },
+          "subject": {
+            "reference": "Patient/demo"
+          },
+          "period": {
+            "start": "2026-05-01T12:00:00Z"
+          },
+          "identifier": [
+            {
+              "system": "urn:pocketmd:research:protocol-screening",
+              "value": "PH-L19TNFDOX2|6697833eab6e9c9ae5ebb8333d8d052a497858e1e9cc11c092a5c95a1b08aa34|screening"
+            },
+            {
+              "system": "urn:pocketmd:demo:screening-study",
+              "value": "PH-L19TNFDOX2"
+            }
+          ]
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "DocumentReference",
+          "id": "src-f-d717daf2718af91adbc23374",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-05-01T12:00:00Z"
+          },
+          "status": "current",
+          "subject": {
+            "reference": "Patient/demo"
+          },
+          "date": "2026-05-01T12:00:00Z",
+          "author": [
+            {
+              "reference": "Organization/demo-record"
+            }
+          ],
+          "identifier": [
+            {
+              "system": "urn:pocketmd:research:screening-source:v1",
+              "value": "6697833eab6e9c9ae5ebb8333d8d052a497858e1e9cc11c092a5c95a1b08aa34"
+            }
+          ],
+          "content": [
+            {
+              "attachment": {
+                "contentType": "text/plain",
+                "title": "Synthetic source for Age at screen"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "id": "obs-f-d717daf2718af91adbc23374",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-05-01T12:00:00Z",
+            "profile": [
+              "urn:pocketmd:research:screening-fact:v2"
+            ]
+          },
+          "status": "final",
+          "subject": {
+            "reference": "Patient/demo"
+          },
+          "encounter": {
+            "reference": "Encounter/screen"
+          },
+          "effectiveDateTime": "2026-05-01T12:00:00Z",
+          "issued": "2026-05-01T12:00:00Z",
+          "focus": [
+            {
+              "reference": "Condition/index-demo"
+            }
+          ],
+          "performer": [
+            {
+              "reference": "Organization/demo-record"
+            }
+          ],
+          "derivedFrom": [
+            {
+              "reference": "DocumentReference/src-f-d717daf2718af91adbc23374/_history/1"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:research:normalized-evidence:v2",
+                "version": "6697833eab6e9c9ae5ebb8333d8d052a497858e1e9cc11c092a5c95a1b08aa34",
+                "code": "f-d717daf2718af91adbc23374",
+                "display": "Age at screen"
+              }
+            ]
+          },
+          "valueQuantity": {
+            "value": 15,
+            "system": "http://unitsofmeasure.org",
+            "code": "a"
+          }
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "DocumentReference",
+          "id": "src-f-79d9173743888bcbc991316f",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-05-01T12:00:00Z"
+          },
+          "status": "current",
+          "subject": {
+            "reference": "Patient/demo"
+          },
+          "date": "2026-05-01T12:00:00Z",
+          "author": [
+            {
+              "reference": "Organization/demo-record"
+            }
+          ],
+          "identifier": [
+            {
+              "system": "urn:pocketmd:research:screening-source:v1",
+              "value": "6697833eab6e9c9ae5ebb8333d8d052a497858e1e9cc11c092a5c95a1b08aa34"
+            }
+          ],
+          "content": [
+            {
+              "attachment": {
+                "contentType": "text/plain",
+                "title": "Synthetic source for Fused growth plates"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "id": "obs-f-79d9173743888bcbc991316f",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-05-01T12:00:00Z",
+            "profile": [
+              "urn:pocketmd:research:screening-fact:v2"
+            ]
+          },
+          "status": "final",
+          "subject": {
+            "reference": "Patient/demo"
+          },
+          "encounter": {
+            "reference": "Encounter/screen"
+          },
+          "effectiveDateTime": "2026-05-01T12:00:00Z",
+          "issued": "2026-05-01T12:00:00Z",
+          "focus": [
+            {
+              "reference": "Condition/index-demo"
+            }
+          ],
+          "performer": [
+            {
+              "reference": "Organization/demo-record"
+            }
+          ],
+          "derivedFrom": [
+            {
+              "reference": "DocumentReference/src-f-79d9173743888bcbc991316f/_history/1"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:research:normalized-evidence:v2",
+                "version": "6697833eab6e9c9ae5ebb8333d8d052a497858e1e9cc11c092a5c95a1b08aa34",
+                "code": "f-79d9173743888bcbc991316f",
+                "display": "Fused growth plates"
+              }
+            ]
+          },
+          "valueBoolean": true
+        }
+      }
+    ]
+  }
+}

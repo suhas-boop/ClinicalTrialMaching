@@ -1,0 +1,12 @@
+test_catalog_rebuild_and_frozen_rule_equivalence (__main__.MappingTests.test_catalog_rebuild_and_frozen_rule_equivalence) ... ok
+test_changed_fact_semantics_fail_closed (__main__.MappingTests.test_changed_fact_semantics_fail_closed) ... ok
+test_clinical_attribution_binds_both_paths_and_preserves_negation (__main__.MappingTests.test_clinical_attribution_binds_both_paths_and_preserves_negation) ... ok
+test_no_boolean_from_related_evidence (__main__.MappingTests.test_no_boolean_from_related_evidence) ... ok
+test_scope_patient_provenance_and_conflicts (__main__.MappingTests.test_scope_patient_provenance_and_conflicts) ... ok
+test_threshold_and_qualitative_evidence (__main__.MappingTests.test_threshold_and_qualitative_evidence) ... ok
+test_unmapped_vs_mapped_absence (__main__.MappingTests.test_unmapped_vs_mapped_absence) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.038s
+
+OK

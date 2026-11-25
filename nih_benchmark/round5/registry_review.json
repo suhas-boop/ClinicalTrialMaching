@@ -1,0 +1,50 @@
+[
+  {
+    "study": "NCT00845988",
+    "registry_sha256": "c8981bdcdb9d76a3cf0cc6d8c812f45f7e97003530818bb77f818f96b0a87093",
+    "registry_url": "https://clinicaltrials.gov/study/NCT00845988",
+    "last_update": "2013-12-05",
+    "criterion_in_eligibility_text": true,
+    "minimum_age": "18 Years",
+    "maximum_age": "65 Years",
+    "authority": "Current public registry context; confirm the governing protocol version before changing a released rule.",
+    "id": 130,
+    "question": "Does any one listed diagnosis suffice, or must the three diagnoses coexist?"
+  },
+  {
+    "study": "NCT02264964",
+    "registry_sha256": "3ee0dac65a5587268c60f0e2db0f3ac5b5093fd5ec751a586bcb1c9bbd17cf4b",
+    "registry_url": "https://clinicaltrials.gov/study/NCT02264964",
+    "last_update": "2014-10-15",
+    "criterion_in_eligibility_text": true,
+    "minimum_age": "18 Years",
+    "maximum_age": null,
+    "authority": "Current public registry context; confirm the governing protocol version before changing a released rule.",
+    "id": 184,
+    "question": "Who determines whether another situation is inappropriate, and how is the determination documented?"
+  },
+  {
+    "study": "NCT02340533",
+    "registry_sha256": "3e1e69b3de29bb43f7f63af2f5d5b4df98a76f966e71531b51e12488b0683733",
+    "registry_url": "https://clinicaltrials.gov/study/NCT02340533",
+    "last_update": "2015-07-28",
+    "criterion_in_eligibility_text": true,
+    "minimum_age": "38 Years",
+    "maximum_age": "52 Years",
+    "authority": "Current public registry context; confirm the governing protocol version before changing a released rule.",
+    "id": 706,
+    "question": "Does the pelvic congestion criterion require every listed symptom, any one symptom, or an independently documented diagnosis?"
+  },
+  {
+    "study": "NCT02467309",
+    "registry_sha256": "a9ac7bc8fc3200193fde7aff92ce1d9aac07013597e59b31b6acdc45582902c0",
+    "registry_url": "https://clinicaltrials.gov/study/NCT02467309",
+    "last_update": "2015-06-10",
+    "criterion_in_eligibility_text": true,
+    "minimum_age": "1 Month",
+    "maximum_age": "18 Years",
+    "authority": "Current public registry context; confirm the governing protocol version before changing a released rule.",
+    "id": 737,
+    "question": "Does a disorder in any one listed gland system suffice, or must all three systems be involved?"
+  }
+]

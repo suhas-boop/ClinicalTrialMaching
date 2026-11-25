@@ -1,5 +1,7 @@
 # PocketMD TrialGPT R14
 
+See [QUICKSTART.md](QUICKSTART.md) for the CLI and [the strict TrialGPT replay](experiments/strict_evidence/RECEIPT.md) for the frozen benchmark. The separate oncology protocol workflows require their original site-supplied documents and study data packs.
+
 Start with [R14 results and reproduction instructions](nih_benchmark/round14/README.md) or open [the 91-case scorecard](nih_benchmark/round14/results/91_case_scorecard.csv). The command `python -B pocketmd.py trialgpt-evaluate` runs the current evaluation. The material below records earlier releases.
 
 # PocketMD R13 · TrialGPT abstention audit

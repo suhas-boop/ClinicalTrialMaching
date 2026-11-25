@@ -1,0 +1,413 @@
+[
+  {
+    "case": "621",
+    "lines": [
+      0,
+      1
+    ],
+    "classification": "missing_patient_fact",
+    "blocker": "Prior hip surgery and an ED visit establish contact with care. Neither identifies insurance coverage or refusal. Double negation still requires insurance status."
+  },
+  {
+    "case": "632",
+    "lines": [
+      0,
+      1
+    ],
+    "classification": "missing_patient_fact",
+    "blocker": "Attendance and prior surgery give no current capacity to execute written consent. The appended blanket consent statement has no individual attestation or writing assessment."
+  },
+  {
+    "case": "633",
+    "lines": [
+      0
+    ],
+    "classification": "supported",
+    "blocker": "The stated age of 65 disproves age below 18. Negating that exclusion yields MET."
+  },
+  {
+    "case": "636",
+    "lines": [
+      1
+    ],
+    "classification": "missing_patient_fact",
+    "blocker": "Hypercholesterolemia is documented. No lipid-lowering agent or course start/end dates establish at least three months."
+  },
+  {
+    "case": "637",
+    "lines": [
+      1
+    ],
+    "classification": "missing_patient_fact",
+    "blocker": "Hypercholesterolemia supplies neither a current drug and dose nor an unchanged regimen covering the six weeks before enrollment."
+  },
+  {
+    "case": "640",
+    "lines": [
+      0,
+      5,
+      7
+    ],
+    "classification": "investigator_action",
+    "blocker": "Stabbing substernal pain radiating to the shoulder and jaw, ECG changes and angiography are documented. The registry lists typical pain and ECG changes as separate criteria. Neither a protocol definition establishing typicality from these descriptors nor a clinical typicality determination is available."
+  },
+  {
+    "case": "653",
+    "lines": [
+      0,
+      1
+    ],
+    "classification": "missing_patient_fact",
+    "blocker": "The English narrative describes what the woman reported. It does not document her spoken language, use of an interpreter or inability to speak English."
+  },
+  {
+    "case": "671",
+    "lines": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "classification": "missing_patient_fact",
+    "blocker": "Fatigue, appetite/sleep changes, concentration difficulty, loss of interest and guilt are recorded. A unipolar major depressive disorder diagnosis and its differential assessment are missing."
+  },
+  {
+    "case": "706",
+    "lines": [
+      0,
+      1
+    ],
+    "classification": "protocol_authority",
+    "blocker": "The note documents menstrual pain, heavy periods and intermenstrual spotting. The registry does not say whether one symptom suffices or whether a separate pelvic-congestion diagnosis or additional symptoms are required. The later user answer lacks independently verified governing authority."
+  },
+  {
+    "case": "720",
+    "lines": [
+      0,
+      1
+    ],
+    "classification": "missing_patient_fact",
+    "blocker": "Irregular bleeding is explicit. Past infertility treatment and ectopic pregnancy do not explain this episode; absence of an explanation in the vignette is not a clinical determination that the irregularity is unexplained."
+  },
+  {
+    "case": "722",
+    "lines": [
+      0,
+      2
+    ],
+    "classification": "missing_patient_fact",
+    "blocker": "Cold sensitivity and exam findings concern current thyroid function. Neither establishes a prior thyroid resection or an explicit negative surgical history."
+  },
+  {
+    "case": "723",
+    "lines": [
+      0,
+      2
+    ],
+    "classification": "missing_patient_fact",
+    "blocker": "Symptoms and reflex findings contain no history of neck irradiation."
+  },
+  {
+    "case": "724",
+    "lines": [
+      0,
+      1
+    ],
+    "classification": "missing_patient_fact",
+    "blocker": "Home remedies were for constipation. No radioactive iodine treatment or reviewed negative treatment history is documented."
+  },
+  {
+    "case": "725",
+    "lines": [
+      1
+    ],
+    "classification": "missing_patient_fact",
+    "blocker": "Home remedies for constipation supply no identity or exposure history for any of the six listed agents. No positive OR branch or complete negative medication history."
+  },
+  {
+    "case": "726",
+    "lines": [
+      1,
+      2
+    ],
+    "classification": "missing_patient_fact",
+    "blocker": "Constipation and physical examination supply no celiac serology order, result or documented absence of previous testing."
+  },
+  {
+    "case": "734",
+    "lines": [
+      0,
+      2,
+      3
+    ],
+    "classification": "missing_patient_fact",
+    "blocker": "Acute fever and neck stiffness followed skull trauma. Neither congenital immune deficiency nor negative immune history is documented."
+  },
+  {
+    "case": "735",
+    "lines": [
+      0,
+      2
+    ],
+    "classification": "missing_patient_fact",
+    "blocker": "Trauma and fever provide no HIV diagnosis or test result."
+  },
+  {
+    "case": "736",
+    "lines": [
+      0,
+      2
+    ],
+    "classification": "protocol_authority",
+    "blocker": "Duration and continuity for long-term corticosteroid treatment are unspecified. Even a clarified duration needs prior steroid exposure details, absent from this trauma presentation."
+  },
+  {
+    "case": "737",
+    "lines": [
+      0,
+      1,
+      3
+    ],
+    "classification": "protocol_authority",
+    "blocker": "The adrenal, pituitary and hypothalamic conjunction is unresolved. Clear nasal fluid and neck rigidity following skull fracture establish none of these gland diagnoses or their absence."
+  },
+  {
+    "case": "738",
+    "lines": [
+      2,
+      3
+    ],
+    "classification": "missing_patient_fact",
+    "blocker": "Fever and nuchal rigidity supply no TB diagnosis or reviewed negative testing/history."
+  },
+  {
+    "case": "795",
+    "lines": [
+      0,
+      7
+    ],
+    "classification": "missing_patient_fact",
+    "blocker": "The clinical record identifies a pregnant woman; two conjuncts already bind true. The hematology consultation does not establish inability or ability to speak French, so the negated conjunction remains unknown."
+  },
+  {
+    "case": "817",
+    "lines": [
+      0,
+      1,
+      2
+    ],
+    "classification": "documented_unbound",
+    "blocker": "The original strict chart has no indexed stroke or linked cranial CT assertion. The hospitalization for cryptogenic stroke explicitly anchors the resolved neurologic event, and “At the time” links brain imaging to that event. Stroke is a vascular diagnosis even when its mechanism is unknown; scan findings alone cannot supply that diagnosis. The missing link leaves the nonvascular-origin exclusion leaf unknown."
+  },
+  {
+    "case": "850",
+    "lines": [
+      0,
+      1,
+      2,
+      3,
+      6
+    ],
+    "classification": "missing_patient_fact",
+    "blocker": "No prior wheezing and a five-hour first reported wheezing episode do not document asthma attacks per week. Wheeze is neither necessary nor sufficient for a counted asthma exacerbation."
+  },
+  {
+    "case": "860",
+    "lines": [
+      0,
+      1,
+      2
+    ],
+    "classification": "missing_patient_fact",
+    "blocker": "Neither an HPV-positive Pap smear nor absence of previous medical history establishes marriage or the patient’s report of never having had intercourse. No false AND branch is proven."
+  },
+  {
+    "case": "866",
+    "lines": [
+      0,
+      2
+    ],
+    "classification": "missing_patient_fact",
+    "blocker": "Positive HPV is present. The assay platform, same aliquot, validity and original study protocol provenance are unspecified."
+  },
+  {
+    "case": "867",
+    "lines": [
+      0,
+      2
+    ],
+    "classification": "missing_patient_fact",
+    "blocker": "The prior Pap result needs no inference about a remaining available aliquot or its current suitability. Neither conjunct is documented."
+  },
+  {
+    "case": "870",
+    "lines": [
+      0,
+      1,
+      2
+    ],
+    "classification": "missing_patient_fact",
+    "blocker": "Progressive exertional dyspnea and orthopnea, crackles, edema and jugular venous distension are documented. Neither a primary heart-failure hospital admission nor onset during a hospitalization for something else is stated."
+  },
+  {
+    "case": "875",
+    "lines": [
+      0,
+      1,
+      2
+    ],
+    "classification": "missing_patient_fact",
+    "blocker": "An examination for progressive dyspnea is present. It does not identify the care setting or a hospital admission/transfer to an observation unit. Both OR alternatives remain unproven."
+  },
+  {
+    "case": "890",
+    "lines": [
+      0,
+      4,
+      7,
+      9
+    ],
+    "classification": "missing_patient_fact",
+    "blocker": "The ED exam records impaired orientation, calculations and delayed recall. A ward admission and the protocol admission cognitive screen or its qualifying result are absent. No scoring substitution from individual exam items."
+  },
+  {
+    "case": "919",
+    "lines": [
+      0,
+      3,
+      4
+    ],
+    "classification": "protocol_authority",
+    "blocker": "The registry references its severe CDAD definition and describes hospitalized cases. A stool smear with parasitic cysts is neither a C. difficile confirmation nor exclusion of coinfection. No explicit CDAD diagnosis or severity assessment."
+  },
+  {
+    "case": "935",
+    "lines": [
+      0,
+      1,
+      3
+    ],
+    "classification": "investigator_action",
+    "blocker": "TB history, cavitary imaging and fungal morphology are present. The enrolling physician’s assessment of likely positive mycobacterial culture is missing."
+  },
+  {
+    "case": "936",
+    "lines": [
+      0,
+      3
+    ],
+    "classification": "study_action",
+    "blocker": "Historical TB and a sputum culture with fungal morphology do not establish a sputum GeneXpert MTB/RIF result or whether the China-site condition applies."
+  },
+  {
+    "case": "938",
+    "lines": [
+      3
+    ],
+    "classification": "patient_report",
+    "blocker": "A sputum specimen was obtained. No patient statement of willingness to provide blood; the benchmark-generated consent sentence is excluded."
+  },
+  {
+    "case": "939",
+    "lines": [
+      3
+    ],
+    "classification": "patient_report",
+    "blocker": "A sputum culture does not document willingness to store study samples, and the benchmark consent suffix provides no individual authorization."
+  },
+  {
+    "case": "940",
+    "lines": [
+      0,
+      1,
+      3
+    ],
+    "classification": "missing_patient_fact",
+    "blocker": "The note evaluates a pulmonary infection. No acute liver or kidney disease or complete negative assessment of both is documented."
+  },
+  {
+    "case": "945",
+    "lines": [
+      0,
+      3
+    ],
+    "classification": "missing_patient_fact",
+    "blocker": "Respiratory microbiology does not establish use or nonuse of an unlicensed investigational drug."
+  },
+  {
+    "case": "946",
+    "lines": [
+      0,
+      3
+    ],
+    "classification": "missing_patient_fact",
+    "blocker": "The culture documents organism morphology. Agent, start and end dates, continuous qualifying exposure, indication and randomization anchor for a >7-day course are missing."
+  },
+  {
+    "case": "952",
+    "lines": [
+      0,
+      1,
+      3
+    ],
+    "classification": "missing_patient_fact",
+    "blocker": "Productive cough and a sputum specimen establish neither current artificial ventilation nor an extubation forecast. Neither exclusion conjunct is disproven."
+  },
+  {
+    "case": "953",
+    "lines": [
+      0,
+      3
+    ],
+    "classification": "missing_patient_fact",
+    "blocker": "Fungal culture provides no patient allergy, hypersensitivity, serious reaction or class-specific negative history for either antifungal class."
+  },
+  {
+    "case": "955",
+    "lines": [
+      0,
+      1,
+      3
+    ],
+    "classification": "investigator_action",
+    "blocker": "History of TB and pulmonary findings are chart facts. No investigator assessed an unacceptable additional trial risk."
+  },
+  {
+    "case": "957",
+    "lines": [
+      0,
+      1,
+      3
+    ],
+    "classification": "investigator_action",
+    "blocker": "Hemoptysis and fungal findings do not provide an investigator prognosis of less than seven days or its opposite."
+  },
+  {
+    "case": "962",
+    "lines": [
+      0,
+      1
+    ],
+    "classification": "missing_patient_fact",
+    "blocker": "Travel, fever, headache and cytopenias do not document malaria, parasitemia, non-falciparum species or a qualifying severe feature. Headache alone is not an abnormal neurologic examination."
+  },
+  {
+    "case": "965",
+    "lines": [
+      0,
+      1
+    ],
+    "classification": "missing_patient_fact",
+    "blocker": "The current CBC explicitly identifies leukopenia and thrombocytopenia, both listed concepts. The rule asks for a known HISTORY. There is no pre-presentation history, so backdating these current findings would be unsound."
+  },
+  {
+    "case": "985",
+    "lines": [
+      0,
+      4,
+      5
+    ],
+    "classification": "missing_patient_fact",
+    "blocker": "No significant past history and a current lung exam do not document present pleural drainage or an explicit examination for a chest tube."
+  }
+]

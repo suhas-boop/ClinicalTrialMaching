@@ -1,0 +1,282 @@
+[
+  {
+    "annotation_id": 55,
+    "patient_id": "sigir-20144",
+    "trial_id": "NCT02390596",
+    "criterion_type": "exclusion",
+    "criterion_text": "Preterm and neonates, pregnancy",
+    "note": "0. A 2-year-old boy is brought to the emergency department by his parents for 5 days of high fever and irritability.\n1. The physical exam reveals conjunctivitis, strawberry tongue, inflammation of the hands and feet, desquamation of the skin of the fingers and toes, and cervical lymphadenopathy with the smallest node at 1.5 cm.\n2. The abdominal exam demonstrates tenderness and enlarged liver.\n3. Laboratory tests report elevated alanine aminotransferase, white blood cell count of 17,580/mm, albumin 2.1 g/dL, C-reactive protein 4.5 mg, erythrocyte sedimentation rate 60 mm/h, mild normochromic, normocytic anemia, and leukocytes in urine of 20/mL with no bacteria identified.\n4. The echocardiogram shows moderate dilation of the coronary arteries with possible coronary artery aneurysm.\n5. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 81,
+    "patient_id": "sigir-20144",
+    "trial_id": "NCT00841789",
+    "criterion_type": "exclusion",
+    "criterion_text": "Active severe infections within 4 weeks before screening visit, or between the screening and baseline visits.",
+    "note": "0. A 2-year-old boy is brought to the emergency department by his parents for 5 days of high fever and irritability.\n1. The physical exam reveals conjunctivitis, strawberry tongue, inflammation of the hands and feet, desquamation of the skin of the fingers and toes, and cervical lymphadenopathy with the smallest node at 1.5 cm.\n2. The abdominal exam demonstrates tenderness and enlarged liver.\n3. Laboratory tests report elevated alanine aminotransferase, white blood cell count of 17,580/mm, albumin 2.1 g/dL, C-reactive protein 4.5 mg, erythrocyte sedimentation rate 60 mm/h, mild normochromic, normocytic anemia, and leukocytes in urine of 20/mL with no bacteria identified.\n4. The echocardiogram shows moderate dilation of the coronary arteries with possible coronary artery aneurysm.\n5. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 108,
+    "patient_id": "sigir-20146",
+    "trial_id": "NCT02512159",
+    "criterion_type": "exclusion",
+    "criterion_text": "Hemodynamically unstable patients.",
+    "note": "0. 64-year-old obese female with diagnosis of diabetes mellitus and persistently elevated HbA1c.\n1. She is reluctant to see a nutritionist and is not compliant with her diabetes medication or exercise.\n2. She complains of a painful skin lesion on the left lower leg.\n3. She has tried using topical lotions and creams but the lesion has increased in size and is now oozing.\n4. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 109,
+    "patient_id": "sigir-20146",
+    "trial_id": "NCT02512159",
+    "criterion_type": "exclusion",
+    "criterion_text": "Patients with septic shock from any source.",
+    "note": "0. 64-year-old obese female with diagnosis of diabetes mellitus and persistently elevated HbA1c.\n1. She is reluctant to see a nutritionist and is not compliant with her diabetes medication or exercise.\n2. She complains of a painful skin lesion on the left lower leg.\n3. She has tried using topical lotions and creams but the lesion has increased in size and is now oozing.\n4. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 111,
+    "patient_id": "sigir-20146",
+    "trial_id": "NCT02512159",
+    "criterion_type": "exclusion",
+    "criterion_text": "Patients with secondary cutaneous ulcer enteral fistula.",
+    "note": "0. 64-year-old obese female with diagnosis of diabetes mellitus and persistently elevated HbA1c.\n1. She is reluctant to see a nutritionist and is not compliant with her diabetes medication or exercise.\n2. She complains of a painful skin lesion on the left lower leg.\n3. She has tried using topical lotions and creams but the lesion has increased in size and is now oozing.\n4. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 115,
+    "patient_id": "sigir-20146",
+    "trial_id": "NCT02512159",
+    "criterion_type": "exclusion",
+    "criterion_text": "Patients with cutaneous ulcer leishmania, insect bite.",
+    "note": "0. 64-year-old obese female with diagnosis of diabetes mellitus and persistently elevated HbA1c.\n1. She is reluctant to see a nutritionist and is not compliant with her diabetes medication or exercise.\n2. She complains of a painful skin lesion on the left lower leg.\n3. She has tried using topical lotions and creams but the lesion has increased in size and is now oozing.\n4. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 116,
+    "patient_id": "sigir-20146",
+    "trial_id": "NCT02512159",
+    "criterion_type": "exclusion",
+    "criterion_text": "Patients with cutaneous ulcer burns.",
+    "note": "0. 64-year-old obese female with diagnosis of diabetes mellitus and persistently elevated HbA1c.\n1. She is reluctant to see a nutritionist and is not compliant with her diabetes medication or exercise.\n2. She complains of a painful skin lesion on the left lower leg.\n3. She has tried using topical lotions and creams but the lesion has increased in size and is now oozing.\n4. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 120,
+    "patient_id": "sigir-20146",
+    "trial_id": "NCT00015626",
+    "criterion_type": "inclusion",
+    "criterion_text": "Siblings and parents of patients with insulin resistance. Siblings and parents will be included only in the case of documented insulin resistance in the index subject. Insulin resistance will be documented by OGTT and/or IVGTT.",
+    "note": "0. 64-year-old obese female with diagnosis of diabetes mellitus and persistently elevated HbA1c.\n1. She is reluctant to see a nutritionist and is not compliant with her diabetes medication or exercise.\n2. She complains of a painful skin lesion on the left lower leg.\n3. She has tried using topical lotions and creams but the lesion has increased in size and is now oozing.\n4. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 235,
+    "patient_id": "sigir-201415",
+    "trial_id": "NCT00277680",
+    "criterion_type": "inclusion",
+    "criterion_text": "Menorrhagia and/or bulk symptoms associated with uterine fibroids",
+    "note": "0. A 36-year-old woman presents to the emergency department with 12 weeks of amenorrhea, vaginal spotting that has increased since yesterday, lower abdominal tenderness, nausea and vomiting.\n1. The physical exam reveals overall tender abdomen, 18-week sized uterus, and cervical dilation of 2 cm.\n2. The complete blood count and biochemical profile are normal.\n3. Point of care pregnancy test with cut-off sensitivity of 25 mIU/ml Beta-HCG is negative.\n4. The ultrasound reports enlarged uterus (12 cm x 9 cm x 7 cms) with multiple cystic areas in the interior.\n5. The differential diagnosis includes vesicular mole vs fibroid degeneration.\n6. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 239,
+    "patient_id": "sigir-201415",
+    "trial_id": "NCT00277680",
+    "criterion_type": "exclusion",
+    "criterion_text": "Postmenopausal women",
+    "note": "0. A 36-year-old woman presents to the emergency department with 12 weeks of amenorrhea, vaginal spotting that has increased since yesterday, lower abdominal tenderness, nausea and vomiting.\n1. The physical exam reveals overall tender abdomen, 18-week sized uterus, and cervical dilation of 2 cm.\n2. The complete blood count and biochemical profile are normal.\n3. Point of care pregnancy test with cut-off sensitivity of 25 mIU/ml Beta-HCG is negative.\n4. The ultrasound reports enlarged uterus (12 cm x 9 cm x 7 cms) with multiple cystic areas in the interior.\n5. The differential diagnosis includes vesicular mole vs fibroid degeneration.\n6. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 328,
+    "patient_id": "sigir-201418",
+    "trial_id": "NCT01260883",
+    "criterion_type": "exclusion",
+    "criterion_text": "Bleeding history in infant or family",
+    "note": "0. A 6-month-old male infant has a urine output of less than 0.2 mL/kg/hr shortly after undergoing major surgery.\n1. On examination, he has generalized edema.\n2. His blood pressure is 115/80 mm Hg, his pulse is 141/min, and his respirations are 18/min.\n3. His blood urea nitrogen is 33 mg/dL, and his serum creatinine is 1.3 mg/dL.\n4. Initial urinalysis shows specific gravity of 1.017.\n5. Microscopic examination of the urine sample reveals 1 WBC per high-power field (HPF), 18 RBCs per HPF, and 5 granular casts per HPF.\n6. His fractional excretion of sodium is 3.3%.\n7. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 329,
+    "patient_id": "sigir-201418",
+    "trial_id": "NCT01260883",
+    "criterion_type": "exclusion",
+    "criterion_text": "Coagulopathy",
+    "note": "0. A 6-month-old male infant has a urine output of less than 0.2 mL/kg/hr shortly after undergoing major surgery.\n1. On examination, he has generalized edema.\n2. His blood pressure is 115/80 mm Hg, his pulse is 141/min, and his respirations are 18/min.\n3. His blood urea nitrogen is 33 mg/dL, and his serum creatinine is 1.3 mg/dL.\n4. Initial urinalysis shows specific gravity of 1.017.\n5. Microscopic examination of the urine sample reveals 1 WBC per high-power field (HPF), 18 RBCs per HPF, and 5 granular casts per HPF.\n6. His fractional excretion of sodium is 3.3%.\n7. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 330,
+    "patient_id": "sigir-201418",
+    "trial_id": "NCT01260883",
+    "criterion_type": "exclusion",
+    "criterion_text": "Gastrointestinal bleeding history",
+    "note": "0. A 6-month-old male infant has a urine output of less than 0.2 mL/kg/hr shortly after undergoing major surgery.\n1. On examination, he has generalized edema.\n2. His blood pressure is 115/80 mm Hg, his pulse is 141/min, and his respirations are 18/min.\n3. His blood urea nitrogen is 33 mg/dL, and his serum creatinine is 1.3 mg/dL.\n4. Initial urinalysis shows specific gravity of 1.017.\n5. Microscopic examination of the urine sample reveals 1 WBC per high-power field (HPF), 18 RBCs per HPF, and 5 granular casts per HPF.\n6. His fractional excretion of sodium is 3.3%.\n7. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 332,
+    "patient_id": "sigir-201418",
+    "trial_id": "NCT01260883",
+    "criterion_type": "exclusion",
+    "criterion_text": "Premature birth (<36 weeks gestation)",
+    "note": "0. A 6-month-old male infant has a urine output of less than 0.2 mL/kg/hr shortly after undergoing major surgery.\n1. On examination, he has generalized edema.\n2. His blood pressure is 115/80 mm Hg, his pulse is 141/min, and his respirations are 18/min.\n3. His blood urea nitrogen is 33 mg/dL, and his serum creatinine is 1.3 mg/dL.\n4. Initial urinalysis shows specific gravity of 1.017.\n5. Microscopic examination of the urine sample reveals 1 WBC per high-power field (HPF), 18 RBCs per HPF, and 5 granular casts per HPF.\n6. His fractional excretion of sodium is 3.3%.\n7. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 336,
+    "patient_id": "sigir-201418",
+    "trial_id": "NCT00557219",
+    "criterion_type": "exclusion",
+    "criterion_text": "refused or none consent",
+    "note": "0. A 6-month-old male infant has a urine output of less than 0.2 mL/kg/hr shortly after undergoing major surgery.\n1. On examination, he has generalized edema.\n2. His blood pressure is 115/80 mm Hg, his pulse is 141/min, and his respirations are 18/min.\n3. His blood urea nitrogen is 33 mg/dL, and his serum creatinine is 1.3 mg/dL.\n4. Initial urinalysis shows specific gravity of 1.017.\n5. Microscopic examination of the urine sample reveals 1 WBC per high-power field (HPF), 18 RBCs per HPF, and 5 granular casts per HPF.\n6. His fractional excretion of sodium is 3.3%.\n7. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 366,
+    "patient_id": "sigir-201420",
+    "trial_id": "NCT02255487",
+    "criterion_type": "inclusion",
+    "criterion_text": "Has experienced abdominal trauma, blunt or penetrating, requiring open abdominal laparotomy with primary closure",
+    "note": "0. A 32-year-old woman is admitted to the ER following a car accident.\n1. She has sustained multiple injuries including upper and lower extremity fractures.\n2. She is fully awake and alert, and she reports that she was not wearing a seat belt.\n3. Her blood pressure is 134/74 mm Hg, and her pulse is 87/min.\n4. Physical examination reveals a tender abdomen with guarding and rebound in all four quadrants.\n5. She has no bowel sounds.\n6. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 367,
+    "patient_id": "sigir-201420",
+    "trial_id": "NCT02255487",
+    "criterion_type": "inclusion",
+    "criterion_text": "Has experienced acute surgical abdomen requiring open abdominal laparotomy with primary closure",
+    "note": "0. A 32-year-old woman is admitted to the ER following a car accident.\n1. She has sustained multiple injuries including upper and lower extremity fractures.\n2. She is fully awake and alert, and she reports that she was not wearing a seat belt.\n3. Her blood pressure is 134/74 mm Hg, and her pulse is 87/min.\n4. Physical examination reveals a tender abdomen with guarding and rebound in all four quadrants.\n5. She has no bowel sounds.\n6. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 379,
+    "patient_id": "sigir-201420",
+    "trial_id": "NCT01594385",
+    "criterion_type": "exclusion",
+    "criterion_text": "Pregnant patients",
+    "note": "0. A 32-year-old woman is admitted to the ER following a car accident.\n1. She has sustained multiple injuries including upper and lower extremity fractures.\n2. She is fully awake and alert, and she reports that she was not wearing a seat belt.\n3. Her blood pressure is 134/74 mm Hg, and her pulse is 87/min.\n4. Physical examination reveals a tender abdomen with guarding and rebound in all four quadrants.\n5. She has no bowel sounds.\n6. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 460,
+    "patient_id": "sigir-201425",
+    "trial_id": "NCT00282269",
+    "criterion_type": "inclusion",
+    "criterion_text": "have a severe traumatic brain injury as defined by either a GCS \u2264 8 and an abnormal CT scan (intracranial hemorrhage, cerebral edema or diffuse axonal injury) or a motor score \u2264 3 and normal CT scan",
+    "note": "0. An 8-year-old boy fell from his bike striking his left temple on the pavement.\n1. There was no immediate loss of consciousness, and a brief examination at the scene noted his pupils were symmetrical, reactive to the light, and he was moving all four limbs.\n2. Half an hour after the fall the child became drowsy, pale, and vomited.\n3. He was transferred to the emergency department.\n4. Upon arrival the heart rate was 52/min, blood pressure of 155/98.\n5. The Glasgow Coma Scale (GCS) was 6/15, the pupils were asymmetrical and movement of the right upper and lower extremities was impaired.\n6. The neurosurgical team advised deferring the CT scan in favor of initiating immediate treatment.\n7. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 467,
+    "patient_id": "sigir-201425",
+    "trial_id": "NCT00282269",
+    "criterion_type": "exclusion",
+    "criterion_text": "have more than mild neurodevelopmental disability prior to injury",
+    "note": "0. An 8-year-old boy fell from his bike striking his left temple on the pavement.\n1. There was no immediate loss of consciousness, and a brief examination at the scene noted his pupils were symmetrical, reactive to the light, and he was moving all four limbs.\n2. Half an hour after the fall the child became drowsy, pale, and vomited.\n3. He was transferred to the emergency department.\n4. Upon arrival the heart rate was 52/min, blood pressure of 155/98.\n5. The Glasgow Coma Scale (GCS) was 6/15, the pupils were asymmetrical and movement of the right upper and lower extremities was impaired.\n6. The neurosurgical team advised deferring the CT scan in favor of initiating immediate treatment.\n7. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 468,
+    "patient_id": "sigir-201425",
+    "trial_id": "NCT00282269",
+    "criterion_type": "exclusion",
+    "criterion_text": "have an acute isolated epidural hematoma and are expected to recover rapidly after surgical removal",
+    "note": "0. An 8-year-old boy fell from his bike striking his left temple on the pavement.\n1. There was no immediate loss of consciousness, and a brief examination at the scene noted his pupils were symmetrical, reactive to the light, and he was moving all four limbs.\n2. Half an hour after the fall the child became drowsy, pale, and vomited.\n3. He was transferred to the emergency department.\n4. Upon arrival the heart rate was 52/min, blood pressure of 155/98.\n5. The Glasgow Coma Scale (GCS) was 6/15, the pupils were asymmetrical and movement of the right upper and lower extremities was impaired.\n6. The neurosurgical team advised deferring the CT scan in favor of initiating immediate treatment.\n7. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 475,
+    "patient_id": "sigir-201425",
+    "trial_id": "NCT02378311",
+    "criterion_type": "exclusion",
+    "criterion_text": "Incidents where the injured child was involved in a motor vehicle collision",
+    "note": "0. An 8-year-old boy fell from his bike striking his left temple on the pavement.\n1. There was no immediate loss of consciousness, and a brief examination at the scene noted his pupils were symmetrical, reactive to the light, and he was moving all four limbs.\n2. Half an hour after the fall the child became drowsy, pale, and vomited.\n3. He was transferred to the emergency department.\n4. Upon arrival the heart rate was 52/min, blood pressure of 155/98.\n5. The Glasgow Coma Scale (GCS) was 6/15, the pupils were asymmetrical and movement of the right upper and lower extremities was impaired.\n6. The neurosurgical team advised deferring the CT scan in favor of initiating immediate treatment.\n7. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 476,
+    "patient_id": "sigir-201425",
+    "trial_id": "NCT02378311",
+    "criterion_type": "exclusion",
+    "criterion_text": "Incidents where the injured child was injured by another rider (e.g. injured child run over by a cyclist)",
+    "note": "0. An 8-year-old boy fell from his bike striking his left temple on the pavement.\n1. There was no immediate loss of consciousness, and a brief examination at the scene noted his pupils were symmetrical, reactive to the light, and he was moving all four limbs.\n2. Half an hour after the fall the child became drowsy, pale, and vomited.\n3. He was transferred to the emergency department.\n4. Upon arrival the heart rate was 52/min, blood pressure of 155/98.\n5. The Glasgow Coma Scale (GCS) was 6/15, the pupils were asymmetrical and movement of the right upper and lower extremities was impaired.\n6. The neurosurgical team advised deferring the CT scan in favor of initiating immediate treatment.\n7. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 477,
+    "patient_id": "sigir-201425",
+    "trial_id": "NCT02378311",
+    "criterion_type": "exclusion",
+    "criterion_text": "Incidents involving a bicycle fitted with 'bull bars'",
+    "note": "0. An 8-year-old boy fell from his bike striking his left temple on the pavement.\n1. There was no immediate loss of consciousness, and a brief examination at the scene noted his pupils were symmetrical, reactive to the light, and he was moving all four limbs.\n2. Half an hour after the fall the child became drowsy, pale, and vomited.\n3. He was transferred to the emergency department.\n4. Upon arrival the heart rate was 52/min, blood pressure of 155/98.\n5. The Glasgow Coma Scale (GCS) was 6/15, the pupils were asymmetrical and movement of the right upper and lower extremities was impaired.\n6. The neurosurgical team advised deferring the CT scan in favor of initiating immediate treatment.\n7. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 481,
+    "patient_id": "sigir-201426",
+    "trial_id": "NCT00373048",
+    "criterion_type": "inclusion",
+    "criterion_text": "Permanent residents of the Luanshya district",
+    "note": "0. A group of 14 humanitarian service workers is preparing a trip to the Amazon Rainforest region in Brazil.\n1. All the members of the group have traveled on multiple occasions and have up-to-date vaccine certificates.\n2. Malaria Chemoprophylaxis is indicated but three of the women are in different stages of pregnancy.\n3. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 492,
+    "patient_id": "sigir-201426",
+    "trial_id": "NCT00497471",
+    "criterion_type": "inclusion",
+    "criterion_text": "Born in San Francis Designated District Hospital of Ifakara",
+    "note": "0. A group of 14 humanitarian service workers is preparing a trip to the Amazon Rainforest region in Brazil.\n1. All the members of the group have traveled on multiple occasions and have up-to-date vaccine certificates.\n2. Malaria Chemoprophylaxis is indicated but three of the women are in different stages of pregnancy.\n3. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 493,
+    "patient_id": "sigir-201426",
+    "trial_id": "NCT00497471",
+    "criterion_type": "exclusion",
+    "criterion_text": "Obvious severe congenital malformation such as: spina bifida, hydrocephalus or anencepahlus",
+    "note": "0. A group of 14 humanitarian service workers is preparing a trip to the Amazon Rainforest region in Brazil.\n1. All the members of the group have traveled on multiple occasions and have up-to-date vaccine certificates.\n2. Malaria Chemoprophylaxis is indicated but three of the women are in different stages of pregnancy.\n3. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 494,
+    "patient_id": "sigir-201426",
+    "trial_id": "NCT00497471",
+    "criterion_type": "exclusion",
+    "criterion_text": "Twins",
+    "note": "0. A group of 14 humanitarian service workers is preparing a trip to the Amazon Rainforest region in Brazil.\n1. All the members of the group have traveled on multiple occasions and have up-to-date vaccine certificates.\n2. Malaria Chemoprophylaxis is indicated but three of the women are in different stages of pregnancy.\n3. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 495,
+    "patient_id": "sigir-201426",
+    "trial_id": "NCT00497471",
+    "criterion_type": "exclusion",
+    "criterion_text": "Birth weight < 1,5 kg",
+    "note": "0. A group of 14 humanitarian service workers is preparing a trip to the Amazon Rainforest region in Brazil.\n1. All the members of the group have traveled on multiple occasions and have up-to-date vaccine certificates.\n2. Malaria Chemoprophylaxis is indicated but three of the women are in different stages of pregnancy.\n3. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 496,
+    "patient_id": "sigir-201426",
+    "trial_id": "NCT00497471",
+    "criterion_type": "exclusion",
+    "criterion_text": "Clinical signs of cerebral asphyxia",
+    "note": "0. A group of 14 humanitarian service workers is preparing a trip to the Amazon Rainforest region in Brazil.\n1. All the members of the group have traveled on multiple occasions and have up-to-date vaccine certificates.\n2. Malaria Chemoprophylaxis is indicated but three of the women are in different stages of pregnancy.\n3. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 497,
+    "patient_id": "sigir-201426",
+    "trial_id": "NCT00497471",
+    "criterion_type": "exclusion",
+    "criterion_text": "Clinical signs of neonatal or congenital infection",
+    "note": "0. A group of 14 humanitarian service workers is preparing a trip to the Amazon Rainforest region in Brazil.\n1. All the members of the group have traveled on multiple occasions and have up-to-date vaccine certificates.\n2. Malaria Chemoprophylaxis is indicated but three of the women are in different stages of pregnancy.\n3. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 498,
+    "patient_id": "sigir-201426",
+    "trial_id": "NCT00497471",
+    "criterion_type": "exclusion",
+    "criterion_text": "Mother unreliable (deaf, mentally handicapped)",
+    "note": "0. A group of 14 humanitarian service workers is preparing a trip to the Amazon Rainforest region in Brazil.\n1. All the members of the group have traveled on multiple occasions and have up-to-date vaccine certificates.\n2. Malaria Chemoprophylaxis is indicated but three of the women are in different stages of pregnancy.\n3. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 577,
+    "patient_id": "sigir-20151",
+    "trial_id": "NCT01142245",
+    "criterion_type": "exclusion",
+    "criterion_text": "Moribund patients in whom active treatment of any form is not considered.",
+    "note": "0. A 44 yo male is brought to the emergency room after multiple bouts of vomiting that has a \"coffee ground\" appearance.\n1. His heart rate is 135 bpm and blood pressure is 70/40 mmHg.\n2. Physical exam findings include decreased mental status and cool extremities.\n3. He receives a rapid infusion of crystalloid solution followed by packed red blood cell transfusion and is admitted to the ICU for further care.\n4. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 795,
+    "patient_id": "sigir-201514",
+    "trial_id": "NCT00827463",
+    "criterion_type": "exclusion",
+    "criterion_text": "pregnency women who don't speak french",
+    "note": "0. A 27-year-old woman at 11 weeks gestation in her second pregnancy is found to have a hemoglobin (Hb) of 9.0 g/dL, white blood cell count 6.3 x 109/L, platelet count 119 x 109/L, mean corpuscular volume 109 fL.\n1. Further investigations reveal mild iron deficiency.\n2. She already receives iron supplementation.\n3. The obstetrician repeats the complete blood cell count 2 weeks later.\n4. The Hb is 8.9 g/dL, WBC count 7.1 x 109/L, and platelets 108 x 109/L.\n5. She describes difficulty swallowing.\n6. A reticulocyte count is performed and found elevated at 180 x 109/L.\n7. The obstetrician requests a hematology consult.\n8. The following additional results were found: Negative DAT, normal clotting screen, elevated LDH (2000 IU/L), normal urea and electrolytes, normal alanine aminotransferase (ALT), anisocytosis, poikilocytosis, no fragments, no agglutination, polychromasia and presence of hemosiderin in the urine.\n9. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 985,
+    "patient_id": "sigir-201524",
+    "trial_id": "NCT00711399",
+    "criterion_type": "exclusion",
+    "criterion_text": "Chest tubes",
+    "note": "0. A 31 yo male with no significant past medical history presents with productive cough and chest pain.\n1. He reports developing cold symptoms one week ago that were improving until two days ago, when he developed a new fever, chills, and worsening cough.\n2. He has right-sided chest pain that is aggravated by coughing.\n3. His wife also had cold symptoms a week ago but is now feeling well.\n4. Vitals signs include temperature 103.4, pulse 105, blood pressure 120/80, and respiratory rate 15.\n5. Lung exam reveals expiratory wheezing, decreased breath sounds, and egophany in the left lower lung field.\n6. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  }
+]

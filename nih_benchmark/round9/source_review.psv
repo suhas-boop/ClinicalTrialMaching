@@ -1,0 +1,267 @@
+# case|sentence|type|concept|excerpt|context[|number|unit]
+20141|3|Condition|hypertension|hypertension|documented
+20141|3|Condition|obesity|obesity|documented
+20141|4|Observation|denies-diabetes|denies smoking, diabetes|patient-report
+20141|5|Observation|no-current-medications|currently takes no medications|patient-report
+20142|4|Observation|respiratory_distress|in respiratory distress|current
+20142|5|Observation|bilateral-lung-infiltrates|bilateral lung infiltrates|chest x-ray
+20143|0|Observation|left-lung-mass|left lung mass on chest x-ray|chest x-ray
+20143|2|Observation|right-frontal-mass|CT scan of the head shows a solitary mass in the right frontal lobe|head CT
+20144|3|Observation|albumin|albumin 2.1 g/dL|laboratory specimen unspecified|2.1|g/dL
+20144|3|Observation|sedimentation-rate|erythrocyte sedimentation rate 60 mm/h|laboratory|60|mm/h
+20145|0|Procedure|left-mastectomy|20th day post-left mastectomy|20 days before presentation
+20145|5|Observation|elevated-d-dimer|elevated D-dimer|laboratory
+20146|0|Condition|diabetes-mellitus|diagnosis of diabetes mellitus|type unspecified
+20146|0|Observation|elevated-hba1c|persistently elevated HbA1c|qualitative only
+20147|0|Condition|bipolar-disorder|history of bipolar disorder|history
+20147|5|MedicationStatement|lithium carbonate|lithium carbonate|active
+20147|5|MedicationStatement|zolpidem|zolpidem|active
+20148|1|Observation|severe-cognitive-deficits|severe cognitive deficits|neurologic examination
+20148|4|Procedure|cortical-biopsy|A cortical biopsy shows|completed
+20149|3|Observation|largest-lesion-diameter|about 4 mm in diameter|approximate|4|mm
+201410|0|Procedure|cardiac-catheterization|cardiac catheterization via the right femoral artery|earlier that morning
+201411|1|Observation|denies-trauma|denies trauma|patient-report
+201411|2|Observation|tachycardia-reported|tachycardic|examination
+201411|2|Observation|tachypnea-reported|tachypneic|examination
+201412|3|Observation|cold-intolerance|cold intolerance|patient-report
+201413|3|Observation|oxygen-saturation|oxygen saturation 92%|method unspecified|92|%
+201414|3|Observation|prior-normal-head-ct|normal head CT at that time|three weeks before admission; daughter report
+201415|3|Observation|pregnancy-test-negative|pregnancy test with cut-off sensitivity of 25 mIU/ml Beta-HCG is negative|point of care
+201415|5|Observation|differential-diagnosis|differential diagnosis includes vesicular mole vs fibroid degeneration|differential only
+201416|2|Observation|prescribed-nsaid|prescribed NSAIDS|prescription only
+201417|0|Condition|common-variable-immunodeficiency|history of common variable immunodeficiency|history
+201417|3|Procedure|exploratory-laparotomy|Exploratory laparotomy|completed
+201417|3|Procedure|liver-abscess-drainage|ruptured liver abscess, which is then surgically drained|completed
+201417|3|Condition|ruptured-liver-abscess|ruptured liver abscess|operative finding
+201418|3|Observation|serum_creatinine_mg_dl|serum creatinine is 1.3 mg/dL|presentation|1.3|mg/dL
+201418|3|Observation|blood-urea-nitrogen|blood urea nitrogen is 33 mg/dL|laboratory|33|mg/dL
+201418|2|Observation|heart_rate|pulse is 141/min|presentation|141|/min
+201418|2|Observation|respiratory_rate|respirations are 18/min|presentation|18|/min
+201419|4|Observation|weight-loss|lost a total of 25 pounds|reported change|25|[lb_av]
+201420|3|Observation|heart_rate|pulse is 87/min|presentation|87|/min
+201421|2|Condition|thrombocytopenia|thrombocytopenia|current laboratory finding
+201421|2|Observation|positive-ana|4/4 positive ANA|laboratory
+201422|3|Observation|reported-no-sexual-partners|has had no sexual partners|reported history
+201422|5|Observation|edematous-appendix|markedly edematous appendix|abdominal ultrasound
+201423|1|Condition|spinal-stenosis|spinal stenosis|history
+201423|1|Condition|diabetes-mellitus|diabetes|history; type unspecified
+201423|1|Condition|hypothyroidism|hypothyroidism|history
+201423|1|Condition|psoriasis|mild psoriasis|history
+201423|2|FamilyMemberHistory|early-onset-dementia|family history of early onset dementia|unspecified relative
+201424|5|Condition|splenic-rupture|spleen rupture|ultrasound and CT
+201424|3|Observation|heart_rate|HR: 140/min|presentation|140|/min
+201425|4|Observation|heart_rate|heart rate was 52/min|presentation|52|/min
+201425|5|Observation|gcs|Glasgow Coma Scale (GCS) was 6/15|presentation|6|1
+201427|1|FamilyMemberHistory|colonic-adenomas|both were found to have hundreds of colonic adenomas|brother
+201427|1|FamilyMemberHistory|colonic-adenomas|both were found to have hundreds of colonic adenomas|sister
+201427|3|Procedure|sigmoidoscopy|patient undergoes sigmoidoscopy|completed
+201427|4|Observation|benign-adenomas|all benign adenomas|biopsied lesions
+201429|1|Condition|hypertension|history of significant hypertension|history
+201429|1|Condition|diabetes-mellitus|diet-controlled diabetes mellitus|history; type unspecified
+201429|3|Observation|menopause-documented|documented by previous LH and FSH levels to be in menopause|within the last year
+201430|2|Condition|myocardial-infarction|uncomplicated myocardial infarction 2 years earlier|history; two years earlier
+201430|2|Condition|transient-ischemic-attack|transient ischemic attack 6 months ago|six months ago
+201430|3|MedicationStatement|diltiazem|previous control with diltiazem|historical-status-unknown
+201430|3|MedicationStatement|propranolol|propranolol|historical-status-unknown
+201430|4|MedicationStatement|isosorbide dinitrate|isosorbide dinitrate|active
+201430|4|MedicationStatement|hydrochlorothiazide|hydrochlorothiazide|active
+201430|4|MedicationStatement|aspirin|aspirin|active
+201430|5|Observation|heart_rate|pulse is 67/min|presentation|67|/min
+20151|1|Observation|heart_rate|heart rate is 135 bpm|presentation|135|/min
+20151|3|Procedure|packed-red-cell-transfusion|packed red blood cell transfusion|completed
+20152|1|MedicationStatement|prednisone|immunosuppressive medications, including prednisone|active
+20152|3|Observation|bal-inclusion-bodies|owl's eye inclusion bodies|BAL specimen
+20153|1|Procedure|right-total-hip-replacement|right total hip replacement two weeks prior|two weeks prior
+20153|2|Observation|respiratory-rate-number-unit-unstated|respiratory rate of 35|unit missing|35|
+20154|1|Condition|hypertension|had hypertension|history
+20154|1|Condition|renal-artery-stenosis|renal-artery stenosis|history
+20154|1|Condition|hypercholesterolemia|hypercholesterolemia|history
+20154|1|Condition|dementia|dementia|history
+20154|2|Observation|respiratory_rate|respiratory rate 18 bpm|presentation|18|/min
+20154|2|Observation|oxygen-saturation|oxygen saturation 98%|ambient air|98|%
+20154|7|Procedure|coronary-angiography|Coronary angiography showed|completed
+20155|3|Observation|temperature-range-reported|intermittent fevers ranging from 38.2 to 39.4 degrees Celsius|reported range
+20156|2|Observation|heart_rate|pulse is irregular at 110bpm|presentation|110|/min
+20157|3|Observation|normal-hemoglobin-reported|hemoglobin, hematocrit and thyroid stimulating hormone, are within normal limits|qualitative only
+20158|0|Observation|nighttime-snoring|nighttime snoring|reported symptom
+20159|3|Observation|heart_rate|HR: 120/min|presentation|120|/min
+20159|3|Observation|respiratory_rate|RR: 40/min|presentation|40|/min
+20159|3|Observation|body-temperature|T: 39.5 C|presentation|39.5|Cel
+201510|1|Condition|ectopic-pregnancy|an ectopic pregnancy at age 26|history at age 26
+201511|2|Observation|hyporeflexia|hyporeflexia with delayed relaxation of knee and ankle reflexes|examination
+201512|0|Condition|skull-fracture|sustained a skull fracture|recent injury
+201513|2|Observation|drooling|He is drooling|examination
+201514|0|Observation|gestational-age|11 weeks gestation|initial|11|wk
+201514|0|Observation|hemoglobin|hemoglobin (Hb) of 9.0 g/dL|initial|9.0|g/dL
+201514|4|Observation|hemoglobin|Hb is 8.9 g/dL|repeat CBC two weeks later|8.9|g/dL
+201514|2|MedicationStatement|iron supplement|already receives iron supplementation|active
+201514|1|Condition|iron-deficiency|mild iron deficiency|documented
+201515|0|Condition|type-2-diabetes|type 2 diabetes|documented
+201515|0|Condition|hypertension|hypertension|documented
+201515|0|Condition|cryptogenic-stroke|cryptogenic stroke two weeks ago|two weeks ago
+201515|1|Observation|prior-ct-negative-hemorrhage|computed tomography was negative for brain hemorrhage|two weeks ago
+201516|1|Condition|allergic-rhinitis|history of allergic rhinitis|history
+201516|7|Observation|oxygen-saturation|O2 sats are 100% on room air|room air|100|%
+201517|2|Observation|cervical-cytology-negative|cytology negative|PAP specimen
+201517|2|Observation|hpv-positive|HPV positive|PAP specimen; assay unspecified
+201518|2|Observation|jugular-venous-distension|jugular venous distension|examination
+201519|3|Observation|tobacco-use-duration|past 47 years|patient-report|47|a
+201520|3|Observation|body-temperature|temperature was 36.5C|presentation|36.5|Cel
+201520|3|Observation|heart_rate|heart rate 61 bpm|presentation|61|/min
+201520|3|Observation|respiratory_rate|respiratory rate 18 bpm|presentation|18|/min
+201521|4|Observation|stool-smear-finding|ellipsoidal cysts with smooth, well-defined walls and 2+ nuclei|stool smear
+201522|0|Condition|tuberculosis|a history of tuberculosis|history
+201523|1|Condition|leukopenia|leukopenia|current laboratory finding
+201523|1|Condition|thrombocytopenia|thrombocytopenia|current laboratory finding
+201524|5|Observation|expiratory-wheezing|expiratory wheezing|examination
+20141|1|Observation|exertional-chest-pain|pain started while she was walking|presenting symptom
+20141|2|Observation|chest-pain-resolved|latest episode of pain ended half an hour prior to her arrival|before arrival
+20142|2|Observation|loose-stools|prior to the onset of fever and cough, he had loose stools|earlier; parent report
+20143|1|Observation|other-symptoms-denied|otherwise asymptomatic|limited to other symptoms
+20144|1|Observation|cervical-lymphadenopathy|cervical lymphadenopathy|examination
+20144|2|Observation|enlarged-liver|enlarged liver|examination
+20144|4|Observation|coronary-artery-dilation|moderate dilation of the coronary arteries|echocardiogram
+20145|1|Observation|bed-rest-reported|remained in bed for the last two weeks|patient report
+20145|3|Observation|incision-no-bleeding|surgical incision shows no bleeding|incision examination
+20146|2|Observation|painful-left-leg-lesion|painful skin lesion on the left lower leg|patient report
+20147|2|Observation|suicidal-thoughts-reported|has had thoughts of suicide|time of ideation unspecified
+20148|2|Observation|eeg-periodic-sharp-waves|generalized periodic sharp waves|EEG
+20148|3|Observation|cerebral-atrophy|moderately advanced cerebral atrophy|neuroimaging
+20149|4|Observation|lesion-pigmentation|flesh colored to slightly hyperpigmented|examination
+201410|2|Observation|right-groin-pulsatile-mass|pulsatile mass in her right groin|examination
+201411|3|Observation|normal-temperature-reported|body temperature is normal|qualitative only
+201412|1|Observation|sleep-duration-reported|average of 8 hours a night|per night|8|h
+201412|4|Observation|anterior-cervical-mass|prominent, soft, uniform anterior cervical mass|examination
+201413|2|Observation|recent-delivery|given birth to a healthy child 3 weeks before|three weeks before presentation
+201413|5|Observation|cbc-normal-reported|chest x-ray and CBC are normal|qualitative only
+201414|2|Observation|fever-denied|has had no fever|reported recent history
+201415|4|Observation|uterine-cystic-areas|multiple cystic areas in the interior|uterine ultrasound
+201416|1|Observation|slight-tremors|slight tremors|examination
+201416|3|Observation|hydrophobia|marked hydrophobia|three days later
+201417|1|Observation|murphy-sign-positive|positive Murphy sign|examination
+201417|2|Observation|intraperitoneal-fluid|abundant free intraperitoneal fluid|ultrasound
+201418|4|Observation|urine-specific-gravity|specific gravity of 1.017|urinalysis|1.017|1
+201418|6|Observation|fractional-excretion-of-sodium|fractional excretion of sodium is 3.3%|laboratory|3.3|%
+201419|3|Observation|dysphagia-location|lower end of his sternum|patient report
+201420|1|Observation|extremity-fractures|upper and lower extremity fractures|following car accident
+201420|5|Observation|absent-bowel-sounds|no bowel sounds|examination
+201421|3|Observation|urinary-rbc-casts|RBC casts|urinalysis
+201422|4|Observation|right-lower-quadrant-rebound|rebound tenderness over the right lower quadrant|examination
+201423|3|Observation|home-oxygen-use|use his home oxygen for the past 24 hours|preceding 24 hours
+201423|4|Observation|fever-denied|denies fever|reported
+201423|6|Observation|pulmonary-hyperinflation|hyperinflation with no consolidation|chest x-ray
+201424|1|Observation|blunt-left-abdominal-trauma|blunt trauma to the left hemi-abdomen|family report about patient; one week earlier
+201425|6|Observation|head-ct-deferred|deferring the CT scan|recommended deferral; no CT result
+201427|0|Procedure|colonoscopy|undergoes colonoscopy|completed
+201429|2|Observation|cigarette-use|currently smokes 1 pack of cigarettes per day|current
+201430|6|Observation|right-carotid-bruit|right carotid bruit|examination
+20151|2|Observation|decreased-mental-status|decreased mental status|examination
+20152|2|Observation|hospital_admission|admitted to the hospital|current admission
+20153|2|Observation|right-calf-pain|right calf pain|examination
+20154|4|Observation|troponin-t|Troponin T was 0.40 ng/ml|laboratory|0.40|ng/mL
+20154|5|Observation|sinus-tachycardia|sinus regular tachycardia of 119 bpm|ECG
+20154|8|Observation|ventriculography-wall-motion|akinesis of the anterior wall, hypokinesis of the apical and distal inferior walls|left ventriculography; anterior wall akinetic, apex hypokinetic
+20155|1|Observation|resolved-ankle-swelling|right ankle swelling and difficulty standing up and walking, all of which resolved|historical; resolved
+20156|2|Observation|hyperreflexia|hyperreflexia|examination
+20157|1|Observation|difficulty-concentrating|difficulty concentrating on her schoolwork|reported
+20158|2|Observation|sleepiness-in-class|excessive sleepiness during class|teacher report about child
+20159|1|Condition|viral-illness|diagnosed with a viral illness|two weeks prior
+20159|4|Observation|periorbital-edema|marked periorbital edema|examination
+201510|0|Observation|heavy-irregular-periods|heavy, irregular periods|reported
+201511|3|Observation|slowed-speech|talks slowly|examination
+201512|3|Observation|nuchal-rigidity|Nuchal rigidity|examination
+201513|3|Observation|foreign-body-ingestion-denied|parents deny the possibility of foreign body ingestion|parent report
+201514|0|Observation|mean-corpuscular-volume|mean corpuscular volume 109 fL|initial|109|fL
+201514|3|Procedure|cbc-repeat|repeats the complete blood cell count 2 weeks later|two weeks after initial CBC
+201514|8|Observation|direct-antiglobulin-negative|Negative DAT|repeat investigation
+201515|1|Observation|thrombolytic-therapy-given|given thrombolytic therapy|previous stroke episode; agent unspecified
+201515|3|Observation|normal-sinus-rhythm|normal sinus rhythm on a 12-lead electrocardiogram|current presentation
+201516|6|Observation|right-sided-wheezing|Wheezing is heard in the mid-right chest area|examination
+201517|1|Observation|no-complaints-reported|reports no complaints|patient report
+201518|1|Observation|orthopnea-reported|difficulty breathing when lying flat|patient report
+201519|2|Observation|neck-vein-distention|mildly distended neck veins|examination
+201520|4|Observation|orientation-to-year-impaired|oriented to self and city but not year|examination
+201520|9|Observation|delayed-recall|recalled none of them after 5 minutes|cognitive examination
+201521|1|Observation|greasy-stools|greasy and foul-smelling|reported
+201522|1|Observation|cavitary-lung-mass|round opaque mass within a cavity in his left upper lobe|chest x-ray
+201522|3|Observation|sputum-culture-morphology|septated, low-angle branching hyphae|organism not named in source
+201523|0|Observation|epistaxis|epistaxis|presentation
+201524|3|Observation|household-cold-exposure|wife also had cold symptoms a week ago|household contact; describes wife
+201524|4|Observation|temperature-unit-unstated|temperature 103.4|unit missing|103.4|
+20141|6|Observation|normal-physical-exam|Physical examination is normal|examination
+20141|7|Observation|nonspecific-ecg-changes|EKG shows nonspecific changes|ECG
+201410|1|Observation|cool-right-foot|cool right foot|reported symptom
+201411|4|Observation|right-arm-movement-unrestricted|no discoloration or movement limitation|right arm examination
+201412|2|Observation|weight-gain|weight gain during the previous 6 months|reported
+201413|1|Observation|prior-spontaneous-pregnancy-loss-count|2 natural abortions|history|2|1
+201413|4|Observation|otherwise-unremarkable-exam|Otherwise, physical examination is unremarkable|other findings in preceding sentence remain present
+201414|1|Observation|lost-independent-walking-and-eating|stopped walking and eating by himself|last three days
+201415|1|Observation|cervical-dilation|cervical dilation of 2 cm|examination|2|cm
+201415|2|Observation|cbc-normal-reported|complete blood count and biochemical profile are normal|qualitative only
+201417|4|Observation|icu-transfer|After surgery, the patient is taken to the ICU|postoperative
+201418|1|Observation|generalized-edema|generalized edema|examination
+201418|5|Observation|urinary-rbc-count-microscopy|18 RBCs per HPF|urine microscopy|18|/[HPF]
+201419|1|Observation|solid-food-dysphagia|difficulty swallowing meat|initial symptom
+201419|2|Observation|progressive-dysphagia|other solid foods, soft foods, and then liquids|progression
+20142|1|Observation|travel-history|5 day vacation in Colorado|recent
+20142|3|Observation|upper-respiratory-symptoms-denied|denies upper respiratory tract symptoms|patient-report
+201420|2|Observation|restraint-use-denied|not wearing a seat belt|index crash; patient report
+201420|4|Observation|abdominal-guarding-rebound|guarding and rebound in all four quadrants|examination
+201421|1|Observation|facial-rash|rash mainly distributed on the bridge of her nose and her cheeks|examination
+201422|1|Observation|abdominal-pain-location|localizing to the right lower quadrant over hours|symptom course
+201422|2|Observation|diarrhea-denied|denies diarrhea|patient-report
+201423|5|Observation|cyanosis|cyanotic|examination
+201424|2|Observation|smoking-history-denied|history is negative for smoking, drugs, and alcohol|reported history
+201424|4|Observation|abdominal-muscular-resistance|muscle contraction and resistance|abdominal examination
+201425|1|Observation|immediate-loc-absent|no immediate loss of consciousness|at scene
+201425|2|Observation|post-fall-vomiting|Half an hour after the fall the child became drowsy, pale, and vomited|after injury
+201425|3|Observation|transfer-to-emergency-department|transferred to the emergency department|transfer; not inpatient admission
+201429|4|Observation|osteoporosis-prevention-counseling-requested|seeking advice on osteoporosis prevention|reason for consultation
+201430|1|Observation|calf-symptoms-worsening|symptoms have gradually increased over the past 3 months|history
+201430|7|Observation|diminished-pedal-pulses|diminished pulses at the dorsalis pedis|examination
+20145|2|Observation|right-calf-tenderness|tenderness on the left upper thoracic wall and right calf|examination
+20145|4|Observation|decreased-breath-sounds|bilateral decreased breath sounds, especially at the right base|examination
+20146|1|Observation|diabetes-medication-nonadherence|not compliant with her diabetes medication|documented history
+20146|3|Observation|leg-lesion-progression|lesion has increased in size and is now oozing|course
+20147|1|Observation|difficulty-sleeping|recently had difficulty sleeping|patient-report
+20147|3|Observation|restlessness|unable to sit still for extended periods of time|patient-report
+20147|4|Observation|increasing-irritability|increasingly irritable|family account of patient
+20149|2|Observation|pedunculated-lesions|small soft, and pedunculated|examination
+201511|1|Observation|decreased-appetite|decreased appetite|patient-report
+201512|1|Observation|clear-nasal-discharge|clear fluid dripping from his nose|reported; composition unknown
+201512|2|Observation|headache-and-fever|severe headache and fever|following day
+201513|1|Observation|toxic-appearance|toxic-appearing|examination
+201514|5|Observation|dysphagia|difficulty swallowing|patient-report
+201514|6|Observation|reticulocytes-elevated|found elevated at 180 x 109/L|laboratory; raw exponent notation preserved
+201514|7|Observation|hematology-consult-requested|requests a hematology consult|request; completion unknown
+201515|2|Observation|tee-mra-qualitatively-normal|Transesophageal echocardiogram and magnetic resonance angiogram of brain and great vessels found no evidence of abnormalities|prior workup
+201515|4|Observation|palpitations-history|history of occasional palpitations|patient-report
+201516|2|Observation|abrupt-cough|heard him suddenly start coughing|mother reporting about child
+201516|3|Observation|ongoing-wheezing|audibly wheezing since|reported course
+201516|4|Observation|breathing-remains-abnormal|breathing has not returned to normal|mother reporting about child
+201516|5|Observation|well-appearance|playful and well appearing|examination
+201519|1|Observation|exertional-respiratory-distress|moderate respiratory distress after walking|following exertion
+201520|1|Observation|poor-memory|poor memory|evolving symptoms
+201520|2|Observation|dependent-daily-activities|unable to dress, bathe, use the toilet, or walk independently|reported function
+201520|5|Observation|examiner-interruption|frequently interrupted the examiner|during assessment
+201520|6|Observation|reaching-behavior|repeatedly reached out to grab things in front of him|during assessment
+201520|7|Observation|multistep-commands-impaired|could not follow commands involving multiple steps|cognitive examination
+201520|8|Observation|speech-word-substitutions|similar-sounding word substitutions|examination
+201520|10|Observation|paratonic-rigidity|clinically significant paratonic rigidity|examination
+201520|11|Observation|arm-myoclonus|Myoclonic jerks were seen in the arms|examination
+201520|12|Observation|normal-leg-reflexes|reflexes in the legs were normal|examination
+201521|2|Observation|loss-of-appetite|loss of appetite|reported
+201521|3|Observation|natural-water-exposure|drank water from natural sources|hiking trip
+201522|2|Observation|position-dependent-mass|mass moved in the cavity during supine and prone CT imaging|CT imaging
+201524|1|Observation|worsening-cough|new fever, chills, and worsening cough|two days before presentation
+201524|2|Observation|cough-aggravated-chest-pain|right-sided chest pain that is aggravated by coughing|patient-report
+20154|3|Observation|no-cardiac-murmurs|heart sounds were rapid and with no murmurs|examination
+20154|6|Observation|right-basilar-atelectasis|right basilar subsegmental atelectasis|chest radiograph
+20154|9|Observation|regional-lv-dysfunction|severe segmental left ventricular dysfunction|echocardiogram
+20154|10|Observation|mild-mitral-regurgitation|mild mitral regurgitation|echocardiogram
+20155|2|Observation|joint-swelling-stiffness|pain, swelling and stiffness in her knees, hips and right elbow|several days
+20156|1|Observation|episodic-heart-racing|heart sometimes races|patient-report; no measured rate
+20157|2|Observation|anhedonia-reported|no longer enjoys spending time with her friends|patient-report
+20158|1|Observation|headache-history-denied|No history of headache|negative history
+20159|2|Observation|farm-exposure|stay with relatives on a farm that raises domestic pigs|three weeks earlier
+20159|5|Observation|eosinophil-percent|25% Eosinophils|laboratory|25|%

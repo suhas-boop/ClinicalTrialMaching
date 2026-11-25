@@ -1,0 +1,16 @@
+{
+  "status": "SOURCE_ABLATION_ONLY",
+  "upstream": "https://github.com/ncbi-nlp/TrialGPT/blob/97ba047695ca77bfe8d3634c10cbe10b0095929f/trialgpt_matching/run_matching.py#L28-L35",
+  "subjects": 44,
+  "assignments": 134,
+  "after": {
+    "MISSING_DATA": 96,
+    "AUTHORING_HOLD": 15,
+    "MET": 6,
+    "INVESTIGATOR_ACTIONS": 6,
+    "STUDY_ACTION": 2,
+    "SOURCE_SCOPE_HOLD": 7,
+    "PATIENT_SURVEY": 2
+  },
+  "changed": []
+}

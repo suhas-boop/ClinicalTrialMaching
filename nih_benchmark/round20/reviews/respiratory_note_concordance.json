@@ -1,0 +1,43 @@
+{
+  "total_notes": 53,
+  "purpose": "Corpus check for original wording and co-documented rate. Other patients never contribute facts to the indexed patient.",
+  "term_regex": "\\b(tachypn(?:eic|ea|oeic|oea))\\b",
+  "numeric_candidate_regex": "\\b(?:respiratory rate|respirations|respiratory frequency|rr)\\b.{0,16}?\\d+|\\b\\d+(?:\\.\\d+)?\\s*breaths",
+  "rows": [
+    {
+      "benchmark_subject": "sigir-201411",
+      "note_sha256": "db4467fa7cba03819df27445f2090c80d6acd145a3361057f24a2fb5877aaec1",
+      "term_lines": [
+        2
+      ],
+      "lines_with_candidate_numeric_phrase": []
+    },
+    {
+      "benchmark_subject": "sigir-201413",
+      "note_sha256": "2c46cae14a71d4b21ec7a1e407c6049b8d4f6f766d29508adcfd33d4172d2b54",
+      "term_lines": [
+        3
+      ],
+      "lines_with_candidate_numeric_phrase": []
+    },
+    {
+      "benchmark_subject": "sigir-201423",
+      "note_sha256": "8e530421201a2a4d556991baa714d579a84687eaa8b991ed837e5d05f0365d5f",
+      "term_lines": [
+        5
+      ],
+      "lines_with_candidate_numeric_phrase": []
+    },
+    {
+      "benchmark_subject": "sigir-20153",
+      "note_sha256": "ab965a81fb09dd678da825d447c82ac9e9ef4577ea2241d448e4bbdbbfa4e5d2",
+      "term_lines": [
+        0
+      ],
+      "lines_with_candidate_numeric_phrase": [
+        "2. Relevant physical exam findings include a respiratory rate of 35 and right calf pain."
+      ]
+    }
+  ],
+  "conclusion": "One of the four source vignettes using this term has an explicit rate of 35. The case 187 vignette supplies no numeric count. This small source scan does not calibrate the clinical interpretation."
+}

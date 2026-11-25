@@ -1,0 +1,25 @@
+{
+  "policy": "adult-exam-tachycardia-v1",
+  "term": "tachycardia",
+  "fact": "heart_rate",
+  "unit": "/min",
+  "open_lower_bound": 100,
+  "population": "Adults with an affirmative clinical examination finding at the indexed encounter",
+  "definition": "https://www.mayoclinic.org/diseases-conditions/tachycardia/symptoms-causes/syc-20355127",
+  "resting_definition": "https://www.heart.org/en/health-topics/arrhythmia/about-arrhythmia/tachycardia--fast-heart-rate/",
+  "interpretation": "Apply the general adult clinical term at the documented exam. A separate definition explicitly limited to rest would also require rest to be documented.",
+  "governing_criteria": [
+    {
+      "study": "NCT01526382",
+      "text": "Heart rate of at least 90/min;",
+      "type": "inclusion",
+      "predicate": {"fact": "heart_rate", "op": "ge", "value": 90},
+      "evaluation_scope": "single listed predicate at the recorded examination",
+      "registry_locator": "eligibility/criteria/textblock",
+      "registry_sha256": "601eb5649d5812e9bf570284fc7c0fc9ec7272df7959caba59737dc41bd77a76",
+      "parent_rule": "Shock was defined by the presence 4 criteria:",
+      "screening_source": "https://doi.org/10.1007/s00134-014-3638-4",
+      "screening_context": "Study recruitment evaluated patients in the first 24 hours after ICU admission. The isolated item does not establish the complete shock definition, ICU timing or trial eligibility."
+    }
+  ]
+}

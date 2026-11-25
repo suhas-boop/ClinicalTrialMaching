@@ -1,0 +1,301 @@
+{
+  "revision": "045528d70a7d788775a24763adfed6c66023c914",
+  "split": "dev",
+  "annotation_line": 242,
+  "schema_line": 50,
+  "source_sha256": {
+    "dev.jsonl": "00dbac8202e0f3b1c8ec85dfc333c6bafb2f92e60ab3f3242bcc38a3b2a89f4b",
+    "dev.tables.jsonl": "102ac079098d1015532752b68bdbdbc15ca98270958f118636d6d2edb5e4ac54"
+  },
+  "annotation_sha256": "df22eee4a9d440cd46a8ff385753d0640c319a6d6a5e644c5f3d5b75dcd69756",
+  "schema_sha256": "e6890b111511bb7c87815220088136abecd3e10d99ddb234a7128d5eb075c906",
+  "freeze_sha256": "16ef10ce67c4504f71b8630b265bd29ba165f1ff9b7732321ef3c80a11c5a52a",
+  "rule_sha256": "e4515195d81569f211b7f1e4b5a335437ed4a71d3b9e4a75c4b84fe9b3070280",
+  "predictions_sha256": {
+    "normalized.json": "c451fcf0fc8df7505b5ad36ac8706b03d1d43bfc39b46062d08c88f0b102acaf",
+    "fhir.json": "c4bdb8fb7b7d3ae8b14a2114a9f71b0df777f6969ec91573699706d13648209b"
+  },
+  "evaluator_sha256": {
+    "score.py": "ecfa1fac5705c503286db8dfe3232994286697f12e783944c8d4ab006cc5d168",
+    "evidence.py": "a8baa459d4fa54ccf7949a4728342c469c5047f5c909a7ba2f2ae9cf0dd12024",
+    "verify_source.py": "826f9e1d1031aa837b305b90914f04e50f79ce3d452247901f135c49e298391d"
+  },
+  "sqlite_version": "3.43.2",
+  "criterion": "adult patients,  >  /  = 18 years of age",
+  "released_sql": {
+    "published_query": "select id from records where age >= 18",
+    "published_selected_ids": [
+      102,
+      103,
+      104,
+      106
+    ],
+    "structured_query": "SELECT \"id\" FROM records WHERE \"age\" >= ?",
+    "structured_parameter": "18",
+    "structured_selected_ids": [
+      102,
+      103,
+      104,
+      106
+    ],
+    "representations_agree": true
+  },
+  "complete_cases": [
+    {
+      "id": 101,
+      "patient_id": "synthetic-101",
+      "scope": "complete",
+      "age": 17.0,
+      "normalized": "NOT_MET",
+      "fhir": "NOT_MET",
+      "normalized_evidence": [
+        "urn:pocketmd:criteria2sql:synthetic-controls-v1:flat:101/age"
+      ],
+      "fhir_reason": "The screening evidence fails the expression.",
+      "evidence_audit": {
+        "birth_date": "2007-05-13",
+        "screening_start": "2025-05-12T10:00:00-07:00",
+        "as_of": "2025-05-13T12:00:00-07:00",
+        "screening_local_age": 17,
+        "age_if_cutoff_used": 18,
+        "age_if_utc_screen_date_used": 17,
+        "chart_source": "urn:pocketmd:criteria2sql:synthetic-controls-v1:chart:101",
+        "source_references": [
+          "Patient/synthetic-101/_history/1",
+          "Encounter/screen-synthetic-101/_history/1"
+        ],
+        "decision_evidence": [
+          "Encounter/screen-synthetic-101/_history/1",
+          "Patient/synthetic-101/_history/1"
+        ],
+        "source_references_in_decision": true
+      },
+      "sql_state": "NOT_MET"
+    },
+    {
+      "id": 102,
+      "patient_id": "synthetic-102",
+      "scope": "complete",
+      "age": 18.0,
+      "normalized": "MET",
+      "fhir": "MET",
+      "normalized_evidence": [
+        "urn:pocketmd:criteria2sql:synthetic-controls-v1:flat:102/age"
+      ],
+      "fhir_reason": "The screening evidence satisfies the expression.",
+      "evidence_audit": {
+        "birth_date": "2007-05-12",
+        "screening_start": "2025-05-12T10:00:00-07:00",
+        "as_of": "2025-05-12T12:00:00-07:00",
+        "screening_local_age": 18,
+        "age_if_cutoff_used": 18,
+        "age_if_utc_screen_date_used": 18,
+        "chart_source": "urn:pocketmd:criteria2sql:synthetic-controls-v1:chart:102",
+        "source_references": [
+          "Patient/synthetic-102/_history/1",
+          "Encounter/screen-synthetic-102/_history/1"
+        ],
+        "decision_evidence": [
+          "Encounter/screen-synthetic-102/_history/1",
+          "Patient/synthetic-102/_history/1"
+        ],
+        "source_references_in_decision": true
+      },
+      "sql_state": "MET"
+    },
+    {
+      "id": 103,
+      "patient_id": "synthetic-103",
+      "scope": "complete",
+      "age": 18.0,
+      "normalized": "MET",
+      "fhir": "MET",
+      "normalized_evidence": [
+        "urn:pocketmd:criteria2sql:synthetic-controls-v1:flat:103/age"
+      ],
+      "fhir_reason": "The screening evidence satisfies the expression.",
+      "evidence_audit": {
+        "birth_date": "2007-05-11",
+        "screening_start": "2025-05-12T10:00:00-07:00",
+        "as_of": "2025-05-12T12:00:00-07:00",
+        "screening_local_age": 18,
+        "age_if_cutoff_used": 18,
+        "age_if_utc_screen_date_used": 18,
+        "chart_source": "urn:pocketmd:criteria2sql:synthetic-controls-v1:chart:103",
+        "source_references": [
+          "Patient/synthetic-103/_history/1",
+          "Encounter/screen-synthetic-103/_history/1"
+        ],
+        "decision_evidence": [
+          "Encounter/screen-synthetic-103/_history/1",
+          "Patient/synthetic-103/_history/1"
+        ],
+        "source_references_in_decision": true
+      },
+      "sql_state": "MET"
+    },
+    {
+      "id": 104,
+      "patient_id": "synthetic-104",
+      "scope": "complete",
+      "age": 19.0,
+      "normalized": "MET",
+      "fhir": "MET",
+      "normalized_evidence": [
+        "urn:pocketmd:criteria2sql:synthetic-controls-v1:flat:104/age"
+      ],
+      "fhir_reason": "The screening evidence satisfies the expression.",
+      "evidence_audit": {
+        "birth_date": "2006-05-12",
+        "screening_start": "2025-05-12T10:00:00-07:00",
+        "as_of": "2025-05-12T12:00:00-07:00",
+        "screening_local_age": 19,
+        "age_if_cutoff_used": 19,
+        "age_if_utc_screen_date_used": 19,
+        "chart_source": "urn:pocketmd:criteria2sql:synthetic-controls-v1:chart:104",
+        "source_references": [
+          "Patient/synthetic-104/_history/1",
+          "Encounter/screen-synthetic-104/_history/1"
+        ],
+        "decision_evidence": [
+          "Encounter/screen-synthetic-104/_history/1",
+          "Patient/synthetic-104/_history/1"
+        ],
+        "source_references_in_decision": true
+      },
+      "sql_state": "MET"
+    },
+    {
+      "id": 105,
+      "patient_id": "synthetic-105",
+      "scope": "complete",
+      "age": 17.0,
+      "normalized": "NOT_MET",
+      "fhir": "NOT_MET",
+      "normalized_evidence": [
+        "urn:pocketmd:criteria2sql:synthetic-controls-v1:flat:105/age"
+      ],
+      "fhir_reason": "The screening evidence fails the expression.",
+      "evidence_audit": {
+        "birth_date": "2008-01-01",
+        "screening_start": "2025-12-31T23:30:00-08:00",
+        "as_of": "2026-01-01T01:00:00-08:00",
+        "screening_local_age": 17,
+        "age_if_cutoff_used": 18,
+        "age_if_utc_screen_date_used": 18,
+        "chart_source": "urn:pocketmd:criteria2sql:synthetic-controls-v1:chart:105",
+        "source_references": [
+          "Patient/synthetic-105/_history/1",
+          "Encounter/screen-synthetic-105/_history/1"
+        ],
+        "decision_evidence": [
+          "Encounter/screen-synthetic-105/_history/1",
+          "Patient/synthetic-105/_history/1"
+        ],
+        "source_references_in_decision": true
+      },
+      "sql_state": "NOT_MET"
+    },
+    {
+      "id": 106,
+      "patient_id": "synthetic-106",
+      "scope": "complete",
+      "age": 18.0,
+      "normalized": "MET",
+      "fhir": "MET",
+      "normalized_evidence": [
+        "urn:pocketmd:criteria2sql:synthetic-controls-v1:flat:106/age"
+      ],
+      "fhir_reason": "The screening evidence satisfies the expression.",
+      "evidence_audit": {
+        "birth_date": "2008-01-01",
+        "screening_start": "2026-01-01T00:30:00-08:00",
+        "as_of": "2026-01-01T01:00:00-08:00",
+        "screening_local_age": 18,
+        "age_if_cutoff_used": 18,
+        "age_if_utc_screen_date_used": 18,
+        "chart_source": "urn:pocketmd:criteria2sql:synthetic-controls-v1:chart:106",
+        "source_references": [
+          "Patient/synthetic-106/_history/1",
+          "Encounter/screen-synthetic-106/_history/1"
+        ],
+        "decision_evidence": [
+          "Encounter/screen-synthetic-106/_history/1",
+          "Patient/synthetic-106/_history/1"
+        ],
+        "source_references_in_decision": true
+      },
+      "sql_state": "MET"
+    }
+  ],
+  "complete_summary": {
+    "normalized": {
+      "complete": 6,
+      "agreements": 6,
+      "false_definitives": 0,
+      "false_met": 0,
+      "false_not_met": 0,
+      "abstentions": 0,
+      "mismatch_patient_ids": [],
+      "selected_patient_ids": [
+        "synthetic-102",
+        "synthetic-103",
+        "synthetic-104",
+        "synthetic-106"
+      ]
+    },
+    "fhir": {
+      "complete": 6,
+      "agreements": 6,
+      "false_definitives": 0,
+      "false_met": 0,
+      "false_not_met": 0,
+      "abstentions": 0,
+      "mismatch_patient_ids": [],
+      "selected_patient_ids": [
+        "synthetic-102",
+        "synthetic-103",
+        "synthetic-104",
+        "synthetic-106"
+      ]
+    }
+  },
+  "missing_cases": [
+    {
+      "id": 107,
+      "patient_id": "synthetic-107",
+      "scope": "missing",
+      "age": null,
+      "normalized": "MISSING_DATA",
+      "fhir": "MISSING_DATA",
+      "normalized_evidence": [
+        "urn:pocketmd:criteria2sql:synthetic-controls-v1:flat:107/age"
+      ],
+      "fhir_reason": "Verify age evidence: A complete Patient.birthDate is required.",
+      "evidence_audit": {
+        "birth_date": null,
+        "screening_start": "2025-05-12T10:00:00-07:00",
+        "as_of": "2025-05-12T12:00:00-07:00",
+        "screening_local_age": null,
+        "age_if_cutoff_used": null,
+        "age_if_utc_screen_date_used": null,
+        "chart_source": "urn:pocketmd:criteria2sql:synthetic-controls-v1:chart:107",
+        "source_references": [
+          "Patient/synthetic-107/_history/1",
+          "Encounter/screen-synthetic-107/_history/1"
+        ],
+        "decision_evidence": [
+          "Encounter/screen-synthetic-107/_history/1",
+          "Patient/synthetic-107/_history/1"
+        ],
+        "source_references_in_decision": true
+      }
+    }
+  ],
+  "missing_summary": {
+    "denominator": 1,
+    "excluded_from_sql": 1,
+    "both_abstained": 1
+  },
+  "complete_decisions_with_source_references": 6
+}

@@ -1,0 +1,6458 @@
+{
+  "Group/sigir-201426": {},
+  "Patient/sigir-20141": {
+    "Condition/x-4e353c112d5041e611d33d3d19ec1b": {
+      "lines": [
+        3
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "obesity",
+              "display": "obesity",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            },
+            {
+              "code": "E66.9",
+              "display": "Obesity, unspecified",
+              "system": "http://hl7.org/fhir/sid/icd-10-cm"
+            }
+          ],
+          "text": "obesity"
+        },
+        "evidence": [
+          {
+            "detail": [
+              {
+                "reference": "DocumentReference/sigir-20141-note"
+              }
+            ]
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "documented"
+          }
+        ],
+        "id": "x-4e353c112d5041e611d33d3d19ec1b",
+        "resourceType": "Condition",
+        "subject": {
+          "reference": "Patient/sigir-20141"
+        }
+      }
+    },
+    "Condition/x-91f9c21372845c9d2c5f11cacc077d": {
+      "lines": [
+        3
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "hypertension",
+              "display": "hypertension",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "hypertension"
+        },
+        "evidence": [
+          {
+            "detail": [
+              {
+                "reference": "DocumentReference/sigir-20141-note"
+              }
+            ]
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "documented"
+          }
+        ],
+        "id": "x-91f9c21372845c9d2c5f11cacc077d",
+        "resourceType": "Condition",
+        "subject": {
+          "reference": "Patient/sigir-20141"
+        }
+      }
+    },
+    "Observation/x-04a182c6f7a5add745e5d7738c6aac": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "woman",
+              "display": "woman",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "woman"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-20141-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "note abstraction"
+          }
+        ],
+        "id": "x-04a182c6f7a5add745e5d7738c6aac",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-20141"
+        },
+        "valueBoolean": true
+      }
+    },
+    "Observation/x-05c55e27a31dc04c295ea40ff68cd9": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "age-at-presentation",
+              "display": "age at presentation",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            },
+            {
+              "code": "30525-0",
+              "display": "Age",
+              "system": "http://loinc.org"
+            }
+          ],
+          "text": "age at presentation"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-20141-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "age at vignette presentation"
+          }
+        ],
+        "id": "x-05c55e27a31dc04c295ea40ff68cd9",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-20141"
+        },
+        "valueQuantity": {
+          "code": "a",
+          "system": "http://unitsofmeasure.org",
+          "unit": "a",
+          "value": 58
+        }
+      }
+    },
+    "Observation/x-2303b3eeb984ad0efda9bef1dd5fd3": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "explicit_woman_description",
+              "display": "explicit woman description",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "explicit woman description"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-20141-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "note abstraction"
+          }
+        ],
+        "id": "x-2303b3eeb984ad0efda9bef1dd5fd3",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-20141"
+        },
+        "valueBoolean": true
+      }
+    },
+    "Observation/x-61ef17462c890434cb32177c2e7154": {
+      "lines": [
+        4
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "reported-diabetes-mellitus",
+              "display": "reported diabetes mellitus",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "reported diabetes mellitus"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-20141-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "patient symptom report"
+          }
+        ],
+        "id": "x-61ef17462c890434cb32177c2e7154",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-20141"
+        },
+        "valueBoolean": false
+      }
+    },
+    "Observation/x-708c6e5c4ff55706032cedb51b9bf6": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "male_or_female",
+              "display": "male or female",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "male or female"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-20141-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "note abstraction"
+          }
+        ],
+        "id": "x-708c6e5c4ff55706032cedb51b9bf6",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-20141"
+        },
+        "valueBoolean": true
+      }
+    },
+    "Observation/x-84e1d84d6931f02f977dd38e1771a4": {
+      "lines": [
+        4
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "reported-hypercholesterolemia",
+              "display": "reported hypercholesterolemia",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "reported hypercholesterolemia"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-20141-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "patient symptom report"
+          }
+        ],
+        "id": "x-84e1d84d6931f02f977dd38e1771a4",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-20141"
+        },
+        "valueBoolean": false
+      }
+    },
+    "Observation/x-f2e29960488c3da8d748780beb7e8f": {
+      "lines": [
+        4
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "reported-smoking",
+              "display": "reported smoking",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "reported smoking"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-20141-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "patient symptom report"
+          }
+        ],
+        "id": "x-f2e29960488c3da8d748780beb7e8f",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-20141"
+        },
+        "valueBoolean": false
+      }
+    }
+  },
+  "Patient/sigir-201410": {},
+  "Patient/sigir-201411": {
+    "Observation/x-048fbba801b1e4dfcc15d599e9477a": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "woman",
+              "display": "woman",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "woman"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201411-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "note abstraction"
+          }
+        ],
+        "id": "x-048fbba801b1e4dfcc15d599e9477a",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201411"
+        },
+        "valueBoolean": true
+      }
+    },
+    "Observation/x-0b3bb2afd9b582ca4a916d3dac8ca0": {
+      "lines": [
+        2
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "exam-sign-tachypnea",
+              "display": "exam sign tachypnea",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "exam sign tachypnea"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201411-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "note abstraction"
+          }
+        ],
+        "id": "x-0b3bb2afd9b582ca4a916d3dac8ca0",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201411"
+        },
+        "valueBoolean": true
+      }
+    },
+    "Observation/x-5afa550df507089a1427470e47fda7": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "age-at-presentation",
+              "display": "age at presentation",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            },
+            {
+              "code": "30525-0",
+              "display": "Age",
+              "system": "http://loinc.org"
+            }
+          ],
+          "text": "age at presentation"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201411-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "age at vignette presentation"
+          }
+        ],
+        "id": "x-5afa550df507089a1427470e47fda7",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201411"
+        },
+        "valueQuantity": {
+          "code": "a",
+          "system": "http://unitsofmeasure.org",
+          "unit": "a",
+          "value": 40
+        }
+      }
+    },
+    "Observation/x-6157d6113e855deca94e5351d0f87b": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "male_or_female",
+              "display": "male or female",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "male or female"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201411-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "note abstraction"
+          }
+        ],
+        "id": "x-6157d6113e855deca94e5351d0f87b",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201411"
+        },
+        "valueBoolean": true
+      }
+    },
+    "Observation/x-63443fd4f9da3a1073b05187ccd3ba": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "explicit_woman_description",
+              "display": "explicit woman description",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "explicit woman description"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201411-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "note abstraction"
+          }
+        ],
+        "id": "x-63443fd4f9da3a1073b05187ccd3ba",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201411"
+        },
+        "valueBoolean": true
+      }
+    },
+    "Observation/x-bfae9f5861f5f7a14cd6cf0e9b3b84": {
+      "lines": [
+        2
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "exam-sign-tachycardia",
+              "display": "exam sign tachycardia",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "exam sign tachycardia"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201411-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "note abstraction"
+          }
+        ],
+        "id": "x-bfae9f5861f5f7a14cd6cf0e9b3b84",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201411"
+        },
+        "valueBoolean": true
+      }
+    },
+    "Observation/x-d0c6b85bc08c4b876e460d6528a6a8": {
+      "lines": [
+        1
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "reported-trauma",
+              "display": "reported trauma",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "reported trauma"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201411-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "patient symptom report"
+          }
+        ],
+        "id": "x-d0c6b85bc08c4b876e460d6528a6a8",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201411"
+        },
+        "valueBoolean": false
+      }
+    }
+  },
+  "Patient/sigir-201412": {
+    "Observation/x-a166eb77c8711b83fd056f61fcaedd": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "explicit_woman_description",
+              "display": "explicit woman description",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "explicit woman description"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201412-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "note abstraction"
+          }
+        ],
+        "id": "x-a166eb77c8711b83fd056f61fcaedd",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201412"
+        },
+        "valueBoolean": true
+      }
+    },
+    "Observation/x-bb114a48d3e10c8a219c1c587ab9cf": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "woman",
+              "display": "woman",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "woman"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201412-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "note abstraction"
+          }
+        ],
+        "id": "x-bb114a48d3e10c8a219c1c587ab9cf",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201412"
+        },
+        "valueBoolean": true
+      }
+    },
+    "Observation/x-bb8899be2dd7b9110ad2afd02053bd": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "age-at-presentation",
+              "display": "age at presentation",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            },
+            {
+              "code": "30525-0",
+              "display": "Age",
+              "system": "http://loinc.org"
+            }
+          ],
+          "text": "age at presentation"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201412-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "age at vignette presentation"
+          }
+        ],
+        "id": "x-bb8899be2dd7b9110ad2afd02053bd",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201412"
+        },
+        "valueQuantity": {
+          "code": "a",
+          "system": "http://unitsofmeasure.org",
+          "unit": "a",
+          "value": 25
+        }
+      }
+    },
+    "Observation/x-ea9b8e8a097bb311dee1379cd1bbc3": {
+      "lines": [
+        1
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "reported-difficulty-sleeping",
+              "display": "reported difficulty sleeping",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "reported difficulty sleeping"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201412-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "patient symptom report"
+          }
+        ],
+        "id": "x-ea9b8e8a097bb311dee1379cd1bbc3",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201412"
+        },
+        "valueBoolean": false
+      }
+    },
+    "Observation/x-f61edf90a4b4df859ba29fd647b80d": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "male_or_female",
+              "display": "male or female",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "male or female"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201412-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "note abstraction"
+          }
+        ],
+        "id": "x-f61edf90a4b4df859ba29fd647b80d",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201412"
+        },
+        "valueBoolean": true
+      }
+    }
+  },
+  "Patient/sigir-201413": {
+    "Observation/x-2a7b6d5544b1e8d0845a51fe0c41d7": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "age-at-presentation",
+              "display": "age at presentation",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            },
+            {
+              "code": "30525-0",
+              "display": "Age",
+              "system": "http://loinc.org"
+            }
+          ],
+          "text": "age at presentation"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201413-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "age at vignette presentation"
+          }
+        ],
+        "id": "x-2a7b6d5544b1e8d0845a51fe0c41d7",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201413"
+        },
+        "valueQuantity": {
+          "code": "a",
+          "system": "http://unitsofmeasure.org",
+          "unit": "a",
+          "value": 30
+        }
+      }
+    },
+    "Observation/x-443262759a6195ebf1cb462fc87290": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "explicit_woman_description",
+              "display": "explicit woman description",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "explicit woman description"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201413-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "note abstraction"
+          }
+        ],
+        "id": "x-443262759a6195ebf1cb462fc87290",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201413"
+        },
+        "valueBoolean": true
+      }
+    },
+    "Observation/x-84ee20c856731b19d046b6c21ad9ad": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "woman",
+              "display": "woman",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "woman"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201413-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "note abstraction"
+          }
+        ],
+        "id": "x-84ee20c856731b19d046b6c21ad9ad",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201413"
+        },
+        "valueBoolean": true
+      }
+    },
+    "Observation/x-d570f4912951747b56855761d375f4": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "male_or_female",
+              "display": "male or female",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "male or female"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201413-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "note abstraction"
+          }
+        ],
+        "id": "x-d570f4912951747b56855761d375f4",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201413"
+        },
+        "valueBoolean": true
+      }
+    }
+  },
+  "Patient/sigir-201414": {
+    "Observation/x-268dc22672dd8d46773291735ca8ca": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "male_or_female",
+              "display": "male or female",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "male or female"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201414-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "note abstraction"
+          }
+        ],
+        "id": "x-268dc22672dd8d46773291735ca8ca",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201414"
+        },
+        "valueBoolean": true
+      }
+    },
+    "Observation/x-2ae9f6c8f5d8fdcf06a71f00116b0f": {
+      "lines": [
+        2
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "reported-diarrhea",
+              "display": "reported diarrhea",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "reported diarrhea"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201414-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "reported recent history"
+          }
+        ],
+        "id": "x-2ae9f6c8f5d8fdcf06a71f00116b0f",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201414"
+        },
+        "valueBoolean": false
+      }
+    },
+    "Observation/x-6de1bc7a7da407540b922737f1f9c6": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "age-at-presentation",
+              "display": "age at presentation",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            },
+            {
+              "code": "30525-0",
+              "display": "Age",
+              "system": "http://loinc.org"
+            }
+          ],
+          "text": "age at presentation"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201414-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "age at vignette presentation"
+          }
+        ],
+        "id": "x-6de1bc7a7da407540b922737f1f9c6",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201414"
+        },
+        "valueQuantity": {
+          "code": "a",
+          "system": "http://unitsofmeasure.org",
+          "unit": "a",
+          "value": 85
+        }
+      }
+    },
+    "Observation/x-6f0cb02ace99ea5b587033334a8abf": {
+      "lines": [
+        2
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "reported-cough",
+              "display": "reported cough",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "reported cough"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201414-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "reported recent history"
+          }
+        ],
+        "id": "x-6f0cb02ace99ea5b587033334a8abf",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201414"
+        },
+        "valueBoolean": false
+      }
+    },
+    "Observation/x-ae923296a20734d9c844f47b1ed7a3": {
+      "lines": [
+        2
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "reported-fever",
+              "display": "reported fever",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "reported fever"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201414-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "reported recent history"
+          }
+        ],
+        "id": "x-ae923296a20734d9c844f47b1ed7a3",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201414"
+        },
+        "valueBoolean": false
+      }
+    },
+    "Observation/x-f3bed1aeb96d812ac3b854166cd291": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "woman",
+              "display": "woman",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "woman"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201414-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "note abstraction"
+          }
+        ],
+        "id": "x-f3bed1aeb96d812ac3b854166cd291",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201414"
+        },
+        "valueBoolean": false
+      }
+    },
+    "Observation/x-f9d274b1ced22223a9228f5c0f7931": {
+      "lines": [
+        2
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "reported-rash",
+              "display": "reported rash",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "reported rash"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201414-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "reported recent history"
+          }
+        ],
+        "id": "x-f9d274b1ced22223a9228f5c0f7931",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201414"
+        },
+        "valueBoolean": false
+      }
+    }
+  },
+  "Patient/sigir-201415": {},
+  "Patient/sigir-201417": {
+    "Observation/x-4dd9b5059829fcdd020f9e8b71162c": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "male_or_female",
+              "display": "male or female",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "male or female"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201417-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "note abstraction"
+          }
+        ],
+        "id": "x-4dd9b5059829fcdd020f9e8b71162c",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201417"
+        },
+        "valueBoolean": true
+      }
+    },
+    "Observation/x-62be5a0b127ffdd44950f4a3c6fed1": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "age-at-presentation",
+              "display": "age at presentation",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            },
+            {
+              "code": "30525-0",
+              "display": "Age",
+              "system": "http://loinc.org"
+            }
+          ],
+          "text": "age at presentation"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201417-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "age at vignette presentation"
+          }
+        ],
+        "id": "x-62be5a0b127ffdd44950f4a3c6fed1",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201417"
+        },
+        "valueQuantity": {
+          "code": "a",
+          "system": "http://unitsofmeasure.org",
+          "unit": "a",
+          "value": 48
+        }
+      }
+    },
+    "Observation/x-85e389df28e4a610af51e890063ba5": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "woman",
+              "display": "woman",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "woman"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201417-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "note abstraction"
+          }
+        ],
+        "id": "x-85e389df28e4a610af51e890063ba5",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201417"
+        },
+        "valueBoolean": false
+      }
+    },
+    "Observation/x-dfb214169afb3e5aa424ef9813b6f3": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "immune_deficiency",
+              "display": "immune deficiency",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "immune deficiency"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201417-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "note abstraction"
+          }
+        ],
+        "id": "x-dfb214169afb3e5aa424ef9813b6f3",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201417"
+        },
+        "valueBoolean": true
+      }
+    }
+  },
+  "Patient/sigir-201418": {
+    "Observation/x-0382165f99aa202c85e2aa6e301425": {
+      "lines": [
+        2
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "heart_rate",
+              "display": "heart rate",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            },
+            {
+              "code": "8867-4",
+              "display": "Heart rate",
+              "system": "http://loinc.org"
+            }
+          ],
+          "text": "heart rate"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201418-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "presentation"
+          }
+        ],
+        "id": "x-0382165f99aa202c85e2aa6e301425",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201418"
+        },
+        "valueQuantity": {
+          "code": "/min",
+          "system": "http://unitsofmeasure.org",
+          "unit": "/min",
+          "value": 141
+        }
+      }
+    },
+    "Observation/x-27036855682c8129fd1a71279fbaa3": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "age-at-presentation",
+              "display": "age at presentation",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            },
+            {
+              "code": "30525-0",
+              "display": "Age",
+              "system": "http://loinc.org"
+            }
+          ],
+          "text": "age at presentation"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201418-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "age at vignette presentation"
+          }
+        ],
+        "id": "x-27036855682c8129fd1a71279fbaa3",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201418"
+        },
+        "valueQuantity": {
+          "code": "mo",
+          "system": "http://unitsofmeasure.org",
+          "unit": "mo",
+          "value": 6
+        }
+      }
+    },
+    "Observation/x-34d72136054d425e5ce1a1a4c3ae72": {
+      "lines": [
+        2
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "respiratory_rate",
+              "display": "respiratory rate",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            },
+            {
+              "code": "9279-1",
+              "display": "Respiratory rate",
+              "system": "http://loinc.org"
+            }
+          ],
+          "text": "respiratory rate"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201418-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "presentation"
+          }
+        ],
+        "id": "x-34d72136054d425e5ce1a1a4c3ae72",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201418"
+        },
+        "valueQuantity": {
+          "code": "/min",
+          "system": "http://unitsofmeasure.org",
+          "unit": "/min",
+          "value": 18
+        }
+      }
+    },
+    "Observation/x-a027d1057dfb886722970a6f32df6d": {
+      "lines": [
+        3
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "serum_creatinine_mg_dl",
+              "display": "serum creatinine mg dl",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            },
+            {
+              "code": "2160-0",
+              "display": "Creatinine [Mass/volume] in Serum or Plasma",
+              "system": "http://loinc.org"
+            }
+          ],
+          "text": "serum creatinine mg dl"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201418-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "presentation"
+          }
+        ],
+        "id": "x-a027d1057dfb886722970a6f32df6d",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201418"
+        },
+        "valueQuantity": {
+          "code": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "unit": "mg/dL",
+          "value": 1.3
+        }
+      }
+    }
+  },
+  "Patient/sigir-201419": {
+    "Observation/x-6b82a507b17f5090c266d490aca2de": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "woman",
+              "display": "woman",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "woman"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201419-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "note abstraction"
+          }
+        ],
+        "id": "x-6b82a507b17f5090c266d490aca2de",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201419"
+        },
+        "valueBoolean": false
+      }
+    },
+    "Observation/x-ba8d7dc8def9bfd89448e8c50f8358": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "male_or_female",
+              "display": "male or female",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "male or female"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201419-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "note abstraction"
+          }
+        ],
+        "id": "x-ba8d7dc8def9bfd89448e8c50f8358",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201419"
+        },
+        "valueBoolean": true
+      }
+    },
+    "Observation/x-dfeb985fca735a57063c1c8c5f706b": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "age-at-presentation",
+              "display": "age at presentation",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            },
+            {
+              "code": "30525-0",
+              "display": "Age",
+              "system": "http://loinc.org"
+            }
+          ],
+          "text": "age at presentation"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201419-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "age at vignette presentation"
+          }
+        ],
+        "id": "x-dfeb985fca735a57063c1c8c5f706b",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201419"
+        },
+        "valueQuantity": {
+          "code": "a",
+          "system": "http://unitsofmeasure.org",
+          "unit": "a",
+          "value": 52
+        }
+      }
+    }
+  },
+  "Patient/sigir-20142": {
+    "Observation/x-2d3af6ff2dbd7d903c33c666eb5667": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "age-at-presentation",
+              "display": "age at presentation",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            },
+            {
+              "code": "30525-0",
+              "display": "Age",
+              "system": "http://loinc.org"
+            }
+          ],
+          "text": "age at presentation"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-20142-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "age at vignette presentation"
+          }
+        ],
+        "id": "x-2d3af6ff2dbd7d903c33c666eb5667",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-20142"
+        },
+        "valueQuantity": {
+          "code": "a",
+          "system": "http://unitsofmeasure.org",
+          "unit": "a",
+          "value": 8
+        }
+      }
+    },
+    "Observation/x-80e8db43be00b22a5b1cbd3936acb9": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "woman",
+              "display": "woman",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "woman"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-20142-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "note abstraction"
+          }
+        ],
+        "id": "x-80e8db43be00b22a5b1cbd3936acb9",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-20142"
+        },
+        "valueBoolean": false
+      }
+    },
+    "Observation/x-c70b8fbf7c914274a578891eec6d7b": {
+      "lines": [
+        3
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "reported-upper-respiratory-symptoms",
+              "display": "reported upper respiratory symptoms",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "reported upper respiratory symptoms"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-20142-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "patient symptom report"
+          }
+        ],
+        "id": "x-c70b8fbf7c914274a578891eec6d7b",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-20142"
+        },
+        "valueBoolean": false
+      }
+    },
+    "Observation/x-f9fb07b2368c08b43f83811302e97d": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "male_or_female",
+              "display": "male or female",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "male or female"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-20142-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "note abstraction"
+          }
+        ],
+        "id": "x-f9fb07b2368c08b43f83811302e97d",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-20142"
+        },
+        "valueBoolean": true
+      }
+    }
+  },
+  "Patient/sigir-201420": {
+    "Observation/x-2bd6264a843e375a586aedce50fe4f": {
+      "lines": [
+        3
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "heart_rate",
+              "display": "heart rate",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            },
+            {
+              "code": "8867-4",
+              "display": "Heart rate",
+              "system": "http://loinc.org"
+            }
+          ],
+          "text": "heart rate"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201420-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "presentation"
+          }
+        ],
+        "id": "x-2bd6264a843e375a586aedce50fe4f",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201420"
+        },
+        "valueQuantity": {
+          "code": "/min",
+          "system": "http://unitsofmeasure.org",
+          "unit": "/min",
+          "value": 87
+        }
+      }
+    },
+    "Observation/x-a569df35e71f994c4d80c30f1946ee": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "explicit_woman_description",
+              "display": "explicit woman description",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "explicit woman description"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201420-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "note abstraction"
+          }
+        ],
+        "id": "x-a569df35e71f994c4d80c30f1946ee",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201420"
+        },
+        "valueBoolean": true
+      }
+    },
+    "Observation/x-cacc09e5b532ab38babec066a94ff6": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "woman",
+              "display": "woman",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "woman"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201420-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "note abstraction"
+          }
+        ],
+        "id": "x-cacc09e5b532ab38babec066a94ff6",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201420"
+        },
+        "valueBoolean": true
+      }
+    },
+    "Observation/x-e35e443cec3b5086fe44eb1f353638": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "male_or_female",
+              "display": "male or female",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "male or female"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201420-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "note abstraction"
+          }
+        ],
+        "id": "x-e35e443cec3b5086fe44eb1f353638",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201420"
+        },
+        "valueBoolean": true
+      }
+    },
+    "Observation/x-fa2eebb06fe5306f20ffece4fd2e0f": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "age-at-presentation",
+              "display": "age at presentation",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            },
+            {
+              "code": "30525-0",
+              "display": "Age",
+              "system": "http://loinc.org"
+            }
+          ],
+          "text": "age at presentation"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201420-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "age at vignette presentation"
+          }
+        ],
+        "id": "x-fa2eebb06fe5306f20ffece4fd2e0f",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201420"
+        },
+        "valueQuantity": {
+          "code": "a",
+          "system": "http://unitsofmeasure.org",
+          "unit": "a",
+          "value": 32
+        }
+      }
+    }
+  },
+  "Patient/sigir-201421": {
+    "Observation/x-44863facbce819b55d0c62b64b1766": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "age-at-presentation",
+              "display": "age at presentation",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            },
+            {
+              "code": "30525-0",
+              "display": "Age",
+              "system": "http://loinc.org"
+            }
+          ],
+          "text": "age at presentation"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201421-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "age at vignette presentation"
+          }
+        ],
+        "id": "x-44863facbce819b55d0c62b64b1766",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201421"
+        },
+        "valueQuantity": {
+          "code": "a",
+          "system": "http://unitsofmeasure.org",
+          "unit": "a",
+          "value": 21
+        }
+      }
+    },
+    "Observation/x-7abd972e61afbae1a033749e7185b6": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "male_or_female",
+              "display": "male or female",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "male or female"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201421-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "note abstraction"
+          }
+        ],
+        "id": "x-7abd972e61afbae1a033749e7185b6",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201421"
+        },
+        "valueBoolean": true
+      }
+    },
+    "Observation/x-d5a1a680e6beb2afa3cd020b649e59": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "woman",
+              "display": "woman",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "woman"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201421-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "note abstraction"
+          }
+        ],
+        "id": "x-d5a1a680e6beb2afa3cd020b649e59",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201421"
+        },
+        "valueBoolean": true
+      }
+    }
+  },
+  "Patient/sigir-201422": {
+    "Observation/x-28d73c3e6155e4195865c33a84ab67": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "age-at-presentation",
+              "display": "age at presentation",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            },
+            {
+              "code": "30525-0",
+              "display": "Age",
+              "system": "http://loinc.org"
+            }
+          ],
+          "text": "age at presentation"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201422-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "age at vignette presentation"
+          }
+        ],
+        "id": "x-28d73c3e6155e4195865c33a84ab67",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201422"
+        },
+        "valueQuantity": {
+          "code": "a",
+          "system": "http://unitsofmeasure.org",
+          "unit": "a",
+          "value": 15
+        }
+      }
+    },
+    "Observation/x-adfaeef0bb42673cffeaf94372600f": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "male_or_female",
+              "display": "male or female",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "male or female"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201422-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "note abstraction"
+          }
+        ],
+        "id": "x-adfaeef0bb42673cffeaf94372600f",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201422"
+        },
+        "valueBoolean": true
+      }
+    },
+    "Observation/x-ff1639af4aa32b1c88c320f7b92eb9": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "woman",
+              "display": "woman",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "woman"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201422-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "note abstraction"
+          }
+        ],
+        "id": "x-ff1639af4aa32b1c88c320f7b92eb9",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201422"
+        },
+        "valueBoolean": false
+      }
+    }
+  },
+  "Patient/sigir-201423": {
+    "Condition/x-826f43d5aac6295e0ca507cc66445a": {
+      "lines": [
+        1
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "spinal-stenosis",
+              "display": "spinal stenosis",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "spinal stenosis"
+        },
+        "evidence": [
+          {
+            "detail": [
+              {
+                "reference": "DocumentReference/sigir-201423-note"
+              }
+            ]
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "history"
+          }
+        ],
+        "id": "x-826f43d5aac6295e0ca507cc66445a",
+        "resourceType": "Condition",
+        "subject": {
+          "reference": "Patient/sigir-201423"
+        }
+      }
+    },
+    "Condition/x-94ad55ef132ad2357e0f25cfbc5800": {
+      "lines": [
+        1
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "hypothyroidism",
+              "display": "hypothyroidism",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            },
+            {
+              "code": "E03.9",
+              "display": "Hypothyroidism, unspecified",
+              "system": "http://hl7.org/fhir/sid/icd-10-cm"
+            }
+          ],
+          "text": "hypothyroidism"
+        },
+        "evidence": [
+          {
+            "detail": [
+              {
+                "reference": "DocumentReference/sigir-201423-note"
+              }
+            ]
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "history"
+          }
+        ],
+        "id": "x-94ad55ef132ad2357e0f25cfbc5800",
+        "resourceType": "Condition",
+        "subject": {
+          "reference": "Patient/sigir-201423"
+        }
+      }
+    },
+    "Condition/x-9ed750ee1427379e211ccd449767de": {
+      "lines": [
+        1
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "diabetes-mellitus",
+              "display": "diabetes mellitus",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "diabetes mellitus"
+        },
+        "evidence": [
+          {
+            "detail": [
+              {
+                "reference": "DocumentReference/sigir-201423-note"
+              }
+            ]
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "history"
+          }
+        ],
+        "id": "x-9ed750ee1427379e211ccd449767de",
+        "resourceType": "Condition",
+        "subject": {
+          "reference": "Patient/sigir-201423"
+        }
+      }
+    },
+    "Observation/x-12531fea0fcdb73744ecc69e868fa4": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "woman",
+              "display": "woman",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "woman"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201423-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "note abstraction"
+          }
+        ],
+        "id": "x-12531fea0fcdb73744ecc69e868fa4",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201423"
+        },
+        "valueBoolean": false
+      }
+    },
+    "Observation/x-4eccb16cf84ff0a43fa11104f98c2c": {
+      "lines": [
+        4
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "reported-fever",
+              "display": "reported fever",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "reported fever"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201423-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "patient symptom report"
+          }
+        ],
+        "id": "x-4eccb16cf84ff0a43fa11104f98c2c",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201423"
+        },
+        "valueBoolean": false
+      }
+    },
+    "Observation/x-bdff9b70de2c704b40d763173ada40": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "male_or_female",
+              "display": "male or female",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "male or female"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201423-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "note abstraction"
+          }
+        ],
+        "id": "x-bdff9b70de2c704b40d763173ada40",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201423"
+        },
+        "valueBoolean": true
+      }
+    },
+    "Observation/x-fbadcc5feff5f62ef72eea8807a7c3": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "age-at-presentation",
+              "display": "age at presentation",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            },
+            {
+              "code": "30525-0",
+              "display": "Age",
+              "system": "http://loinc.org"
+            }
+          ],
+          "text": "age at presentation"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201423-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "age at vignette presentation"
+          }
+        ],
+        "id": "x-fbadcc5feff5f62ef72eea8807a7c3",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201423"
+        },
+        "valueQuantity": {
+          "code": "a",
+          "system": "http://unitsofmeasure.org",
+          "unit": "a",
+          "value": 63
+        }
+      }
+    }
+  },
+  "Patient/sigir-201424": {
+    "Observation/x-889bbabc1db78e75da4554cb1d056d": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "male_or_female",
+              "display": "male or female",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "male or female"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201424-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "note abstraction"
+          }
+        ],
+        "id": "x-889bbabc1db78e75da4554cb1d056d",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201424"
+        },
+        "valueBoolean": true
+      }
+    },
+    "Observation/x-9ba5fb01800472c287b5607de0fd4f": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "age-at-presentation",
+              "display": "age at presentation",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            },
+            {
+              "code": "30525-0",
+              "display": "Age",
+              "system": "http://loinc.org"
+            }
+          ],
+          "text": "age at presentation"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201424-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "age at vignette presentation"
+          }
+        ],
+        "id": "x-9ba5fb01800472c287b5607de0fd4f",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201424"
+        },
+        "valueQuantity": {
+          "code": "a",
+          "system": "http://unitsofmeasure.org",
+          "unit": "a",
+          "value": 33
+        }
+      }
+    },
+    "Observation/x-a29df98a7ab78b6427e376c2df6e56": {
+      "lines": [
+        3
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "heart_rate",
+              "display": "heart rate",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            },
+            {
+              "code": "8867-4",
+              "display": "Heart rate",
+              "system": "http://loinc.org"
+            }
+          ],
+          "text": "heart rate"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201424-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "presentation"
+          }
+        ],
+        "id": "x-a29df98a7ab78b6427e376c2df6e56",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201424"
+        },
+        "valueQuantity": {
+          "code": "/min",
+          "system": "http://unitsofmeasure.org",
+          "unit": "/min",
+          "value": 140
+        }
+      }
+    },
+    "Observation/x-a4275cc68fbf81f634c5456b0429e8": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "woman",
+              "display": "woman",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "woman"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201424-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "note abstraction"
+          }
+        ],
+        "id": "x-a4275cc68fbf81f634c5456b0429e8",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201424"
+        },
+        "valueBoolean": false
+      }
+    }
+  },
+  "Patient/sigir-201425": {
+    "Observation/x-1338351088daddf429061c1701db61": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "age-at-presentation",
+              "display": "age at presentation",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            },
+            {
+              "code": "30525-0",
+              "display": "Age",
+              "system": "http://loinc.org"
+            }
+          ],
+          "text": "age at presentation"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201425-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "age at vignette presentation"
+          }
+        ],
+        "id": "x-1338351088daddf429061c1701db61",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201425"
+        },
+        "valueQuantity": {
+          "code": "a",
+          "system": "http://unitsofmeasure.org",
+          "unit": "a",
+          "value": 8
+        }
+      }
+    },
+    "Observation/x-42154d3999bc6f24780c71eb3e30a8": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "male_or_female",
+              "display": "male or female",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "male or female"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201425-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "note abstraction"
+          }
+        ],
+        "id": "x-42154d3999bc6f24780c71eb3e30a8",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201425"
+        },
+        "valueBoolean": true
+      }
+    },
+    "Observation/x-4380bcd2ced5c19a597acdc78157ec": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "woman",
+              "display": "woman",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "woman"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201425-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "note abstraction"
+          }
+        ],
+        "id": "x-4380bcd2ced5c19a597acdc78157ec",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201425"
+        },
+        "valueBoolean": false
+      }
+    },
+    "Observation/x-46e19641e6e0882a01f80f239a1388": {
+      "lines": [
+        5
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "gcs",
+              "display": "gcs",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            },
+            {
+              "code": "9269-2",
+              "display": "Glasgow coma score total",
+              "system": "http://loinc.org"
+            }
+          ],
+          "text": "gcs"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201425-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "presentation"
+          }
+        ],
+        "id": "x-46e19641e6e0882a01f80f239a1388",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201425"
+        },
+        "valueQuantity": {
+          "code": "1",
+          "system": "http://unitsofmeasure.org",
+          "unit": "1",
+          "value": 6
+        }
+      }
+    },
+    "Observation/x-d8115895c7fd00567ad313c6d74ebd": {
+      "lines": [
+        4
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "heart_rate",
+              "display": "heart rate",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            },
+            {
+              "code": "8867-4",
+              "display": "Heart rate",
+              "system": "http://loinc.org"
+            }
+          ],
+          "text": "heart rate"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201425-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "presentation"
+          }
+        ],
+        "id": "x-d8115895c7fd00567ad313c6d74ebd",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201425"
+        },
+        "valueQuantity": {
+          "code": "/min",
+          "system": "http://unitsofmeasure.org",
+          "unit": "/min",
+          "value": 52
+        }
+      }
+    }
+  },
+  "Patient/sigir-201427": {
+    "Observation/x-7355df5bc9de96f32f577f01647486": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "age-at-presentation",
+              "display": "age at presentation",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            },
+            {
+              "code": "30525-0",
+              "display": "Age",
+              "system": "http://loinc.org"
+            }
+          ],
+          "text": "age at presentation"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201427-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "age at vignette presentation"
+          }
+        ],
+        "id": "x-7355df5bc9de96f32f577f01647486",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201427"
+        },
+        "valueQuantity": {
+          "code": "a",
+          "system": "http://unitsofmeasure.org",
+          "unit": "a",
+          "value": 21
+        }
+      }
+    }
+  },
+  "Patient/sigir-20143": {
+    "Observation/x-207bfa945182047fd6c096a4d05205": {
+      "lines": [
+        2
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "abnormal_neurologic_exam",
+              "display": "abnormal neurologic exam",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "abnormal neurologic exam"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-20143-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "note abstraction"
+          }
+        ],
+        "id": "x-207bfa945182047fd6c096a4d05205",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-20143"
+        },
+        "valueBoolean": false
+      }
+    },
+    "Observation/x-89fd4ea4646207d8907a8cd7e401ad": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "age-at-presentation",
+              "display": "age at presentation",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            },
+            {
+              "code": "30525-0",
+              "display": "Age",
+              "system": "http://loinc.org"
+            }
+          ],
+          "text": "age at presentation"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-20143-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "age at vignette presentation"
+          }
+        ],
+        "id": "x-89fd4ea4646207d8907a8cd7e401ad",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-20143"
+        },
+        "valueQuantity": {
+          "code": "a",
+          "system": "http://unitsofmeasure.org",
+          "unit": "a",
+          "value": 58
+        }
+      }
+    },
+    "Observation/x-8b7b067f85aeb176a41a193851afda": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "woman",
+              "display": "woman",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "woman"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-20143-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "note abstraction"
+          }
+        ],
+        "id": "x-8b7b067f85aeb176a41a193851afda",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-20143"
+        },
+        "valueBoolean": true
+      }
+    },
+    "Observation/x-cb04c1d5cf1ff9fcaab2be664d0326": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "male_or_female",
+              "display": "male or female",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "male or female"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-20143-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "note abstraction"
+          }
+        ],
+        "id": "x-cb04c1d5cf1ff9fcaab2be664d0326",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-20143"
+        },
+        "valueBoolean": true
+      }
+    }
+  },
+  "Patient/sigir-201430": {
+    "MedicationStatement/x-4af1d7120e0cce085fab8638fc9133": {
+      "lines": [
+        4
+      ],
+      "resource": {
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201430-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "active"
+          }
+        ],
+        "id": "x-4af1d7120e0cce085fab8638fc9133",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "code": "isosorbide-dinitrate",
+              "display": "isosorbide dinitrate",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            },
+            {
+              "code": "6058",
+              "display": "isosorbide dinitrate",
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm"
+            }
+          ],
+          "text": "isosorbide dinitrate"
+        },
+        "resourceType": "MedicationStatement",
+        "status": "active",
+        "subject": {
+          "reference": "Patient/sigir-201430"
+        }
+      }
+    },
+    "MedicationStatement/x-beb79d18fdcf37877ccc459e9d7bb9": {
+      "lines": [
+        4
+      ],
+      "resource": {
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201430-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "active"
+          }
+        ],
+        "id": "x-beb79d18fdcf37877ccc459e9d7bb9",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "code": "hydrochlorothiazide",
+              "display": "hydrochlorothiazide",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            },
+            {
+              "code": "5487",
+              "display": "hydrochlorothiazide",
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm"
+            }
+          ],
+          "text": "hydrochlorothiazide"
+        },
+        "resourceType": "MedicationStatement",
+        "status": "active",
+        "subject": {
+          "reference": "Patient/sigir-201430"
+        }
+      }
+    },
+    "MedicationStatement/x-d4da08e877de32cd31ee8c1283a506": {
+      "lines": [
+        4
+      ],
+      "resource": {
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201430-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "active"
+          }
+        ],
+        "id": "x-d4da08e877de32cd31ee8c1283a506",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "code": "aspirin",
+              "display": "aspirin",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            },
+            {
+              "code": "1191",
+              "display": "aspirin",
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm"
+            }
+          ],
+          "text": "aspirin"
+        },
+        "resourceType": "MedicationStatement",
+        "status": "active",
+        "subject": {
+          "reference": "Patient/sigir-201430"
+        }
+      }
+    },
+    "Observation/x-486c399b167d7262cc09b3b35e70f8": {
+      "lines": [
+        5
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "heart_rate",
+              "display": "heart rate",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            },
+            {
+              "code": "8867-4",
+              "display": "Heart rate",
+              "system": "http://loinc.org"
+            }
+          ],
+          "text": "heart rate"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201430-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "presentation"
+          }
+        ],
+        "id": "x-486c399b167d7262cc09b3b35e70f8",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201430"
+        },
+        "valueQuantity": {
+          "code": "/min",
+          "system": "http://unitsofmeasure.org",
+          "unit": "/min",
+          "value": 67
+        }
+      }
+    },
+    "Observation/x-796ba432b8202c1d96ebd53199d043": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "woman",
+              "display": "woman",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "woman"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201430-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "note abstraction"
+          }
+        ],
+        "id": "x-796ba432b8202c1d96ebd53199d043",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201430"
+        },
+        "valueBoolean": false
+      }
+    },
+    "Observation/x-956069a97fa4fd9d8c8ec7701c2c57": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "male_or_female",
+              "display": "male or female",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "male or female"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201430-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "note abstraction"
+          }
+        ],
+        "id": "x-956069a97fa4fd9d8c8ec7701c2c57",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201430"
+        },
+        "valueBoolean": true
+      }
+    },
+    "Observation/x-e690b2f79dee21ce2168d496a64d0d": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "age-at-presentation",
+              "display": "age at presentation",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            },
+            {
+              "code": "30525-0",
+              "display": "Age",
+              "system": "http://loinc.org"
+            }
+          ],
+          "text": "age at presentation"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201430-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "age at vignette presentation"
+          }
+        ],
+        "id": "x-e690b2f79dee21ce2168d496a64d0d",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201430"
+        },
+        "valueQuantity": {
+          "code": "a",
+          "system": "http://unitsofmeasure.org",
+          "unit": "a",
+          "value": 72
+        }
+      }
+    }
+  },
+  "Patient/sigir-20144": {
+    "Observation/x-076348f52b758fd793ed14a893b39d": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "woman",
+              "display": "woman",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "woman"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-20144-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "note abstraction"
+          }
+        ],
+        "id": "x-076348f52b758fd793ed14a893b39d",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-20144"
+        },
+        "valueBoolean": false
+      }
+    },
+    "Observation/x-25b20b985877026af7ba56280e8b19": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "age-at-presentation",
+              "display": "age at presentation",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            },
+            {
+              "code": "30525-0",
+              "display": "Age",
+              "system": "http://loinc.org"
+            }
+          ],
+          "text": "age at presentation"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-20144-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "age at vignette presentation"
+          }
+        ],
+        "id": "x-25b20b985877026af7ba56280e8b19",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-20144"
+        },
+        "valueQuantity": {
+          "code": "a",
+          "system": "http://unitsofmeasure.org",
+          "unit": "a",
+          "value": 2
+        }
+      }
+    },
+    "Observation/x-edd71fe06e8e7d6a8eb0f967bfd6e2": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "male_or_female",
+              "display": "male or female",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "male or female"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-20144-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "note abstraction"
+          }
+        ],
+        "id": "x-edd71fe06e8e7d6a8eb0f967bfd6e2",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-20144"
+        },
+        "valueBoolean": true
+      }
+    }
+  },
+  "Patient/sigir-20146": {
+    "Observation/x-89896015579427148e6a1ab8849e3a": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "age-at-presentation",
+              "display": "age at presentation",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            },
+            {
+              "code": "30525-0",
+              "display": "Age",
+              "system": "http://loinc.org"
+            }
+          ],
+          "text": "age at presentation"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-20146-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "age at vignette presentation"
+          }
+        ],
+        "id": "x-89896015579427148e6a1ab8849e3a",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-20146"
+        },
+        "valueQuantity": {
+          "code": "a",
+          "system": "http://unitsofmeasure.org",
+          "unit": "a",
+          "value": 64
+        }
+      }
+    }
+  },
+  "Patient/sigir-20147": {
+    "MedicationStatement/x-5973ef7c15b7cc0574832cda0c2d78": {
+      "lines": [
+        5
+      ],
+      "resource": {
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-20147-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "active"
+          }
+        ],
+        "id": "x-5973ef7c15b7cc0574832cda0c2d78",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "code": "lithium-carbonate",
+              "display": "lithium carbonate",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            },
+            {
+              "code": "42351",
+              "display": "lithium carbonate",
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm"
+            }
+          ],
+          "text": "lithium carbonate"
+        },
+        "resourceType": "MedicationStatement",
+        "status": "active",
+        "subject": {
+          "reference": "Patient/sigir-20147"
+        }
+      }
+    },
+    "MedicationStatement/x-5e63468523e14105b5f4877b3370fc": {
+      "lines": [
+        5
+      ],
+      "resource": {
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-20147-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "active"
+          }
+        ],
+        "id": "x-5e63468523e14105b5f4877b3370fc",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "code": "zolpidem",
+              "display": "zolpidem",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            },
+            {
+              "code": "39993",
+              "display": "zolpidem",
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm"
+            }
+          ],
+          "text": "zolpidem"
+        },
+        "resourceType": "MedicationStatement",
+        "status": "active",
+        "subject": {
+          "reference": "Patient/sigir-20147"
+        }
+      }
+    },
+    "Observation/x-254decc7fc738d25e354b80367bde0": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "male_or_female",
+              "display": "male or female",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "male or female"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-20147-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "note abstraction"
+          }
+        ],
+        "id": "x-254decc7fc738d25e354b80367bde0",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-20147"
+        },
+        "valueBoolean": true
+      }
+    },
+    "Observation/x-9f00aab2563fb202dc5b7520f3c1ea": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "age-at-presentation",
+              "display": "age at presentation",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            },
+            {
+              "code": "30525-0",
+              "display": "Age",
+              "system": "http://loinc.org"
+            }
+          ],
+          "text": "age at presentation"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-20147-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "age at vignette presentation"
+          }
+        ],
+        "id": "x-9f00aab2563fb202dc5b7520f3c1ea",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-20147"
+        },
+        "valueQuantity": {
+          "code": "a",
+          "system": "http://unitsofmeasure.org",
+          "unit": "a",
+          "value": 26
+        }
+      }
+    },
+    "Observation/x-c583c5289e46086a42944f1804cca5": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "woman",
+              "display": "woman",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "woman"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-20147-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "note abstraction"
+          }
+        ],
+        "id": "x-c583c5289e46086a42944f1804cca5",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-20147"
+        },
+        "valueBoolean": true
+      }
+    },
+    "Observation/x-e9aa8f0896ece8d01c660464d6b7a3": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "explicit_woman_description",
+              "display": "explicit woman description",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "explicit woman description"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-20147-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "note abstraction"
+          }
+        ],
+        "id": "x-e9aa8f0896ece8d01c660464d6b7a3",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-20147"
+        },
+        "valueBoolean": true
+      }
+    }
+  },
+  "Patient/sigir-20148": {
+    "Observation/x-4ebfc053b387cbc1680418fc82ddf2": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "woman",
+              "display": "woman",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "woman"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-20148-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "note abstraction"
+          }
+        ],
+        "id": "x-4ebfc053b387cbc1680418fc82ddf2",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-20148"
+        },
+        "valueBoolean": false
+      }
+    },
+    "Observation/x-9c7b4cb5143235efad3c4d605faa99": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "male_or_female",
+              "display": "male or female",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "male or female"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-20148-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "note abstraction"
+          }
+        ],
+        "id": "x-9c7b4cb5143235efad3c4d605faa99",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-20148"
+        },
+        "valueBoolean": true
+      }
+    },
+    "Observation/x-bb9bbb53209441fe93bbe792b66064": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "age-at-presentation",
+              "display": "age at presentation",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            },
+            {
+              "code": "30525-0",
+              "display": "Age",
+              "system": "http://loinc.org"
+            }
+          ],
+          "text": "age at presentation"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-20148-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "age at vignette presentation"
+          }
+        ],
+        "id": "x-bb9bbb53209441fe93bbe792b66064",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-20148"
+        },
+        "valueQuantity": {
+          "code": "a",
+          "system": "http://unitsofmeasure.org",
+          "unit": "a",
+          "value": 62
+        }
+      }
+    }
+  },
+  "Patient/sigir-20149": {
+    "Observation/x-33fb6242aa6e8faf5ec98728248ea6": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "explicit_woman_description",
+              "display": "explicit woman description",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "explicit woman description"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-20149-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "note abstraction"
+          }
+        ],
+        "id": "x-33fb6242aa6e8faf5ec98728248ea6",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-20149"
+        },
+        "valueBoolean": true
+      }
+    },
+    "Observation/x-38e0b576c651d6139a875355e86370": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "age-at-presentation",
+              "display": "age at presentation",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            },
+            {
+              "code": "30525-0",
+              "display": "Age",
+              "system": "http://loinc.org"
+            }
+          ],
+          "text": "age at presentation"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-20149-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "age at vignette presentation"
+          }
+        ],
+        "id": "x-38e0b576c651d6139a875355e86370",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-20149"
+        },
+        "valueQuantity": {
+          "code": "a",
+          "system": "http://unitsofmeasure.org",
+          "unit": "a",
+          "value": 43
+        }
+      }
+    },
+    "Observation/x-4bced70aa15c6af071d3d1f5998e02": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "woman",
+              "display": "woman",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "woman"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-20149-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "note abstraction"
+          }
+        ],
+        "id": "x-4bced70aa15c6af071d3d1f5998e02",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-20149"
+        },
+        "valueBoolean": true
+      }
+    },
+    "Observation/x-e1a9b5a654de4380eb0cc3861254f8": {
+      "lines": [
+        0,
+        1
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "skin_condition",
+              "display": "skin condition",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "skin condition"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-20149-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "note abstraction"
+          }
+        ],
+        "id": "x-e1a9b5a654de4380eb0cc3861254f8",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-20149"
+        },
+        "valueBoolean": true
+      }
+    },
+    "Observation/x-f485349677bde22e9f2b0bdeab8d50": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "male_or_female",
+              "display": "male or female",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "male or female"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-20149-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "note abstraction"
+          }
+        ],
+        "id": "x-f485349677bde22e9f2b0bdeab8d50",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-20149"
+        },
+        "valueBoolean": true
+      }
+    }
+  },
+  "Patient/sigir-20151": {
+    "Observation/x-1680fa87fb5aac0b6751e7770260b3": {
+      "lines": [
+        3
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "active_treatment_of_any_form_not_considered",
+              "display": "active treatment of any form not considered",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "active treatment of any form not considered"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-20151-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "note abstraction"
+          }
+        ],
+        "id": "x-1680fa87fb5aac0b6751e7770260b3",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-20151"
+        },
+        "valueBoolean": false
+      }
+    },
+    "Observation/x-50f9e6b9706ab087228fe1d9f6d112": {
+      "lines": [
+        3
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "hospital_admission",
+              "display": "hospital admission",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "hospital admission"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-20151-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "note abstraction"
+          }
+        ],
+        "id": "x-50f9e6b9706ab087228fe1d9f6d112",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-20151"
+        },
+        "valueBoolean": true
+      }
+    },
+    "Observation/x-77780455c4a04d01fdf6741fae0767": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "age-at-presentation",
+              "display": "age at presentation",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            },
+            {
+              "code": "30525-0",
+              "display": "Age",
+              "system": "http://loinc.org"
+            }
+          ],
+          "text": "age at presentation"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-20151-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "age at vignette presentation"
+          }
+        ],
+        "id": "x-77780455c4a04d01fdf6741fae0767",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-20151"
+        },
+        "valueQuantity": {
+          "code": "a",
+          "system": "http://unitsofmeasure.org",
+          "unit": "a",
+          "value": 44
+        }
+      }
+    },
+    "Observation/x-c85ca7d23a633d56bd159b33d3ee18": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "male_or_female",
+              "display": "male or female",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "male or female"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-20151-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "note abstraction"
+          }
+        ],
+        "id": "x-c85ca7d23a633d56bd159b33d3ee18",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-20151"
+        },
+        "valueBoolean": true
+      }
+    },
+    "Observation/x-e9dccafe6755c047980a7c98dfc734": {
+      "lines": [
+        1
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "heart_rate",
+              "display": "heart rate",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            },
+            {
+              "code": "8867-4",
+              "display": "Heart rate",
+              "system": "http://loinc.org"
+            }
+          ],
+          "text": "heart rate"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-20151-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "presentation"
+          }
+        ],
+        "id": "x-e9dccafe6755c047980a7c98dfc734",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-20151"
+        },
+        "valueQuantity": {
+          "code": "/min",
+          "system": "http://unitsofmeasure.org",
+          "unit": "/min",
+          "value": 135
+        }
+      }
+    },
+    "Observation/x-fe1411eefd2c2a9f65185b3afe90ee": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "woman",
+              "display": "woman",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "woman"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-20151-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "note abstraction"
+          }
+        ],
+        "id": "x-fe1411eefd2c2a9f65185b3afe90ee",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-20151"
+        },
+        "valueBoolean": false
+      }
+    }
+  },
+  "Patient/sigir-201510": {
+    "Observation/x-1c0a4c38ca1fd9ed1f1b0b010e6e83": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "woman",
+              "display": "woman",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "woman"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201510-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "note abstraction"
+          }
+        ],
+        "id": "x-1c0a4c38ca1fd9ed1f1b0b010e6e83",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201510"
+        },
+        "valueBoolean": true
+      }
+    },
+    "Observation/x-817d768208b7f7f86c8a65dabea5da": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "age-at-presentation",
+              "display": "age at presentation",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            },
+            {
+              "code": "30525-0",
+              "display": "Age",
+              "system": "http://loinc.org"
+            }
+          ],
+          "text": "age at presentation"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201510-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "age at vignette presentation"
+          }
+        ],
+        "id": "x-817d768208b7f7f86c8a65dabea5da",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201510"
+        },
+        "valueQuantity": {
+          "code": "a",
+          "system": "http://unitsofmeasure.org",
+          "unit": "a",
+          "value": 38
+        }
+      }
+    },
+    "Observation/x-b692228d4b6cb7f4f84549dfd7498c": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "explicit_woman_description",
+              "display": "explicit woman description",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "explicit woman description"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201510-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "note abstraction"
+          }
+        ],
+        "id": "x-b692228d4b6cb7f4f84549dfd7498c",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201510"
+        },
+        "valueBoolean": true
+      }
+    },
+    "Observation/x-fc01096fd6c0b0bd27210b5e442afa": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "male_or_female",
+              "display": "male or female",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "male or female"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201510-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "note abstraction"
+          }
+        ],
+        "id": "x-fc01096fd6c0b0bd27210b5e442afa",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201510"
+        },
+        "valueBoolean": true
+      }
+    }
+  },
+  "Patient/sigir-201511": {
+    "Observation/x-52ac1fe57681b53dfd52999ead25f0": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "woman",
+              "display": "woman",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "woman"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201511-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "note abstraction"
+          }
+        ],
+        "id": "x-52ac1fe57681b53dfd52999ead25f0",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201511"
+        },
+        "valueBoolean": true
+      }
+    },
+    "Observation/x-aa832b4f428ceb764110b05dc111f2": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "age-at-presentation",
+              "display": "age at presentation",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            },
+            {
+              "code": "30525-0",
+              "display": "Age",
+              "system": "http://loinc.org"
+            }
+          ],
+          "text": "age at presentation"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201511-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "age at vignette presentation"
+          }
+        ],
+        "id": "x-aa832b4f428ceb764110b05dc111f2",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201511"
+        },
+        "valueQuantity": {
+          "code": "a",
+          "system": "http://unitsofmeasure.org",
+          "unit": "a",
+          "value": 56
+        }
+      }
+    },
+    "Observation/x-f456351ce6d478e866a081aca5fcda": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "male_or_female",
+              "display": "male or female",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "male or female"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201511-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "note abstraction"
+          }
+        ],
+        "id": "x-f456351ce6d478e866a081aca5fcda",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201511"
+        },
+        "valueBoolean": true
+      }
+    }
+  },
+  "Patient/sigir-201512": {
+    "Observation/x-2d12087afcdc596d34cf5e4b6e9cbf": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "male_or_female",
+              "display": "male or female",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "male or female"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201512-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "note abstraction"
+          }
+        ],
+        "id": "x-2d12087afcdc596d34cf5e4b6e9cbf",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201512"
+        },
+        "valueBoolean": true
+      }
+    },
+    "Observation/x-44b09c549a90392bd38cc45df27e6a": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "age-at-presentation",
+              "display": "age at presentation",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            },
+            {
+              "code": "30525-0",
+              "display": "Age",
+              "system": "http://loinc.org"
+            }
+          ],
+          "text": "age at presentation"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201512-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "age at vignette presentation"
+          }
+        ],
+        "id": "x-44b09c549a90392bd38cc45df27e6a",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201512"
+        },
+        "valueQuantity": {
+          "code": "a",
+          "system": "http://unitsofmeasure.org",
+          "unit": "a",
+          "value": 44
+        }
+      }
+    },
+    "Observation/x-a4282252f4cf5cc435bd87cd4a0926": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "woman",
+              "display": "woman",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "woman"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201512-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "note abstraction"
+          }
+        ],
+        "id": "x-a4282252f4cf5cc435bd87cd4a0926",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201512"
+        },
+        "valueBoolean": false
+      }
+    }
+  },
+  "Patient/sigir-201514": {
+    "MedicationStatement/x-50dc6bce6d0cbb45ea027b65e51817": {
+      "lines": [
+        2
+      ],
+      "resource": {
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201514-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "active"
+          }
+        ],
+        "id": "x-50dc6bce6d0cbb45ea027b65e51817",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "code": "iron-supplement",
+              "display": "iron supplement",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "iron supplement"
+        },
+        "resourceType": "MedicationStatement",
+        "status": "active",
+        "subject": {
+          "reference": "Patient/sigir-201514"
+        }
+      }
+    },
+    "Observation/x-2ab753a6259d322136ccd96ada59bf": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "pregnant",
+              "display": "pregnant",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "pregnant"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201514-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "note abstraction"
+          }
+        ],
+        "id": "x-2ab753a6259d322136ccd96ada59bf",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201514"
+        },
+        "valueBoolean": true
+      }
+    },
+    "Observation/x-39407fa600c37e9f5e94b6841e7548": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "explicit_woman_description",
+              "display": "explicit woman description",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "explicit woman description"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201514-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "note abstraction"
+          }
+        ],
+        "id": "x-39407fa600c37e9f5e94b6841e7548",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201514"
+        },
+        "valueBoolean": true
+      }
+    },
+    "Observation/x-b0604afad125e7c69fabe00bf707d8": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "male_or_female",
+              "display": "male or female",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "male or female"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201514-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "note abstraction"
+          }
+        ],
+        "id": "x-b0604afad125e7c69fabe00bf707d8",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201514"
+        },
+        "valueBoolean": true
+      }
+    },
+    "Observation/x-d9ce456b3a7af3dd4c86949adc78db": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "woman",
+              "display": "woman",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "woman"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201514-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "note abstraction"
+          }
+        ],
+        "id": "x-d9ce456b3a7af3dd4c86949adc78db",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201514"
+        },
+        "valueBoolean": true
+      }
+    },
+    "Observation/x-dced72ef2c5c85a17c3bbe32f2938b": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "age-at-presentation",
+              "display": "age at presentation",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            },
+            {
+              "code": "30525-0",
+              "display": "Age",
+              "system": "http://loinc.org"
+            }
+          ],
+          "text": "age at presentation"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201514-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "age at vignette presentation"
+          }
+        ],
+        "id": "x-dced72ef2c5c85a17c3bbe32f2938b",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201514"
+        },
+        "valueQuantity": {
+          "code": "a",
+          "system": "http://unitsofmeasure.org",
+          "unit": "a",
+          "value": 27
+        }
+      }
+    }
+  },
+  "Patient/sigir-201515": {
+    "Observation/x-5eaa478286462d4d9f1135a85d65d3": {
+      "lines": [
+        0,
+        1
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "cf-post-ct-or-mri-neurologic-assessment-presenting-neurologic-symptoms-established-as-nonvascular",
+              "display": "cf post ct or mri neurologic assessment presenting neurologic symptoms established as nonvascular",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "cf post ct or mri neurologic assessment presenting neurologic symptoms established as nonvascular"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201515-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "Post-CT or MRI neurologic assessment / Presenting neurologic symptoms established as nonvascular"
+          }
+        ],
+        "id": "x-5eaa478286462d4d9f1135a85d65d3",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201515"
+        },
+        "valueBoolean": false
+      }
+    }
+  },
+  "Patient/sigir-201516": {
+    "Observation/x-4f8964018a4ad81ecab64926e5ec4b": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "age-at-presentation",
+              "display": "age at presentation",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            },
+            {
+              "code": "30525-0",
+              "display": "Age",
+              "system": "http://loinc.org"
+            }
+          ],
+          "text": "age at presentation"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201516-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "age at vignette presentation"
+          }
+        ],
+        "id": "x-4f8964018a4ad81ecab64926e5ec4b",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201516"
+        },
+        "valueQuantity": {
+          "code": "a",
+          "system": "http://unitsofmeasure.org",
+          "unit": "a",
+          "value": 4
+        }
+      }
+    },
+    "Observation/x-a9d6038f934b321e7313c4120bf92f": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "male_or_female",
+              "display": "male or female",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "male or female"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201516-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "note abstraction"
+          }
+        ],
+        "id": "x-a9d6038f934b321e7313c4120bf92f",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201516"
+        },
+        "valueBoolean": true
+      }
+    },
+    "Observation/x-f86ac0dfc34a797cd86882dfd4a8ed": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "woman",
+              "display": "woman",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "woman"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201516-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "note abstraction"
+          }
+        ],
+        "id": "x-f86ac0dfc34a797cd86882dfd4a8ed",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201516"
+        },
+        "valueBoolean": false
+      }
+    }
+  },
+  "Patient/sigir-201517": {
+    "Observation/x-04985170dfd7d9a7ad4b798f7c3ec5": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "woman",
+              "display": "woman",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "woman"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201517-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "note abstraction"
+          }
+        ],
+        "id": "x-04985170dfd7d9a7ad4b798f7c3ec5",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201517"
+        },
+        "valueBoolean": true
+      }
+    },
+    "Observation/x-1bb38d82bbaa9c54694c612062736e": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "male_or_female",
+              "display": "male or female",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "male or female"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201517-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "note abstraction"
+          }
+        ],
+        "id": "x-1bb38d82bbaa9c54694c612062736e",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201517"
+        },
+        "valueBoolean": true
+      }
+    },
+    "Observation/x-31d3c71c778beb8ecce8ab54000935": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "age-at-presentation",
+              "display": "age at presentation",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            },
+            {
+              "code": "30525-0",
+              "display": "Age",
+              "system": "http://loinc.org"
+            }
+          ],
+          "text": "age at presentation"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201517-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "age at vignette presentation"
+          }
+        ],
+        "id": "x-31d3c71c778beb8ecce8ab54000935",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201517"
+        },
+        "valueQuantity": {
+          "code": "a",
+          "system": "http://unitsofmeasure.org",
+          "unit": "a",
+          "value": 32
+        }
+      }
+    }
+  },
+  "Patient/sigir-201518": {
+    "Observation/x-2036c5f29b71f8730ff882513d18e6": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "age-at-presentation",
+              "display": "age at presentation",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            },
+            {
+              "code": "30525-0",
+              "display": "Age",
+              "system": "http://loinc.org"
+            }
+          ],
+          "text": "age at presentation"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201518-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "age at vignette presentation"
+          }
+        ],
+        "id": "x-2036c5f29b71f8730ff882513d18e6",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201518"
+        },
+        "valueQuantity": {
+          "code": "a",
+          "system": "http://unitsofmeasure.org",
+          "unit": "a",
+          "value": 65
+        }
+      }
+    },
+    "Observation/x-348b594379732aa0f969f07b267b80": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "male_or_female",
+              "display": "male or female",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "male or female"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201518-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "note abstraction"
+          }
+        ],
+        "id": "x-348b594379732aa0f969f07b267b80",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201518"
+        },
+        "valueBoolean": true
+      }
+    },
+    "Observation/x-ea3ab3be9d551638074c2070f118a5": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "woman",
+              "display": "woman",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "woman"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201518-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "note abstraction"
+          }
+        ],
+        "id": "x-ea3ab3be9d551638074c2070f118a5",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201518"
+        },
+        "valueBoolean": false
+      }
+    }
+  },
+  "Patient/sigir-201520": {
+    "Observation/x-7163fe7f1f57224c77e64baf6be12e": {
+      "lines": [
+        3
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "respiratory_rate",
+              "display": "respiratory rate",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            },
+            {
+              "code": "9279-1",
+              "display": "Respiratory rate",
+              "system": "http://loinc.org"
+            }
+          ],
+          "text": "respiratory rate"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201520-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "presentation"
+          }
+        ],
+        "id": "x-7163fe7f1f57224c77e64baf6be12e",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201520"
+        },
+        "valueQuantity": {
+          "code": "/min",
+          "system": "http://unitsofmeasure.org",
+          "unit": "/min",
+          "value": 18
+        }
+      }
+    },
+    "Observation/x-be85711838ad053aba4c9517594ac8": {
+      "lines": [
+        3
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "heart_rate",
+              "display": "heart rate",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            },
+            {
+              "code": "8867-4",
+              "display": "Heart rate",
+              "system": "http://loinc.org"
+            }
+          ],
+          "text": "heart rate"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201520-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "presentation"
+          }
+        ],
+        "id": "x-be85711838ad053aba4c9517594ac8",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201520"
+        },
+        "valueQuantity": {
+          "code": "/min",
+          "system": "http://unitsofmeasure.org",
+          "unit": "/min",
+          "value": 61
+        }
+      }
+    }
+  },
+  "Patient/sigir-201521": {
+    "Observation/x-970cb6739ad62e6674d9439f3fb27d": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "woman",
+              "display": "woman",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "woman"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201521-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "note abstraction"
+          }
+        ],
+        "id": "x-970cb6739ad62e6674d9439f3fb27d",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201521"
+        },
+        "valueBoolean": false
+      }
+    },
+    "Observation/x-a3f057614900fe10b7c005a74a4dea": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "age-at-presentation",
+              "display": "age at presentation",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            },
+            {
+              "code": "30525-0",
+              "display": "Age",
+              "system": "http://loinc.org"
+            }
+          ],
+          "text": "age at presentation"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201521-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "age at vignette presentation"
+          }
+        ],
+        "id": "x-a3f057614900fe10b7c005a74a4dea",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201521"
+        },
+        "valueQuantity": {
+          "code": "a",
+          "system": "http://unitsofmeasure.org",
+          "unit": "a",
+          "value": 32
+        }
+      }
+    },
+    "Observation/x-cde18335d13eab54e8d0d50251b53f": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "male_or_female",
+              "display": "male or female",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "male or female"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201521-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "note abstraction"
+          }
+        ],
+        "id": "x-cde18335d13eab54e8d0d50251b53f",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201521"
+        },
+        "valueBoolean": true
+      }
+    }
+  },
+  "Patient/sigir-201522": {
+    "Observation/x-4f4bab4f41e8059ad94aa125581e37": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "woman",
+              "display": "woman",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "woman"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201522-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "note abstraction"
+          }
+        ],
+        "id": "x-4f4bab4f41e8059ad94aa125581e37",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201522"
+        },
+        "valueBoolean": false
+      }
+    },
+    "Observation/x-e9f55db6f303f53cf8923f363efdc8": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "age-at-presentation",
+              "display": "age at presentation",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            },
+            {
+              "code": "30525-0",
+              "display": "Age",
+              "system": "http://loinc.org"
+            }
+          ],
+          "text": "age at presentation"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201522-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "age at vignette presentation"
+          }
+        ],
+        "id": "x-e9f55db6f303f53cf8923f363efdc8",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201522"
+        },
+        "valueQuantity": {
+          "code": "a",
+          "system": "http://unitsofmeasure.org",
+          "unit": "a",
+          "value": 65
+        }
+      }
+    },
+    "Observation/x-f93565a87b6628c5febdda2de30495": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "male_or_female",
+              "display": "male or female",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "male or female"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201522-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "note abstraction"
+          }
+        ],
+        "id": "x-f93565a87b6628c5febdda2de30495",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201522"
+        },
+        "valueBoolean": true
+      }
+    }
+  },
+  "Patient/sigir-201523": {
+    "Observation/x-86bb2f6c9871d766845d409c7f2f7a": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "age-at-presentation",
+              "display": "age at presentation",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            },
+            {
+              "code": "30525-0",
+              "display": "Age",
+              "system": "http://loinc.org"
+            }
+          ],
+          "text": "age at presentation"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201523-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "age at vignette presentation"
+          }
+        ],
+        "id": "x-86bb2f6c9871d766845d409c7f2f7a",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201523"
+        },
+        "valueQuantity": {
+          "code": "a",
+          "system": "http://unitsofmeasure.org",
+          "unit": "a",
+          "value": 18
+        }
+      }
+    },
+    "Observation/x-bfc4a23b106ecf38efdf56d0b55988": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "woman",
+              "display": "woman",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "woman"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201523-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "note abstraction"
+          }
+        ],
+        "id": "x-bfc4a23b106ecf38efdf56d0b55988",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201523"
+        },
+        "valueBoolean": false
+      }
+    },
+    "Observation/x-f5cadf127f47a5f6d76283affbf6a6": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "male_or_female",
+              "display": "male or female",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "male or female"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201523-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "note abstraction"
+          }
+        ],
+        "id": "x-f5cadf127f47a5f6d76283affbf6a6",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201523"
+        },
+        "valueBoolean": true
+      }
+    }
+  },
+  "Patient/sigir-201524": {
+    "Observation/x-6f98b41aae31c3e38ba79b96f155b0": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "woman",
+              "display": "woman",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "woman"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201524-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "note abstraction"
+          }
+        ],
+        "id": "x-6f98b41aae31c3e38ba79b96f155b0",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201524"
+        },
+        "valueBoolean": false
+      }
+    },
+    "Observation/x-daf58f340089b0c7bdb523d64f04da": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "male_or_female",
+              "display": "male or female",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "male or female"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201524-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "note abstraction"
+          }
+        ],
+        "id": "x-daf58f340089b0c7bdb523d64f04da",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201524"
+        },
+        "valueBoolean": true
+      }
+    },
+    "Observation/x-f47dbd7fc7aedaeec2b7ad92885c76": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "age-at-presentation",
+              "display": "age at presentation",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            },
+            {
+              "code": "30525-0",
+              "display": "Age",
+              "system": "http://loinc.org"
+            }
+          ],
+          "text": "age at presentation"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201524-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "age at vignette presentation"
+          }
+        ],
+        "id": "x-f47dbd7fc7aedaeec2b7ad92885c76",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201524"
+        },
+        "valueQuantity": {
+          "code": "a",
+          "system": "http://unitsofmeasure.org",
+          "unit": "a",
+          "value": 31
+        }
+      }
+    }
+  },
+  "Patient/sigir-20153": {
+    "Observation/x-6454e86b742c81b54f8029b2211aa4": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "male_or_female",
+              "display": "male or female",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "male or female"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-20153-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "note abstraction"
+          }
+        ],
+        "id": "x-6454e86b742c81b54f8029b2211aa4",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-20153"
+        },
+        "valueBoolean": true
+      }
+    },
+    "Observation/x-b65828f44ce6ce0c57f15b49b99e8e": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "woman",
+              "display": "woman",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "woman"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-20153-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "note abstraction"
+          }
+        ],
+        "id": "x-b65828f44ce6ce0c57f15b49b99e8e",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-20153"
+        },
+        "valueBoolean": false
+      }
+    },
+    "Observation/x-ed3708d09e7dd22d62124cf4235a22": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "age-at-presentation",
+              "display": "age at presentation",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            },
+            {
+              "code": "30525-0",
+              "display": "Age",
+              "system": "http://loinc.org"
+            }
+          ],
+          "text": "age at presentation"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-20153-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "age at vignette presentation"
+          }
+        ],
+        "id": "x-ed3708d09e7dd22d62124cf4235a22",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-20153"
+        },
+        "valueQuantity": {
+          "code": "a",
+          "system": "http://unitsofmeasure.org",
+          "unit": "a",
+          "value": 65
+        }
+      }
+    }
+  },
+  "Patient/sigir-20154": {
+    "Observation/x-06fb8df62bfc96c4fdd32e85ba8909": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "age-at-presentation",
+              "display": "age at presentation",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            },
+            {
+              "code": "30525-0",
+              "display": "Age",
+              "system": "http://loinc.org"
+            }
+          ],
+          "text": "age at presentation"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-20154-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "age at vignette presentation"
+          }
+        ],
+        "id": "x-06fb8df62bfc96c4fdd32e85ba8909",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-20154"
+        },
+        "valueQuantity": {
+          "code": "a",
+          "system": "http://unitsofmeasure.org",
+          "unit": "a",
+          "value": 82
+        }
+      }
+    },
+    "Observation/x-975c925efae3430843d02e5ef6dda0": {
+      "lines": [
+        2
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "respiratory_rate",
+              "display": "respiratory rate",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            },
+            {
+              "code": "9279-1",
+              "display": "Respiratory rate",
+              "system": "http://loinc.org"
+            }
+          ],
+          "text": "respiratory rate"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-20154-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "presentation"
+          }
+        ],
+        "id": "x-975c925efae3430843d02e5ef6dda0",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-20154"
+        },
+        "valueQuantity": {
+          "code": "/min",
+          "system": "http://unitsofmeasure.org",
+          "unit": "/min",
+          "value": 18
+        }
+      }
+    },
+    "Observation/x-aab5456f9b52ce23ea497d9b0163df": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "male_or_female",
+              "display": "male or female",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "male or female"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-20154-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "note abstraction"
+          }
+        ],
+        "id": "x-aab5456f9b52ce23ea497d9b0163df",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-20154"
+        },
+        "valueBoolean": true
+      }
+    },
+    "Observation/x-c460e9959924899f7b53436f94a8fc": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "explicit_woman_description",
+              "display": "explicit woman description",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "explicit woman description"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-20154-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "note abstraction"
+          }
+        ],
+        "id": "x-c460e9959924899f7b53436f94a8fc",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-20154"
+        },
+        "valueBoolean": true
+      }
+    },
+    "Observation/x-caa9a57ce1316db6094f03f12eab4a": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "woman",
+              "display": "woman",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "woman"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-20154-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "note abstraction"
+          }
+        ],
+        "id": "x-caa9a57ce1316db6094f03f12eab4a",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-20154"
+        },
+        "valueBoolean": true
+      }
+    }
+  },
+  "Patient/sigir-20156": {
+    "Observation/x-2fde43743d5f3b02d8c86bab9d0ed3": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "explicit_woman_description",
+              "display": "explicit woman description",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "explicit woman description"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-20156-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "note abstraction"
+          }
+        ],
+        "id": "x-2fde43743d5f3b02d8c86bab9d0ed3",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-20156"
+        },
+        "valueBoolean": true
+      }
+    },
+    "Observation/x-44856bc0e2bc31c45ad2aaee7a6191": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "age-at-presentation",
+              "display": "age at presentation",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            },
+            {
+              "code": "30525-0",
+              "display": "Age",
+              "system": "http://loinc.org"
+            }
+          ],
+          "text": "age at presentation"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-20156-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "age at vignette presentation"
+          }
+        ],
+        "id": "x-44856bc0e2bc31c45ad2aaee7a6191",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-20156"
+        },
+        "valueQuantity": {
+          "code": "a",
+          "system": "http://unitsofmeasure.org",
+          "unit": "a",
+          "value": 46
+        }
+      }
+    },
+    "Observation/x-6e3c1d6e3575e02ea1936e38cde4a3": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "male_or_female",
+              "display": "male or female",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "male or female"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-20156-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "note abstraction"
+          }
+        ],
+        "id": "x-6e3c1d6e3575e02ea1936e38cde4a3",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-20156"
+        },
+        "valueBoolean": true
+      }
+    },
+    "Observation/x-87ced112720d7fd2afb6125705ea4d": {
+      "lines": [
+        2
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "heart_rate",
+              "display": "heart rate",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            },
+            {
+              "code": "8867-4",
+              "display": "Heart rate",
+              "system": "http://loinc.org"
+            }
+          ],
+          "text": "heart rate"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-20156-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "presentation"
+          }
+        ],
+        "id": "x-87ced112720d7fd2afb6125705ea4d",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-20156"
+        },
+        "valueQuantity": {
+          "code": "/min",
+          "system": "http://unitsofmeasure.org",
+          "unit": "/min",
+          "value": 110
+        }
+      }
+    },
+    "Observation/x-b2d7a444949cb06026088d0eacdc2d": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "woman",
+              "display": "woman",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "woman"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-20156-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "note abstraction"
+          }
+        ],
+        "id": "x-b2d7a444949cb06026088d0eacdc2d",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-20156"
+        },
+        "valueBoolean": true
+      }
+    }
+  },
+  "Patient/sigir-20157": {
+    "Observation/x-2b0d9c228c85d416eb430feb48976a": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "woman",
+              "display": "woman",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "woman"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-20157-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "note abstraction"
+          }
+        ],
+        "id": "x-2b0d9c228c85d416eb430feb48976a",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-20157"
+        },
+        "valueBoolean": true
+      }
+    },
+    "Observation/x-7d87e7cf7abf8ed6972a32fdb3224c": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "male_or_female",
+              "display": "male or female",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            }
+          ],
+          "text": "male or female"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-20157-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "note abstraction"
+          }
+        ],
+        "id": "x-7d87e7cf7abf8ed6972a32fdb3224c",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-20157"
+        },
+        "valueBoolean": true
+      }
+    },
+    "Observation/x-bb049bb2043e413bee7d0638df9988": {
+      "lines": [
+        0
+      ],
+      "resource": {
+        "code": {
+          "coding": [
+            {
+              "code": "age-at-presentation",
+              "display": "age at presentation",
+              "system": "urn:pocketmd:trialgpt:clinical:v1"
+            },
+            {
+              "code": "30525-0",
+              "display": "Age",
+              "system": "http://loinc.org"
+            }
+          ],
+          "text": "age at presentation"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-20157-note"
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "age at vignette presentation"
+          }
+        ],
+        "id": "x-bb049bb2043e413bee7d0638df9988",
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-20157"
+        },
+        "valueQuantity": {
+          "code": "a",
+          "system": "http://unitsofmeasure.org",
+          "unit": "a",
+          "value": 20
+        }
+      }
+    }
+  }
+}

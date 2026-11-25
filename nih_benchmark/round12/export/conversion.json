@@ -1,0 +1,20 @@
+{
+  "recorded": "2026-11-24T06:28:41+00:00",
+  "cases": 53,
+  "unique_resources": 1008,
+  "resource_counts": {
+    "Device": 2,
+    "Patient": 52,
+    "DocumentReference": 53,
+    "Observation": 396,
+    "Provenance": 450,
+    "Condition": 31,
+    "Procedure": 11,
+    "FamilyMemberHistory": 3,
+    "Group": 1,
+    "MedicationStatement": 9
+  },
+  "structured_facts": 450,
+  "source_sentences": 326,
+  "sentences_with_structured_facts": 269
+}

@@ -1,0 +1,26 @@
+{
+  "verdict": "PASS",
+  "obligations": [
+    {
+      "source_id": "criterion",
+      "quote": "adult patients,  >  /  = 18 years of age",
+      "coverage": "REPRESENTED",
+      "detail": "The text states an inclusive lower bound. The age leaf accepts exactly 18 and ages above 18 and rejects a known age below 18. There is no upper bound or second condition."
+    },
+    {
+      "source_id": "protocol",
+      "quote": "evaluate this positive age requirement as an inclusion predicate at the selected screening encounter.",
+      "coverage": "REPRESENTED",
+      "detail": "The synthetic encounter fixes when completed age is observed. A true leaf satisfies the positive predicate. An unavailable date of birth leaves age unknown."
+    },
+    {
+      "source_id": "protocol",
+      "quote": "The source fragment has no accompanying inclusion/exclusion heading or governing protocol.",
+      "coverage": "CONTEXT",
+      "detail": "Polarity and encounter timing are fixture conventions. The released excerpt supports the numeric comparison only."
+    }
+  ],
+  "questions": [],
+  "gaps": [],
+  "reason": "The proposed leaf and bound implement the source wording within the declared synthetic comparison. The catalog defines completed calendar years and the screening anchor."
+}

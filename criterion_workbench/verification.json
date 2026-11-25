@@ -1,0 +1,66 @@
+{
+  "date_local": "2026-11-20",
+  "mode": "offline research verification on clean extraction",
+  "baseline_verified_checks": 227,
+  "pipeline_unit_and_integration_tests_passed": 55,
+  "demo": {
+    "mode": "offline research replay, synthetic patient records",
+    "age_criterion": {
+      "state": "READY",
+      "patient_cases": {
+        "eighteenth_birthday": "MET",
+        "one_day_under": "NOT_MET",
+        "birth_date_missing": "MISSING_DATA"
+      },
+      "evidence_at_boundary": [
+        "Encounter/synthetic-screen/_history/1",
+        "Patient/synthetic-age-example/_history/1"
+      ]
+    },
+    "progression_criterion": {
+      "state": "PROTOCOL_AND_BINDING_REVIEW",
+      "new_questions": [
+        {
+          "id": "SOTIO-PROGRESSION",
+          "question": "If the previous treatment ended eight months before screening and RECIST progression was documented two months before screening, is the six-month timing requirement met? Which event or events must fall within six months?"
+        },
+        {
+          "id": "PMD-fc6ee1b04d895cab39076012",
+          "question": "For a course with repeated administrations, does progression after treatment has begun qualify while that course continues, or must progression follow the last actual administration or the documented end of the course?"
+        },
+        {
+          "id": "PMD-985bf0d783ae554ff4104d65",
+          "question": "If a patient has received another course since a qualifying progression, can PD associated with an earlier course meet item 18, or must the progression follow the course immediately preceding screening?"
+        }
+      ],
+      "binding_gaps": [
+        "Overall timepoint PD for this malignancy, with explicit RECIST 1.1 method and coverage of measurable and non-measurable disease.",
+        "Clinical effective date of the same RECIST PD event, available for the screening assessment.",
+        "An actual disease-directed treatment course for the index malignancy, including modality, course identity and the event dates needed to establish sequence and recency.",
+        "Source-supported relationship between the response, the treatment course, the same patient and the malignancy under review."
+      ],
+      "new_questions_on_repeat": [],
+      "new_binding_gaps_on_repeat": []
+    },
+    "new_synthetic_trial": {
+      "before_reference": "VALIDATION_HOLD",
+      "after_reference": "READY",
+      "on_21st_birthday": "MET"
+    },
+    "reference_replays": {
+      "Michigan_index_episode": "MET",
+      "REC_adolescent_Lansky_70": "MET"
+    }
+  },
+  "original_four_site_zip_sha256": "d393c2cd4137fa227d03d06bb902187010a8fa4f68caaacbd601863b6a9aff40",
+  "source_scope": "One example criterion in each of four inventoried studies; original clinical protocols, synthetic patient records. Additional fictional standalone 21-year criterion tested through external PDF intake.",
+  "authoring_provenance": "One new in-session NEOK age model response; the saved prior SOTIO blinded model response; Michigan and REC explicitly reference-derived interoperability inputs; synthetic new PDF fixture. See examples/author-provenance.json.",
+  "live_provider_checks": {
+    "in_session_author": "NEOK age response generated",
+    "standalone_codex_cli": "Neutral synthetic-only probe stopped at application initialization: read-only filesystem (os error 30). No model output.",
+    "openai_responses_api": "Synthetic HTTP tests passed; no API key in test environment. No live API call."
+  },
+  "clinical_validation": "pending",
+  "hospital_feed_mapping": "unverified",
+  "notification_delivery": "CLI action queue and filtered stdout only"
+}

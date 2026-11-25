@@ -1,0 +1,299 @@
+{
+  "source_url": "https://trec.nist.gov/data/clinical/answers-2014.xlsx",
+  "source_description": "https://trec.nist.gov/data/clinical2014.html",
+  "source_sha256": "65c7faf89e7cf262c83e7d4e548ba47e738997e6a3c68258c090e29a46cd496b",
+  "n_patients_or_groups": 29,
+  "source_use": "Review only. A listed diagnosis is a differential, a proposed test has no result, and a proposed treatment has no administration.",
+  "records": {
+    "sigir-20141": {
+      "subject": "Patient/sigir-20141",
+      "sheet": "Sheet1",
+      "row": 2,
+      "subject_source_sha256": "2f12c68c43f30f489cf4cd56b180bdde99acef642cdaeec017d7ad18a2d93202",
+      "differential": "Coronary heart disease (Angina pectoris), stable or unstable\nMyocardial Infarction\nAcute coronary syndrome (ACS)\nGastroesophageal reflux (GER)",
+      "differential_cell": "E2",
+      "context": "retrospective educational interpretation",
+      "promoted_clinical_assertions": []
+    },
+    "sigir-20142": {
+      "subject": "Patient/sigir-20142",
+      "sheet": "Sheet1",
+      "row": 3,
+      "subject_source_sha256": "190e19212725660d52bc5b51c635644cf2b6af8ff037128327d7563220118625",
+      "differential": "Tick-borne disease (Rocky Mountain Spotted Fever)\nMycoplasma pneumonia\nHantavirus",
+      "differential_cell": "E3",
+      "context": "retrospective educational interpretation",
+      "promoted_clinical_assertions": []
+    },
+    "sigir-20143": {
+      "subject": "Patient/sigir-20143",
+      "sheet": "Sheet1",
+      "row": 4,
+      "subject_source_sha256": "7db7b98d01354acf855cd7b610383ea9dd1df80ead35eeb47b9ba43467b559ad",
+      "differential": "Lung Adenocarcinoma and CNS Metastasis\nCarcinoma of the Lung with Metastasis\nSmall cell lung cancer\nnon-small cell lung cancer\nMetastatic disease to the lung",
+      "differential_cell": "E4",
+      "context": "retrospective educational interpretation",
+      "promoted_clinical_assertions": []
+    },
+    "sigir-20144": {
+      "subject": "Patient/sigir-20144",
+      "sheet": "Sheet1",
+      "row": 5,
+      "subject_source_sha256": "b84f8404e9c22885aa68fdc3dcafea94221f249e77b257611aa12581d9195e7b",
+      "differential": "Kawasaki disease\ninfectious exanthemas of childhood\nreactions to drugs",
+      "differential_cell": "E5",
+      "context": "retrospective educational interpretation",
+      "promoted_clinical_assertions": []
+    },
+    "sigir-20145": {
+      "subject": "Patient/sigir-20145",
+      "sheet": "Sheet1",
+      "row": 6,
+      "subject_source_sha256": "d1e5fa28bdd53b8bc93180a790d5c5c7ac11d6f27a58b0be97c1670d94045cf8",
+      "differential": "Pulmonary embolism\nVenous thromboembolism",
+      "differential_cell": "E6",
+      "context": "retrospective educational interpretation",
+      "promoted_clinical_assertions": []
+    },
+    "sigir-20146": {
+      "subject": "Patient/sigir-20146",
+      "sheet": "Sheet1",
+      "row": 7,
+      "subject_source_sha256": "22f6ea5a775d6019acbaea70d047802924963c446af7e6dc2e61ef9f88c0abe9",
+      "differential": "Diabetic foot ulcer\nCellulitis\nAbscess",
+      "differential_cell": "E7",
+      "context": "retrospective educational interpretation",
+      "promoted_clinical_assertions": []
+    },
+    "sigir-20147": {
+      "subject": "Patient/sigir-20147",
+      "sheet": "Sheet1",
+      "row": 8,
+      "subject_source_sha256": "867d6d6173382ea0098563cdd4ba6bca14e5b05368f31b6aa0d696316fd9160b",
+      "differential": "Adverse reaction to zolpidem\nZolpidem - lithium interaction\nMedical non-compliance\nMedication tolerance",
+      "differential_cell": "E8",
+      "context": "retrospective educational interpretation",
+      "promoted_clinical_assertions": []
+    },
+    "sigir-20148": {
+      "subject": "Patient/sigir-20148",
+      "sheet": "Sheet1",
+      "row": 9,
+      "subject_source_sha256": "1223a13fef1f8204929da1d739cdd28442607067f1ab2ef56d02ea928dab2253",
+      "differential": "Creutzfeldt-Jakob disease (CJD)\nprogressive encephalitis with rigidity and myoclonus\nAlzheimer’s disease\nHuntington’s disease",
+      "differential_cell": "E9",
+      "context": "retrospective educational interpretation",
+      "promoted_clinical_assertions": []
+    },
+    "sigir-20149": {
+      "subject": "Patient/sigir-20149",
+      "sheet": "Sheet1",
+      "row": 10,
+      "subject_source_sha256": "2092b6ca515b1931f317a278b8742d3598cf2e09c5e5cc0f6ff779618ecd8a32",
+      "differential": "Acrochordons (skin tags)\ndermal nevus\nseborrheic keratosis\nneurofibroma\nfibroepithelioma of Pinkus",
+      "differential_cell": "E10",
+      "context": "retrospective educational interpretation",
+      "promoted_clinical_assertions": []
+    },
+    "sigir-201410": {
+      "subject": "Patient/sigir-201410",
+      "sheet": "Sheet1",
+      "row": 11,
+      "subject_source_sha256": "d75a03711fc9b2a5995355dd47a4a7618bfc96838c461f73d2d687f0cd1abb8d",
+      "differential": "Acute limb ischemia\nPseudoaneurysm\nArteriovenous Fistula\nDissection\nThrombosis",
+      "differential_cell": "E11",
+      "context": "retrospective educational interpretation",
+      "promoted_clinical_assertions": []
+    },
+    "sigir-201411": {
+      "subject": "Patient/sigir-201411",
+      "sheet": "Sheet1",
+      "row": 12,
+      "subject_source_sha256": "db4467fa7cba03819df27445f2090c80d6acd145a3361057f24a2fb5877aaec1",
+      "differential": "Hypovolemia\nAcute MI\nradiculopathy\ndehydration \narm claudication",
+      "differential_cell": "E12",
+      "context": "retrospective educational interpretation",
+      "promoted_clinical_assertions": []
+    },
+    "sigir-201412": {
+      "subject": "Patient/sigir-201412",
+      "sheet": "Sheet1",
+      "row": 13,
+      "subject_source_sha256": "a0eac65bc8ed1f16677856cb71a94f7da8d1202cd92ef1c5ffc0e912f9ac0020",
+      "differential": "Primary hypothyroidism\nSecondary hypothyroidism\nDepression\nAnemia",
+      "differential_cell": "E13",
+      "context": "retrospective educational interpretation",
+      "promoted_clinical_assertions": []
+    },
+    "sigir-201413": {
+      "subject": "Patient/sigir-201413",
+      "sheet": "Sheet1",
+      "row": 14,
+      "subject_source_sha256": "2c46cae14a71d4b21ec7a1e407c6049b8d4f6f766d29508adcfd33d4172d2b54",
+      "differential": "Postpartum cardiomyopathy\npulmonary edema\nPostpartum thromboembolism (pulmonary embolism)",
+      "differential_cell": "E14",
+      "context": "retrospective educational interpretation",
+      "promoted_clinical_assertions": []
+    },
+    "sigir-201414": {
+      "subject": "Patient/sigir-201414",
+      "sheet": "Sheet1",
+      "row": 15,
+      "subject_source_sha256": "907ec481451b6bd039e1d00846ab29534a5a5dc42174521b3ee1bd25b2f4d7ea",
+      "differential": "subdural hematoma\nencephalopathy\nhydrocephalus\nstroke\ndelirium",
+      "differential_cell": "E15",
+      "context": "retrospective educational interpretation",
+      "promoted_clinical_assertions": []
+    },
+    "sigir-201415": {
+      "subject": "Patient/sigir-201415",
+      "sheet": "Sheet1",
+      "row": 16,
+      "subject_source_sha256": "7b48f13174fdecd15aa559fbbd74cd92129139b36b7967ee727b622d21f891c6",
+      "differential": "Hydatidiform mole (molar pregnancy)\nPelvic tumor",
+      "differential_cell": "E16",
+      "context": "retrospective educational interpretation",
+      "promoted_clinical_assertions": []
+    },
+    "sigir-201416": {
+      "subject": "Patient/sigir-201416",
+      "sheet": "Sheet1",
+      "row": 17,
+      "subject_source_sha256": "643583196e97fc5cbfe959ade358e47a6a450495bd0c90531af44b485d536e4f",
+      "differential": "rabies \nencephalitis\nDelerium tremens\nDiphtheria\nDrug ingestion (phenothiazines and amphetamines)\nPlant ingestion (Datura fastuosa)\nTetanus",
+      "differential_cell": "E17",
+      "context": "retrospective educational interpretation",
+      "promoted_clinical_assertions": []
+    },
+    "sigir-201417": {
+      "subject": "Patient/sigir-201417",
+      "sheet": "Sheet1",
+      "row": 18,
+      "subject_source_sha256": "844349228fe841ce2694e062a791d890bf1ec69be986c3274ce2f92b88d12679",
+      "differential": "peritonitis\nnodular regenerative hyperplasia\nmalignancy\nascites",
+      "differential_cell": "E18",
+      "context": "retrospective educational interpretation",
+      "promoted_clinical_assertions": []
+    },
+    "sigir-201418": {
+      "subject": "Patient/sigir-201418",
+      "sheet": "Sheet1",
+      "row": 19,
+      "subject_source_sha256": "45c7d130440b3c40921fc87377a04f39e7ddbc476aabda31592b467122d21f32",
+      "differential": "Hemolysis and acute kidney injury\nChildhood Nephrotic Syndrome",
+      "differential_cell": "E19",
+      "context": "retrospective educational interpretation",
+      "promoted_clinical_assertions": []
+    },
+    "sigir-201419": {
+      "subject": "Patient/sigir-201419",
+      "sheet": "Sheet1",
+      "row": 20,
+      "subject_source_sha256": "fba0e3ed73e228dbe2f6761be1b0d5bffb98dad13d43c66538cce256d9fe2d81",
+      "differential": "obstruction of the esophagus due to stricture, ring, or malignancy",
+      "differential_cell": "E20",
+      "context": "retrospective educational interpretation",
+      "promoted_clinical_assertions": []
+    },
+    "sigir-201420": {
+      "subject": "Patient/sigir-201420",
+      "sheet": "Sheet1",
+      "row": 21,
+      "subject_source_sha256": "d8155cb491f1c6e54e280188d7b8e7e2d4526ff0bf14bafb246daf8a3a76ed83",
+      "differential": "acute abdomen\nAbdominal Apoplexy",
+      "differential_cell": "E21",
+      "context": "retrospective educational interpretation",
+      "promoted_clinical_assertions": []
+    },
+    "sigir-201421": {
+      "subject": "Patient/sigir-201421",
+      "sheet": "Sheet1",
+      "row": 22,
+      "subject_source_sha256": "5a9a482e5e1a855f91d433f92f8171f5ad2ae2feb5c2c6c5cdffe3511d13c5e7",
+      "differential": "Systemic lupus erythematosus (SLE)",
+      "differential_cell": "E22",
+      "context": "retrospective educational interpretation",
+      "promoted_clinical_assertions": []
+    },
+    "sigir-201422": {
+      "subject": "Patient/sigir-201422",
+      "sheet": "Sheet1",
+      "row": 23,
+      "subject_source_sha256": "804fec507dd57e54c001abd21546a58f0fdaaed3b9d153d2fcdad7a6d4f3b411",
+      "differential": "Acute appendicitis",
+      "differential_cell": "E23",
+      "context": "retrospective educational interpretation",
+      "promoted_clinical_assertions": []
+    },
+    "sigir-201423": {
+      "subject": "Patient/sigir-201423",
+      "sheet": "Sheet1",
+      "row": 24,
+      "subject_source_sha256": "8e530421201a2a4d556991baa714d579a84687eaa8b991ed837e5d05f0365d5f",
+      "differential": "acute exacerbation of chronic obstructive pulmonary disease (COPD)",
+      "differential_cell": "E24",
+      "context": "retrospective educational interpretation",
+      "promoted_clinical_assertions": []
+    },
+    "sigir-201424": {
+      "subject": "Patient/sigir-201424",
+      "sheet": "Sheet1",
+      "row": 25,
+      "subject_source_sha256": "c793d7320c8a16a8c71b768394696ee0f2b478b6157e1ef6a06afca6842d300e",
+      "differential": "Spleen rupture and intraperitoneal hemorrhage",
+      "differential_cell": "E25",
+      "context": "retrospective educational interpretation",
+      "promoted_clinical_assertions": []
+    },
+    "sigir-201425": {
+      "subject": "Patient/sigir-201425",
+      "sheet": "Sheet1",
+      "row": 26,
+      "subject_source_sha256": "5b417970f16785d4e7019681dd5b4d5656d774dad0c859520884c165ef16ec87",
+      "differential": "Traumatic Brain Injury",
+      "differential_cell": "E26",
+      "context": "retrospective educational interpretation",
+      "promoted_clinical_assertions": []
+    },
+    "sigir-201426": {
+      "subject": "Group/sigir-201426",
+      "sheet": "Sheet1",
+      "row": 27,
+      "subject_source_sha256": "6450a46fdea7dd8d7b314e62295bcdef612fdb730a2a4eebb77c5a3c2cd9136d",
+      "differential": "malaria prophylaxis in pregnant women",
+      "differential_cell": "E27",
+      "context": "retrospective educational interpretation",
+      "promoted_clinical_assertions": []
+    },
+    "sigir-201427": {
+      "subject": "Patient/sigir-201427",
+      "sheet": "Sheet1",
+      "row": 28,
+      "subject_source_sha256": "01945d0051cbf9d8ce14afd398b15c5587d600aa5dea251561509793d615f273",
+      "differential": "familial adenomatous polyposis (FAP)",
+      "differential_cell": "E28",
+      "context": "retrospective educational interpretation",
+      "promoted_clinical_assertions": []
+    },
+    "sigir-201429": {
+      "subject": "Patient/sigir-201429",
+      "sheet": "Sheet1",
+      "row": 30,
+      "subject_source_sha256": "1b49e38d288e460273b88ee9ee278e1b9abb7d1ee81c1083f367eaf02445df35",
+      "differential": "Osteoporosis prevention",
+      "differential_cell": "E30",
+      "context": "retrospective educational interpretation",
+      "promoted_clinical_assertions": []
+    },
+    "sigir-201430": {
+      "subject": "Patient/sigir-201430",
+      "sheet": "Sheet1",
+      "row": 31,
+      "subject_source_sha256": "50630321ca620a55842aff122934ae739f2d97132998b99c267a265e2e68e91a",
+      "differential": "peripheral artery disease (PAD)",
+      "differential_cell": "E31",
+      "context": "retrospective educational interpretation",
+      "promoted_clinical_assertions": []
+    }
+  }
+}

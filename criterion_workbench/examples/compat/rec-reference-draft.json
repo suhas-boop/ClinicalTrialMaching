@@ -1,0 +1,62 @@
+{
+  "criterion_id": "REC-1245-101-I05",
+  "study": "REC-1245-101",
+  "protocol_sha256": "762f804a6a745b9303138489546d3e7eceb9b4bf7ce8bd1f0d633e3db602b8de",
+  "catalog_version": "four-study-r4",
+  "polarity": "inclusion",
+  "disposition": "EXECUTABLE",
+  "obligations": [
+    {
+      "id": "obligation-1",
+      "statement": "Adults require ECOG performance status <=1.",
+      "source_locator": "Protocol version 5.0, page 47, §6.1 inclusion criterion 5; §10.6 for scale assessments"
+    },
+    {
+      "id": "obligation-2",
+      "statement": "Adolescents under 16 use Lansky and adolescents 16 or older use Karnofsky, each with a minimum score of 70.",
+      "source_locator": "Protocol version 5.0, page 47, §6.1 inclusion criterion 5; §10.6 for scale assessments"
+    }
+  ],
+  "draft": {
+    "fact": "ecog",
+    "kind": "performance",
+    "accepted": [
+      0,
+      1
+    ],
+    "age_routing": true
+  },
+  "bindings": [
+    {
+      "fact": "ecog",
+      "status": "BOUND",
+      "catalog_key": "ecog"
+    },
+    {
+      "fact": "age",
+      "status": "BOUND",
+      "catalog_key": "age"
+    },
+    {
+      "fact": "lansky",
+      "status": "BOUND",
+      "catalog_key": "lansky"
+    },
+    {
+      "fact": "karnofsky",
+      "status": "BOUND",
+      "catalog_key": "karnofsky"
+    }
+  ],
+  "clinical_questions": [],
+  "executable": {
+    "fact": "ecog",
+    "kind": "performance",
+    "accepted": [
+      0,
+      1
+    ],
+    "age_routing": true
+  },
+  "rationale": "Compatibility fixture derived from the previously registered rule. No new model generation."
+}

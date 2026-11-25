@@ -1,0 +1,9 @@
+{
+ "sigir-20143":{"age_years":[58,[0]]},
+ "sigir-201411":{"age_years":[40,[0]]},
+ "sigir-201414":{"age_years":[85,[0]]},
+ "sigir-201417":{"immune_deficiency":[true,[0]]},
+ "sigir-201424":{"age_years":[33,[0]],"male_or_female":[true,[0]]},
+ "sigir-201427":{"age_years":[21,[0]]},
+ "sigir-20153":{"age_years":[65,[0]]}
+}

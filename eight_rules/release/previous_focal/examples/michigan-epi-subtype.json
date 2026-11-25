@@ -1,0 +1,496 @@
+{
+  "context": {
+    "study": "NCT05653388",
+    "protocol_sha256": "f920e02d5b194d147a76e2c60e94884f599d3982cda8e7ecfaee2a10a5f3f08b",
+    "mode": "synthetic_demo",
+    "patient": "Patient/demo-epi-subtype-p",
+    "episode": "Condition/demo-epi-subtype-current",
+    "as_of": "2026-04-15"
+  },
+  "bundle": {
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+      {
+        "resource": {
+          "active": true,
+          "id": "demo-epi-subtype-p",
+          "resourceType": "Patient",
+          "meta": {
+            "versionId": "1"
+          }
+        },
+        "request": {
+          "method": "PUT",
+          "url": "Patient/demo-epi-subtype-p"
+        }
+      },
+      {
+        "resource": {
+          "subject": {
+            "reference": "Patient/demo-epi-subtype-p"
+          },
+          "code": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/sid/icd-10-cm",
+                "code": "C49.9"
+              }
+            ]
+          },
+          "id": "demo-epi-subtype-current",
+          "resourceType": "Condition",
+          "recordedDate": "2026-03-20",
+          "verificationStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                "code": "confirmed"
+              }
+            ]
+          },
+          "evidence": [
+            {
+              "detail": [
+                {
+                  "reference": "DocumentReference/demo-epi-subtype-source"
+                }
+              ]
+            }
+          ],
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-histology-morphology-behavior",
+              "valueCodeableConcept": {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/icd-o-3",
+                    "code": "8891/3"
+                  }
+                ]
+              }
+            }
+          ],
+          "meta": {
+            "versionId": "1"
+          }
+        },
+        "request": {
+          "method": "PUT",
+          "url": "Condition/demo-epi-subtype-current"
+        }
+      },
+      {
+        "resource": {
+          "status": "active",
+          "intent": "plan",
+          "subject": {
+            "reference": "Patient/demo-epi-subtype-p"
+          },
+          "addresses": [
+            {
+              "reference": "Condition/demo-epi-subtype-current"
+            }
+          ],
+          "period": {
+            "start": "2026-04-01"
+          },
+          "id": "demo-epi-subtype-current",
+          "resourceType": "CarePlan",
+          "meta": {
+            "versionId": "1"
+          }
+        },
+        "request": {
+          "method": "PUT",
+          "url": "CarePlan/demo-epi-subtype-current"
+        }
+      },
+      {
+        "resource": {
+          "subject": {
+            "reference": "Patient/demo-epi-subtype-p"
+          },
+          "code": {
+            "text": "Prior localized LMS episode"
+          },
+          "id": "demo-epi-subtype-prior",
+          "resourceType": "Condition",
+          "meta": {
+            "versionId": "1"
+          }
+        },
+        "request": {
+          "method": "PUT",
+          "url": "Condition/demo-epi-subtype-prior"
+        }
+      },
+      {
+        "resource": {
+          "status": "completed",
+          "intent": "plan",
+          "subject": {
+            "reference": "Patient/demo-epi-subtype-p"
+          },
+          "addresses": [
+            {
+              "reference": "Condition/demo-epi-subtype-prior"
+            }
+          ],
+          "period": {
+            "start": "2026-01-01",
+            "end": "2026-04-01"
+          },
+          "id": "demo-epi-subtype-prior",
+          "resourceType": "CarePlan",
+          "meta": {
+            "versionId": "1"
+          }
+        },
+        "request": {
+          "method": "PUT",
+          "url": "CarePlan/demo-epi-subtype-prior"
+        }
+      },
+      {
+        "resource": {
+          "status": "final",
+          "subject": {
+            "reference": "Patient/demo-epi-subtype-p"
+          },
+          "code": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:research:course-binding-fixture",
+                "code": "treatment-line"
+              }
+            ]
+          },
+          "focus": [
+            {
+              "reference": "CarePlan/demo-epi-subtype-current"
+            }
+          ],
+          "effectiveDateTime": "2026-04-15",
+          "valueInteger": 1,
+          "id": "demo-epi-subtype-line",
+          "resourceType": "Observation",
+          "meta": {
+            "versionId": "1"
+          }
+        },
+        "request": {
+          "method": "PUT",
+          "url": "Observation/demo-epi-subtype-line"
+        }
+      },
+      {
+        "resource": {
+          "status": "final",
+          "subject": {
+            "reference": "Patient/demo-epi-subtype-p"
+          },
+          "code": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:research:course-binding-fixture",
+                "code": "complete-course-medication-inventory"
+              }
+            ]
+          },
+          "focus": [
+            {
+              "reference": "CarePlan/demo-epi-subtype-current"
+            }
+          ],
+          "effectiveDateTime": "2026-04-15",
+          "valueBoolean": true,
+          "id": "demo-epi-subtype-inventory",
+          "resourceType": "Observation",
+          "meta": {
+            "versionId": "1"
+          }
+        },
+        "request": {
+          "method": "PUT",
+          "url": "Observation/demo-epi-subtype-inventory"
+        }
+      },
+      {
+        "resource": {
+          "status": "final",
+          "subject": {
+            "reference": "Patient/demo-epi-subtype-p"
+          },
+          "code": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:research:course-binding-fixture",
+                "code": "course-receiving"
+              }
+            ]
+          },
+          "focus": [
+            {
+              "reference": "CarePlan/demo-epi-subtype-current"
+            }
+          ],
+          "effectiveDateTime": "2026-04-15",
+          "valueBoolean": true,
+          "id": "demo-epi-subtype-on-treatment",
+          "resourceType": "Observation",
+          "meta": {
+            "versionId": "1"
+          }
+        },
+        "request": {
+          "method": "PUT",
+          "url": "Observation/demo-epi-subtype-on-treatment"
+        }
+      },
+      {
+        "resource": {
+          "subject": {
+            "reference": "Patient/demo-epi-subtype-p"
+          },
+          "medicationCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "code": "1191138"
+              }
+            ]
+          },
+          "authoredOn": "2026-04-01",
+          "status": "active",
+          "intent": "order",
+          "basedOn": [
+            {
+              "reference": "CarePlan/demo-epi-subtype-current"
+            }
+          ],
+          "id": "demo-epi-subtype-0",
+          "resourceType": "MedicationRequest",
+          "meta": {
+            "versionId": "1"
+          }
+        },
+        "request": {
+          "method": "PUT",
+          "url": "MedicationRequest/demo-epi-subtype-0"
+        }
+      },
+      {
+        "resource": {
+          "subject": {
+            "reference": "Patient/demo-epi-subtype-p"
+          },
+          "medicationCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "code": "1191138"
+              }
+            ]
+          },
+          "effectiveDateTime": "2026-04-01",
+          "request": {
+            "reference": "MedicationRequest/demo-epi-subtype-0"
+          },
+          "status": "completed",
+          "id": "demo-epi-subtype-0",
+          "resourceType": "MedicationAdministration",
+          "meta": {
+            "versionId": "1"
+          }
+        },
+        "request": {
+          "method": "PUT",
+          "url": "MedicationAdministration/demo-epi-subtype-0"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "DocumentReference",
+          "id": "demo-epi-subtype-source",
+          "status": "current",
+          "subject": {
+            "reference": "Patient/demo-epi-subtype-p"
+          },
+          "content": [
+            {
+              "attachment": {
+                "contentType": "application/json",
+                "data": "eyJoaXN0b2xvZ3kiOiAiZXBpdGhlbGlvaWQiLCAiaWQiOiAiZXBpLXN1YnR5cGUiLCAibWVkcyI6IFtbIjExOTExMzgiLCAiY3VycmVudCJdXX0="
+              }
+            }
+          ],
+          "meta": {
+            "versionId": "1"
+          }
+        },
+        "request": {
+          "method": "PUT",
+          "url": "DocumentReference/demo-epi-subtype-source"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "id": "demo-epi-subtype-metastatic",
+          "subject": {
+            "reference": "Patient/demo-epi-subtype-p"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:research:course-binding-fixture",
+                "code": "metastatic"
+              }
+            ]
+          },
+          "focus": [
+            {
+              "reference": "Condition/demo-epi-subtype-current"
+            }
+          ],
+          "effectiveDateTime": "2026-04-15",
+          "derivedFrom": [
+            {
+              "reference": "DocumentReference/demo-epi-subtype-source"
+            }
+          ],
+          "valueBoolean": true,
+          "meta": {
+            "versionId": "1"
+          }
+        },
+        "request": {
+          "method": "PUT",
+          "url": "Observation/demo-epi-subtype-metastatic"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "id": "demo-epi-subtype-advanced-treatment-setting",
+          "subject": {
+            "reference": "Patient/demo-epi-subtype-p"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:research:course-binding-fixture",
+                "code": "advanced_treatment_setting"
+              }
+            ]
+          },
+          "focus": [
+            {
+              "reference": "Condition/demo-epi-subtype-current"
+            },
+            {
+              "reference": "CarePlan/demo-epi-subtype-current"
+            }
+          ],
+          "effectiveDateTime": "2026-04-15",
+          "derivedFrom": [
+            {
+              "reference": "DocumentReference/demo-epi-subtype-source"
+            }
+          ],
+          "valueBoolean": true,
+          "meta": {
+            "versionId": "1"
+          }
+        },
+        "request": {
+          "method": "PUT",
+          "url": "Observation/demo-epi-subtype-advanced-treatment-setting"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "id": "demo-epi-subtype-cycle1-start",
+          "subject": {
+            "reference": "Patient/demo-epi-subtype-p"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:research:course-binding-fixture",
+                "code": "cycle1_start"
+              }
+            ]
+          },
+          "focus": [
+            {
+              "reference": "CarePlan/demo-epi-subtype-current"
+            }
+          ],
+          "effectiveDateTime": "2026-04-01",
+          "derivedFrom": [
+            {
+              "reference": "DocumentReference/demo-epi-subtype-source"
+            }
+          ],
+          "valueDateTime": "2026-04-01",
+          "meta": {
+            "versionId": "1"
+          }
+        },
+        "request": {
+          "method": "PUT",
+          "url": "Observation/demo-epi-subtype-cycle1-start"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "id": "demo-epi-subtype-baseline-measurable",
+          "subject": {
+            "reference": "Patient/demo-epi-subtype-p"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:research:course-binding-fixture",
+                "code": "baseline_measurable"
+              }
+            ]
+          },
+          "focus": [
+            {
+              "reference": "Condition/demo-epi-subtype-current"
+            },
+            {
+              "reference": "CarePlan/demo-epi-subtype-current"
+            }
+          ],
+          "effectiveDateTime": "2026-03-28",
+          "derivedFrom": [
+            {
+              "reference": "DocumentReference/demo-epi-subtype-source"
+            }
+          ],
+          "valueBoolean": true,
+          "method": {
+            "text": "RECIST 1.1"
+          },
+          "meta": {
+            "versionId": "1"
+          }
+        },
+        "request": {
+          "method": "PUT",
+          "url": "Observation/demo-epi-subtype-baseline-measurable"
+        }
+      }
+    ]
+  }
+}

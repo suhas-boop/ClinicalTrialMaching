@@ -1,0 +1,45 @@
+{
+  "case": 706,
+  "trial": "NCT02340533",
+  "institutional_id": "AD0152015",
+  "article": {
+    "pmid": "26581187",
+    "doi": "10.1016/j.jmig.2015.11.004"
+  },
+  "registered_completion": {
+    "date": "2015-06",
+    "type": "ACTUAL"
+  },
+  "registry_enrollment": {
+    "count": 200,
+    "type": "ESTIMATED"
+  },
+  "indexed_results": false,
+  "registry_reference_section_present": false,
+  "registry_document_section_present": false,
+  "article_pubmed_databanks": [],
+  "article_pubmed_ids": [
+    "26581187",
+    "10.1016/j.jmig.2015.11.004",
+    "S1553-4650(15)01663-5"
+  ],
+  "crossref_related_publications": {},
+  "datacite_hits_for_nct": 0,
+  "paper_methods": {
+    "end": "August 2015",
+    "enrolled": 404,
+    "analyzed_after_hysterectomy": 292,
+    "clinical_semantics": "Participants had one or more specified symptoms. The table reports dyspareunia in 98/162 and 58/130 of the two analytic groups.",
+    "url": "https://doi.org/10.1016/j.jmig.2015.11.004",
+    "fulltext_locator": "Materials and Methods and Table 2",
+    "cross_reference_found": false
+  },
+  "conclusion": "The common investigator, site, January 2015 start, procedure and intended diagnostic comparison strongly suggest related work. The record and paper differ on completion and enrollment. There is no verified version link for transferring the symptom alternatives to the frozen criterion.",
+  "coordinator_question": "Does the symptom rule in Dakhly et al. (PMID 26581187) govern AD0152015, and does any one of the listed symptoms meet this criterion?",
+  "source_digests": {
+    "dakhly-image-clinicalgov": "703eeb51dd2d813d2c462a7a1490e6497471b124f49c3b5049ea34586c52b053",
+    "dakhly-image-entrez": "5bd8c839853abe398e8734bf9d5b3c30faa6cb60d079b6f3b04b5bebf9eaa8dc",
+    "pmd-dakhly-16147": "48dd6e454ca80fa72320e085054933b0bf0485bcf225787003fcb9cb05091a12",
+    "dakhly-image-datacite": "57a1612bc6349c5def0901a1f4663f17da5e28ae465ba647bee78a6596ad6e8a"
+  }
+}

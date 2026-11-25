@@ -1,0 +1,78 @@
+{
+  "case": "706",
+  "study": "NCT02340533",
+  "registry_text": "females complaining of pelvic congestion: dysmenorrhea, dyspareunia, chronic pelvic pain, menorrhagia, metrorrhagia",
+  "registry_sha256": "3e1e69b3de29bb43f7f63af2f5d5b4df98a76f966e71531b51e12488b0683733",
+  "patient": "sigir-201510",
+  "original_note_sha256": "3063f3a37fe14e1c9fc7388b6f384f234f989cf0a5282294b72aa98f1ca4542d",
+  "presenting_line": 0,
+  "charted_positive": {
+    "dysmenorrhea": [
+      {
+        "line": 0,
+        "start": 36,
+        "end": 81,
+        "phrase": "severe premenstrual and menstrual pelvic pain"
+      }
+    ],
+    "menorrhagia": [
+      {
+        "line": 0,
+        "start": 83,
+        "end": 107,
+        "phrase": "heavy, irregular periods"
+      }
+    ],
+    "metrorrhagia": [
+      {
+        "line": 0,
+        "start": 112,
+        "end": 147,
+        "phrase": "occasional spotting between periods"
+      }
+    ]
+  },
+  "undocumented": [
+    "dyspareunia",
+    "duration supporting chronic pelvic pain",
+    "separate diagnosis of pelvic congestion"
+  ],
+  "duration_context": "Two years modifies prior infertility treatment. No symptom is explicitly denied.",
+  "counterfactuals": [
+    {
+      "quantifier": "ANY",
+      "separate_diagnosis": false,
+      "simulated_outcome": "MET"
+    },
+    {
+      "quantifier": "ANY",
+      "separate_diagnosis": true,
+      "simulated_outcome": "MISSING_DATA"
+    },
+    {
+      "quantifier": "ALL",
+      "separate_diagnosis": false,
+      "simulated_outcome": "MISSING_DATA"
+    },
+    {
+      "quantifier": "ALL",
+      "separate_diagnosis": true,
+      "simulated_outcome": "MISSING_DATA"
+    }
+  ],
+  "recovered_secondary_sources": [
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK569006/bin/niceng88er1_bm3.pdf",
+      "locator": "NICE NG88 2018 final evidence tables pp. 118\u2013121; Dakhly evidence table",
+      "findings": "The review reports symptom alternatives and that dyspareunia prevalence was 60.5% and 44.6% in the two analyzed groups. It cites Dakhly et al., reports study dates of January\u2013August 2015, and gives 404 initially enrolled and 292 analyzed. The table does not identify NCT02340533. It corroborates the analyzed publication; it does not connect a particular registered protocol version to that publication."
+    },
+    {
+      "url": "https://bevankoopman.github.io/papers/jasist-clinical_trials_query_generation.pdf",
+      "locator": "Appendix Table A2, topic 2015-10",
+      "findings": "Another paper using the exact same vignette reproduces the same symptoms, without pain during intercourse or pain duration. Proposed clinician search terms for diseases are retrieval queries. None is documented evidence of pelvic congestion."
+    }
+  ],
+  "question": "In NCT02340533/AD0152015, did any one listed presenting symptom suffice without a separate diagnosis of pelvic congestion, as in the Dakhly et al. published study? If a different combination or diagnosis was required, which one?",
+  "deterministic_state": "AUTHORING_HOLD",
+  "verified_authority_response": null
+}

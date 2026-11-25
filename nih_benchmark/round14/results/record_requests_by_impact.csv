@@ -1,0 +1,59 @@
+patient,study,document_family,criteria_in_scope,criterion_ids,evidence_sought
+Patient/sigir-201512,NCT02467309,infectious disease assessment,3,"734, 735, 738",tuberculosis | hiv | congenital immunodeficiency
+Patient/sigir-201411,NCT01526382,critical-care or respiratory record,2,"185, 187",diagnosed ards | diagnosed shock | receiving mechanical ventilation
+Patient/sigir-201420,NCT02255487,injury or emergency assessment,2,"366, 367",blunt abdominal trauma | penetrating abdominal trauma | acute surgical abdomen
+Patient/sigir-20146,NCT02512159,wound assessment,2,"115, 116",cutaneous ulcer due to insect bite | cutaneous ulcer due to leishmania | cutaneous ulcer due to burns
+Patient/sigir-201410,NCT02264964,procedure or operative record,2,"177, 179",prior central venous puncture or catheterization | maintenance hemodialysis after central venous catheterization
+Patient/sigir-201411,NCT01526382,vital-sign flowsheet,2,"186, 187",respiratory rate | heart rate
+Patient/sigir-201420,NCT02255487,procedure or operative record,2,"366, 367",open laparotomy required for acute surgical abdomen with primary closure | open laparotomy required for abdominal trauma with primary closure
+Patient/sigir-201425,NCT02378311,injury or emergency assessment,2,"475, 476",child injured by another rider at index injury | child involved in motor vehicle collision at index injury
+Patient/sigir-201522,NCT01207128,prior medication and administration record,2,"945, 946","current unlicensed investigational aspergillosis drug | continuous days of administered voriconazole, itraconazole, posaconazole, caspofungin, micafungin, anidulafungin, amphotericin B or its lipid formulation, for the index probable or proven invasive aspergillosis episode, immediately preceding randomization"
+Patient/sigir-201421,NCT00997100,cardiology or ECG record,1,396,history of mi | symptomatic congestive heart failure | unstable angina | ecg acute ischemia | severe uncontrolled ventricular arrhythmia | current uncontrolled angina
+Patient/sigir-201423,NCT00170222,critical-care or respiratory record,1,437,index copd exacerbation required hospitalization | index copd gold stage i to iv confirmed | index copd dyspnea increased | index copd exacerbation days since onset at presentation | index copd sputum purulence increased | index copd sputum volume increased
+Patient/sigir-201511,NCT01862510,prior medication and administration record,1,725,prior treatment propylthiouracil | prior treatment methimazole | prior treatment sunitinib | prior treatment lithium | prior treatment ethionamide | prior treatment amiodarone
+Patient/sigir-201417,NCT01745731,reproductive history,1,322,in protocol women population | adequate contraception | woman of childbearing age | pregnant
+Patient/sigir-201425,NCT00282269,imaging report,1,460,ct intracranial hemorrhage | ct diffuse axonal injury | normal head ct | ct cerebral edema
+Patient/sigir-20141,NCT00149227,cardiology or ECG record,1,25,severe hypertension | secondary hypertension | malignant hypertension
+Patient/sigir-201414,NCT01624545,neurology assessment,1,227,csh due to spinal csf fistula | csh due to meningeosis carcinomatosa
+Patient/sigir-201418,NCT00557219,consent or authorization record,1,336,consent refused | consent absent
+Patient/sigir-201418,NCT01260883,hematology assessment,1,328,family history of bleeding | infant history of bleeding
+Patient/sigir-201421,NCT00997100,clinical or historical assessment,1,385,can retain oral medication | can take oral medication
+Patient/sigir-201421,NCT00997100,neurology assessment,1,400,current ischemic cns disease | history ischemic cns disease
+Patient/sigir-201425,NCT00282269,injury or emergency assessment,1,460,gcs motor | traumatic brain injury
+Patient/sigir-20144,NCT00841789,infectious disease assessment,1,81,active severe infection within four weeks before screening | active severe infection between screening and baseline
+Patient/sigir-201522,NCT02534727,clinical or historical assessment,1,940,acute liver disease | acute kidney disease
+Patient/sigir-20141,NCT00149227,laboratory report,1,29,serum creatinine mg dl
+Patient/sigir-20141,NCT01397994,screening logistics or social work record,1,20,unable to travel for treatment or followup
+Patient/sigir-201410,NCT02097186,laboratory report,1,171,inr
+Patient/sigir-201410,NCT02097186,prior medication and administration record,1,171,systemic anticoagulation
+Patient/sigir-201411,NCT01526382,laboratory report,1,187,paco2 mmhg
+Patient/sigir-201413,NCT00163709,injury or emergency assessment,1,217,traumatic cause of presenting dyspnea
+Patient/sigir-201413,NCT00163709,laboratory report,1,218,Presentation serum creatinine in mg/dL or umol/L
+Patient/sigir-201413,NCT02264769,consent or authorization record,1,212,refused written consent
+Patient/sigir-201414,NCT01869855,neurology assessment,1,233,csh due to underlying illness
+Patient/sigir-201415,NCT00277680,reproductive history,1,239,postmenopausal woman
+Patient/sigir-201418,NCT01260883,clinical or historical assessment,1,330,history of gi bleeding
+Patient/sigir-201419,NCT02509286,oncology or pathology record,1,359,gastric carcinoma
+Patient/sigir-20142,NCT02618655,clinical or historical assessment,1,34,fever due to noninfectious cause
+Patient/sigir-201421,NCT00997100,infectious disease assessment,1,402,current severe infection
+Patient/sigir-201421,NCT01520155,clinical or historical assessment,1,414,systemic lupus erythematosus
+Patient/sigir-201424,NCT02229695,procedure or operative record,1,454,undergoing emergency laparotomy
+Patient/sigir-201425,NCT00282269,neurology assessment,1,467,greater than mild preinjury neurodevelopmental disability
+Patient/sigir-20144,NCT02390596,reproductive history,1,55,current pregnancy exclusion status or documented nonapplicability
+Patient/sigir-20146,NCT02512159,critical-care or respiratory record,1,109,septic shock
+Patient/sigir-20146,NCT02512159,vital-sign flowsheet,1,108,hemodynamically unstable
+Patient/sigir-20147,NCT01863628,prior medication and administration record,1,138,any past or current antipsychotic treatment
+Patient/sigir-20148,NCT01519271,behavioral health assessment,1,145,active suicidal ideation
+Patient/sigir-20148,NCT01519271,procedure or operative record,1,147,previous deep brain stimulation surgery
+Patient/sigir-201511,NCT01862510,laboratory report,1,726,prior celiac serology
+Patient/sigir-201511,NCT01862510,nuclear medicine treatment record,1,724,prior radioactive iodine therapy
+Patient/sigir-201511,NCT01862510,procedure or operative record,1,722,prior thyroid tissue resection
+Patient/sigir-201511,NCT01862510,radiation treatment record,1,723,prior neck irradiation
+Patient/sigir-201516,NCT00839124,critical-care or respiratory record,1,850,asthma exacerbations per week
+Patient/sigir-201520,NCT00182832,neurology assessment,1,890,cognitive impairment on admission screen
+Patient/sigir-201522,NCT01207128,allergy record,1,953,prior azole or echinocandin allergy hypersensitivity or serious reaction
+Patient/sigir-201522,NCT01207128,critical-care or respiratory record,1,952,on artificial ventilation
+Patient/sigir-201523,NCT00084240,hematology assessment,1,965,history of blood dyscrasia
+Patient/sigir-201524,NCT00711399,procedure or operative record,1,985,chest tube in place
+Patient/sigir-20153,NCT01139632,consent or authorization record,1,632,unable to provide written consent
+Patient/sigir-20157,NCT02633449,behavioral health assessment,1,671,unipolar major depressive disorder

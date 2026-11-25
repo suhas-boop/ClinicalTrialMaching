@@ -1,0 +1,59 @@
+{
+  "agreed_definite": 6,
+  "control_runs": 368,
+  "decided_with_citation_overlap": 5,
+  "distinct_tasks": {
+    "identify_subject": 1,
+    "investigator": 8,
+    "patient": 3,
+    "protocol_review": 18,
+    "retrieve_record": 155,
+    "study_team": 3
+  },
+  "patient_result": {
+    "AUTHORING_HOLD": 18,
+    "INVESTIGATOR_ACTIONS": 6,
+    "MET": 6,
+    "MISSING_DATA": 93,
+    "PATIENT_SURVEY": 2,
+    "SOURCE_SCOPE_HOLD": 7,
+    "STUDY_ACTION": 2
+  },
+  "patients": 44,
+  "pipeline_definite": 6,
+  "prediction_sha256": "2712a8195db5f206c553e8617802240c00224fda954b9c1ea8c731c445532a01",
+  "publisher_definite": 91,
+  "publisher_sha256": "14c547184fac9b013cd17441fd028845b40150c76b022e58334f5494077e5234",
+  "rows": 134,
+  "rule_pack_sha256": "e4c21dc82dc5356bb571b9d2de90936b503e1d5919c617aa5ab3a1425f6b929c",
+  "rule_status": {
+    "CLINICIAN_INPUT": 18,
+    "EXECUTABLE_NORMALIZED_FHIR": 116
+  },
+  "states_vs_expert": {
+    "MET": {
+      "AUTHORING_HOLD": 13,
+      "INVESTIGATOR_ACTIONS": 3,
+      "MET": 6,
+      "MISSING_DATA": 57,
+      "PATIENT_SURVEY": 2,
+      "SOURCE_SCOPE_HOLD": 4
+    },
+    "MISSING_DATA": {
+      "AUTHORING_HOLD": 3,
+      "INVESTIGATOR_ACTIONS": 1,
+      "MISSING_DATA": 32,
+      "SOURCE_SCOPE_HOLD": 3,
+      "STUDY_ACTION": 2
+    },
+    "NOT_APPLICABLE": {
+      "MISSING_DATA": 2
+    },
+    "NOT_MET": {
+      "AUTHORING_HOLD": 2,
+      "INVESTIGATOR_ACTIONS": 2,
+      "MISSING_DATA": 2
+    }
+  },
+  "trials": 68
+}

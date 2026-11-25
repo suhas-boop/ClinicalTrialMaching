@@ -1,0 +1,290 @@
+[
+  {
+    "annotation_id": 20,
+    "patient_id": "sigir-20141",
+    "trial_id": "NCT01397994",
+    "criterion_type": "exclusion",
+    "criterion_text": "Geographical inaccessibility for treatment or follow-up evaluations",
+    "note": "0. A 58-year-old African-American woman presents to the ER with episodic pressing/burning anterior chest pain that began two days earlier for the first time in her life.\n1. The pain started while she was walking, radiates to the back, and is accompanied by nausea, diaphoresis and mild dyspnea, but is not increased on inspiration.\n2. The latest episode of pain ended half an hour prior to her arrival.\n3. She is known to have hypertension and obesity.\n4. She denies smoking, diabetes, hypercholesterolemia, or a family history of heart disease.\n5. She currently takes no medications.\n6. Physical examination is normal.\n7. The EKG shows nonspecific changes.\n8. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 25,
+    "patient_id": "sigir-20141",
+    "trial_id": "NCT00149227",
+    "criterion_type": "exclusion",
+    "criterion_text": "Severe/malignant/secondary hypertensive patients",
+    "note": "0. A 58-year-old African-American woman presents to the ER with episodic pressing/burning anterior chest pain that began two days earlier for the first time in her life.\n1. The pain started while she was walking, radiates to the back, and is accompanied by nausea, diaphoresis and mild dyspnea, but is not increased on inspiration.\n2. The latest episode of pain ended half an hour prior to her arrival.\n3. She is known to have hypertension and obesity.\n4. She denies smoking, diabetes, hypercholesterolemia, or a family history of heart disease.\n5. She currently takes no medications.\n6. Physical examination is normal.\n7. The EKG shows nonspecific changes.\n8. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 26,
+    "patient_id": "sigir-20141",
+    "trial_id": "NCT00149227",
+    "criterion_type": "exclusion",
+    "criterion_text": "Pregnant women and women of childbearing potential",
+    "note": "0. A 58-year-old African-American woman presents to the ER with episodic pressing/burning anterior chest pain that began two days earlier for the first time in her life.\n1. The pain started while she was walking, radiates to the back, and is accompanied by nausea, diaphoresis and mild dyspnea, but is not increased on inspiration.\n2. The latest episode of pain ended half an hour prior to her arrival.\n3. She is known to have hypertension and obesity.\n4. She denies smoking, diabetes, hypercholesterolemia, or a family history of heart disease.\n5. She currently takes no medications.\n6. Physical examination is normal.\n7. The EKG shows nonspecific changes.\n8. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 29,
+    "patient_id": "sigir-20141",
+    "trial_id": "NCT00149227",
+    "criterion_type": "exclusion",
+    "criterion_text": "Severe renal impairment (Serum creatinine >3.0 mg/dl)",
+    "note": "0. A 58-year-old African-American woman presents to the ER with episodic pressing/burning anterior chest pain that began two days earlier for the first time in her life.\n1. The pain started while she was walking, radiates to the back, and is accompanied by nausea, diaphoresis and mild dyspnea, but is not increased on inspiration.\n2. The latest episode of pain ended half an hour prior to her arrival.\n3. She is known to have hypertension and obesity.\n4. She denies smoking, diabetes, hypercholesterolemia, or a family history of heart disease.\n5. She currently takes no medications.\n6. Physical examination is normal.\n7. The EKG shows nonspecific changes.\n8. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 142,
+    "patient_id": "sigir-20148",
+    "trial_id": "NCT01519271",
+    "criterion_type": "inclusion",
+    "criterion_text": "Participants must be experiencing symptoms of mild cognitive impairment; this will be determined by study personnel.",
+    "note": "0. A 62-year-old man sees a neurologist for progressive memory loss and jerking movements of the lower extremities.\n1. Neurologic examination confirms severe cognitive deficits and memory dysfunction.\n2. An electroencephalogram shows generalized periodic sharp waves.\n3. Neuroimaging studies show moderately advanced cerebral atrophy.\n4. A cortical biopsy shows diffuse vacuolar changes of the gray matter with reactive astrocytosis but no inflammatory infiltration.\n5. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 145,
+    "patient_id": "sigir-20148",
+    "trial_id": "NCT01519271",
+    "criterion_type": "exclusion",
+    "criterion_text": "Active suicide ideation.",
+    "note": "0. A 62-year-old man sees a neurologist for progressive memory loss and jerking movements of the lower extremities.\n1. Neurologic examination confirms severe cognitive deficits and memory dysfunction.\n2. An electroencephalogram shows generalized periodic sharp waves.\n3. Neuroimaging studies show moderately advanced cerebral atrophy.\n4. A cortical biopsy shows diffuse vacuolar changes of the gray matter with reactive astrocytosis but no inflammatory infiltration.\n5. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 147,
+    "patient_id": "sigir-20148",
+    "trial_id": "NCT01519271",
+    "criterion_type": "exclusion",
+    "criterion_text": "History of Deep Brain Stimulation surgery.",
+    "note": "0. A 62-year-old man sees a neurologist for progressive memory loss and jerking movements of the lower extremities.\n1. Neurologic examination confirms severe cognitive deficits and memory dysfunction.\n2. An electroencephalogram shows generalized periodic sharp waves.\n3. Neuroimaging studies show moderately advanced cerebral atrophy.\n4. A cortical biopsy shows diffuse vacuolar changes of the gray matter with reactive astrocytosis but no inflammatory infiltration.\n5. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 150,
+    "patient_id": "sigir-20148",
+    "trial_id": "NCT01628315",
+    "criterion_type": "inclusion",
+    "criterion_text": "Enrolled into the 2-year, double-blind, placebo-controlled ASA study and entered 3 year extension study",
+    "note": "0. A 62-year-old man sees a neurologist for progressive memory loss and jerking movements of the lower extremities.\n1. Neurologic examination confirms severe cognitive deficits and memory dysfunction.\n2. An electroencephalogram shows generalized periodic sharp waves.\n3. Neuroimaging studies show moderately advanced cerebral atrophy.\n4. A cortical biopsy shows diffuse vacuolar changes of the gray matter with reactive astrocytosis but no inflammatory infiltration.\n5. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 154,
+    "patient_id": "sigir-20149",
+    "trial_id": "NCT02615912",
+    "criterion_type": "inclusion",
+    "criterion_text": "Healthy Subjects with Fitzpatrick Skin Types I, II or III",
+    "note": "0. A 43-year-old woman visits her dermatologist for lesions on her neck.\n1. On examination, multiple lesions are seen.\n2. Each lesion is small soft, and pedunculated.\n3. The largest lesion is about 4 mm in diameter.\n4. The color of different lesions varies from flesh colored to slightly hyperpigmented.\n5. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 155,
+    "patient_id": "sigir-20149",
+    "trial_id": "NCT02615912",
+    "criterion_type": "inclusion",
+    "criterion_text": "Subjects with visible skin disease, tattoos, skin condition, or abnormal skin color",
+    "note": "0. A 43-year-old woman visits her dermatologist for lesions on her neck.\n1. On examination, multiple lesions are seen.\n2. Each lesion is small soft, and pedunculated.\n3. The largest lesion is about 4 mm in diameter.\n4. The color of different lesions varies from flesh colored to slightly hyperpigmented.\n5. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 212,
+    "patient_id": "sigir-201413",
+    "trial_id": "NCT02264769",
+    "criterion_type": "exclusion",
+    "criterion_text": "Refusal to give written informed consent.",
+    "note": "0. A 30-year-old generally healthy woman presents with shortness of breath that had started 2 hours before admission.\n1. She has had no health problems in the past besides 2 natural abortions.\n2. She had given birth to a healthy child 3 weeks before.\n3. On examination, she is apprehensive, tachypneic and tachycardic, her blood pressure is 110/70 and her oxygen saturation 92%.\n4. Otherwise, physical examination is unremarkable.\n5. Her chest x-ray and CBC are normal.\n6. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 217,
+    "patient_id": "sigir-201413",
+    "trial_id": "NCT00163709",
+    "criterion_type": "exclusion",
+    "criterion_text": "Patients presenting with a traumatic cause of dyspnea",
+    "note": "0. A 30-year-old generally healthy woman presents with shortness of breath that had started 2 hours before admission.\n1. She has had no health problems in the past besides 2 natural abortions.\n2. She had given birth to a healthy child 3 weeks before.\n3. On examination, she is apprehensive, tachypneic and tachycardic, her blood pressure is 110/70 and her oxygen saturation 92%.\n4. Otherwise, physical examination is unremarkable.\n5. Her chest x-ray and CBC are normal.\n6. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 218,
+    "patient_id": "sigir-201413",
+    "trial_id": "NCT00163709",
+    "criterion_type": "exclusion",
+    "criterion_text": "patients with severe renal disease (serum creatinine level of more than 250 micro mmol/L",
+    "note": "0. A 30-year-old generally healthy woman presents with shortness of breath that had started 2 hours before admission.\n1. She has had no health problems in the past besides 2 natural abortions.\n2. She had given birth to a healthy child 3 weeks before.\n3. On examination, she is apprehensive, tachypneic and tachycardic, her blood pressure is 110/70 and her oxygen saturation 92%.\n4. Otherwise, physical examination is unremarkable.\n5. Her chest x-ray and CBC are normal.\n6. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 385,
+    "patient_id": "sigir-201421",
+    "trial_id": "NCT00997100",
+    "criterion_type": "inclusion",
+    "criterion_text": "Ability to take and retain oral medication",
+    "note": "0. A 21-year-old female is evaluated for progressive arthralgias and malaise.\n1. On examination she is found to have alopecia, a rash mainly distributed on the bridge of her nose and her cheeks, a delicate non-palpable purpura on her calves, and swelling and tenderness of her wrists and ankles.\n2. Her lab shows normocytic anemia, thrombocytopenia, a 4/4 positive ANA and anti-dsDNA.\n3. Her urine is positive for protein and RBC casts.\n4. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 396,
+    "patient_id": "sigir-201421",
+    "trial_id": "NCT00997100",
+    "criterion_type": "exclusion",
+    "criterion_text": "History of myocardial infarction or current uncontrolled angina, severe uncontrolled ventricular arrhythmias, symptomatic congestive heart failure, unstable angina pectoris, or electrocardiographic evidence of acute ischemia.",
+    "note": "0. A 21-year-old female is evaluated for progressive arthralgias and malaise.\n1. On examination she is found to have alopecia, a rash mainly distributed on the bridge of her nose and her cheeks, a delicate non-palpable purpura on her calves, and swelling and tenderness of her wrists and ankles.\n2. Her lab shows normocytic anemia, thrombocytopenia, a 4/4 positive ANA and anti-dsDNA.\n3. Her urine is positive for protein and RBC casts.\n4. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 397,
+    "patient_id": "sigir-201421",
+    "trial_id": "NCT00997100",
+    "criterion_type": "exclusion",
+    "criterion_text": "Marked baseline prolongation of QT/QTc interval (eg, repeated demonstration of a QTc interval >450 milliseconds",
+    "note": "0. A 21-year-old female is evaluated for progressive arthralgias and malaise.\n1. On examination she is found to have alopecia, a rash mainly distributed on the bridge of her nose and her cheeks, a delicate non-palpable purpura on her calves, and swelling and tenderness of her wrists and ankles.\n2. Her lab shows normocytic anemia, thrombocytopenia, a 4/4 positive ANA and anti-dsDNA.\n3. Her urine is positive for protein and RBC casts.\n4. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 400,
+    "patient_id": "sigir-201421",
+    "trial_id": "NCT00997100",
+    "criterion_type": "exclusion",
+    "criterion_text": "History of, or current, ischemic CNS disease.",
+    "note": "0. A 21-year-old female is evaluated for progressive arthralgias and malaise.\n1. On examination she is found to have alopecia, a rash mainly distributed on the bridge of her nose and her cheeks, a delicate non-palpable purpura on her calves, and swelling and tenderness of her wrists and ankles.\n2. Her lab shows normocytic anemia, thrombocytopenia, a 4/4 positive ANA and anti-dsDNA.\n3. Her urine is positive for protein and RBC casts.\n4. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 401,
+    "patient_id": "sigir-201421",
+    "trial_id": "NCT00997100",
+    "criterion_type": "exclusion",
+    "criterion_text": "Current malignancy. A 5-year cancer-free period is required with the exception of skin basal or squamous cell carcinoma or cervical cancer in situ that has been excised.",
+    "note": "0. A 21-year-old female is evaluated for progressive arthralgias and malaise.\n1. On examination she is found to have alopecia, a rash mainly distributed on the bridge of her nose and her cheeks, a delicate non-palpable purpura on her calves, and swelling and tenderness of her wrists and ankles.\n2. Her lab shows normocytic anemia, thrombocytopenia, a 4/4 positive ANA and anti-dsDNA.\n3. Her urine is positive for protein and RBC casts.\n4. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 402,
+    "patient_id": "sigir-201421",
+    "trial_id": "NCT00997100",
+    "criterion_type": "exclusion",
+    "criterion_text": "Current severe infection",
+    "note": "0. A 21-year-old female is evaluated for progressive arthralgias and malaise.\n1. On examination she is found to have alopecia, a rash mainly distributed on the bridge of her nose and her cheeks, a delicate non-palpable purpura on her calves, and swelling and tenderness of her wrists and ankles.\n2. Her lab shows normocytic anemia, thrombocytopenia, a 4/4 positive ANA and anti-dsDNA.\n3. Her urine is positive for protein and RBC casts.\n4. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 414,
+    "patient_id": "sigir-201421",
+    "trial_id": "NCT01520155",
+    "criterion_type": "exclusion",
+    "criterion_text": "Patients without systemic Lupus erythematosus",
+    "note": "0. A 21-year-old female is evaluated for progressive arthralgias and malaise.\n1. On examination she is found to have alopecia, a rash mainly distributed on the bridge of her nose and her cheeks, a delicate non-palpable purpura on her calves, and swelling and tenderness of her wrists and ankles.\n2. Her lab shows normocytic anemia, thrombocytopenia, a 4/4 positive ANA and anti-dsDNA.\n3. Her urine is positive for protein and RBC casts.\n4. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 418,
+    "patient_id": "sigir-201422",
+    "trial_id": "NCT00723788",
+    "criterion_type": "exclusion",
+    "criterion_text": "Failure to pass MRI metal screening",
+    "note": "0. A 15-year-old girl presents to the ER with abdominal pain.\n1. The pain appeared gradually and was periumbilical at first, localizing to the right lower quadrant over hours.\n2. She has had no appetite since yesterday but denies diarrhea.\n3. She has had no sexual partners and her menses are regular.\n4. On examination, she has localized rebound tenderness over the right lower quadrant.\n5. On an abdominal ultrasound, a markedly edematous appendix is seen.\n6. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 419,
+    "patient_id": "sigir-201422",
+    "trial_id": "NCT00723788",
+    "criterion_type": "exclusion",
+    "criterion_text": "Claustrophobia or need for sedation due to inability to hold still",
+    "note": "0. A 15-year-old girl presents to the ER with abdominal pain.\n1. The pain appeared gradually and was periumbilical at first, localizing to the right lower quadrant over hours.\n2. She has had no appetite since yesterday but denies diarrhea.\n3. She has had no sexual partners and her menses are regular.\n4. On examination, she has localized rebound tenderness over the right lower quadrant.\n5. On an abdominal ultrasound, a markedly edematous appendix is seen.\n6. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 850,
+    "patient_id": "sigir-201516",
+    "trial_id": "NCT00839124",
+    "criterion_type": "exclusion",
+    "criterion_text": "Exacerbation of asthma more than 2x/week which would be characteristic of a person of moderate or severe persistent asthma as outlined in the current NHLBI guidelines for diagnosis and management of asthma.",
+    "note": "0. A 4 year old boy presents to the emergency room with wheezing.\n1. He has had a history of allergic rhinitis, but no history of wheezing.\n2. His mother reports that 5 hours ago patient was playing in the backyard sandbox when she heard him suddenly start coughing.\n3. The coughing lasted only moments, but he has been audibly wheezing since.\n4. Mother was concerned, because his breathing has not returned to normal, so she brought him to the ED.\n5. On exam, the child is playful and well appearing.\n6. Wheezing is heard in the mid-right chest area.\n7. O2 sats are 100% on room air.\n8. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 890,
+    "patient_id": "sigir-201520",
+    "trial_id": "NCT00182832",
+    "criterion_type": "inclusion",
+    "criterion_text": "Cognitive impairment based on screening at time of hospital admission",
+    "note": "0. An 89-year-old man was brought to the emergency department by his wife and son after six months of progressive changes in cognition and personality.\n1. He began to have poor memory, difficulty expressing himself, and exhibited unusual behaviors, such as pouring milk onto the table and undressing immediately after getting dressed.\n2. He is unable to dress, bathe, use the toilet, or walk independently.\n3. On examination the patient's temperature was 36.5C (97.7F), the heart rate 61 bpm in an irregular rhythm, the blood pressure 144/78 mm Hg, and the respiratory rate 18 bpm.\n4. The patient was alert and oriented to self and city but not year.\n5. He frequently interrupted the examiner.\n6. He repeatedly reached out to grab things in front of him, including the examiner's tie and face.\n7. He could not spell the word \"world\" backward, could not follow commands involving multiple steps and was unable to perform simple calculations.\n8. His speech was fluent, but he often used similar-sounding word substitutions.\n9. He could immediately recall three out of three words but recalled none of them after 5 minutes.\n10. Examination of the cranial nerves revealed clinically significant paratonic rigidity.\n11. Myoclonic jerks were seen in the arms, with symmetrically brisk reflexes.\n12. The reflexes in the legs were normal.\n13. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 919,
+    "patient_id": "sigir-201521",
+    "trial_id": "NCT01959048",
+    "criterion_type": "inclusion",
+    "criterion_text": "Confirmed diagnosis of severe CDAD as defined above",
+    "note": "0. A 32-year-old male presents to your office complaining of diarrhea, abdominal cramping and flatulence.\n1. Stools are greasy and foul-smelling.\n2. He also has loss of appetite and malaise.\n3. He recently returned home from a hiking trip in the mountains where he drank water from natural sources.\n4. An iodine-stained stool smear revealed ellipsoidal cysts with smooth, well-defined walls and 2+ nuclei.\n5. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 935,
+    "patient_id": "sigir-201522",
+    "trial_id": "NCT02534727",
+    "criterion_type": "inclusion",
+    "criterion_text": "Thought likely to be Mycobacterium culture positive (including NTM infected for the NIH CC) by enrolling physician",
+    "note": "0. A 65-year-old male with a history of tuberculosis has started to complain of productive cough with tinges of blood.\n1. Chest X-ray reveals a round opaque mass within a cavity in his left upper lobe.\n2. The spherical mass moved in the cavity during supine and prone CT imaging.\n3. Culture of the sputum revealed an organism with septated, low-angle branching hyphae that had straight, parallel walls.\n4. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 936,
+    "patient_id": "sigir-201522",
+    "trial_id": "NCT02534727",
+    "criterion_type": "inclusion",
+    "criterion_text": "GeneXpert MTB/RIF sputum TBpositive (China subjects only)",
+    "note": "0. A 65-year-old male with a history of tuberculosis has started to complain of productive cough with tinges of blood.\n1. Chest X-ray reveals a round opaque mass within a cavity in his left upper lobe.\n2. The spherical mass moved in the cavity during supine and prone CT imaging.\n3. Culture of the sputum revealed an organism with septated, low-angle branching hyphae that had straight, parallel walls.\n4. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 938,
+    "patient_id": "sigir-201522",
+    "trial_id": "NCT02534727",
+    "criterion_type": "inclusion",
+    "criterion_text": "Willing to provide blood samples",
+    "note": "0. A 65-year-old male with a history of tuberculosis has started to complain of productive cough with tinges of blood.\n1. Chest X-ray reveals a round opaque mass within a cavity in his left upper lobe.\n2. The spherical mass moved in the cavity during supine and prone CT imaging.\n3. Culture of the sputum revealed an organism with septated, low-angle branching hyphae that had straight, parallel walls.\n4. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 939,
+    "patient_id": "sigir-201522",
+    "trial_id": "NCT02534727",
+    "criterion_type": "inclusion",
+    "criterion_text": "Willing to have samples stored",
+    "note": "0. A 65-year-old male with a history of tuberculosis has started to complain of productive cough with tinges of blood.\n1. Chest X-ray reveals a round opaque mass within a cavity in his left upper lobe.\n2. The spherical mass moved in the cavity during supine and prone CT imaging.\n3. Culture of the sputum revealed an organism with septated, low-angle branching hyphae that had straight, parallel walls.\n4. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 940,
+    "patient_id": "sigir-201522",
+    "trial_id": "NCT02534727",
+    "criterion_type": "exclusion",
+    "criterion_text": "Acute liver or kidney disease",
+    "note": "0. A 65-year-old male with a history of tuberculosis has started to complain of productive cough with tinges of blood.\n1. Chest X-ray reveals a round opaque mass within a cavity in his left upper lobe.\n2. The spherical mass moved in the cavity during supine and prone CT imaging.\n3. Culture of the sputum revealed an organism with septated, low-angle branching hyphae that had straight, parallel walls.\n4. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 945,
+    "patient_id": "sigir-201522",
+    "trial_id": "NCT01207128",
+    "criterion_type": "exclusion",
+    "criterion_text": "The patient is being treated with an unlicensed investigational drug for aspergillosis.",
+    "note": "0. A 65-year-old male with a history of tuberculosis has started to complain of productive cough with tinges of blood.\n1. Chest X-ray reveals a round opaque mass within a cavity in his left upper lobe.\n2. The spherical mass moved in the cavity during supine and prone CT imaging.\n3. Culture of the sputum revealed an organism with septated, low-angle branching hyphae that had straight, parallel walls.\n4. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 946,
+    "patient_id": "sigir-201522",
+    "trial_id": "NCT01207128",
+    "criterion_type": "exclusion",
+    "criterion_text": "The patient has been administered an antifungal agent (voriconazole, itraconazole, posaconazole, caspofungin, micafungin, anidulafungin, amphotericin B, or lipid formulation of amphotericin B) for > 7 days immediately prior to randomization for treatment of the Probable, or Proven invasive aspergillosis for which the patient is being enrolled.",
+    "note": "0. A 65-year-old male with a history of tuberculosis has started to complain of productive cough with tinges of blood.\n1. Chest X-ray reveals a round opaque mass within a cavity in his left upper lobe.\n2. The spherical mass moved in the cavity during supine and prone CT imaging.\n3. Culture of the sputum revealed an organism with septated, low-angle branching hyphae that had straight, parallel walls.\n4. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 952,
+    "patient_id": "sigir-201522",
+    "trial_id": "NCT01207128",
+    "criterion_type": "exclusion",
+    "criterion_text": "The patient is on artificial ventilation, and unlikely to be extubated within 24 hours of study entry.",
+    "note": "0. A 65-year-old male with a history of tuberculosis has started to complain of productive cough with tinges of blood.\n1. Chest X-ray reveals a round opaque mass within a cavity in his left upper lobe.\n2. The spherical mass moved in the cavity during supine and prone CT imaging.\n3. Culture of the sputum revealed an organism with septated, low-angle branching hyphae that had straight, parallel walls.\n4. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 953,
+    "patient_id": "sigir-201522",
+    "trial_id": "NCT01207128",
+    "criterion_type": "exclusion",
+    "criterion_text": "The patient has a history of allergy, hypersensitivity, or any serious reaction to the azole or echinocandin class of antifungal agents.",
+    "note": "0. A 65-year-old male with a history of tuberculosis has started to complain of productive cough with tinges of blood.\n1. Chest X-ray reveals a round opaque mass within a cavity in his left upper lobe.\n2. The spherical mass moved in the cavity during supine and prone CT imaging.\n3. Culture of the sputum revealed an organism with septated, low-angle branching hyphae that had straight, parallel walls.\n4. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 955,
+    "patient_id": "sigir-201522",
+    "trial_id": "NCT01207128",
+    "criterion_type": "exclusion",
+    "criterion_text": "The patient has a concomitant medical condition, which in the opinion of the Investigator may create an unacceptable additional risk.",
+    "note": "0. A 65-year-old male with a history of tuberculosis has started to complain of productive cough with tinges of blood.\n1. Chest X-ray reveals a round opaque mass within a cavity in his left upper lobe.\n2. The spherical mass moved in the cavity during supine and prone CT imaging.\n3. Culture of the sputum revealed an organism with septated, low-angle branching hyphae that had straight, parallel walls.\n4. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 957,
+    "patient_id": "sigir-201522",
+    "trial_id": "NCT01207128",
+    "criterion_type": "exclusion",
+    "criterion_text": "The patient has a life expectancy of less than seven days.",
+    "note": "0. A 65-year-old male with a history of tuberculosis has started to complain of productive cough with tinges of blood.\n1. Chest X-ray reveals a round opaque mass within a cavity in his left upper lobe.\n2. The spherical mass moved in the cavity during supine and prone CT imaging.\n3. Culture of the sputum revealed an organism with septated, low-angle branching hyphae that had straight, parallel walls.\n4. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  }
+]

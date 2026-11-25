@@ -1,0 +1,187 @@
+[
+  {
+    "id": "paired",
+    "meds": [
+      [
+        "1791588",
+        "current"
+      ],
+      [
+        "1191138",
+        "current"
+      ]
+    ],
+    "expected": "MET"
+  },
+  {
+    "id": "missing-link",
+    "meds": [
+      [
+        "1791588",
+        "current"
+      ],
+      [
+        "1191138",
+        null
+      ]
+    ],
+    "expected": "MISSING_DATA"
+  },
+  {
+    "id": "no-line",
+    "line": null,
+    "meds": [
+      [
+        "1191138",
+        "current"
+      ]
+    ],
+    "expected": "MISSING_DATA"
+  },
+  {
+    "id": "second-line",
+    "line": 2,
+    "meds": [
+      [
+        "1191138",
+        "current"
+      ]
+    ],
+    "expected": "NOT_MET"
+  },
+  {
+    "id": "planned",
+    "meds": [
+      [
+        "1191138",
+        "current",
+        "order"
+      ]
+    ],
+    "expected": "AUTHORING_HOLD",
+    "receiving": false
+  },
+  {
+    "id": "liposomal",
+    "meds": [
+      [
+        "1790128",
+        "current"
+      ]
+    ],
+    "expected": "AUTHORING_HOLD"
+  },
+  {
+    "id": "doublet",
+    "meds": [
+      [
+        "1719003",
+        "current"
+      ],
+      [
+        "376888",
+        "current"
+      ]
+    ],
+    "expected": "MET"
+  },
+  {
+    "id": "split-doublet",
+    "meds": [
+      [
+        "1719003",
+        "current"
+      ],
+      [
+        "376888",
+        "prior"
+      ]
+    ],
+    "expected": "NOT_MET"
+  },
+  {
+    "id": "incomplete-list",
+    "complete": false,
+    "meds": [
+      [
+        "1719003",
+        "current"
+      ]
+    ],
+    "expected": "MISSING_DATA"
+  },
+  {
+    "id": "unknown-product",
+    "meds": [
+      [
+        "unmapped-local-drug",
+        "current"
+      ]
+    ],
+    "expected": "BINDING_HOLD"
+  },
+  {
+    "id": "not-given",
+    "meds": [
+      [
+        "1191138",
+        "current",
+        "not-done"
+      ]
+    ],
+    "expected": "MISSING_DATA",
+    "receiving": false
+  },
+  {
+    "id": "future-dose",
+    "meds": [
+      [
+        "1191138",
+        "current",
+        "future"
+      ]
+    ],
+    "expected": "MISSING_DATA",
+    "receiving": false
+  },
+  {
+    "id": "patient-isolation",
+    "complete": false,
+    "meds": [],
+    "expected": "MISSING_DATA",
+    "receiving": false
+  },
+  {
+    "id": "single-agent",
+    "meds": [
+      [
+        "1191138",
+        "current"
+      ]
+    ],
+    "expected": "MET"
+  },
+  {
+    "id": "named-aim",
+    "regimen_name": "AIM",
+    "meds": [],
+    "expected": "MISSING_DATA"
+  },
+  {
+    "id": "unverified-name",
+    "regimen_name": "Local plan 79",
+    "meds": [],
+    "expected": "BINDING_HOLD"
+  },
+  {
+    "id": "unconfirmed-state",
+    "receiving": false,
+    "meds": [
+      [
+        "1191138",
+        "current"
+      ]
+    ],
+    "expected": "MISSING_DATA"
+  }
+]

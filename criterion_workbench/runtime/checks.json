@@ -1,0 +1,1591 @@
+[
+  {
+    "study": "NEOK001-1",
+    "criterion": "I02",
+    "case": "age 2008-05-01",
+    "expected": "MET",
+    "actual": "MET"
+  },
+  {
+    "study": "NEOK001-1",
+    "criterion": "I02",
+    "case": "age 2008-05-02",
+    "expected": "NOT_MET",
+    "actual": "NOT_MET"
+  },
+  {
+    "study": "NEOK001-1",
+    "criterion": "I02",
+    "case": "age 2008",
+    "expected": "MISSING_DATA",
+    "actual": "MISSING_DATA"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I15",
+    "case": "QTcF [469] None",
+    "expected": "MET",
+    "actual": "MET"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I15",
+    "case": "QTcF [470] None",
+    "expected": "NOT_MET",
+    "actual": "NOT_MET"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I15",
+    "case": "QTcF [] None",
+    "expected": "MISSING_DATA",
+    "actual": "MISSING_DATA"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I15",
+    "case": "UCUM seconds",
+    "expected": "NOT_MET",
+    "actual": "NOT_MET"
+  },
+  {
+    "study": "NEOK001-1",
+    "criterion": "E15",
+    "case": "QTcF [469, 469, 469] None",
+    "expected": "MET",
+    "actual": "MET"
+  },
+  {
+    "study": "NEOK001-1",
+    "criterion": "E15",
+    "case": "QTcF [470, 470, 470] None",
+    "expected": "NOT_MET",
+    "actual": "NOT_MET"
+  },
+  {
+    "study": "NEOK001-1",
+    "criterion": "E15",
+    "case": "QTcF [469, 470, 471] None",
+    "expected": "AUTHORING_HOLD",
+    "actual": "AUTHORING_HOLD"
+  },
+  {
+    "study": "NEOK001-1",
+    "criterion": "E15",
+    "case": "QTcF [460, 461] None",
+    "expected": "MISSING_DATA",
+    "actual": "MISSING_DATA"
+  },
+  {
+    "study": "NEOK001-1",
+    "criterion": "E15",
+    "case": "QTcF [469, 469, 469] [0, 1, 11]",
+    "expected": "MISSING_DATA",
+    "actual": "MISSING_DATA"
+  },
+  {
+    "study": "REC-1245-101",
+    "criterion": "E07",
+    "case": "REC history + screen 1",
+    "expected": "MET",
+    "actual": "MET"
+  },
+  {
+    "study": "REC-1245-101",
+    "criterion": "E07",
+    "case": "REC history + screen 2",
+    "expected": "NOT_MET",
+    "actual": "NOT_MET"
+  },
+  {
+    "study": "REC-1245-101",
+    "criterion": "E07",
+    "case": "REC history + screen 3",
+    "expected": "MISSING_DATA",
+    "actual": "MISSING_DATA"
+  },
+  {
+    "study": "REC-1245-101",
+    "criterion": "E07",
+    "case": "REC history + screen 4",
+    "expected": "NOT_MET",
+    "actual": "NOT_MET"
+  },
+  {
+    "study": "REC-1245-101",
+    "criterion": "E07",
+    "case": "REC history + screen 5",
+    "expected": "AUTHORING_HOLD",
+    "actual": "AUTHORING_HOLD"
+  },
+  {
+    "study": "NEOK001-1",
+    "criterion": "I06",
+    "case": "ECOG 0",
+    "expected": "MET",
+    "actual": "MET"
+  },
+  {
+    "study": "NEOK001-1",
+    "criterion": "I06",
+    "case": "ECOG 1",
+    "expected": "MET",
+    "actual": "MET"
+  },
+  {
+    "study": "NEOK001-1",
+    "criterion": "I06",
+    "case": "ECOG 2",
+    "expected": "NOT_MET",
+    "actual": "NOT_MET"
+  },
+  {
+    "study": "NEOK001-1",
+    "criterion": "I06",
+    "case": "ECOG None",
+    "expected": "MISSING_DATA",
+    "actual": "MISSING_DATA"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I03",
+    "case": "obtain medical monitor decision",
+    "expected": "INVESTIGATOR_ACTIONS",
+    "actual": "INVESTIGATOR_ACTIONS"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I03",
+    "case": "medical monitor signed agreement",
+    "expected": "MET",
+    "actual": "MET"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I03",
+    "case": "medical monitor declined",
+    "expected": "NOT_MET",
+    "actual": "NOT_MET"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I03",
+    "case": "agreement for another assessment",
+    "expected": "MISSING_DATA",
+    "actual": "MISSING_DATA"
+  },
+  {
+    "study": "REC-1245-101",
+    "criterion": "I05",
+    "case": "REC scale 2000-01-01ecog",
+    "expected": "NOT_MET",
+    "actual": "NOT_MET"
+  },
+  {
+    "study": "REC-1245-101",
+    "criterion": "I05",
+    "case": "REC scale 2011-01-01lansky",
+    "expected": "MET",
+    "actual": "MET"
+  },
+  {
+    "study": "REC-1245-101",
+    "criterion": "I05",
+    "case": "REC scale 2010-05-01karnofsky",
+    "expected": "NOT_MET",
+    "actual": "NOT_MET"
+  },
+  {
+    "study": "REC-1245-101",
+    "criterion": "I05",
+    "case": "REC scale 2011-01-01ecog",
+    "expected": "MISSING_DATA",
+    "actual": "MISSING_DATA"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I05",
+    "case": "explicit assessment None",
+    "expected": "INVESTIGATOR_ACTIONS",
+    "actual": "INVESTIGATOR_ACTIONS"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I05",
+    "case": "explicit assessment True",
+    "expected": "MET",
+    "actual": "MET"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I05",
+    "case": "explicit assessment False",
+    "expected": "NOT_MET",
+    "actual": "NOT_MET"
+  },
+  {
+    "study": "106S01",
+    "criterion": "E06",
+    "case": "explicit assessment None",
+    "expected": "INVESTIGATOR_ACTIONS",
+    "actual": "INVESTIGATOR_ACTIONS"
+  },
+  {
+    "study": "106S01",
+    "criterion": "E06",
+    "case": "explicit assessment True",
+    "expected": "NOT_MET",
+    "actual": "NOT_MET"
+  },
+  {
+    "study": "106S01",
+    "criterion": "E06",
+    "case": "explicit assessment False",
+    "expected": "MET",
+    "actual": "MET"
+  },
+  {
+    "study": "106S01",
+    "criterion": "E12",
+    "case": "explicit assessment None",
+    "expected": "INVESTIGATOR_ACTIONS",
+    "actual": "INVESTIGATOR_ACTIONS"
+  },
+  {
+    "study": "106S01",
+    "criterion": "E12",
+    "case": "explicit assessment True",
+    "expected": "NOT_MET",
+    "actual": "NOT_MET"
+  },
+  {
+    "study": "106S01",
+    "criterion": "E12",
+    "case": "explicit assessment False",
+    "expected": "MET",
+    "actual": "MET"
+  },
+  {
+    "study": "106S01",
+    "criterion": "E15",
+    "case": "explicit assessment None",
+    "expected": "MISSING_DATA",
+    "actual": "MISSING_DATA"
+  },
+  {
+    "study": "106S01",
+    "criterion": "E15",
+    "case": "explicit assessment True",
+    "expected": "NOT_MET",
+    "actual": "NOT_MET"
+  },
+  {
+    "study": "106S01",
+    "criterion": "E15",
+    "case": "explicit assessment False",
+    "expected": "MET",
+    "actual": "MET"
+  },
+  {
+    "study": "106S01",
+    "criterion": "E07",
+    "case": "history (False, False)",
+    "expected": "MET",
+    "actual": "MET"
+  },
+  {
+    "study": "106S01",
+    "criterion": "E07",
+    "case": "history (False, None)",
+    "expected": "MISSING_DATA",
+    "actual": "MISSING_DATA"
+  },
+  {
+    "study": "106S01",
+    "criterion": "E07",
+    "case": "history (None, True)",
+    "expected": "NOT_MET",
+    "actual": "NOT_MET"
+  },
+  {
+    "study": "106S01",
+    "criterion": "E07",
+    "case": "history (True, False)",
+    "expected": "NOT_MET",
+    "actual": "NOT_MET"
+  },
+  {
+    "study": "106S01",
+    "criterion": "E16",
+    "case": "history (False, False)",
+    "expected": "MET",
+    "actual": "MET"
+  },
+  {
+    "study": "106S01",
+    "criterion": "E16",
+    "case": "history (False, None)",
+    "expected": "MISSING_DATA",
+    "actual": "MISSING_DATA"
+  },
+  {
+    "study": "106S01",
+    "criterion": "E16",
+    "case": "history (None, True)",
+    "expected": "NOT_MET",
+    "actual": "NOT_MET"
+  },
+  {
+    "study": "106S01",
+    "criterion": "E16",
+    "case": "history (True, False)",
+    "expected": "NOT_MET",
+    "actual": "NOT_MET"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I15",
+    "case": "source-patient",
+    "expected": "MISSING_DATA",
+    "actual": "MISSING_DATA"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I15",
+    "case": "source-pin",
+    "expected": "MISSING_DATA",
+    "actual": "MISSING_DATA"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I15",
+    "case": "source-future",
+    "expected": "MISSING_DATA",
+    "actual": "MISSING_DATA"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I15",
+    "case": "unit",
+    "expected": "MISSING_DATA",
+    "actual": "MISSING_DATA"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I15",
+    "case": "generic-method",
+    "expected": "MISSING_DATA",
+    "actual": "MISSING_DATA"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I15",
+    "case": "future-result",
+    "expected": "MISSING_DATA",
+    "actual": "MISSING_DATA"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I15",
+    "case": "other-visit",
+    "expected": "MISSING_DATA",
+    "actual": "MISSING_DATA"
+  },
+  {
+    "study": "NEOK001-1",
+    "criterion": "I06",
+    "case": "local code before mapping",
+    "expected": "MISSING_DATA",
+    "actual": "MISSING_DATA"
+  },
+  {
+    "study": "NEOK001-1",
+    "criterion": "I06",
+    "case": "mapped local ECOG",
+    "expected": "MET",
+    "actual": "MET"
+  },
+  {
+    "study": "NCT05653388",
+    "criterion": "MI-LMS-01",
+    "case": "all-met",
+    "expected": "MET",
+    "actual": "MET"
+  },
+  {
+    "study": "NCT05653388",
+    "criterion": "MI-LMS-02",
+    "case": "all-met",
+    "expected": "MET",
+    "actual": "MET"
+  },
+  {
+    "study": "NCT05653388",
+    "criterion": "MI-LMS-03",
+    "case": "all-met",
+    "expected": "MET",
+    "actual": "MET"
+  },
+  {
+    "study": "NCT05653388",
+    "criterion": "MI-LMS-01",
+    "case": "localized",
+    "expected": "NOT_MET",
+    "actual": "NOT_MET"
+  },
+  {
+    "study": "NEOK001-1",
+    "criterion": "NEOK001-1-I02",
+    "case": "run-day before birthday in Los Angeles",
+    "expected": "NOT_MET",
+    "actual": "NOT_MET"
+  },
+  {
+    "study": "NEOK001-1",
+    "criterion": "NEOK001-1-I02",
+    "case": "run-day birthday in UTC after an earlier encounter",
+    "expected": "MET",
+    "actual": "MET"
+  },
+  {
+    "study": "NEOK001-1",
+    "criterion": "NEOK001-1-I02",
+    "case": "explicit cutoff replays prior day",
+    "expected": "NOT_MET",
+    "actual": "NOT_MET"
+  },
+  {
+    "study": "NEOK001-1",
+    "criterion": "NEOK001-1-I06",
+    "case": "later same-day release unavailable",
+    "expected": "MISSING_DATA",
+    "actual": "MISSING_DATA"
+  },
+  {
+    "study": "NEOK001-1",
+    "criterion": "NEOK001-1-I06",
+    "case": "same-day release now visible",
+    "expected": "MET",
+    "actual": "MET"
+  },
+  {
+    "study": "106S01",
+    "criterion": "onboarding",
+    "case": "synthetic Nov 19 onboarding plus seven days",
+    "expected": "2026-11-26",
+    "actual": "2026-11-26"
+  },
+  {
+    "study": "106S01",
+    "criterion": "onboarding",
+    "case": "re-screen later with original onboarding",
+    "expected": "2026-11-26",
+    "actual": "2026-11-26"
+  },
+  {
+    "study": "106S01",
+    "criterion": "onboarding",
+    "case": "convert upload instant to the site day before adding calendar days",
+    "expected": "2026-03-08",
+    "actual": "2026-03-08"
+  },
+  {
+    "study": "106S01",
+    "criterion": "onboarding",
+    "case": "ordinary onboarding has no simulated first cycle",
+    "expected": null,
+    "actual": null
+  },
+  {
+    "study": "106S01",
+    "criterion": "onboarding",
+    "case": "ECG with simulated cycle based on 2026-04-24T09:00:00-07:00",
+    "expected": "MISSING_DATA",
+    "actual": "MISSING_DATA"
+  },
+  {
+    "study": "106S01",
+    "criterion": "onboarding",
+    "case": "ECG with simulated cycle based on 2026-04-25T09:00:00-07:00",
+    "expected": "MET",
+    "actual": "MET"
+  },
+  {
+    "study": "106S01",
+    "criterion": "onboarding",
+    "case": "pre-upload replay cannot use the assumption",
+    "expected": true,
+    "actual": true
+  },
+  {
+    "study": "106S01",
+    "criterion": "onboarding",
+    "case": "another trial cannot reuse this profile",
+    "expected": true,
+    "actual": true
+  },
+  {
+    "study": "106S01",
+    "criterion": "onboarding",
+    "case": "answer is scoped to the rule and amendment",
+    "expected": "Synthetic example response.",
+    "actual": "Synthetic example response."
+  },
+  {
+    "study": "106S01",
+    "criterion": "onboarding",
+    "case": "unrelated rule receives no answer",
+    "expected": [],
+    "actual": []
+  },
+  {
+    "study": "106S01",
+    "criterion": "onboarding",
+    "case": "retry retains original upload and recorded answer",
+    "expected": true,
+    "actual": true
+  },
+  {
+    "study": "106S01",
+    "criterion": "I08",
+    "case": "inclusive threshold at seven days",
+    "expected": "MET",
+    "actual": "MET"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I08",
+    "case": "out of window at eight days",
+    "expected": "MISSING_DATA",
+    "actual": "MISSING_DATA"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I08",
+    "case": "release on cycle day one",
+    "expected": "MISSING_DATA",
+    "actual": "MISSING_DATA"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I08",
+    "case": "missing component",
+    "expected": "MISSING_DATA",
+    "actual": "MISSING_DATA"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I08",
+    "case": "low anc",
+    "expected": "NOT_MET",
+    "actual": "NOT_MET"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I08",
+    "case": "low platelets",
+    "expected": "NOT_MET",
+    "actual": "NOT_MET"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I08",
+    "case": "low hemoglobin",
+    "expected": "NOT_MET",
+    "actual": "NOT_MET"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I08",
+    "case": "equivalent mass units",
+    "expected": "MET",
+    "actual": "MET"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I08",
+    "case": "incompatible unit",
+    "expected": "MISSING_DATA",
+    "actual": "MISSING_DATA"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I12",
+    "case": "inclusive threshold at seven days",
+    "expected": "MET",
+    "actual": "MET"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I12",
+    "case": "out of window at eight days",
+    "expected": "MISSING_DATA",
+    "actual": "MISSING_DATA"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I12",
+    "case": "release on cycle day one",
+    "expected": "MISSING_DATA",
+    "actual": "MISSING_DATA"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I12",
+    "case": "missing component",
+    "expected": "MISSING_DATA",
+    "actual": "MISSING_DATA"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I12",
+    "case": "low albumin",
+    "expected": "NOT_MET",
+    "actual": "NOT_MET"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I12",
+    "case": "equivalent mass units",
+    "expected": "MET",
+    "actual": "MET"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I12",
+    "case": "incompatible unit",
+    "expected": "MISSING_DATA",
+    "actual": "MISSING_DATA"
+  },
+  {
+    "study": "106S01",
+    "criterion": "E04",
+    "case": "14 days",
+    "expected": "NOT_MET",
+    "actual": "NOT_MET"
+  },
+  {
+    "study": "106S01",
+    "criterion": "E04",
+    "case": "15 days",
+    "expected": "MET",
+    "actual": "MET"
+  },
+  {
+    "study": "106S01",
+    "criterion": "E04",
+    "case": "same day",
+    "expected": "MISSING_DATA",
+    "actual": "MISSING_DATA"
+  },
+  {
+    "study": "106S01",
+    "criterion": "E04",
+    "case": "explicit negative",
+    "expected": "MET",
+    "actual": "MET"
+  },
+  {
+    "study": "106S01",
+    "criterion": "E04",
+    "case": "no history",
+    "expected": "MISSING_DATA",
+    "actual": "MISSING_DATA"
+  },
+  {
+    "study": "106S01",
+    "criterion": "E04",
+    "case": "history ends before projected start",
+    "expected": "MISSING_DATA",
+    "actual": "MISSING_DATA"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I04",
+    "case": "investigator estimate absent",
+    "expected": "INVESTIGATOR_ACTIONS",
+    "actual": "INVESTIGATOR_ACTIONS"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I04",
+    "case": "exact 3 mo",
+    "expected": "MET",
+    "actual": "MET"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I04",
+    "case": "exact 2.9 mo",
+    "expected": "NOT_MET",
+    "actual": "NOT_MET"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I04",
+    "case": "exact 0.25 a",
+    "expected": "MET",
+    "actual": "MET"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I04",
+    "case": ">= 3 mo",
+    "expected": "MET",
+    "actual": "MET"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I04",
+    "case": "< 3 mo",
+    "expected": "NOT_MET",
+    "actual": "NOT_MET"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I04",
+    "case": "<= 3 mo",
+    "expected": "INVESTIGATOR_ACTIONS",
+    "actual": "INVESTIGATOR_ACTIONS"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I04",
+    "case": "> 2 mo",
+    "expected": "INVESTIGATOR_ACTIONS",
+    "actual": "INVESTIGATOR_ACTIONS"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I04",
+    "case": "exact 90 d",
+    "expected": "MISSING_DATA",
+    "actual": "MISSING_DATA"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I04",
+    "case": "wrong study assignment",
+    "expected": "MISSING_DATA",
+    "actual": "MISSING_DATA"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I04",
+    "case": "unverified signer",
+    "expected": "MISSING_DATA",
+    "actual": "MISSING_DATA"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I04",
+    "case": "conflicting screening estimates",
+    "expected": "INVESTIGATOR_ACTIONS",
+    "actual": "INVESTIGATOR_ACTIONS"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I04",
+    "case": "assessment workflow INVESTIGATOR_ACTIONS",
+    "expected": "ACTION_REQUIRED",
+    "actual": "ACTION_REQUIRED"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I04",
+    "case": "assessment workflow MET",
+    "expected": "COMPLETED",
+    "actual": "COMPLETED"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I04",
+    "case": "assessment workflow NOT_MET",
+    "expected": "COMPLETED",
+    "actual": "COMPLETED"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I04",
+    "case": "assessment workflow MISSING_DATA",
+    "expected": "VERIFY_EVIDENCE",
+    "actual": "VERIFY_EVIDENCE"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I05",
+    "case": "candidacy judgment None",
+    "expected": "ACTION_REQUIRED",
+    "actual": "ACTION_REQUIRED"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I05",
+    "case": "candidacy judgment True",
+    "expected": "COMPLETED",
+    "actual": "COMPLETED"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I05",
+    "case": "candidacy judgment False",
+    "expected": "COMPLETED",
+    "actual": "COMPLETED"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I06",
+    "case": "fresh specimen, exactly 1 percent at intensity 1+ or stronger",
+    "expected": "MET",
+    "actual": "MET"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I06",
+    "case": "percent = 0.99",
+    "expected": "NOT_MET",
+    "actual": "NOT_MET"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I06",
+    "case": "percent = 0",
+    "expected": "NOT_MET",
+    "actual": "NOT_MET"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I06",
+    "case": "percent = 100",
+    "expected": "MET",
+    "actual": "MET"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I06",
+    "case": "percent < 1",
+    "expected": "NOT_MET",
+    "actual": "NOT_MET"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I06",
+    "case": "percent >= 1",
+    "expected": "MET",
+    "actual": "MET"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I06",
+    "case": "percent <= 1",
+    "expected": "MISSING_DATA",
+    "actual": "MISSING_DATA"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I06",
+    "case": "percent > 0",
+    "expected": "MISSING_DATA",
+    "actual": "MISSING_DATA"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I06",
+    "case": "percent = 101",
+    "expected": "MISSING_DATA",
+    "actual": "MISSING_DATA"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I06",
+    "case": "qualified archive unsafe using ffpe-block",
+    "expected": "MET",
+    "actual": "MET"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I06",
+    "case": "qualified archive site-inaccessible using unstained-ffpe-slides",
+    "expected": "MET",
+    "actual": "MET"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I06",
+    "case": "archive only with fresh biopsy explicitly feasible",
+    "expected": "AUTHORING_HOLD",
+    "actual": "AUTHORING_HOLD"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I06",
+    "case": "obtain reason for archival route from clinical team",
+    "expected": "INVESTIGATOR_ACTIONS",
+    "actual": "INVESTIGATOR_ACTIONS"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I06",
+    "case": "ineligible archival material cannot establish a negative or positive result",
+    "expected": "MISSING_DATA",
+    "actual": "MISSING_DATA"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I06",
+    "case": "formal screening prompts retrieval of prior records before patient outreach",
+    "expected": "MISSING_DATA",
+    "actual": "MISSING_DATA"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I06",
+    "case": "confirmed archive unavailable during prescreen, ask patient about biopsy",
+    "expected": "PATIENT_SURVEY",
+    "actual": "PATIENT_SURVEY"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I06",
+    "case": "willing patient awaits assay",
+    "expected": "MISSING_DATA",
+    "actual": "MISSING_DATA"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I06",
+    "case": "explicitly no adequate archive and fresh biopsy declined",
+    "expected": "NOT_MET",
+    "actual": "NOT_MET"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I06",
+    "case": "refusal with unknown archive availability",
+    "expected": "MISSING_DATA",
+    "actual": "MISSING_DATA"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I06",
+    "case": "another tumor\u2019s tissue review cannot close a route",
+    "expected": "MISSING_DATA",
+    "actual": "MISSING_DATA"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I06",
+    "case": "available archive avoids unnecessary survey",
+    "expected": "MISSING_DATA",
+    "actual": "MISSING_DATA"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I06",
+    "case": "unverified survey respondent cannot decline for this patient",
+    "expected": "MISSING_DATA",
+    "actual": "MISSING_DATA"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I06",
+    "case": "avoid asking the patient for an unsafe fresh procedure",
+    "expected": "INVESTIGATOR_ACTIONS",
+    "actual": "INVESTIGATOR_ACTIONS"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I06",
+    "case": "existing trial order avoids a duplicate survey",
+    "expected": "MISSING_DATA",
+    "actual": "MISSING_DATA"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I06",
+    "case": "new clinical judgment cannot justify an earlier sample selection",
+    "expected": "INVESTIGATOR_ACTIONS",
+    "actual": "INVESTIGATOR_ACTIONS"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I06",
+    "case": "fresh submission form requires verification",
+    "expected": "MISSING_DATA",
+    "actual": "MISSING_DATA"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I06",
+    "case": "needle aspirate is insufficient",
+    "expected": "MISSING_DATA",
+    "actual": "MISSING_DATA"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I06",
+    "case": "unverified tissue adequacy",
+    "expected": "MISSING_DATA",
+    "actual": "MISSING_DATA"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I06",
+    "case": "report from a local lab",
+    "expected": "MISSING_DATA",
+    "actual": "MISSING_DATA"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I06",
+    "case": "result release after screening began",
+    "expected": "MISSING_DATA",
+    "actual": "MISSING_DATA"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I06",
+    "case": "report released after frozen cutoff",
+    "expected": "MISSING_DATA",
+    "actual": "MISSING_DATA"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I06",
+    "case": "wrong patient on specimen",
+    "expected": "MISSING_DATA",
+    "actual": "MISSING_DATA"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I06",
+    "case": "other indexed tumor on order",
+    "expected": "MISSING_DATA",
+    "actual": "MISSING_DATA"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I06",
+    "case": "specimen version differs",
+    "expected": "MISSING_DATA",
+    "actual": "MISSING_DATA"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I06",
+    "case": "unqualified percent without intensity denominator",
+    "expected": "MISSING_DATA",
+    "actual": "MISSING_DATA"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I06",
+    "case": "wrong assay method",
+    "expected": "MISSING_DATA",
+    "actual": "MISSING_DATA"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I06",
+    "case": "wrong units",
+    "expected": "MISSING_DATA",
+    "actual": "MISSING_DATA"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I06",
+    "case": "foreign prescreen attempt",
+    "expected": "MISSING_DATA",
+    "actual": "MISSING_DATA"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I06",
+    "case": "future consent form version",
+    "expected": "MISSING_DATA",
+    "actual": "MISSING_DATA"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I06",
+    "case": "assay before tissue collected",
+    "expected": "MISSING_DATA",
+    "actual": "MISSING_DATA"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I06",
+    "case": "screening requires an actual main ICF",
+    "expected": "MISSING_DATA",
+    "actual": "MISSING_DATA"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I06",
+    "case": "actual prescreen consent missing",
+    "expected": "MISSING_DATA",
+    "actual": "MISSING_DATA"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I06",
+    "case": "consent dates 90 calendar days apart",
+    "expected": "MET",
+    "actual": "MET"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I06",
+    "case": "consent dates 91 calendar days apart",
+    "expected": "MISSING_DATA",
+    "actual": "MISSING_DATA"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I06",
+    "case": "ambiguous governing central report",
+    "expected": "MISSING_DATA",
+    "actual": "MISSING_DATA"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I06",
+    "case": "positive central result during open prescreen",
+    "expected": "MET",
+    "actual": "MET"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I06",
+    "case": "incremental initial result is pending",
+    "expected": "MISSING_DATA",
+    "actual": "MISSING_DATA"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I06",
+    "case": "incremental result and specimen arrive",
+    "expected": "MET",
+    "actual": "MET"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I06",
+    "case": "prior onboarding preserves answers and adds a scoped unanswered question",
+    "expected": "PASS",
+    "actual": "PASS"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I07",
+    "case": "adult explicitly agrees",
+    "expected": "MET",
+    "actual": "MET"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I07",
+    "case": "adult explicitly declines",
+    "expected": "NOT_MET",
+    "actual": "NOT_MET"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I07",
+    "case": "18th birthday routes to participant",
+    "expected": "MET",
+    "actual": "MET"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I07",
+    "case": "day before 18th birthday requires representative",
+    "expected": "PATIENT_SURVEY",
+    "actual": "PATIENT_SURVEY"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I07",
+    "case": "missing adult response requests precisely scoped patient survey",
+    "expected": "PATIENT_SURVEY",
+    "actual": "PATIENT_SURVEY"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I07",
+    "case": "missing response for minor routes survey to legal representative",
+    "expected": "PATIENT_SURVEY",
+    "actual": "PATIENT_SURVEY"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I07",
+    "case": "representative agrees for minor with verified authority",
+    "expected": "MET",
+    "actual": "MET"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I07",
+    "case": "verified representative declines",
+    "expected": "NOT_MET",
+    "actual": "NOT_MET"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I07",
+    "case": "recorded adolescent objection with representative agreement",
+    "expected": "INVESTIGATOR_ACTIONS",
+    "actual": "INVESTIGATOR_ACTIONS"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I07",
+    "case": "adolescent agreement alone",
+    "expected": "PATIENT_SURVEY",
+    "actual": "PATIENT_SURVEY"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I07",
+    "case": "representative response alone for adult",
+    "expected": "PATIENT_SURVEY",
+    "actual": "PATIENT_SURVEY"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I07",
+    "case": "participant agreement cannot cancel representative refusal",
+    "expected": "NOT_MET",
+    "actual": "NOT_MET"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I07",
+    "case": "family relationship alone",
+    "expected": "MISSING_DATA",
+    "actual": "MISSING_DATA"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I07",
+    "case": "authority document absent",
+    "expected": "MISSING_DATA",
+    "actual": "MISSING_DATA"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I07",
+    "case": "authority document for another patient",
+    "expected": "MISSING_DATA",
+    "actual": "MISSING_DATA"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I07",
+    "case": "authority document for another visit",
+    "expected": "MISSING_DATA",
+    "actual": "MISSING_DATA"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I07",
+    "case": "authority document for another representative version",
+    "expected": "MISSING_DATA",
+    "actual": "MISSING_DATA"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I07",
+    "case": "representative authority expired",
+    "expected": "MISSING_DATA",
+    "actual": "MISSING_DATA"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I07",
+    "case": "document authority begins after response",
+    "expected": "MISSING_DATA",
+    "actual": "MISSING_DATA"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I07",
+    "case": "unavailable authority document at cutoff",
+    "expected": "MISSING_DATA",
+    "actual": "MISSING_DATA"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I07",
+    "case": "wrong representative patient",
+    "expected": "MISSING_DATA",
+    "actual": "MISSING_DATA"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I07",
+    "case": "unversioned representative",
+    "expected": "MISSING_DATA",
+    "actual": "MISSING_DATA"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I07",
+    "case": "recording author does not establish respondent",
+    "expected": "MISSING_DATA",
+    "actual": "MISSING_DATA"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I07",
+    "case": "incomplete date of birth",
+    "expected": "MISSING_DATA",
+    "actual": "MISSING_DATA"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I07",
+    "case": "future date of birth",
+    "expected": "MISSING_DATA",
+    "actual": "MISSING_DATA"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I07",
+    "case": "wrong amendment of same questionnaire",
+    "expected": "MISSING_DATA",
+    "actual": "MISSING_DATA"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I07",
+    "case": "broader wording omits survival exception",
+    "expected": "MISSING_DATA",
+    "actual": "MISSING_DATA"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I07",
+    "case": "unknown or obsolete question",
+    "expected": "MISSING_DATA",
+    "actual": "MISSING_DATA"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I07",
+    "case": "clinician recorded as person answering",
+    "expected": "MISSING_DATA",
+    "actual": "MISSING_DATA"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I07",
+    "case": "text acknowledgement is not a bound boolean",
+    "expected": "MISSING_DATA",
+    "actual": "MISSING_DATA"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I07",
+    "case": "contradictory values in one answer",
+    "expected": "MISSING_DATA",
+    "actual": "MISSING_DATA"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I07",
+    "case": "staff may record the patient\u2019s own answer",
+    "expected": "MET",
+    "actual": "MET"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I07",
+    "case": "conflicting completed participant answers",
+    "expected": "MISSING_DATA",
+    "actual": "MISSING_DATA"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I07",
+    "case": "concordant records give the same result",
+    "expected": "MET",
+    "actual": "MET"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I07",
+    "case": "entered-in-error answer cannot create a refusal",
+    "expected": "MET",
+    "actual": "MET"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I07",
+    "case": "another patient\u2019s response cannot resolve the item",
+    "expected": "PATIENT_SURVEY",
+    "actual": "PATIENT_SURVEY"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I07",
+    "case": "previous screening attempt cannot resolve current agreement",
+    "expected": "PATIENT_SURVEY",
+    "actual": "PATIENT_SURVEY"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I07",
+    "case": "general consent alone cannot resolve the agreement",
+    "expected": "PATIENT_SURVEY",
+    "actual": "PATIENT_SURVEY"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I07",
+    "case": "future answer is unavailable",
+    "expected": "PATIENT_SURVEY",
+    "actual": "PATIENT_SURVEY"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I07",
+    "case": "new response not yet available at cutoff",
+    "expected": "PATIENT_SURVEY",
+    "actual": "PATIENT_SURVEY"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I07",
+    "case": "same encounter after response arrives",
+    "expected": "MET",
+    "actual": "MET"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I07",
+    "case": "resume the existing adult survey before scoring",
+    "expected": "PATIENT_SURVEY",
+    "actual": "PATIENT_SURVEY"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I07",
+    "case": "unanswered item remains a representative survey",
+    "expected": "PATIENT_SURVEY",
+    "actual": "PATIENT_SURVEY"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I07",
+    "case": "a single response cannot speak for two decision makers",
+    "expected": "MISSING_DATA",
+    "actual": "MISSING_DATA"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I07",
+    "case": "qualified or modified responses require verification",
+    "expected": "MISSING_DATA",
+    "actual": "MISSING_DATA"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I07",
+    "case": "midnight UTC still precedes birthday at site",
+    "expected": "PATIENT_SURVEY",
+    "actual": "PATIENT_SURVEY"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I07",
+    "case": "observational record with explicit scoped agreement",
+    "expected": "MET",
+    "actual": "MET"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I07",
+    "case": "observational record alone cannot establish agreement",
+    "expected": "PATIENT_SURVEY",
+    "actual": "PATIENT_SURVEY"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I07",
+    "case": "survival-follow-up record with explicit scoped agreement",
+    "expected": "MET",
+    "actual": "MET"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I07",
+    "case": "survival-follow-up record alone cannot establish agreement",
+    "expected": "PATIENT_SURVEY",
+    "actual": "PATIENT_SURVEY"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I06-authoring",
+    "case": "scope question is open by default",
+    "expected": "AWAITING_PROTOCOL_ANSWER",
+    "actual": "AWAITING_PROTOCOL_ANSWER"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I06-authoring",
+    "case": "paired archival case: unsafe",
+    "expected": "MET",
+    "actual": "MET"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I06-authoring",
+    "case": "paired archival case: safe-and-accessible",
+    "expected": "AUTHORING_HOLD",
+    "actual": "AUTHORING_HOLD"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I06-authoring",
+    "case": "unqualified yes cannot select an interpretation",
+    "expected": "CLARIFY_INTERPRETATION_OR_SOURCE",
+    "actual": "CLARIFY_INTERPRETATION_OR_SOURCE"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I06-authoring",
+    "case": "attributed choice and source go to rule validation",
+    "expected": "ANSWER_RECORDED_FOR_RULE_VALIDATION",
+    "actual": "ANSWER_RECORDED_FOR_RULE_VALIDATION"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I06-authoring",
+    "case": "duplicate receipt preserves the context version",
+    "expected": "ANSWER_RECORDED_FOR_RULE_VALIDATION",
+    "actual": "ANSWER_RECORDED_FOR_RULE_VALIDATION"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I06-authoring",
+    "case": "prior-amendment answer cannot resolve this question",
+    "expected": "AWAITING_PROTOCOL_ANSWER",
+    "actual": "AWAITING_PROTOCOL_ANSWER"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I06-authoring",
+    "case": "conflicting choices require reconciliation",
+    "expected": "RECONCILE_RESPONSES",
+    "actual": "RECONCILE_RESPONSES"
+  },
+  {
+    "study": "106S01",
+    "criterion": "I06-authoring",
+    "case": "qualified answer routes to the rule author",
+    "expected": "CLARIFY_INTERPRETATION_OR_SOURCE",
+    "actual": "CLARIFY_INTERPRETATION_OR_SOURCE"
+  }
+]

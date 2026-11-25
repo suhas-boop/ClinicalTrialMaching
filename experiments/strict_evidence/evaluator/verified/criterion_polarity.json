@@ -1,0 +1,308 @@
+{
+  "baseline_freeze_sha256": "88d1fd3fe4b48699b9a00c55aa64394a97657503db92b464f3308b2f6b485627",
+  "release_freeze_sha256": "d9c178f289e77d28d16661a741230fbe0a0fbc9d1c553a5970ac6d696490cf7d",
+  "publisher_sha256": "14c547184fac9b013cd17441fd028845b40150c76b022e58334f5494077e5234",
+  "catalog_sha256": "8f74ae1b4fb2c4de07965dd52dc56fba5a04a9e82d1ae500452e9e414eaf2e66",
+  "registry_manifest_sha256": "2084977c389f84301d2aa40ed45aff401f2ec7af00704f24c80e1fc39f42a0da",
+  "nih_selection_sha256": "0ea45c0e6fdf3c080fa946f374c2bae6685348e2298e128c143cda376459a9b1",
+  "published_baseline": {
+    "assignments": 134,
+    "physician_definitive": 91,
+    "physician_indeterminate": 43,
+    "agree": 6,
+    "opposite_definitive": 0,
+    "definitive_on_indeterminate": 0,
+    "total_unsupported_or_opposite_definitives": 0,
+    "pending_physician_definitive": 85,
+    "pending_by_state": {
+      "AUTHORING_HOLD": 12,
+      "INVESTIGATOR_ACTIONS": 5,
+      "MISSING_DATA": 62,
+      "PATIENT_SURVEY": 2,
+      "SOURCE_SCOPE_HOLD": 4
+    },
+    "all_assignment_abstentions": 128
+  },
+  "published_release": {
+    "assignments": 134,
+    "physician_definitive": 91,
+    "physician_indeterminate": 43,
+    "agree": 6,
+    "opposite_definitive": 0,
+    "definitive_on_indeterminate": 0,
+    "total_unsupported_or_opposite_definitives": 0,
+    "pending_physician_definitive": 85,
+    "pending_by_state": {
+      "AUTHORING_HOLD": 12,
+      "INVESTIGATOR_ACTIONS": 5,
+      "MISSING_DATA": 62,
+      "PATIENT_SURVEY": 2,
+      "SOURCE_SCOPE_HOLD": 4
+    },
+    "all_assignment_abstentions": 128
+  },
+  "counted_cases": [
+    {
+      "case": "44",
+      "study": "NCT01452971",
+      "subject": "Patient/sigir-20143",
+      "clause": "Participant is under 18 years old.",
+      "assigned_type": "exclusion",
+      "expert_eligibility": "not excluded",
+      "mapped_state": "MET",
+      "frozen_state": "MET",
+      "frozen_expression": {
+        "not": {
+          "fact": "age_years",
+          "op": "lt",
+          "value": 18
+        }
+      },
+      "cited_lines": [
+        {
+          "line": 0,
+          "text": "0. A 58-year-old nonsmoker white female with mild exertional dyspnea and occasional cough is found to have a left lung mass on chest x-ray."
+        }
+      ],
+      "evidence": [
+        "Observation/x-89fd4ea4646207d8907a8cd7e401ad"
+      ],
+      "nih_trial_info_section": "exclusion",
+      "historical_registry": {
+        "file": "nih_benchmark/round17/registry/benchmark_2015/xml/NCT01452971.xml",
+        "sha256": "3c983b83c9f635507c7b704184b43fe34840a2cb99a9aa10e9697cac8105c6ae",
+        "release_version_verified": true,
+        "release_criterion_join": "exact_lexical",
+        "element": "eligibility/criteria/textblock",
+        "verbatim_after_whitespace_normalization": true,
+        "heading_at_match": "exclusion"
+      },
+      "registry_oriented_state": "MET"
+    },
+    {
+      "case": "155",
+      "study": "NCT02615912",
+      "subject": "Patient/sigir-20149",
+      "clause": "Subjects with visible skin disease, tattoos, skin condition, or abnormal skin color",
+      "assigned_type": "inclusion",
+      "expert_eligibility": "included",
+      "mapped_state": "MET",
+      "frozen_state": "MET",
+      "frozen_expression": {
+        "any": [
+          {
+            "fact": "visible_skin_disease"
+          },
+          {
+            "fact": "tattoos"
+          },
+          {
+            "fact": "skin_condition"
+          },
+          {
+            "fact": "abnormal_skin_color"
+          }
+        ]
+      },
+      "cited_lines": [
+        {
+          "line": 0,
+          "text": "0. A 43-year-old woman visits her dermatologist for lesions on her neck."
+        },
+        {
+          "line": 1,
+          "text": "1. On examination, multiple lesions are seen."
+        }
+      ],
+      "evidence": [
+        "Observation/x-e1a9b5a654de4380eb0cc3861254f8"
+      ],
+      "nih_trial_info_section": "exclusion",
+      "historical_registry": {
+        "file": "nih_benchmark/round17/registry/benchmark_2015/xml/NCT02615912.xml",
+        "sha256": "7cecb96dc728a7d7905920cb918f94ad7eb638617d7e9f7492851a7ca7311542",
+        "release_version_verified": true,
+        "release_criterion_join": "exact_lexical_unscoped_or_other_section",
+        "element": "eligibility/criteria/textblock",
+        "verbatim_after_whitespace_normalization": true,
+        "heading_at_match": "exclusion"
+      },
+      "registry_oriented_state": "NOT_MET"
+    },
+    {
+      "case": "196",
+      "study": "NCT01723137",
+      "subject": "Patient/sigir-201411",
+      "clause": "Less than 18 years of age",
+      "assigned_type": "exclusion",
+      "expert_eligibility": "not excluded",
+      "mapped_state": "MET",
+      "frozen_state": "MET",
+      "frozen_expression": {
+        "not": {
+          "fact": "age_years",
+          "op": "lt",
+          "value": 18
+        }
+      },
+      "cited_lines": [
+        {
+          "line": 0,
+          "text": "0. A 40-year-old woman with no past medical history presents to the ER with excruciating pain in her right arm that had started 1 hour prior to her admission."
+        }
+      ],
+      "evidence": [
+        "Observation/x-5afa550df507089a1427470e47fda7"
+      ],
+      "nih_trial_info_section": "exclusion",
+      "historical_registry": {
+        "file": "nih_benchmark/round17/registry/benchmark_2015/xml/NCT01723137.xml",
+        "sha256": "6ad6f48b53baebc66beccce74b0d6afcba5486eac28514aed5f17665f5ea6ab9",
+        "release_version_verified": true,
+        "release_criterion_join": "exact_lexical",
+        "element": "eligibility/criteria/textblock",
+        "verbatim_after_whitespace_normalization": true,
+        "heading_at_match": "exclusion"
+      },
+      "registry_oriented_state": "MET"
+    },
+    {
+      "case": "517",
+      "study": "NCT01713881",
+      "subject": "Patient/sigir-201427",
+      "clause": "Less than 18 years old",
+      "assigned_type": "exclusion",
+      "expert_eligibility": "not excluded",
+      "mapped_state": "MET",
+      "frozen_state": "MET",
+      "frozen_expression": {
+        "not": {
+          "fact": "age_years",
+          "op": "lt",
+          "value": 18
+        }
+      },
+      "cited_lines": [
+        {
+          "line": 0,
+          "text": "0. A 21-year-old college student undergoes colonoscopy due to family history of multiple polyps in his older siblings."
+        }
+      ],
+      "evidence": [
+        "Observation/x-7355df5bc9de96f32f577f01647486"
+      ],
+      "nih_trial_info_section": "exclusion",
+      "historical_registry": {
+        "file": "nih_benchmark/round17/registry/benchmark_2015/xml/NCT01713881.xml",
+        "sha256": "72a9679fbc89dc47661fe064106d64d44dbba8a37999d165d78829449e9b2f62",
+        "release_version_verified": true,
+        "release_criterion_join": "exact_lexical",
+        "element": "eligibility/criteria/textblock",
+        "verbatim_after_whitespace_normalization": true,
+        "heading_at_match": "exclusion"
+      },
+      "registry_oriented_state": "MET"
+    },
+    {
+      "case": "577",
+      "study": "NCT01142245",
+      "subject": "Patient/sigir-20151",
+      "clause": "Moribund patients in whom active treatment of any form is not considered.",
+      "assigned_type": "exclusion",
+      "expert_eligibility": "not excluded",
+      "mapped_state": "MET",
+      "frozen_state": "MET",
+      "frozen_expression": {
+        "not": {
+          "all": [
+            {
+              "fact": "moribund"
+            },
+            {
+              "fact": "active_treatment_of_any_form_not_considered"
+            }
+          ]
+        }
+      },
+      "cited_lines": [
+        {
+          "line": 3,
+          "text": "3. He receives a rapid infusion of crystalloid solution followed by packed red blood cell transfusion and is admitted to the ICU for further care."
+        }
+      ],
+      "evidence": [
+        "Observation/x-1680fa87fb5aac0b6751e7770260b3"
+      ],
+      "nih_trial_info_section": "exclusion",
+      "historical_registry": {
+        "file": "nih_benchmark/round17/registry/benchmark_2015/xml/NCT01142245.xml",
+        "sha256": "7ed328acaa2aba29f0c114b9b4f33e0b7a5fbe64d545d5c356303489f0e947bc",
+        "release_version_verified": true,
+        "release_criterion_join": "exact_lexical",
+        "element": "eligibility/criteria/textblock",
+        "verbatim_after_whitespace_normalization": true,
+        "heading_at_match": "exclusion"
+      },
+      "registry_oriented_state": "MET"
+    },
+    {
+      "case": "633",
+      "study": "NCT01139632",
+      "subject": "Patient/sigir-20153",
+      "clause": "Age <18 years.",
+      "assigned_type": "exclusion",
+      "expert_eligibility": "not excluded",
+      "mapped_state": "MET",
+      "frozen_state": "MET",
+      "frozen_expression": {
+        "not": {
+          "fact": "age_years",
+          "op": "lt",
+          "value": 18
+        }
+      },
+      "cited_lines": [
+        {
+          "line": 0,
+          "text": "0. A 65 yo male with no significant history of cardiovascular disease presents to the emergency room with acute onset of shortness of breath, tachypnea, and left-sided chest pain that worsens with inspiration."
+        }
+      ],
+      "evidence": [
+        "Observation/x-ed3708d09e7dd22d62124cf4235a22"
+      ],
+      "nih_trial_info_section": "exclusion",
+      "historical_registry": {
+        "file": "nih_benchmark/round17/registry/benchmark_2015/xml/NCT01139632.xml",
+        "sha256": "739763ee80abcfa7354faeb667ded9adfcb78c1ab46ac705c868dcbc294c83cf",
+        "release_version_verified": true,
+        "release_criterion_join": "exact_lexical",
+        "element": "eligibility/criteria/textblock",
+        "verbatim_after_whitespace_normalization": true,
+        "heading_at_match": "exclusion"
+      },
+      "registry_oriented_state": "MET"
+    }
+  ],
+  "source_polarity_conflicts": [
+    "155"
+  ],
+  "sensitivity_method": "Only reorient registry-discordant counted predictions. Compare to the original published physician labels. This is a sensitivity check.",
+  "sensitivity_against_unchanged_labels": {
+    "assignments": 134,
+    "physician_definitive": 91,
+    "physician_indeterminate": 43,
+    "agree": 5,
+    "opposite_definitive": 1,
+    "definitive_on_indeterminate": 0,
+    "total_unsupported_or_opposite_definitives": 1,
+    "pending_physician_definitive": 85,
+    "pending_by_state": {
+      "AUTHORING_HOLD": 12,
+      "INVESTIGATOR_ACTIONS": 5,
+      "MISSING_DATA": 62,
+      "PATIENT_SURVEY": 2,
+      "SOURCE_SCOPE_HOLD": 4
+    },
+    "all_assignment_abstentions": 128
+  }
+}

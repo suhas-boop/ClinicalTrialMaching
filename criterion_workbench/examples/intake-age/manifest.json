@@ -1,0 +1,11 @@
+{
+  "study": "POCKETMD-SYNTHETIC-AGE",
+  "criterion_id": "POCKETMD-SYNTHETIC-AGE-I01",
+  "polarity": "inclusion",
+  "criterion_text": "At screening, participants must be at least 21 years of age.",
+  "section": "Section 2.1, inclusion criterion 1",
+  "pdf_page": 1,
+  "protocol_version": "Synthetic protocol v1",
+  "protocol_sha256": "a790fab4e66eff8254b7d3a57eb038eb4b503f3c9dc357b98f3dab3eadd0d9f3",
+  "synthetic_fixture": true
+}

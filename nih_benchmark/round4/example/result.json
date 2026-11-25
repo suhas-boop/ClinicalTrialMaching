@@ -1,0 +1,87 @@
+{
+  "transitions": {
+    "115": {
+      "before": "MISSING_DATA",
+      "after": "MISSING_DATA",
+      "evidence": []
+    },
+    "116": {
+      "before": "MISSING_DATA",
+      "after": "NOT_MET",
+      "evidence": [
+        "DocumentReference/src-f-c420d0ad806ceaad708d3a74/_history/1",
+        "Observation/obs-f-c420d0ad806ceaad708d3a74/_history/1"
+      ]
+    }
+  },
+  "new_evidence_backed_decisions": [
+    "116"
+  ],
+  "new_resource_versions": [
+    "DocumentReference/src-f-c420d0ad806ceaad708d3a74/_history/1",
+    "Observation/obs-f-c420d0ad806ceaad708d3a74/_history/1"
+  ],
+  "remaining_requests": [
+    {
+      "id": "a1d13b76f2e8fd47799a38157f38e6387c30edb7c7c3f7ed2adaa8ccff19e15a",
+      "route": "retrieve_record",
+      "request": "cutaneous ulcer due to leishmania",
+      "criteria": [
+        "115"
+      ]
+    },
+    {
+      "id": "4b3bfdd45d2c3c0d464d8814e53bd9ebd0a29f10af6783c1143c5a13453e3db0",
+      "route": "retrieve_record",
+      "request": "cutaneous ulcer due to insect bite",
+      "criteria": [
+        "115"
+      ]
+    }
+  ],
+  "criteria": {
+    "115": {
+      "state": "MISSING_DATA",
+      "reason": "Negated protocol condition. Obtain cutaneous_ulcer_due_to_leishmania. Obtain cutaneous_ulcer_due_to_insect_bite.",
+      "evidence": [],
+      "facts": {
+        "cutaneous_ulcer_due_to_leishmania": {
+          "label": "cutaneous_ulcer_due_to_leishmania",
+          "value": null,
+          "state": "MISSING_DATA",
+          "evidence": []
+        },
+        "cutaneous_ulcer_due_to_insect_bite": {
+          "label": "cutaneous_ulcer_due_to_insect_bite",
+          "value": null,
+          "state": "MISSING_DATA",
+          "evidence": []
+        }
+      },
+      "partial_evidence": []
+    },
+    "116": {
+      "state": "NOT_MET",
+      "reason": "Negated protocol condition. cutaneous_ulcer_due_to_burns = True (requires eq True).",
+      "evidence": [
+        "DocumentReference/src-f-c420d0ad806ceaad708d3a74/_history/1",
+        "Observation/obs-f-c420d0ad806ceaad708d3a74/_history/1"
+      ],
+      "facts": {
+        "cutaneous_ulcer_due_to_burns": {
+          "label": "cutaneous_ulcer_due_to_burns",
+          "value": true,
+          "state": "AVAILABLE",
+          "evidence": [
+            "DocumentReference/src-f-c420d0ad806ceaad708d3a74/_history/1",
+            "Observation/obs-f-c420d0ad806ceaad708d3a74/_history/1"
+          ]
+        }
+      },
+      "partial_evidence": [
+        "DocumentReference/src-f-c420d0ad806ceaad708d3a74/_history/1",
+        "Observation/obs-f-c420d0ad806ceaad708d3a74/_history/1"
+      ]
+    }
+  }
+}

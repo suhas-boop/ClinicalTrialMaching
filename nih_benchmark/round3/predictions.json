@@ -1,0 +1,4522 @@
+[
+  {
+    "annotation_id": 34,
+    "assisted_baseline": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Obtain fever_due_to_noninfectious_cause.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "904bc4caf89b87865125825a2796d5815bcbe48d71b3f2b9a56e6a2f8252d1e4",
+          "request": "fever due to noninfectious cause",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "190e19212725660d52bc5b51c635644cf2b6af8ff037128327d7563220118625",
+      "state": "MISSING_DATA"
+    },
+    "automatic": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Obtain fever_due_to_noninfectious_cause.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "904bc4caf89b87865125825a2796d5815bcbe48d71b3f2b9a56e6a2f8252d1e4",
+          "request": "fever due to noninfectious cause",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "190e19212725660d52bc5b51c635644cf2b6af8ff037128327d7563220118625",
+      "state": "MISSING_DATA"
+    },
+    "combined": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Obtain fever_due_to_noninfectious_cause.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "904bc4caf89b87865125825a2796d5815bcbe48d71b3f2b9a56e6a2f8252d1e4",
+          "request": "fever due to noninfectious cause",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "190e19212725660d52bc5b51c635644cf2b6af8ff037128327d7563220118625",
+      "state": "MISSING_DATA"
+    },
+    "criterion": "fever for non-infectious diseases such as rheumatic autoimmune disease or with tumor",
+    "patient": "sigir-20142",
+    "trial": "NCT02618655"
+  },
+  {
+    "annotation_id": 36,
+    "assisted_baseline": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Clarify the intended meaning of automatic discharge.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "11aa42906360cc2057b4959b97350ee35c8fb707dd650cb8c10e3cc3c1b843bf",
+          "request": "Clarify the intended meaning of automatic discharge.",
+          "route": "protocol_review"
+        }
+      ],
+      "sentences": [],
+      "source": "190e19212725660d52bc5b51c635644cf2b6af8ff037128327d7563220118625",
+      "state": "AUTHORING_HOLD"
+    },
+    "automatic": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Clarify the intended meaning of automatic discharge.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "11aa42906360cc2057b4959b97350ee35c8fb707dd650cb8c10e3cc3c1b843bf",
+          "request": "Clarify the intended meaning of automatic discharge.",
+          "route": "protocol_review"
+        }
+      ],
+      "sentences": [],
+      "source": "190e19212725660d52bc5b51c635644cf2b6af8ff037128327d7563220118625",
+      "state": "AUTHORING_HOLD"
+    },
+    "combined": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Clarify the intended meaning of automatic discharge.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "11aa42906360cc2057b4959b97350ee35c8fb707dd650cb8c10e3cc3c1b843bf",
+          "request": "Clarify the intended meaning of automatic discharge.",
+          "route": "protocol_review"
+        }
+      ],
+      "sentences": [],
+      "source": "190e19212725660d52bc5b51c635644cf2b6af8ff037128327d7563220118625",
+      "state": "AUTHORING_HOLD"
+    },
+    "criterion": "patients leave with automatic discharge",
+    "patient": "sigir-20142",
+    "trial": "NCT02618655"
+  },
+  {
+    "annotation_id": 44,
+    "assisted_baseline": {
+      "extracted": [],
+      "partial_sentences": [
+        0
+      ],
+      "reason": "Negated protocol condition. age_years = 58 (requires lt 18).",
+      "requests": [],
+      "sentences": [
+        0
+      ],
+      "source": "7db7b98d01354acf855cd7b610383ea9dd1df80ead35eeb47b9ba43467b559ad",
+      "state": "MET"
+    },
+    "automatic": {
+      "extracted": [
+        "age_years"
+      ],
+      "partial_sentences": [
+        0
+      ],
+      "reason": "Negated protocol condition. age_years = 58 (requires lt 18).",
+      "requests": [],
+      "sentences": [
+        0
+      ],
+      "source": "7db7b98d01354acf855cd7b610383ea9dd1df80ead35eeb47b9ba43467b559ad",
+      "state": "MET"
+    },
+    "combined": {
+      "extracted": [
+        "age_years"
+      ],
+      "partial_sentences": [
+        0
+      ],
+      "reason": "Negated protocol condition. age_years = 58 (requires lt 18).",
+      "requests": [],
+      "sentences": [
+        0
+      ],
+      "source": "7db7b98d01354acf855cd7b610383ea9dd1df80ead35eeb47b9ba43467b559ad",
+      "state": "MET"
+    },
+    "criterion": "Participant is under 18 years old.",
+    "patient": "sigir-20143",
+    "trial": "NCT01452971"
+  },
+  {
+    "annotation_id": 45,
+    "assisted_baseline": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Negated protocol condition. Obtain lung_cancer.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "6e62d79a2184ff178d1322d73b7eb6f1e7cbba181a77eb713a4f3033bd6b3985",
+          "request": "lung cancer",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "7db7b98d01354acf855cd7b610383ea9dd1df80ead35eeb47b9ba43467b559ad",
+      "state": "MISSING_DATA"
+    },
+    "automatic": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Negated protocol condition. Obtain lung_cancer.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "6e62d79a2184ff178d1322d73b7eb6f1e7cbba181a77eb713a4f3033bd6b3985",
+          "request": "lung cancer",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "7db7b98d01354acf855cd7b610383ea9dd1df80ead35eeb47b9ba43467b559ad",
+      "state": "MISSING_DATA"
+    },
+    "combined": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Negated protocol condition. Obtain lung_cancer.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "6e62d79a2184ff178d1322d73b7eb6f1e7cbba181a77eb713a4f3033bd6b3985",
+          "request": "lung cancer",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "7db7b98d01354acf855cd7b610383ea9dd1df80ead35eeb47b9ba43467b559ad",
+      "state": "MISSING_DATA"
+    },
+    "criterion": "Participant is not a lung cancer patient.",
+    "patient": "sigir-20143",
+    "trial": "NCT01452971"
+  },
+  {
+    "annotation_id": 46,
+    "assisted_baseline": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Obtain pulmonary_nodule_on_recent_ct.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "2e15e08d8a52843e2c2669ff2f49cd7f48c8afee892709b597446f2db7d392e8",
+          "request": "pulmonary nodule on recent ct",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "7db7b98d01354acf855cd7b610383ea9dd1df80ead35eeb47b9ba43467b559ad",
+      "state": "MISSING_DATA"
+    },
+    "automatic": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Obtain pulmonary_nodule_on_recent_ct.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "2e15e08d8a52843e2c2669ff2f49cd7f48c8afee892709b597446f2db7d392e8",
+          "request": "pulmonary nodule on recent ct",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "7db7b98d01354acf855cd7b610383ea9dd1df80ead35eeb47b9ba43467b559ad",
+      "state": "MISSING_DATA"
+    },
+    "combined": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Obtain pulmonary_nodule_on_recent_ct.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "2e15e08d8a52843e2c2669ff2f49cd7f48c8afee892709b597446f2db7d392e8",
+          "request": "pulmonary nodule on recent ct",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "7db7b98d01354acf855cd7b610383ea9dd1df80ead35eeb47b9ba43467b559ad",
+      "state": "MISSING_DATA"
+    },
+    "criterion": "Pulmonary nodule on a recent CT",
+    "patient": "sigir-20143",
+    "trial": "NCT02490059"
+  },
+  {
+    "annotation_id": 130,
+    "assisted_baseline": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Clarify whether any listed disorder suffices or all must coexist.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "60de2fcbd09d75384807bfe0ff6a83fb1423e7bf9649192f3f4ef0e66dc35a40",
+          "request": "Clarify whether any listed disorder suffices or all must coexist.",
+          "route": "protocol_review"
+        }
+      ],
+      "sentences": [],
+      "source": "867d6d6173382ea0098563cdd4ba6bca14e5b05368f31b6aa0d696316fd9160b",
+      "state": "AUTHORING_HOLD"
+    },
+    "automatic": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Clarify whether any listed disorder suffices or all must coexist.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "60de2fcbd09d75384807bfe0ff6a83fb1423e7bf9649192f3f4ef0e66dc35a40",
+          "request": "Clarify whether any listed disorder suffices or all must coexist.",
+          "route": "protocol_review"
+        }
+      ],
+      "sentences": [],
+      "source": "867d6d6173382ea0098563cdd4ba6bca14e5b05368f31b6aa0d696316fd9160b",
+      "state": "AUTHORING_HOLD"
+    },
+    "combined": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Clarify whether any listed disorder suffices or all must coexist.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "60de2fcbd09d75384807bfe0ff6a83fb1423e7bf9649192f3f4ef0e66dc35a40",
+          "request": "Clarify whether any listed disorder suffices or all must coexist.",
+          "route": "protocol_review"
+        }
+      ],
+      "sentences": [],
+      "source": "867d6d6173382ea0098563cdd4ba6bca14e5b05368f31b6aa0d696316fd9160b",
+      "state": "AUTHORING_HOLD"
+    },
+    "criterion": "diagnosis of eating disorder, substance abuse, and psychotic disorder",
+    "patient": "sigir-20147",
+    "trial": "NCT00845988"
+  },
+  {
+    "annotation_id": 132,
+    "assisted_baseline": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Obtain pregnant. Obtain breastfeeding.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "65f344f933c98531eabf59dcb893d8afce5c2cf3e4693d7a90e42e5d3df0c23d",
+          "request": "pregnant",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "7cfee09ff166ed92bd947ed82ee548b67b1a09e87f69952281dba80be2e30360",
+          "request": "breastfeeding",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "867d6d6173382ea0098563cdd4ba6bca14e5b05368f31b6aa0d696316fd9160b",
+      "state": "MISSING_DATA"
+    },
+    "automatic": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Obtain pregnant. Obtain breastfeeding.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "65f344f933c98531eabf59dcb893d8afce5c2cf3e4693d7a90e42e5d3df0c23d",
+          "request": "pregnant",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "7cfee09ff166ed92bd947ed82ee548b67b1a09e87f69952281dba80be2e30360",
+          "request": "breastfeeding",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "867d6d6173382ea0098563cdd4ba6bca14e5b05368f31b6aa0d696316fd9160b",
+      "state": "MISSING_DATA"
+    },
+    "combined": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Obtain pregnant. Obtain breastfeeding.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "65f344f933c98531eabf59dcb893d8afce5c2cf3e4693d7a90e42e5d3df0c23d",
+          "request": "pregnant",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "7cfee09ff166ed92bd947ed82ee548b67b1a09e87f69952281dba80be2e30360",
+          "request": "breastfeeding",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "867d6d6173382ea0098563cdd4ba6bca14e5b05368f31b6aa0d696316fd9160b",
+      "state": "MISSING_DATA"
+    },
+    "criterion": "pregnant or breast feeding women",
+    "patient": "sigir-20147",
+    "trial": "NCT00845988"
+  },
+  {
+    "annotation_id": 138,
+    "assisted_baseline": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Obtain any_past_or_current_antipsychotic_treatment.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "92058935be8c1767d39c380e4223e015d64f8ca3d8380cdd61cbb1cec50caed0",
+          "request": "any past or current antipsychotic treatment",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "867d6d6173382ea0098563cdd4ba6bca14e5b05368f31b6aa0d696316fd9160b",
+      "state": "MISSING_DATA"
+    },
+    "automatic": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Obtain any_past_or_current_antipsychotic_treatment.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "92058935be8c1767d39c380e4223e015d64f8ca3d8380cdd61cbb1cec50caed0",
+          "request": "any past or current antipsychotic treatment",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "867d6d6173382ea0098563cdd4ba6bca14e5b05368f31b6aa0d696316fd9160b",
+      "state": "MISSING_DATA"
+    },
+    "combined": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Obtain any_past_or_current_antipsychotic_treatment.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "92058935be8c1767d39c380e4223e015d64f8ca3d8380cdd61cbb1cec50caed0",
+          "request": "any past or current antipsychotic treatment",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "867d6d6173382ea0098563cdd4ba6bca14e5b05368f31b6aa0d696316fd9160b",
+      "state": "MISSING_DATA"
+    },
+    "criterion": "was/is treated with antipsychotic drugs",
+    "patient": "sigir-20147",
+    "trial": "NCT01863628"
+  },
+  {
+    "annotation_id": 140,
+    "assisted_baseline": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Clarify whether pregnancy and lactation are separate exclusions.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "bb8296c3b15b048ac4b91d81fc571dcffce5865420ca8994402b30b7e352714d",
+          "request": "Clarify whether pregnancy and lactation are separate exclusions.",
+          "route": "protocol_review"
+        }
+      ],
+      "sentences": [],
+      "source": "867d6d6173382ea0098563cdd4ba6bca14e5b05368f31b6aa0d696316fd9160b",
+      "state": "AUTHORING_HOLD"
+    },
+    "automatic": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Clarify whether pregnancy and lactation are separate exclusions.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "bb8296c3b15b048ac4b91d81fc571dcffce5865420ca8994402b30b7e352714d",
+          "request": "Clarify whether pregnancy and lactation are separate exclusions.",
+          "route": "protocol_review"
+        }
+      ],
+      "sentences": [],
+      "source": "867d6d6173382ea0098563cdd4ba6bca14e5b05368f31b6aa0d696316fd9160b",
+      "state": "AUTHORING_HOLD"
+    },
+    "combined": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Clarify whether pregnancy and lactation are separate exclusions.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "bb8296c3b15b048ac4b91d81fc571dcffce5865420ca8994402b30b7e352714d",
+          "request": "Clarify whether pregnancy and lactation are separate exclusions.",
+          "route": "protocol_review"
+        }
+      ],
+      "sentences": [],
+      "source": "867d6d6173382ea0098563cdd4ba6bca14e5b05368f31b6aa0d696316fd9160b",
+      "state": "AUTHORING_HOLD"
+    },
+    "criterion": "in pregnancy and lactation",
+    "patient": "sigir-20147",
+    "trial": "NCT01863628"
+  },
+  {
+    "annotation_id": 171,
+    "assisted_baseline": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Obtain inr. Negated protocol condition. Obtain systemic_anticoagulation.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "a40702e81128c4ed1c0a81aa10305bfb8b0f18fa46e2caf2f17ffe3165e6da11",
+          "request": "inr",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "9ea1ec0a9626c7b81e86850f81328f13bc2ff2e0d8ca7f0886e25d7dae2e58b3",
+          "request": "systemic anticoagulation",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "d75a03711fc9b2a5995355dd47a4a7618bfc96838c461f73d2d687f0cd1abb8d",
+      "state": "MISSING_DATA"
+    },
+    "automatic": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Obtain inr. Negated protocol condition. Obtain systemic_anticoagulation.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "a40702e81128c4ed1c0a81aa10305bfb8b0f18fa46e2caf2f17ffe3165e6da11",
+          "request": "inr",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "9ea1ec0a9626c7b81e86850f81328f13bc2ff2e0d8ca7f0886e25d7dae2e58b3",
+          "request": "systemic anticoagulation",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "d75a03711fc9b2a5995355dd47a4a7618bfc96838c461f73d2d687f0cd1abb8d",
+      "state": "MISSING_DATA"
+    },
+    "combined": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Obtain inr. Negated protocol condition. Obtain systemic_anticoagulation.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "a40702e81128c4ed1c0a81aa10305bfb8b0f18fa46e2caf2f17ffe3165e6da11",
+          "request": "inr",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "9ea1ec0a9626c7b81e86850f81328f13bc2ff2e0d8ca7f0886e25d7dae2e58b3",
+          "request": "systemic anticoagulation",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "d75a03711fc9b2a5995355dd47a4a7618bfc96838c461f73d2d687f0cd1abb8d",
+      "state": "MISSING_DATA"
+    },
+    "criterion": "Patients with severe hepatic disease defined as an international normalised ratio >2 in the absence of systemic anticoagulation",
+    "patient": "sigir-201410",
+    "trial": "NCT02097186"
+  },
+  {
+    "annotation_id": 174,
+    "assisted_baseline": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Obtain prior_axillary_surgery.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "2a2de6504ea893370a3e8a8cdc527566cf9841fa51691c3361d9041a16dd56df",
+          "request": "prior axillary surgery",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "d75a03711fc9b2a5995355dd47a4a7618bfc96838c461f73d2d687f0cd1abb8d",
+      "state": "MISSING_DATA"
+    },
+    "automatic": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Obtain prior_axillary_surgery.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "2a2de6504ea893370a3e8a8cdc527566cf9841fa51691c3361d9041a16dd56df",
+          "request": "prior axillary surgery",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "d75a03711fc9b2a5995355dd47a4a7618bfc96838c461f73d2d687f0cd1abb8d",
+      "state": "MISSING_DATA"
+    },
+    "combined": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Obtain prior_axillary_surgery.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "2a2de6504ea893370a3e8a8cdc527566cf9841fa51691c3361d9041a16dd56df",
+          "request": "prior axillary surgery",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "d75a03711fc9b2a5995355dd47a4a7618bfc96838c461f73d2d687f0cd1abb8d",
+      "state": "MISSING_DATA"
+    },
+    "criterion": "Patients with previous axillary surgery",
+    "patient": "sigir-201410",
+    "trial": "NCT02097186"
+  },
+  {
+    "annotation_id": 177,
+    "assisted_baseline": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Obtain maintenance_hemodialysis_after_central_venous_catheterization.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "3c6bd4d80ba0d0f5a228ee6e376e5eeacdc1fbf7f17b1b6b82544f1a2d6e9be6",
+          "request": "maintenance hemodialysis after central venous catheterization",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "d75a03711fc9b2a5995355dd47a4a7618bfc96838c461f73d2d687f0cd1abb8d",
+      "state": "MISSING_DATA"
+    },
+    "automatic": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Obtain maintenance_hemodialysis_after_central_venous_catheterization.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "3c6bd4d80ba0d0f5a228ee6e376e5eeacdc1fbf7f17b1b6b82544f1a2d6e9be6",
+          "request": "maintenance hemodialysis after central venous catheterization",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "d75a03711fc9b2a5995355dd47a4a7618bfc96838c461f73d2d687f0cd1abb8d",
+      "state": "MISSING_DATA"
+    },
+    "combined": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Obtain maintenance_hemodialysis_after_central_venous_catheterization.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "3c6bd4d80ba0d0f5a228ee6e376e5eeacdc1fbf7f17b1b6b82544f1a2d6e9be6",
+          "request": "maintenance hemodialysis after central venous catheterization",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "d75a03711fc9b2a5995355dd47a4a7618bfc96838c461f73d2d687f0cd1abb8d",
+      "state": "MISSING_DATA"
+    },
+    "criterion": "Maintenance hemodialysis after central vena catheterization.",
+    "patient": "sigir-201410",
+    "trial": "NCT02264964"
+  },
+  {
+    "annotation_id": 179,
+    "assisted_baseline": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Obtain prior_central_venous_puncture_or_catheterization.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "69f41a2c9c716731e8589e70d992e2ee551eac9d588cd97a41dd6ededaac3440",
+          "request": "prior central venous puncture or catheterization",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "d75a03711fc9b2a5995355dd47a4a7618bfc96838c461f73d2d687f0cd1abb8d",
+      "state": "MISSING_DATA"
+    },
+    "automatic": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Obtain prior_central_venous_puncture_or_catheterization.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "69f41a2c9c716731e8589e70d992e2ee551eac9d588cd97a41dd6ededaac3440",
+          "request": "prior central venous puncture or catheterization",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "d75a03711fc9b2a5995355dd47a4a7618bfc96838c461f73d2d687f0cd1abb8d",
+      "state": "MISSING_DATA"
+    },
+    "combined": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Obtain prior_central_venous_puncture_or_catheterization.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "69f41a2c9c716731e8589e70d992e2ee551eac9d588cd97a41dd6ededaac3440",
+          "request": "prior central venous puncture or catheterization",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "d75a03711fc9b2a5995355dd47a4a7618bfc96838c461f73d2d687f0cd1abb8d",
+      "state": "MISSING_DATA"
+    },
+    "criterion": "Had been performed central venous puncture or catheterization before.",
+    "patient": "sigir-201410",
+    "trial": "NCT02264964"
+  },
+  {
+    "annotation_id": 184,
+    "assisted_baseline": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Identify the assessment and decision maker for other inappropriate situations.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "12263da183929b041f3a5bb120d540174df006bb960b0edc631fb312e9b6de9a",
+          "request": "Identify the assessment and decision maker for other inappropriate situations.",
+          "route": "protocol_review"
+        }
+      ],
+      "sentences": [],
+      "source": "d75a03711fc9b2a5995355dd47a4a7618bfc96838c461f73d2d687f0cd1abb8d",
+      "state": "AUTHORING_HOLD"
+    },
+    "automatic": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Identify the assessment and decision maker for other inappropriate situations.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "12263da183929b041f3a5bb120d540174df006bb960b0edc631fb312e9b6de9a",
+          "request": "Identify the assessment and decision maker for other inappropriate situations.",
+          "route": "protocol_review"
+        }
+      ],
+      "sentences": [],
+      "source": "d75a03711fc9b2a5995355dd47a4a7618bfc96838c461f73d2d687f0cd1abb8d",
+      "state": "AUTHORING_HOLD"
+    },
+    "combined": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Identify the assessment and decision maker for other inappropriate situations.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "12263da183929b041f3a5bb120d540174df006bb960b0edc631fb312e9b6de9a",
+          "request": "Identify the assessment and decision maker for other inappropriate situations.",
+          "route": "protocol_review"
+        }
+      ],
+      "sentences": [],
+      "source": "d75a03711fc9b2a5995355dd47a4a7618bfc96838c461f73d2d687f0cd1abb8d",
+      "state": "AUTHORING_HOLD"
+    },
+    "criterion": "Other inappropriate situation",
+    "patient": "sigir-201410",
+    "trial": "NCT02264964"
+  },
+  {
+    "annotation_id": 185,
+    "assisted_baseline": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Obtain diagnosed_shock. Obtain diagnosed_ards.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "0b75d016bbf123ef9c83870519c71dadd935d8b64d4e1318de4f1a4abb0929e1",
+          "request": "diagnosed shock",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "164de62e4adc1821537965ed468b4f858358553ede0f5de9ddc8ba859cb5803e",
+          "request": "diagnosed ards",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "db4467fa7cba03819df27445f2090c80d6acd145a3361057f24a2fb5877aaec1",
+      "state": "MISSING_DATA"
+    },
+    "automatic": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Obtain diagnosed_shock. Obtain diagnosed_ards.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "0b75d016bbf123ef9c83870519c71dadd935d8b64d4e1318de4f1a4abb0929e1",
+          "request": "diagnosed shock",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "164de62e4adc1821537965ed468b4f858358553ede0f5de9ddc8ba859cb5803e",
+          "request": "diagnosed ards",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "db4467fa7cba03819df27445f2090c80d6acd145a3361057f24a2fb5877aaec1",
+      "state": "MISSING_DATA"
+    },
+    "combined": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Obtain diagnosed_shock. Obtain diagnosed_ards.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "0b75d016bbf123ef9c83870519c71dadd935d8b64d4e1318de4f1a4abb0929e1",
+          "request": "diagnosed shock",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "164de62e4adc1821537965ed468b4f858358553ede0f5de9ddc8ba859cb5803e",
+          "request": "diagnosed ards",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "db4467fa7cba03819df27445f2090c80d6acd145a3361057f24a2fb5877aaec1",
+      "state": "MISSING_DATA"
+    },
+    "criterion": "Patients were included if they were diagnosed with Shock, Acute respiratory distress syndrome (ARDS), or both.",
+    "patient": "sigir-201411",
+    "trial": "NCT01526382"
+  },
+  {
+    "annotation_id": 186,
+    "assisted_baseline": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Obtain heart_rate.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "3f17826240dc527b55015c7b5a6a30b90543ec131fb6b73681a94aafc0f78fea",
+          "request": "heart rate",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "db4467fa7cba03819df27445f2090c80d6acd145a3361057f24a2fb5877aaec1",
+      "state": "MISSING_DATA"
+    },
+    "automatic": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Obtain heart_rate.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "3f17826240dc527b55015c7b5a6a30b90543ec131fb6b73681a94aafc0f78fea",
+          "request": "heart rate",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "db4467fa7cba03819df27445f2090c80d6acd145a3361057f24a2fb5877aaec1",
+      "state": "MISSING_DATA"
+    },
+    "combined": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Obtain heart_rate.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "3f17826240dc527b55015c7b5a6a30b90543ec131fb6b73681a94aafc0f78fea",
+          "request": "heart rate",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "db4467fa7cba03819df27445f2090c80d6acd145a3361057f24a2fb5877aaec1",
+      "state": "MISSING_DATA"
+    },
+    "criterion": "Heart rate of at least 90/min;",
+    "patient": "sigir-201411",
+    "trial": "NCT01526382"
+  },
+  {
+    "annotation_id": 187,
+    "assisted_baseline": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Obtain respiratory_rate. Obtain paco2_mmhg. Obtain receiving_mechanical_ventilation.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "099dbdb47ed94e8b97d8ba03516f0ef9582a31e8e0849bd6ef8cac8679d5288c",
+          "request": "respiratory rate",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "1fa74f7ba791ff257bb995aa8d86d7198f4a11d54428f81c9061c921fda9b9ab",
+          "request": "paco2 mmhg",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "c078a2ea7a0fd27d26c63073f6d9f34134c45fbac8eec63fad669a6c64332d51",
+          "request": "receiving mechanical ventilation",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "db4467fa7cba03819df27445f2090c80d6acd145a3361057f24a2fb5877aaec1",
+      "state": "MISSING_DATA"
+    },
+    "automatic": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Obtain respiratory_rate. Obtain paco2_mmhg. Obtain receiving_mechanical_ventilation.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "099dbdb47ed94e8b97d8ba03516f0ef9582a31e8e0849bd6ef8cac8679d5288c",
+          "request": "respiratory rate",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "1fa74f7ba791ff257bb995aa8d86d7198f4a11d54428f81c9061c921fda9b9ab",
+          "request": "paco2 mmhg",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "c078a2ea7a0fd27d26c63073f6d9f34134c45fbac8eec63fad669a6c64332d51",
+          "request": "receiving mechanical ventilation",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "db4467fa7cba03819df27445f2090c80d6acd145a3361057f24a2fb5877aaec1",
+      "state": "MISSING_DATA"
+    },
+    "combined": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Obtain respiratory_rate. Obtain paco2_mmhg. Obtain receiving_mechanical_ventilation.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "099dbdb47ed94e8b97d8ba03516f0ef9582a31e8e0849bd6ef8cac8679d5288c",
+          "request": "respiratory rate",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "1fa74f7ba791ff257bb995aa8d86d7198f4a11d54428f81c9061c921fda9b9ab",
+          "request": "paco2 mmhg",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "c078a2ea7a0fd27d26c63073f6d9f34134c45fbac8eec63fad669a6c64332d51",
+          "request": "receiving mechanical ventilation",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "db4467fa7cba03819df27445f2090c80d6acd145a3361057f24a2fb5877aaec1",
+      "state": "MISSING_DATA"
+    },
+    "criterion": "A respiratory rate of at least 20/min or a PaCO2 of 32mmHg or lower or the use of mechanical ventilation;",
+    "patient": "sigir-201411",
+    "trial": "NCT01526382"
+  },
+  {
+    "annotation_id": 196,
+    "assisted_baseline": {
+      "extracted": [],
+      "partial_sentences": [
+        0
+      ],
+      "reason": "Negated protocol condition. age_years = 40 (requires lt 18).",
+      "requests": [],
+      "sentences": [
+        0
+      ],
+      "source": "db4467fa7cba03819df27445f2090c80d6acd145a3361057f24a2fb5877aaec1",
+      "state": "MET"
+    },
+    "automatic": {
+      "extracted": [
+        "age_years"
+      ],
+      "partial_sentences": [
+        0
+      ],
+      "reason": "Negated protocol condition. age_years = 40 (requires lt 18).",
+      "requests": [],
+      "sentences": [
+        0
+      ],
+      "source": "db4467fa7cba03819df27445f2090c80d6acd145a3361057f24a2fb5877aaec1",
+      "state": "MET"
+    },
+    "combined": {
+      "extracted": [
+        "age_years"
+      ],
+      "partial_sentences": [
+        0
+      ],
+      "reason": "Negated protocol condition. age_years = 40 (requires lt 18).",
+      "requests": [],
+      "sentences": [
+        0
+      ],
+      "source": "db4467fa7cba03819df27445f2090c80d6acd145a3361057f24a2fb5877aaec1",
+      "state": "MET"
+    },
+    "criterion": "Less than 18 years of age",
+    "patient": "sigir-201411",
+    "trial": "NCT01723137"
+  },
+  {
+    "annotation_id": 203,
+    "assisted_baseline": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Obtain positive_thyroid_peroxidase_antibodies.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "fbf187a066f6fbad0ec7ae465fa77ca89f39b65ee69efce2018fe076a3c2eabb",
+          "request": "positive thyroid peroxidase antibodies",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "a0eac65bc8ed1f16677856cb71a94f7da8d1202cd92ef1c5ffc0e912f9ac0020",
+      "state": "MISSING_DATA"
+    },
+    "automatic": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Obtain positive_thyroid_peroxidase_antibodies.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "fbf187a066f6fbad0ec7ae465fa77ca89f39b65ee69efce2018fe076a3c2eabb",
+          "request": "positive thyroid peroxidase antibodies",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "a0eac65bc8ed1f16677856cb71a94f7da8d1202cd92ef1c5ffc0e912f9ac0020",
+      "state": "MISSING_DATA"
+    },
+    "combined": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Obtain positive_thyroid_peroxidase_antibodies.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "fbf187a066f6fbad0ec7ae465fa77ca89f39b65ee69efce2018fe076a3c2eabb",
+          "request": "positive thyroid peroxidase antibodies",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "a0eac65bc8ed1f16677856cb71a94f7da8d1202cd92ef1c5ffc0e912f9ac0020",
+      "state": "MISSING_DATA"
+    },
+    "criterion": "having positive antibodies against thyroid peroxidase",
+    "patient": "sigir-201412",
+    "trial": "NCT01551498"
+  },
+  {
+    "annotation_id": 226,
+    "assisted_baseline": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Obtain recurrent_hematoma. Obtain first_surgery_before_study_start.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "3e493a25444ca785505b47b9b82be5f4b2d7077b27be11b1e22ba1dac248e5aa",
+          "request": "recurrent hematoma",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "7a89a60a911a9c698e0dce61ab9c31fa00e3a9c3bc4f8ad0e81c7ffd9487fa61",
+          "request": "first surgery before study start",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "907ec481451b6bd039e1d00846ab29534a5a5dc42174521b3ee1bd25b2f4d7ea",
+      "state": "MISSING_DATA"
+    },
+    "automatic": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Obtain recurrent_hematoma. Obtain first_surgery_before_study_start.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "3e493a25444ca785505b47b9b82be5f4b2d7077b27be11b1e22ba1dac248e5aa",
+          "request": "recurrent hematoma",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "7a89a60a911a9c698e0dce61ab9c31fa00e3a9c3bc4f8ad0e81c7ffd9487fa61",
+          "request": "first surgery before study start",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "907ec481451b6bd039e1d00846ab29534a5a5dc42174521b3ee1bd25b2f4d7ea",
+      "state": "MISSING_DATA"
+    },
+    "combined": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Obtain recurrent_hematoma. Obtain first_surgery_before_study_start.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "3e493a25444ca785505b47b9b82be5f4b2d7077b27be11b1e22ba1dac248e5aa",
+          "request": "recurrent hematoma",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "7a89a60a911a9c698e0dce61ab9c31fa00e3a9c3bc4f8ad0e81c7ffd9487fa61",
+          "request": "first surgery before study start",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "907ec481451b6bd039e1d00846ab29534a5a5dc42174521b3ee1bd25b2f4d7ea",
+      "state": "MISSING_DATA"
+    },
+    "criterion": "Recurrent hematoma if the first surgery was performed before study start",
+    "patient": "sigir-201414",
+    "trial": "NCT01624545"
+  },
+  {
+    "annotation_id": 227,
+    "assisted_baseline": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Obtain csh_due_to_spinal_csf_fistula. Obtain csh_due_to_meningeosis_carcinomatosa.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "63825b0c70c7cb048724dbc1ff6d8a0b7f8bf761d42c17cd5c7441b2e753cf38",
+          "request": "csh due to spinal csf fistula",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "7c8e79208a9d4ed5ded6f33c0c23b8344fef5b9bc7ab58dc73b929a34919959e",
+          "request": "csh due to meningeosis carcinomatosa",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "907ec481451b6bd039e1d00846ab29534a5a5dc42174521b3ee1bd25b2f4d7ea",
+      "state": "MISSING_DATA"
+    },
+    "automatic": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Obtain csh_due_to_spinal_csf_fistula. Obtain csh_due_to_meningeosis_carcinomatosa.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "63825b0c70c7cb048724dbc1ff6d8a0b7f8bf761d42c17cd5c7441b2e753cf38",
+          "request": "csh due to spinal csf fistula",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "7c8e79208a9d4ed5ded6f33c0c23b8344fef5b9bc7ab58dc73b929a34919959e",
+          "request": "csh due to meningeosis carcinomatosa",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "907ec481451b6bd039e1d00846ab29534a5a5dc42174521b3ee1bd25b2f4d7ea",
+      "state": "MISSING_DATA"
+    },
+    "combined": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Obtain csh_due_to_spinal_csf_fistula. Obtain csh_due_to_meningeosis_carcinomatosa.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "63825b0c70c7cb048724dbc1ff6d8a0b7f8bf761d42c17cd5c7441b2e753cf38",
+          "request": "csh due to spinal csf fistula",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "7c8e79208a9d4ed5ded6f33c0c23b8344fef5b9bc7ab58dc73b929a34919959e",
+          "request": "csh due to meningeosis carcinomatosa",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "907ec481451b6bd039e1d00846ab29534a5a5dc42174521b3ee1bd25b2f4d7ea",
+      "state": "MISSING_DATA"
+    },
+    "criterion": "CSH due to spontaneous spinal CSF fistula or meningeosis carcinomatosa",
+    "patient": "sigir-201414",
+    "trial": "NCT01624545"
+  },
+  {
+    "annotation_id": 230,
+    "assisted_baseline": {
+      "extracted": [],
+      "partial_sentences": [
+        0
+      ],
+      "reason": "Obtain symptomatic_chronic_subdural_hematoma.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "8195e9eb509e3ad5900914894cbc6eb80d8b707dd1311475044f930a4dcd5990",
+          "request": "symptomatic chronic subdural hematoma",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "907ec481451b6bd039e1d00846ab29534a5a5dc42174521b3ee1bd25b2f4d7ea",
+      "state": "MISSING_DATA"
+    },
+    "automatic": {
+      "extracted": [
+        "age_years"
+      ],
+      "partial_sentences": [
+        0
+      ],
+      "reason": "Obtain symptomatic_chronic_subdural_hematoma.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "8195e9eb509e3ad5900914894cbc6eb80d8b707dd1311475044f930a4dcd5990",
+          "request": "symptomatic chronic subdural hematoma",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "907ec481451b6bd039e1d00846ab29534a5a5dc42174521b3ee1bd25b2f4d7ea",
+      "state": "MISSING_DATA"
+    },
+    "combined": {
+      "extracted": [
+        "age_years"
+      ],
+      "partial_sentences": [
+        0
+      ],
+      "reason": "Obtain symptomatic_chronic_subdural_hematoma.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "8195e9eb509e3ad5900914894cbc6eb80d8b707dd1311475044f930a4dcd5990",
+          "request": "symptomatic chronic subdural hematoma",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "907ec481451b6bd039e1d00846ab29534a5a5dc42174521b3ee1bd25b2f4d7ea",
+      "state": "MISSING_DATA"
+    },
+    "criterion": "Patient at least 18 years of age presenting with a symptomatic chronic subdural hematoma",
+    "patient": "sigir-201414",
+    "trial": "NCT01869855"
+  },
+  {
+    "annotation_id": 231,
+    "assisted_baseline": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Obtain chronic_subdural_hematoma_verified_on_ct_or_mri.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "c4af52b5c53acb5f94a2e2ebb6bcb107273f1a2a554efb67043731d3a29c5ba9",
+          "request": "chronic subdural hematoma verified on ct or mri",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "907ec481451b6bd039e1d00846ab29534a5a5dc42174521b3ee1bd25b2f4d7ea",
+      "state": "MISSING_DATA"
+    },
+    "automatic": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Obtain chronic_subdural_hematoma_verified_on_ct_or_mri.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "c4af52b5c53acb5f94a2e2ebb6bcb107273f1a2a554efb67043731d3a29c5ba9",
+          "request": "chronic subdural hematoma verified on ct or mri",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "907ec481451b6bd039e1d00846ab29534a5a5dc42174521b3ee1bd25b2f4d7ea",
+      "state": "MISSING_DATA"
+    },
+    "combined": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Obtain chronic_subdural_hematoma_verified_on_ct_or_mri.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "c4af52b5c53acb5f94a2e2ebb6bcb107273f1a2a554efb67043731d3a29c5ba9",
+          "request": "chronic subdural hematoma verified on ct or mri",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "907ec481451b6bd039e1d00846ab29534a5a5dc42174521b3ee1bd25b2f4d7ea",
+      "state": "MISSING_DATA"
+    },
+    "criterion": "Chronic subdural hematoma verified on cranial CT or MRI",
+    "patient": "sigir-201414",
+    "trial": "NCT01869855"
+  },
+  {
+    "annotation_id": 232,
+    "assisted_baseline": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Obtain surgeon_decided_craniotomy_intraoperatively.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "68930566e950c22fb02a6772a6b9bd769a5263be08a85a485e9a68365d32d772",
+          "request": "surgeon decided craniotomy intraoperatively",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "907ec481451b6bd039e1d00846ab29534a5a5dc42174521b3ee1bd25b2f4d7ea",
+      "state": "MISSING_DATA"
+    },
+    "automatic": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Obtain surgeon_decided_craniotomy_intraoperatively.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "68930566e950c22fb02a6772a6b9bd769a5263be08a85a485e9a68365d32d772",
+          "request": "surgeon decided craniotomy intraoperatively",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "907ec481451b6bd039e1d00846ab29534a5a5dc42174521b3ee1bd25b2f4d7ea",
+      "state": "MISSING_DATA"
+    },
+    "combined": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Obtain surgeon_decided_craniotomy_intraoperatively.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "68930566e950c22fb02a6772a6b9bd769a5263be08a85a485e9a68365d32d772",
+          "request": "surgeon decided craniotomy intraoperatively",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "907ec481451b6bd039e1d00846ab29534a5a5dc42174521b3ee1bd25b2f4d7ea",
+      "state": "MISSING_DATA"
+    },
+    "criterion": "The surgeon decides based on intraoperative conditions to perform a craniotomy (e.g. acute hematoma indicating a craniotomy)",
+    "patient": "sigir-201414",
+    "trial": "NCT01869855"
+  },
+  {
+    "annotation_id": 233,
+    "assisted_baseline": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Obtain csh_due_to_underlying_illness.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "318140023a4b386e35d30d34f02bae1cbe00c1fdb3f1eaca2cfea9901349941f",
+          "request": "csh due to underlying illness",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "907ec481451b6bd039e1d00846ab29534a5a5dc42174521b3ee1bd25b2f4d7ea",
+      "state": "MISSING_DATA"
+    },
+    "automatic": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Obtain csh_due_to_underlying_illness.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "318140023a4b386e35d30d34f02bae1cbe00c1fdb3f1eaca2cfea9901349941f",
+          "request": "csh due to underlying illness",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "907ec481451b6bd039e1d00846ab29534a5a5dc42174521b3ee1bd25b2f4d7ea",
+      "state": "MISSING_DATA"
+    },
+    "combined": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Obtain csh_due_to_underlying_illness.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "318140023a4b386e35d30d34f02bae1cbe00c1fdb3f1eaca2cfea9901349941f",
+          "request": "csh due to underlying illness",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "907ec481451b6bd039e1d00846ab29534a5a5dc42174521b3ee1bd25b2f4d7ea",
+      "state": "MISSING_DATA"
+    },
+    "criterion": "Chronic subdural hematoma caused by another underlying illness (e.g. caused by over-drainage of a vp-shunt)",
+    "patient": "sigir-201414",
+    "trial": "NCT01869855"
+  },
+  {
+    "annotation_id": 307,
+    "assisted_baseline": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Verify how the five surgical alternatives, pre-volumetry requirements and optional investigations scope together.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "19a4736d5a4cd83eb45aaa9c03296b93236dc233ca99a3ab301901b41595c0c8",
+          "request": "Verify how the five surgical alternatives, pre-volumetry requirements and optional investigations scope together.",
+          "route": "protocol_review"
+        }
+      ],
+      "sentences": [],
+      "source": "844349228fe841ce2694e062a791d890bf1ec69be986c3274ce2f92b88d12679",
+      "state": "AUTHORING_HOLD"
+    },
+    "automatic": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Verify how the five surgical alternatives, pre-volumetry requirements and optional investigations scope together.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "19a4736d5a4cd83eb45aaa9c03296b93236dc233ca99a3ab301901b41595c0c8",
+          "request": "Verify how the five surgical alternatives, pre-volumetry requirements and optional investigations scope together.",
+          "route": "protocol_review"
+        }
+      ],
+      "sentences": [],
+      "source": "844349228fe841ce2694e062a791d890bf1ec69be986c3274ce2f92b88d12679",
+      "state": "AUTHORING_HOLD"
+    },
+    "combined": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Verify how the five surgical alternatives, pre-volumetry requirements and optional investigations scope together.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "19a4736d5a4cd83eb45aaa9c03296b93236dc233ca99a3ab301901b41595c0c8",
+          "request": "Verify how the five surgical alternatives, pre-volumetry requirements and optional investigations scope together.",
+          "route": "protocol_review"
+        }
+      ],
+      "sentences": [],
+      "source": "844349228fe841ce2694e062a791d890bf1ec69be986c3274ce2f92b88d12679",
+      "state": "AUTHORING_HOLD"
+    },
+    "criterion": "Patient selection should be cautious, covering basically 5 types of liver damage which must be submitted prior to liver volumetry: Metastatic Disease subsidiary right hepatectomy extended to segment IV Metastatic Disease subsidiary right hepatectomy with suspected diseased liver (neoadjuvant chemotherapy) (in cases of doubt may be used liver function test indocyanine green) Bilobar liver metastases with multiple nodules in the right lobe and more than 3 nodules greater than 30 mm in the left hepatic lobe (LHI) will perform lumpectomies the LHI + right portal branch ligation (or postoperative percutaneous embolization) in order to make right hepatectomy 4-6 weeks (two stage surgery) Subsidiary Hepatocarcinoma extended right hepatectomy Liver Injury benign / malignant (Hemangiomas, hydatid cysts or liver tumors / primary bile hepatoblastoma), which by extension threatens the viability of the remaining liver tissue.",
+    "patient": "sigir-201417",
+    "trial": "NCT01745731"
+  },
+  {
+    "annotation_id": 322,
+    "assisted_baseline": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Obtain pregnant. Obtain woman_of_childbearing_age. Negated protocol condition. Obtain adequate_contraception.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "1d39403f698138bc685519600f2ecd2225fae75af8dde81eb01e07dba2c7b97b",
+          "request": "pregnant",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "240cd85582e36d72ca6b2af69477d79b2a9f5298070d2e55db9c69fad27bbfe2",
+          "request": "woman of childbearing age",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "aafaab87433baa5ff35b08877ab91b80e16dd7d60d663fb7e0dff004899210fb",
+          "request": "adequate contraception",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "844349228fe841ce2694e062a791d890bf1ec69be986c3274ce2f92b88d12679",
+      "state": "MISSING_DATA"
+    },
+    "automatic": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Obtain pregnant. Obtain woman_of_childbearing_age. Negated protocol condition. Obtain adequate_contraception.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "1d39403f698138bc685519600f2ecd2225fae75af8dde81eb01e07dba2c7b97b",
+          "request": "pregnant",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "240cd85582e36d72ca6b2af69477d79b2a9f5298070d2e55db9c69fad27bbfe2",
+          "request": "woman of childbearing age",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "aafaab87433baa5ff35b08877ab91b80e16dd7d60d663fb7e0dff004899210fb",
+          "request": "adequate contraception",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "844349228fe841ce2694e062a791d890bf1ec69be986c3274ce2f92b88d12679",
+      "state": "MISSING_DATA"
+    },
+    "combined": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Obtain pregnant. Obtain woman_of_childbearing_age. Negated protocol condition. Obtain adequate_contraception.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "1d39403f698138bc685519600f2ecd2225fae75af8dde81eb01e07dba2c7b97b",
+          "request": "pregnant",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "240cd85582e36d72ca6b2af69477d79b2a9f5298070d2e55db9c69fad27bbfe2",
+          "request": "woman of childbearing age",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "aafaab87433baa5ff35b08877ab91b80e16dd7d60d663fb7e0dff004899210fb",
+          "request": "adequate contraception",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "844349228fe841ce2694e062a791d890bf1ec69be986c3274ce2f92b88d12679",
+      "state": "MISSING_DATA"
+    },
+    "criterion": "Pregnant women or women of childbearing age who do not have adequate contraception.",
+    "patient": "sigir-201417",
+    "trial": "NCT01745731"
+  },
+  {
+    "annotation_id": 323,
+    "assisted_baseline": {
+      "extracted": [],
+      "partial_sentences": [
+        0
+      ],
+      "reason": "Obtain early_bone_marrow_failure_in_childhood.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "32ebfffb6c1f223042c78fbb3e096ecf2e1d912f57b21fa549557adf91ffd977",
+          "request": "early bone marrow failure in childhood",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "844349228fe841ce2694e062a791d890bf1ec69be986c3274ce2f92b88d12679",
+      "state": "MISSING_DATA"
+    },
+    "automatic": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Obtain immune_deficiency. Obtain early_bone_marrow_failure_in_childhood.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "878bca15a12b81e5de266ad89d93faa66b2aeda73aa8b2318c548ca9d0429af2",
+          "request": "immune deficiency",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "32ebfffb6c1f223042c78fbb3e096ecf2e1d912f57b21fa549557adf91ffd977",
+          "request": "early bone marrow failure in childhood",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "844349228fe841ce2694e062a791d890bf1ec69be986c3274ce2f92b88d12679",
+      "state": "MISSING_DATA"
+    },
+    "combined": {
+      "extracted": [],
+      "partial_sentences": [
+        0
+      ],
+      "reason": "Obtain early_bone_marrow_failure_in_childhood.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "32ebfffb6c1f223042c78fbb3e096ecf2e1d912f57b21fa549557adf91ffd977",
+          "request": "early bone marrow failure in childhood",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "844349228fe841ce2694e062a791d890bf1ec69be986c3274ce2f92b88d12679",
+      "state": "MISSING_DATA"
+    },
+    "criterion": "Immune Deficiency and early BMF in childhood",
+    "patient": "sigir-201417",
+    "trial": "NCT02556359"
+  },
+  {
+    "annotation_id": 359,
+    "assisted_baseline": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Obtain gastric_carcinoma.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "8ceb3b3ce8e09f629abc679b741869fa1a8d1992db7abb832cc124cd932eeb64",
+          "request": "gastric carcinoma",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "fba0e3ed73e228dbe2f6761be1b0d5bffb98dad13d43c66538cce256d9fe2d81",
+      "state": "MISSING_DATA"
+    },
+    "automatic": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Obtain gastric_carcinoma.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "8ceb3b3ce8e09f629abc679b741869fa1a8d1992db7abb832cc124cd932eeb64",
+          "request": "gastric carcinoma",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "fba0e3ed73e228dbe2f6761be1b0d5bffb98dad13d43c66538cce256d9fe2d81",
+      "state": "MISSING_DATA"
+    },
+    "combined": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Obtain gastric_carcinoma.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "8ceb3b3ce8e09f629abc679b741869fa1a8d1992db7abb832cc124cd932eeb64",
+          "request": "gastric carcinoma",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "fba0e3ed73e228dbe2f6761be1b0d5bffb98dad13d43c66538cce256d9fe2d81",
+      "state": "MISSING_DATA"
+    },
+    "criterion": "Gastric carcinoma",
+    "patient": "sigir-201419",
+    "trial": "NCT02509286"
+  },
+  {
+    "annotation_id": 435,
+    "assisted_baseline": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Obtain chest_ct_showed_lung_cancer. Obtain chest_ct_showed_active_tb. Obtain chest_ct_showed_pulmonary_thromboembolism. Obtain chest_ct_showed_ild.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "0576bcb6d240ebbd3f2a13b8235bd637c6d4ceacf4ec7841aadd52ca4fe227a3",
+          "request": "chest ct showed lung cancer",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "1adbeffa94bbbb34bed2b1f9037fb1b0c4552b9d5dfc7cb9e4c27613258e9d08",
+          "request": "chest ct showed active tb",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "9771cfb055990f1fc976d3a1d680878cdc245af98b92780a09641f39ed8ac9c6",
+          "request": "chest ct showed pulmonary thromboembolism",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "0f453bc0accf7957abd00ab5dc3c3e963eea12ae107ee048534e6f13d12cdbfc",
+          "request": "chest ct showed ild",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "8e530421201a2a4d556991baa714d579a84687eaa8b991ed837e5d05f0365d5f",
+      "state": "MISSING_DATA"
+    },
+    "automatic": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Obtain chest_ct_showed_lung_cancer. Obtain chest_ct_showed_active_tb. Obtain chest_ct_showed_pulmonary_thromboembolism. Obtain chest_ct_showed_ild.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "0576bcb6d240ebbd3f2a13b8235bd637c6d4ceacf4ec7841aadd52ca4fe227a3",
+          "request": "chest ct showed lung cancer",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "1adbeffa94bbbb34bed2b1f9037fb1b0c4552b9d5dfc7cb9e4c27613258e9d08",
+          "request": "chest ct showed active tb",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "9771cfb055990f1fc976d3a1d680878cdc245af98b92780a09641f39ed8ac9c6",
+          "request": "chest ct showed pulmonary thromboembolism",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "0f453bc0accf7957abd00ab5dc3c3e963eea12ae107ee048534e6f13d12cdbfc",
+          "request": "chest ct showed ild",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "8e530421201a2a4d556991baa714d579a84687eaa8b991ed837e5d05f0365d5f",
+      "state": "MISSING_DATA"
+    },
+    "combined": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Obtain chest_ct_showed_lung_cancer. Obtain chest_ct_showed_active_tb. Obtain chest_ct_showed_pulmonary_thromboembolism. Obtain chest_ct_showed_ild.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "0576bcb6d240ebbd3f2a13b8235bd637c6d4ceacf4ec7841aadd52ca4fe227a3",
+          "request": "chest ct showed lung cancer",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "1adbeffa94bbbb34bed2b1f9037fb1b0c4552b9d5dfc7cb9e4c27613258e9d08",
+          "request": "chest ct showed active tb",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "9771cfb055990f1fc976d3a1d680878cdc245af98b92780a09641f39ed8ac9c6",
+          "request": "chest ct showed pulmonary thromboembolism",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "0f453bc0accf7957abd00ab5dc3c3e963eea12ae107ee048534e6f13d12cdbfc",
+          "request": "chest ct showed ild",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "8e530421201a2a4d556991baa714d579a84687eaa8b991ed837e5d05f0365d5f",
+      "state": "MISSING_DATA"
+    },
+    "criterion": "Chest CT shows lung cancer, active pulmonary tuberculosis, pulmonary thromboembolism or interstitial lung diseases",
+    "patient": "sigir-201423",
+    "trial": "NCT02219360"
+  },
+  {
+    "annotation_id": 437,
+    "assisted_baseline": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Obtain acute_copd_exacerbation_type_I_or_II_per_GOLD.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "a87fccf6762edb671d323b78f328ef44cbb8f37f0fbb2a4bb11eed32b7f002d2",
+          "request": "acute copd exacerbation type I or II per GOLD",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "8e530421201a2a4d556991baa714d579a84687eaa8b991ed837e5d05f0365d5f",
+      "state": "MISSING_DATA"
+    },
+    "automatic": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Obtain acute_copd_exacerbation_type_I_or_II_per_GOLD.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "a87fccf6762edb671d323b78f328ef44cbb8f37f0fbb2a4bb11eed32b7f002d2",
+          "request": "acute copd exacerbation type I or II per GOLD",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "8e530421201a2a4d556991baa714d579a84687eaa8b991ed837e5d05f0365d5f",
+      "state": "MISSING_DATA"
+    },
+    "combined": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Obtain acute_copd_exacerbation_type_I_or_II_per_GOLD.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "a87fccf6762edb671d323b78f328ef44cbb8f37f0fbb2a4bb11eed32b7f002d2",
+          "request": "acute copd exacerbation type I or II per GOLD",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "8e530421201a2a4d556991baa714d579a84687eaa8b991ed837e5d05f0365d5f",
+      "state": "MISSING_DATA"
+    },
+    "criterion": "Acute exacerbation of COPD type I or II according to GOLD",
+    "patient": "sigir-201423",
+    "trial": "NCT00170222"
+  },
+  {
+    "annotation_id": 454,
+    "assisted_baseline": {
+      "extracted": [],
+      "partial_sentences": [
+        0
+      ],
+      "reason": "Obtain undergoing_emergency_laparotomy.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "dcae125a37d1c251cf0bb080b8208244f2b74bbcbad255ac75c84d88e5dbd652",
+          "request": "undergoing emergency laparotomy",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "c793d7320c8a16a8c71b768394696ee0f2b478b6157e1ef6a06afca6842d300e",
+      "state": "MISSING_DATA"
+    },
+    "automatic": {
+      "extracted": [
+        "age_years"
+      ],
+      "partial_sentences": [
+        0
+      ],
+      "reason": "Obtain male_or_female. Obtain undergoing_emergency_laparotomy.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "b66a122666b987d38034b58fea20a7e6c43b7f1f67eeb55d87db3b90e18ea15e",
+          "request": "male or female",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "dcae125a37d1c251cf0bb080b8208244f2b74bbcbad255ac75c84d88e5dbd652",
+          "request": "undergoing emergency laparotomy",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "c793d7320c8a16a8c71b768394696ee0f2b478b6157e1ef6a06afca6842d300e",
+      "state": "MISSING_DATA"
+    },
+    "combined": {
+      "extracted": [
+        "age_years"
+      ],
+      "partial_sentences": [
+        0
+      ],
+      "reason": "Obtain undergoing_emergency_laparotomy.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "dcae125a37d1c251cf0bb080b8208244f2b74bbcbad255ac75c84d88e5dbd652",
+          "request": "undergoing emergency laparotomy",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "c793d7320c8a16a8c71b768394696ee0f2b478b6157e1ef6a06afca6842d300e",
+      "state": "MISSING_DATA"
+    },
+    "criterion": "Adults male or female over 18 year old undergoing emergency laparotomy.",
+    "patient": "sigir-201424",
+    "trial": "NCT02229695"
+  },
+  {
+    "annotation_id": 502,
+    "assisted_baseline": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Obtain who_performance_status.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "7d98472a6b61243cc44a703de7036f8c7a8fbec9230c069f582df894f3e87b11",
+          "request": "who performance status",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "01945d0051cbf9d8ce14afd398b15c5587d600aa5dea251561509793d615f273",
+      "state": "MISSING_DATA"
+    },
+    "automatic": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Obtain who_performance_status.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "7d98472a6b61243cc44a703de7036f8c7a8fbec9230c069f582df894f3e87b11",
+          "request": "who performance status",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "01945d0051cbf9d8ce14afd398b15c5587d600aa5dea251561509793d615f273",
+      "state": "MISSING_DATA"
+    },
+    "combined": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Obtain who_performance_status.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "7d98472a6b61243cc44a703de7036f8c7a8fbec9230c069f582df894f3e87b11",
+          "request": "who performance status",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "01945d0051cbf9d8ce14afd398b15c5587d600aa5dea251561509793d615f273",
+      "state": "MISSING_DATA"
+    },
+    "criterion": "WHO performance status \u22641",
+    "patient": "sigir-201427",
+    "trial": "NCT01187901"
+  },
+  {
+    "annotation_id": 517,
+    "assisted_baseline": {
+      "extracted": [],
+      "partial_sentences": [
+        0
+      ],
+      "reason": "Negated protocol condition. age_years = 21 (requires lt 18).",
+      "requests": [],
+      "sentences": [
+        0
+      ],
+      "source": "01945d0051cbf9d8ce14afd398b15c5587d600aa5dea251561509793d615f273",
+      "state": "MET"
+    },
+    "automatic": {
+      "extracted": [
+        "age_years"
+      ],
+      "partial_sentences": [
+        0
+      ],
+      "reason": "Negated protocol condition. age_years = 21 (requires lt 18).",
+      "requests": [],
+      "sentences": [
+        0
+      ],
+      "source": "01945d0051cbf9d8ce14afd398b15c5587d600aa5dea251561509793d615f273",
+      "state": "MET"
+    },
+    "combined": {
+      "extracted": [
+        "age_years"
+      ],
+      "partial_sentences": [
+        0
+      ],
+      "reason": "Negated protocol condition. age_years = 21 (requires lt 18).",
+      "requests": [],
+      "sentences": [
+        0
+      ],
+      "source": "01945d0051cbf9d8ce14afd398b15c5587d600aa5dea251561509793d615f273",
+      "state": "MET"
+    },
+    "criterion": "Less than 18 years old",
+    "patient": "sigir-201427",
+    "trial": "NCT01713881"
+  },
+  {
+    "annotation_id": 544,
+    "assisted_baseline": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Obtain severe_cardiac_condition.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "78099d8c3b83da2e80fa7ddfab3fb103d4e15f2d1513bf64ea35448f3e3a308e",
+          "request": "severe cardiac condition",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "50630321ca620a55842aff122934ae739f2d97132998b99c267a265e2e68e91a",
+      "state": "MISSING_DATA"
+    },
+    "automatic": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Obtain severe_cardiac_condition.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "78099d8c3b83da2e80fa7ddfab3fb103d4e15f2d1513bf64ea35448f3e3a308e",
+          "request": "severe cardiac condition",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "50630321ca620a55842aff122934ae739f2d97132998b99c267a265e2e68e91a",
+      "state": "MISSING_DATA"
+    },
+    "combined": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Obtain severe_cardiac_condition.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "78099d8c3b83da2e80fa7ddfab3fb103d4e15f2d1513bf64ea35448f3e3a308e",
+          "request": "severe cardiac condition",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "50630321ca620a55842aff122934ae739f2d97132998b99c267a265e2e68e91a",
+      "state": "MISSING_DATA"
+    },
+    "criterion": "Severe cardiac condition",
+    "patient": "sigir-201430",
+    "trial": "NCT02273232"
+  },
+  {
+    "annotation_id": 621,
+    "assisted_baseline": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Negated protocol condition. Obtain has_social_insurance.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "28ccf2bb554977221b4bba55e15dad1b47808bca20b4723615acfb6d6d13059d",
+          "request": "has social insurance",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "ab965a81fb09dd678da825d447c82ac9e9ef4577ea2241d448e4bbdbbfa4e5d2",
+      "state": "MISSING_DATA"
+    },
+    "automatic": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Negated protocol condition. Obtain has_social_insurance.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "28ccf2bb554977221b4bba55e15dad1b47808bca20b4723615acfb6d6d13059d",
+          "request": "has social insurance",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "ab965a81fb09dd678da825d447c82ac9e9ef4577ea2241d448e4bbdbbfa4e5d2",
+      "state": "MISSING_DATA"
+    },
+    "combined": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Negated protocol condition. Obtain has_social_insurance.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "28ccf2bb554977221b4bba55e15dad1b47808bca20b4723615acfb6d6d13059d",
+          "request": "has social insurance",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "ab965a81fb09dd678da825d447c82ac9e9ef4577ea2241d448e4bbdbbfa4e5d2",
+      "state": "MISSING_DATA"
+    },
+    "criterion": "patient without social insurance",
+    "patient": "sigir-20153",
+    "trial": "NCT01326507"
+  },
+  {
+    "annotation_id": 632,
+    "assisted_baseline": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Obtain unable_to_provide_written_consent.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "f006fc8e360c1e9edae41ca957d32650e8e454aa344c7bbc7d14749652120793",
+          "request": "unable to provide written consent",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "ab965a81fb09dd678da825d447c82ac9e9ef4577ea2241d448e4bbdbbfa4e5d2",
+      "state": "MISSING_DATA"
+    },
+    "automatic": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Obtain unable_to_provide_written_consent.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "f006fc8e360c1e9edae41ca957d32650e8e454aa344c7bbc7d14749652120793",
+          "request": "unable to provide written consent",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "ab965a81fb09dd678da825d447c82ac9e9ef4577ea2241d448e4bbdbbfa4e5d2",
+      "state": "MISSING_DATA"
+    },
+    "combined": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Obtain unable_to_provide_written_consent.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "f006fc8e360c1e9edae41ca957d32650e8e454aa344c7bbc7d14749652120793",
+          "request": "unable to provide written consent",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "ab965a81fb09dd678da825d447c82ac9e9ef4577ea2241d448e4bbdbbfa4e5d2",
+      "state": "MISSING_DATA"
+    },
+    "criterion": "Inability to write inform consent.",
+    "patient": "sigir-20153",
+    "trial": "NCT01139632"
+  },
+  {
+    "annotation_id": 633,
+    "assisted_baseline": {
+      "extracted": [],
+      "partial_sentences": [
+        0
+      ],
+      "reason": "Negated protocol condition. age_years = 65 (requires lt 18).",
+      "requests": [],
+      "sentences": [
+        0
+      ],
+      "source": "ab965a81fb09dd678da825d447c82ac9e9ef4577ea2241d448e4bbdbbfa4e5d2",
+      "state": "MET"
+    },
+    "automatic": {
+      "extracted": [
+        "age_years"
+      ],
+      "partial_sentences": [
+        0
+      ],
+      "reason": "Negated protocol condition. age_years = 65 (requires lt 18).",
+      "requests": [],
+      "sentences": [
+        0
+      ],
+      "source": "ab965a81fb09dd678da825d447c82ac9e9ef4577ea2241d448e4bbdbbfa4e5d2",
+      "state": "MET"
+    },
+    "combined": {
+      "extracted": [
+        "age_years"
+      ],
+      "partial_sentences": [
+        0
+      ],
+      "reason": "Negated protocol condition. age_years = 65 (requires lt 18).",
+      "requests": [],
+      "sentences": [
+        0
+      ],
+      "source": "ab965a81fb09dd678da825d447c82ac9e9ef4577ea2241d448e4bbdbbfa4e5d2",
+      "state": "MET"
+    },
+    "criterion": "Age <18 years.",
+    "patient": "sigir-20153",
+    "trial": "NCT01139632"
+  },
+  {
+    "annotation_id": 636,
+    "assisted_baseline": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Obtain lipid_lowering_treatment_months.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "73f6902df4da8b566f0f68f80db2955d985cf883988fa2664a514b66ac0e89ad",
+          "request": "lipid lowering treatment months",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "3204ac56adccfb3970430cc9b6db59409a40cd1a9e5a9356898e4704025299da",
+      "state": "MISSING_DATA"
+    },
+    "automatic": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Obtain lipid_lowering_treatment_months.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "73f6902df4da8b566f0f68f80db2955d985cf883988fa2664a514b66ac0e89ad",
+          "request": "lipid lowering treatment months",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "3204ac56adccfb3970430cc9b6db59409a40cd1a9e5a9356898e4704025299da",
+      "state": "MISSING_DATA"
+    },
+    "combined": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Obtain lipid_lowering_treatment_months.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "73f6902df4da8b566f0f68f80db2955d985cf883988fa2664a514b66ac0e89ad",
+          "request": "lipid lowering treatment months",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "3204ac56adccfb3970430cc9b6db59409a40cd1a9e5a9356898e4704025299da",
+      "state": "MISSING_DATA"
+    },
+    "criterion": "Lipid lowering drug treatment lasting at least 3 months",
+    "patient": "sigir-20154",
+    "trial": "NCT01243255"
+  },
+  {
+    "annotation_id": 637,
+    "assisted_baseline": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Obtain lipid_lowering_regimen_stable_six_weeks_immediately_before_enrolment.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "4034970abbf2800ab769236c84844f5fd3f8b1e859fb793a7840842eeaf609a9",
+          "request": "lipid lowering regimen stable six weeks immediately before enrolment",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "3204ac56adccfb3970430cc9b6db59409a40cd1a9e5a9356898e4704025299da",
+      "state": "MISSING_DATA"
+    },
+    "automatic": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Obtain lipid_lowering_regimen_stable_six_weeks_immediately_before_enrolment.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "4034970abbf2800ab769236c84844f5fd3f8b1e859fb793a7840842eeaf609a9",
+          "request": "lipid lowering regimen stable six weeks immediately before enrolment",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "3204ac56adccfb3970430cc9b6db59409a40cd1a9e5a9356898e4704025299da",
+      "state": "MISSING_DATA"
+    },
+    "combined": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Obtain lipid_lowering_regimen_stable_six_weeks_immediately_before_enrolment.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "4034970abbf2800ab769236c84844f5fd3f8b1e859fb793a7840842eeaf609a9",
+          "request": "lipid lowering regimen stable six weeks immediately before enrolment",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "3204ac56adccfb3970430cc9b6db59409a40cd1a9e5a9356898e4704025299da",
+      "state": "MISSING_DATA"
+    },
+    "criterion": "No lipid lowering drug/dose change for a minimum 6 weeks prior to enrolment to the study",
+    "patient": "sigir-20154",
+    "trial": "NCT01243255"
+  },
+  {
+    "annotation_id": 640,
+    "assisted_baseline": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Obtain typical_chest_pain.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "c204a4fa0ff623dad21b15a331d79a804cadfd10d6f77774407081b26abfbae3",
+          "request": "typical chest pain",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "3204ac56adccfb3970430cc9b6db59409a40cd1a9e5a9356898e4704025299da",
+      "state": "MISSING_DATA"
+    },
+    "automatic": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Obtain typical_chest_pain.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "c204a4fa0ff623dad21b15a331d79a804cadfd10d6f77774407081b26abfbae3",
+          "request": "typical chest pain",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "3204ac56adccfb3970430cc9b6db59409a40cd1a9e5a9356898e4704025299da",
+      "state": "MISSING_DATA"
+    },
+    "combined": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Obtain typical_chest_pain.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "c204a4fa0ff623dad21b15a331d79a804cadfd10d6f77774407081b26abfbae3",
+          "request": "typical chest pain",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "3204ac56adccfb3970430cc9b6db59409a40cd1a9e5a9356898e4704025299da",
+      "state": "MISSING_DATA"
+    },
+    "criterion": "typical chest pain",
+    "patient": "sigir-20154",
+    "trial": "NCT00844987"
+  },
+  {
+    "annotation_id": 653,
+    "assisted_baseline": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Obtain unable_to_speak_english.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "8519bf6dde4f8fcba347cc610002dc537e3f8ffd42caea5cecb8ad2ba1d1e786",
+          "request": "unable to speak english",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "e74a17dee86c2d8c5929fdac4c0c4a5cae04b7b613cb1c0b1ce54932935fc503",
+      "state": "MISSING_DATA"
+    },
+    "automatic": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Obtain unable_to_speak_english.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "8519bf6dde4f8fcba347cc610002dc537e3f8ffd42caea5cecb8ad2ba1d1e786",
+          "request": "unable to speak english",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "e74a17dee86c2d8c5929fdac4c0c4a5cae04b7b613cb1c0b1ce54932935fc503",
+      "state": "MISSING_DATA"
+    },
+    "combined": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Obtain unable_to_speak_english.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "8519bf6dde4f8fcba347cc610002dc537e3f8ffd42caea5cecb8ad2ba1d1e786",
+          "request": "unable to speak english",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "e74a17dee86c2d8c5929fdac4c0c4a5cae04b7b613cb1c0b1ce54932935fc503",
+      "state": "MISSING_DATA"
+    },
+    "criterion": "Non-English speaking subjects will be excluded due to our lack of translation support resources at this time. Of note, participation in our study cannot benefit participants in any way.",
+    "patient": "sigir-20156",
+    "trial": "NCT02375451"
+  },
+  {
+    "annotation_id": 671,
+    "assisted_baseline": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Obtain unipolar_major_depressive_disorder.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "151cdb00c32afd9ebe6b0108df30ee0a3f1daf9797b1f9d68add93cb318383ab",
+          "request": "unipolar major depressive disorder",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "b569f430e2ef49379ddb6718ccd02d076ca5f5a20a5e833e0f3101a2cfb337dc",
+      "state": "MISSING_DATA"
+    },
+    "automatic": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Obtain unipolar_major_depressive_disorder.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "151cdb00c32afd9ebe6b0108df30ee0a3f1daf9797b1f9d68add93cb318383ab",
+          "request": "unipolar major depressive disorder",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "b569f430e2ef49379ddb6718ccd02d076ca5f5a20a5e833e0f3101a2cfb337dc",
+      "state": "MISSING_DATA"
+    },
+    "combined": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Obtain unipolar_major_depressive_disorder.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "151cdb00c32afd9ebe6b0108df30ee0a3f1daf9797b1f9d68add93cb318383ab",
+          "request": "unipolar major depressive disorder",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "b569f430e2ef49379ddb6718ccd02d076ca5f5a20a5e833e0f3101a2cfb337dc",
+      "state": "MISSING_DATA"
+    },
+    "criterion": "unipolar major depressive disorder",
+    "patient": "sigir-20157",
+    "trial": "NCT02633449"
+  },
+  {
+    "annotation_id": 706,
+    "assisted_baseline": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Clarify whether the symptoms define pelvic congestion or are each required.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "850d16c294f59ec152f2e0eb61601c1a84277c88d033e799de713c7f8c6ce55e",
+          "request": "Clarify whether the symptoms define pelvic congestion or are each required.",
+          "route": "protocol_review"
+        }
+      ],
+      "sentences": [],
+      "source": "3063f3a37fe14e1c9fc7388b6f384f234f989cf0a5282294b72aa98f1ca4542d",
+      "state": "AUTHORING_HOLD"
+    },
+    "automatic": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Clarify whether the symptoms define pelvic congestion or are each required.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "850d16c294f59ec152f2e0eb61601c1a84277c88d033e799de713c7f8c6ce55e",
+          "request": "Clarify whether the symptoms define pelvic congestion or are each required.",
+          "route": "protocol_review"
+        }
+      ],
+      "sentences": [],
+      "source": "3063f3a37fe14e1c9fc7388b6f384f234f989cf0a5282294b72aa98f1ca4542d",
+      "state": "AUTHORING_HOLD"
+    },
+    "combined": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Clarify whether the symptoms define pelvic congestion or are each required.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "850d16c294f59ec152f2e0eb61601c1a84277c88d033e799de713c7f8c6ce55e",
+          "request": "Clarify whether the symptoms define pelvic congestion or are each required.",
+          "route": "protocol_review"
+        }
+      ],
+      "sentences": [],
+      "source": "3063f3a37fe14e1c9fc7388b6f384f234f989cf0a5282294b72aa98f1ca4542d",
+      "state": "AUTHORING_HOLD"
+    },
+    "criterion": "females complaining of pelvic congestion: dysmenorrhea, dyspareunia, chronic pelvic pain, menorrhagia, metrorrhagia",
+    "patient": "sigir-201510",
+    "trial": "NCT02340533"
+  },
+  {
+    "annotation_id": 720,
+    "assisted_baseline": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Obtain unexplained_menstrual_irregularity.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "8e4a3ca04ff4fffd6b81d5013e22124a8df3733c597097056274dc467c18b9d2",
+          "request": "unexplained menstrual irregularity",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "3063f3a37fe14e1c9fc7388b6f384f234f989cf0a5282294b72aa98f1ca4542d",
+      "state": "MISSING_DATA"
+    },
+    "automatic": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Obtain unexplained_menstrual_irregularity.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "8e4a3ca04ff4fffd6b81d5013e22124a8df3733c597097056274dc467c18b9d2",
+          "request": "unexplained menstrual irregularity",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "3063f3a37fe14e1c9fc7388b6f384f234f989cf0a5282294b72aa98f1ca4542d",
+      "state": "MISSING_DATA"
+    },
+    "combined": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Obtain unexplained_menstrual_irregularity.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "8e4a3ca04ff4fffd6b81d5013e22124a8df3733c597097056274dc467c18b9d2",
+          "request": "unexplained menstrual irregularity",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "3063f3a37fe14e1c9fc7388b6f384f234f989cf0a5282294b72aa98f1ca4542d",
+      "state": "MISSING_DATA"
+    },
+    "criterion": "Unexplained menstrual irregularity",
+    "patient": "sigir-201510",
+    "trial": "NCT01377519"
+  },
+  {
+    "annotation_id": 722,
+    "assisted_baseline": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Obtain prior_thyroid_tissue_resection.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "62f901a1ff9673561895a557c8ee652c8bef7b5bce84dbe43a96380ecf856d45",
+          "request": "prior thyroid tissue resection",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "ad0a2bc2a07981a7a1ba8f2f29c053736de00c07c9451a895e308e0eb5f2550a",
+      "state": "MISSING_DATA"
+    },
+    "automatic": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Obtain prior_thyroid_tissue_resection.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "62f901a1ff9673561895a557c8ee652c8bef7b5bce84dbe43a96380ecf856d45",
+          "request": "prior thyroid tissue resection",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "ad0a2bc2a07981a7a1ba8f2f29c053736de00c07c9451a895e308e0eb5f2550a",
+      "state": "MISSING_DATA"
+    },
+    "combined": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Obtain prior_thyroid_tissue_resection.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "62f901a1ff9673561895a557c8ee652c8bef7b5bce84dbe43a96380ecf856d45",
+          "request": "prior thyroid tissue resection",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "ad0a2bc2a07981a7a1ba8f2f29c053736de00c07c9451a895e308e0eb5f2550a",
+      "state": "MISSING_DATA"
+    },
+    "criterion": "Surgical resection of thyroid tissue",
+    "patient": "sigir-201511",
+    "trial": "NCT01862510"
+  },
+  {
+    "annotation_id": 723,
+    "assisted_baseline": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Obtain prior_neck_irradiation.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "d09e3d53049ae67426deabb843c24dc94531252023e6143b803d2bb42fbbdedc",
+          "request": "prior neck irradiation",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "ad0a2bc2a07981a7a1ba8f2f29c053736de00c07c9451a895e308e0eb5f2550a",
+      "state": "MISSING_DATA"
+    },
+    "automatic": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Obtain prior_neck_irradiation.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "d09e3d53049ae67426deabb843c24dc94531252023e6143b803d2bb42fbbdedc",
+          "request": "prior neck irradiation",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "ad0a2bc2a07981a7a1ba8f2f29c053736de00c07c9451a895e308e0eb5f2550a",
+      "state": "MISSING_DATA"
+    },
+    "combined": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Obtain prior_neck_irradiation.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "d09e3d53049ae67426deabb843c24dc94531252023e6143b803d2bb42fbbdedc",
+          "request": "prior neck irradiation",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "ad0a2bc2a07981a7a1ba8f2f29c053736de00c07c9451a895e308e0eb5f2550a",
+      "state": "MISSING_DATA"
+    },
+    "criterion": "neck irradiation",
+    "patient": "sigir-201511",
+    "trial": "NCT01862510"
+  },
+  {
+    "annotation_id": 724,
+    "assisted_baseline": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Obtain prior_radioactive_iodine_therapy.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "2d9355bc0f8f9f338f3e491c3a8a5dc322c7bcdb33be330943a4127f3e7e9fb0",
+          "request": "prior radioactive iodine therapy",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "ad0a2bc2a07981a7a1ba8f2f29c053736de00c07c9451a895e308e0eb5f2550a",
+      "state": "MISSING_DATA"
+    },
+    "automatic": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Obtain prior_radioactive_iodine_therapy.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "2d9355bc0f8f9f338f3e491c3a8a5dc322c7bcdb33be330943a4127f3e7e9fb0",
+          "request": "prior radioactive iodine therapy",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "ad0a2bc2a07981a7a1ba8f2f29c053736de00c07c9451a895e308e0eb5f2550a",
+      "state": "MISSING_DATA"
+    },
+    "combined": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Obtain prior_radioactive_iodine_therapy.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "2d9355bc0f8f9f338f3e491c3a8a5dc322c7bcdb33be330943a4127f3e7e9fb0",
+          "request": "prior radioactive iodine therapy",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "ad0a2bc2a07981a7a1ba8f2f29c053736de00c07c9451a895e308e0eb5f2550a",
+      "state": "MISSING_DATA"
+    },
+    "criterion": "radioactive iodine therapy",
+    "patient": "sigir-201511",
+    "trial": "NCT01862510"
+  },
+  {
+    "annotation_id": 725,
+    "assisted_baseline": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Obtain prior_treatment_lithium. Obtain prior_treatment_methimazole. Obtain prior_treatment_propylthiouracil. Obtain prior_treatment_ethionamide. Obtain prior_treatment_amiodarone. Obtain prior_treatment_sunitinib.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "bb1e616df012cfdd2d2a36556b4ab6cf0277b9c099d0b55b19f1646303a70ada",
+          "request": "prior treatment lithium",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "052607a33ff7c2ea40832e4616db848b4df798ae7d4227892ffca4640a122072",
+          "request": "prior treatment methimazole",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "1e66514d1bbfdd533e591e8b2250c7636f6926ccd414454fd09ff67861e2c370",
+          "request": "prior treatment propylthiouracil",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "297ff9d15e9b57c5ccdc18f8a7d939cf28a8cb8a59e21d19c3c6e4c4864b0cb6",
+          "request": "prior treatment ethionamide",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "a21c7fec906aa9a1d4a3915d2e040040aba6e686157979b1bb7f5d9c5afe8964",
+          "request": "prior treatment amiodarone",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "e7fd3c68b0ec53f0f99ed77f7798fa90c47f02731fdfa2c6d5431667d2f28ed3",
+          "request": "prior treatment sunitinib",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "ad0a2bc2a07981a7a1ba8f2f29c053736de00c07c9451a895e308e0eb5f2550a",
+      "state": "MISSING_DATA"
+    },
+    "automatic": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Obtain prior_treatment_lithium. Obtain prior_treatment_methimazole. Obtain prior_treatment_propylthiouracil. Obtain prior_treatment_ethionamide. Obtain prior_treatment_amiodarone. Obtain prior_treatment_sunitinib.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "bb1e616df012cfdd2d2a36556b4ab6cf0277b9c099d0b55b19f1646303a70ada",
+          "request": "prior treatment lithium",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "052607a33ff7c2ea40832e4616db848b4df798ae7d4227892ffca4640a122072",
+          "request": "prior treatment methimazole",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "1e66514d1bbfdd533e591e8b2250c7636f6926ccd414454fd09ff67861e2c370",
+          "request": "prior treatment propylthiouracil",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "297ff9d15e9b57c5ccdc18f8a7d939cf28a8cb8a59e21d19c3c6e4c4864b0cb6",
+          "request": "prior treatment ethionamide",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "a21c7fec906aa9a1d4a3915d2e040040aba6e686157979b1bb7f5d9c5afe8964",
+          "request": "prior treatment amiodarone",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "e7fd3c68b0ec53f0f99ed77f7798fa90c47f02731fdfa2c6d5431667d2f28ed3",
+          "request": "prior treatment sunitinib",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "ad0a2bc2a07981a7a1ba8f2f29c053736de00c07c9451a895e308e0eb5f2550a",
+      "state": "MISSING_DATA"
+    },
+    "combined": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Obtain prior_treatment_lithium. Obtain prior_treatment_methimazole. Obtain prior_treatment_propylthiouracil. Obtain prior_treatment_ethionamide. Obtain prior_treatment_amiodarone. Obtain prior_treatment_sunitinib.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "bb1e616df012cfdd2d2a36556b4ab6cf0277b9c099d0b55b19f1646303a70ada",
+          "request": "prior treatment lithium",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "052607a33ff7c2ea40832e4616db848b4df798ae7d4227892ffca4640a122072",
+          "request": "prior treatment methimazole",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "1e66514d1bbfdd533e591e8b2250c7636f6926ccd414454fd09ff67861e2c370",
+          "request": "prior treatment propylthiouracil",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "297ff9d15e9b57c5ccdc18f8a7d939cf28a8cb8a59e21d19c3c6e4c4864b0cb6",
+          "request": "prior treatment ethionamide",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "a21c7fec906aa9a1d4a3915d2e040040aba6e686157979b1bb7f5d9c5afe8964",
+          "request": "prior treatment amiodarone",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "e7fd3c68b0ec53f0f99ed77f7798fa90c47f02731fdfa2c6d5431667d2f28ed3",
+          "request": "prior treatment sunitinib",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "ad0a2bc2a07981a7a1ba8f2f29c053736de00c07c9451a895e308e0eb5f2550a",
+      "state": "MISSING_DATA"
+    },
+    "criterion": "prior medical treatment with lithium, methimazole, propylthiouracil, ethionamide, amiodarone, or sunitinib",
+    "patient": "sigir-201511",
+    "trial": "NCT01862510"
+  },
+  {
+    "annotation_id": 726,
+    "assisted_baseline": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Obtain prior_celiac_serology.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "08b3ad0f3a40015edb879f3e68a16da3c5432898f0854f843a49599c637e727c",
+          "request": "prior celiac serology",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "ad0a2bc2a07981a7a1ba8f2f29c053736de00c07c9451a895e308e0eb5f2550a",
+      "state": "MISSING_DATA"
+    },
+    "automatic": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Obtain prior_celiac_serology.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "08b3ad0f3a40015edb879f3e68a16da3c5432898f0854f843a49599c637e727c",
+          "request": "prior celiac serology",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "ad0a2bc2a07981a7a1ba8f2f29c053736de00c07c9451a895e308e0eb5f2550a",
+      "state": "MISSING_DATA"
+    },
+    "combined": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Obtain prior_celiac_serology.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "08b3ad0f3a40015edb879f3e68a16da3c5432898f0854f843a49599c637e727c",
+          "request": "prior celiac serology",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "ad0a2bc2a07981a7a1ba8f2f29c053736de00c07c9451a895e308e0eb5f2550a",
+      "state": "MISSING_DATA"
+    },
+    "criterion": "prior serologic testing for celiac disease",
+    "patient": "sigir-201511",
+    "trial": "NCT01862510"
+  },
+  {
+    "annotation_id": 734,
+    "assisted_baseline": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Obtain congenital_immunodeficiency.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "d21489c303e6bdf01d0e11a18f80e3feb5040bd4c81244af0fe5f107dec938c8",
+          "request": "congenital immunodeficiency",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "302503e596b522c6e7b968016369eb43b97294996317a74204fc59fb4420716d",
+      "state": "MISSING_DATA"
+    },
+    "automatic": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Obtain congenital_immunodeficiency.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "d21489c303e6bdf01d0e11a18f80e3feb5040bd4c81244af0fe5f107dec938c8",
+          "request": "congenital immunodeficiency",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "302503e596b522c6e7b968016369eb43b97294996317a74204fc59fb4420716d",
+      "state": "MISSING_DATA"
+    },
+    "combined": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Obtain congenital_immunodeficiency.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "d21489c303e6bdf01d0e11a18f80e3feb5040bd4c81244af0fe5f107dec938c8",
+          "request": "congenital immunodeficiency",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "302503e596b522c6e7b968016369eb43b97294996317a74204fc59fb4420716d",
+      "state": "MISSING_DATA"
+    },
+    "criterion": "Congenital immunodeficiency patients",
+    "patient": "sigir-201512",
+    "trial": "NCT02467309"
+  },
+  {
+    "annotation_id": 735,
+    "assisted_baseline": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Obtain hiv.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "0c2a75049055773e14ee85be9224f727e3f2e59e235cae4989c2f42f2ae9db8b",
+          "request": "hiv",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "302503e596b522c6e7b968016369eb43b97294996317a74204fc59fb4420716d",
+      "state": "MISSING_DATA"
+    },
+    "automatic": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Obtain hiv.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "0c2a75049055773e14ee85be9224f727e3f2e59e235cae4989c2f42f2ae9db8b",
+          "request": "hiv",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "302503e596b522c6e7b968016369eb43b97294996317a74204fc59fb4420716d",
+      "state": "MISSING_DATA"
+    },
+    "combined": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Obtain hiv.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "0c2a75049055773e14ee85be9224f727e3f2e59e235cae4989c2f42f2ae9db8b",
+          "request": "hiv",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "302503e596b522c6e7b968016369eb43b97294996317a74204fc59fb4420716d",
+      "state": "MISSING_DATA"
+    },
+    "criterion": "HIV patients",
+    "patient": "sigir-201512",
+    "trial": "NCT02467309"
+  },
+  {
+    "annotation_id": 736,
+    "assisted_baseline": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Obtain long_term_corticosteroids.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "8524e1279658aa7a36af3e3136ae4f7a696d790b1898b63072c0759b54c9731b",
+          "request": "long term corticosteroids",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "302503e596b522c6e7b968016369eb43b97294996317a74204fc59fb4420716d",
+      "state": "MISSING_DATA"
+    },
+    "automatic": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Obtain long_term_corticosteroids.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "8524e1279658aa7a36af3e3136ae4f7a696d790b1898b63072c0759b54c9731b",
+          "request": "long term corticosteroids",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "302503e596b522c6e7b968016369eb43b97294996317a74204fc59fb4420716d",
+      "state": "MISSING_DATA"
+    },
+    "combined": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Obtain long_term_corticosteroids.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "8524e1279658aa7a36af3e3136ae4f7a696d790b1898b63072c0759b54c9731b",
+          "request": "long term corticosteroids",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "302503e596b522c6e7b968016369eb43b97294996317a74204fc59fb4420716d",
+      "state": "MISSING_DATA"
+    },
+    "criterion": "Patients with corticosteroid treatment for long time",
+    "patient": "sigir-201512",
+    "trial": "NCT02467309"
+  },
+  {
+    "annotation_id": 737,
+    "assisted_baseline": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Clarify whether disorders in any of the three gland systems meet this exclusion.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "a9de3bf717f1620fbd7d48a166f858ee07aac1343f672c29b71b1d9c4ebd54b8",
+          "request": "Clarify whether disorders in any of the three gland systems meet this exclusion.",
+          "route": "protocol_review"
+        }
+      ],
+      "sentences": [],
+      "source": "302503e596b522c6e7b968016369eb43b97294996317a74204fc59fb4420716d",
+      "state": "AUTHORING_HOLD"
+    },
+    "automatic": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Clarify whether disorders in any of the three gland systems meet this exclusion.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "a9de3bf717f1620fbd7d48a166f858ee07aac1343f672c29b71b1d9c4ebd54b8",
+          "request": "Clarify whether disorders in any of the three gland systems meet this exclusion.",
+          "route": "protocol_review"
+        }
+      ],
+      "sentences": [],
+      "source": "302503e596b522c6e7b968016369eb43b97294996317a74204fc59fb4420716d",
+      "state": "AUTHORING_HOLD"
+    },
+    "combined": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Clarify whether disorders in any of the three gland systems meet this exclusion.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "a9de3bf717f1620fbd7d48a166f858ee07aac1343f672c29b71b1d9c4ebd54b8",
+          "request": "Clarify whether disorders in any of the three gland systems meet this exclusion.",
+          "route": "protocol_review"
+        }
+      ],
+      "sentences": [],
+      "source": "302503e596b522c6e7b968016369eb43b97294996317a74204fc59fb4420716d",
+      "state": "AUTHORING_HOLD"
+    },
+    "criterion": "Patients with disorders in adrenal gland and pituitary gland and hypothalamus",
+    "patient": "sigir-201512",
+    "trial": "NCT02467309"
+  },
+  {
+    "annotation_id": 738,
+    "assisted_baseline": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Obtain tuberculosis.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "0313d8bfbace3ecf3847715af3000fdbe4be70be0a608b891794f13313c77d40",
+          "request": "tuberculosis",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "302503e596b522c6e7b968016369eb43b97294996317a74204fc59fb4420716d",
+      "state": "MISSING_DATA"
+    },
+    "automatic": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Obtain tuberculosis.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "0313d8bfbace3ecf3847715af3000fdbe4be70be0a608b891794f13313c77d40",
+          "request": "tuberculosis",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "302503e596b522c6e7b968016369eb43b97294996317a74204fc59fb4420716d",
+      "state": "MISSING_DATA"
+    },
+    "combined": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Obtain tuberculosis.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "0313d8bfbace3ecf3847715af3000fdbe4be70be0a608b891794f13313c77d40",
+          "request": "tuberculosis",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "302503e596b522c6e7b968016369eb43b97294996317a74204fc59fb4420716d",
+      "state": "MISSING_DATA"
+    },
+    "criterion": "Patients with tuberculosis",
+    "patient": "sigir-201512",
+    "trial": "NCT02467309"
+  },
+  {
+    "annotation_id": 817,
+    "assisted_baseline": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Obtain neurologic_symptoms_nonvascular_origin_after_ct_or_mri.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "3fa19c23bf46a8187e42255edd893db237a1df2744e52c62cfc707caa69f8285",
+          "request": "neurologic symptoms nonvascular origin after ct or mri",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "b25bac4dfc715f73e9ef9852088829e3c77bbbefdf498bdb34e5f4b5b5265a30",
+      "state": "MISSING_DATA"
+    },
+    "automatic": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Obtain neurologic_symptoms_nonvascular_origin_after_ct_or_mri.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "3fa19c23bf46a8187e42255edd893db237a1df2744e52c62cfc707caa69f8285",
+          "request": "neurologic symptoms nonvascular origin after ct or mri",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "b25bac4dfc715f73e9ef9852088829e3c77bbbefdf498bdb34e5f4b5b5265a30",
+      "state": "MISSING_DATA"
+    },
+    "combined": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Obtain neurologic_symptoms_nonvascular_origin_after_ct_or_mri.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "3fa19c23bf46a8187e42255edd893db237a1df2744e52c62cfc707caa69f8285",
+          "request": "neurologic symptoms nonvascular origin after ct or mri",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "b25bac4dfc715f73e9ef9852088829e3c77bbbefdf498bdb34e5f4b5b5265a30",
+      "state": "MISSING_DATA"
+    },
+    "criterion": "Subjects who have a non-vascular origin of the neurological symptoms after brain imaging (CT scan or MRI)",
+    "patient": "sigir-201515",
+    "trial": "NCT01550588"
+  },
+  {
+    "annotation_id": 860,
+    "assisted_baseline": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Obtain unmarried. Obtain reports_never_had_sexual_intercourse.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "227347b3a8fdfec96102dba3ce9d56c66ff9e3d7c321c3f39cf250c8db9ba093",
+          "request": "unmarried",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "cb578a64306e9abbcf0fef4c7b73a14d0c25034c2901fa4ce62027b0d7294e51",
+          "request": "reports never had sexual intercourse",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "979c0084e926434300939d9f6de81d59a3b40298094903699048867268e703b4",
+      "state": "MISSING_DATA"
+    },
+    "automatic": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Obtain unmarried. Obtain reports_never_had_sexual_intercourse.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "227347b3a8fdfec96102dba3ce9d56c66ff9e3d7c321c3f39cf250c8db9ba093",
+          "request": "unmarried",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "cb578a64306e9abbcf0fef4c7b73a14d0c25034c2901fa4ce62027b0d7294e51",
+          "request": "reports never had sexual intercourse",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "979c0084e926434300939d9f6de81d59a3b40298094903699048867268e703b4",
+      "state": "MISSING_DATA"
+    },
+    "combined": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Obtain unmarried. Obtain reports_never_had_sexual_intercourse.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "227347b3a8fdfec96102dba3ce9d56c66ff9e3d7c321c3f39cf250c8db9ba093",
+          "request": "unmarried",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "cb578a64306e9abbcf0fef4c7b73a14d0c25034c2901fa4ce62027b0d7294e51",
+          "request": "reports never had sexual intercourse",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "979c0084e926434300939d9f6de81d59a3b40298094903699048867268e703b4",
+      "state": "MISSING_DATA"
+    },
+    "criterion": "are not married AND report never having had sexual intercourse",
+    "patient": "sigir-201517",
+    "trial": "NCT01231945"
+  },
+  {
+    "annotation_id": 866,
+    "assisted_baseline": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Obtain aliquot_with_valid_aptima_hpv_tigris_result_from_2007HPVASCUS30.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "74c937059d3afb7ecf459b103d71d4130fbe301869db470afa6dd10a5608062e",
+          "request": "aliquot with valid aptima hpv tigris result from 2007HPVASCUS30",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "979c0084e926434300939d9f6de81d59a3b40298094903699048867268e703b4",
+      "state": "MISSING_DATA"
+    },
+    "automatic": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Obtain aliquot_with_valid_aptima_hpv_tigris_result_from_2007HPVASCUS30.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "74c937059d3afb7ecf459b103d71d4130fbe301869db470afa6dd10a5608062e",
+          "request": "aliquot with valid aptima hpv tigris result from 2007HPVASCUS30",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "979c0084e926434300939d9f6de81d59a3b40298094903699048867268e703b4",
+      "state": "MISSING_DATA"
+    },
+    "combined": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Obtain aliquot_with_valid_aptima_hpv_tigris_result_from_2007HPVASCUS30.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "74c937059d3afb7ecf459b103d71d4130fbe301869db470afa6dd10a5608062e",
+          "request": "aliquot with valid aptima hpv tigris result from 2007HPVASCUS30",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "979c0084e926434300939d9f6de81d59a3b40298094903699048867268e703b4",
+      "state": "MISSING_DATA"
+    },
+    "criterion": "the sample had an aliquot with a valid positive or negative APTIMA HPV Assay TIGRIS System result (from testing under protocol 2007HPVASCUS30)",
+    "patient": "sigir-201517",
+    "trial": "NCT01446198"
+  },
+  {
+    "annotation_id": 867,
+    "assisted_baseline": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Obtain aliquot_available. Obtain aliquot_suitable_for_testing.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "aae4c8965401d19e4574f7fea1a28f409a137876f3c2df57355b77be95dbab04",
+          "request": "aliquot available",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "9a8ccb2050b230d91b8d1521ef48c5789f71dceedf7cfdb27a60e367cead2bb4",
+          "request": "aliquot suitable for testing",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "979c0084e926434300939d9f6de81d59a3b40298094903699048867268e703b4",
+      "state": "MISSING_DATA"
+    },
+    "automatic": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Obtain aliquot_available. Obtain aliquot_suitable_for_testing.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "aae4c8965401d19e4574f7fea1a28f409a137876f3c2df57355b77be95dbab04",
+          "request": "aliquot available",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "9a8ccb2050b230d91b8d1521ef48c5789f71dceedf7cfdb27a60e367cead2bb4",
+          "request": "aliquot suitable for testing",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "979c0084e926434300939d9f6de81d59a3b40298094903699048867268e703b4",
+      "state": "MISSING_DATA"
+    },
+    "combined": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Obtain aliquot_available. Obtain aliquot_suitable_for_testing.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "aae4c8965401d19e4574f7fea1a28f409a137876f3c2df57355b77be95dbab04",
+          "request": "aliquot available",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "9a8ccb2050b230d91b8d1521ef48c5789f71dceedf7cfdb27a60e367cead2bb4",
+          "request": "aliquot suitable for testing",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "979c0084e926434300939d9f6de81d59a3b40298094903699048867268e703b4",
+      "state": "MISSING_DATA"
+    },
+    "criterion": "an aliquot is available and suitable for testing",
+    "patient": "sigir-201517",
+    "trial": "NCT01446198"
+  },
+  {
+    "annotation_id": 870,
+    "assisted_baseline": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Obtain worsening_heart_failure_primary_admission_reason. Obtain significant_heart_failure_symptoms_developed_in_hospital_initially_admitted_for_other_reason.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "8fb4d53d37debe1c164d3400cf2f05d11f7782e17b7ee9748c58419aae27c392",
+          "request": "worsening heart failure primary admission reason",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "987de3f27e3c71e411177916a2be7b64ada5cedabda213013a27f6d69e2004d7",
+          "request": "significant heart failure symptoms developed in hospital initially admitted for other reason",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "c9b60d817b819ef688a8af674b13ecacd17ce2e9814b2bb70bc50bf5368afb3e",
+      "state": "MISSING_DATA"
+    },
+    "automatic": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Obtain worsening_heart_failure_primary_admission_reason. Obtain significant_heart_failure_symptoms_developed_in_hospital_initially_admitted_for_other_reason.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "8fb4d53d37debe1c164d3400cf2f05d11f7782e17b7ee9748c58419aae27c392",
+          "request": "worsening heart failure primary admission reason",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "987de3f27e3c71e411177916a2be7b64ada5cedabda213013a27f6d69e2004d7",
+          "request": "significant heart failure symptoms developed in hospital initially admitted for other reason",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "c9b60d817b819ef688a8af674b13ecacd17ce2e9814b2bb70bc50bf5368afb3e",
+      "state": "MISSING_DATA"
+    },
+    "combined": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Obtain worsening_heart_failure_primary_admission_reason. Obtain significant_heart_failure_symptoms_developed_in_hospital_initially_admitted_for_other_reason.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "8fb4d53d37debe1c164d3400cf2f05d11f7782e17b7ee9748c58419aae27c392",
+          "request": "worsening heart failure primary admission reason",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "987de3f27e3c71e411177916a2be7b64ada5cedabda213013a27f6d69e2004d7",
+          "request": "significant heart failure symptoms developed in hospital initially admitted for other reason",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "c9b60d817b819ef688a8af674b13ecacd17ce2e9814b2bb70bc50bf5368afb3e",
+      "state": "MISSING_DATA"
+    },
+    "criterion": "Hospitalized for episode of worsening heart failure as primary cause of admission or significant heart failure symptoms that develop during the hospitalization when the initial reason for admission was not heart failure.",
+    "patient": "sigir-201518",
+    "trial": "NCT00344513"
+  },
+  {
+    "annotation_id": 875,
+    "assisted_baseline": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Obtain hospital_admission. Obtain transferred_to_observation_unit.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "80a293b7bad74aa5f7007cab1cea9362bdb10d16418278e09c870ef92552d682",
+          "request": "hospital admission",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "74d76a52196db3a42fdef3fc9d03c414fd498a096fd4d76af32c816dda84e3d7",
+          "request": "transferred to observation unit",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "c9b60d817b819ef688a8af674b13ecacd17ce2e9814b2bb70bc50bf5368afb3e",
+      "state": "MISSING_DATA"
+    },
+    "automatic": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Obtain hospital_admission. Obtain transferred_to_observation_unit.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "80a293b7bad74aa5f7007cab1cea9362bdb10d16418278e09c870ef92552d682",
+          "request": "hospital admission",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "74d76a52196db3a42fdef3fc9d03c414fd498a096fd4d76af32c816dda84e3d7",
+          "request": "transferred to observation unit",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "c9b60d817b819ef688a8af674b13ecacd17ce2e9814b2bb70bc50bf5368afb3e",
+      "state": "MISSING_DATA"
+    },
+    "combined": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Obtain hospital_admission. Obtain transferred_to_observation_unit.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "80a293b7bad74aa5f7007cab1cea9362bdb10d16418278e09c870ef92552d682",
+          "request": "hospital admission",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "74d76a52196db3a42fdef3fc9d03c414fd498a096fd4d76af32c816dda84e3d7",
+          "request": "transferred to observation unit",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "c9b60d817b819ef688a8af674b13ecacd17ce2e9814b2bb70bc50bf5368afb3e",
+      "state": "MISSING_DATA"
+    },
+    "criterion": "admission to the hospital or transfer to the Observation Unit",
+    "patient": "sigir-201518",
+    "trial": "NCT00534066"
+  },
+  {
+    "annotation_id": 962,
+    "assisted_baseline": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Obtain malaria. Obtain severe_or_complicated_malaria. Obtain impaired_consciousness. Obtain seizures. Obtain abnormal_neurologic_exam. Obtain jaundice. Obtain respiratory_distress. Obtain persistent_vomiting. Obtain patient_reported_hematuria. Obtain parasites_per_ml. Obtain non_falciparum_species_on_microscopy.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "d923b2c83663ca19cede73f23c0e23a2d52d679a6a741dc08f8792dc178a0c43",
+          "request": "malaria",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "6152d12192fbe34c3da91af7e6f75a2fd96f22e3b71ea9be7dd370c8a3d8daba",
+          "request": "severe or complicated malaria",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "781a172a7913f5ec886a3e8d04c0c32ebdaced8075aed854dd74c982369e3348",
+          "request": "impaired consciousness",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "bdef08dd36588fd3138063857ffdf5aa960ce64b80677e6f839372d8bb2bb646",
+          "request": "seizures",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "4470bdc75cadd6033bbd42bdf1562f92810c410fc79ee16355966c865f55b353",
+          "request": "abnormal neurologic exam",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "5ab2e5c68e085288385e81259e1755a23ab68de56f29a7c38bbb1eeada4729a5",
+          "request": "jaundice",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "8f9512eb3db32258ae3a8d080e10c029dfcbeffe28c74350c5168cca09eab56b",
+          "request": "respiratory distress",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "5f1ad7f3efbdf383058703ced5e297b0b854c2b6d03a822cb7860c7c1ab62fcc",
+          "request": "persistent vomiting",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "05378c38de3d0f0f73e75526b0764b85d421a329f59b49a73bddfc1966bc6cba",
+          "request": "patient reported hematuria",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "4692bca4cb9dd7b819d7ad7ad28fdc2aabc724ebf4ba0cc018cc274796f4df20",
+          "request": "parasites per ml",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "2c8dcec081dd2caec9b92254db45b4bcb2a08f781e14454e02d61ee2cfe0ad21",
+          "request": "non falciparum species on microscopy",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "05c36ab49e87f062f4a00d5f9ab4749c30343bae06ee419607f0cd55e7d30ed0",
+      "state": "MISSING_DATA"
+    },
+    "automatic": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Obtain malaria. Obtain severe_or_complicated_malaria. Obtain impaired_consciousness. Obtain seizures. Obtain abnormal_neurologic_exam. Obtain jaundice. Obtain respiratory_distress. Obtain persistent_vomiting. Obtain patient_reported_hematuria. Obtain parasites_per_ml. Obtain non_falciparum_species_on_microscopy.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "d923b2c83663ca19cede73f23c0e23a2d52d679a6a741dc08f8792dc178a0c43",
+          "request": "malaria",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "6152d12192fbe34c3da91af7e6f75a2fd96f22e3b71ea9be7dd370c8a3d8daba",
+          "request": "severe or complicated malaria",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "781a172a7913f5ec886a3e8d04c0c32ebdaced8075aed854dd74c982369e3348",
+          "request": "impaired consciousness",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "bdef08dd36588fd3138063857ffdf5aa960ce64b80677e6f839372d8bb2bb646",
+          "request": "seizures",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "4470bdc75cadd6033bbd42bdf1562f92810c410fc79ee16355966c865f55b353",
+          "request": "abnormal neurologic exam",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "5ab2e5c68e085288385e81259e1755a23ab68de56f29a7c38bbb1eeada4729a5",
+          "request": "jaundice",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "8f9512eb3db32258ae3a8d080e10c029dfcbeffe28c74350c5168cca09eab56b",
+          "request": "respiratory distress",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "5f1ad7f3efbdf383058703ced5e297b0b854c2b6d03a822cb7860c7c1ab62fcc",
+          "request": "persistent vomiting",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "05378c38de3d0f0f73e75526b0764b85d421a329f59b49a73bddfc1966bc6cba",
+          "request": "patient reported hematuria",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "4692bca4cb9dd7b819d7ad7ad28fdc2aabc724ebf4ba0cc018cc274796f4df20",
+          "request": "parasites per ml",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "2c8dcec081dd2caec9b92254db45b4bcb2a08f781e14454e02d61ee2cfe0ad21",
+          "request": "non falciparum species on microscopy",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "05c36ab49e87f062f4a00d5f9ab4749c30343bae06ee419607f0cd55e7d30ed0",
+      "state": "MISSING_DATA"
+    },
+    "combined": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Obtain malaria. Obtain severe_or_complicated_malaria. Obtain impaired_consciousness. Obtain seizures. Obtain abnormal_neurologic_exam. Obtain jaundice. Obtain respiratory_distress. Obtain persistent_vomiting. Obtain patient_reported_hematuria. Obtain parasites_per_ml. Obtain non_falciparum_species_on_microscopy.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "d923b2c83663ca19cede73f23c0e23a2d52d679a6a741dc08f8792dc178a0c43",
+          "request": "malaria",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "6152d12192fbe34c3da91af7e6f75a2fd96f22e3b71ea9be7dd370c8a3d8daba",
+          "request": "severe or complicated malaria",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "781a172a7913f5ec886a3e8d04c0c32ebdaced8075aed854dd74c982369e3348",
+          "request": "impaired consciousness",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "bdef08dd36588fd3138063857ffdf5aa960ce64b80677e6f839372d8bb2bb646",
+          "request": "seizures",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "4470bdc75cadd6033bbd42bdf1562f92810c410fc79ee16355966c865f55b353",
+          "request": "abnormal neurologic exam",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "5ab2e5c68e085288385e81259e1755a23ab68de56f29a7c38bbb1eeada4729a5",
+          "request": "jaundice",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "8f9512eb3db32258ae3a8d080e10c029dfcbeffe28c74350c5168cca09eab56b",
+          "request": "respiratory distress",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "5f1ad7f3efbdf383058703ced5e297b0b854c2b6d03a822cb7860c7c1ab62fcc",
+          "request": "persistent vomiting",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "05378c38de3d0f0f73e75526b0764b85d421a329f59b49a73bddfc1966bc6cba",
+          "request": "patient reported hematuria",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "4692bca4cb9dd7b819d7ad7ad28fdc2aabc724ebf4ba0cc018cc274796f4df20",
+          "request": "parasites per ml",
+          "route": "retrieve_record"
+        },
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "2c8dcec081dd2caec9b92254db45b4bcb2a08f781e14454e02d61ee2cfe0ad21",
+          "request": "non falciparum species on microscopy",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "05c36ab49e87f062f4a00d5f9ab4749c30343bae06ee419607f0cd55e7d30ed0",
+      "state": "MISSING_DATA"
+    },
+    "criterion": "Severe or complicated malaria including subjects with any of the following: a.) Impaired consciousness, seizures or abnormal neurologic exam b.) Jaundice c.) Respiratory distress d.) Persistent vomiting e.) Hematuria, as reported by the patient f.) Parasite density > 100,000 parasites/mL g.) Presence of non-falciparum species on microscopy",
+    "patient": "sigir-201523",
+    "trial": "NCT00084240"
+  },
+  {
+    "annotation_id": 965,
+    "assisted_baseline": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Obtain history_of_blood_dyscrasia.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "3286ef4ae1a22980a4a743dd12cc52c849c1dbfad7452e0f6a237b6641a3749a",
+          "request": "history of blood dyscrasia",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "05c36ab49e87f062f4a00d5f9ab4749c30343bae06ee419607f0cd55e7d30ed0",
+      "state": "MISSING_DATA"
+    },
+    "automatic": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Obtain history_of_blood_dyscrasia.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "3286ef4ae1a22980a4a743dd12cc52c849c1dbfad7452e0f6a237b6641a3749a",
+          "request": "history of blood dyscrasia",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "05c36ab49e87f062f4a00d5f9ab4749c30343bae06ee419607f0cd55e7d30ed0",
+      "state": "MISSING_DATA"
+    },
+    "combined": {
+      "extracted": [],
+      "partial_sentences": [],
+      "reason": "Negated protocol condition. Obtain history_of_blood_dyscrasia.",
+      "requests": [
+        {
+          "criteria": [
+            "criterion"
+          ],
+          "id": "3286ef4ae1a22980a4a743dd12cc52c849c1dbfad7452e0f6a237b6641a3749a",
+          "request": "history of blood dyscrasia",
+          "route": "retrieve_record"
+        }
+      ],
+      "sentences": [],
+      "source": "05c36ab49e87f062f4a00d5f9ab4749c30343bae06ee419607f0cd55e7d30ed0",
+      "state": "MISSING_DATA"
+    },
+    "criterion": "Known history of blood dyscrasias (e.g., megaloblastic anemia, agranulocytosis, aplastic anemia, thrombocytopenia, leukopenia, neutropenia, hemolytic anemia)",
+    "patient": "sigir-201523",
+    "trial": "NCT00084240"
+  }
+]

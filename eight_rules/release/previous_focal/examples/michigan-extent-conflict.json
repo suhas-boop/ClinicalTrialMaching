@@ -1,0 +1,520 @@
+{
+  "context": {
+    "study": "NCT05653388",
+    "protocol_sha256": "f920e02d5b194d147a76e2c60e94884f599d3982cda8e7ecfaee2a10a5f3f08b",
+    "mode": "synthetic_demo",
+    "patient": "Patient/demo-extent-conflict-p",
+    "episode": "Condition/demo-extent-conflict-current",
+    "as_of": "2026-04-15"
+  },
+  "bundle": {
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+      {
+        "resource": {
+          "active": true,
+          "id": "demo-extent-conflict-p",
+          "resourceType": "Patient",
+          "meta": {
+            "versionId": "1"
+          }
+        },
+        "request": {
+          "method": "PUT",
+          "url": "Patient/demo-extent-conflict-p"
+        }
+      },
+      {
+        "resource": {
+          "subject": {
+            "reference": "Patient/demo-extent-conflict-p"
+          },
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "443719001"
+              }
+            ]
+          },
+          "id": "demo-extent-conflict-current",
+          "resourceType": "Condition",
+          "recordedDate": "2026-03-20",
+          "verificationStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                "code": "confirmed"
+              }
+            ]
+          },
+          "evidence": [
+            {
+              "detail": [
+                {
+                  "reference": "DocumentReference/demo-extent-conflict-source"
+                }
+              ]
+            }
+          ],
+          "meta": {
+            "versionId": "1"
+          }
+        },
+        "request": {
+          "method": "PUT",
+          "url": "Condition/demo-extent-conflict-current"
+        }
+      },
+      {
+        "resource": {
+          "status": "active",
+          "intent": "plan",
+          "subject": {
+            "reference": "Patient/demo-extent-conflict-p"
+          },
+          "addresses": [
+            {
+              "reference": "Condition/demo-extent-conflict-current"
+            }
+          ],
+          "period": {
+            "start": "2026-04-01"
+          },
+          "id": "demo-extent-conflict-current",
+          "resourceType": "CarePlan",
+          "meta": {
+            "versionId": "1"
+          }
+        },
+        "request": {
+          "method": "PUT",
+          "url": "CarePlan/demo-extent-conflict-current"
+        }
+      },
+      {
+        "resource": {
+          "subject": {
+            "reference": "Patient/demo-extent-conflict-p"
+          },
+          "code": {
+            "text": "Prior localized LMS episode"
+          },
+          "id": "demo-extent-conflict-prior",
+          "resourceType": "Condition",
+          "meta": {
+            "versionId": "1"
+          }
+        },
+        "request": {
+          "method": "PUT",
+          "url": "Condition/demo-extent-conflict-prior"
+        }
+      },
+      {
+        "resource": {
+          "status": "completed",
+          "intent": "plan",
+          "subject": {
+            "reference": "Patient/demo-extent-conflict-p"
+          },
+          "addresses": [
+            {
+              "reference": "Condition/demo-extent-conflict-prior"
+            }
+          ],
+          "period": {
+            "start": "2026-01-01",
+            "end": "2026-04-01"
+          },
+          "id": "demo-extent-conflict-prior",
+          "resourceType": "CarePlan",
+          "meta": {
+            "versionId": "1"
+          }
+        },
+        "request": {
+          "method": "PUT",
+          "url": "CarePlan/demo-extent-conflict-prior"
+        }
+      },
+      {
+        "resource": {
+          "status": "final",
+          "subject": {
+            "reference": "Patient/demo-extent-conflict-p"
+          },
+          "code": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:research:course-binding-fixture",
+                "code": "treatment-line"
+              }
+            ]
+          },
+          "focus": [
+            {
+              "reference": "CarePlan/demo-extent-conflict-current"
+            }
+          ],
+          "effectiveDateTime": "2026-04-15",
+          "valueInteger": 1,
+          "id": "demo-extent-conflict-line",
+          "resourceType": "Observation",
+          "meta": {
+            "versionId": "1"
+          }
+        },
+        "request": {
+          "method": "PUT",
+          "url": "Observation/demo-extent-conflict-line"
+        }
+      },
+      {
+        "resource": {
+          "status": "final",
+          "subject": {
+            "reference": "Patient/demo-extent-conflict-p"
+          },
+          "code": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:research:course-binding-fixture",
+                "code": "complete-course-medication-inventory"
+              }
+            ]
+          },
+          "focus": [
+            {
+              "reference": "CarePlan/demo-extent-conflict-current"
+            }
+          ],
+          "effectiveDateTime": "2026-04-15",
+          "valueBoolean": true,
+          "id": "demo-extent-conflict-inventory",
+          "resourceType": "Observation",
+          "meta": {
+            "versionId": "1"
+          }
+        },
+        "request": {
+          "method": "PUT",
+          "url": "Observation/demo-extent-conflict-inventory"
+        }
+      },
+      {
+        "resource": {
+          "status": "final",
+          "subject": {
+            "reference": "Patient/demo-extent-conflict-p"
+          },
+          "code": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:research:course-binding-fixture",
+                "code": "course-receiving"
+              }
+            ]
+          },
+          "focus": [
+            {
+              "reference": "CarePlan/demo-extent-conflict-current"
+            }
+          ],
+          "effectiveDateTime": "2026-04-15",
+          "valueBoolean": true,
+          "id": "demo-extent-conflict-on-treatment",
+          "resourceType": "Observation",
+          "meta": {
+            "versionId": "1"
+          }
+        },
+        "request": {
+          "method": "PUT",
+          "url": "Observation/demo-extent-conflict-on-treatment"
+        }
+      },
+      {
+        "resource": {
+          "subject": {
+            "reference": "Patient/demo-extent-conflict-p"
+          },
+          "medicationCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "code": "1191138"
+              }
+            ]
+          },
+          "authoredOn": "2026-04-01",
+          "status": "active",
+          "intent": "order",
+          "basedOn": [
+            {
+              "reference": "CarePlan/demo-extent-conflict-current"
+            }
+          ],
+          "id": "demo-extent-conflict-0",
+          "resourceType": "MedicationRequest",
+          "meta": {
+            "versionId": "1"
+          }
+        },
+        "request": {
+          "method": "PUT",
+          "url": "MedicationRequest/demo-extent-conflict-0"
+        }
+      },
+      {
+        "resource": {
+          "subject": {
+            "reference": "Patient/demo-extent-conflict-p"
+          },
+          "medicationCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "code": "1191138"
+              }
+            ]
+          },
+          "effectiveDateTime": "2026-04-01",
+          "request": {
+            "reference": "MedicationRequest/demo-extent-conflict-0"
+          },
+          "status": "completed",
+          "id": "demo-extent-conflict-0",
+          "resourceType": "MedicationAdministration",
+          "meta": {
+            "versionId": "1"
+          }
+        },
+        "request": {
+          "method": "PUT",
+          "url": "MedicationAdministration/demo-extent-conflict-0"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "DocumentReference",
+          "id": "demo-extent-conflict-source",
+          "status": "current",
+          "subject": {
+            "reference": "Patient/demo-extent-conflict-p"
+          },
+          "content": [
+            {
+              "attachment": {
+                "contentType": "application/json",
+                "data": "eyJkaXNjb3JkYW50X2V4dGVudCI6IHRydWUsICJpZCI6ICJleHRlbnQtY29uZmxpY3QiLCAibWVkcyI6IFtbIjExOTExMzgiLCAiY3VycmVudCJdXX0="
+              }
+            }
+          ],
+          "meta": {
+            "versionId": "1"
+          }
+        },
+        "request": {
+          "method": "PUT",
+          "url": "DocumentReference/demo-extent-conflict-source"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "id": "demo-extent-conflict-metastatic",
+          "subject": {
+            "reference": "Patient/demo-extent-conflict-p"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:research:course-binding-fixture",
+                "code": "metastatic"
+              }
+            ]
+          },
+          "focus": [
+            {
+              "reference": "Condition/demo-extent-conflict-current"
+            }
+          ],
+          "effectiveDateTime": "2026-04-15",
+          "derivedFrom": [
+            {
+              "reference": "DocumentReference/demo-extent-conflict-source"
+            }
+          ],
+          "valueBoolean": true,
+          "meta": {
+            "versionId": "1"
+          }
+        },
+        "request": {
+          "method": "PUT",
+          "url": "Observation/demo-extent-conflict-metastatic"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "id": "demo-extent-conflict-metastatic-other",
+          "subject": {
+            "reference": "Patient/demo-extent-conflict-p"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:research:course-binding-fixture",
+                "code": "metastatic"
+              }
+            ]
+          },
+          "focus": [
+            {
+              "reference": "Condition/demo-extent-conflict-current"
+            }
+          ],
+          "effectiveDateTime": "2026-04-15",
+          "derivedFrom": [
+            {
+              "reference": "DocumentReference/demo-extent-conflict-source"
+            }
+          ],
+          "valueBoolean": false,
+          "meta": {
+            "versionId": "1"
+          }
+        },
+        "request": {
+          "method": "PUT",
+          "url": "Observation/demo-extent-conflict-metastatic-other"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "id": "demo-extent-conflict-advanced-treatment-setting",
+          "subject": {
+            "reference": "Patient/demo-extent-conflict-p"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:research:course-binding-fixture",
+                "code": "advanced_treatment_setting"
+              }
+            ]
+          },
+          "focus": [
+            {
+              "reference": "Condition/demo-extent-conflict-current"
+            },
+            {
+              "reference": "CarePlan/demo-extent-conflict-current"
+            }
+          ],
+          "effectiveDateTime": "2026-04-15",
+          "derivedFrom": [
+            {
+              "reference": "DocumentReference/demo-extent-conflict-source"
+            }
+          ],
+          "valueBoolean": true,
+          "meta": {
+            "versionId": "1"
+          }
+        },
+        "request": {
+          "method": "PUT",
+          "url": "Observation/demo-extent-conflict-advanced-treatment-setting"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "id": "demo-extent-conflict-cycle1-start",
+          "subject": {
+            "reference": "Patient/demo-extent-conflict-p"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:research:course-binding-fixture",
+                "code": "cycle1_start"
+              }
+            ]
+          },
+          "focus": [
+            {
+              "reference": "CarePlan/demo-extent-conflict-current"
+            }
+          ],
+          "effectiveDateTime": "2026-04-01",
+          "derivedFrom": [
+            {
+              "reference": "DocumentReference/demo-extent-conflict-source"
+            }
+          ],
+          "valueDateTime": "2026-04-01",
+          "meta": {
+            "versionId": "1"
+          }
+        },
+        "request": {
+          "method": "PUT",
+          "url": "Observation/demo-extent-conflict-cycle1-start"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "id": "demo-extent-conflict-baseline-measurable",
+          "subject": {
+            "reference": "Patient/demo-extent-conflict-p"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:research:course-binding-fixture",
+                "code": "baseline_measurable"
+              }
+            ]
+          },
+          "focus": [
+            {
+              "reference": "Condition/demo-extent-conflict-current"
+            },
+            {
+              "reference": "CarePlan/demo-extent-conflict-current"
+            }
+          ],
+          "effectiveDateTime": "2026-03-28",
+          "derivedFrom": [
+            {
+              "reference": "DocumentReference/demo-extent-conflict-source"
+            }
+          ],
+          "valueBoolean": true,
+          "method": {
+            "text": "RECIST 1.1"
+          },
+          "meta": {
+            "versionId": "1"
+          }
+        },
+        "request": {
+          "method": "PUT",
+          "url": "Observation/demo-extent-conflict-baseline-measurable"
+        }
+      }
+    ]
+  }
+}

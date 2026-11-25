@@ -1,0 +1,455 @@
+{
+ "context": {
+  "study": "106S01",
+  "protocol_sha256": "6e80a01373fd98d53a3ca3c15d720e3d9bc32e98342db32a54284349b7f6f22a",
+  "patient": "pulse-demo",
+  "encounter": "screen",
+  "episode": "index-pulse-demo",
+  "as_of": "2026-04-30T18:00:00Z",
+  "site_zone": "UTC",
+  "enabled_contracts": [
+   "f-00260cd9c714d3b55a97b5b5",
+   "f-00eb300b9eae09b33763c49f",
+   "f-012722568befaa9c8df9cc02",
+   "f-0247401462eaee126fab43de",
+   "f-0497243e1cf8f38c4b19a7de",
+   "f-04b550175c75bfb2e59d8e47",
+   "f-0547d9a7aa141759a9731af2",
+   "f-05d0296c12cb17a715a7ee6f",
+   "f-0619343a4464d53959d23f37",
+   "f-07755941d9d2909889df225d",
+   "f-079df86175d7ef96cf35d145",
+   "f-0a0b15c4facd199f06c7b152",
+   "f-0b115ddca4107c5a361bfb36",
+   "f-0fec6cc7c3d4d346e15aa0cb",
+   "f-11ba7818dce84790e4697393",
+   "f-14f427fcd81c9c3226269da7",
+   "f-1601c96278c999143111b6ec",
+   "f-16987fcbdbfcb65e574a5be6",
+   "f-1741364541baec88f2201554",
+   "f-175b91788c6f7b9854986068",
+   "f-193b6c31db3b6bd759567988",
+   "f-199be06dd64d278d5827d3d5",
+   "f-19db42fb8a3fe819e67d002e",
+   "f-1ca0af9132ccd2e0e67a9322",
+   "f-1cb74b9b6b583337eca3ae9d",
+   "f-1d3a59dcd0b525ffdd7cc6f3",
+   "f-225b94eae20d205691317999",
+   "f-26a036ed5e61031e380ec514",
+   "f-28808ed001ecaecd38f4e2d1",
+   "f-2aa84e23d338cb23c915c3af",
+   "f-2cf2e34a0dc56801bf1090ac",
+   "f-2e6f9c7c3d51d3f6dfe98d3f",
+   "f-31ca69c045fa19477bb46180",
+   "f-3265afae3bae9b67146e7d93",
+   "f-3268f7e740169aacc1ec2899",
+   "f-32b08b765cd89c8099adf272",
+   "f-3765e21c05c32415caf74075",
+   "f-38d75e26dafe97b4b488c969",
+   "f-39f033713e48e8ae39c1970f",
+   "f-3a5198515148f49e48dd792e",
+   "f-3ac9b50c1735a939edf8e7c4",
+   "f-3b5bfb6968d7c43074db0b1a",
+   "f-3da47122a5eef8ce1ef289fd",
+   "f-3ecd820861a9aaead17e2f58",
+   "f-40ff8d7851a967dd543eb8c2",
+   "f-429be540c4cf8252fd6079db",
+   "f-4345910049c43691555cae70",
+   "f-44b8555f57f313edd3b6f7ca",
+   "f-451e0822b8c19fdaf4811b6f",
+   "f-45f949d7b38ea6f15e1cf135",
+   "f-46b24735d286c0055716c526",
+   "f-4a71dab0a44504543d1c72e2",
+   "f-509da26146621ad437200f6f",
+   "f-50e850d0c21d26976adc7bab",
+   "f-53d31c4a1786f8c0b9c0b69b",
+   "f-559a0fd8f8bb2bef373aaf02",
+   "f-55a01b5e37f3580390598d12",
+   "f-59cb74faeb7b6c34d5f70137",
+   "f-5c6e565931c362bf4ab4f3ee",
+   "f-5df6d0c6777b5fb48544a041",
+   "f-5e8790479e3a5b7d10115447",
+   "f-5ec5d462bf01844d37e0c428",
+   "f-5f884e61b084b51a35b22d9a",
+   "f-5fc95f8437580c4c903dbbd6",
+   "f-6072f63eceeda658518cda40",
+   "f-61e57b91ae113b143c4059c3",
+   "f-621ce967a5ab6e6610e9ceb5",
+   "f-62ce4fc6db61e412f5e9726c",
+   "f-64514ff258d796b5ef4b10c0",
+   "f-64a56efe6a1c72ad34a24775",
+   "f-6570cb0ae25624c0ec4c219c",
+   "f-65a96d007b2d13087a29a8b4",
+   "f-6647923a57e3daa06c640871",
+   "f-665d0391354817ad1d42d5b4",
+   "f-66c90b900bf695df58095422",
+   "f-6767367c52aae23d51614f68",
+   "f-682d05dbc4df5a88fab4e193",
+   "f-68ee96ce736c4460966c463c",
+   "f-6959bcfa1d24ae60c3638974",
+   "f-6b5255675fc48fa611482795",
+   "f-6dde43ec7eaca4e1d66d4112",
+   "f-6e0dabd2a3250ff7b5b16463",
+   "f-6e3d6b8a6db6fafbd2c90ea3",
+   "f-6ee2ed23691054de73322bae",
+   "f-6fbf9782d6b43b4e0c4dbe7f",
+   "f-70e016fe0b3e82efb950572f",
+   "f-71aa1a73d0fd03b09e851c1f",
+   "f-723a818306df1b70569ba542",
+   "f-724c00514d2d54ad9e5397ab",
+   "f-764c34099fe31863c7a4d8fb",
+   "f-7893dc96819188d466639b79",
+   "f-7ad91150a0f95d74915df214",
+   "f-7b0f6d6ae657794d8ce84e8b",
+   "f-7ba5681be379d1b165679e91",
+   "f-80c14fdc555320cbc4e003ea",
+   "f-81bbd5d0007d0a2b71f0733e",
+   "f-81cbd6ec71bfae9a4301ff22",
+   "f-822c6263b17996a6926ad7d2",
+   "f-827947621c35b2c338c4e325",
+   "f-84d32b74fe09ef35e9912e70",
+   "f-87366fdedf12ea4e81b540b4",
+   "f-876a432977c41b776823d292",
+   "f-87c17662f3e13b1b4a84b53f",
+   "f-890f8ac547dbad3953ba75b3",
+   "f-897b8a3019dc4ffe34c97ed2",
+   "f-8edb76d94c4c253becb13183",
+   "f-908a9055eea9627f2a7d20f4",
+   "f-908cb9238e2fc52ed426dd40",
+   "f-918961ab59bf431157e7862b",
+   "f-922d16392e4e0f3aa22adea2",
+   "f-92447651236aa3955e8c6644",
+   "f-92936180700212f538c8451d",
+   "f-9396fccea1b4d610ac8a269f",
+   "f-93b1b8bddd11b8fed5362724",
+   "f-93c68d39c20f2d068c0b1a3c",
+   "f-9d06423e010c3eb56c0adb82",
+   "f-9e1b40f35b3eac1cd65e43ac",
+   "f-a17f6759b2012d6278be04ec",
+   "f-a32bc387edc87b4017868c30",
+   "f-a3486c3fa58c20229c830580",
+   "f-a4eef276303bb0af82cf698d",
+   "f-a54881873026986288725111",
+   "f-a769bf4ff6b3e1cbeec639d0",
+   "f-a873ebcdaf822705d687867f",
+   "f-abe952f96c0e860be19f83a1",
+   "f-ae4d37c78cbd83b9a977155a",
+   "f-af044c4cca4c00f9e2ba8b28",
+   "f-afe875017c1d36edfcdca4e1",
+   "f-b19d6cc89cf4724748dc29b7",
+   "f-b2005c49f2de6baabd48e4ad",
+   "f-b21a06bf3a819001252963d0",
+   "f-b4f5e4fbb3449c2f76d8bdb9",
+   "f-b71504bf121d768d3799dbc1",
+   "f-bc637a5b3c205a49e30d9ba2",
+   "f-c026a0737a99e6e121427f7b",
+   "f-c382d3ba4cba9b76a6038af1",
+   "f-c41b574809daba7a6a45e7f5",
+   "f-c675f4e12bbb6c77e92207de",
+   "f-c84df2fb27d4ec9a3a527ca5",
+   "f-c9cd7e598a335c16e0f301c6",
+   "f-cb6c6883082917a22dda87df",
+   "f-cbce5a18854130dce67e1012",
+   "f-cc3186a124863f1a8f6787af",
+   "f-cd6dbc9ca0b62641ced23102",
+   "f-ce111b8f5295ad5946831d0e",
+   "f-d0c14932c14fa3a1f2da8c96",
+   "f-d5036f7d81f6a34033c02203",
+   "f-d57d16ad80594162f55c6723",
+   "f-d60491ecdbbb6348d06a1b9e",
+   "f-d913b8e35dff1772556741cd",
+   "f-dad85625f1ffca6b1b54d224",
+   "f-deab0778037338dbad914c58",
+   "f-df567cfe9273beb1e47d3d9b",
+   "f-e0d68bd1d38065f0ade5c46d",
+   "f-e124901252d1a8fb29637e37",
+   "f-e16433408e48b7b7a75f19d6",
+   "f-e5a5fead05a29ed92a1665d4",
+   "f-e5bd29f34986a2d14395f836",
+   "f-e608e8ece4ad8750ce6f20c4",
+   "f-e649a43162d783a911205bbb",
+   "f-e81c16e74993986c53cc44f8",
+   "f-e8ffcd18b138e2c8afc9537a",
+   "f-ea9f000b6bb059e31d6b2299",
+   "f-ed46c6533f1924efd5834811",
+   "f-eea95cdc24418d0afcd3a36f",
+   "f-f0cb73ef36192335770854aa",
+   "f-f27ea7f806c7837d914d7eb5",
+   "f-f2bb2011bfad08fa77f41d3a",
+   "f-f51bb98918c6b8d074738283",
+   "f-f604e7251f586867dcb56e84",
+   "f-f88dd40d92398fcf3636a52a",
+   "f-f90da3759b3cf2c295503840",
+   "f-f93bac6dcbdcb40085413789",
+   "f-f97750acc4ea55156e4540f1",
+   "f-fa7371538cf2571257d37abb",
+   "f-fbe06091a590ff3e2229a848",
+   "f-fdadae841d22d6a45748430f",
+   "f-fe926d89737016e00d391d2d",
+   "f-fed936cfa08f4f9cfdf4b645"
+  ],
+  "trusted_roles": {
+   "record": [
+    "Organization/demo-record"
+   ],
+   "investigator": [
+    "PractitionerRole/demo-investigator"
+   ],
+   "site": [
+    "Organization/demo-site"
+   ]
+  },
+  "heart_rate_anchors": {
+   "main_consent": "DocumentReference/main-consent/_history/1",
+   "cycle1": "DocumentReference/planned-cycle/_history/1"
+  }
+ },
+ "bundle": {
+  "resourceType": "Bundle",
+  "type": "collection",
+  "entry": [
+   {
+    "resource": {
+     "resourceType": "Patient",
+     "id": "pulse-demo",
+     "meta": {
+      "versionId": "1",
+      "lastUpdated": "2026-04-09T11:00:00Z"
+     }
+    }
+   },
+   {
+    "resource": {
+     "resourceType": "Condition",
+     "id": "index-pulse-demo",
+     "meta": {
+      "versionId": "1",
+      "lastUpdated": "2026-04-09T11:00:00Z"
+     },
+     "subject": {
+      "reference": "Patient/pulse-demo"
+     }
+    }
+   },
+   {
+    "resource": {
+     "resourceType": "Encounter",
+     "id": "screen",
+     "meta": {
+      "versionId": "1",
+      "lastUpdated": "2026-04-09T11:00:00Z"
+     },
+     "status": "in-progress",
+     "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "AMB"
+     },
+     "subject": {
+      "reference": "Patient/pulse-demo"
+     },
+     "period": {
+      "start": "2026-04-10T10:00:00Z"
+     },
+     "identifier": [
+      {
+       "system": "urn:pocketmd:research:protocol-screening",
+       "value": "106S01|6e80a01373fd98d53a3ca3c15d720e3d9bc32e98342db32a54284349b7f6f22a|screening"
+      },
+      {
+       "system": "urn:pocketmd:demo:screening-study",
+       "value": "106S01"
+      }
+     ]
+    }
+   },
+   {
+    "resource": {
+     "resourceType": "DocumentReference",
+     "id": "main-consent",
+     "status": "current",
+     "subject": {
+      "reference": "Patient/pulse-demo"
+     },
+     "author": [
+      {
+       "reference": "Organization/demo-record"
+      }
+     ],
+     "date": "2026-04-10T10:15:00Z",
+     "meta": {
+      "versionId": "1",
+      "lastUpdated": "2026-04-10T10:15:00Z"
+     },
+     "identifier": [
+      {
+       "system": "urn:pocketmd:research:screening-source:v1",
+       "value": "6e80a01373fd98d53a3ca3c15d720e3d9bc32e98342db32a54284349b7f6f22a"
+      }
+     ],
+     "context": {
+      "encounter": [
+       {
+        "reference": "Encounter/screen"
+       }
+      ],
+      "period": {
+       "start": "2026-04-10T10:00:00Z"
+      }
+     },
+     "content": [
+      {
+       "attachment": {
+        "contentType": "text/plain",
+        "data": "c3ludGhldGljIHNvdXJjZQ=="
+       }
+      }
+     ],
+     "type": {
+      "coding": [
+       {
+        "system": "urn:pocketmd:research:106S01:dated-event",
+        "code": "main-icf-signed"
+       }
+      ]
+     }
+    }
+   },
+   {
+    "resource": {
+     "resourceType": "DocumentReference",
+     "id": "planned-cycle",
+     "status": "current",
+     "subject": {
+      "reference": "Patient/pulse-demo"
+     },
+     "author": [
+      {
+       "reference": "Organization/demo-record"
+      }
+     ],
+     "date": "2026-04-10T11:00:00Z",
+     "meta": {
+      "versionId": "1",
+      "lastUpdated": "2026-04-10T11:00:00Z"
+     },
+     "identifier": [
+      {
+       "system": "urn:pocketmd:research:screening-source:v1",
+       "value": "6e80a01373fd98d53a3ca3c15d720e3d9bc32e98342db32a54284349b7f6f22a"
+      }
+     ],
+     "context": {
+      "encounter": [
+       {
+        "reference": "Encounter/screen"
+       }
+      ],
+      "period": {
+       "start": "2026-05-01T09:00:00Z"
+      }
+     },
+     "content": [
+      {
+       "attachment": {
+        "contentType": "text/plain",
+        "data": "c3ludGhldGljIHNvdXJjZQ=="
+       }
+      }
+     ],
+     "type": {
+      "coding": [
+       {
+        "system": "urn:pocketmd:research:106S01:dated-event",
+        "code": "c1d1-planned"
+       }
+      ]
+     }
+    }
+   },
+   {
+    "resource": {
+     "resourceType": "DocumentReference",
+     "id": "vitals-report",
+     "status": "current",
+     "subject": {
+      "reference": "Patient/pulse-demo"
+     },
+     "author": [
+      {
+       "reference": "Organization/demo-record"
+      }
+     ],
+     "date": "2026-04-29T10:15:00Z",
+     "meta": {
+      "versionId": "1",
+      "lastUpdated": "2026-04-29T10:15:00Z"
+     },
+     "identifier": [
+      {
+       "system": "urn:pocketmd:research:screening-source:v1",
+       "value": "6e80a01373fd98d53a3ca3c15d720e3d9bc32e98342db32a54284349b7f6f22a"
+      }
+     ],
+     "context": {
+      "encounter": [
+       {
+        "reference": "Encounter/screen"
+       }
+      ]
+     },
+     "content": [
+      {
+       "attachment": {
+        "contentType": "text/plain",
+        "data": "c3ludGhldGljIHNvdXJjZQ=="
+       }
+      }
+     ]
+    }
+   },
+   {
+    "resource": {
+     "resourceType": "Observation",
+     "id": "pulse",
+     "status": "final",
+     "subject": {
+      "reference": "Patient/pulse-demo"
+     },
+     "encounter": {
+      "reference": "Encounter/screen"
+     },
+     "performer": [
+      {
+       "reference": "Organization/demo-record"
+      }
+     ],
+     "derivedFrom": [
+      {
+       "reference": "DocumentReference/vitals-report/_history/1"
+      }
+     ],
+     "meta": {
+      "versionId": "1",
+      "lastUpdated": "2026-04-29T10:15:00Z"
+     },
+     "code": {
+      "coding": [
+       {
+        "system": "http://loinc.org",
+        "code": "8867-4"
+       }
+      ]
+     },
+     "effectiveDateTime": "2026-04-29T10:00:00Z",
+     "issued": "2026-04-29T10:15:00Z",
+     "valueQuantity": {
+      "system": "http://unitsofmeasure.org",
+      "code": "/min",
+      "unit": "beats/minute",
+      "value": 50
+     }
+    }
+   }
+  ]
+ }
+}

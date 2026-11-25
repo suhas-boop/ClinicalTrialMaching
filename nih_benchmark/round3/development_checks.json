@@ -1,0 +1,48 @@
+{
+  "218": {
+    "study": "NCT00163709",
+    "registry_sha256": "de9bc1388ef99d618c92afeb7faf6dbffcb734aad12e667f45ddd77ffa55498e",
+    "registry_url": "https://clinicaltrials.gov/study/NCT00163709",
+    "last_update": "2006-10-04",
+    "criterion_in_eligibility_text": true,
+    "minimum_age": "40 Years",
+    "maximum_age": null,
+    "authority": "Current public registry context; confirm the governing protocol version before changing a released rule.",
+    "age": {
+      "value": 30,
+      "sentences": [
+        0
+      ],
+      "quote": "A 30-year-old generally healthy woman presents with shortness of breath that had started 2 hours before admission."
+    },
+    "study_age_observation": "Outside both posted age formulations. Renal field remains unresolved."
+  },
+  "919": {
+    "study": "NCT01959048",
+    "registry_sha256": "7f1ad00ef45e1dbd66bac1755ef0da718e623c366dfa5f99e4455125b7e0444e",
+    "registry_url": "https://clinicaltrials.gov/study/NCT01959048",
+    "last_update": "2019-08-21",
+    "criterion_in_eligibility_text": true,
+    "minimum_age": "18 Years",
+    "maximum_age": null,
+    "authority": "Current public registry context; confirm the governing protocol version before changing a released rule."
+  },
+  "55": {
+    "study": "NCT02390596",
+    "registry_sha256": "747f90e70170b4059b997c76300e2d9ad815bd3858260cb10a5f48e6d6cfe217",
+    "registry_url": "https://clinicaltrials.gov/study/NCT02390596",
+    "last_update": "2019-07-02",
+    "criterion_in_eligibility_text": true,
+    "minimum_age": "3 Months",
+    "maximum_age": "18 Years",
+    "authority": "Current public registry context; confirm the governing protocol version before changing a released rule."
+  },
+  "group_case": {
+    "criteria": 8,
+    "previous_record_requests": 8,
+    "subject_requests": 1,
+    "independent_protocol_questions": [
+      "Clarify the intended maternal assessment and who determines it."
+    ]
+  }
+}

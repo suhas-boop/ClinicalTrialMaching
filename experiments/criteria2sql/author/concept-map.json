@@ -1,0 +1,49 @@
+{
+  "version": "criteria2sql-synthetic-age-v1",
+  "source": {
+    "dataset": "xiaojingyu92/Criteria2SQL",
+    "revision": "045528d70a7d788775a24763adfed6c66023c914",
+    "split": "development",
+    "path": "data/dev.jsonl",
+    "line": 242,
+    "table_id": "50",
+    "phase": "1",
+    "dev_file_sha256": "00dbac8202e0f3b1c8ec85dfc333c6bafb2f92e60ab3f3242bcc38a3b2a89f4b",
+    "dev_git_blob": "4bc319b4a79791721c63779d7e9222971bd79a74",
+    "table_metadata_line": 50,
+    "table_metadata_sha256": "102ac079098d1015532752b68bdbdbc15ca98270958f118636d6d2edb5e4ac54",
+    "table_metadata_git_blob": "d91e89a56ed8465024be0a71a0d3608217992483"
+  },
+  "scope": {
+    "study": "Criteria2SQL",
+    "version": "045528d70a7d788775a24763adfed6c66023c914",
+    "criterion_id": "dev-242",
+    "version_meaning": "Dataset commit. No governing protocol or study-approved interpretation accompanied the criterion."
+  },
+  "binding": {
+    "key": "age",
+    "catalog_version": "four-study-r4",
+    "selected_catalog_sha256": "551f73758e367c0849a601fe7281def4c8db3a525c3c47bd9d0e9a688d22388a",
+    "source_field": "Table 50 age (float)",
+    "domain": "Synthetic flat records contain completed calendar years at the local start date of the selected screening encounter, recorded as whole-valued floats. Fractional observed ages are outside this cross-engine contract.",
+    "unit": "calendar years",
+    "coding_system": "FHIR-native Patient.birthDate; no terminology code",
+    "fhir_elements": [
+      "Patient.birthDate",
+      "Encounter.subject.reference",
+      "Encounter.period.start",
+      "Encounter.identifier",
+      "meta.versionId",
+      "meta.lastUpdated"
+    ],
+    "status": "Patient is linked to a study-tagged in-progress Encounter. Both versions are present at the offset-qualified snapshot cutoff.",
+    "missing": "An absent Patient.birthDate and a null flat age represent the same missing measurement."
+  },
+  "control_sources": {
+    "version": "synthetic-controls-v1",
+    "charts": "controls/chart.json",
+    "flat": "controls/flat.json",
+    "identity": "Within each artifact, use the integer id and its patient_id. Each flat age is directly specified. The FHIR branch constructs resources exclusively from the dated chart inputs. The single-record and resource version is 1.",
+    "scope": "Complete controls enter the SQL set comparison. The missing-age control is reported separately."
+  }
+}

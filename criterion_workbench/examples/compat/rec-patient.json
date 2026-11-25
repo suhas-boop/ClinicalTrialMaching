@@ -1,0 +1,100 @@
+{
+  "resourceType": "Bundle",
+  "type": "collection",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "demo",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-01T09:00:00Z"
+        },
+        "birthDate": "2011-01-01"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "screen",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-01T09:00:00Z"
+        },
+        "status": "finished",
+        "subject": {
+          "reference": "Patient/demo"
+        },
+        "period": {
+          "start": "2026-05-01T09:00:00Z",
+          "end": "2026-05-01T19:00:00Z"
+        },
+        "identifier": [
+          {
+            "system": "urn:pocketmd:demo:screening-study",
+            "value": "REC-1245-101"
+          }
+        ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "doc2",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-01T09:00:00Z"
+        },
+        "status": "current",
+        "subject": {
+          "reference": "Patient/demo"
+        },
+        "date": "2026-05-01T10:00:00Z",
+        "type": {
+          "text": "synthetic assessment"
+        },
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/plain",
+              "title": "synthetic fixture"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs2",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-05-01T09:00:00Z"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "Patient/demo"
+        },
+        "encounter": {
+          "reference": "Encounter/screen"
+        },
+        "effectiveDateTime": "2026-05-01T10:00:00Z",
+        "issued": "2026-05-01T10:00:00Z",
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/doc2/_history/1"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "urn:pocketmd:demo:performance",
+              "code": "lansky"
+            }
+          ]
+        },
+        "valueInteger": 70
+      }
+    }
+  ]
+}

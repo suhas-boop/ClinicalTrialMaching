@@ -1,0 +1,25 @@
+{
+  "status": "evaluated",
+  "new_resource_versions": [
+    "DocumentReference/src-f-37fd090bbd530907b71fe2e1/_history/1",
+    "DocumentReference/src-f-67978a2c2e51b594d6265170/_history/1",
+    "DocumentReference/src-f-e39fcb5fe99e57bd94346bbc/_history/1",
+    "Observation/obs-f-37fd090bbd530907b71fe2e1/_history/1",
+    "Observation/obs-f-67978a2c2e51b594d6265170/_history/1",
+    "Observation/obs-f-e39fcb5fe99e57bd94346bbc/_history/1"
+  ],
+  "changes": {
+    "I01": {
+      "before": "MISSING_DATA",
+      "after": "MET",
+      "evidence": [
+        "DocumentReference/src-f-37fd090bbd530907b71fe2e1/_history/1",
+        "DocumentReference/src-f-67978a2c2e51b594d6265170/_history/1",
+        "DocumentReference/src-f-e39fcb5fe99e57bd94346bbc/_history/1",
+        "Observation/obs-f-37fd090bbd530907b71fe2e1/_history/1",
+        "Observation/obs-f-67978a2c2e51b594d6265170/_history/1",
+        "Observation/obs-f-e39fcb5fe99e57bd94346bbc/_history/1"
+      ]
+    }
+  }
+}

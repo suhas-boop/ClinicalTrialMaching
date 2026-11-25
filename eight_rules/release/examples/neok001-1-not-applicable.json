@@ -1,0 +1,352 @@
+{
+  "context": {
+    "study": "NEOK001-1",
+    "protocol_sha256": "582f18e7e5ee9658b4ea5dbf6f0553ebeee011bdf44fc6a90caab9011afc8039",
+    "patient": "demo",
+    "encounter": "screen",
+    "episode": "index-demo",
+    "as_of": "2026-05-01T12:00:00Z",
+    "site_zone": "UTC",
+    "enabled_contracts": [
+      "f-00706c3bfa00841384992256",
+      "f-01ab11c920c54d9f7ffb990b",
+      "f-0434af97ea96d373e6820c97",
+      "f-076d835557271bcb036e72b0",
+      "f-0bda7909c46abe344b5d9cdd",
+      "f-0cb49a76c62b1b6a5985958a",
+      "f-0d274704be5b7a3aed241b03",
+      "f-1067f8d48789f06f9f58d7a7",
+      "f-14f283d7a3b81b2bce870fb4",
+      "f-166c3bdc933ea86cc272fb68",
+      "f-167cf8f439ae476047fb3e86",
+      "f-178d8dbc215fab65e38197e6",
+      "f-17ce5860b6c407193bde9050",
+      "f-1acbd900be4a2ddea54eb5fb",
+      "f-1bc9b3798df19b86796e92fc",
+      "f-1c34e2e51a83c8909e16628f",
+      "f-1ca301f28c76b690d342859b",
+      "f-1da59bf1880a8945c82a851a",
+      "f-1e556fdc3886461aea95cbb6",
+      "f-1f0ebc37f25cdde6faba909d",
+      "f-1feb96dffd87684ad012777a",
+      "f-1ff055e5b8a295b49fbe798c",
+      "f-218be730cd0996b231777bab",
+      "f-22cd09d7a7fd3df2c9ae3906",
+      "f-23563b521c460473921f7bcb",
+      "f-24ce44c85ae96f208a2a8ada",
+      "f-24da9b31d92cfb93faa9a7d1",
+      "f-2b18f4103f415abb330c315d",
+      "f-2bcce0b3cbafebbdb7ef26b3",
+      "f-2beb8940eb749d27924f6c2f",
+      "f-2ca001f6f52cc67685a258da",
+      "f-2f1cf3295f7751b0c1e6e60d",
+      "f-2f8fc0c185068e34902d21b0",
+      "f-2fb2f903b113c5468e64eb25",
+      "f-30218b1692e098cb8925350a",
+      "f-30b62998cac80beb0350c184",
+      "f-30cf2efa56607545303dba38",
+      "f-310cbdda7633e9af7a6e1c4a",
+      "f-312988fd47ff62a8cf1d316b",
+      "f-31d9175553c6db24eecd9e3f",
+      "f-33933eb51c3c4212b09fe571",
+      "f-3492ccffed29671084df33c9",
+      "f-39398b43e937afdbd21d5be9",
+      "f-3e34b8a21d252ad182183290",
+      "f-406544f5155e5ba611b7a96a",
+      "f-419c29b9b82de6ce02cc4f09",
+      "f-429cf984808100b6cedf7aa1",
+      "f-434a97a89120e67cf5d0eab3",
+      "f-461c9f1ac1442f7219dc2e27",
+      "f-471eec347f2e34fe3bbe4a5f",
+      "f-47f5da8e52fd02db78624f14",
+      "f-4936a8e7c3c07bca3d5c24bc",
+      "f-4a8824399e7ea420df2466f0",
+      "f-4d4a717ea787d4fff628e8be",
+      "f-50c50d39437a47579de129d8",
+      "f-5218b20087576b40a5bbfb5e",
+      "f-5279c46ed1495ab7db406ba1",
+      "f-53e2e1ee59054c52955da1b4",
+      "f-567c44a3f2a2ca6a4afd3149",
+      "f-56d8da883d25fc77208c3412",
+      "f-56e2ae4119cc0f4c38c8c443",
+      "f-59cbc144e9078c72697a3657",
+      "f-5a1336beb3b4d8c97d42fecd",
+      "f-5a18751a3f206bf3a4bd4c7e",
+      "f-5a72642f09904d370dd0b06a",
+      "f-5c79b231b11385e2bed57bcd",
+      "f-5d9bbb6af7c7be1d6189dad9",
+      "f-5df2783294149bbcbd3b9772",
+      "f-5ebfceb97a6abeaa593cced5",
+      "f-6099e41445b78d793dcfca0c",
+      "f-60f5a88365c4c4d702337354",
+      "f-67f17e5a87a2edbe4547e346",
+      "f-690e14699a8bfdb6e5841ba2",
+      "f-6ac3faad7085da4d43158628",
+      "f-6b4c5fd42689e59ef1a69fec",
+      "f-6b85cc7f0a8fa679b3d9b8fd",
+      "f-6bb60d33f3de0878f960109a",
+      "f-6c32cac69f538a5e0799e698",
+      "f-6d652bf778ef880240caaad5",
+      "f-6e53d73dd653c3bfb1b7105c",
+      "f-6ee68f8ec04a2ce80a1c33d5",
+      "f-7146c280688f2575699da25f",
+      "f-71fe2d068a836cc6575c7099",
+      "f-720b6d9c15e68825fcd87233",
+      "f-74d8e8eb5116be12a3c35956",
+      "f-75178b0146f889be23c81b46",
+      "f-779b256f62d1d7bd15ade1b0",
+      "f-7b34173001385049d7738396",
+      "f-7d37ccd14d3e1f77bd166c81",
+      "f-813b7ad914c64c4e96d41291",
+      "f-833d583884c36741ff8e9c11",
+      "f-859aafcd2902f8753f8f6ccb",
+      "f-85f935ac999fecdb1d92fdab",
+      "f-867ff183d5751b715636372b",
+      "f-86d25ab0e210ea247d755c88",
+      "f-8817aa8fb204856f73d6f61f",
+      "f-88195973cbec482d544d00d0",
+      "f-8e9b1ddb9502bea7c5e14229",
+      "f-906cc1774f899fc39bec4fe3",
+      "f-91745e4338c1357dffa2f51b",
+      "f-93d56a06db4ba9d94e077fcc",
+      "f-98ea32d57ea30cf2bcfe07fa",
+      "f-993e46409fe42cf22bb4b587",
+      "f-9a1c42f1a6fd94bc2f7aafe7",
+      "f-9a22a02a98d257f90c695b4c",
+      "f-9a57e5a4272397f7f5348561",
+      "f-9b0ec381c5df9febab070eeb",
+      "f-9bb5048dca9c9c51da5cf4d2",
+      "f-9c5d8d1b5b0116492f1371dd",
+      "f-9c8071ec201284eac1203827",
+      "f-9dbc1708093f9abf3add18c9",
+      "f-9eadc040e82b0bd41a901816",
+      "f-9ebf40e8d7a2dff8b147bdb6",
+      "f-9f1d95e36d52248e34c1fb58",
+      "f-9fad8682d14b8ba8e335d607",
+      "f-aa726bcfc2062eacccc9cfc4",
+      "f-aa8c8e78cd21a8b7f7fa1a53",
+      "f-abadf252923b2f1087e13cad",
+      "f-ac10321186977514c0d80f40",
+      "f-b0cb2b67c3fe57be607fd26f",
+      "f-b1458e20012adf2950fbecfa",
+      "f-b2d3c0c01388345b9376f401",
+      "f-b33db0d89a30ca1fdc20eb97",
+      "f-b44be38a0e65571b21534fed",
+      "f-b9d6596cf1dbf5e68ca3f727",
+      "f-bacf7c2019abdc32ce79fdc3",
+      "f-bd31919dbe322ab4fe081bc2",
+      "f-bd65c227f1958ff7584b5168",
+      "f-be1fa2bf27eeb15416e35699",
+      "f-bf1c5ac038d24eb1705b04b1",
+      "f-bf7075432fc66cc69d21e2c2",
+      "f-c022d8c9670b480253eaee35",
+      "f-c048e64997260fbf60b30522",
+      "f-c1786102bae1debac6de4db0",
+      "f-c1e82616201b0f9f06b783ab",
+      "f-c1f262c085d045ede140ddf8",
+      "f-c373075486c60e0104f3642d",
+      "f-c425256b6cb97bc26c639a38",
+      "f-c572583cfb7d94f337e42d3b",
+      "f-cdef7963cb39933f4553c07d",
+      "f-ce8cdeebf4647c7899ebf8bd",
+      "f-cf25f9fe784f37d486afdc7b",
+      "f-cf4fb1ad4a118c2416cc39aa",
+      "f-d006d3eaa5849c7de0499d3b",
+      "f-d10a001096f0ed677357a5f8",
+      "f-d1f10265a4aa0d55a53edbe1",
+      "f-d1f7fac5f154b146136263cb",
+      "f-d2258de7bb56c63d9c8a6aa6",
+      "f-d356154d3e1cbd21609ccdb9",
+      "f-d43e04c18ef4bb592699f5cf",
+      "f-d79d13a998e0e41fecbfb83f",
+      "f-db02e85229c236ce9a7e1341",
+      "f-db2aa389c8f84cc0bf71ee67",
+      "f-dbca622eda0b8e10d53b3886",
+      "f-dbd8e38481043cf1f41ae4c3",
+      "f-dd661b9b5d8841fab0468918",
+      "f-df0f153b3d43e52800bd75ff",
+      "f-e001dae4ebd24b29f05a9578",
+      "f-e078b7809e0fc780b30eef2c",
+      "f-e68f66c2bfe52c6050da70fe",
+      "f-e6a4120f769921244e7c70a5",
+      "f-e6acaa0a0509aeabe6ff9895",
+      "f-e72716cecdc3b3fa0ee0eb6a",
+      "f-e8264e4f5cce74c890b68618",
+      "f-e871c165fe0644e74c940f98",
+      "f-e8e65104552982f199adb8d3",
+      "f-ebb600eecd9cf252f20af269",
+      "f-ecb0688726454aeef590c108",
+      "f-ee34e5b0eddf7eba0dc915e6",
+      "f-ee59cd1d006eab615728afe8",
+      "f-efc34c3abcceac823fa06996",
+      "f-f0fc4b87dfaa5638b067f564",
+      "f-f211b709ee71fc05ca0cc163",
+      "f-f2a4c441949dfbbe371ffa63",
+      "f-f3ba23576c132f3a1c622427",
+      "f-f40016f0e17dbc2bba90b65d",
+      "f-f440d9441f33bffc2c9931f9",
+      "f-f4758e21d61f50d9c0a54278",
+      "f-f4efb5828f4072cc4712e9a1",
+      "f-f74dffbafb2f0054616a1035",
+      "f-f7d6990006660105aa6ad9fe",
+      "f-fb81f1743308f9f0cd5d5f25",
+      "f-fbd2720ba71f540a35875b37",
+      "f-fc6ed4b9cebe9ea5d8e27ff4",
+      "f-fcdd649c38441be9f1b8c432",
+      "f-fd24d9bb64409b5f2178c0ba"
+    ],
+    "trusted_roles": {
+      "record": [
+        "Organization/demo-record"
+      ],
+      "investigator": [
+        "PractitionerRole/demo-investigator"
+      ],
+      "site": [
+        "Organization/demo-site"
+      ]
+    }
+  },
+  "bundle": {
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+      {
+        "resource": {
+          "resourceType": "Patient",
+          "id": "demo",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-05-01T12:00:00Z"
+          }
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Condition",
+          "id": "index-demo",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-05-01T12:00:00Z"
+          },
+          "subject": {
+            "reference": "Patient/demo"
+          }
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "screen",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-05-01T12:00:00Z"
+          },
+          "status": "in-progress",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB"
+          },
+          "subject": {
+            "reference": "Patient/demo"
+          },
+          "period": {
+            "start": "2026-05-01T12:00:00Z"
+          },
+          "identifier": [
+            {
+              "system": "urn:pocketmd:research:protocol-screening",
+              "value": "NEOK001-1|582f18e7e5ee9658b4ea5dbf6f0553ebeee011bdf44fc6a90caab9011afc8039|screening"
+            },
+            {
+              "system": "urn:pocketmd:demo:screening-study",
+              "value": "NEOK001-1"
+            }
+          ]
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "DocumentReference",
+          "id": "src-f-30218b1692e098cb8925350a",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-05-01T12:00:00Z"
+          },
+          "status": "current",
+          "subject": {
+            "reference": "Patient/demo"
+          },
+          "date": "2026-05-01T12:00:00Z",
+          "author": [
+            {
+              "reference": "Organization/demo-record"
+            }
+          ],
+          "identifier": [
+            {
+              "system": "urn:pocketmd:research:screening-source:v1",
+              "value": "582f18e7e5ee9658b4ea5dbf6f0553ebeee011bdf44fc6a90caab9011afc8039"
+            }
+          ],
+          "content": [
+            {
+              "attachment": {
+                "contentType": "text/plain",
+                "title": "Synthetic source for Female criterion applies"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "id": "obs-f-30218b1692e098cb8925350a",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-05-01T12:00:00Z",
+            "profile": [
+              "urn:pocketmd:research:screening-fact:v2"
+            ]
+          },
+          "status": "final",
+          "subject": {
+            "reference": "Patient/demo"
+          },
+          "encounter": {
+            "reference": "Encounter/screen"
+          },
+          "effectiveDateTime": "2026-05-01T12:00:00Z",
+          "issued": "2026-05-01T12:00:00Z",
+          "focus": [
+            {
+              "reference": "Condition/index-demo"
+            }
+          ],
+          "performer": [
+            {
+              "reference": "Organization/demo-record"
+            }
+          ],
+          "derivedFrom": [
+            {
+              "reference": "DocumentReference/src-f-30218b1692e098cb8925350a/_history/1"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:research:normalized-evidence:v2",
+                "version": "582f18e7e5ee9658b4ea5dbf6f0553ebeee011bdf44fc6a90caab9011afc8039",
+                "code": "f-30218b1692e098cb8925350a",
+                "display": "Female criterion applies"
+              }
+            ]
+          },
+          "valueBoolean": false
+        }
+      }
+    ]
+  }
+}

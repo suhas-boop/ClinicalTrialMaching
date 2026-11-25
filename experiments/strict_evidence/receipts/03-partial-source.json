@@ -1,0 +1,70 @@
+{
+  "hypothesis": "In single-document screening, an unresolved criterion can retain resource references for available operands but lack an explicit partial sentence list.",
+  "split": "134 original TrialGPT assignments, 44 subjects. No reference labels used.",
+  "baseline": "experiments/strict_evidence/candidate_v2",
+  "baseline_manifest_sha256": "a8a2996fc684369f9bcd4b2d4d7a18168d9cc4aa8c89de4800c4688aa15786d0",
+  "baseline_predictions_sha256": "82a62bbc794b629826831d27355d052849b977dfba56fa818ff6b68dca7cf8ba",
+  "patch_sha256": "272700dde7f08e41d2d09499d120a7a8078f7c81513400db0cd549b9568750b6",
+  "changed_code": {
+    "nih_benchmark/round11/match.py": {
+      "before_sha256": "4930d34adaa8c273a3c38845fa847d945780bc85ebbc25e774b3e10bb8e18b13",
+      "after_sha256": "9d43d376ecc36e1a7613af77e9500f4a3f19311e0ae4de484899e4e85cb37514"
+    }
+  },
+  "catalog_sha256": "8f74ae1b4fb2c4de07965dd52dc56fba5a04a9e82d1ae500452e9e414eaf2e66",
+  "after_predictions_sha256": "b0f5091e38a8789d71c16723662b04c891613501fdd263ea7ea1a3889133a467",
+  "chart_index_sha256_before_and_after": "0fb1e9803d321e31db77006fe81aacf32e52a1f150b98a1f7dad1b7f135089ed",
+  "delta": {
+    "assignments": 134,
+    "added_partial_sentence_lists": {
+      "26": [
+        0
+      ],
+      "55": [
+        0
+      ],
+      "132": [
+        0
+      ],
+      "230": [
+        0
+      ],
+      "323": [
+        0
+      ],
+      "454": [
+        0
+      ],
+      "460": [
+        5
+      ],
+      "795": [
+        0
+      ]
+    },
+    "assignments_previously_lacking_criterion_level_source_sentences": [
+      "55",
+      "132",
+      "230",
+      "323",
+      "454",
+      "460",
+      "795"
+    ],
+    "existing_gate_citation_preserved": {
+      "26": [
+        0
+      ]
+    },
+    "other_prediction_differences_after_removing_new_field": 0,
+    "changed_criterion_states": 0,
+    "changed_decisive_citations": 0
+  },
+  "controls": [
+    "The pre-change normal screener had no partial_source_sentences key on the age/sex and GCS cases. All five R18 tests passed after the change.",
+    "The regression checks the already-cited conditional gate for 26, deduplicates age and sex on one line for 454, and links the total GCS to line 5 for 460. The field is omitted for 467 (no evidence), 481 (group) and 517 (definitive).",
+    "The separate encounter screener already returned two documents at their respective line 0, with a distinct DocumentReference and SHA-256 for each. RR 19/min and PaCO2 40 mmHg left the ventilation alternative unresolved. All three encounter CLI tests passed."
+  ],
+  "replay": "From the candidate_v2 source snapshot, run git apply experiments/strict_evidence/receipts/03-partial-source.patch and python3.11 -B experiments/strict_evidence/predict.py /tmp/new-partial-freeze. Compare predictions.json to candidate_v2/predictions.json after removing only decision.partial_source_sentences.",
+  "disposition": "Eight abstaining criteria explicitly expose their partial source lines. Seven previously had an empty criterion-level source_sentences list. Case 26 already cited its conditional gate. No criterion changed state."
+}

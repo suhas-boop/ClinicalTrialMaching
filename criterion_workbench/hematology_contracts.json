@@ -1,0 +1,27 @@
+[
+  {
+    "fact": "hemoglobin",
+    "contract": "f-c10f73a7ad941d98fde48f90",
+    "loinc": "718-7",
+    "target_unit": "g/dL",
+    "ucum_factors": {
+      "g/dL": 1,
+      "g/L": 0.1
+    },
+    "export_unit_aliases": {}
+  },
+  {
+    "fact": "anc",
+    "contract": "f-52e6013d2108f30bfac5afdd",
+    "loinc": "26499-4",
+    "target_unit": "/mm3",
+    "ucum_factors": {
+      "10*3/uL": 1000,
+      "/uL": 1,
+      "/mm3": 1
+    },
+    "export_unit_aliases": {
+      "Thousand/uL": "10*3/uL"
+    }
+  }
+]

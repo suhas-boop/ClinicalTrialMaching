@@ -1,0 +1,3144 @@
+{
+ "context": {
+  "study": "106S01",
+  "protocol_sha256": "6e80a01373fd98d53a3ca3c15d720e3d9bc32e98342db32a54284349b7f6f22a",
+  "patient": "demo",
+  "encounter": "screen",
+  "episode": "index-demo",
+  "as_of": "2026-11-19T19:00:00Z",
+  "site_zone": "UTC",
+  "enabled_contracts": [
+   "f-00260cd9c714d3b55a97b5b5",
+   "f-00eb300b9eae09b33763c49f",
+   "f-012722568befaa9c8df9cc02",
+   "f-0247401462eaee126fab43de",
+   "f-0497243e1cf8f38c4b19a7de",
+   "f-04b550175c75bfb2e59d8e47",
+   "f-0547d9a7aa141759a9731af2",
+   "f-05d0296c12cb17a715a7ee6f",
+   "f-0619343a4464d53959d23f37",
+   "f-07755941d9d2909889df225d",
+   "f-079df86175d7ef96cf35d145",
+   "f-0a0b15c4facd199f06c7b152",
+   "f-0b115ddca4107c5a361bfb36",
+   "f-0fec6cc7c3d4d346e15aa0cb",
+   "f-11ba7818dce84790e4697393",
+   "f-14f427fcd81c9c3226269da7",
+   "f-1601c96278c999143111b6ec",
+   "f-16987fcbdbfcb65e574a5be6",
+   "f-1741364541baec88f2201554",
+   "f-175b91788c6f7b9854986068",
+   "f-193b6c31db3b6bd759567988",
+   "f-199be06dd64d278d5827d3d5",
+   "f-19db42fb8a3fe819e67d002e",
+   "f-1ca0af9132ccd2e0e67a9322",
+   "f-1cb74b9b6b583337eca3ae9d",
+   "f-1d3a59dcd0b525ffdd7cc6f3",
+   "f-225b94eae20d205691317999",
+   "f-26a036ed5e61031e380ec514",
+   "f-28808ed001ecaecd38f4e2d1",
+   "f-2aa84e23d338cb23c915c3af",
+   "f-2cf2e34a0dc56801bf1090ac",
+   "f-2e6f9c7c3d51d3f6dfe98d3f",
+   "f-31ca69c045fa19477bb46180",
+   "f-3265afae3bae9b67146e7d93",
+   "f-3268f7e740169aacc1ec2899",
+   "f-32b08b765cd89c8099adf272",
+   "f-3765e21c05c32415caf74075",
+   "f-38d75e26dafe97b4b488c969",
+   "f-39f033713e48e8ae39c1970f",
+   "f-3a5198515148f49e48dd792e",
+   "f-3ac9b50c1735a939edf8e7c4",
+   "f-3b5bfb6968d7c43074db0b1a",
+   "f-3da47122a5eef8ce1ef289fd",
+   "f-3ecd820861a9aaead17e2f58",
+   "f-40ff8d7851a967dd543eb8c2",
+   "f-429be540c4cf8252fd6079db",
+   "f-4345910049c43691555cae70",
+   "f-44b8555f57f313edd3b6f7ca",
+   "f-451e0822b8c19fdaf4811b6f",
+   "f-45f949d7b38ea6f15e1cf135",
+   "f-46b24735d286c0055716c526",
+   "f-4a71dab0a44504543d1c72e2",
+   "f-509da26146621ad437200f6f",
+   "f-50e850d0c21d26976adc7bab",
+   "f-53d31c4a1786f8c0b9c0b69b",
+   "f-559a0fd8f8bb2bef373aaf02",
+   "f-55a01b5e37f3580390598d12",
+   "f-59cb74faeb7b6c34d5f70137",
+   "f-5c6e565931c362bf4ab4f3ee",
+   "f-5df6d0c6777b5fb48544a041",
+   "f-5e8790479e3a5b7d10115447",
+   "f-5ec5d462bf01844d37e0c428",
+   "f-5f884e61b084b51a35b22d9a",
+   "f-5fc95f8437580c4c903dbbd6",
+   "f-6072f63eceeda658518cda40",
+   "f-61e57b91ae113b143c4059c3",
+   "f-621ce967a5ab6e6610e9ceb5",
+   "f-62ce4fc6db61e412f5e9726c",
+   "f-64514ff258d796b5ef4b10c0",
+   "f-64a56efe6a1c72ad34a24775",
+   "f-6570cb0ae25624c0ec4c219c",
+   "f-65a96d007b2d13087a29a8b4",
+   "f-6647923a57e3daa06c640871",
+   "f-665d0391354817ad1d42d5b4",
+   "f-66c90b900bf695df58095422",
+   "f-6767367c52aae23d51614f68",
+   "f-682d05dbc4df5a88fab4e193",
+   "f-68ee96ce736c4460966c463c",
+   "f-6959bcfa1d24ae60c3638974",
+   "f-6b5255675fc48fa611482795",
+   "f-6dde43ec7eaca4e1d66d4112",
+   "f-6e0dabd2a3250ff7b5b16463",
+   "f-6e3d6b8a6db6fafbd2c90ea3",
+   "f-6ee2ed23691054de73322bae",
+   "f-6fbf9782d6b43b4e0c4dbe7f",
+   "f-70e016fe0b3e82efb950572f",
+   "f-71aa1a73d0fd03b09e851c1f",
+   "f-723a818306df1b70569ba542",
+   "f-724c00514d2d54ad9e5397ab",
+   "f-764c34099fe31863c7a4d8fb",
+   "f-7893dc96819188d466639b79",
+   "f-7ad91150a0f95d74915df214",
+   "f-7b0f6d6ae657794d8ce84e8b",
+   "f-7ba5681be379d1b165679e91",
+   "f-80c14fdc555320cbc4e003ea",
+   "f-81bbd5d0007d0a2b71f0733e",
+   "f-81cbd6ec71bfae9a4301ff22",
+   "f-822c6263b17996a6926ad7d2",
+   "f-827947621c35b2c338c4e325",
+   "f-84d32b74fe09ef35e9912e70",
+   "f-87366fdedf12ea4e81b540b4",
+   "f-876a432977c41b776823d292",
+   "f-87c17662f3e13b1b4a84b53f",
+   "f-890f8ac547dbad3953ba75b3",
+   "f-897b8a3019dc4ffe34c97ed2",
+   "f-8edb76d94c4c253becb13183",
+   "f-908a9055eea9627f2a7d20f4",
+   "f-908cb9238e2fc52ed426dd40",
+   "f-918961ab59bf431157e7862b",
+   "f-922d16392e4e0f3aa22adea2",
+   "f-92447651236aa3955e8c6644",
+   "f-92936180700212f538c8451d",
+   "f-9396fccea1b4d610ac8a269f",
+   "f-93b1b8bddd11b8fed5362724",
+   "f-93c68d39c20f2d068c0b1a3c",
+   "f-9d06423e010c3eb56c0adb82",
+   "f-9e1b40f35b3eac1cd65e43ac",
+   "f-a17f6759b2012d6278be04ec",
+   "f-a32bc387edc87b4017868c30",
+   "f-a3486c3fa58c20229c830580",
+   "f-a4eef276303bb0af82cf698d",
+   "f-a54881873026986288725111",
+   "f-a769bf4ff6b3e1cbeec639d0",
+   "f-a873ebcdaf822705d687867f",
+   "f-abe952f96c0e860be19f83a1",
+   "f-ae4d37c78cbd83b9a977155a",
+   "f-af044c4cca4c00f9e2ba8b28",
+   "f-afe875017c1d36edfcdca4e1",
+   "f-b19d6cc89cf4724748dc29b7",
+   "f-b2005c49f2de6baabd48e4ad",
+   "f-b21a06bf3a819001252963d0",
+   "f-b4f5e4fbb3449c2f76d8bdb9",
+   "f-b71504bf121d768d3799dbc1",
+   "f-bc637a5b3c205a49e30d9ba2",
+   "f-c026a0737a99e6e121427f7b",
+   "f-c382d3ba4cba9b76a6038af1",
+   "f-c41b574809daba7a6a45e7f5",
+   "f-c675f4e12bbb6c77e92207de",
+   "f-c84df2fb27d4ec9a3a527ca5",
+   "f-c9cd7e598a335c16e0f301c6",
+   "f-cb6c6883082917a22dda87df",
+   "f-cbce5a18854130dce67e1012",
+   "f-cc3186a124863f1a8f6787af",
+   "f-cd6dbc9ca0b62641ced23102",
+   "f-ce111b8f5295ad5946831d0e",
+   "f-d0c14932c14fa3a1f2da8c96",
+   "f-d5036f7d81f6a34033c02203",
+   "f-d57d16ad80594162f55c6723",
+   "f-d60491ecdbbb6348d06a1b9e",
+   "f-d913b8e35dff1772556741cd",
+   "f-dad85625f1ffca6b1b54d224",
+   "f-deab0778037338dbad914c58",
+   "f-df567cfe9273beb1e47d3d9b",
+   "f-e0d68bd1d38065f0ade5c46d",
+   "f-e124901252d1a8fb29637e37",
+   "f-e16433408e48b7b7a75f19d6",
+   "f-e5a5fead05a29ed92a1665d4",
+   "f-e5bd29f34986a2d14395f836",
+   "f-e608e8ece4ad8750ce6f20c4",
+   "f-e649a43162d783a911205bbb",
+   "f-e81c16e74993986c53cc44f8",
+   "f-e8ffcd18b138e2c8afc9537a",
+   "f-ea9f000b6bb059e31d6b2299",
+   "f-ed46c6533f1924efd5834811",
+   "f-eea95cdc24418d0afcd3a36f",
+   "f-f0cb73ef36192335770854aa",
+   "f-f27ea7f806c7837d914d7eb5",
+   "f-f2bb2011bfad08fa77f41d3a",
+   "f-f51bb98918c6b8d074738283",
+   "f-f604e7251f586867dcb56e84",
+   "f-f88dd40d92398fcf3636a52a",
+   "f-f90da3759b3cf2c295503840",
+   "f-f93bac6dcbdcb40085413789",
+   "f-f97750acc4ea55156e4540f1",
+   "f-fa7371538cf2571257d37abb",
+   "f-fbe06091a590ff3e2229a848",
+   "f-fdadae841d22d6a45748430f",
+   "f-fe926d89737016e00d391d2d",
+   "f-fed936cfa08f4f9cfdf4b645"
+  ],
+  "trusted_roles": {
+   "record": [
+    "Organization/demo-record"
+   ],
+   "investigator": [
+    "PractitionerRole/demo-investigator"
+   ],
+   "site": [
+    "Organization/demo-site"
+   ]
+  },
+  "onboarding": {
+   "schema": "pocketmd-trial-onboarding-v1",
+   "study": "106S01",
+   "protocol_sha256": "6e80a01373fd98d53a3ca3c15d720e3d9bc32e98342db32a54284349b7f6f22a",
+   "version": "V2 / Amendment 1, 2026-08-14",
+   "timezone": "America/Los_Angeles",
+   "uploaded_at": "2026-11-19T09:00:00-08:00",
+   "test_cycle_start_offset_days": 7,
+   "questions": [
+    {
+     "id": "SOTIO-REGION",
+     "criterion": "106S01-I01",
+     "location": "Sections 5.2.1 and 12.2",
+     "question": "Which country, trial part and cohorts are open at this site, and which dated committee or sponsor record confirms adolescent enrollment permission?",
+     "answer": null,
+     "authority": null,
+     "decision_date": null
+    },
+    {
+     "id": "SOTIO-PROGRESSION",
+     "criterion": "106S01-I18",
+     "location": "Section 5.2.3 item 18, page 48",
+     "question": "If the previous treatment ended eight months before screening and RECIST progression was documented two months before screening, is the six-month timing requirement met? Which event or events must fall within six months?",
+     "answer": null,
+     "authority": null,
+     "decision_date": null
+    },
+    {
+     "id": "SOTIO-I06-ARCHIVE",
+     "criterion": "106S01-I06",
+     "location": "Amendment 1, sections 5.2.1(6) and 8.6.1, schedules Part A and Part B footnote 2 (pp. 22, 25, 47, 65–66).",
+     "when": "An adequate archival FFPE specimen is the sole tested sample and a fresh biopsy is medically feasible.",
+     "question": "If the central LRRC15 IHC result qualifies on an adequate archival FFPE specimen, may that specimen satisfy criterion 6 when fresh biopsy is safe and accessible, or is documented inability to obtain fresh tissue required? Please identify the governing sponsor or laboratory-manual instruction.",
+     "answer": null,
+     "authority": null,
+     "decision_date": null
+    }
+   ]
+  },
+  "trusted_signers": {
+   "Patient/demo": {
+    "study": "106S01",
+    "role": "participant",
+    "protocol_sha256": "6e80a01373fd98d53a3ca3c15d720e3d9bc32e98342db32a54284349b7f6f22a",
+    "start": "2026-01-01T00:00:00Z",
+    "end": "2026-12-31T23:59:59Z",
+    "ed25519_public": "OeWhEpSXoxZFvKS6ZiyEiN1KO6dF8OAxHHqaYiOgRI0="
+   },
+   "PractitionerRole/site": {
+    "study": "106S01",
+    "role": "investigator",
+    "protocol_sha256": "6e80a01373fd98d53a3ca3c15d720e3d9bc32e98342db32a54284349b7f6f22a",
+    "start": "2026-01-01T00:00:00Z",
+    "end": "2026-12-31T23:59:59Z",
+    "ed25519_public": "rJzK9W37P+MSdZyPKGBllmJxlnhAhSggBeAoMvuyV/g="
+   }
+  }
+ },
+ "bundle": {
+  "resourceType": "Bundle",
+  "type": "collection",
+  "entry": [
+   {
+    "resource": {
+     "resourceType": "Patient",
+     "id": "demo",
+     "meta": {
+      "versionId": "1",
+      "lastUpdated": "2026-11-03T09:00:00Z"
+     },
+     "birthDate": "1980-03-10"
+    }
+   },
+   {
+    "resource": {
+     "resourceType": "EpisodeOfCare",
+     "id": "attempt",
+     "meta": {
+      "versionId": "1",
+      "lastUpdated": "2026-11-03T09:00:00Z"
+     },
+     "status": "active",
+     "patient": {
+      "reference": "Patient/demo"
+     },
+     "type": [
+      {
+       "coding": [
+        {
+         "system": "urn:pocketmd:demo:prescreen:v1",
+         "code": "trial-screening-attempt"
+        }
+       ]
+      }
+     ],
+     "diagnosis": [
+      {
+       "condition": {
+        "reference": "Condition/index/_history/1"
+       }
+      }
+     ],
+     "identifier": [
+      {
+       "system": "urn:pocketmd:demo:screening-study",
+       "value": "106S01"
+      }
+     ]
+    }
+   },
+   {
+    "resource": {
+     "resourceType": "Encounter",
+     "id": "pre",
+     "meta": {
+      "versionId": "1",
+      "lastUpdated": "2026-11-18T15:00:00Z"
+     },
+     "status": "finished",
+     "subject": {
+      "reference": "Patient/demo"
+     },
+     "period": {
+      "start": "2026-11-03T09:00:00Z",
+      "end": "2026-11-18T15:00:00Z"
+     },
+     "identifier": [
+      {
+       "system": "urn:pocketmd:demo:screening-study",
+       "value": "106S01"
+      }
+     ],
+     "type": [
+      {
+       "coding": [
+        {
+         "system": "urn:pocketmd:demo:prescreen:v1",
+         "code": "prescreening"
+        }
+       ]
+      }
+     ],
+     "episodeOfCare": [
+      {
+       "reference": "EpisodeOfCare/attempt/_history/1"
+      }
+     ],
+     "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "AMB"
+     }
+    }
+   },
+   {
+    "resource": {
+     "resourceType": "Encounter",
+     "id": "screen",
+     "meta": {
+      "versionId": "1",
+      "lastUpdated": "2026-11-19T12:00:00Z"
+     },
+     "status": "finished",
+     "subject": {
+      "reference": "Patient/demo"
+     },
+     "period": {
+      "start": "2026-11-19T09:00:00Z",
+      "end": "2026-11-19T12:00:00Z"
+     },
+     "identifier": [
+      {
+       "system": "urn:pocketmd:demo:screening-study",
+       "value": "106S01"
+      },
+      {
+       "system": "urn:pocketmd:research:protocol-screening",
+       "value": "106S01|6e80a01373fd98d53a3ca3c15d720e3d9bc32e98342db32a54284349b7f6f22a|screening"
+      }
+     ],
+     "type": [
+      {
+       "coding": [
+        {
+         "system": "urn:pocketmd:demo:prescreen:v1",
+         "code": "formal-screening-assessments"
+        }
+       ]
+      }
+     ],
+     "episodeOfCare": [
+      {
+       "reference": "EpisodeOfCare/attempt/_history/1"
+      }
+     ],
+     "class": {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "code": "AMB"
+     }
+    }
+   },
+   {
+    "resource": {
+     "resourceType": "DocumentReference",
+     "id": "doc-signed-pre",
+     "meta": {
+      "versionId": "1",
+      "lastUpdated": "2026-11-03T09:00:00Z"
+     },
+     "status": "current",
+     "docStatus": "final",
+     "subject": {
+      "reference": "Patient/demo"
+     },
+     "type": {
+      "coding": [
+       {
+        "system": "urn:pocketmd:demo:prescreen:v1",
+        "code": "signed-prescreen-consent"
+       }
+      ]
+     },
+     "date": "2026-11-03T09:00:00Z",
+     "context": {
+      "encounter": [
+       {
+        "reference": "Encounter/pre"
+       }
+      ]
+     },
+     "content": [
+      {
+       "attachment": {
+        "contentType": "text/plain",
+        "title": "Synthetic source for signed-pre",
+        "data": "U3ludGhldGljLg=="
+       }
+      }
+     ]
+    }
+   },
+   {
+    "resource": {
+     "resourceType": "Observation",
+     "id": "signed-pre",
+     "meta": {
+      "versionId": "1",
+      "lastUpdated": "2026-11-03T09:00:00Z"
+     },
+     "status": "final",
+     "subject": {
+      "reference": "Patient/demo"
+     },
+     "encounter": {
+      "reference": "Encounter/pre"
+     },
+     "code": {
+      "coding": [
+       {
+        "system": "urn:pocketmd:demo:prescreen:v1",
+        "code": "verified-prescreen-consent-signature"
+       }
+      ]
+     },
+     "effectiveDateTime": "2026-11-03T09:00:00Z",
+     "issued": "2026-11-03T09:00:00Z",
+     "derivedFrom": [
+      {
+       "reference": "DocumentReference/doc-signed-pre/_history/1"
+      }
+     ],
+     "valueDateTime": "2026-11-03T09:00:00Z"
+    }
+   },
+   {
+    "resource": {
+     "resourceType": "DocumentReference",
+     "id": "doc-signed-main",
+     "meta": {
+      "versionId": "1",
+      "lastUpdated": "2026-11-18T15:00:00Z"
+     },
+     "status": "current",
+     "docStatus": "final",
+     "subject": {
+      "reference": "Patient/demo"
+     },
+     "type": {
+      "coding": [
+       {
+        "system": "urn:pocketmd:demo:prescreen:v1",
+        "code": "signed-main-consent"
+       }
+      ]
+     },
+     "date": "2026-11-18T15:00:00Z",
+     "context": {
+      "encounter": [
+       {
+        "reference": "Encounter/pre"
+       }
+      ]
+     },
+     "content": [
+      {
+       "attachment": {
+        "contentType": "text/plain",
+        "title": "Synthetic source for signed-main",
+        "data": "U3ludGhldGljLg=="
+       }
+      }
+     ]
+    }
+   },
+   {
+    "resource": {
+     "resourceType": "Observation",
+     "id": "signed-main",
+     "meta": {
+      "versionId": "1",
+      "lastUpdated": "2026-11-18T15:00:00Z"
+     },
+     "status": "final",
+     "subject": {
+      "reference": "Patient/demo"
+     },
+     "encounter": {
+      "reference": "Encounter/pre"
+     },
+     "code": {
+      "coding": [
+       {
+        "system": "urn:pocketmd:demo:prescreen:v1",
+        "code": "verified-main-consent-signature"
+       }
+      ]
+     },
+     "effectiveDateTime": "2026-11-18T15:00:00Z",
+     "issued": "2026-11-18T15:00:00Z",
+     "derivedFrom": [
+      {
+       "reference": "DocumentReference/doc-signed-main/_history/1"
+      }
+     ],
+     "valueDateTime": "2026-11-18T15:00:00Z"
+    }
+   },
+   {
+    "resource": {
+     "resourceType": "DocumentReference",
+     "id": "doc-archive-review",
+     "meta": {
+      "versionId": "1",
+      "lastUpdated": "2026-11-03T13:00:00Z"
+     },
+     "status": "current",
+     "docStatus": "final",
+     "subject": {
+      "reference": "Patient/demo"
+     },
+     "type": {
+      "coding": [
+       {
+        "system": "urn:pocketmd:demo:prescreen:v1",
+        "code": "tissue-review"
+       }
+      ]
+     },
+     "date": "2026-11-03T13:00:00Z",
+     "context": {
+      "encounter": [
+       {
+        "reference": "Encounter/pre"
+       }
+      ]
+     },
+     "content": [
+      {
+       "attachment": {
+        "contentType": "text/plain",
+        "title": "Synthetic source for archive-review",
+        "data": "U3ludGhldGljLg=="
+       }
+      }
+     ]
+    }
+   },
+   {
+    "resource": {
+     "resourceType": "Observation",
+     "id": "archive-review",
+     "meta": {
+      "versionId": "1",
+      "lastUpdated": "2026-11-03T13:00:00Z"
+     },
+     "status": "final",
+     "subject": {
+      "reference": "Patient/demo"
+     },
+     "encounter": {
+      "reference": "Encounter/pre"
+     },
+     "code": {
+      "coding": [
+       {
+        "system": "urn:pocketmd:demo:prescreen:v1",
+        "code": "adequate-ffpe-archive-available"
+       }
+      ]
+     },
+     "effectiveDateTime": "2026-11-03T13:00:00Z",
+     "issued": "2026-11-03T13:00:00Z",
+     "derivedFrom": [
+      {
+       "reference": "DocumentReference/doc-archive-review/_history/1"
+      }
+     ],
+     "valueBoolean": true,
+     "focus": [
+      {
+       "reference": "Condition/index/_history/1"
+      }
+     ]
+    }
+   },
+   {
+    "resource": {
+     "resourceType": "DocumentReference",
+     "id": "doc-feasibility",
+     "meta": {
+      "versionId": "1",
+      "lastUpdated": "2026-11-03T14:00:00Z"
+     },
+     "status": "current",
+     "docStatus": "final",
+     "subject": {
+      "reference": "Patient/demo"
+     },
+     "type": {
+      "coding": [
+       {
+        "system": "urn:pocketmd:demo:prescreen:v1",
+        "code": "tissue-review"
+       }
+      ]
+     },
+     "date": "2026-11-03T14:00:00Z",
+     "context": {
+      "encounter": [
+       {
+        "reference": "Encounter/pre"
+       }
+      ]
+     },
+     "content": [
+      {
+       "attachment": {
+        "contentType": "text/plain",
+        "title": "Synthetic source for feasibility",
+        "data": "U3ludGhldGljLg=="
+       }
+      }
+     ]
+    }
+   },
+   {
+    "resource": {
+     "resourceType": "Observation",
+     "id": "feasibility",
+     "meta": {
+      "versionId": "1",
+      "lastUpdated": "2026-11-03T14:00:00Z"
+     },
+     "status": "final",
+     "subject": {
+      "reference": "Patient/demo"
+     },
+     "encounter": {
+      "reference": "Encounter/pre"
+     },
+     "code": {
+      "coding": [
+       {
+        "system": "urn:pocketmd:demo:prescreen:v1",
+        "code": "fresh-biopsy-feasibility"
+       }
+      ]
+     },
+     "effectiveDateTime": "2026-11-03T14:00:00Z",
+     "issued": "2026-11-03T14:00:00Z",
+     "derivedFrom": [
+      {
+       "reference": "DocumentReference/doc-feasibility/_history/1"
+      }
+     ],
+     "valueCodeableConcept": {
+      "coding": [
+       {
+        "system": "urn:pocketmd:demo:prescreen:v1",
+        "code": "safe-and-accessible"
+       }
+      ]
+     },
+     "focus": [
+      {
+       "reference": "Condition/index/_history/1"
+      }
+     ]
+    }
+   },
+   {
+    "resource": {
+     "resourceType": "QuestionnaireResponse",
+     "id": "biopsy-preference",
+     "meta": {
+      "versionId": "1",
+      "lastUpdated": "2026-11-04T09:00:00Z"
+     },
+     "status": "completed",
+     "questionnaire": "https://example.org/pocketmd/Questionnaire/prescreen-biopsy|1",
+     "subject": {
+      "reference": "Patient/demo"
+     },
+     "source": {
+      "reference": "Patient/demo"
+     },
+     "encounter": {
+      "reference": "Encounter/pre"
+     },
+     "authored": "2026-11-04T09:00:00Z",
+     "item": [
+      {
+       "linkId": "willing-fresh-biopsy",
+       "answer": [
+        {
+         "valueBoolean": true
+        }
+       ]
+      }
+     ]
+    }
+   },
+   {
+    "resource": {
+     "resourceType": "Organization",
+     "id": "central",
+     "meta": {
+      "versionId": "1",
+      "lastUpdated": "2026-11-03T09:00:00Z"
+     },
+     "active": true,
+     "name": "Synthetic study-designated central lab",
+     "identifier": [
+      {
+       "system": "urn:pocketmd:demo:designated-lab",
+       "value": "106S01-central-IHC"
+      }
+     ]
+    }
+   },
+   {
+    "resource": {
+     "resourceType": "Condition",
+     "id": "index",
+     "meta": {
+      "versionId": "1",
+      "lastUpdated": "2026-11-03T09:00:00Z"
+     },
+     "subject": {
+      "reference": "Patient/demo"
+     },
+     "code": {
+      "text": "Synthetic index tumor"
+     }
+    }
+   },
+   {
+    "resource": {
+     "resourceType": "ServiceRequest",
+     "id": "central-ihc",
+     "meta": {
+      "versionId": "1",
+      "lastUpdated": "2026-11-07T10:00:00Z"
+     },
+     "status": "completed",
+     "intent": "order",
+     "subject": {
+      "reference": "Patient/demo"
+     },
+     "encounter": {
+      "reference": "Encounter/pre"
+     },
+     "code": {
+      "coding": [
+       {
+        "system": "urn:pocketmd:demo:prescreen:v1",
+        "code": "trial-lrrc15-ihc-ivd"
+       }
+      ]
+     },
+     "reasonReference": [
+      {
+       "reference": "Condition/index/_history/1"
+      }
+     ],
+     "specimen": [
+      {
+       "reference": "Specimen/tumor/_history/1"
+      }
+     ],
+     "authoredOn": "2026-11-07T10:00:00Z"
+    }
+   },
+   {
+    "resource": {
+     "resourceType": "Specimen",
+     "id": "tumor",
+     "meta": {
+      "versionId": "1",
+      "lastUpdated": "2026-11-07T09:00:00Z"
+     },
+     "status": "available",
+     "type": {
+      "coding": [
+       {
+        "system": "urn:pocketmd:demo:prescreen:v1",
+        "code": "archival-tumor-biopsy"
+       }
+      ]
+     },
+     "subject": {
+      "reference": "Patient/demo"
+     },
+     "condition": [
+      {
+       "coding": [
+        {
+         "system": "urn:pocketmd:demo:prescreen:v1",
+         "code": "adequate-for-ihc"
+        }
+       ]
+      }
+     ],
+     "collection": {
+      "collectedDateTime": "2025-12-01T12:00:00Z",
+      "method": {
+       "coding": [
+        {
+         "system": "urn:pocketmd:demo:prescreen:v1",
+         "code": "core-biopsy"
+        }
+       ]
+      }
+     },
+     "container": [
+      {
+       "type": {
+        "coding": [
+         {
+          "system": "urn:pocketmd:demo:prescreen:v1",
+          "code": "ffpe-block"
+         }
+        ]
+       }
+      }
+     ]
+    }
+   },
+   {
+    "resource": {
+     "resourceType": "Observation",
+     "id": "staining",
+     "meta": {
+      "versionId": "1",
+      "lastUpdated": "2026-11-12T15:00:00Z"
+     },
+     "status": "final",
+     "subject": {
+      "reference": "Patient/demo"
+     },
+     "encounter": {
+      "reference": "Encounter/pre"
+     },
+     "specimen": {
+      "reference": "Specimen/tumor/_history/1"
+     },
+     "performer": [
+      {
+       "reference": "Organization/central/_history/1"
+      }
+     ],
+     "code": {
+      "coding": [
+       {
+        "system": "urn:pocketmd:demo:prescreen:v1",
+        "code": "lrrc15-percent-cells-intensity-ge-1plus"
+       }
+      ]
+     },
+     "method": {
+      "coding": [
+       {
+        "system": "urn:pocketmd:demo:prescreen:v1",
+        "code": "trial-lrrc15-ihc-ivd"
+       }
+      ]
+     },
+     "effectiveDateTime": "2026-11-12T09:00:00Z",
+     "issued": "2026-11-12T15:00:00Z",
+     "valueQuantity": {
+      "value": 1,
+      "system": "http://unitsofmeasure.org",
+      "code": "%",
+      "unit": "%"
+     }
+    }
+   },
+   {
+    "resource": {
+     "resourceType": "DiagnosticReport",
+     "id": "ihc",
+     "meta": {
+      "versionId": "1",
+      "lastUpdated": "2026-11-12T15:00:00Z"
+     },
+     "basedOn": [
+      {
+       "reference": "ServiceRequest/central-ihc/_history/1"
+      }
+     ],
+     "status": "final",
+     "subject": {
+      "reference": "Patient/demo"
+     },
+     "encounter": {
+      "reference": "Encounter/pre"
+     },
+     "performer": [
+      {
+       "reference": "Organization/central/_history/1"
+      }
+     ],
+     "code": {
+      "coding": [
+       {
+        "system": "urn:pocketmd:demo:prescreen:v1",
+        "code": "trial-lrrc15-ihc-ivd"
+       }
+      ]
+     },
+     "issued": "2026-11-12T15:00:00Z",
+     "specimen": [
+      {
+       "reference": "Specimen/tumor/_history/1"
+      }
+     ],
+     "result": [
+      {
+       "reference": "Observation/staining/_history/1"
+      }
+     ]
+    }
+   },
+   {
+    "resource": {
+     "resourceType": "Practitioner",
+     "id": "site-md",
+     "meta": {
+      "versionId": "1",
+      "lastUpdated": "2026-11-19T10:00:00Z"
+     }
+    }
+   },
+   {
+    "resource": {
+     "resourceType": "PractitionerRole",
+     "id": "site",
+     "meta": {
+      "versionId": "1",
+      "lastUpdated": "2026-11-19T10:00:00Z"
+     },
+     "active": true,
+     "practitioner": {
+      "reference": "Practitioner/site-md"
+     },
+     "identifier": [
+      {
+       "system": "urn:pocketmd:research:protocol-screening",
+       "value": "106S01|6e80a01373fd98d53a3ca3c15d720e3d9bc32e98342db32a54284349b7f6f22a|screening"
+      }
+     ]
+    }
+   },
+   {
+    "resource": {
+     "resourceType": "QuestionnaireResponse",
+     "id": "investigator",
+     "meta": {
+      "versionId": "1",
+      "lastUpdated": "2026-11-19T10:00:00Z"
+     },
+     "questionnaire": "https://example.org/pocketmd/research/Questionnaire/106S01/106S01-E13|6e80a01373fd98d53a3ca3c15d720e3d9bc32e98342db32a54284349b7f6f22a",
+     "subject": {
+      "reference": "Patient/demo"
+     },
+     "source": {
+      "reference": "PractitionerRole/site"
+     },
+     "author": {
+      "reference": "PractitionerRole/site"
+     },
+     "encounter": {
+      "reference": "Encounter/screen"
+     },
+     "authored": "2026-11-19T10:00:00Z",
+     "status": "completed",
+     "item": [
+      {
+       "linkId": "psychiatric-or-social-barrier",
+       "text": "In your opinion, does a psychiatric condition or social situation preclude this participant's ability to comply with trial requirements?",
+       "answer": [
+        {
+         "valueBoolean": false
+        }
+       ]
+      }
+     ]
+    }
+   },
+   {
+    "resource": {
+     "resourceType": "Provenance",
+     "id": "sign-investigator",
+     "meta": {
+      "versionId": "1",
+      "lastUpdated": "2026-11-19T10:00:00Z"
+     },
+     "target": [
+      {
+       "reference": "QuestionnaireResponse/investigator/_history/1"
+      }
+     ],
+     "recorded": "2026-11-19T10:00:00Z",
+     "agent": [
+      {
+       "who": {
+        "reference": "PractitionerRole/site"
+       }
+      }
+     ],
+     "signature": [
+      {
+       "type": [
+        {
+         "system": "urn:iso-astm:E1762-95:2013",
+         "code": "1.2.840.10065.1.12.1.1"
+        }
+       ],
+       "when": "2026-11-19T10:00:00Z",
+       "who": {
+        "reference": "PractitionerRole/site"
+       },
+       "sigFormat": "application/ed25519-signature",
+       "data": "cXXkmnbLuPH08wu2mTLCxV+4lUmJ2oqpF/3F9ctatR7vl0LM6EJa8GAV8DjktbPLwv5IUrJlLgeDcFEoaEkJDw=="
+      }
+     ]
+    }
+   },
+   {
+    "resource": {
+     "resourceType": "QuestionnaireResponse",
+     "id": "agreement",
+     "meta": {
+      "versionId": "1",
+      "lastUpdated": "2026-11-19T09:30:00Z"
+     },
+     "questionnaire": "https://example.org/pocketmd/Questionnaire/106S01-other-interventional-trials|amendment-1-v1",
+     "status": "completed",
+     "subject": {
+      "reference": "Patient/demo"
+     },
+     "encounter": {
+      "reference": "Encounter/screen"
+     },
+     "source": {
+      "reference": "Patient/demo"
+     },
+     "authored": "2026-11-19T09:30:00Z",
+     "item": [
+      {
+       "linkId": "participant-agrees",
+       "text": "Do you agree to avoid participating in other interventional clinical trials while enrolled in SOTIO 106S01, except during the survival follow-up period?",
+       "answer": [
+        {
+         "valueBoolean": true
+        }
+       ]
+      }
+     ]
+    }
+   },
+   {
+    "resource": {
+     "resourceType": "PractitionerRole",
+     "id": "study-investigator",
+     "meta": {
+      "versionId": "1",
+      "lastUpdated": "2026-11-19T10:05:00Z"
+     },
+     "active": true,
+     "code": [
+      {
+       "coding": [
+        {
+         "system": "urn:pocketmd:demo:study-roles",
+         "code": "investigator"
+        }
+       ]
+      }
+     ],
+     "identifier": [
+      {
+       "system": "urn:pocketmd:demo:role-study",
+       "value": "106S01"
+      }
+     ],
+     "period": {
+      "start": "2026-01-01T00:00:00Z"
+     }
+    }
+   },
+   {
+    "resource": {
+     "resourceType": "Specimen",
+     "id": "serum",
+     "meta": {
+      "versionId": "1",
+      "lastUpdated": "2026-11-19T10:05:00Z"
+     },
+     "subject": {
+      "reference": "Patient/demo"
+     },
+     "status": "available",
+     "type": {
+      "coding": [
+       {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+        "code": "SER"
+       }
+      ]
+     }
+    }
+   },
+   {
+    "resource": {
+     "resourceType": "DocumentReference",
+     "id": "note-ecog",
+     "meta": {
+      "versionId": "1",
+      "lastUpdated": "2026-11-19T10:05:00Z"
+     },
+     "subject": {
+      "reference": "Patient/demo"
+     },
+     "status": "current",
+     "date": "2026-11-19T10:05:00Z",
+     "author": []
+    }
+   },
+   {
+    "resource": {
+     "resourceType": "Observation",
+     "id": "ecog",
+     "meta": {
+      "versionId": "1",
+      "lastUpdated": "2026-11-19T10:05:00Z"
+     },
+     "subject": {
+      "reference": "Patient/demo"
+     },
+     "encounter": {
+      "reference": "Encounter/screen"
+     },
+     "code": {
+      "coding": [
+       {
+        "system": "http://loinc.org",
+        "code": "89247-1"
+       }
+      ]
+     },
+     "issued": "2026-11-19T10:05:00Z",
+     "effectiveDateTime": "2026-11-19T10:05:00Z",
+     "status": "final",
+     "derivedFrom": [
+      {
+       "reference": "DocumentReference/note-ecog/_history/1"
+      }
+     ],
+     "performer": [],
+     "valueInteger": 1
+    }
+   },
+   {
+    "resource": {
+     "resourceType": "DocumentReference",
+     "id": "note-appropriate-candidate",
+     "meta": {
+      "versionId": "1",
+      "lastUpdated": "2026-11-19T10:05:00Z"
+     },
+     "subject": {
+      "reference": "Patient/demo"
+     },
+     "status": "current",
+     "date": "2026-11-19T10:05:00Z",
+     "author": [
+      {
+       "reference": "PractitionerRole/study-investigator/_history/1"
+      }
+     ]
+    }
+   },
+   {
+    "resource": {
+     "resourceType": "Observation",
+     "id": "appropriate-candidate",
+     "meta": {
+      "versionId": "1",
+      "lastUpdated": "2026-11-19T10:05:00Z"
+     },
+     "subject": {
+      "reference": "Patient/demo"
+     },
+     "encounter": {
+      "reference": "Encounter/screen"
+     },
+     "code": {
+      "coding": [
+       {
+        "system": "urn:pocketmd:demo:assessment",
+        "code": "candidate-experimental-therapy"
+       }
+      ]
+     },
+     "issued": "2026-11-19T10:05:00Z",
+     "effectiveDateTime": "2026-11-19T10:05:00Z",
+     "status": "final",
+     "derivedFrom": [
+      {
+       "reference": "DocumentReference/note-appropriate-candidate/_history/1"
+      }
+     ],
+     "performer": [
+      {
+       "reference": "PractitionerRole/study-investigator/_history/1"
+      }
+     ],
+     "valueBoolean": true
+    }
+   },
+   {
+    "resource": {
+     "resourceType": "DocumentReference",
+     "id": "note-estimated-survival",
+     "meta": {
+      "versionId": "1",
+      "lastUpdated": "2026-11-19T10:05:00Z"
+     },
+     "subject": {
+      "reference": "Patient/demo"
+     },
+     "status": "current",
+     "date": "2026-11-19T10:05:00Z",
+     "author": [
+      {
+       "reference": "PractitionerRole/study-investigator/_history/1"
+      }
+     ]
+    }
+   },
+   {
+    "resource": {
+     "resourceType": "Observation",
+     "id": "estimated-survival",
+     "meta": {
+      "versionId": "1",
+      "lastUpdated": "2026-11-19T10:05:00Z"
+     },
+     "subject": {
+      "reference": "Patient/demo"
+     },
+     "encounter": {
+      "reference": "Encounter/screen"
+     },
+     "code": {
+      "coding": [
+       {
+        "system": "urn:pocketmd:demo:assessment",
+        "code": "estimated-life-expectancy"
+       }
+      ]
+     },
+     "issued": "2026-11-19T10:05:00Z",
+     "effectiveDateTime": "2026-11-19T10:05:00Z",
+     "status": "final",
+     "derivedFrom": [
+      {
+       "reference": "DocumentReference/note-estimated-survival/_history/1"
+      }
+     ],
+     "performer": [
+      {
+       "reference": "PractitionerRole/study-investigator/_history/1"
+      }
+     ],
+     "valueQuantity": {
+      "value": 3,
+      "code": "mo",
+      "system": "http://unitsofmeasure.org"
+     }
+    }
+   },
+   {
+    "resource": {
+     "resourceType": "DocumentReference",
+     "id": "note-qtcf",
+     "meta": {
+      "versionId": "1",
+      "lastUpdated": "2026-11-19T10:05:00Z"
+     },
+     "subject": {
+      "reference": "Patient/demo"
+     },
+     "status": "current",
+     "date": "2026-11-19T10:05:00Z",
+     "author": []
+    }
+   },
+   {
+    "resource": {
+     "resourceType": "Observation",
+     "id": "qtcf",
+     "meta": {
+      "versionId": "1",
+      "lastUpdated": "2026-11-19T10:05:00Z"
+     },
+     "subject": {
+      "reference": "Patient/demo"
+     },
+     "encounter": {
+      "reference": "Encounter/screen"
+     },
+     "code": {
+      "coding": [
+       {
+        "system": "urn:pocketmd:demo:ecg-lab",
+        "code": "QTcF-12lead"
+       }
+      ]
+     },
+     "issued": "2026-11-19T10:05:00Z",
+     "effectiveDateTime": "2026-11-19T10:05:00Z",
+     "status": "final",
+     "derivedFrom": [
+      {
+       "reference": "DocumentReference/note-qtcf/_history/1"
+      }
+     ],
+     "performer": [],
+     "valueQuantity": {
+      "value": 465,
+      "code": "ms",
+      "system": "http://unitsofmeasure.org"
+     }
+    }
+   },
+   {
+    "resource": {
+     "resourceType": "DocumentReference",
+     "id": "note-anc",
+     "meta": {
+      "versionId": "1",
+      "lastUpdated": "2026-11-19T10:05:00Z"
+     },
+     "subject": {
+      "reference": "Patient/demo"
+     },
+     "status": "current",
+     "date": "2026-11-19T10:05:00Z",
+     "author": []
+    }
+   },
+   {
+    "resource": {
+     "resourceType": "Observation",
+     "id": "anc",
+     "meta": {
+      "versionId": "1",
+      "lastUpdated": "2026-11-19T10:05:00Z"
+     },
+     "subject": {
+      "reference": "Patient/demo"
+     },
+     "encounter": {
+      "reference": "Encounter/screen"
+     },
+     "code": {
+      "coding": [
+       {
+        "system": "http://loinc.org",
+        "code": "751-8"
+       }
+      ]
+     },
+     "issued": "2026-11-19T10:05:00Z",
+     "effectiveDateTime": "2026-11-19T10:05:00Z",
+     "status": "final",
+     "derivedFrom": [
+      {
+       "reference": "DocumentReference/note-anc/_history/1"
+      }
+     ],
+     "performer": [],
+     "valueQuantity": {
+      "value": 1.5,
+      "code": "10*9/L",
+      "system": "http://unitsofmeasure.org"
+     }
+    }
+   },
+   {
+    "resource": {
+     "resourceType": "DocumentReference",
+     "id": "note-platelets",
+     "meta": {
+      "versionId": "1",
+      "lastUpdated": "2026-11-19T10:05:00Z"
+     },
+     "subject": {
+      "reference": "Patient/demo"
+     },
+     "status": "current",
+     "date": "2026-11-19T10:05:00Z",
+     "author": []
+    }
+   },
+   {
+    "resource": {
+     "resourceType": "Observation",
+     "id": "platelets",
+     "meta": {
+      "versionId": "1",
+      "lastUpdated": "2026-11-19T10:05:00Z"
+     },
+     "subject": {
+      "reference": "Patient/demo"
+     },
+     "encounter": {
+      "reference": "Encounter/screen"
+     },
+     "code": {
+      "coding": [
+       {
+        "system": "http://loinc.org",
+        "code": "777-3"
+       }
+      ]
+     },
+     "issued": "2026-11-19T10:05:00Z",
+     "effectiveDateTime": "2026-11-19T10:05:00Z",
+     "status": "final",
+     "derivedFrom": [
+      {
+       "reference": "DocumentReference/note-platelets/_history/1"
+      }
+     ],
+     "performer": [],
+     "valueQuantity": {
+      "value": 100,
+      "code": "10*9/L",
+      "system": "http://unitsofmeasure.org"
+     }
+    }
+   },
+   {
+    "resource": {
+     "resourceType": "DocumentReference",
+     "id": "note-hemoglobin",
+     "meta": {
+      "versionId": "1",
+      "lastUpdated": "2026-11-19T10:05:00Z"
+     },
+     "subject": {
+      "reference": "Patient/demo"
+     },
+     "status": "current",
+     "date": "2026-11-19T10:05:00Z",
+     "author": []
+    }
+   },
+   {
+    "resource": {
+     "resourceType": "Observation",
+     "id": "hemoglobin",
+     "meta": {
+      "versionId": "1",
+      "lastUpdated": "2026-11-19T10:05:00Z"
+     },
+     "subject": {
+      "reference": "Patient/demo"
+     },
+     "encounter": {
+      "reference": "Encounter/screen"
+     },
+     "code": {
+      "coding": [
+       {
+        "system": "http://loinc.org",
+        "code": "718-7"
+       }
+      ]
+     },
+     "issued": "2026-11-19T10:05:00Z",
+     "effectiveDateTime": "2026-11-19T10:05:00Z",
+     "status": "final",
+     "derivedFrom": [
+      {
+       "reference": "DocumentReference/note-hemoglobin/_history/1"
+      }
+     ],
+     "performer": [],
+     "valueQuantity": {
+      "value": 9,
+      "code": "g/dL",
+      "system": "http://unitsofmeasure.org"
+     }
+    }
+   },
+   {
+    "resource": {
+     "resourceType": "DocumentReference",
+     "id": "note-albumin",
+     "meta": {
+      "versionId": "1",
+      "lastUpdated": "2026-11-19T10:05:00Z"
+     },
+     "subject": {
+      "reference": "Patient/demo"
+     },
+     "status": "current",
+     "date": "2026-11-19T10:05:00Z",
+     "author": []
+    }
+   },
+   {
+    "resource": {
+     "resourceType": "Observation",
+     "id": "albumin",
+     "meta": {
+      "versionId": "1",
+      "lastUpdated": "2026-11-19T10:05:00Z"
+     },
+     "subject": {
+      "reference": "Patient/demo"
+     },
+     "encounter": {
+      "reference": "Encounter/screen"
+     },
+     "code": {
+      "coding": [
+       {
+        "system": "http://loinc.org",
+        "code": "1751-7"
+       }
+      ]
+     },
+     "issued": "2026-11-19T10:05:00Z",
+     "effectiveDateTime": "2026-11-19T10:05:00Z",
+     "status": "final",
+     "derivedFrom": [
+      {
+       "reference": "DocumentReference/note-albumin/_history/1"
+      }
+     ],
+     "performer": [],
+     "valueQuantity": {
+      "value": 3,
+      "code": "g/dL",
+      "system": "http://unitsofmeasure.org"
+     },
+     "specimen": {
+      "reference": "Specimen/serum/_history/1"
+     }
+    }
+   },
+   {
+    "resource": {
+     "resourceType": "DocumentReference",
+     "id": "note-severe-preexisting",
+     "meta": {
+      "versionId": "1",
+      "lastUpdated": "2026-11-19T10:05:00Z"
+     },
+     "subject": {
+      "reference": "Patient/demo"
+     },
+     "status": "current",
+     "date": "2026-11-19T10:05:00Z",
+     "author": [
+      {
+       "reference": "PractitionerRole/study-investigator/_history/1"
+      }
+     ]
+    }
+   },
+   {
+    "resource": {
+     "resourceType": "Observation",
+     "id": "severe-preexisting",
+     "meta": {
+      "versionId": "1",
+      "lastUpdated": "2026-11-19T10:05:00Z"
+     },
+     "subject": {
+      "reference": "Patient/demo"
+     },
+     "encounter": {
+      "reference": "Encounter/screen"
+     },
+     "code": {
+      "coding": [
+       {
+        "system": "urn:pocketmd:demo:assessment",
+        "code": "severe-preexisting"
+       }
+      ]
+     },
+     "issued": "2026-11-19T10:05:00Z",
+     "effectiveDateTime": "2026-11-19T10:05:00Z",
+     "status": "final",
+     "derivedFrom": [
+      {
+       "reference": "DocumentReference/note-severe-preexisting/_history/1"
+      }
+     ],
+     "performer": [
+      {
+       "reference": "PractitionerRole/study-investigator/_history/1"
+      }
+     ],
+     "valueBoolean": false
+    }
+   },
+   {
+    "resource": {
+     "resourceType": "DocumentReference",
+     "id": "note-substance-abuse",
+     "meta": {
+      "versionId": "1",
+      "lastUpdated": "2026-11-19T10:05:00Z"
+     },
+     "subject": {
+      "reference": "Patient/demo"
+     },
+     "status": "current",
+     "date": "2026-11-19T10:05:00Z",
+     "author": [
+      {
+       "reference": "PractitionerRole/study-investigator/_history/1"
+      }
+     ]
+    }
+   },
+   {
+    "resource": {
+     "resourceType": "Observation",
+     "id": "substance-abuse",
+     "meta": {
+      "versionId": "1",
+      "lastUpdated": "2026-11-19T10:05:00Z"
+     },
+     "subject": {
+      "reference": "Patient/demo"
+     },
+     "encounter": {
+      "reference": "Encounter/screen"
+     },
+     "code": {
+      "coding": [
+       {
+        "system": "urn:pocketmd:demo:assessment",
+        "code": "alcohol-or-drug-abuse"
+       }
+      ]
+     },
+     "issued": "2026-11-19T10:05:00Z",
+     "effectiveDateTime": "2026-11-19T10:05:00Z",
+     "status": "final",
+     "derivedFrom": [
+      {
+       "reference": "DocumentReference/note-substance-abuse/_history/1"
+      }
+     ],
+     "performer": [
+      {
+       "reference": "PractitionerRole/study-investigator/_history/1"
+      }
+     ],
+     "valueBoolean": false
+    }
+   },
+   {
+    "resource": {
+     "resourceType": "DocumentReference",
+     "id": "note-interstitial-pneumonitis-history",
+     "meta": {
+      "versionId": "1",
+      "lastUpdated": "2026-11-19T10:05:00Z"
+     },
+     "subject": {
+      "reference": "Patient/demo"
+     },
+     "status": "current",
+     "date": "2026-11-19T10:05:00Z",
+     "author": []
+    }
+   },
+   {
+    "resource": {
+     "resourceType": "Observation",
+     "id": "interstitial-pneumonitis-history",
+     "meta": {
+      "versionId": "1",
+      "lastUpdated": "2026-11-19T10:05:00Z"
+     },
+     "subject": {
+      "reference": "Patient/demo"
+     },
+     "encounter": {
+      "reference": "Encounter/screen"
+     },
+     "code": {
+      "coding": [
+       {
+        "system": "urn:pocketmd:demo:history",
+        "code": "interstitial-pneumonitis"
+       }
+      ]
+     },
+     "issued": "2026-11-19T10:05:00Z",
+     "effectiveDateTime": "2026-11-19T10:05:00Z",
+     "status": "final",
+     "derivedFrom": [
+      {
+       "reference": "DocumentReference/note-interstitial-pneumonitis-history/_history/1"
+      }
+     ],
+     "performer": [],
+     "valueBoolean": false
+    }
+   },
+   {
+    "resource": {
+     "resourceType": "DocumentReference",
+     "id": "note-pulmonary-fibrosis-history",
+     "meta": {
+      "versionId": "1",
+      "lastUpdated": "2026-11-19T10:05:00Z"
+     },
+     "subject": {
+      "reference": "Patient/demo"
+     },
+     "status": "current",
+     "date": "2026-11-19T10:05:00Z",
+     "author": []
+    }
+   },
+   {
+    "resource": {
+     "resourceType": "Observation",
+     "id": "pulmonary-fibrosis-history",
+     "meta": {
+      "versionId": "1",
+      "lastUpdated": "2026-11-19T10:05:00Z"
+     },
+     "subject": {
+      "reference": "Patient/demo"
+     },
+     "encounter": {
+      "reference": "Encounter/screen"
+     },
+     "code": {
+      "coding": [
+       {
+        "system": "urn:pocketmd:demo:history",
+        "code": "pulmonary-fibrosis"
+       }
+      ]
+     },
+     "issued": "2026-11-19T10:05:00Z",
+     "effectiveDateTime": "2026-11-19T10:05:00Z",
+     "status": "final",
+     "derivedFrom": [
+      {
+       "reference": "DocumentReference/note-pulmonary-fibrosis-history/_history/1"
+      }
+     ],
+     "performer": [],
+     "valueBoolean": false
+    }
+   },
+   {
+    "resource": {
+     "resourceType": "DocumentReference",
+     "id": "note-major-ventricular-arrhythmia-history",
+     "meta": {
+      "versionId": "1",
+      "lastUpdated": "2026-11-19T10:05:00Z"
+     },
+     "subject": {
+      "reference": "Patient/demo"
+     },
+     "status": "current",
+     "date": "2026-11-19T10:05:00Z",
+     "author": []
+    }
+   },
+   {
+    "resource": {
+     "resourceType": "Observation",
+     "id": "major-ventricular-arrhythmia-history",
+     "meta": {
+      "versionId": "1",
+      "lastUpdated": "2026-11-19T10:05:00Z"
+     },
+     "subject": {
+      "reference": "Patient/demo"
+     },
+     "encounter": {
+      "reference": "Encounter/screen"
+     },
+     "code": {
+      "coding": [
+       {
+        "system": "urn:pocketmd:demo:history",
+        "code": "major-ventricular-arrhythmia"
+       }
+      ]
+     },
+     "issued": "2026-11-19T10:05:00Z",
+     "effectiveDateTime": "2026-11-19T10:05:00Z",
+     "status": "final",
+     "derivedFrom": [
+      {
+       "reference": "DocumentReference/note-major-ventricular-arrhythmia-history/_history/1"
+      }
+     ],
+     "performer": [],
+     "valueBoolean": false
+    }
+   },
+   {
+    "resource": {
+     "resourceType": "DocumentReference",
+     "id": "note-congenital-longqt",
+     "meta": {
+      "versionId": "1",
+      "lastUpdated": "2026-11-19T10:05:00Z"
+     },
+     "subject": {
+      "reference": "Patient/demo"
+     },
+     "status": "current",
+     "date": "2026-11-19T10:05:00Z",
+     "author": []
+    }
+   },
+   {
+    "resource": {
+     "resourceType": "Observation",
+     "id": "congenital-longqt",
+     "meta": {
+      "versionId": "1",
+      "lastUpdated": "2026-11-19T10:05:00Z"
+     },
+     "subject": {
+      "reference": "Patient/demo"
+     },
+     "encounter": {
+      "reference": "Encounter/screen"
+     },
+     "code": {
+      "coding": [
+       {
+        "system": "urn:pocketmd:demo:history",
+        "code": "personal-congenital-long-qt"
+       }
+      ]
+     },
+     "issued": "2026-11-19T10:05:00Z",
+     "effectiveDateTime": "2026-11-19T10:05:00Z",
+     "status": "final",
+     "derivedFrom": [
+      {
+       "reference": "DocumentReference/note-congenital-longqt/_history/1"
+      }
+     ],
+     "performer": [],
+     "valueBoolean": false
+    }
+   },
+   {
+    "resource": {
+     "resourceType": "DocumentReference",
+     "id": "note-family-congenital-longqt",
+     "meta": {
+      "versionId": "1",
+      "lastUpdated": "2026-11-19T10:05:00Z"
+     },
+     "subject": {
+      "reference": "Patient/demo"
+     },
+     "status": "current",
+     "date": "2026-11-19T10:05:00Z",
+     "author": []
+    }
+   },
+   {
+    "resource": {
+     "resourceType": "Observation",
+     "id": "family-congenital-longqt",
+     "meta": {
+      "versionId": "1",
+      "lastUpdated": "2026-11-19T10:05:00Z"
+     },
+     "subject": {
+      "reference": "Patient/demo"
+     },
+     "encounter": {
+      "reference": "Encounter/screen"
+     },
+     "code": {
+      "coding": [
+       {
+        "system": "urn:pocketmd:demo:history",
+        "code": "family-congenital-long-qt"
+       }
+      ]
+     },
+     "issued": "2026-11-19T10:05:00Z",
+     "effectiveDateTime": "2026-11-19T10:05:00Z",
+     "status": "final",
+     "derivedFrom": [
+      {
+       "reference": "DocumentReference/note-family-congenital-longqt/_history/1"
+      }
+     ],
+     "performer": [],
+     "valueBoolean": false
+    }
+   },
+   {
+    "resource": {
+     "resourceType": "DocumentReference",
+     "id": "note-rbc-review",
+     "meta": {
+      "versionId": "1",
+      "lastUpdated": "2026-11-19T10:05:00Z"
+     },
+     "subject": {
+      "reference": "Patient/demo"
+     },
+     "status": "current",
+     "date": "2026-11-19T10:05:00Z",
+     "author": []
+    }
+   },
+   {
+    "resource": {
+     "resourceType": "Observation",
+     "id": "rbc-review",
+     "meta": {
+      "versionId": "1",
+      "lastUpdated": "2026-11-19T10:05:00Z"
+     },
+     "subject": {
+      "reference": "Patient/demo"
+     },
+     "encounter": {
+      "reference": "Encounter/screen"
+     },
+     "code": {
+      "coding": [
+       {
+        "system": "urn:pocketmd:demo:transfusion-service",
+        "code": "last-completed-red-cell-transfusion-review"
+       }
+      ]
+     },
+     "issued": "2026-11-19T10:05:00Z",
+     "effectiveDateTime": "2026-11-19T10:05:00Z",
+     "status": "final",
+     "derivedFrom": [
+      {
+       "reference": "DocumentReference/note-rbc-review/_history/1"
+      }
+     ],
+     "performer": [],
+     "valueDateTime": "2026-11-17T09:00:00Z"
+    }
+   },
+   {
+    "resource": {
+     "resourceType": "Condition",
+     "id": "index-demo",
+     "meta": {
+      "versionId": "1",
+      "lastUpdated": "2026-11-19T19:00:00Z"
+     },
+     "subject": {
+      "reference": "Patient/demo"
+     }
+    }
+   },
+   {
+    "resource": {
+     "resourceType": "DocumentReference",
+     "id": "src-f-f97750acc4ea55156e4540f1",
+     "meta": {
+      "versionId": "1",
+      "lastUpdated": "2026-11-19T19:00:00Z"
+     },
+     "status": "current",
+     "subject": {
+      "reference": "Patient/demo"
+     },
+     "date": "2026-11-19T19:00:00Z",
+     "author": [
+      {
+       "reference": "Organization/demo-record"
+      }
+     ],
+     "identifier": [
+      {
+       "system": "urn:pocketmd:research:screening-source:v1",
+       "value": "6e80a01373fd98d53a3ca3c15d720e3d9bc32e98342db32a54284349b7f6f22a"
+      }
+     ],
+     "content": [
+      {
+       "attachment": {
+        "contentType": "text/plain",
+        "title": "Synthetic source for Left ventricular ejection fraction"
+       }
+      }
+     ]
+    }
+   },
+   {
+    "resource": {
+     "resourceType": "Observation",
+     "id": "obs-f-f97750acc4ea55156e4540f1",
+     "meta": {
+      "versionId": "1",
+      "lastUpdated": "2026-11-19T19:00:00Z",
+      "profile": [
+       "urn:pocketmd:research:screening-fact:v1"
+      ]
+     },
+     "status": "final",
+     "subject": {
+      "reference": "Patient/demo"
+     },
+     "encounter": {
+      "reference": "Encounter/screen"
+     },
+     "effectiveDateTime": "2026-11-19T19:00:00Z",
+     "issued": "2026-11-19T19:00:00Z",
+     "focus": [
+      {
+       "reference": "Condition/index-demo"
+      }
+     ],
+     "performer": [
+      {
+       "reference": "Organization/demo-record"
+      }
+     ],
+     "derivedFrom": [
+      {
+       "reference": "DocumentReference/src-f-f97750acc4ea55156e4540f1/_history/1"
+      }
+     ],
+     "code": {
+      "coding": [
+       {
+        "system": "urn:pocketmd:research:normalized-evidence:v1",
+        "version": "6e80a01373fd98d53a3ca3c15d720e3d9bc32e98342db32a54284349b7f6f22a",
+        "code": "f-f97750acc4ea55156e4540f1",
+        "display": "Left ventricular ejection fraction"
+       }
+      ]
+     },
+     "valueQuantity": {
+      "value": 50,
+      "system": "http://unitsofmeasure.org",
+      "code": "%"
+     }
+    }
+   },
+   {
+    "resource": {
+     "resourceType": "DocumentReference",
+     "id": "src-f-46b24735d286c0055716c526",
+     "meta": {
+      "versionId": "1",
+      "lastUpdated": "2026-11-19T19:00:00Z"
+     },
+     "status": "current",
+     "subject": {
+      "reference": "Patient/demo"
+     },
+     "date": "2026-11-19T19:00:00Z",
+     "author": [
+      {
+       "reference": "Organization/demo-record"
+      }
+     ],
+     "identifier": [
+      {
+       "system": "urn:pocketmd:research:screening-source:v1",
+       "value": "6e80a01373fd98d53a3ca3c15d720e3d9bc32e98342db32a54284349b7f6f22a"
+      }
+     ],
+     "content": [
+      {
+       "attachment": {
+        "contentType": "text/plain",
+        "title": "Synthetic source for Imaging method used for this LVEF result"
+       }
+      }
+     ]
+    }
+   },
+   {
+    "resource": {
+     "resourceType": "Observation",
+     "id": "obs-f-46b24735d286c0055716c526",
+     "meta": {
+      "versionId": "1",
+      "lastUpdated": "2026-11-19T19:00:00Z",
+      "profile": [
+       "urn:pocketmd:research:screening-fact:v1"
+      ]
+     },
+     "status": "final",
+     "subject": {
+      "reference": "Patient/demo"
+     },
+     "encounter": {
+      "reference": "Encounter/screen"
+     },
+     "effectiveDateTime": "2026-11-19T19:00:00Z",
+     "issued": "2026-11-19T19:00:00Z",
+     "focus": [
+      {
+       "reference": "Condition/index-demo"
+      }
+     ],
+     "performer": [
+      {
+       "reference": "Organization/demo-record"
+      }
+     ],
+     "derivedFrom": [
+      {
+       "reference": "DocumentReference/src-f-46b24735d286c0055716c526/_history/1"
+      }
+     ],
+     "code": {
+      "coding": [
+       {
+        "system": "urn:pocketmd:research:normalized-evidence:v1",
+        "version": "6e80a01373fd98d53a3ca3c15d720e3d9bc32e98342db32a54284349b7f6f22a",
+        "code": "f-46b24735d286c0055716c526",
+        "display": "Imaging method used for this LVEF result"
+       }
+      ]
+     },
+     "valueCodeableConcept": {
+      "coding": [
+       {
+        "system": "urn:pocketmd:research:normalized-evidence:v1/f-46b24735d286c0055716c526",
+        "code": "ECHO"
+       }
+      ]
+     }
+    }
+   },
+   {
+    "resource": {
+     "resourceType": "DocumentReference",
+     "id": "src-f-87366fdedf12ea4e81b540b4",
+     "meta": {
+      "versionId": "1",
+      "lastUpdated": "2026-11-19T19:00:00Z"
+     },
+     "status": "current",
+     "subject": {
+      "reference": "Patient/demo"
+     },
+     "date": "2026-11-19T19:00:00Z",
+     "author": [
+      {
+       "reference": "Organization/demo-record"
+      }
+     ],
+     "identifier": [
+      {
+       "system": "urn:pocketmd:research:screening-source:v1",
+       "value": "6e80a01373fd98d53a3ca3c15d720e3d9bc32e98342db32a54284349b7f6f22a"
+      }
+     ],
+     "content": [
+      {
+       "attachment": {
+        "contentType": "text/plain",
+        "title": "Synthetic source for LVEF assessment during current screening"
+       }
+      }
+     ]
+    }
+   },
+   {
+    "resource": {
+     "resourceType": "Observation",
+     "id": "obs-f-87366fdedf12ea4e81b540b4",
+     "meta": {
+      "versionId": "1",
+      "lastUpdated": "2026-11-19T19:00:00Z",
+      "profile": [
+       "urn:pocketmd:research:screening-fact:v1"
+      ]
+     },
+     "status": "final",
+     "subject": {
+      "reference": "Patient/demo"
+     },
+     "encounter": {
+      "reference": "Encounter/screen"
+     },
+     "effectiveDateTime": "2026-11-19T19:00:00Z",
+     "issued": "2026-11-19T19:00:00Z",
+     "focus": [
+      {
+       "reference": "Condition/index-demo"
+      }
+     ],
+     "performer": [
+      {
+       "reference": "Organization/demo-record"
+      }
+     ],
+     "derivedFrom": [
+      {
+       "reference": "DocumentReference/src-f-87366fdedf12ea4e81b540b4/_history/1"
+      }
+     ],
+     "code": {
+      "coding": [
+       {
+        "system": "urn:pocketmd:research:normalized-evidence:v1",
+        "version": "6e80a01373fd98d53a3ca3c15d720e3d9bc32e98342db32a54284349b7f6f22a",
+        "code": "f-87366fdedf12ea4e81b540b4",
+        "display": "LVEF assessment during current screening"
+       }
+      ]
+     },
+     "valueBoolean": true
+    }
+   },
+   {
+    "resource": {
+     "resourceType": "DocumentReference",
+     "id": "src-f-66c90b900bf695df58095422",
+     "meta": {
+      "versionId": "1",
+      "lastUpdated": "2026-11-19T19:00:00Z"
+     },
+     "status": "current",
+     "subject": {
+      "reference": "Patient/demo"
+     },
+     "date": "2026-11-19T19:00:00Z",
+     "author": [
+      {
+       "reference": "Organization/demo-record"
+      }
+     ],
+     "identifier": [
+      {
+       "system": "urn:pocketmd:research:screening-source:v1",
+       "value": "6e80a01373fd98d53a3ca3c15d720e3d9bc32e98342db32a54284349b7f6f22a"
+      }
+     ],
+     "content": [
+      {
+       "attachment": {
+        "contentType": "text/plain",
+        "title": "Synthetic source for Slit-lamp examination completed"
+       }
+      }
+     ]
+    }
+   },
+   {
+    "resource": {
+     "resourceType": "Observation",
+     "id": "obs-f-66c90b900bf695df58095422",
+     "meta": {
+      "versionId": "1",
+      "lastUpdated": "2026-11-19T19:00:00Z",
+      "profile": [
+       "urn:pocketmd:research:screening-fact:v1"
+      ]
+     },
+     "status": "final",
+     "subject": {
+      "reference": "Patient/demo"
+     },
+     "encounter": {
+      "reference": "Encounter/screen"
+     },
+     "effectiveDateTime": "2026-11-19T19:00:00Z",
+     "issued": "2026-11-19T19:00:00Z",
+     "focus": [
+      {
+       "reference": "Condition/index-demo"
+      }
+     ],
+     "performer": [
+      {
+       "reference": "Organization/demo-record"
+      }
+     ],
+     "derivedFrom": [
+      {
+       "reference": "DocumentReference/src-f-66c90b900bf695df58095422/_history/1"
+      }
+     ],
+     "code": {
+      "coding": [
+       {
+        "system": "urn:pocketmd:research:normalized-evidence:v1",
+        "version": "6e80a01373fd98d53a3ca3c15d720e3d9bc32e98342db32a54284349b7f6f22a",
+        "code": "f-66c90b900bf695df58095422",
+        "display": "Slit-lamp examination completed"
+       }
+      ]
+     },
+     "valueBoolean": true
+    }
+   },
+   {
+    "resource": {
+     "resourceType": "DocumentReference",
+     "id": "src-f-b71504bf121d768d3799dbc1",
+     "meta": {
+      "versionId": "1",
+      "lastUpdated": "2026-11-19T19:00:00Z"
+     },
+     "status": "current",
+     "subject": {
+      "reference": "Patient/demo"
+     },
+     "date": "2026-11-19T19:00:00Z",
+     "author": [
+      {
+       "reference": "Organization/demo-record"
+      }
+     ],
+     "identifier": [
+      {
+       "system": "urn:pocketmd:research:screening-source:v1",
+       "value": "6e80a01373fd98d53a3ca3c15d720e3d9bc32e98342db32a54284349b7f6f22a"
+      }
+     ],
+     "content": [
+      {
+       "attachment": {
+        "contentType": "text/plain",
+        "title": "Synthetic source for Slit-lamp examination during current screening"
+       }
+      }
+     ]
+    }
+   },
+   {
+    "resource": {
+     "resourceType": "Observation",
+     "id": "obs-f-b71504bf121d768d3799dbc1",
+     "meta": {
+      "versionId": "1",
+      "lastUpdated": "2026-11-19T19:00:00Z",
+      "profile": [
+       "urn:pocketmd:research:screening-fact:v1"
+      ]
+     },
+     "status": "final",
+     "subject": {
+      "reference": "Patient/demo"
+     },
+     "encounter": {
+      "reference": "Encounter/screen"
+     },
+     "effectiveDateTime": "2026-11-19T19:00:00Z",
+     "issued": "2026-11-19T19:00:00Z",
+     "focus": [
+      {
+       "reference": "Condition/index-demo"
+      }
+     ],
+     "performer": [
+      {
+       "reference": "Organization/demo-record"
+      }
+     ],
+     "derivedFrom": [
+      {
+       "reference": "DocumentReference/src-f-b71504bf121d768d3799dbc1/_history/1"
+      }
+     ],
+     "code": {
+      "coding": [
+       {
+        "system": "urn:pocketmd:research:normalized-evidence:v1",
+        "version": "6e80a01373fd98d53a3ca3c15d720e3d9bc32e98342db32a54284349b7f6f22a",
+        "code": "f-b71504bf121d768d3799dbc1",
+        "display": "Slit-lamp examination during current screening"
+       }
+      ]
+     },
+     "valueBoolean": true
+    }
+   },
+   {
+    "resource": {
+     "resourceType": "DocumentReference",
+     "id": "src-f-0b115ddca4107c5a361bfb36",
+     "meta": {
+      "versionId": "1",
+      "lastUpdated": "2026-11-19T19:00:00Z"
+     },
+     "status": "current",
+     "subject": {
+      "reference": "Patient/demo"
+     },
+     "date": "2026-11-19T19:00:00Z",
+     "author": [
+      {
+       "reference": "Organization/demo-record"
+      }
+     ],
+     "identifier": [
+      {
+       "system": "urn:pocketmd:research:screening-source:v1",
+       "value": "6e80a01373fd98d53a3ca3c15d720e3d9bc32e98342db32a54284349b7f6f22a"
+      }
+     ],
+     "content": [
+      {
+       "attachment": {
+        "contentType": "text/plain",
+        "title": "Synthetic source for Snellen visual acuity assessment completed"
+       }
+      }
+     ]
+    }
+   },
+   {
+    "resource": {
+     "resourceType": "Observation",
+     "id": "obs-f-0b115ddca4107c5a361bfb36",
+     "meta": {
+      "versionId": "1",
+      "lastUpdated": "2026-11-19T19:00:00Z",
+      "profile": [
+       "urn:pocketmd:research:screening-fact:v1"
+      ]
+     },
+     "status": "final",
+     "subject": {
+      "reference": "Patient/demo"
+     },
+     "encounter": {
+      "reference": "Encounter/screen"
+     },
+     "effectiveDateTime": "2026-11-19T19:00:00Z",
+     "issued": "2026-11-19T19:00:00Z",
+     "focus": [
+      {
+       "reference": "Condition/index-demo"
+      }
+     ],
+     "performer": [
+      {
+       "reference": "Organization/demo-record"
+      }
+     ],
+     "derivedFrom": [
+      {
+       "reference": "DocumentReference/src-f-0b115ddca4107c5a361bfb36/_history/1"
+      }
+     ],
+     "code": {
+      "coding": [
+       {
+        "system": "urn:pocketmd:research:normalized-evidence:v1",
+        "version": "6e80a01373fd98d53a3ca3c15d720e3d9bc32e98342db32a54284349b7f6f22a",
+        "code": "f-0b115ddca4107c5a361bfb36",
+        "display": "Snellen visual acuity assessment completed"
+       }
+      ]
+     },
+     "valueBoolean": true
+    }
+   },
+   {
+    "resource": {
+     "resourceType": "DocumentReference",
+     "id": "src-f-3ecd820861a9aaead17e2f58",
+     "meta": {
+      "versionId": "1",
+      "lastUpdated": "2026-11-19T19:00:00Z"
+     },
+     "status": "current",
+     "subject": {
+      "reference": "Patient/demo"
+     },
+     "date": "2026-11-19T19:00:00Z",
+     "author": [
+      {
+       "reference": "Organization/demo-record"
+      }
+     ],
+     "identifier": [
+      {
+       "system": "urn:pocketmd:research:screening-source:v1",
+       "value": "6e80a01373fd98d53a3ca3c15d720e3d9bc32e98342db32a54284349b7f6f22a"
+      }
+     ],
+     "content": [
+      {
+       "attachment": {
+        "contentType": "text/plain",
+        "title": "Synthetic source for Snellen visual acuity assessment during current screening"
+       }
+      }
+     ]
+    }
+   },
+   {
+    "resource": {
+     "resourceType": "Observation",
+     "id": "obs-f-3ecd820861a9aaead17e2f58",
+     "meta": {
+      "versionId": "1",
+      "lastUpdated": "2026-11-19T19:00:00Z",
+      "profile": [
+       "urn:pocketmd:research:screening-fact:v1"
+      ]
+     },
+     "status": "final",
+     "subject": {
+      "reference": "Patient/demo"
+     },
+     "encounter": {
+      "reference": "Encounter/screen"
+     },
+     "effectiveDateTime": "2026-11-19T19:00:00Z",
+     "issued": "2026-11-19T19:00:00Z",
+     "focus": [
+      {
+       "reference": "Condition/index-demo"
+      }
+     ],
+     "performer": [
+      {
+       "reference": "Organization/demo-record"
+      }
+     ],
+     "derivedFrom": [
+      {
+       "reference": "DocumentReference/src-f-3ecd820861a9aaead17e2f58/_history/1"
+      }
+     ],
+     "code": {
+      "coding": [
+       {
+        "system": "urn:pocketmd:research:normalized-evidence:v1",
+        "version": "6e80a01373fd98d53a3ca3c15d720e3d9bc32e98342db32a54284349b7f6f22a",
+        "code": "f-3ecd820861a9aaead17e2f58",
+        "display": "Snellen visual acuity assessment during current screening"
+       }
+      ]
+     },
+     "valueBoolean": true
+    }
+   },
+   {
+    "resource": {
+     "resourceType": "DocumentReference",
+     "id": "src-f-6b5255675fc48fa611482795",
+     "meta": {
+      "versionId": "1",
+      "lastUpdated": "2026-11-19T19:00:00Z"
+     },
+     "status": "current",
+     "subject": {
+      "reference": "Patient/demo"
+     },
+     "date": "2026-11-19T19:00:00Z",
+     "author": [
+      {
+       "reference": "Organization/demo-record"
+      }
+     ],
+     "identifier": [
+      {
+       "system": "urn:pocketmd:research:screening-source:v1",
+       "value": "6e80a01373fd98d53a3ca3c15d720e3d9bc32e98342db32a54284349b7f6f22a"
+      }
+     ],
+     "content": [
+      {
+       "attachment": {
+        "contentType": "text/plain",
+        "title": "Synthetic source for RECIST 1.1 overall disease response history"
+       }
+      }
+     ]
+    }
+   },
+   {
+    "resource": {
+     "resourceType": "Observation",
+     "id": "obs-f-6b5255675fc48fa611482795",
+     "meta": {
+      "versionId": "1",
+      "lastUpdated": "2026-11-19T19:00:00Z",
+      "profile": [
+       "urn:pocketmd:research:screening-fact:v1"
+      ]
+     },
+     "status": "final",
+     "subject": {
+      "reference": "Patient/demo"
+     },
+     "encounter": {
+      "reference": "Encounter/screen"
+     },
+     "effectiveDateTime": "2026-11-19T19:00:00Z",
+     "issued": "2026-11-19T19:00:00Z",
+     "focus": [
+      {
+       "reference": "Condition/index-demo"
+      }
+     ],
+     "performer": [
+      {
+       "reference": "Organization/demo-record"
+      }
+     ],
+     "derivedFrom": [
+      {
+       "reference": "DocumentReference/src-f-6b5255675fc48fa611482795/_history/1"
+      }
+     ],
+     "code": {
+      "coding": [
+       {
+        "system": "urn:pocketmd:research:normalized-evidence:v1",
+        "version": "6e80a01373fd98d53a3ca3c15d720e3d9bc32e98342db32a54284349b7f6f22a",
+        "code": "f-6b5255675fc48fa611482795",
+        "display": "RECIST 1.1 overall disease response history"
+       }
+      ]
+     },
+     "valueCodeableConcept": {
+      "coding": [
+       {
+        "system": "urn:pocketmd:research:normalized-evidence:v1/f-6b5255675fc48fa611482795",
+        "code": "ONE_PD"
+       }
+      ]
+     }
+    }
+   },
+   {
+    "resource": {
+     "resourceType": "DocumentReference",
+     "id": "src-f-2e6f9c7c3d51d3f6dfe98d3f",
+     "meta": {
+      "versionId": "1",
+      "lastUpdated": "2026-11-19T19:00:00Z"
+     },
+     "status": "current",
+     "subject": {
+      "reference": "Patient/demo"
+     },
+     "date": "2026-11-19T19:00:00Z",
+     "author": [
+      {
+       "reference": "Organization/demo-record"
+      }
+     ],
+     "identifier": [
+      {
+       "system": "urn:pocketmd:research:screening-source:v1",
+       "value": "6e80a01373fd98d53a3ca3c15d720e3d9bc32e98342db32a54284349b7f6f22a"
+      }
+     ],
+     "content": [
+      {
+       "attachment": {
+        "contentType": "text/plain",
+        "title": "Synthetic source for Progression date relative to screening"
+       }
+      }
+     ]
+    }
+   },
+   {
+    "resource": {
+     "resourceType": "Observation",
+     "id": "obs-f-2e6f9c7c3d51d3f6dfe98d3f",
+     "meta": {
+      "versionId": "1",
+      "lastUpdated": "2026-11-19T19:00:00Z",
+      "profile": [
+       "urn:pocketmd:research:screening-fact:v1"
+      ]
+     },
+     "status": "final",
+     "subject": {
+      "reference": "Patient/demo"
+     },
+     "encounter": {
+      "reference": "Encounter/screen"
+     },
+     "effectiveDateTime": "2026-11-19T19:00:00Z",
+     "issued": "2026-11-19T19:00:00Z",
+     "focus": [
+      {
+       "reference": "Condition/index-demo"
+      }
+     ],
+     "performer": [
+      {
+       "reference": "Organization/demo-record"
+      }
+     ],
+     "derivedFrom": [
+      {
+       "reference": "DocumentReference/src-f-2e6f9c7c3d51d3f6dfe98d3f/_history/1"
+      }
+     ],
+     "code": {
+      "coding": [
+       {
+        "system": "urn:pocketmd:research:normalized-evidence:v1",
+        "version": "6e80a01373fd98d53a3ca3c15d720e3d9bc32e98342db32a54284349b7f6f22a",
+        "code": "f-2e6f9c7c3d51d3f6dfe98d3f",
+        "display": "Progression date relative to screening"
+       }
+      ]
+     },
+     "valueCodeableConcept": {
+      "coding": [
+       {
+        "system": "urn:pocketmd:research:normalized-evidence:v1/f-2e6f9c7c3d51d3f6dfe98d3f",
+        "code": "INSIDE"
+       }
+      ]
+     }
+    }
+   },
+   {
+    "resource": {
+     "resourceType": "DocumentReference",
+     "id": "src-f-0619343a4464d53959d23f37",
+     "meta": {
+      "versionId": "1",
+      "lastUpdated": "2026-11-19T19:00:00Z"
+     },
+     "status": "current",
+     "subject": {
+      "reference": "Patient/demo"
+     },
+     "date": "2026-11-19T19:00:00Z",
+     "author": [
+      {
+       "reference": "Organization/demo-record"
+      }
+     ],
+     "identifier": [
+      {
+       "system": "urn:pocketmd:research:screening-source:v1",
+       "value": "6e80a01373fd98d53a3ca3c15d720e3d9bc32e98342db32a54284349b7f6f22a"
+      }
+     ],
+     "content": [
+      {
+       "attachment": {
+        "contentType": "text/plain",
+        "title": "Synthetic source for Prior courses for the index malignancy"
+       }
+      }
+     ]
+    }
+   },
+   {
+    "resource": {
+     "resourceType": "Observation",
+     "id": "obs-f-0619343a4464d53959d23f37",
+     "meta": {
+      "versionId": "1",
+      "lastUpdated": "2026-11-19T19:00:00Z",
+      "profile": [
+       "urn:pocketmd:research:screening-fact:v1"
+      ]
+     },
+     "status": "final",
+     "subject": {
+      "reference": "Patient/demo"
+     },
+     "encounter": {
+      "reference": "Encounter/screen"
+     },
+     "effectiveDateTime": "2026-11-19T19:00:00Z",
+     "issued": "2026-11-19T19:00:00Z",
+     "focus": [
+      {
+       "reference": "Condition/index-demo"
+      }
+     ],
+     "performer": [
+      {
+       "reference": "Organization/demo-record"
+      }
+     ],
+     "derivedFrom": [
+      {
+       "reference": "DocumentReference/src-f-0619343a4464d53959d23f37/_history/1"
+      }
+     ],
+     "code": {
+      "coding": [
+       {
+        "system": "urn:pocketmd:research:normalized-evidence:v1",
+        "version": "6e80a01373fd98d53a3ca3c15d720e3d9bc32e98342db32a54284349b7f6f22a",
+        "code": "f-0619343a4464d53959d23f37",
+        "display": "Prior courses for the index malignancy"
+       }
+      ]
+     },
+     "valueCodeableConcept": {
+      "coding": [
+       {
+        "system": "urn:pocketmd:research:normalized-evidence:v1/f-0619343a4464d53959d23f37",
+        "code": "ONE"
+       }
+      ]
+     }
+    }
+   },
+   {
+    "resource": {
+     "resourceType": "DocumentReference",
+     "id": "src-f-6959bcfa1d24ae60c3638974",
+     "meta": {
+      "versionId": "1",
+      "lastUpdated": "2026-11-19T19:00:00Z"
+     },
+     "status": "current",
+     "subject": {
+      "reference": "Patient/demo"
+     },
+     "date": "2026-11-19T19:00:00Z",
+     "author": [
+      {
+       "reference": "Organization/demo-record"
+      }
+     ],
+     "identifier": [
+      {
+       "system": "urn:pocketmd:research:screening-source:v1",
+       "value": "6e80a01373fd98d53a3ca3c15d720e3d9bc32e98342db32a54284349b7f6f22a"
+      }
+     ],
+     "content": [
+      {
+       "attachment": {
+        "contentType": "text/plain",
+        "title": "Synthetic source for Progression order relative to the linked actual course"
+       }
+      }
+     ]
+    }
+   },
+   {
+    "resource": {
+     "resourceType": "Observation",
+     "id": "obs-f-6959bcfa1d24ae60c3638974",
+     "meta": {
+      "versionId": "1",
+      "lastUpdated": "2026-11-19T19:00:00Z",
+      "profile": [
+       "urn:pocketmd:research:screening-fact:v1"
+      ]
+     },
+     "status": "final",
+     "subject": {
+      "reference": "Patient/demo"
+     },
+     "encounter": {
+      "reference": "Encounter/screen"
+     },
+     "effectiveDateTime": "2026-11-19T19:00:00Z",
+     "issued": "2026-11-19T19:00:00Z",
+     "focus": [
+      {
+       "reference": "Condition/index-demo"
+      }
+     ],
+     "performer": [
+      {
+       "reference": "Organization/demo-record"
+      }
+     ],
+     "derivedFrom": [
+      {
+       "reference": "DocumentReference/src-f-6959bcfa1d24ae60c3638974/_history/1"
+      }
+     ],
+     "code": {
+      "coding": [
+       {
+        "system": "urn:pocketmd:research:normalized-evidence:v1",
+        "version": "6e80a01373fd98d53a3ca3c15d720e3d9bc32e98342db32a54284349b7f6f22a",
+        "code": "f-6959bcfa1d24ae60c3638974",
+        "display": "Progression order relative to the linked actual course"
+       }
+      ]
+     },
+     "valueCodeableConcept": {
+      "coding": [
+       {
+        "system": "urn:pocketmd:research:normalized-evidence:v1/f-6959bcfa1d24ae60c3638974",
+        "code": "AFTER_COURSE_END"
+       }
+      ]
+     }
+    }
+   },
+   {
+    "resource": {
+     "resourceType": "DocumentReference",
+     "id": "src-f-ea9f000b6bb059e31d6b2299",
+     "meta": {
+      "versionId": "1",
+      "lastUpdated": "2026-11-19T19:00:00Z"
+     },
+     "status": "current",
+     "subject": {
+      "reference": "Patient/demo"
+     },
+     "date": "2026-11-19T19:00:00Z",
+     "author": [
+      {
+       "reference": "Organization/demo-record"
+      }
+     ],
+     "identifier": [
+      {
+       "system": "urn:pocketmd:research:screening-source:v1",
+       "value": "6e80a01373fd98d53a3ca3c15d720e3d9bc32e98342db32a54284349b7f6f22a"
+      }
+     ],
+     "content": [
+      {
+       "attachment": {
+        "contentType": "text/plain",
+        "title": "Synthetic source for First prior treatment relative to screening"
+       }
+      }
+     ]
+    }
+   },
+   {
+    "resource": {
+     "resourceType": "Observation",
+     "id": "obs-f-ea9f000b6bb059e31d6b2299",
+     "meta": {
+      "versionId": "1",
+      "lastUpdated": "2026-11-19T19:00:00Z",
+      "profile": [
+       "urn:pocketmd:research:screening-fact:v1"
+      ]
+     },
+     "status": "final",
+     "subject": {
+      "reference": "Patient/demo"
+     },
+     "encounter": {
+      "reference": "Encounter/screen"
+     },
+     "effectiveDateTime": "2026-11-19T19:00:00Z",
+     "issued": "2026-11-19T19:00:00Z",
+     "focus": [
+      {
+       "reference": "Condition/index-demo"
+      }
+     ],
+     "performer": [
+      {
+       "reference": "Organization/demo-record"
+      }
+     ],
+     "derivedFrom": [
+      {
+       "reference": "DocumentReference/src-f-ea9f000b6bb059e31d6b2299/_history/1"
+      }
+     ],
+     "code": {
+      "coding": [
+       {
+        "system": "urn:pocketmd:research:normalized-evidence:v1",
+        "version": "6e80a01373fd98d53a3ca3c15d720e3d9bc32e98342db32a54284349b7f6f22a",
+        "code": "f-ea9f000b6bb059e31d6b2299",
+        "display": "First prior treatment relative to screening"
+       }
+      ]
+     },
+     "valueCodeableConcept": {
+      "coding": [
+       {
+        "system": "urn:pocketmd:research:normalized-evidence:v1/f-ea9f000b6bb059e31d6b2299",
+        "code": "OLDER"
+       }
+      ]
+     }
+    }
+   },
+   {
+    "resource": {
+     "resourceType": "DocumentReference",
+     "id": "src-f-fdadae841d22d6a45748430f",
+     "meta": {
+      "versionId": "1",
+      "lastUpdated": "2026-11-19T19:00:00Z"
+     },
+     "status": "current",
+     "subject": {
+      "reference": "Patient/demo"
+     },
+     "date": "2026-11-19T19:00:00Z",
+     "author": [
+      {
+       "reference": "Organization/demo-record"
+      }
+     ],
+     "identifier": [
+      {
+       "system": "urn:pocketmd:research:screening-source:v1",
+       "value": "6e80a01373fd98d53a3ca3c15d720e3d9bc32e98342db32a54284349b7f6f22a"
+      }
+     ],
+     "content": [
+      {
+       "attachment": {
+        "contentType": "text/plain",
+        "title": "Synthetic source for Screening heart rate"
+       }
+      }
+     ]
+    }
+   },
+   {
+    "resource": {
+     "resourceType": "Observation",
+     "id": "obs-f-fdadae841d22d6a45748430f",
+     "meta": {
+      "versionId": "1",
+      "lastUpdated": "2026-11-19T19:00:00Z",
+      "profile": [
+       "urn:pocketmd:research:screening-fact:v1"
+      ]
+     },
+     "status": "final",
+     "subject": {
+      "reference": "Patient/demo"
+     },
+     "encounter": {
+      "reference": "Encounter/screen"
+     },
+     "effectiveDateTime": "2026-11-19T19:00:00Z",
+     "issued": "2026-11-19T19:00:00Z",
+     "focus": [
+      {
+       "reference": "Condition/index-demo"
+      }
+     ],
+     "performer": [
+      {
+       "reference": "Organization/demo-record"
+      }
+     ],
+     "derivedFrom": [
+      {
+       "reference": "DocumentReference/src-f-fdadae841d22d6a45748430f/_history/1"
+      }
+     ],
+     "code": {
+      "coding": [
+       {
+        "system": "urn:pocketmd:research:normalized-evidence:v1",
+        "version": "6e80a01373fd98d53a3ca3c15d720e3d9bc32e98342db32a54284349b7f6f22a",
+        "code": "f-fdadae841d22d6a45748430f",
+        "display": "Screening heart rate"
+       }
+      ]
+     },
+     "valueQuantity": {
+      "value": 49,
+      "system": "http://unitsofmeasure.org",
+      "code": "/min"
+     }
+    }
+   }
+  ]
+ }
+}

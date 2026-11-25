@@ -1,0 +1,88 @@
+{
+  "resourceType": "Bundle",
+  "type": "collection",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "src-f-c420d0ad806ceaad708d3a74",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2025-03-01T12:00:00Z"
+        },
+        "status": "current",
+        "subject": {
+          "reference": "Patient/demo"
+        },
+        "date": "2025-03-01T12:00:00Z",
+        "author": [
+          {
+            "reference": "Organization/demo-record"
+          }
+        ],
+        "identifier": [
+          {
+            "system": "urn:pocketmd:research:screening-source:v1",
+            "value": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          }
+        ],
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/plain",
+              "title": "Synthetic source for cutaneous_ulcer_due_to_burns"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-f-c420d0ad806ceaad708d3a74",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2025-03-01T12:00:00Z",
+          "profile": [
+            "urn:pocketmd:research:screening-fact:v2"
+          ]
+        },
+        "status": "final",
+        "subject": {
+          "reference": "Patient/demo"
+        },
+        "encounter": {
+          "reference": "Encounter/screen"
+        },
+        "effectiveDateTime": "2025-03-01T12:00:00Z",
+        "issued": "2025-03-01T12:00:00Z",
+        "focus": [
+          {
+            "reference": "Condition/index-demo"
+          }
+        ],
+        "performer": [
+          {
+            "reference": "Organization/demo-record"
+          }
+        ],
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/src-f-c420d0ad806ceaad708d3a74/_history/1"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "urn:pocketmd:research:normalized-evidence:v2",
+              "version": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+              "code": "f-c420d0ad806ceaad708d3a74",
+              "display": "cutaneous_ulcer_due_to_burns"
+            }
+          ]
+        },
+        "valueBoolean": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "agreed_definite": 6,
+  "cases": 134,
+  "catalog_sha256": "a89c4020b0c68a0758681ca3189e07c44659b3ba8dc140e9dda724e8ef6514d8",
+  "changed": {
+    "BINDING_HOLD -> MISSING_DATA": 58
+  },
+  "definite": 6,
+  "distinct_engineering_contracts": 0,
+  "distinct_requests": {
+    "identify_subject": 1,
+    "investigator": 8,
+    "patient": 3,
+    "protocol_review": 18,
+    "retrieve_record": 155,
+    "study_team": 3
+  },
+  "exact_state": 38,
+  "outcomes": {
+    "AUTHORING_HOLD": 18,
+    "INVESTIGATOR_ACTIONS": 6,
+    "MET": 6,
+    "MISSING_DATA": 93,
+    "PATIENT_SURVEY": 2,
+    "SOURCE_SCOPE_HOLD": 7,
+    "STUDY_ACTION": 2
+  },
+  "prediction_sha256": "f5eee4f28cdf1971d588c535adf1241c66ab2118d05dc7d01d2d535d5d064bf4"
+}

@@ -1,0 +1,606 @@
+{
+  "resourceType": "Bundle",
+  "type": "transaction",
+  "id": "sigir-201513-export",
+  "entry": [
+    {
+      "fullUrl": "https://pocketmd.example/fhir/Device/pocketmd-r9",
+      "resource": {
+        "resourceType": "Device",
+        "id": "pocketmd-r9",
+        "deviceName": [
+          {
+            "name": "PocketMD research converter R9",
+            "type": "user-friendly-name"
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Device/pocketmd-r9"
+      }
+    },
+    {
+      "fullUrl": "https://pocketmd.example/fhir/Patient/sigir-201513",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "sigir-201513",
+        "identifier": [
+          {
+            "system": "urn:nih:trialgpt:case",
+            "value": "sigir-201513"
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Patient/sigir-201513"
+      }
+    },
+    {
+      "fullUrl": "https://pocketmd.example/fhir/DocumentReference/sigir-201513-note",
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "sigir-201513-note",
+        "status": "current",
+        "subject": {
+          "reference": "Patient/sigir-201513"
+        },
+        "identifier": [
+          {
+            "system": "urn:pocketmd:sha256",
+            "value": "8256e4d7930784d1b684dac38452c2fb341f2154a06225db56a4ae28cd33eed7"
+          }
+        ],
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/plain",
+              "data": "MC4gQSA1LXllYXItb2xkIGJveSBwcmVzZW50cyB0byB0aGUgZW1lcmdlbmN5IGRlcGFydG1lbnQgd2l0aCBjb21wbGFpbnRzIG9mIHByb2dyZXNzaXZlbHkgd29yc2VuaW5nIGR5c3BoYWdpYSwgZHJvb2xpbmcsIGZldmVyIGFuZCB2b2NhbCBjaGFuZ2VzLgoxLiBIZSBpcyB0b3hpYy1hcHBlYXJpbmcsIGFuZCBsZWFucyBmb3J3YXJkIHdoaWxlIHNpdHRpbmcgb24gaGlzIG1vdGhlcidzIGxhcC4KMi4gSGUgaXMgZHJvb2xpbmcgYW5kIHNwZWFrcyB3aXRoIGEgbXVmZmxlZCAiaG90IHBvdGF0byIgdm9pY2UuCjMuIFRoZSBwYXJlbnRzIGRlbnkgdGhlIHBvc3NpYmlsaXR5IG9mIGZvcmVpZ24gYm9keSBpbmdlc3Rpb24gb3IgdHJhdW1hLCBhbmQgdGhleSByZXBvcnQgdGhhdCB0aGV5IGFyZSBkZWxheWluZyBzb21lIG9mIGhpcyB2YWNjaW5lcy4KNC4gVGhlIHBhdGllbnQgd2lsbCBwcm92aWRlIGluZm9ybWVkIGNvbnNlbnQsIGFuZCB3aWxsIGNvbXBseSB3aXRoIHRoZSB0cmlhbCBwcm90b2NvbCB3aXRob3V0IGFueSBwcmFjdGljYWwgaXNzdWVzLg==",
+              "title": "TrialGPT numbered vignette sigir-201513"
+            }
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "DocumentReference/sigir-201513-note"
+      }
+    },
+    {
+      "fullUrl": "https://pocketmd.example/fhir/Observation/n-e3deb1c59ffaf11881d31a3c12ad86",
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201513"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "urn:pocketmd:trialgpt:clinical:v1",
+              "code": "age-at-presentation",
+              "display": "age at presentation"
+            },
+            {
+              "system": "http://loinc.org",
+              "code": "30525-0",
+              "display": "Age"
+            }
+          ],
+          "text": "age at presentation"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201513-note"
+          }
+        ],
+        "valueQuantity": {
+          "value": 5,
+          "system": "http://unitsofmeasure.org",
+          "code": "a",
+          "unit": "a"
+        },
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "age at vignette presentation"
+          }
+        ],
+        "id": "n-e3deb1c59ffaf11881d31a3c12ad86"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/n-e3deb1c59ffaf11881d31a3c12ad86"
+      }
+    },
+    {
+      "fullUrl": "https://pocketmd.example/fhir/Provenance/p-e3deb1c59ffaf11881d31a3c12ad86",
+      "resource": {
+        "resourceType": "Provenance",
+        "id": "p-e3deb1c59ffaf11881d31a3c12ad86",
+        "target": [
+          {
+            "reference": "Observation/n-e3deb1c59ffaf11881d31a3c12ad86"
+          }
+        ],
+        "recorded": "2026-11-24T06:28:41+00:00",
+        "agent": [
+          {
+            "who": {
+              "reference": "Device/pocketmd-r9"
+            }
+          }
+        ],
+        "entity": [
+          {
+            "role": "source",
+            "what": {
+              "reference": "DocumentReference/sigir-201513-note"
+            },
+            "extension": [
+              {
+                "url": "urn:pocketmd:trialgpt:source-sentence",
+                "valueInteger": 0
+              }
+            ]
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Provenance/p-e3deb1c59ffaf11881d31a3c12ad86"
+      }
+    },
+    {
+      "fullUrl": "https://pocketmd.example/fhir/Observation/n-d4c8e09947ad7217dc9b7c6044a375",
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201513"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "urn:pocketmd:trialgpt:clinical:v1",
+              "code": "stated-intention-to-consent",
+              "display": "stated intention to consent"
+            }
+          ],
+          "text": "stated intention to consent"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201513-note"
+          }
+        ],
+        "valueBoolean": true,
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "prospective benchmark statement; written consent unverified"
+          }
+        ],
+        "id": "n-d4c8e09947ad7217dc9b7c6044a375"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/n-d4c8e09947ad7217dc9b7c6044a375"
+      }
+    },
+    {
+      "fullUrl": "https://pocketmd.example/fhir/Provenance/p-d4c8e09947ad7217dc9b7c6044a375",
+      "resource": {
+        "resourceType": "Provenance",
+        "id": "p-d4c8e09947ad7217dc9b7c6044a375",
+        "target": [
+          {
+            "reference": "Observation/n-d4c8e09947ad7217dc9b7c6044a375"
+          }
+        ],
+        "recorded": "2026-11-24T06:28:41+00:00",
+        "agent": [
+          {
+            "who": {
+              "reference": "Device/pocketmd-r9"
+            }
+          }
+        ],
+        "entity": [
+          {
+            "role": "source",
+            "what": {
+              "reference": "DocumentReference/sigir-201513-note"
+            },
+            "extension": [
+              {
+                "url": "urn:pocketmd:trialgpt:source-sentence",
+                "valueInteger": 4
+              }
+            ]
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Provenance/p-d4c8e09947ad7217dc9b7c6044a375"
+      }
+    },
+    {
+      "fullUrl": "https://pocketmd.example/fhir/Observation/n-a0023c54a549bad2a606a419f49b58",
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201513"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "urn:pocketmd:trialgpt:clinical:v1",
+              "code": "male_or_female",
+              "display": "male or female"
+            }
+          ],
+          "text": "male or female"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201513-note"
+          }
+        ],
+        "valueBoolean": true,
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "note abstraction"
+          }
+        ],
+        "id": "n-a0023c54a549bad2a606a419f49b58"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/n-a0023c54a549bad2a606a419f49b58"
+      }
+    },
+    {
+      "fullUrl": "https://pocketmd.example/fhir/Provenance/p-a0023c54a549bad2a606a419f49b58",
+      "resource": {
+        "resourceType": "Provenance",
+        "id": "p-a0023c54a549bad2a606a419f49b58",
+        "target": [
+          {
+            "reference": "Observation/n-a0023c54a549bad2a606a419f49b58"
+          }
+        ],
+        "recorded": "2026-11-24T06:28:41+00:00",
+        "agent": [
+          {
+            "who": {
+              "reference": "Device/pocketmd-r9"
+            }
+          }
+        ],
+        "entity": [
+          {
+            "role": "source",
+            "what": {
+              "reference": "DocumentReference/sigir-201513-note"
+            },
+            "extension": [
+              {
+                "url": "urn:pocketmd:trialgpt:source-sentence",
+                "valueInteger": 0
+              }
+            ]
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Provenance/p-a0023c54a549bad2a606a419f49b58"
+      }
+    },
+    {
+      "fullUrl": "https://pocketmd.example/fhir/Observation/n-d95bceca443e8da40083676fff4223",
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201513"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "urn:pocketmd:trialgpt:clinical:v1",
+              "code": "woman",
+              "display": "woman"
+            }
+          ],
+          "text": "woman"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201513-note"
+          }
+        ],
+        "valueBoolean": false,
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "note abstraction"
+          }
+        ],
+        "id": "n-d95bceca443e8da40083676fff4223"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/n-d95bceca443e8da40083676fff4223"
+      }
+    },
+    {
+      "fullUrl": "https://pocketmd.example/fhir/Provenance/p-d95bceca443e8da40083676fff4223",
+      "resource": {
+        "resourceType": "Provenance",
+        "id": "p-d95bceca443e8da40083676fff4223",
+        "target": [
+          {
+            "reference": "Observation/n-d95bceca443e8da40083676fff4223"
+          }
+        ],
+        "recorded": "2026-11-24T06:28:41+00:00",
+        "agent": [
+          {
+            "who": {
+              "reference": "Device/pocketmd-r9"
+            }
+          }
+        ],
+        "entity": [
+          {
+            "role": "source",
+            "what": {
+              "reference": "DocumentReference/sigir-201513-note"
+            },
+            "extension": [
+              {
+                "url": "urn:pocketmd:trialgpt:source-sentence",
+                "valueInteger": 0
+              }
+            ]
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Provenance/p-d95bceca443e8da40083676fff4223"
+      }
+    },
+    {
+      "fullUrl": "https://pocketmd.example/fhir/Observation/n-b57198a6e7aeaaa6fcb43a2414fa75",
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201513"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "urn:pocketmd:trialgpt:clinical:v1",
+              "code": "drooling",
+              "display": "drooling"
+            }
+          ],
+          "text": "drooling"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201513-note"
+          }
+        ],
+        "valueString": "He is drooling",
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "examination"
+          }
+        ],
+        "id": "n-b57198a6e7aeaaa6fcb43a2414fa75"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/n-b57198a6e7aeaaa6fcb43a2414fa75"
+      }
+    },
+    {
+      "fullUrl": "https://pocketmd.example/fhir/Provenance/p-b57198a6e7aeaaa6fcb43a2414fa75",
+      "resource": {
+        "resourceType": "Provenance",
+        "id": "p-b57198a6e7aeaaa6fcb43a2414fa75",
+        "target": [
+          {
+            "reference": "Observation/n-b57198a6e7aeaaa6fcb43a2414fa75"
+          }
+        ],
+        "recorded": "2026-11-24T06:28:41+00:00",
+        "agent": [
+          {
+            "who": {
+              "reference": "Device/pocketmd-r9"
+            }
+          }
+        ],
+        "entity": [
+          {
+            "role": "source",
+            "what": {
+              "reference": "DocumentReference/sigir-201513-note"
+            },
+            "extension": [
+              {
+                "url": "urn:pocketmd:trialgpt:source-sentence",
+                "valueInteger": 2
+              }
+            ]
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Provenance/p-b57198a6e7aeaaa6fcb43a2414fa75"
+      }
+    },
+    {
+      "fullUrl": "https://pocketmd.example/fhir/Observation/n-772528cba70c918c800a27e35cf32b",
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201513"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "urn:pocketmd:trialgpt:clinical:v1",
+              "code": "foreign-body-ingestion-denied",
+              "display": "foreign body ingestion denied"
+            }
+          ],
+          "text": "foreign body ingestion denied"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201513-note"
+          }
+        ],
+        "valueString": "parents deny the possibility of foreign body ingestion",
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "parent report"
+          }
+        ],
+        "id": "n-772528cba70c918c800a27e35cf32b"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/n-772528cba70c918c800a27e35cf32b"
+      }
+    },
+    {
+      "fullUrl": "https://pocketmd.example/fhir/Provenance/p-772528cba70c918c800a27e35cf32b",
+      "resource": {
+        "resourceType": "Provenance",
+        "id": "p-772528cba70c918c800a27e35cf32b",
+        "target": [
+          {
+            "reference": "Observation/n-772528cba70c918c800a27e35cf32b"
+          }
+        ],
+        "recorded": "2026-11-24T06:28:41+00:00",
+        "agent": [
+          {
+            "who": {
+              "reference": "Device/pocketmd-r9"
+            }
+          }
+        ],
+        "entity": [
+          {
+            "role": "source",
+            "what": {
+              "reference": "DocumentReference/sigir-201513-note"
+            },
+            "extension": [
+              {
+                "url": "urn:pocketmd:trialgpt:source-sentence",
+                "valueInteger": 3
+              }
+            ]
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Provenance/p-772528cba70c918c800a27e35cf32b"
+      }
+    },
+    {
+      "fullUrl": "https://pocketmd.example/fhir/Observation/n-f937e52e4a131713db41548c67bb41",
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "subject": {
+          "reference": "Patient/sigir-201513"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "urn:pocketmd:trialgpt:clinical:v1",
+              "code": "toxic-appearance",
+              "display": "toxic appearance"
+            }
+          ],
+          "text": "toxic appearance"
+        },
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/sigir-201513-note"
+          }
+        ],
+        "valueString": "toxic-appearing",
+        "extension": [
+          {
+            "url": "urn:pocketmd:trialgpt:evidence-context",
+            "valueString": "examination"
+          }
+        ],
+        "id": "n-f937e52e4a131713db41548c67bb41"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/n-f937e52e4a131713db41548c67bb41"
+      }
+    },
+    {
+      "fullUrl": "https://pocketmd.example/fhir/Provenance/p-f937e52e4a131713db41548c67bb41",
+      "resource": {
+        "resourceType": "Provenance",
+        "id": "p-f937e52e4a131713db41548c67bb41",
+        "target": [
+          {
+            "reference": "Observation/n-f937e52e4a131713db41548c67bb41"
+          }
+        ],
+        "recorded": "2026-11-24T06:28:41+00:00",
+        "agent": [
+          {
+            "who": {
+              "reference": "Device/pocketmd-r9"
+            }
+          }
+        ],
+        "entity": [
+          {
+            "role": "source",
+            "what": {
+              "reference": "DocumentReference/sigir-201513-note"
+            },
+            "extension": [
+              {
+                "url": "urn:pocketmd:trialgpt:source-sentence",
+                "valueInteger": 1
+              }
+            ]
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Provenance/p-f937e52e4a131713db41548c67bb41"
+      }
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "criterion_id": "NEOK001-1-I02",
+  "protocol_sha256": "582f18e7e5ee9658b4ea5dbf6f0553ebeee011bdf44fc6a90caab9011afc8039",
+  "catalog_version": "four-study-r4",
+  "obligations": [
+    {
+      "id": "minimum_age",
+      "statement": "The participant must be at least 18 years old to meet this inclusion criterion.",
+      "source_locator": "Amendment 2, page 49, section 5.1, inclusion criterion 2"
+    }
+  ],
+  "draft": {
+    "fact": "age",
+    "operator": "ge",
+    "threshold": 18
+  },
+  "bindings": [
+    {
+      "fact": "age",
+      "catalog_key": "age",
+      "status": "BOUND"
+    }
+  ],
+  "clinical_questions": [],
+  "executable": {
+    "fact": "age",
+    "operator": "ge",
+    "threshold": 18
+  },
+  "rationale": "The inclusive threshold on page 49 matches the synopsis on page 19. The catalog supplies age in completed calendar years on the screening date from Patient.birthDate and the screening encounter start. A participant who turns 18 on that date meets this criterion.",
+  "disposition": "EXECUTABLE"
+}

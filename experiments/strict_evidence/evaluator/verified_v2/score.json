@@ -1,0 +1,130 @@
+{
+  "baseline_freeze_sha256": "88d1fd3fe4b48699b9a00c55aa64394a97657503db92b464f3308b2f6b485627",
+  "candidate_freeze_sha256": "a8a2996fc684369f9bcd4b2d4d7a18168d9cc4aa8c89de4800c4688aa15786d0",
+  "release_predictions_sha256": "f0eb605ec1998262c2b2d6071b8e866a46bd744788abcff076255aab6de21d1a",
+  "publisher_sha256": "14c547184fac9b013cd17441fd028845b40150c76b022e58334f5494077e5234",
+  "original_notes_sha256": "25f9b95d633c111c607e7a552f36af337d7de949d21c610310391cb2f0b3fc66",
+  "baseline_outputs_sha256": {
+    "charts.json": "1df5d07751a47b1aa1a687850662580e70c7ec997f91ef6a7b970f9e6ba53667",
+    "predictions.json": "18bafc233f610aaed59e2b79fa1166b2da128604f92ba9ac9a39f55f33ee98d0"
+  },
+  "candidate_outputs_sha256": {
+    "charts.json": "0fb1e9803d321e31db77006fe81aacf32e52a1f150b98a1f7dad1b7f135089ed",
+    "predictions.json": "82a62bbc794b629826831d27355d052849b977dfba56fa818ff6b68dca7cf8ba"
+  },
+  "catalog_sha256": {
+    "baseline": "8f74ae1b4fb2c4de07965dd52dc56fba5a04a9e82d1ae500452e9e414eaf2e66",
+    "candidate": "8f74ae1b4fb2c4de07965dd52dc56fba5a04a9e82d1ae500452e9e414eaf2e66"
+  },
+  "source": "Non-training NCBI TrialGPT criterion assignments; physician eligibility labels",
+  "verified_original_assignments": 134,
+  "publisher_blind_projection_sha256": "7f208d1476911716d9ceef00162f5ac94bd6b5719d01678492daf78f631519a3",
+  "baseline": {
+    "assignments": 134,
+    "physician_definitive": 91,
+    "physician_indeterminate": 43,
+    "agree": 6,
+    "opposite_definitive": 0,
+    "definitive_on_indeterminate": 0,
+    "total_unsupported_or_opposite_definitives": 0,
+    "pending_physician_definitive": 85,
+    "pending_by_state": {
+      "AUTHORING_HOLD": 12,
+      "INVESTIGATOR_ACTIONS": 5,
+      "MISSING_DATA": 62,
+      "PATIENT_SURVEY": 2,
+      "SOURCE_SCOPE_HOLD": 4
+    },
+    "all_assignment_abstentions": 128
+  },
+  "candidate": {
+    "assignments": 134,
+    "physician_definitive": 91,
+    "physician_indeterminate": 43,
+    "agree": 6,
+    "opposite_definitive": 0,
+    "definitive_on_indeterminate": 1,
+    "total_unsupported_or_opposite_definitives": 1,
+    "pending_physician_definitive": 85,
+    "pending_by_state": {
+      "AUTHORING_HOLD": 12,
+      "INVESTIGATOR_ACTIONS": 5,
+      "MISSING_DATA": 62,
+      "PATIENT_SURVEY": 2,
+      "SOURCE_SCOPE_HOLD": 4
+    },
+    "all_assignment_abstentions": 127
+  },
+  "lost_baseline_decision_cases": [],
+  "state_changes": 1,
+  "changed_rows_or_used_evidence": 1,
+  "changes": [
+    {
+      "case": "817",
+      "study": "NCT01550588",
+      "subject": "Patient/sigir-201515",
+      "criterion_type": "exclusion",
+      "criterion": "Subjects who have a non-vascular origin of the neurological symptoms after brain imaging (CT scan or MRI)",
+      "baseline_state": "MISSING_DATA",
+      "candidate_state": "MET",
+      "changed_fields": [
+        "cited_lines",
+        "decision",
+        "requests",
+        "state"
+      ],
+      "changed_used_resources": [
+        "Observation/x-5eaa478286462d4d9f1135a85d65d3"
+      ],
+      "baseline_row_sha256": "cfd5f4bb17f3c74518aebe1ba2753074b8c62b18772d716ffccf3b5e54e1a897",
+      "candidate_row_sha256": "29aaa087806a2d842cfe59796b7e5223a2886fa1266d8af743f0b8a31acc2122",
+      "cited_lines": [
+        {
+          "line": 0,
+          "text": "0. Karen is a 72-year-old woman with hypertension and type 2 diabetes, who was hospitalized for cryptogenic stroke two weeks ago."
+        },
+        {
+          "line": 1,
+          "text": "1. At the time, computed tomography was negative for brain hemorrhage and she was given thrombolytic therapy with resolution of her symptoms."
+        }
+      ],
+      "candidate_decision": {
+        "evidence": [
+          "Observation/x-5eaa478286462d4d9f1135a85d65d3"
+        ],
+        "facts": {
+          "neurologic_symptoms_nonvascular_origin_after_ct_or_mri": {
+            "contract": "f-e35a08377d30368238cdb918",
+            "evidence": [
+              "Observation/x-5eaa478286462d4d9f1135a85d65d3"
+            ],
+            "label": "neurologic_symptoms_nonvascular_origin_after_ct_or_mri",
+            "state": "AVAILABLE",
+            "value": false
+          }
+        },
+        "partial_evidence": [
+          "Observation/x-5eaa478286462d4d9f1135a85d65d3"
+        ],
+        "reason": "Negated protocol condition. neurologic_symptoms_nonvascular_origin_after_ct_or_mri = False (requires eq True).",
+        "source_sentences": [
+          0,
+          1
+        ],
+        "state": "MET"
+      },
+      "source_sha256": "b25bac4dfc715f73e9ef9852088829e3c77bbbefdf498bdb34e5f4b5b5265a30",
+      "baseline_result": "abstained",
+      "candidate_result": "definitive_on_indeterminate"
+    }
+  ],
+  "changed_chart_subjects": [
+    "Patient/sigir-201515"
+  ],
+  "candidate_false_or_unsupported_cases": [
+    "817"
+  ],
+  "scorer_sha256": "92c8a12b93611548eff69f701b95df66b8be47a04d209fd43192d27375df0cbd",
+  "python": "3.13.13",
+  "duckdb": "1.5.5"
+}

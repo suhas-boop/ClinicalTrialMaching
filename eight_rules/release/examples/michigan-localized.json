@@ -1,0 +1,520 @@
+{
+  "context": {
+    "study": "NCT05653388",
+    "protocol_sha256": "f920e02d5b194d147a76e2c60e94884f599d3982cda8e7ecfaee2a10a5f3f08b",
+    "mode": "synthetic_demo",
+    "patient": "Patient/demo-localized-p",
+    "episode": "Condition/demo-localized-current",
+    "as_of": "2026-04-15"
+  },
+  "bundle": {
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+      {
+        "resource": {
+          "active": true,
+          "id": "demo-localized-p",
+          "resourceType": "Patient",
+          "meta": {
+            "versionId": "1"
+          }
+        },
+        "request": {
+          "method": "PUT",
+          "url": "Patient/demo-localized-p"
+        }
+      },
+      {
+        "resource": {
+          "subject": {
+            "reference": "Patient/demo-localized-p"
+          },
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "443719001"
+              }
+            ]
+          },
+          "id": "demo-localized-current",
+          "resourceType": "Condition",
+          "recordedDate": "2026-03-20",
+          "verificationStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                "code": "confirmed"
+              }
+            ]
+          },
+          "evidence": [
+            {
+              "detail": [
+                {
+                  "reference": "DocumentReference/demo-localized-source"
+                }
+              ]
+            }
+          ],
+          "meta": {
+            "versionId": "1"
+          }
+        },
+        "request": {
+          "method": "PUT",
+          "url": "Condition/demo-localized-current"
+        }
+      },
+      {
+        "resource": {
+          "status": "active",
+          "intent": "plan",
+          "subject": {
+            "reference": "Patient/demo-localized-p"
+          },
+          "addresses": [
+            {
+              "reference": "Condition/demo-localized-current"
+            }
+          ],
+          "period": {
+            "start": "2026-04-01"
+          },
+          "id": "demo-localized-current",
+          "resourceType": "CarePlan",
+          "meta": {
+            "versionId": "1"
+          }
+        },
+        "request": {
+          "method": "PUT",
+          "url": "CarePlan/demo-localized-current"
+        }
+      },
+      {
+        "resource": {
+          "subject": {
+            "reference": "Patient/demo-localized-p"
+          },
+          "code": {
+            "text": "Prior localized LMS episode"
+          },
+          "id": "demo-localized-prior",
+          "resourceType": "Condition",
+          "meta": {
+            "versionId": "1"
+          }
+        },
+        "request": {
+          "method": "PUT",
+          "url": "Condition/demo-localized-prior"
+        }
+      },
+      {
+        "resource": {
+          "status": "completed",
+          "intent": "plan",
+          "subject": {
+            "reference": "Patient/demo-localized-p"
+          },
+          "addresses": [
+            {
+              "reference": "Condition/demo-localized-prior"
+            }
+          ],
+          "period": {
+            "start": "2026-01-01",
+            "end": "2026-04-01"
+          },
+          "id": "demo-localized-prior",
+          "resourceType": "CarePlan",
+          "meta": {
+            "versionId": "1"
+          }
+        },
+        "request": {
+          "method": "PUT",
+          "url": "CarePlan/demo-localized-prior"
+        }
+      },
+      {
+        "resource": {
+          "status": "final",
+          "subject": {
+            "reference": "Patient/demo-localized-p"
+          },
+          "code": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:research:course-binding-fixture",
+                "code": "treatment-line"
+              }
+            ]
+          },
+          "focus": [
+            {
+              "reference": "CarePlan/demo-localized-current"
+            }
+          ],
+          "effectiveDateTime": "2026-04-15",
+          "valueInteger": 1,
+          "id": "demo-localized-line",
+          "resourceType": "Observation",
+          "meta": {
+            "versionId": "1"
+          }
+        },
+        "request": {
+          "method": "PUT",
+          "url": "Observation/demo-localized-line"
+        }
+      },
+      {
+        "resource": {
+          "status": "final",
+          "subject": {
+            "reference": "Patient/demo-localized-p"
+          },
+          "code": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:research:course-binding-fixture",
+                "code": "complete-course-medication-inventory"
+              }
+            ]
+          },
+          "focus": [
+            {
+              "reference": "CarePlan/demo-localized-current"
+            }
+          ],
+          "effectiveDateTime": "2026-04-15",
+          "valueBoolean": true,
+          "id": "demo-localized-inventory",
+          "resourceType": "Observation",
+          "meta": {
+            "versionId": "1"
+          }
+        },
+        "request": {
+          "method": "PUT",
+          "url": "Observation/demo-localized-inventory"
+        }
+      },
+      {
+        "resource": {
+          "status": "final",
+          "subject": {
+            "reference": "Patient/demo-localized-p"
+          },
+          "code": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:research:course-binding-fixture",
+                "code": "course-receiving"
+              }
+            ]
+          },
+          "focus": [
+            {
+              "reference": "CarePlan/demo-localized-current"
+            }
+          ],
+          "effectiveDateTime": "2026-04-15",
+          "valueBoolean": true,
+          "id": "demo-localized-on-treatment",
+          "resourceType": "Observation",
+          "meta": {
+            "versionId": "1"
+          }
+        },
+        "request": {
+          "method": "PUT",
+          "url": "Observation/demo-localized-on-treatment"
+        }
+      },
+      {
+        "resource": {
+          "subject": {
+            "reference": "Patient/demo-localized-p"
+          },
+          "medicationCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "code": "1191138"
+              }
+            ]
+          },
+          "authoredOn": "2026-04-01",
+          "status": "active",
+          "intent": "order",
+          "basedOn": [
+            {
+              "reference": "CarePlan/demo-localized-current"
+            }
+          ],
+          "id": "demo-localized-0",
+          "resourceType": "MedicationRequest",
+          "meta": {
+            "versionId": "1"
+          }
+        },
+        "request": {
+          "method": "PUT",
+          "url": "MedicationRequest/demo-localized-0"
+        }
+      },
+      {
+        "resource": {
+          "subject": {
+            "reference": "Patient/demo-localized-p"
+          },
+          "medicationCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "code": "1191138"
+              }
+            ]
+          },
+          "effectiveDateTime": "2026-04-01",
+          "request": {
+            "reference": "MedicationRequest/demo-localized-0"
+          },
+          "status": "completed",
+          "id": "demo-localized-0",
+          "resourceType": "MedicationAdministration",
+          "meta": {
+            "versionId": "1"
+          }
+        },
+        "request": {
+          "method": "PUT",
+          "url": "MedicationAdministration/demo-localized-0"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "DocumentReference",
+          "id": "demo-localized-source",
+          "status": "current",
+          "subject": {
+            "reference": "Patient/demo-localized-p"
+          },
+          "content": [
+            {
+              "attachment": {
+                "contentType": "application/json",
+                "data": "eyJhZHZhbmNlZCI6IGZhbHNlLCAiaWQiOiAibG9jYWxpemVkIiwgIm1lZHMiOiBbWyIxMTkxMTM4IiwgImN1cnJlbnQiXV0sICJtZXRhc3RhdGljIjogZmFsc2UsICJ1bnJlc2VjdGFibGUiOiBmYWxzZX0="
+              }
+            }
+          ],
+          "meta": {
+            "versionId": "1"
+          }
+        },
+        "request": {
+          "method": "PUT",
+          "url": "DocumentReference/demo-localized-source"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "id": "demo-localized-metastatic",
+          "subject": {
+            "reference": "Patient/demo-localized-p"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:research:course-binding-fixture",
+                "code": "metastatic"
+              }
+            ]
+          },
+          "focus": [
+            {
+              "reference": "Condition/demo-localized-current"
+            }
+          ],
+          "effectiveDateTime": "2026-04-15",
+          "derivedFrom": [
+            {
+              "reference": "DocumentReference/demo-localized-source"
+            }
+          ],
+          "valueBoolean": false,
+          "meta": {
+            "versionId": "1"
+          }
+        },
+        "request": {
+          "method": "PUT",
+          "url": "Observation/demo-localized-metastatic"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "id": "demo-localized-unresectable",
+          "subject": {
+            "reference": "Patient/demo-localized-p"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:research:course-binding-fixture",
+                "code": "unresectable"
+              }
+            ]
+          },
+          "focus": [
+            {
+              "reference": "Condition/demo-localized-current"
+            }
+          ],
+          "effectiveDateTime": "2026-04-15",
+          "derivedFrom": [
+            {
+              "reference": "DocumentReference/demo-localized-source"
+            }
+          ],
+          "valueBoolean": false,
+          "meta": {
+            "versionId": "1"
+          }
+        },
+        "request": {
+          "method": "PUT",
+          "url": "Observation/demo-localized-unresectable"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "id": "demo-localized-advanced-treatment-setting",
+          "subject": {
+            "reference": "Patient/demo-localized-p"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:research:course-binding-fixture",
+                "code": "advanced_treatment_setting"
+              }
+            ]
+          },
+          "focus": [
+            {
+              "reference": "Condition/demo-localized-current"
+            },
+            {
+              "reference": "CarePlan/demo-localized-current"
+            }
+          ],
+          "effectiveDateTime": "2026-04-15",
+          "derivedFrom": [
+            {
+              "reference": "DocumentReference/demo-localized-source"
+            }
+          ],
+          "valueBoolean": false,
+          "meta": {
+            "versionId": "1"
+          }
+        },
+        "request": {
+          "method": "PUT",
+          "url": "Observation/demo-localized-advanced-treatment-setting"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "id": "demo-localized-cycle1-start",
+          "subject": {
+            "reference": "Patient/demo-localized-p"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:research:course-binding-fixture",
+                "code": "cycle1_start"
+              }
+            ]
+          },
+          "focus": [
+            {
+              "reference": "CarePlan/demo-localized-current"
+            }
+          ],
+          "effectiveDateTime": "2026-04-01",
+          "derivedFrom": [
+            {
+              "reference": "DocumentReference/demo-localized-source"
+            }
+          ],
+          "valueDateTime": "2026-04-01",
+          "meta": {
+            "versionId": "1"
+          }
+        },
+        "request": {
+          "method": "PUT",
+          "url": "Observation/demo-localized-cycle1-start"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "id": "demo-localized-baseline-measurable",
+          "subject": {
+            "reference": "Patient/demo-localized-p"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:research:course-binding-fixture",
+                "code": "baseline_measurable"
+              }
+            ]
+          },
+          "focus": [
+            {
+              "reference": "Condition/demo-localized-current"
+            },
+            {
+              "reference": "CarePlan/demo-localized-current"
+            }
+          ],
+          "effectiveDateTime": "2026-03-28",
+          "derivedFrom": [
+            {
+              "reference": "DocumentReference/demo-localized-source"
+            }
+          ],
+          "valueBoolean": true,
+          "method": {
+            "text": "RECIST 1.1"
+          },
+          "meta": {
+            "versionId": "1"
+          }
+        },
+        "request": {
+          "method": "PUT",
+          "url": "Observation/demo-localized-baseline-measurable"
+        }
+      }
+    ]
+  }
+}

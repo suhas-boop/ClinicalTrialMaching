@@ -1,0 +1,35 @@
+{
+  "study": "DB-1311-O-1001",
+  "protocol_sha256": "1c20138b1b1d0cf2e9f071154cfbfeb71d3bc7a5857881810c9a0ece7ba21c67",
+  "criterion": "I07",
+  "fact": "platelets",
+  "contract": "f-fa1b632584b23a3a2d04d552",
+  "loinc": "26515-7",
+  "loinc_system": "http://loinc.org",
+  "target_unit": "/mm3",
+  "calendar_days_before_c1d1": 7,
+  "ucum_factors": {
+    "10*3/uL": 1000,
+    "/uL": 1,
+    "/mm3": 1
+  },
+  "export_unit_aliases": {
+    "Thousand/uL": "10*3/uL"
+  },
+  "evidence_fields": {
+    "test": "Observation.code.coding",
+    "value": "Observation.valueQuantity",
+    "blood_system": "LOINC 26515-7 specifies blood; reconcile any explicit specimen reference",
+    "patient": [
+      "Observation.subject",
+      "DiagnosticReport.subject"
+    ],
+    "source": "DiagnosticReport.result \u2192 Observation",
+    "availability": "DiagnosticReport.issued",
+    "measurement": [
+      "Observation.effectiveDateTime",
+      "DiagnosticReport.effectiveDateTime"
+    ],
+    "confirmed_time_anchor": "Protocol-linked, versioned C1D1 order or completed administration from the screening encounter"
+  }
+}

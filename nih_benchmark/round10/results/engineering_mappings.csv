@@ -1,0 +1,85 @@
+contract,fact,scope,criterion_pairs,annotation_ids
+f-04b554ad8dea2f70b5cc24a9,on_artificial_ventilation,on artificial ventilation,1,952
+f-08c11ff7c68e28dfd9026a71,parasites_per_ml,parasites per ml,1,962
+f-09fd9adf33d7b0ea37d30956,fitzpatrick_III,fitzpatrick III,1,154
+f-0e0787baa081e6a765a344c2,sedation_required_to_hold_still,sedation required to hold still,1,419
+f-0f8cc093d63712d33da5b6dd,transferred_to_observation_unit,transferred to observation unit,1,875
+f-11636d8aa1c32e372365114f,postmenopausal_woman,postmenopausal woman,1,239
+f-11e499cebbc37364e3240ffe,family_history_of_bleeding,family history of bleeding,1,328
+f-1368fa258c396f5e0d9fc4af,patient_reported_hematuria,patient reported hematuria,1,962
+f-1591187e72568172498743d5,adequate_contraception,adequate contraception,1,322
+f-1656269df4b64ea363b753a7,can_retain_oral_medication,can retain oral medication,1,385
+f-172a2bd92bd94d7f9c444bde,traumatic_cause_of_presenting_dyspnea,traumatic cause of presenting dyspnea,1,217
+f-1a0bac9b52a5a3e48a91d450,asthma_exacerbations_per_week,asthma exacerbations per week,1,850
+f-1e1d278e71f8408707957080,healthy_subject,healthy subject,1,154
+f-1faff41c10e1368e090902f1,gestation_at_birth_weeks,gestation at birth weeks,1,332
+f-250f6f1859dacb592ec08f28,chest_ct_showed_ild,chest ct showed ild,1,435
+f-25d90fbe21fe8cb9e5f5ade7,refused_written_consent,refused written consent,1,212
+f-2622bb939481c519d0f8f007,childbearing_potential,childbearing potential,1,26
+f-2d79a3fedd426d2901ebbe8b,early_bone_marrow_failure_in_childhood,early bone marrow failure in childhood,1,323
+f-2e0e188355d77b2ac245d835,can_take_oral_medication,can take oral medication,1,385
+f-417d73e80866ce255254c324,has_social_insurance,has social insurance,1,621
+f-44096fa66d47bb70fe779efb,significant_heart_failure_symptoms_developed_in_hospital_initially_admitted_for_other_reason,significant heart failure symptoms developed in hospital initially admitted for other reason,1,870
+f-454e1dd9eebcf3ac5e43a4dc,breastfeeding,breastfeeding,1,132
+f-50024f51d13892ebb21ed3f5,index_incident_involved_bicycle_with_bull_bars,index incident involved bicycle with bull bars,1,477
+f-536c70f82cbf3118c9f829a1,ct_cerebral_edema,ct cerebral edema,1,460
+f-55939492373c2245ce79aedf,symptoms_attributed_to_uterine_fibroids,symptoms attributed to uterine fibroids,1,235
+f-594192aad7d214826b9a16a0,ct_diffuse_axonal_injury,ct diffuse axonal injury,1,460
+f-5dbfd45774969d145afa3eee,chest_ct_showed_pulmonary_thromboembolism,chest ct showed pulmonary thromboembolism,1,435
+f-6903d5ac3bbb5254e710b9c1,recurrent_hematoma,recurrent hematoma,1,226
+f-6b15dac726f52523768ba332,ecg_acute_ischemia,ecg acute ischemia,1,396
+f-70bad0efcc3e531922fd431c,fever_due_to_noninfectious_cause,fever due to noninfectious cause,1,34
+f-7303947ba516e4dec79635f4,unable_to_travel_for_treatment_or_followup,unable to travel for treatment or followup,1,20
+f-75ac4d84a285f5f41dc8ee71,lipid_lowering_regimen_stable_six_weeks_immediately_before_enrolment,lipid lowering regimen stable six weeks immediately before enrolment,1,637
+f-773045708691541bbb39f631,fitzpatrick_I,fitzpatrick I,1,154
+f-79a9a6c0f8a9093cee7df7d4,csh_due_to_meningeosis_carcinomatosa,csh due to meningeosis carcinomatosa,1,227
+f-7a5e992ae9af6c098e88e663,consent_absent,consent absent,1,336
+f-7e38fb30716008c2c1fa796a,sibling_of_index_subject,sibling of index subject,1,120
+f-822213e667944b07de4409a1,unable_to_provide_written_consent,unable to provide written consent,1,632
+f-823e151c41ea9f9a190c358d,current_unlicensed_investigational_aspergillosis_drug,current unlicensed investigational aspergillosis drug,1,945
+f-8c98c49b4be17bf36ef26794,infant_history_of_bleeding,infant history of bleeding,1,328
+f-8e7391f875d0293fe6897f17,index_insulin_resistance_on_ivgtt,index insulin resistance on ivgtt,1,120
+f-939a0aa74a70ac455e0c8fd9,open_laparotomy_required_for_abdominal_trauma_with_primary_closure,open laparotomy required for abdominal trauma with primary closure,1,366
+f-9a2752fb3336933b5f946b43,aliquot_with_valid_aptima_hpv_tigris_result_from_2007HPVASCUS30,aliquot with valid aptima hpv tigris result from 2007HPVASCUS30,1,866
+f-9a548f778607de2af99380c9,parent_of_index_subject,parent of index subject,1,120
+f-9b6beb1b277277fa845c23a2,chest_ct_showed_lung_cancer,chest ct showed lung cancer,1,435
+f-a49be912520b43657812fb08,inr,inr,1,171
+f-a4c706db06031b940ad7d3c6,unmarried,unmarried,1,860
+f-a5e6f44c4444845a20753cef,systemic_anticoagulation,systemic anticoagulation,1,171
+f-a6aebc95342848b37ba84292,paco2_mmhg,paco2 mmhg,1,187
+f-a9bf79cf3ea714c29bb1c857,who_performance_status,who performance status,1,502
+f-aa336eb6fad04a1c3c4499bb,current_ischemic_cns_disease,current ischemic cns disease,1,400
+f-ae5637d0825f63ba7fe88ac1,consent_refused,consent refused,1,336
+f-af28f1a93b5f3b127b632ee5,lipid_lowering_treatment_months,lipid lowering treatment months,1,636
+f-aff14e4b1a67b4b5be1df9af,aliquot_suitable_for_testing,aliquot suitable for testing,1,867
+f-b099cfc3dbd05c1f63656ab0,maintenance_hemodialysis_after_central_venous_catheterization,maintenance hemodialysis after central venous catheterization,1,177
+f-b4bf8dadee1cb7b60506667d,failed_mri_metal_screen,failed mri metal screen,1,418
+f-b81378d47fc088d5f5e0e9ef,csh_due_to_spinal_csf_fistula,csh due to spinal csf fistula,1,227
+f-b9b5a7e5802d6313e6f2fd9d,csh_due_to_underlying_illness,csh due to underlying illness,1,233
+f-ba086e7d57051740540d35dd,ct_intracranial_hemorrhage,ct intracranial hemorrhage,1,460
+f-bc5c2de31b767e001bbc4721,woman_of_childbearing_age,woman of childbearing age,1,322
+f-bd85c375ece6d53d666fab50,child_injured_by_another_rider_at_index_injury,child injured by another rider at index injury,1,476
+f-be88e553a37cd47210b197cd,greater_than_mild_preinjury_neurodevelopmental_disability,greater than mild preinjury neurodevelopmental disability,1,467
+f-c3679faa722d97de7e64cffe,active_severe_infection_between_screening_and_baseline,active severe infection between screening and baseline,1,81
+f-c4560c1e526fc1315b976128,active_severe_infection_within_four_weeks_before_screening,active severe infection within four weeks before screening,1,81
+f-c70ecfa21c5cc8731b70f283,normal_head_ct,normal head ct,1,460
+f-c732050fe6236a1a90184fb6,undergoing_emergency_laparotomy,undergoing emergency laparotomy,1,454
+f-c9c90acaa62b005d355dce42,first_surgery_before_study_start,first surgery before study start,1,226
+f-ce50747b17a43b49cfcba1b8,gcs_motor,gcs motor,1,460
+f-d3bdcbd2a15717057f617b40,receiving_mechanical_ventilation,receiving mechanical ventilation,1,187
+f-d73eb4d694dcc85939ddd0f7,index_insulin_resistance_on_ogtt,index insulin resistance on ogtt,1,120
+f-d9044336ed4b9e058c2bcb6a,cognitive_impairment_on_admission_screen,cognitive impairment on admission screen,1,890
+f-df9a7940ddd70d47ffe11a4e,hemodynamically_unstable,hemodynamically unstable,1,108
+f-dfc186375bb2197ece38412f,worsening_heart_failure_primary_admission_reason,worsening heart failure primary admission reason,1,870
+f-e35a08377d30368238cdb918,neurologic_symptoms_nonvascular_origin_after_ct_or_mri,neurologic symptoms nonvascular origin after ct or mri,1,817
+f-e411eb3adb7bb1868c75226b,open_laparotomy_required_for_acute_surgical_abdomen_with_primary_closure,open laparotomy required for acute surgical abdomen with primary closure,1,367
+f-e4e415780cfac6427c85c19d,unable_to_speak_english,unable to speak english,1,653
+f-e52de2413a66ebe501789a83,fitzpatrick_II,fitzpatrick II,1,154
+f-e6189a9376a10975fbcc8d62,child_involved_in_motor_vehicle_collision_at_index_injury,child involved in motor vehicle collision at index injury,1,475
+f-e7cbcbc014663af855498365,chest_ct_showed_active_tb,chest ct showed active tb,1,435
+f-e8ae001427a830b62f0776da,chronic_subdural_hematoma_verified_on_ct_or_mri,chronic subdural hematoma verified on ct or mri,1,231
+f-e9a383bdd546910c6e2d02dc,aliquot_available,aliquot available,1,867
+f-eb15ca93db2daac2a32ff139,qualifying_antifungal_course_days,"continuous days of administered voriconazole, itraconazole, posaconazole, caspofungin, micafungin, anidulafungin, amphotericin B or its lipid formulation, for the index probable or proven invasive aspergillosis episode, immediately preceding randomization",1,946
+f-efc071292657b7c8cb12fa25,bulk_symptoms,bulk symptoms,1,235
+f-f65f2f5dccc01ab4c96ee274,unable_to_speak_french,unable to speak french,1,795
+f-f9f25cbe46d7dbd191933912,prior_azole_or_echinocandin_allergy_hypersensitivity_or_serious_reaction,prior azole or echinocandin allergy hypersensitivity or serious reaction,1,953

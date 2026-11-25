@@ -1,0 +1,306 @@
+{
+  "criterion_id": "106S01-I18",
+  "protocol_sha256": "6e80a01373fd98d53a3ca3c15d720e3d9bc32e98342db32a54284349b7f6f22a",
+  "catalog_version": "four-study-r4",
+  "disposition": "PROTOCOL_AND_BINDING_REVIEW",
+  "obligations": [
+    {
+      "id": "I18-PD",
+      "statement": "Establish progressive disease (PD) of the malignancy being screened at a specific assessment under RECIST version 1.1.",
+      "source_locator": "Signed protocol v2 / Amendment 1, p. 48, §5.2.3, item 18. The named standard is protocol reference 3, p. 105."
+    },
+    {
+      "id": "I18-BURDEN",
+      "statement": "Accept qualifying progression in measurable or non-measurable disease. A measurable target lesion is optional. RECIST 1.1 permits overall PD from qualifying target progression, unequivocal non-target progression, or a definite new malignant lesion.",
+      "source_locator": "Signed protocol v2 / Amendment 1, p. 48, §5.2.3, item 18 (both disease presentations). Protocol reference 3, §§4.3–4.4.1 and Tables 1–2 (RECIST interpretation)."
+    },
+    {
+      "id": "I18-TREATMENT",
+      "statement": "Link the progression to actual previous treatment of this patient's same malignancy and establish that progression occurred after the qualifying treatment event.",
+      "source_locator": "Signed protocol v2 / Amendment 1, p. 48, §5.2.3, item 18 (sequence). Signed protocol, p. 61, §8.2, screening/baseline assessments, final paragraph (prior systemic and non-systemic treatment with associated disease response)."
+    },
+    {
+      "id": "I18-WINDOW",
+      "statement": "Apply a six-month lookback before screening. Which member of the treatment–progression pair must fall in that interval requires interpretation.",
+      "source_locator": "Signed protocol v2 / Amendment 1, p. 48, §5.2.3, item 18, final clause. task.json, screening_clock, supplies the workflow screening date."
+    },
+    {
+      "id": "I18-HISTORY",
+      "statement": "At screening, review the history of the current malignancy, including previous treatment, associated response and date of last disease progression. Document the eligibility assessment in the source record.",
+      "source_locator": "Signed protocol, p. 61, §8.2. This is the source-review context for item 18."
+    }
+  ],
+  "draft": {
+    "kind": "inclusion_criterion_draft",
+    "return_type": "three_valued_boolean",
+    "inputs": {
+      "screening_date": {
+        "type": "LocalDate",
+        "value_from": "screen run local date",
+        "binding": "screen-clock"
+      },
+      "assessment": {
+        "type": "HistoricalTumorResponseAssessment",
+        "fields": {
+          "patient": "PatientRef",
+          "malignancy": "ConditionRef",
+          "method": "VersionedMethod",
+          "overall_timepoint_response": "ResponseCategory",
+          "progression_at": "ClinicalEventTime",
+          "source": "SourceRef"
+        },
+        "bindings": [
+          "response",
+          "progression-time",
+          "association"
+        ]
+      },
+      "course": {
+        "type": "PriorCancerTreatmentCourse",
+        "fields": {
+          "patient": "PatientRef",
+          "malignancy": "ConditionRef",
+          "actually_received": "Boolean",
+          "first_exposure": "ClinicalEventTime?",
+          "last_exposure": "ClinicalEventTime?",
+          "end_of_course": "ClinicalEventTime?",
+          "source": "SourceRef"
+        },
+        "bindings": [
+          "treatment",
+          "association"
+        ]
+      },
+      "pair": {
+        "type": "TreatmentResponseAssociation",
+        "fields": {
+          "treatment": "TreatmentCourseRef",
+          "response": "AssessmentRef"
+        },
+        "binding": "association"
+      }
+    },
+    "parameters": {
+      "window_events": {
+        "type": "Set<EventTimeSelector>",
+        "state": "unresolved",
+        "question": "Q1",
+        "choices": [
+          [
+            "assessment.progression_at"
+          ],
+          [
+            "course.qualifying_event"
+          ],
+          [
+            "course.qualifying_event",
+            "assessment.progression_at"
+          ]
+        ]
+      },
+      "qualifying_event": {
+        "type": "TreatmentTimeSelector",
+        "state": "unresolved",
+        "question": "Q2",
+        "choices": [
+          "first_actual_exposure",
+          "final_actual_exposure",
+          "documented_course_end"
+        ]
+      },
+      "course_selection": {
+        "type": "CourseSelector",
+        "state": "unresolved",
+        "question": "Q3",
+        "choices": [
+          "any_linked_previous_course",
+          "immediately_preceding_course"
+        ]
+      }
+    },
+    "screening_window": {
+      "type": "CalendarInterval",
+      "anchor": "screening_date",
+      "lookback": {
+        "value": 6,
+        "unit": "calendar_month"
+      },
+      "lower": {
+        "op": "subtract_calendar_months",
+        "from": "screening_date",
+        "months": 6,
+        "inclusive": true
+      },
+      "upper": {
+        "relation": "prior_to",
+        "event": "screening"
+      },
+      "precision": "Use the clinical event date. If only same-day dates are available and precedence cannot be established, retain unknown."
+    },
+    "predicate": {
+      "op": "exists",
+      "over": "associated (assessment, course) pairs for the patient and index malignancy",
+      "where": {
+        "op": "all",
+        "args": [
+          {
+            "op": "equals",
+            "left": "assessment.method",
+            "right": {
+              "family": "RECIST",
+              "version": "1.1"
+            }
+          },
+          {
+            "op": "equals",
+            "left": "assessment.overall_timepoint_response",
+            "right": "PD",
+            "accepts_disease": [
+              "measurable",
+              "non_measurable"
+            ],
+            "requires_separate_measurability_field": false
+          },
+          {
+            "op": "equals",
+            "left": "course.actually_received",
+            "right": true
+          },
+          {
+            "op": "selected_by",
+            "value": "course",
+            "selector_parameter": "course_selection"
+          },
+          {
+            "op": "after",
+            "left": "assessment.progression_at",
+            "right": {
+              "op": "select_time",
+              "from": "course",
+              "parameter": "qualifying_event"
+            }
+          },
+          {
+            "op": "prior_to",
+            "left": "assessment.progression_at",
+            "right": "screening"
+          },
+          {
+            "op": "all_in_window",
+            "event_selectors_parameter": "window_events",
+            "interval": "screening_window"
+          }
+        ]
+      }
+    },
+    "evidence_semantics": {
+      "assessment": "Use a source-supported overall RECIST 1.1 PD determination, including a documented RECIST reread of historical imaging where available. An isolated measurement, a generic worsening code, symptoms alone or the presence of non-measurable disease does not establish PD.",
+      "time": "Use the effective date assigned to progression. Track the report or review timestamp separately to establish what was known at screening. Preserve actual time or documented ordering when available.",
+      "source_scope": "Section 8.3 and the radiologic evaluation in §8.3.1 (pp. 61–62) describe trial efficacy assessments by investigators with possible Part B central reading. Item 18 does not impose central reading or the on-study imaging schedule on historical assessments.",
+      "missing_evidence": "An absent, conflicting, unevaluable or undated record that could change the result yields unknown. A negative result requires sufficient reviewed history to rule out a qualifying pair. An unrelated treatment or a future record cannot supply a missing fact."
+    }
+  },
+  "bindings": [
+    {
+      "id": "response",
+      "fact": "Overall timepoint PD for this malignancy, with explicit RECIST 1.1 method and coverage of measurable and non-measurable disease.",
+      "status": "UNBOUND",
+      "catalog_key": null,
+      "proposed_source": "A source-linked oncology or radiology response assessment, represented as a final or amended FHIR R4 DiagnosticReport with a result Observation. Candidate CDISC/NCI terminology for that Observation is C96613 (overall response), C124415 (RECIST 1.1 method) and C35571 (PD result). A generic mCODE Cancer Disease Status Observation, including LOINC 97509-4, does not establish the method. Verify the local fields and source assessment before accepting this proposal."
+    },
+    {
+      "id": "progression-time",
+      "fact": "Clinical effective date of the same RECIST PD event, available for the screening assessment.",
+      "status": "UNBOUND",
+      "catalog_key": null,
+      "proposed_source": "Use the reviewed malignancy history and the dated imaging or RECIST assessment. Validate the meaning of Observation.effective[x] or DiagnosticReport.effective[x] against the documented progression date. Preserve report issue time and version separately."
+    },
+    {
+      "id": "treatment",
+      "fact": "An actual disease-directed treatment course for the index malignancy, including modality, course identity and the event dates needed to establish sequence and recency.",
+      "status": "UNBOUND",
+      "catalog_key": null,
+      "proposed_source": "Review systemic and non-systemic treatment history recorded under §8.2. Candidate records include MedicationAdministration.effective[x] and Procedure.performed[x], with evidence of delivery, indication and course boundaries. Orders alone do not document exposure. A single administration does not establish completion of the entire course."
+    },
+    {
+      "id": "association",
+      "fact": "Source-supported relationship between the response, the treatment course, the same patient and the malignancy under review.",
+      "status": "UNBOUND",
+      "catalog_key": null,
+      "proposed_source": "Use a reviewed longitudinal oncology treatment/response history or an explicit course-to-assessment reference backed by the historical reports. Preserve patient, malignancy, dates, assessor and versioned source references. Historical evidence may originate in earlier encounters."
+    },
+    {
+      "id": "screen-clock",
+      "fact": "Screening date for this workflow run.",
+      "status": "SUPPLIED_RUNTIME_CONTEXT",
+      "catalog_key": null,
+      "proposed_source": "task.json, screening_clock. Capture the local run date in the screening context."
+    }
+  ],
+  "clinical_questions": [
+    {
+      "id": "Q1",
+      "question": "Does the six-month interval before screening constrain the date of RECIST progression alone, the linked previous treatment event, or both?",
+      "intended_owner": "Sponsor medical monitor / protocol author",
+      "cited_source": "Signed protocol v2 / Amendment 1, p. 48, §5.2.3, item 18, especially “after previous treatment within 6 months prior to screening”. Signed protocol, p. 61, §8.2, screening/baseline assessments, final paragraph records both the treatment history and date of last progression.",
+      "possible_answers": [
+        "The progression must be in the interval. The treatment may be older.",
+        "The previous treatment event must be in the interval, with subsequent progression before screening.",
+        "Both events must be in the interval. With a single treatment event strictly before progression and both before screening, this has the same result as requiring recent treatment."
+      ],
+      "discriminating_example": "Screening is 15 October 2026. The only course ended 15 February and RECIST 1.1 PD occurred 15 August. The patient meets the progression-only interpretation and fails either interpretation requiring recent treatment."
+    },
+    {
+      "id": "Q2",
+      "question": "For a course with repeated administrations, does progression after treatment has begun qualify while that course continues, or must progression follow the last actual administration or the documented end of the course?",
+      "intended_owner": "Sponsor medical monitor / protocol author",
+      "cited_source": "Signed protocol v2 / Amendment 1, p. 48, §5.2.3, item 18, “after previous treatment”. Signed protocol, p. 61, §8.2, screening/baseline assessments, final paragraph links treatment to its response but does not name the ordering milestone.",
+      "possible_answers": [
+        "After at least one actual exposure, including PD during the course.",
+        "Strictly after the final delivered dose or procedure.",
+        "Strictly after the documented end of the course."
+      ],
+      "discriminating_example": "The only course began 1 July, PD was assessed 20 July, its final dose was 30 July, and screening was 15 October 2026. An exposure-based interpretation accepts this pair. A final-dose or end-of-course interpretation rejects it."
+    },
+    {
+      "id": "Q3",
+      "question": "If a patient has received another course since a qualifying progression, can PD associated with an earlier course meet item 18, or must the progression follow the course immediately preceding screening?",
+      "intended_owner": "Sponsor medical monitor / protocol author",
+      "cited_source": "Signed protocol v2 / Amendment 1, p. 48, §5.2.3, item 18, “previous treatment”. Signed protocol, p. 61, §8.2, screening/baseline assessments, final paragraph collects prior treatments, their associated responses and the last progression date.",
+      "possible_answers": [
+        "Any linked previous course may qualify.",
+        "Only the immediately preceding course may qualify."
+      ],
+      "discriminating_example": "Course A ended 1 June, with PD on 15 June. Course B ended 31 August with stable disease and no subsequent PD before 15 September screening. All dates are in 2026. An any-course rule qualifies the June event. An immediately-preceding-course rule does not."
+    }
+  ],
+  "executable": null,
+  "rationale": "Item 18 permits RECIST 1.1 progression with either measurable or non-measurable disease. The six-month qualifier and the reference treatment event can change eligibility even with complete records. Section 8.2 identifies the relevant history, but the catalog supplies no verified mapping for a dated RECIST assessment, an actual prior course or their association. Both protocol interpretation and evidence binding are required.",
+  "terminology_sources": [
+    {
+      "id": "RECIST11",
+      "source": "Eisenhauer et al., revised RECIST guideline (version 1.1), §§4.3–4.4 and Tables 1–2. Protocol reference 3.",
+      "url": "https://dctd.cancer.gov/research/ctep-trials/for-sites/recist-guidelines-v11.pdf"
+    },
+    {
+      "id": "CDISC-RECIST",
+      "source": "CDISC, Oncology Response Mappings, 2022, slide 11. Candidate terminology for the method, timepoint assessment and result.",
+      "url": "https://www.cdisc.org/sites/default/files/2022-11/2022%20CDISC%20US%20Interchange%20Oncology%20Response%20Mappings_Final.pdf"
+    },
+    {
+      "id": "MCODE-STATUS",
+      "source": "HL7 mCODE v4.0.0, Cancer Disease Status Profile. Generic clinical status only.",
+      "url": "https://hl7.org/fhir/us/mcode/StructureDefinition-mcode-cancer-disease-status.html"
+    },
+    {
+      "id": "FHIR-R4-MEDICATION",
+      "source": "HL7 FHIR R4, MedicationAdministration. Proposed treatment evidence shape.",
+      "url": "https://hl7.org/fhir/R4/medicationadministration.html"
+    },
+    {
+      "id": "FHIR-R4-PROCEDURE",
+      "source": "HL7 FHIR R4, Procedure. Proposed treatment evidence shape.",
+      "url": "https://hl7.org/fhir/R4/procedure.html"
+    }
+  ]
+}

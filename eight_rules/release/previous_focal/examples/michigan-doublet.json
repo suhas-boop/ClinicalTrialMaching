@@ -1,0 +1,605 @@
+{
+  "context": {
+    "study": "NCT05653388",
+    "protocol_sha256": "f920e02d5b194d147a76e2c60e94884f599d3982cda8e7ecfaee2a10a5f3f08b",
+    "mode": "synthetic_demo",
+    "patient": "Patient/demo-doublet-p",
+    "episode": "Condition/demo-doublet-current",
+    "as_of": "2026-04-15"
+  },
+  "bundle": {
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+      {
+        "resource": {
+          "active": true,
+          "id": "demo-doublet-p",
+          "resourceType": "Patient",
+          "meta": {
+            "versionId": "1"
+          }
+        },
+        "request": {
+          "method": "PUT",
+          "url": "Patient/demo-doublet-p"
+        }
+      },
+      {
+        "resource": {
+          "subject": {
+            "reference": "Patient/demo-doublet-p"
+          },
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "443719001"
+              }
+            ]
+          },
+          "id": "demo-doublet-current",
+          "resourceType": "Condition",
+          "recordedDate": "2026-03-20",
+          "verificationStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                "code": "confirmed"
+              }
+            ]
+          },
+          "evidence": [
+            {
+              "detail": [
+                {
+                  "reference": "DocumentReference/demo-doublet-source"
+                }
+              ]
+            }
+          ],
+          "meta": {
+            "versionId": "1"
+          }
+        },
+        "request": {
+          "method": "PUT",
+          "url": "Condition/demo-doublet-current"
+        }
+      },
+      {
+        "resource": {
+          "status": "active",
+          "intent": "plan",
+          "subject": {
+            "reference": "Patient/demo-doublet-p"
+          },
+          "addresses": [
+            {
+              "reference": "Condition/demo-doublet-current"
+            }
+          ],
+          "period": {
+            "start": "2026-04-01"
+          },
+          "id": "demo-doublet-current",
+          "resourceType": "CarePlan",
+          "meta": {
+            "versionId": "1"
+          }
+        },
+        "request": {
+          "method": "PUT",
+          "url": "CarePlan/demo-doublet-current"
+        }
+      },
+      {
+        "resource": {
+          "subject": {
+            "reference": "Patient/demo-doublet-p"
+          },
+          "code": {
+            "text": "Prior localized LMS episode"
+          },
+          "id": "demo-doublet-prior",
+          "resourceType": "Condition",
+          "meta": {
+            "versionId": "1"
+          }
+        },
+        "request": {
+          "method": "PUT",
+          "url": "Condition/demo-doublet-prior"
+        }
+      },
+      {
+        "resource": {
+          "status": "completed",
+          "intent": "plan",
+          "subject": {
+            "reference": "Patient/demo-doublet-p"
+          },
+          "addresses": [
+            {
+              "reference": "Condition/demo-doublet-prior"
+            }
+          ],
+          "period": {
+            "start": "2026-01-01",
+            "end": "2026-04-01"
+          },
+          "id": "demo-doublet-prior",
+          "resourceType": "CarePlan",
+          "meta": {
+            "versionId": "1"
+          }
+        },
+        "request": {
+          "method": "PUT",
+          "url": "CarePlan/demo-doublet-prior"
+        }
+      },
+      {
+        "resource": {
+          "status": "final",
+          "subject": {
+            "reference": "Patient/demo-doublet-p"
+          },
+          "code": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:research:course-binding-fixture",
+                "code": "treatment-line"
+              }
+            ]
+          },
+          "focus": [
+            {
+              "reference": "CarePlan/demo-doublet-current"
+            }
+          ],
+          "effectiveDateTime": "2026-04-15",
+          "valueInteger": 1,
+          "id": "demo-doublet-line",
+          "resourceType": "Observation",
+          "meta": {
+            "versionId": "1"
+          }
+        },
+        "request": {
+          "method": "PUT",
+          "url": "Observation/demo-doublet-line"
+        }
+      },
+      {
+        "resource": {
+          "status": "final",
+          "subject": {
+            "reference": "Patient/demo-doublet-p"
+          },
+          "code": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:research:course-binding-fixture",
+                "code": "complete-course-medication-inventory"
+              }
+            ]
+          },
+          "focus": [
+            {
+              "reference": "CarePlan/demo-doublet-current"
+            }
+          ],
+          "effectiveDateTime": "2026-04-15",
+          "valueBoolean": true,
+          "id": "demo-doublet-inventory",
+          "resourceType": "Observation",
+          "meta": {
+            "versionId": "1"
+          }
+        },
+        "request": {
+          "method": "PUT",
+          "url": "Observation/demo-doublet-inventory"
+        }
+      },
+      {
+        "resource": {
+          "status": "final",
+          "subject": {
+            "reference": "Patient/demo-doublet-p"
+          },
+          "code": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:research:course-binding-fixture",
+                "code": "course-receiving"
+              }
+            ]
+          },
+          "focus": [
+            {
+              "reference": "CarePlan/demo-doublet-current"
+            }
+          ],
+          "effectiveDateTime": "2026-04-15",
+          "valueBoolean": true,
+          "id": "demo-doublet-on-treatment",
+          "resourceType": "Observation",
+          "meta": {
+            "versionId": "1"
+          }
+        },
+        "request": {
+          "method": "PUT",
+          "url": "Observation/demo-doublet-on-treatment"
+        }
+      },
+      {
+        "resource": {
+          "subject": {
+            "reference": "Patient/demo-doublet-p"
+          },
+          "medicationCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "code": "1719003"
+              }
+            ]
+          },
+          "authoredOn": "2026-04-01",
+          "status": "active",
+          "intent": "order",
+          "basedOn": [
+            {
+              "reference": "CarePlan/demo-doublet-current"
+            }
+          ],
+          "id": "demo-doublet-0",
+          "resourceType": "MedicationRequest",
+          "meta": {
+            "versionId": "1"
+          }
+        },
+        "request": {
+          "method": "PUT",
+          "url": "MedicationRequest/demo-doublet-0"
+        }
+      },
+      {
+        "resource": {
+          "subject": {
+            "reference": "Patient/demo-doublet-p"
+          },
+          "medicationCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "code": "1719003"
+              }
+            ]
+          },
+          "effectiveDateTime": "2026-04-01",
+          "request": {
+            "reference": "MedicationRequest/demo-doublet-0"
+          },
+          "status": "completed",
+          "id": "demo-doublet-0",
+          "resourceType": "MedicationAdministration",
+          "meta": {
+            "versionId": "1"
+          }
+        },
+        "request": {
+          "method": "PUT",
+          "url": "MedicationAdministration/demo-doublet-0"
+        }
+      },
+      {
+        "resource": {
+          "subject": {
+            "reference": "Patient/demo-doublet-p"
+          },
+          "medicationCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "code": "376888"
+              }
+            ]
+          },
+          "authoredOn": "2026-04-01",
+          "status": "active",
+          "intent": "order",
+          "basedOn": [
+            {
+              "reference": "CarePlan/demo-doublet-current"
+            }
+          ],
+          "id": "demo-doublet-1",
+          "resourceType": "MedicationRequest",
+          "meta": {
+            "versionId": "1"
+          }
+        },
+        "request": {
+          "method": "PUT",
+          "url": "MedicationRequest/demo-doublet-1"
+        }
+      },
+      {
+        "resource": {
+          "subject": {
+            "reference": "Patient/demo-doublet-p"
+          },
+          "medicationCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "code": "376888"
+              }
+            ]
+          },
+          "effectiveDateTime": "2026-04-01",
+          "request": {
+            "reference": "MedicationRequest/demo-doublet-1"
+          },
+          "status": "completed",
+          "id": "demo-doublet-1",
+          "resourceType": "MedicationAdministration",
+          "meta": {
+            "versionId": "1"
+          }
+        },
+        "request": {
+          "method": "PUT",
+          "url": "MedicationAdministration/demo-doublet-1"
+        }
+      },
+      {
+        "resource": {
+          "subject": {
+            "reference": "Patient/demo-doublet-p"
+          },
+          "medicationCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "code": "1191138"
+              }
+            ]
+          },
+          "authoredOn": "2026-04-01",
+          "status": "active",
+          "intent": "order",
+          "basedOn": [
+            {
+              "reference": "CarePlan/demo-doublet-prior"
+            }
+          ],
+          "id": "demo-doublet-2",
+          "resourceType": "MedicationRequest",
+          "meta": {
+            "versionId": "1"
+          }
+        },
+        "request": {
+          "method": "PUT",
+          "url": "MedicationRequest/demo-doublet-2"
+        }
+      },
+      {
+        "resource": {
+          "subject": {
+            "reference": "Patient/demo-doublet-p"
+          },
+          "medicationCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "code": "1191138"
+              }
+            ]
+          },
+          "effectiveDateTime": "2026-04-01",
+          "request": {
+            "reference": "MedicationRequest/demo-doublet-2"
+          },
+          "status": "completed",
+          "id": "demo-doublet-2",
+          "resourceType": "MedicationAdministration",
+          "meta": {
+            "versionId": "1"
+          }
+        },
+        "request": {
+          "method": "PUT",
+          "url": "MedicationAdministration/demo-doublet-2"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "DocumentReference",
+          "id": "demo-doublet-source",
+          "status": "current",
+          "subject": {
+            "reference": "Patient/demo-doublet-p"
+          },
+          "content": [
+            {
+              "attachment": {
+                "contentType": "application/json",
+                "data": "eyJpZCI6ICJkb3VibGV0IiwgIm1lZHMiOiBbWyIxNzE5MDAzIiwgImN1cnJlbnQiXSwgWyIzNzY4ODgiLCAiY3VycmVudCJdLCBbIjExOTExMzgiLCAicHJpb3IiXV19"
+              }
+            }
+          ],
+          "meta": {
+            "versionId": "1"
+          }
+        },
+        "request": {
+          "method": "PUT",
+          "url": "DocumentReference/demo-doublet-source"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "id": "demo-doublet-metastatic",
+          "subject": {
+            "reference": "Patient/demo-doublet-p"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:research:course-binding-fixture",
+                "code": "metastatic"
+              }
+            ]
+          },
+          "focus": [
+            {
+              "reference": "Condition/demo-doublet-current"
+            }
+          ],
+          "effectiveDateTime": "2026-04-15",
+          "derivedFrom": [
+            {
+              "reference": "DocumentReference/demo-doublet-source"
+            }
+          ],
+          "valueBoolean": true,
+          "meta": {
+            "versionId": "1"
+          }
+        },
+        "request": {
+          "method": "PUT",
+          "url": "Observation/demo-doublet-metastatic"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "id": "demo-doublet-advanced-treatment-setting",
+          "subject": {
+            "reference": "Patient/demo-doublet-p"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:research:course-binding-fixture",
+                "code": "advanced_treatment_setting"
+              }
+            ]
+          },
+          "focus": [
+            {
+              "reference": "Condition/demo-doublet-current"
+            },
+            {
+              "reference": "CarePlan/demo-doublet-current"
+            }
+          ],
+          "effectiveDateTime": "2026-04-15",
+          "derivedFrom": [
+            {
+              "reference": "DocumentReference/demo-doublet-source"
+            }
+          ],
+          "valueBoolean": true,
+          "meta": {
+            "versionId": "1"
+          }
+        },
+        "request": {
+          "method": "PUT",
+          "url": "Observation/demo-doublet-advanced-treatment-setting"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "id": "demo-doublet-cycle1-start",
+          "subject": {
+            "reference": "Patient/demo-doublet-p"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:research:course-binding-fixture",
+                "code": "cycle1_start"
+              }
+            ]
+          },
+          "focus": [
+            {
+              "reference": "CarePlan/demo-doublet-current"
+            }
+          ],
+          "effectiveDateTime": "2026-04-01",
+          "derivedFrom": [
+            {
+              "reference": "DocumentReference/demo-doublet-source"
+            }
+          ],
+          "valueDateTime": "2026-04-01",
+          "meta": {
+            "versionId": "1"
+          }
+        },
+        "request": {
+          "method": "PUT",
+          "url": "Observation/demo-doublet-cycle1-start"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "id": "demo-doublet-baseline-measurable",
+          "subject": {
+            "reference": "Patient/demo-doublet-p"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:research:course-binding-fixture",
+                "code": "baseline_measurable"
+              }
+            ]
+          },
+          "focus": [
+            {
+              "reference": "Condition/demo-doublet-current"
+            },
+            {
+              "reference": "CarePlan/demo-doublet-current"
+            }
+          ],
+          "effectiveDateTime": "2026-03-28",
+          "derivedFrom": [
+            {
+              "reference": "DocumentReference/demo-doublet-source"
+            }
+          ],
+          "valueBoolean": true,
+          "method": {
+            "text": "RECIST 1.1"
+          },
+          "meta": {
+            "versionId": "1"
+          }
+        },
+        "request": {
+          "method": "PUT",
+          "url": "Observation/demo-doublet-baseline-measurable"
+        }
+      }
+    ]
+  }
+}

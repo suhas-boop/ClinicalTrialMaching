@@ -1,0 +1,95 @@
+{
+  "mode": "exact replay of in-session model responses; synthetic patients and reviewer answers",
+  "clear": {
+    "expression": {
+      "all": [
+        {
+          "fact": "age",
+          "op": "ge",
+          "value": 18
+        },
+        {
+          "fact": "ecog",
+          "op": "in",
+          "values": [
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    "patient_state": "NOT_MET"
+  },
+  "clarification": {
+    "answered_narrow": {
+      "question": "Which ECOG performance status scores qualify a participant at the screening encounter?",
+      "answer": "At screening, only ECOG scores of 0 or 1 qualify.",
+      "authoring": "EXECUTABLE",
+      "expression": {
+        "fact": "ecog",
+        "op": "in",
+        "values": [
+          0,
+          1
+        ]
+      },
+      "patient_state": "NOT_MET",
+      "evidence": [
+        "DocumentReference/doc2/_history/1",
+        "Encounter/screen/_history/1",
+        "Observation/obs2/_history/1",
+        "Patient/demo/_history/1"
+      ]
+    },
+    "answered_wide": {
+      "question": "Which ECOG performance status scores qualify a participant at the screening encounter?",
+      "answer": "At screening, ECOG scores of 0, 1, or 2 qualify.",
+      "authoring": "EXECUTABLE",
+      "expression": {
+        "fact": "ecog",
+        "op": "in",
+        "values": [
+          0,
+          1,
+          2
+        ]
+      },
+      "patient_state": "MET",
+      "evidence": [
+        "DocumentReference/doc2/_history/1",
+        "Encounter/screen/_history/1",
+        "Observation/obs2/_history/1",
+        "Patient/demo/_history/1"
+      ]
+    },
+    "answered_unclear": {
+      "question": "Which ECOG performance status scores qualify a participant at the screening encounter?",
+      "answer": "The screening team should use the usual scores.",
+      "authoring": "INVESTIGATOR_REVIEW",
+      "followup": [
+        {
+          "id": "Q2",
+          "text": "Which numerical ECOG scores does this study include when it refers to the “usual scores” at screening?"
+        }
+      ]
+    }
+  },
+  "missing_binding": {
+    "status": "BINDING_REVIEW",
+    "gaps": [
+      "The catalog needs a validated fact for this participant's screening serum albumin concentration expressed in g/dL."
+    ]
+  },
+  "exclusion": {
+    "expression": {
+      "fact": "ecog",
+      "op": "lt",
+      "value": 3
+    },
+    "patient_state": "MET"
+  },
+  "neok_uploaded_criterion": {
+    "status": "BINDING_REVIEW",
+    "reason": "A participant who turns 18 during screening can be 18 at a later encounter after failing the age requirement earlier in the period. Age at the start covers the whole period because completed age increases over time. The catalog does not establish that its screening date is the period start."
+  }
+}

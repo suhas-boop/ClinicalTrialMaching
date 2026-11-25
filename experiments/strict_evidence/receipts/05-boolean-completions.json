@@ -1,0 +1,1622 @@
+{
+  "counts": {
+    "different_completions": 106,
+    "routing_or_protocol_hold": 22
+  },
+  "cases": {
+    "20": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "MET": {
+          "unable_to_travel_for_treatment_or_followup": false
+        },
+        "NOT_MET": {
+          "unable_to_travel_for_treatment_or_followup": true
+        }
+      }
+    },
+    "25": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "MET": {
+          "malignant_hypertension": false,
+          "secondary_hypertension": false,
+          "severe_hypertension": false
+        },
+        "NOT_MET": {
+          "malignant_hypertension": false,
+          "secondary_hypertension": false,
+          "severe_hypertension": true
+        }
+      }
+    },
+    "26": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "MET": {
+          "childbearing_potential": false,
+          "pregnant": false
+        },
+        "NOT_MET": {
+          "childbearing_potential": false,
+          "pregnant": true
+        }
+      }
+    },
+    "29": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "MET": {
+          "serum_creatinine_mg_dl": 2.0
+        },
+        "NOT_MET": {
+          "serum_creatinine_mg_dl": 4.0
+        }
+      }
+    },
+    "34": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "MET": {
+          "fever_due_to_noninfectious_cause": false
+        },
+        "NOT_MET": {
+          "fever_due_to_noninfectious_cause": true
+        }
+      }
+    },
+    "36": {
+      "scope": "held before individual rule execution",
+      "state": "AUTHORING_HOLD"
+    },
+    "45": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "NOT_MET": {
+          "lung_cancer": false
+        },
+        "MET": {
+          "lung_cancer": true
+        }
+      }
+    },
+    "46": {
+      "scope": "held before individual rule execution",
+      "state": "AUTHORING_HOLD"
+    },
+    "55": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "MET": {
+          "current_pregnancy_exclusion_status_or_documented_nonapplicability": false
+        },
+        "NOT_MET": {
+          "current_pregnancy_exclusion_status_or_documented_nonapplicability": true
+        }
+      }
+    },
+    "81": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "MET": {
+          "active_severe_infection_between_screening_and_baseline": false,
+          "active_severe_infection_within_four_weeks_before_screening": false
+        },
+        "NOT_MET": {
+          "active_severe_infection_between_screening_and_baseline": false,
+          "active_severe_infection_within_four_weeks_before_screening": true
+        }
+      }
+    },
+    "108": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "MET": {
+          "hemodynamically_unstable": false
+        },
+        "NOT_MET": {
+          "hemodynamically_unstable": true
+        }
+      }
+    },
+    "109": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "MET": {
+          "septic_shock": false
+        },
+        "NOT_MET": {
+          "septic_shock": true
+        }
+      }
+    },
+    "111": {
+      "scope": "held before individual rule execution",
+      "state": "AUTHORING_HOLD"
+    },
+    "115": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "MET": {
+          "cutaneous_ulcer_due_to_insect_bite": false,
+          "cutaneous_ulcer_due_to_leishmania": false
+        },
+        "NOT_MET": {
+          "cutaneous_ulcer_due_to_insect_bite": false,
+          "cutaneous_ulcer_due_to_leishmania": true
+        }
+      }
+    },
+    "116": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "MET": {
+          "cutaneous_ulcer_due_to_burns": false
+        },
+        "NOT_MET": {
+          "cutaneous_ulcer_due_to_burns": true
+        }
+      }
+    },
+    "120": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "NOT_MET": {
+          "index_insulin_resistance_on_ivgtt": false,
+          "index_insulin_resistance_on_ogtt": false,
+          "parent_of_index_subject": false,
+          "sibling_of_index_subject": false
+        },
+        "MET": {
+          "index_insulin_resistance_on_ivgtt": false,
+          "index_insulin_resistance_on_ogtt": true,
+          "parent_of_index_subject": false,
+          "sibling_of_index_subject": true
+        }
+      }
+    },
+    "130": {
+      "scope": "held before individual rule execution",
+      "state": "AUTHORING_HOLD"
+    },
+    "132": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "MET": {
+          "breastfeeding": false,
+          "pregnant": false
+        },
+        "NOT_MET": {
+          "breastfeeding": false,
+          "pregnant": true
+        }
+      }
+    },
+    "138": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "MET": {
+          "any_past_or_current_antipsychotic_treatment": false
+        },
+        "NOT_MET": {
+          "any_past_or_current_antipsychotic_treatment": true
+        }
+      }
+    },
+    "140": {
+      "scope": "held before individual rule execution",
+      "state": "AUTHORING_HOLD"
+    },
+    "142": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "INVESTIGATOR_ACTIONS",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "NOT_MET": {
+          "study_personnel_confirm_current_mci_symptoms": false
+        },
+        "MET": {
+          "study_personnel_confirm_current_mci_symptoms": true
+        }
+      }
+    },
+    "145": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "MET": {
+          "active_suicidal_ideation": false
+        },
+        "NOT_MET": {
+          "active_suicidal_ideation": true
+        }
+      }
+    },
+    "147": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "MET": {
+          "previous_deep_brain_stimulation_surgery": false
+        },
+        "NOT_MET": {
+          "previous_deep_brain_stimulation_surgery": true
+        }
+      }
+    },
+    "150": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "STUDY_ACTION",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "NOT_MET": {
+          "enrolled_two_year_blinded_ASA_trial": false,
+          "entered_three_year_ASA_extension": false
+        },
+        "MET": {
+          "enrolled_two_year_blinded_ASA_trial": true,
+          "entered_three_year_ASA_extension": true
+        }
+      }
+    },
+    "154": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "NOT_MET": {
+          "fitzpatrick_I": false,
+          "fitzpatrick_II": false,
+          "fitzpatrick_III": false,
+          "healthy_subject": false
+        },
+        "MET": {
+          "fitzpatrick_I": false,
+          "fitzpatrick_II": false,
+          "fitzpatrick_III": true,
+          "healthy_subject": true
+        }
+      }
+    },
+    "171": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "MET": {
+          "inr": 1,
+          "systemic_anticoagulation": false
+        },
+        "NOT_MET": {
+          "inr": 3,
+          "systemic_anticoagulation": false
+        }
+      }
+    },
+    "174": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "MET": {
+          "prior_axillary_surgery": false
+        },
+        "NOT_MET": {
+          "prior_axillary_surgery": true
+        }
+      }
+    },
+    "177": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "NOT_MET": {
+          "maintenance_hemodialysis_after_central_venous_catheterization": false
+        },
+        "MET": {
+          "maintenance_hemodialysis_after_central_venous_catheterization": true
+        }
+      }
+    },
+    "179": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "MET": {
+          "prior_central_venous_puncture_or_catheterization": false
+        },
+        "NOT_MET": {
+          "prior_central_venous_puncture_or_catheterization": true
+        }
+      }
+    },
+    "184": {
+      "scope": "held before individual rule execution",
+      "state": "AUTHORING_HOLD"
+    },
+    "185": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "NOT_MET": {
+          "diagnosed_ards": false,
+          "diagnosed_shock": false
+        },
+        "MET": {
+          "diagnosed_ards": false,
+          "diagnosed_shock": true
+        }
+      }
+    },
+    "186": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "NOT_MET": {
+          "heart_rate": 89
+        },
+        "MET": {
+          "heart_rate": 90
+        }
+      }
+    },
+    "187": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "MET": {
+          "paco2_mmhg": 31,
+          "receiving_mechanical_ventilation": false,
+          "respiratory_rate": 19
+        },
+        "NOT_MET": {
+          "paco2_mmhg": 33,
+          "receiving_mechanical_ventilation": false,
+          "respiratory_rate": 19
+        }
+      }
+    },
+    "203": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "NOT_MET": {
+          "positive_thyroid_peroxidase_antibodies": false
+        },
+        "MET": {
+          "positive_thyroid_peroxidase_antibodies": true
+        }
+      }
+    },
+    "212": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "MET": {
+          "refused_written_consent": false
+        },
+        "NOT_MET": {
+          "refused_written_consent": true
+        }
+      }
+    },
+    "217": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "MET": {
+          "traumatic_cause_of_presenting_dyspnea": false
+        },
+        "NOT_MET": {
+          "traumatic_cause_of_presenting_dyspnea": true
+        }
+      }
+    },
+    "218": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "MET": {
+          "serum_creatinine_mg_dl": 1.8199999999999998,
+          "serum_creatinine_umol_l": null
+        },
+        "NOT_MET": {
+          "serum_creatinine_mg_dl": 3.82,
+          "serum_creatinine_umol_l": null
+        }
+      }
+    },
+    "226": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "MET": {
+          "first_surgery_before_study_start": false,
+          "recurrent_hematoma": false
+        },
+        "NOT_MET": {
+          "first_surgery_before_study_start": true,
+          "recurrent_hematoma": true
+        }
+      }
+    },
+    "227": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "MET": {
+          "csh_due_to_meningeosis_carcinomatosa": false,
+          "csh_due_to_spinal_csf_fistula": false
+        },
+        "NOT_MET": {
+          "csh_due_to_meningeosis_carcinomatosa": false,
+          "csh_due_to_spinal_csf_fistula": true
+        }
+      }
+    },
+    "230": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "NOT_MET": {
+          "symptomatic_chronic_subdural_hematoma": false
+        },
+        "MET": {
+          "symptomatic_chronic_subdural_hematoma": true
+        }
+      }
+    },
+    "231": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "NOT_MET": {
+          "chronic_subdural_hematoma_verified_on_ct_or_mri": false
+        },
+        "MET": {
+          "chronic_subdural_hematoma_verified_on_ct_or_mri": true
+        }
+      }
+    },
+    "232": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "INVESTIGATOR_ACTIONS",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "MET": {
+          "surgeon_decided_craniotomy_intraoperatively": false
+        },
+        "NOT_MET": {
+          "surgeon_decided_craniotomy_intraoperatively": true
+        }
+      }
+    },
+    "233": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "MET": {
+          "csh_due_to_underlying_illness": false
+        },
+        "NOT_MET": {
+          "csh_due_to_underlying_illness": true
+        }
+      }
+    },
+    "235": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "NOT_MET": {
+          "bulk_symptoms": false,
+          "menorrhagia": false,
+          "symptoms_attributed_to_uterine_fibroids": false
+        },
+        "MET": {
+          "bulk_symptoms": false,
+          "menorrhagia": true,
+          "symptoms_attributed_to_uterine_fibroids": true
+        }
+      }
+    },
+    "239": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "MET": {
+          "postmenopausal_woman": false
+        },
+        "NOT_MET": {
+          "postmenopausal_woman": true
+        }
+      }
+    },
+    "307": {
+      "scope": "held before individual rule execution",
+      "state": "AUTHORING_HOLD"
+    },
+    "322": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "MET": {
+          "adequate_contraception": false,
+          "in_protocol_women_population": false,
+          "pregnant": false,
+          "woman_of_childbearing_age": false
+        },
+        "NOT_MET": {
+          "adequate_contraception": false,
+          "in_protocol_women_population": true,
+          "pregnant": false,
+          "woman_of_childbearing_age": true
+        }
+      }
+    },
+    "323": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "NOT_MET": {
+          "early_bone_marrow_failure_in_childhood": false
+        },
+        "MET": {
+          "early_bone_marrow_failure_in_childhood": true
+        }
+      }
+    },
+    "328": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "MET": {
+          "family_history_of_bleeding": false,
+          "infant_history_of_bleeding": false
+        },
+        "NOT_MET": {
+          "family_history_of_bleeding": false,
+          "infant_history_of_bleeding": true
+        }
+      }
+    },
+    "329": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "MET": {
+          "coagulopathy": false
+        },
+        "NOT_MET": {
+          "coagulopathy": true
+        }
+      }
+    },
+    "330": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "MET": {
+          "history_of_gi_bleeding": false
+        },
+        "NOT_MET": {
+          "history_of_gi_bleeding": true
+        }
+      }
+    },
+    "332": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "NOT_MET": {
+          "gestation_at_birth_weeks": 35
+        },
+        "MET": {
+          "gestation_at_birth_weeks": 36
+        }
+      }
+    },
+    "336": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "MET": {
+          "consent_absent": false,
+          "consent_refused": false
+        },
+        "NOT_MET": {
+          "consent_absent": false,
+          "consent_refused": true
+        }
+      }
+    },
+    "359": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "MET": {
+          "gastric_carcinoma": false
+        },
+        "NOT_MET": {
+          "gastric_carcinoma": true
+        }
+      }
+    },
+    "366": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "NOT_MET": {
+          "blunt_abdominal_trauma": false,
+          "open_laparotomy_required_for_abdominal_trauma_with_primary_closure": false,
+          "penetrating_abdominal_trauma": false
+        },
+        "MET": {
+          "blunt_abdominal_trauma": false,
+          "open_laparotomy_required_for_abdominal_trauma_with_primary_closure": true,
+          "penetrating_abdominal_trauma": true
+        }
+      }
+    },
+    "367": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "NOT_MET": {
+          "acute_surgical_abdomen": false,
+          "open_laparotomy_required_for_acute_surgical_abdomen_with_primary_closure": false
+        },
+        "MET": {
+          "acute_surgical_abdomen": true,
+          "open_laparotomy_required_for_acute_surgical_abdomen_with_primary_closure": true
+        }
+      }
+    },
+    "379": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "MET": {
+          "pregnant": false
+        },
+        "NOT_MET": {
+          "pregnant": true
+        }
+      }
+    },
+    "385": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "NOT_MET": {
+          "can_retain_oral_medication": false,
+          "can_take_oral_medication": false
+        },
+        "MET": {
+          "can_retain_oral_medication": true,
+          "can_take_oral_medication": true
+        }
+      }
+    },
+    "396": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "MET": {
+          "current_uncontrolled_angina": false,
+          "ecg_acute_ischemia": false,
+          "history_of_mi": false,
+          "severe_uncontrolled_ventricular_arrhythmia": false,
+          "symptomatic_congestive_heart_failure": false,
+          "unstable_angina": false
+        },
+        "NOT_MET": {
+          "current_uncontrolled_angina": false,
+          "ecg_acute_ischemia": false,
+          "history_of_mi": false,
+          "severe_uncontrolled_ventricular_arrhythmia": false,
+          "symptomatic_congestive_heart_failure": false,
+          "unstable_angina": true
+        }
+      }
+    },
+    "397": {
+      "scope": "held before individual rule execution",
+      "state": "AUTHORING_HOLD"
+    },
+    "400": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "MET": {
+          "current_ischemic_cns_disease": false,
+          "history_ischemic_cns_disease": false
+        },
+        "NOT_MET": {
+          "current_ischemic_cns_disease": false,
+          "history_ischemic_cns_disease": true
+        }
+      }
+    },
+    "401": {
+      "scope": "held before individual rule execution",
+      "state": "AUTHORING_HOLD"
+    },
+    "402": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "MET": {
+          "current_severe_infection": false
+        },
+        "NOT_MET": {
+          "current_severe_infection": true
+        }
+      }
+    },
+    "414": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "NOT_MET": {
+          "systemic_lupus_erythematosus": false
+        },
+        "MET": {
+          "systemic_lupus_erythematosus": true
+        }
+      }
+    },
+    "418": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "MET": {
+          "failed_mri_metal_screen": false
+        },
+        "NOT_MET": {
+          "failed_mri_metal_screen": true
+        }
+      }
+    },
+    "419": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "MET": {
+          "claustrophobia": false,
+          "sedation_required_to_hold_still": false
+        },
+        "NOT_MET": {
+          "claustrophobia": false,
+          "sedation_required_to_hold_still": true
+        }
+      }
+    },
+    "435": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "MET": {
+          "chest_ct_showed_active_tb": false,
+          "chest_ct_showed_ild": false,
+          "chest_ct_showed_lung_cancer": false,
+          "chest_ct_showed_pulmonary_thromboembolism": false
+        },
+        "NOT_MET": {
+          "chest_ct_showed_active_tb": false,
+          "chest_ct_showed_ild": false,
+          "chest_ct_showed_lung_cancer": false,
+          "chest_ct_showed_pulmonary_thromboembolism": true
+        }
+      }
+    },
+    "437": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "NOT_MET": {
+          "index_copd_dyspnea_increased": false,
+          "index_copd_exacerbation_days_since_onset_at_presentation": 13,
+          "index_copd_exacerbation_required_hospitalization": false,
+          "index_copd_gold_stage_i_to_iv_confirmed": false,
+          "index_copd_sputum_purulence_increased": false,
+          "index_copd_sputum_volume_increased": false
+        },
+        "MET": {
+          "index_copd_dyspnea_increased": false,
+          "index_copd_exacerbation_days_since_onset_at_presentation": 13,
+          "index_copd_exacerbation_required_hospitalization": true,
+          "index_copd_gold_stage_i_to_iv_confirmed": true,
+          "index_copd_sputum_purulence_increased": true,
+          "index_copd_sputum_volume_increased": true
+        }
+      }
+    },
+    "454": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "NOT_MET": {
+          "undergoing_emergency_laparotomy": false
+        },
+        "MET": {
+          "undergoing_emergency_laparotomy": true
+        }
+      }
+    },
+    "460": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "NOT_MET": {
+          "ct_cerebral_edema": false,
+          "ct_diffuse_axonal_injury": false,
+          "ct_intracranial_hemorrhage": false,
+          "gcs_motor": 2,
+          "normal_head_ct": false,
+          "traumatic_brain_injury": false
+        },
+        "MET": {
+          "ct_cerebral_edema": false,
+          "ct_diffuse_axonal_injury": false,
+          "ct_intracranial_hemorrhage": false,
+          "gcs_motor": 2,
+          "normal_head_ct": true,
+          "traumatic_brain_injury": true
+        }
+      }
+    },
+    "467": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "MET": {
+          "greater_than_mild_preinjury_neurodevelopmental_disability": false
+        },
+        "NOT_MET": {
+          "greater_than_mild_preinjury_neurodevelopmental_disability": true
+        }
+      }
+    },
+    "468": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "MET": {
+          "acute_isolated_epidural_hematoma": false,
+          "rapid_recovery_expected_after_surgical_removal": false
+        },
+        "NOT_MET": {
+          "acute_isolated_epidural_hematoma": true,
+          "rapid_recovery_expected_after_surgical_removal": true
+        }
+      }
+    },
+    "475": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "MET": {
+          "child_involved_in_motor_vehicle_collision_at_index_injury": false
+        },
+        "NOT_MET": {
+          "child_involved_in_motor_vehicle_collision_at_index_injury": true
+        }
+      }
+    },
+    "476": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "MET": {
+          "child_injured_by_another_rider_at_index_injury": false
+        },
+        "NOT_MET": {
+          "child_injured_by_another_rider_at_index_injury": true
+        }
+      }
+    },
+    "477": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "MET": {
+          "index_incident_involved_bicycle_with_bull_bars": false
+        },
+        "NOT_MET": {
+          "index_incident_involved_bicycle_with_bull_bars": true
+        }
+      }
+    },
+    "481": {
+      "scope": "held before individual rule execution",
+      "state": "SOURCE_SCOPE_HOLD"
+    },
+    "492": {
+      "scope": "held before individual rule execution",
+      "state": "SOURCE_SCOPE_HOLD"
+    },
+    "493": {
+      "scope": "held before individual rule execution",
+      "state": "SOURCE_SCOPE_HOLD"
+    },
+    "494": {
+      "scope": "held before individual rule execution",
+      "state": "SOURCE_SCOPE_HOLD"
+    },
+    "495": {
+      "scope": "held before individual rule execution",
+      "state": "SOURCE_SCOPE_HOLD"
+    },
+    "496": {
+      "scope": "held before individual rule execution",
+      "state": "SOURCE_SCOPE_HOLD"
+    },
+    "497": {
+      "scope": "held before individual rule execution",
+      "state": "SOURCE_SCOPE_HOLD"
+    },
+    "498": {
+      "scope": "held before individual rule execution",
+      "state": "AUTHORING_HOLD"
+    },
+    "502": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "MET": {
+          "who_performance_status": 0
+        },
+        "NOT_MET": {
+          "who_performance_status": 2
+        }
+      }
+    },
+    "544": {
+      "scope": "held before individual rule execution",
+      "state": "AUTHORING_HOLD"
+    },
+    "621": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "NOT_MET": {
+          "has_social_insurance": false
+        },
+        "MET": {
+          "has_social_insurance": true
+        }
+      }
+    },
+    "632": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "MET": {
+          "unable_to_provide_written_consent": false
+        },
+        "NOT_MET": {
+          "unable_to_provide_written_consent": true
+        }
+      }
+    },
+    "636": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "NOT_MET": {
+          "lipid_lowering_treatment_months": 2
+        },
+        "MET": {
+          "lipid_lowering_treatment_months": 3
+        }
+      }
+    },
+    "637": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "NOT_MET": {
+          "lipid_lowering_regimen_stable_six_weeks_immediately_before_enrolment": false
+        },
+        "MET": {
+          "lipid_lowering_regimen_stable_six_weeks_immediately_before_enrolment": true
+        }
+      }
+    },
+    "640": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "INVESTIGATOR_ACTIONS",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "NOT_MET": {
+          "typical_chest_pain": false
+        },
+        "MET": {
+          "typical_chest_pain": true
+        }
+      }
+    },
+    "653": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "MET": {
+          "unable_to_speak_english": false
+        },
+        "NOT_MET": {
+          "unable_to_speak_english": true
+        }
+      }
+    },
+    "671": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "NOT_MET": {
+          "unipolar_major_depressive_disorder": false
+        },
+        "MET": {
+          "unipolar_major_depressive_disorder": true
+        }
+      }
+    },
+    "706": {
+      "scope": "held before individual rule execution",
+      "state": "AUTHORING_HOLD"
+    },
+    "720": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "MET": {
+          "unexplained_menstrual_irregularity": false
+        },
+        "NOT_MET": {
+          "unexplained_menstrual_irregularity": true
+        }
+      }
+    },
+    "722": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "MET": {
+          "prior_thyroid_tissue_resection": false
+        },
+        "NOT_MET": {
+          "prior_thyroid_tissue_resection": true
+        }
+      }
+    },
+    "723": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "MET": {
+          "prior_neck_irradiation": false
+        },
+        "NOT_MET": {
+          "prior_neck_irradiation": true
+        }
+      }
+    },
+    "724": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "MET": {
+          "prior_radioactive_iodine_therapy": false
+        },
+        "NOT_MET": {
+          "prior_radioactive_iodine_therapy": true
+        }
+      }
+    },
+    "725": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "MET": {
+          "prior_treatment_amiodarone": false,
+          "prior_treatment_ethionamide": false,
+          "prior_treatment_lithium": false,
+          "prior_treatment_methimazole": false,
+          "prior_treatment_propylthiouracil": false,
+          "prior_treatment_sunitinib": false
+        },
+        "NOT_MET": {
+          "prior_treatment_amiodarone": false,
+          "prior_treatment_ethionamide": false,
+          "prior_treatment_lithium": false,
+          "prior_treatment_methimazole": false,
+          "prior_treatment_propylthiouracil": false,
+          "prior_treatment_sunitinib": true
+        }
+      }
+    },
+    "726": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "MET": {
+          "prior_celiac_serology": false
+        },
+        "NOT_MET": {
+          "prior_celiac_serology": true
+        }
+      }
+    },
+    "734": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "MET": {
+          "congenital_immunodeficiency": false
+        },
+        "NOT_MET": {
+          "congenital_immunodeficiency": true
+        }
+      }
+    },
+    "735": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "MET": {
+          "hiv": false
+        },
+        "NOT_MET": {
+          "hiv": true
+        }
+      }
+    },
+    "736": {
+      "scope": "held before individual rule execution",
+      "state": "AUTHORING_HOLD"
+    },
+    "737": {
+      "scope": "held before individual rule execution",
+      "state": "AUTHORING_HOLD"
+    },
+    "738": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "MET": {
+          "tuberculosis": false
+        },
+        "NOT_MET": {
+          "tuberculosis": true
+        }
+      }
+    },
+    "795": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "MET": {
+          "unable_to_speak_french": false
+        },
+        "NOT_MET": {
+          "unable_to_speak_french": true
+        }
+      }
+    },
+    "817": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "MET": {
+          "neurologic_symptoms_nonvascular_origin_after_ct_or_mri": false
+        },
+        "NOT_MET": {
+          "neurologic_symptoms_nonvascular_origin_after_ct_or_mri": true
+        }
+      }
+    },
+    "850": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "MET": {
+          "asthma_exacerbations_per_week": 1
+        },
+        "NOT_MET": {
+          "asthma_exacerbations_per_week": 3
+        }
+      }
+    },
+    "860": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "MET": {
+          "reports_never_had_sexual_intercourse": false,
+          "unmarried": false
+        },
+        "NOT_MET": {
+          "reports_never_had_sexual_intercourse": true,
+          "unmarried": true
+        }
+      }
+    },
+    "866": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "NOT_MET": {
+          "aliquot_with_valid_aptima_hpv_tigris_result_from_2007HPVASCUS30": false
+        },
+        "MET": {
+          "aliquot_with_valid_aptima_hpv_tigris_result_from_2007HPVASCUS30": true
+        }
+      }
+    },
+    "867": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "NOT_MET": {
+          "aliquot_available": false,
+          "aliquot_suitable_for_testing": false
+        },
+        "MET": {
+          "aliquot_available": true,
+          "aliquot_suitable_for_testing": true
+        }
+      }
+    },
+    "870": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "NOT_MET": {
+          "significant_heart_failure_symptoms_developed_in_hospital_initially_admitted_for_other_reason": false,
+          "worsening_heart_failure_primary_admission_reason": false
+        },
+        "MET": {
+          "significant_heart_failure_symptoms_developed_in_hospital_initially_admitted_for_other_reason": false,
+          "worsening_heart_failure_primary_admission_reason": true
+        }
+      }
+    },
+    "875": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "NOT_MET": {
+          "hospital_admission": false,
+          "transferred_to_observation_unit": false
+        },
+        "MET": {
+          "hospital_admission": false,
+          "transferred_to_observation_unit": true
+        }
+      }
+    },
+    "890": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "NOT_MET": {
+          "cognitive_impairment_on_admission_screen": false
+        },
+        "MET": {
+          "cognitive_impairment_on_admission_screen": true
+        }
+      }
+    },
+    "919": {
+      "scope": "held before individual rule execution",
+      "state": "AUTHORING_HOLD"
+    },
+    "935": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "INVESTIGATOR_ACTIONS",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "NOT_MET": {
+          "enrolling_physician_considers_mycobacterial_culture_likely_positive": false
+        },
+        "MET": {
+          "enrolling_physician_considers_mycobacterial_culture_likely_positive": true
+        }
+      }
+    },
+    "936": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "STUDY_ACTION",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "NOT_APPLICABLE": {
+          "china_subject": false,
+          "positive_sputum_genexpert_mtb_rif": false
+        },
+        "NOT_MET": {
+          "china_subject": true,
+          "positive_sputum_genexpert_mtb_rif": false
+        }
+      }
+    },
+    "938": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "PATIENT_SURVEY",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "NOT_MET": {
+          "willing_to_provide_blood_samples": false
+        },
+        "MET": {
+          "willing_to_provide_blood_samples": true
+        }
+      }
+    },
+    "939": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "PATIENT_SURVEY",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "NOT_MET": {
+          "willing_to_store_samples": false
+        },
+        "MET": {
+          "willing_to_store_samples": true
+        }
+      }
+    },
+    "940": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "MET": {
+          "acute_kidney_disease": false,
+          "acute_liver_disease": false
+        },
+        "NOT_MET": {
+          "acute_kidney_disease": false,
+          "acute_liver_disease": true
+        }
+      }
+    },
+    "945": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "MET": {
+          "current_unlicensed_investigational_aspergillosis_drug": false
+        },
+        "NOT_MET": {
+          "current_unlicensed_investigational_aspergillosis_drug": true
+        }
+      }
+    },
+    "946": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "MET": {
+          "qualifying_antifungal_course_days": 6
+        },
+        "NOT_MET": {
+          "qualifying_antifungal_course_days": 8
+        }
+      }
+    },
+    "952": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "MET": {
+          "extubation_unlikely_within_24h_of_entry": false,
+          "on_artificial_ventilation": false
+        },
+        "NOT_MET": {
+          "extubation_unlikely_within_24h_of_entry": true,
+          "on_artificial_ventilation": true
+        }
+      }
+    },
+    "953": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "MET": {
+          "prior_azole_or_echinocandin_allergy_hypersensitivity_or_serious_reaction": false
+        },
+        "NOT_MET": {
+          "prior_azole_or_echinocandin_allergy_hypersensitivity_or_serious_reaction": true
+        }
+      }
+    },
+    "955": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "INVESTIGATOR_ACTIONS",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "MET": {
+          "investigator_identified_unacceptable_risk_from_concomitant_condition": false
+        },
+        "NOT_MET": {
+          "investigator_identified_unacceptable_risk_from_concomitant_condition": true
+        }
+      }
+    },
+    "957": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "INVESTIGATOR_ACTIONS",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "NOT_MET": {
+          "estimated_remaining_life_days": 6
+        },
+        "MET": {
+          "estimated_remaining_life_days": 7
+        }
+      }
+    },
+    "962": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "MET": {
+          "abnormal_neurologic_exam": false,
+          "impaired_consciousness": false,
+          "jaundice": false,
+          "malaria": false,
+          "non_falciparum_species_on_microscopy": false,
+          "parasites_per_ml": 99999,
+          "patient_reported_hematuria": false,
+          "persistent_vomiting": false,
+          "respiratory_distress": false,
+          "seizures": false,
+          "severe_or_complicated_malaria": false
+        },
+        "NOT_MET": {
+          "abnormal_neurologic_exam": false,
+          "impaired_consciousness": false,
+          "jaundice": false,
+          "malaria": true,
+          "non_falciparum_species_on_microscopy": false,
+          "parasites_per_ml": 99999,
+          "patient_reported_hematuria": false,
+          "persistent_vomiting": false,
+          "respiratory_distress": false,
+          "seizures": false,
+          "severe_or_complicated_malaria": true
+        }
+      }
+    },
+    "965": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "MET": {
+          "history_of_blood_dyscrasia": false
+        },
+        "NOT_MET": {
+          "history_of_blood_dyscrasia": true
+        }
+      }
+    },
+    "985": {
+      "scope": "hypothetical rule operands only",
+      "observed_state": "MISSING_DATA",
+      "two_distinct_witnesses": true,
+      "witnesses": {
+        "MET": {
+          "chest_tube_in_place": false
+        },
+        "NOT_MET": {
+          "chest_tube_in_place": true
+        }
+      }
+    }
+  }
+}

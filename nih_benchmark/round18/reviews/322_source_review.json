@@ -1,0 +1,22 @@
+{
+  "trial": "NCT01745731",
+  "sponsor_protocol": "CMMo/RH/2009",
+  "registry": "2009-017793-20",
+  "final_report_url": "https://www.clinicaltrialsregister.eu/ctr-search/rest/download/result/attachment/2009-017793-20/1/47509",
+  "result_page": "https://www.clinicaltrialsregister.eu/ctr-search/trial/2009-017793-20/results",
+  "pdf_sha256": "c82dc5885f10ad12019c95b3dca3e0010a5c71b4e6945edfcbef3f6ac998d679",
+  "pdf_pages": 33,
+  "reviewed_pages": [
+    13,
+    15,
+    16,
+    17
+  ],
+  "findings": {
+    "13": "The sponsor describes subjects of both sexes.",
+    "15-16": "Inclusion item 5 requires a negative serum pregnancy test at inclusion for women of childbearing age using usual hospital procedures, plus commitment to double contraception through the study.",
+    "16": "Exclusion 14 identifies pregnant women and women of childbearing age without adequate contraceptive method.",
+    "17": "Baseline sex tabulation uses male and female categories."
+  },
+  "unresolved": "The report gives neither a sex-at-birth/data-dictionary definition nor adjudication of discordant evidence. No unsafe inference from demographics is justified."
+}

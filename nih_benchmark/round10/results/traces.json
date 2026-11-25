@@ -1,0 +1,6071 @@
+{
+  "108": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "108": {
+        "evidence": [],
+        "facts": {
+          "hemodynamically_unstable": {
+            "contract": "f-df9a7940ddd70d47ffe11a4e",
+            "evidence": [],
+            "label": "hemodynamically_unstable",
+            "state": "BINDING_HOLD",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Negated protocol condition. Implement a patient-chart mapping for hemodynamically unstable.",
+        "source_sentences": [],
+        "state": "BINDING_HOLD"
+      }
+    },
+    "requests": [
+      {
+        "contract": "f-df9a7940ddd70d47ffe11a4e",
+        "criteria": [
+          "108"
+        ],
+        "id": "957b095323016c72a746ad60de3c35fb8efbf5ce5a0ad3d38f21279f0e2ff605",
+        "request": "hemodynamically unstable",
+        "route": "engineering"
+      }
+    ],
+    "source_sha256": "22f6ea5a775d6019acbaea70d047802924963c446af7e6dc2e61ef9f88c0abe9",
+    "work": {
+      "engineering_items": 1,
+      "evidence_backed_decisions": 0,
+      "human_questions": 0,
+      "record_lookups": 0
+    }
+  },
+  "109": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "109": {
+        "evidence": [],
+        "facts": {
+          "septic_shock": {
+            "contract": "f-41547f77f0443d4546335758",
+            "evidence": [],
+            "label": "septic_shock",
+            "state": "MISSING_DATA",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Negated protocol condition. Obtain source-linked septic shock.",
+        "source_sentences": [],
+        "state": "MISSING_DATA"
+      }
+    },
+    "requests": [
+      {
+        "criteria": [
+          "109"
+        ],
+        "id": "08b4a0170e150d0732ad4b6cb1366681a6557e10479742a50335e7667529b665",
+        "request": "septic shock",
+        "route": "retrieve_record"
+      }
+    ],
+    "source_sha256": "22f6ea5a775d6019acbaea70d047802924963c446af7e6dc2e61ef9f88c0abe9",
+    "work": {
+      "engineering_items": 0,
+      "evidence_backed_decisions": 0,
+      "human_questions": 0,
+      "record_lookups": 1
+    }
+  },
+  "111": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "111": {
+        "evidence": [],
+        "facts": {},
+        "partial_evidence": [],
+        "reason": "Must the enteral fistula be the documented cause of the ulcer, or is coexistence sufficient?",
+        "source_sentences": [],
+        "state": "AUTHORING_HOLD"
+      }
+    },
+    "requests": [
+      {
+        "criteria": [
+          "111"
+        ],
+        "id": "0ebc23aba8986a215e0bb1c49e304a03b6f8d77a39694beb5b86c44d3e11025b",
+        "request": "Must the enteral fistula be the documented cause of the ulcer, or is coexistence sufficient?",
+        "route": "protocol_review"
+      }
+    ],
+    "source_sha256": "22f6ea5a775d6019acbaea70d047802924963c446af7e6dc2e61ef9f88c0abe9",
+    "work": {
+      "engineering_items": 0,
+      "evidence_backed_decisions": 0,
+      "human_questions": 1,
+      "record_lookups": 0
+    }
+  },
+  "115": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "115": {
+        "evidence": [],
+        "facts": {
+          "cutaneous_ulcer_due_to_insect_bite": {
+            "contract": "f-b6d88dbc3c340c7675824653",
+            "evidence": [],
+            "label": "cutaneous_ulcer_due_to_insect_bite",
+            "state": "MISSING_DATA",
+            "value": null
+          },
+          "cutaneous_ulcer_due_to_leishmania": {
+            "contract": "f-ad4260dc2e81ec302169ad82",
+            "evidence": [],
+            "label": "cutaneous_ulcer_due_to_leishmania",
+            "state": "MISSING_DATA",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Negated protocol condition. Obtain source-linked cutaneous ulcer due to leishmania. Obtain source-linked cutaneous ulcer due to insect bite.",
+        "source_sentences": [],
+        "state": "MISSING_DATA"
+      }
+    },
+    "requests": [
+      {
+        "criteria": [
+          "115"
+        ],
+        "id": "9f4065ea0723c8e9370b731d2613c2bcb0e303a16e498986560788e97ae681fb",
+        "request": "cutaneous ulcer due to leishmania",
+        "route": "retrieve_record"
+      },
+      {
+        "criteria": [
+          "115"
+        ],
+        "id": "4d29409397289dcef3f23b8298f3c07e00aedd013a8423dffe3e7c2bafc1a8da",
+        "request": "cutaneous ulcer due to insect bite",
+        "route": "retrieve_record"
+      }
+    ],
+    "source_sha256": "22f6ea5a775d6019acbaea70d047802924963c446af7e6dc2e61ef9f88c0abe9",
+    "work": {
+      "engineering_items": 0,
+      "evidence_backed_decisions": 0,
+      "human_questions": 0,
+      "record_lookups": 2
+    }
+  },
+  "116": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "116": {
+        "evidence": [],
+        "facts": {
+          "cutaneous_ulcer_due_to_burns": {
+            "contract": "f-c420d0ad806ceaad708d3a74",
+            "evidence": [],
+            "label": "cutaneous_ulcer_due_to_burns",
+            "state": "MISSING_DATA",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Negated protocol condition. Obtain source-linked cutaneous ulcer due to burns.",
+        "source_sentences": [],
+        "state": "MISSING_DATA"
+      }
+    },
+    "requests": [
+      {
+        "criteria": [
+          "116"
+        ],
+        "id": "eb3aaeb4e36753e40cd541879303b7ec530cbca6be80e57f49334daf37ccba00",
+        "request": "cutaneous ulcer due to burns",
+        "route": "retrieve_record"
+      }
+    ],
+    "source_sha256": "22f6ea5a775d6019acbaea70d047802924963c446af7e6dc2e61ef9f88c0abe9",
+    "work": {
+      "engineering_items": 0,
+      "evidence_backed_decisions": 0,
+      "human_questions": 0,
+      "record_lookups": 1
+    }
+  },
+  "120": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "120": {
+        "evidence": [],
+        "facts": {
+          "index_insulin_resistance_on_ivgtt": {
+            "contract": "f-8e7391f875d0293fe6897f17",
+            "evidence": [],
+            "label": "index_insulin_resistance_on_ivgtt",
+            "state": "BINDING_HOLD",
+            "value": null
+          },
+          "index_insulin_resistance_on_ogtt": {
+            "contract": "f-d73eb4d694dcc85939ddd0f7",
+            "evidence": [],
+            "label": "index_insulin_resistance_on_ogtt",
+            "state": "BINDING_HOLD",
+            "value": null
+          },
+          "parent_of_index_subject": {
+            "contract": "f-9a548f778607de2af99380c9",
+            "evidence": [],
+            "label": "parent_of_index_subject",
+            "state": "BINDING_HOLD",
+            "value": null
+          },
+          "sibling_of_index_subject": {
+            "contract": "f-7e38fb30716008c2c1fa796a",
+            "evidence": [],
+            "label": "sibling_of_index_subject",
+            "state": "BINDING_HOLD",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Implement a patient-chart mapping for sibling of index subject. Implement a patient-chart mapping for parent of index subject. Implement a patient-chart mapping for index insulin resistance on ogtt. Implement a patient-chart mapping for index insulin resistance on ivgtt.",
+        "source_sentences": [],
+        "state": "BINDING_HOLD"
+      }
+    },
+    "requests": [
+      {
+        "contract": "f-7e38fb30716008c2c1fa796a",
+        "criteria": [
+          "120"
+        ],
+        "id": "a9a18873e8c69cb30bc045088e3218e543543c8b4d9f6f302553504492788082",
+        "request": "sibling of index subject",
+        "route": "engineering"
+      },
+      {
+        "contract": "f-9a548f778607de2af99380c9",
+        "criteria": [
+          "120"
+        ],
+        "id": "f35359006a61b9a1b3eae8f10291274714d43a107e6ac2e19b7376a997905870",
+        "request": "parent of index subject",
+        "route": "engineering"
+      },
+      {
+        "contract": "f-d73eb4d694dcc85939ddd0f7",
+        "criteria": [
+          "120"
+        ],
+        "id": "36164aec2f254333845f8659adf46a5de31ec8034b2c2201339768f2bb703568",
+        "request": "index insulin resistance on ogtt",
+        "route": "engineering"
+      },
+      {
+        "contract": "f-8e7391f875d0293fe6897f17",
+        "criteria": [
+          "120"
+        ],
+        "id": "cb0e2f514112db630516e47aeae2c3e0094e328a55a08e5a3b1e7a6c72e1b1cf",
+        "request": "index insulin resistance on ivgtt",
+        "route": "engineering"
+      }
+    ],
+    "source_sha256": "22f6ea5a775d6019acbaea70d047802924963c446af7e6dc2e61ef9f88c0abe9",
+    "work": {
+      "engineering_items": 4,
+      "evidence_backed_decisions": 0,
+      "human_questions": 0,
+      "record_lookups": 0
+    }
+  },
+  "130": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "130": {
+        "evidence": [],
+        "facts": {},
+        "partial_evidence": [],
+        "reason": "Are eating disorder, substance abuse and psychotic disorder three independent exclusions, or must all coexist?",
+        "source_sentences": [],
+        "state": "AUTHORING_HOLD"
+      }
+    },
+    "requests": [
+      {
+        "criteria": [
+          "130"
+        ],
+        "id": "2c6dabfbd996fce6f72798e59f5657994ff5dddce76f8330e22396a153d1543a",
+        "request": "Are eating disorder, substance abuse and psychotic disorder three independent exclusions, or must all coexist?",
+        "route": "protocol_review"
+      }
+    ],
+    "source_sha256": "867d6d6173382ea0098563cdd4ba6bca14e5b05368f31b6aa0d696316fd9160b",
+    "work": {
+      "engineering_items": 0,
+      "evidence_backed_decisions": 0,
+      "human_questions": 1,
+      "record_lookups": 0
+    }
+  },
+  "132": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "132": {
+        "evidence": [],
+        "facts": {
+          "breastfeeding": {
+            "contract": "f-454e1dd9eebcf3ac5e43a4dc",
+            "evidence": [],
+            "label": "breastfeeding",
+            "state": "BINDING_HOLD",
+            "value": null
+          },
+          "pregnant": {
+            "contract": "f-898914ae782cda111574ac88",
+            "evidence": [],
+            "label": "pregnant",
+            "state": "MISSING_DATA",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Negated protocol condition. Implement a patient-chart mapping for breastfeeding.",
+        "source_sentences": [],
+        "state": "BINDING_HOLD"
+      }
+    },
+    "requests": [
+      {
+        "criteria": [
+          "132"
+        ],
+        "id": "92b8caad805e91fcbac92814af60da023e7e92945680a69030c4ee5ff7038312",
+        "request": "pregnant",
+        "route": "retrieve_record"
+      },
+      {
+        "contract": "f-454e1dd9eebcf3ac5e43a4dc",
+        "criteria": [
+          "132"
+        ],
+        "id": "a346a69277c8583f5c4fd775cf2eea3c7acad8247df2b70d531cdac80ad0b462",
+        "request": "breastfeeding",
+        "route": "engineering"
+      }
+    ],
+    "source_sha256": "867d6d6173382ea0098563cdd4ba6bca14e5b05368f31b6aa0d696316fd9160b",
+    "work": {
+      "engineering_items": 1,
+      "evidence_backed_decisions": 0,
+      "human_questions": 0,
+      "record_lookups": 1
+    }
+  },
+  "138": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "138": {
+        "evidence": [],
+        "facts": {
+          "any_past_or_current_antipsychotic_treatment": {
+            "contract": "f-855c0f77003715a7ff8936cd",
+            "evidence": [],
+            "label": "any_past_or_current_antipsychotic_treatment",
+            "state": "MISSING_DATA",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Negated protocol condition. Obtain source-linked any past or current antipsychotic treatment.",
+        "source_sentences": [],
+        "state": "MISSING_DATA"
+      }
+    },
+    "requests": [
+      {
+        "criteria": [
+          "138"
+        ],
+        "id": "e790ffdf7573d307fb6c327dc6fc1fe7a1d3deeb58fdad2bfceab061e8c93806",
+        "request": "any past or current antipsychotic treatment",
+        "route": "retrieve_record"
+      }
+    ],
+    "source_sha256": "867d6d6173382ea0098563cdd4ba6bca14e5b05368f31b6aa0d696316fd9160b",
+    "work": {
+      "engineering_items": 0,
+      "evidence_backed_decisions": 0,
+      "human_questions": 0,
+      "record_lookups": 1
+    }
+  },
+  "140": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "140": {
+        "evidence": [],
+        "facts": {},
+        "partial_evidence": [],
+        "reason": "Does pregnancy alone or lactation alone trigger exclusion, or must both be present?",
+        "source_sentences": [],
+        "state": "AUTHORING_HOLD"
+      }
+    },
+    "requests": [
+      {
+        "criteria": [
+          "140"
+        ],
+        "id": "3568535d2cf0caa313789bf6d35a989e2a77f5e194238546b2620104c285fc5c",
+        "request": "Does pregnancy alone or lactation alone trigger exclusion, or must both be present?",
+        "route": "protocol_review"
+      }
+    ],
+    "source_sha256": "867d6d6173382ea0098563cdd4ba6bca14e5b05368f31b6aa0d696316fd9160b",
+    "work": {
+      "engineering_items": 0,
+      "evidence_backed_decisions": 0,
+      "human_questions": 1,
+      "record_lookups": 0
+    }
+  },
+  "142": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "142": {
+        "evidence": [],
+        "facts": {
+          "study_personnel_confirm_current_mci_symptoms": {
+            "contract": "f-fc804c7b6c2ad203d5a0b314",
+            "evidence": [],
+            "label": "study_personnel_confirm_current_mci_symptoms",
+            "state": "INVESTIGATOR_ACTIONS",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "study personnel confirm current mci symptoms",
+        "source_sentences": [],
+        "state": "INVESTIGATOR_ACTIONS"
+      }
+    },
+    "requests": [
+      {
+        "criteria": [
+          "142"
+        ],
+        "id": "1403f919cdb23b6b81a78de7ab29cead073179ec8afd1015d794e37e6ce6111d",
+        "request": "study personnel confirm current mci symptoms",
+        "route": "investigator"
+      }
+    ],
+    "source_sha256": "1223a13fef1f8204929da1d739cdd28442607067f1ab2ef56d02ea928dab2253",
+    "work": {
+      "engineering_items": 0,
+      "evidence_backed_decisions": 0,
+      "human_questions": 1,
+      "record_lookups": 0
+    }
+  },
+  "145": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "145": {
+        "evidence": [],
+        "facts": {
+          "active_suicidal_ideation": {
+            "contract": "f-d2f5a7c3fa6d038a7fdb3035",
+            "evidence": [],
+            "label": "active_suicidal_ideation",
+            "state": "MISSING_DATA",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Negated protocol condition. Obtain source-linked active suicidal ideation.",
+        "source_sentences": [],
+        "state": "MISSING_DATA"
+      }
+    },
+    "requests": [
+      {
+        "criteria": [
+          "145"
+        ],
+        "id": "b86007b8be3ab550d6924fd025dd88c162e0d8b79a61d91be57d1dd005279246",
+        "request": "active suicidal ideation",
+        "route": "retrieve_record"
+      }
+    ],
+    "source_sha256": "1223a13fef1f8204929da1d739cdd28442607067f1ab2ef56d02ea928dab2253",
+    "work": {
+      "engineering_items": 0,
+      "evidence_backed_decisions": 0,
+      "human_questions": 0,
+      "record_lookups": 1
+    }
+  },
+  "147": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "147": {
+        "evidence": [],
+        "facts": {
+          "previous_deep_brain_stimulation_surgery": {
+            "contract": "f-3de65264443f5f23528737fb",
+            "evidence": [],
+            "label": "previous_deep_brain_stimulation_surgery",
+            "state": "MISSING_DATA",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Negated protocol condition. Obtain source-linked previous deep brain stimulation surgery.",
+        "source_sentences": [],
+        "state": "MISSING_DATA"
+      }
+    },
+    "requests": [
+      {
+        "criteria": [
+          "147"
+        ],
+        "id": "5058a49b2a36192606e5413396d11ac77788d349d78d999772143096f96b73fd",
+        "request": "previous deep brain stimulation surgery",
+        "route": "retrieve_record"
+      }
+    ],
+    "source_sha256": "1223a13fef1f8204929da1d739cdd28442607067f1ab2ef56d02ea928dab2253",
+    "work": {
+      "engineering_items": 0,
+      "evidence_backed_decisions": 0,
+      "human_questions": 0,
+      "record_lookups": 1
+    }
+  },
+  "150": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "150": {
+        "evidence": [],
+        "facts": {
+          "enrolled_two_year_blinded_ASA_trial": {
+            "contract": "f-f4f618841881afa8ba86305d",
+            "evidence": [],
+            "label": "enrolled_two_year_blinded_ASA_trial",
+            "state": "STUDY_ACTION",
+            "value": null
+          },
+          "entered_three_year_ASA_extension": {
+            "contract": "f-bc85871e55e3f726cfc1ab72",
+            "evidence": [],
+            "label": "entered_three_year_ASA_extension",
+            "state": "STUDY_ACTION",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "enrolled two year blinded ASA trial entered three year ASA extension",
+        "source_sentences": [],
+        "state": "STUDY_ACTION"
+      }
+    },
+    "requests": [
+      {
+        "criteria": [
+          "150"
+        ],
+        "id": "3fd69378f9a5a0e51a0aa0fe717c56e53fa835f4959ed97f0251fb9b9710714e",
+        "request": "enrolled two year blinded ASA trial",
+        "route": "study_team"
+      },
+      {
+        "criteria": [
+          "150"
+        ],
+        "id": "1645f1af04213d77681a7a4bc911bc0b8f52476c0b9c9e21cab7b158ce3c0b58",
+        "request": "entered three year ASA extension",
+        "route": "study_team"
+      }
+    ],
+    "source_sha256": "1223a13fef1f8204929da1d739cdd28442607067f1ab2ef56d02ea928dab2253",
+    "work": {
+      "engineering_items": 0,
+      "evidence_backed_decisions": 0,
+      "human_questions": 2,
+      "record_lookups": 0
+    }
+  },
+  "154": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "154": {
+        "evidence": [],
+        "facts": {
+          "fitzpatrick_I": {
+            "contract": "f-773045708691541bbb39f631",
+            "evidence": [],
+            "label": "fitzpatrick_I",
+            "state": "BINDING_HOLD",
+            "value": null
+          },
+          "fitzpatrick_II": {
+            "contract": "f-e52de2413a66ebe501789a83",
+            "evidence": [],
+            "label": "fitzpatrick_II",
+            "state": "BINDING_HOLD",
+            "value": null
+          },
+          "fitzpatrick_III": {
+            "contract": "f-09fd9adf33d7b0ea37d30956",
+            "evidence": [],
+            "label": "fitzpatrick_III",
+            "state": "BINDING_HOLD",
+            "value": null
+          },
+          "healthy_subject": {
+            "contract": "f-1e1d278e71f8408707957080",
+            "evidence": [],
+            "label": "healthy_subject",
+            "state": "BINDING_HOLD",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Implement a patient-chart mapping for healthy subject. Implement a patient-chart mapping for fitzpatrick I. Implement a patient-chart mapping for fitzpatrick II. Implement a patient-chart mapping for fitzpatrick III.",
+        "source_sentences": [],
+        "state": "BINDING_HOLD"
+      }
+    },
+    "requests": [
+      {
+        "contract": "f-1e1d278e71f8408707957080",
+        "criteria": [
+          "154"
+        ],
+        "id": "9a93a886b02a0a3db419eef743298242daf221e017aa3ba32359751fef5d19bc",
+        "request": "healthy subject",
+        "route": "engineering"
+      },
+      {
+        "contract": "f-773045708691541bbb39f631",
+        "criteria": [
+          "154"
+        ],
+        "id": "b3333b7f3c83d811c7f7a8b85109dfc61116a1cfca753732ca77adc5d2f1f13f",
+        "request": "fitzpatrick I",
+        "route": "engineering"
+      },
+      {
+        "contract": "f-e52de2413a66ebe501789a83",
+        "criteria": [
+          "154"
+        ],
+        "id": "df4a9048422c35359caca372b4d193c34322f443c07c1e12300a9390431e49b4",
+        "request": "fitzpatrick II",
+        "route": "engineering"
+      },
+      {
+        "contract": "f-09fd9adf33d7b0ea37d30956",
+        "criteria": [
+          "154"
+        ],
+        "id": "3ab31cdfd6b3bcdc237804446a05fa7b60bceb5e7d22de0cac4e9ffb7ba32d4c",
+        "request": "fitzpatrick III",
+        "route": "engineering"
+      }
+    ],
+    "source_sha256": "2092b6ca515b1931f317a278b8742d3598cf2e09c5e5cc0f6ff779618ecd8a32",
+    "work": {
+      "engineering_items": 4,
+      "evidence_backed_decisions": 0,
+      "human_questions": 0,
+      "record_lookups": 0
+    }
+  },
+  "155": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "155": {
+        "evidence": [
+          "Observation/n-9a690aaeb14511e0c0bb1551196f72"
+        ],
+        "facts": {
+          "abnormal_skin_color": {
+            "contract": "f-426dd34cc8596ac7522a46f5",
+            "evidence": [],
+            "label": "abnormal_skin_color",
+            "state": "BINDING_HOLD",
+            "value": null
+          },
+          "skin_condition": {
+            "contract": "f-1be6e3d5bdc5e070e5d541fc",
+            "evidence": [
+              "Observation/n-9a690aaeb14511e0c0bb1551196f72"
+            ],
+            "label": "skin_condition",
+            "state": "AVAILABLE",
+            "value": true
+          },
+          "tattoos": {
+            "contract": "f-17821412a1562daa1a62149a",
+            "evidence": [],
+            "label": "tattoos",
+            "state": "MISSING_DATA",
+            "value": null
+          },
+          "visible_skin_disease": {
+            "contract": "f-815af999e69125358a890d12",
+            "evidence": [],
+            "label": "visible_skin_disease",
+            "state": "BINDING_HOLD",
+            "value": null
+          }
+        },
+        "partial_evidence": [
+          "Observation/n-9a690aaeb14511e0c0bb1551196f72"
+        ],
+        "reason": "skin_condition = True (requires eq True).",
+        "source_sentences": [
+          0,
+          1
+        ],
+        "state": "MET"
+      }
+    },
+    "requests": [],
+    "source_sha256": "2092b6ca515b1931f317a278b8742d3598cf2e09c5e5cc0f6ff779618ecd8a32",
+    "work": {
+      "engineering_items": 0,
+      "evidence_backed_decisions": 1,
+      "human_questions": 0,
+      "record_lookups": 0
+    }
+  },
+  "171": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "171": {
+        "evidence": [],
+        "facts": {
+          "inr": {
+            "contract": "f-a49be912520b43657812fb08",
+            "evidence": [],
+            "label": "inr",
+            "state": "BINDING_HOLD",
+            "value": null
+          },
+          "systemic_anticoagulation": {
+            "contract": "f-a5e6f44c4444845a20753cef",
+            "evidence": [],
+            "label": "systemic_anticoagulation",
+            "state": "BINDING_HOLD",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Negated protocol condition. Implement a patient-chart mapping for inr. Negated protocol condition. Implement a patient-chart mapping for systemic anticoagulation.",
+        "source_sentences": [],
+        "state": "BINDING_HOLD"
+      }
+    },
+    "requests": [
+      {
+        "contract": "f-a49be912520b43657812fb08",
+        "criteria": [
+          "171"
+        ],
+        "id": "9d013f93864955aaf9364c1f20fb11c4514b8ff2cec2d3ed13820df2cfeddfaa",
+        "request": "inr",
+        "route": "engineering"
+      },
+      {
+        "contract": "f-a5e6f44c4444845a20753cef",
+        "criteria": [
+          "171"
+        ],
+        "id": "00836f8b5c692deb75a842cab324f18a3db63f73fc449036f2add3c080ef5100",
+        "request": "systemic anticoagulation",
+        "route": "engineering"
+      }
+    ],
+    "source_sha256": "d75a03711fc9b2a5995355dd47a4a7618bfc96838c461f73d2d687f0cd1abb8d",
+    "work": {
+      "engineering_items": 2,
+      "evidence_backed_decisions": 0,
+      "human_questions": 0,
+      "record_lookups": 0
+    }
+  },
+  "174": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "174": {
+        "evidence": [],
+        "facts": {
+          "prior_axillary_surgery": {
+            "contract": "f-a055e2c2325b3971b260b2e2",
+            "evidence": [],
+            "label": "prior_axillary_surgery",
+            "state": "MISSING_DATA",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Negated protocol condition. Obtain source-linked prior axillary surgery.",
+        "source_sentences": [],
+        "state": "MISSING_DATA"
+      }
+    },
+    "requests": [
+      {
+        "criteria": [
+          "174"
+        ],
+        "id": "31059850e02f656c4d54de518c862797f5829c768f4b55be05cc721d0c8d3c83",
+        "request": "prior axillary surgery",
+        "route": "retrieve_record"
+      }
+    ],
+    "source_sha256": "d75a03711fc9b2a5995355dd47a4a7618bfc96838c461f73d2d687f0cd1abb8d",
+    "work": {
+      "engineering_items": 0,
+      "evidence_backed_decisions": 0,
+      "human_questions": 0,
+      "record_lookups": 1
+    }
+  },
+  "177": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "177": {
+        "evidence": [],
+        "facts": {
+          "maintenance_hemodialysis_after_central_venous_catheterization": {
+            "contract": "f-b099cfc3dbd05c1f63656ab0",
+            "evidence": [],
+            "label": "maintenance_hemodialysis_after_central_venous_catheterization",
+            "state": "BINDING_HOLD",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Implement a patient-chart mapping for maintenance hemodialysis after central venous catheterization.",
+        "source_sentences": [],
+        "state": "BINDING_HOLD"
+      }
+    },
+    "requests": [
+      {
+        "contract": "f-b099cfc3dbd05c1f63656ab0",
+        "criteria": [
+          "177"
+        ],
+        "id": "2c853f3eac7597f2f0dc8e29c613da97c39c0b9122f6aa6c97a5cc3412a35e73",
+        "request": "maintenance hemodialysis after central venous catheterization",
+        "route": "engineering"
+      }
+    ],
+    "source_sha256": "d75a03711fc9b2a5995355dd47a4a7618bfc96838c461f73d2d687f0cd1abb8d",
+    "work": {
+      "engineering_items": 1,
+      "evidence_backed_decisions": 0,
+      "human_questions": 0,
+      "record_lookups": 0
+    }
+  },
+  "179": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "179": {
+        "evidence": [],
+        "facts": {
+          "prior_central_venous_puncture_or_catheterization": {
+            "contract": "f-396fe7329926b9d6f3f37f9b",
+            "evidence": [],
+            "label": "prior_central_venous_puncture_or_catheterization",
+            "state": "MISSING_DATA",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Negated protocol condition. Obtain source-linked prior central venous puncture or catheterization.",
+        "source_sentences": [],
+        "state": "MISSING_DATA"
+      }
+    },
+    "requests": [
+      {
+        "criteria": [
+          "179"
+        ],
+        "id": "27b3e1dadd833eceaf86324aae929b654e30cb49d4c04ef9cfc3b48a9ca10371",
+        "request": "prior central venous puncture or catheterization",
+        "route": "retrieve_record"
+      }
+    ],
+    "source_sha256": "d75a03711fc9b2a5995355dd47a4a7618bfc96838c461f73d2d687f0cd1abb8d",
+    "work": {
+      "engineering_items": 0,
+      "evidence_backed_decisions": 0,
+      "human_questions": 0,
+      "record_lookups": 1
+    }
+  },
+  "184": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "184": {
+        "evidence": [],
+        "facts": {},
+        "partial_evidence": [],
+        "reason": "Who can designate an \u2018other inappropriate situation\u2019, and what documented determination governs exclusion?",
+        "source_sentences": [],
+        "state": "AUTHORING_HOLD"
+      }
+    },
+    "requests": [
+      {
+        "criteria": [
+          "184"
+        ],
+        "id": "51ad3f0379e661542b963d1c6cdc3a0a35529a2102d15de98ccf504c8090c6e0",
+        "request": "Who can designate an \u2018other inappropriate situation\u2019, and what documented determination governs exclusion?",
+        "route": "protocol_review"
+      }
+    ],
+    "source_sha256": "d75a03711fc9b2a5995355dd47a4a7618bfc96838c461f73d2d687f0cd1abb8d",
+    "work": {
+      "engineering_items": 0,
+      "evidence_backed_decisions": 0,
+      "human_questions": 1,
+      "record_lookups": 0
+    }
+  },
+  "185": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "185": {
+        "evidence": [],
+        "facts": {
+          "diagnosed_ards": {
+            "contract": "f-41df381b9716d2953879a9f7",
+            "evidence": [],
+            "label": "diagnosed_ards",
+            "state": "MISSING_DATA",
+            "value": null
+          },
+          "diagnosed_shock": {
+            "contract": "f-5fe633d1e659abfd96247aae",
+            "evidence": [],
+            "label": "diagnosed_shock",
+            "state": "MISSING_DATA",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Obtain source-linked diagnosed shock. Obtain source-linked diagnosed ards.",
+        "source_sentences": [],
+        "state": "MISSING_DATA"
+      }
+    },
+    "requests": [
+      {
+        "criteria": [
+          "185"
+        ],
+        "id": "f0d8e788f1b5bfbd86dc52c33a0aefc88718af7c8538c914f00e60289d143bb3",
+        "request": "diagnosed shock",
+        "route": "retrieve_record"
+      },
+      {
+        "criteria": [
+          "185"
+        ],
+        "id": "7f97709d658076f16b28ffa5b115afd09350cb8efa9119119933f610babeabe6",
+        "request": "diagnosed ards",
+        "route": "retrieve_record"
+      }
+    ],
+    "source_sha256": "db4467fa7cba03819df27445f2090c80d6acd145a3361057f24a2fb5877aaec1",
+    "work": {
+      "engineering_items": 0,
+      "evidence_backed_decisions": 0,
+      "human_questions": 0,
+      "record_lookups": 2
+    }
+  },
+  "186": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "186": {
+        "evidence": [],
+        "facts": {
+          "heart_rate": {
+            "contract": "f-646d7651b8fd7cfc46a7cd37",
+            "evidence": [],
+            "label": "heart_rate",
+            "state": "MISSING_DATA",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Obtain source-linked heart rate.",
+        "source_sentences": [],
+        "state": "MISSING_DATA"
+      }
+    },
+    "requests": [
+      {
+        "criteria": [
+          "186"
+        ],
+        "id": "644a79df8aab44f7024861a0534692f8670321d1dd729312ec394075cf5ffb17",
+        "request": "heart rate",
+        "route": "retrieve_record"
+      }
+    ],
+    "source_sha256": "db4467fa7cba03819df27445f2090c80d6acd145a3361057f24a2fb5877aaec1",
+    "work": {
+      "engineering_items": 0,
+      "evidence_backed_decisions": 0,
+      "human_questions": 0,
+      "record_lookups": 1
+    }
+  },
+  "187": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "187": {
+        "evidence": [],
+        "facts": {
+          "paco2_mmhg": {
+            "contract": "f-a6aebc95342848b37ba84292",
+            "evidence": [],
+            "label": "paco2_mmhg",
+            "state": "BINDING_HOLD",
+            "value": null
+          },
+          "receiving_mechanical_ventilation": {
+            "contract": "f-d3bdcbd2a15717057f617b40",
+            "evidence": [],
+            "label": "receiving_mechanical_ventilation",
+            "state": "BINDING_HOLD",
+            "value": null
+          },
+          "respiratory_rate": {
+            "contract": "f-20267590146d7e608e415d9f",
+            "evidence": [],
+            "label": "respiratory_rate",
+            "state": "MISSING_DATA",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Implement a patient-chart mapping for paco2 mmhg. Implement a patient-chart mapping for receiving mechanical ventilation.",
+        "source_sentences": [],
+        "state": "BINDING_HOLD"
+      }
+    },
+    "requests": [
+      {
+        "criteria": [
+          "187"
+        ],
+        "id": "37b5f8ac6774de9be18afc16111edc727bcee3f13ce240e8cb2bc8123979df19",
+        "request": "respiratory rate",
+        "route": "retrieve_record"
+      },
+      {
+        "contract": "f-a6aebc95342848b37ba84292",
+        "criteria": [
+          "187"
+        ],
+        "id": "f798a70d8b67775a12b631e13aec3da49831aeec54b3aa8e223f1c56a3a7ffa7",
+        "request": "paco2 mmhg",
+        "route": "engineering"
+      },
+      {
+        "contract": "f-d3bdcbd2a15717057f617b40",
+        "criteria": [
+          "187"
+        ],
+        "id": "fc0ec1db1c1fa2bd6300181b936bfec8eb5ac6c32720bab6207a15eb68b7bd74",
+        "request": "receiving mechanical ventilation",
+        "route": "engineering"
+      }
+    ],
+    "source_sha256": "db4467fa7cba03819df27445f2090c80d6acd145a3361057f24a2fb5877aaec1",
+    "work": {
+      "engineering_items": 2,
+      "evidence_backed_decisions": 0,
+      "human_questions": 0,
+      "record_lookups": 1
+    }
+  },
+  "196": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "196": {
+        "evidence": [
+          "Observation/n-9aece1e1e5134394884fad7ad638e1"
+        ],
+        "facts": {
+          "age_years": {
+            "contract": "f-294019d9f0bf6d5c69f1dd3a",
+            "evidence": [
+              "Observation/n-9aece1e1e5134394884fad7ad638e1"
+            ],
+            "label": "age_years",
+            "state": "AVAILABLE",
+            "value": 40
+          }
+        },
+        "partial_evidence": [
+          "Observation/n-9aece1e1e5134394884fad7ad638e1"
+        ],
+        "reason": "Negated protocol condition. age_years = 40 (requires lt 18).",
+        "source_sentences": [
+          0
+        ],
+        "state": "MET"
+      }
+    },
+    "requests": [],
+    "source_sha256": "db4467fa7cba03819df27445f2090c80d6acd145a3361057f24a2fb5877aaec1",
+    "work": {
+      "engineering_items": 0,
+      "evidence_backed_decisions": 1,
+      "human_questions": 0,
+      "record_lookups": 0
+    }
+  },
+  "20": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "20": {
+        "evidence": [],
+        "facts": {
+          "unable_to_travel_for_treatment_or_followup": {
+            "contract": "f-7303947ba516e4dec79635f4",
+            "evidence": [],
+            "label": "unable_to_travel_for_treatment_or_followup",
+            "state": "BINDING_HOLD",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Negated protocol condition. Implement a patient-chart mapping for unable to travel for treatment or followup.",
+        "source_sentences": [],
+        "state": "BINDING_HOLD"
+      }
+    },
+    "requests": [
+      {
+        "contract": "f-7303947ba516e4dec79635f4",
+        "criteria": [
+          "20"
+        ],
+        "id": "9e835866dee7b7e436352ea86003fbb8b04894b57e5f91fdf8ee91b3ad3c0b64",
+        "request": "unable to travel for treatment or followup",
+        "route": "engineering"
+      }
+    ],
+    "source_sha256": "2f12c68c43f30f489cf4cd56b180bdde99acef642cdaeec017d7ad18a2d93202",
+    "work": {
+      "engineering_items": 1,
+      "evidence_backed_decisions": 0,
+      "human_questions": 0,
+      "record_lookups": 0
+    }
+  },
+  "203": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "203": {
+        "evidence": [],
+        "facts": {
+          "positive_thyroid_peroxidase_antibodies": {
+            "contract": "f-86b4545427ed5b56ae0e587f",
+            "evidence": [],
+            "label": "positive_thyroid_peroxidase_antibodies",
+            "state": "MISSING_DATA",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Obtain source-linked positive thyroid peroxidase antibodies.",
+        "source_sentences": [],
+        "state": "MISSING_DATA"
+      }
+    },
+    "requests": [
+      {
+        "criteria": [
+          "203"
+        ],
+        "id": "37e9ef3be7f23abae43f525a2dfb293d44e9b5fdea58952ca12f0c5ef0ec2c87",
+        "request": "positive thyroid peroxidase antibodies",
+        "route": "retrieve_record"
+      }
+    ],
+    "source_sha256": "a0eac65bc8ed1f16677856cb71a94f7da8d1202cd92ef1c5ffc0e912f9ac0020",
+    "work": {
+      "engineering_items": 0,
+      "evidence_backed_decisions": 0,
+      "human_questions": 0,
+      "record_lookups": 1
+    }
+  },
+  "212": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "212": {
+        "evidence": [],
+        "facts": {
+          "refused_written_consent": {
+            "contract": "f-25d90fbe21fe8cb9e5f5ade7",
+            "evidence": [],
+            "label": "refused_written_consent",
+            "state": "BINDING_HOLD",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Negated protocol condition. Implement a patient-chart mapping for refused written consent.",
+        "source_sentences": [],
+        "state": "BINDING_HOLD"
+      }
+    },
+    "requests": [
+      {
+        "contract": "f-25d90fbe21fe8cb9e5f5ade7",
+        "criteria": [
+          "212"
+        ],
+        "id": "6290271afcdb7648c894428f4ee1a5ff6d522efd9bb671aaa899406544ffc294",
+        "request": "refused written consent",
+        "route": "engineering"
+      }
+    ],
+    "source_sha256": "2c46cae14a71d4b21ec7a1e407c6049b8d4f6f766d29508adcfd33d4172d2b54",
+    "work": {
+      "engineering_items": 1,
+      "evidence_backed_decisions": 0,
+      "human_questions": 0,
+      "record_lookups": 0
+    }
+  },
+  "217": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "217": {
+        "evidence": [],
+        "facts": {
+          "traumatic_cause_of_presenting_dyspnea": {
+            "contract": "f-172a2bd92bd94d7f9c444bde",
+            "evidence": [],
+            "label": "traumatic_cause_of_presenting_dyspnea",
+            "state": "BINDING_HOLD",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Negated protocol condition. Implement a patient-chart mapping for traumatic cause of presenting dyspnea.",
+        "source_sentences": [],
+        "state": "BINDING_HOLD"
+      }
+    },
+    "requests": [
+      {
+        "contract": "f-172a2bd92bd94d7f9c444bde",
+        "criteria": [
+          "217"
+        ],
+        "id": "bc2e096a968fac244157315697a249c7437e6d1f673ae8820f545d34465829d6",
+        "request": "traumatic cause of presenting dyspnea",
+        "route": "engineering"
+      }
+    ],
+    "source_sha256": "2c46cae14a71d4b21ec7a1e407c6049b8d4f6f766d29508adcfd33d4172d2b54",
+    "work": {
+      "engineering_items": 1,
+      "evidence_backed_decisions": 0,
+      "human_questions": 0,
+      "record_lookups": 0
+    }
+  },
+  "218": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "218": {
+        "evidence": [],
+        "facts": {},
+        "partial_evidence": [],
+        "reason": "What unit belongs with the creatinine threshold of 250? The registered text says \u2018micro mmol/L\u2019.",
+        "source_sentences": [],
+        "state": "AUTHORING_HOLD"
+      }
+    },
+    "requests": [
+      {
+        "criteria": [
+          "218"
+        ],
+        "id": "ebdcfad5631f5827614e2d3b517af2ae7b5590d7d8e05e0444b20bf1f1787a2d",
+        "request": "What unit belongs with the creatinine threshold of 250? The registered text says \u2018micro mmol/L\u2019.",
+        "route": "protocol_review"
+      }
+    ],
+    "source_sha256": "2c46cae14a71d4b21ec7a1e407c6049b8d4f6f766d29508adcfd33d4172d2b54",
+    "work": {
+      "engineering_items": 0,
+      "evidence_backed_decisions": 0,
+      "human_questions": 1,
+      "record_lookups": 0
+    }
+  },
+  "226": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "226": {
+        "evidence": [],
+        "facts": {
+          "first_surgery_before_study_start": {
+            "contract": "f-c9c90acaa62b005d355dce42",
+            "evidence": [],
+            "label": "first_surgery_before_study_start",
+            "state": "BINDING_HOLD",
+            "value": null
+          },
+          "recurrent_hematoma": {
+            "contract": "f-6903d5ac3bbb5254e710b9c1",
+            "evidence": [],
+            "label": "recurrent_hematoma",
+            "state": "BINDING_HOLD",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Negated protocol condition. Implement a patient-chart mapping for recurrent hematoma. Implement a patient-chart mapping for first surgery before study start.",
+        "source_sentences": [],
+        "state": "BINDING_HOLD"
+      }
+    },
+    "requests": [
+      {
+        "contract": "f-6903d5ac3bbb5254e710b9c1",
+        "criteria": [
+          "226"
+        ],
+        "id": "2667202544d5ad3ea51143b072f19ed6359209d3a2a946f76633f403368a3d1a",
+        "request": "recurrent hematoma",
+        "route": "engineering"
+      },
+      {
+        "contract": "f-c9c90acaa62b005d355dce42",
+        "criteria": [
+          "226"
+        ],
+        "id": "8218865422d501caebe868871beae661ffb7beb6c2d59c24b0a52b12a63ed9ea",
+        "request": "first surgery before study start",
+        "route": "engineering"
+      }
+    ],
+    "source_sha256": "907ec481451b6bd039e1d00846ab29534a5a5dc42174521b3ee1bd25b2f4d7ea",
+    "work": {
+      "engineering_items": 2,
+      "evidence_backed_decisions": 0,
+      "human_questions": 0,
+      "record_lookups": 0
+    }
+  },
+  "227": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "227": {
+        "evidence": [],
+        "facts": {
+          "csh_due_to_meningeosis_carcinomatosa": {
+            "contract": "f-79a9a6c0f8a9093cee7df7d4",
+            "evidence": [],
+            "label": "csh_due_to_meningeosis_carcinomatosa",
+            "state": "BINDING_HOLD",
+            "value": null
+          },
+          "csh_due_to_spinal_csf_fistula": {
+            "contract": "f-b81378d47fc088d5f5e0e9ef",
+            "evidence": [],
+            "label": "csh_due_to_spinal_csf_fistula",
+            "state": "BINDING_HOLD",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Negated protocol condition. Implement a patient-chart mapping for csh due to spinal csf fistula. Implement a patient-chart mapping for csh due to meningeosis carcinomatosa.",
+        "source_sentences": [],
+        "state": "BINDING_HOLD"
+      }
+    },
+    "requests": [
+      {
+        "contract": "f-b81378d47fc088d5f5e0e9ef",
+        "criteria": [
+          "227"
+        ],
+        "id": "f79e4527d7d7bf23858faffd9ec8d52b80449e2efd60a671bdc17448f35585ee",
+        "request": "csh due to spinal csf fistula",
+        "route": "engineering"
+      },
+      {
+        "contract": "f-79a9a6c0f8a9093cee7df7d4",
+        "criteria": [
+          "227"
+        ],
+        "id": "4cfb4f169930bdcc22ca62ab70b252bb481f3298d2288a321569bded06a0e7cc",
+        "request": "csh due to meningeosis carcinomatosa",
+        "route": "engineering"
+      }
+    ],
+    "source_sha256": "907ec481451b6bd039e1d00846ab29534a5a5dc42174521b3ee1bd25b2f4d7ea",
+    "work": {
+      "engineering_items": 2,
+      "evidence_backed_decisions": 0,
+      "human_questions": 0,
+      "record_lookups": 0
+    }
+  },
+  "230": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "230": {
+        "evidence": [],
+        "facts": {
+          "age_years": {
+            "contract": "f-294019d9f0bf6d5c69f1dd3a",
+            "evidence": [
+              "Observation/n-f149312ea2058fc891a424311f82b3"
+            ],
+            "label": "age_years",
+            "state": "AVAILABLE",
+            "value": 85
+          },
+          "symptomatic_chronic_subdural_hematoma": {
+            "contract": "f-c79b8b599929fd008f6810c3",
+            "evidence": [],
+            "label": "symptomatic_chronic_subdural_hematoma",
+            "state": "MISSING_DATA",
+            "value": null
+          }
+        },
+        "partial_evidence": [
+          "Observation/n-f149312ea2058fc891a424311f82b3"
+        ],
+        "reason": "Obtain source-linked symptomatic chronic subdural hematoma.",
+        "source_sentences": [],
+        "state": "MISSING_DATA"
+      }
+    },
+    "requests": [
+      {
+        "criteria": [
+          "230"
+        ],
+        "id": "cd812c458cb09a0e98e8d4ff2a41681d1241ddbc9f389246b49950f28bb15d4d",
+        "request": "symptomatic chronic subdural hematoma",
+        "route": "retrieve_record"
+      }
+    ],
+    "source_sha256": "907ec481451b6bd039e1d00846ab29534a5a5dc42174521b3ee1bd25b2f4d7ea",
+    "work": {
+      "engineering_items": 0,
+      "evidence_backed_decisions": 0,
+      "human_questions": 0,
+      "record_lookups": 1
+    }
+  },
+  "231": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "231": {
+        "evidence": [],
+        "facts": {
+          "chronic_subdural_hematoma_verified_on_ct_or_mri": {
+            "contract": "f-e8ae001427a830b62f0776da",
+            "evidence": [],
+            "label": "chronic_subdural_hematoma_verified_on_ct_or_mri",
+            "state": "BINDING_HOLD",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Implement a patient-chart mapping for chronic subdural hematoma verified on ct or mri.",
+        "source_sentences": [],
+        "state": "BINDING_HOLD"
+      }
+    },
+    "requests": [
+      {
+        "contract": "f-e8ae001427a830b62f0776da",
+        "criteria": [
+          "231"
+        ],
+        "id": "38fd6a874dc965a9faa64535bbb7c3354c5e5a2da7aae37245f5f229eaeb8216",
+        "request": "chronic subdural hematoma verified on ct or mri",
+        "route": "engineering"
+      }
+    ],
+    "source_sha256": "907ec481451b6bd039e1d00846ab29534a5a5dc42174521b3ee1bd25b2f4d7ea",
+    "work": {
+      "engineering_items": 1,
+      "evidence_backed_decisions": 0,
+      "human_questions": 0,
+      "record_lookups": 0
+    }
+  },
+  "232": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "232": {
+        "evidence": [],
+        "facts": {
+          "surgeon_decided_craniotomy_intraoperatively": {
+            "contract": "f-90d87094d99aed61263f7f57",
+            "evidence": [],
+            "label": "surgeon_decided_craniotomy_intraoperatively",
+            "state": "INVESTIGATOR_ACTIONS",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Negated protocol condition. surgeon decided craniotomy intraoperatively",
+        "source_sentences": [],
+        "state": "INVESTIGATOR_ACTIONS"
+      }
+    },
+    "requests": [
+      {
+        "criteria": [
+          "232"
+        ],
+        "id": "bda0978be150d2e7f6f07849c39ba98f81806c16c485fbb7010470ce120a4ff1",
+        "request": "surgeon decided craniotomy intraoperatively",
+        "route": "investigator"
+      }
+    ],
+    "source_sha256": "907ec481451b6bd039e1d00846ab29534a5a5dc42174521b3ee1bd25b2f4d7ea",
+    "work": {
+      "engineering_items": 0,
+      "evidence_backed_decisions": 0,
+      "human_questions": 1,
+      "record_lookups": 0
+    }
+  },
+  "233": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "233": {
+        "evidence": [],
+        "facts": {
+          "csh_due_to_underlying_illness": {
+            "contract": "f-b9b5a7e5802d6313e6f2fd9d",
+            "evidence": [],
+            "label": "csh_due_to_underlying_illness",
+            "state": "BINDING_HOLD",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Negated protocol condition. Implement a patient-chart mapping for csh due to underlying illness.",
+        "source_sentences": [],
+        "state": "BINDING_HOLD"
+      }
+    },
+    "requests": [
+      {
+        "contract": "f-b9b5a7e5802d6313e6f2fd9d",
+        "criteria": [
+          "233"
+        ],
+        "id": "a8aadf9f5b7585e4f8ba9c66d26655fd109eca0f29e9217f254007f80faac6ec",
+        "request": "csh due to underlying illness",
+        "route": "engineering"
+      }
+    ],
+    "source_sha256": "907ec481451b6bd039e1d00846ab29534a5a5dc42174521b3ee1bd25b2f4d7ea",
+    "work": {
+      "engineering_items": 1,
+      "evidence_backed_decisions": 0,
+      "human_questions": 0,
+      "record_lookups": 0
+    }
+  },
+  "235": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "235": {
+        "evidence": [],
+        "facts": {
+          "bulk_symptoms": {
+            "contract": "f-efc071292657b7c8cb12fa25",
+            "evidence": [],
+            "label": "bulk_symptoms",
+            "state": "BINDING_HOLD",
+            "value": null
+          },
+          "menorrhagia": {
+            "contract": "f-ffdfd7b5c7ae3d23ec5d72a7",
+            "evidence": [],
+            "label": "menorrhagia",
+            "state": "MISSING_DATA",
+            "value": null
+          },
+          "symptoms_attributed_to_uterine_fibroids": {
+            "contract": "f-55939492373c2245ce79aedf",
+            "evidence": [],
+            "label": "symptoms_attributed_to_uterine_fibroids",
+            "state": "BINDING_HOLD",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Implement a patient-chart mapping for bulk symptoms. Implement a patient-chart mapping for symptoms attributed to uterine fibroids.",
+        "source_sentences": [],
+        "state": "BINDING_HOLD"
+      }
+    },
+    "requests": [
+      {
+        "criteria": [
+          "235"
+        ],
+        "id": "550d394517e63e92e62fdd8307812883a6903486286103c34a65dee63b2b19cf",
+        "request": "menorrhagia",
+        "route": "retrieve_record"
+      },
+      {
+        "contract": "f-efc071292657b7c8cb12fa25",
+        "criteria": [
+          "235"
+        ],
+        "id": "d26e8c7ae24666827981fd7490715e8f188d1b6b0acf055033da6bbb75107cca",
+        "request": "bulk symptoms",
+        "route": "engineering"
+      },
+      {
+        "contract": "f-55939492373c2245ce79aedf",
+        "criteria": [
+          "235"
+        ],
+        "id": "ac7ad3e36418ef9079a3ce03f58686bc6e8111519bdfe961901c691faf5fa7ca",
+        "request": "symptoms attributed to uterine fibroids",
+        "route": "engineering"
+      }
+    ],
+    "source_sha256": "7b48f13174fdecd15aa559fbbd74cd92129139b36b7967ee727b622d21f891c6",
+    "work": {
+      "engineering_items": 2,
+      "evidence_backed_decisions": 0,
+      "human_questions": 0,
+      "record_lookups": 1
+    }
+  },
+  "239": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "239": {
+        "evidence": [],
+        "facts": {
+          "postmenopausal_woman": {
+            "contract": "f-11636d8aa1c32e372365114f",
+            "evidence": [],
+            "label": "postmenopausal_woman",
+            "state": "BINDING_HOLD",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Negated protocol condition. Implement a patient-chart mapping for postmenopausal woman.",
+        "source_sentences": [],
+        "state": "BINDING_HOLD"
+      }
+    },
+    "requests": [
+      {
+        "contract": "f-11636d8aa1c32e372365114f",
+        "criteria": [
+          "239"
+        ],
+        "id": "994020efc13d91cbfba34070ae845539b5c022d11b11e1c2821634639484e78b",
+        "request": "postmenopausal woman",
+        "route": "engineering"
+      }
+    ],
+    "source_sha256": "7b48f13174fdecd15aa559fbbd74cd92129139b36b7967ee727b622d21f891c6",
+    "work": {
+      "engineering_items": 1,
+      "evidence_backed_decisions": 0,
+      "human_questions": 0,
+      "record_lookups": 0
+    }
+  },
+  "25": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "25": {
+        "evidence": [],
+        "facts": {
+          "malignant_hypertension": {
+            "contract": "f-917f413debdaba2079b041e5",
+            "evidence": [],
+            "label": "malignant_hypertension",
+            "state": "MISSING_DATA",
+            "value": null
+          },
+          "secondary_hypertension": {
+            "contract": "f-82a81f189afd8ebb7ecb813a",
+            "evidence": [],
+            "label": "secondary_hypertension",
+            "state": "MISSING_DATA",
+            "value": null
+          },
+          "severe_hypertension": {
+            "contract": "f-84b7cd94eb54cb20ab83e524",
+            "evidence": [],
+            "label": "severe_hypertension",
+            "state": "MISSING_DATA",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Negated protocol condition. Obtain source-linked severe hypertension. Obtain source-linked malignant hypertension. Obtain source-linked secondary hypertension.",
+        "source_sentences": [],
+        "state": "MISSING_DATA"
+      }
+    },
+    "requests": [
+      {
+        "criteria": [
+          "25"
+        ],
+        "id": "608aa62ee70be26eae5cf5eda3f770cfdf074f9bbfdc9969e6615aecfd508776",
+        "request": "severe hypertension",
+        "route": "retrieve_record"
+      },
+      {
+        "criteria": [
+          "25"
+        ],
+        "id": "c4fb261978c073aae9576988c3fef94aefb4898ba083e5db01f39c384a3b7475",
+        "request": "malignant hypertension",
+        "route": "retrieve_record"
+      },
+      {
+        "criteria": [
+          "25"
+        ],
+        "id": "b81f3854f99147a32737295719ec68bb7e751bd3875076c8da5290fe92a3aab3",
+        "request": "secondary hypertension",
+        "route": "retrieve_record"
+      }
+    ],
+    "source_sha256": "2f12c68c43f30f489cf4cd56b180bdde99acef642cdaeec017d7ad18a2d93202",
+    "work": {
+      "engineering_items": 0,
+      "evidence_backed_decisions": 0,
+      "human_questions": 0,
+      "record_lookups": 3
+    }
+  },
+  "26": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "26": {
+        "evidence": [
+          "Observation/n-f2f8f6c835da6bf737fefe29bae239"
+        ],
+        "facts": {
+          "childbearing_potential": {
+            "contract": "f-2622bb939481c519d0f8f007",
+            "evidence": [],
+            "label": "childbearing_potential",
+            "state": "BINDING_HOLD",
+            "value": null
+          },
+          "pregnant": {
+            "contract": "f-898914ae782cda111574ac88",
+            "evidence": [],
+            "label": "pregnant",
+            "state": "MISSING_DATA",
+            "value": null
+          },
+          "woman": {
+            "contract": "f-0a8b5aef0881950a32c8e3b3",
+            "evidence": [
+              "Observation/n-f2f8f6c835da6bf737fefe29bae239"
+            ],
+            "label": "woman",
+            "state": "AVAILABLE",
+            "value": true
+          }
+        },
+        "partial_evidence": [
+          "Observation/n-f2f8f6c835da6bf737fefe29bae239"
+        ],
+        "reason": "Negated protocol condition. Implement a patient-chart mapping for childbearing potential.",
+        "source_sentences": [
+          0
+        ],
+        "state": "BINDING_HOLD"
+      }
+    },
+    "requests": [
+      {
+        "criteria": [
+          "26"
+        ],
+        "id": "53ac1614f954af779bf8cf417320f9f77e6c5234c3aa738a465fd159e5f11c3e",
+        "request": "pregnant",
+        "route": "retrieve_record"
+      },
+      {
+        "contract": "f-2622bb939481c519d0f8f007",
+        "criteria": [
+          "26"
+        ],
+        "id": "3447e83af7e335ff17f7842db0cb94a2d02cdfefc7fcdfc72fab2cd86ffbfcbe",
+        "request": "childbearing potential",
+        "route": "engineering"
+      }
+    ],
+    "source_sha256": "2f12c68c43f30f489cf4cd56b180bdde99acef642cdaeec017d7ad18a2d93202",
+    "work": {
+      "engineering_items": 1,
+      "evidence_backed_decisions": 0,
+      "human_questions": 0,
+      "record_lookups": 1
+    }
+  },
+  "29": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "29": {
+        "evidence": [],
+        "facts": {
+          "serum_creatinine_mg_dl": {
+            "contract": "f-4fe6642c22412eb436b5206b",
+            "evidence": [],
+            "label": "serum_creatinine_mg_dl",
+            "state": "MISSING_DATA",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Negated protocol condition. Obtain source-linked serum creatinine mg dl.",
+        "source_sentences": [],
+        "state": "MISSING_DATA"
+      }
+    },
+    "requests": [
+      {
+        "criteria": [
+          "29"
+        ],
+        "id": "f76e9b866ca8480ee61643ab35d094f391751df430f384a5097325c3935dc885",
+        "request": "serum creatinine mg dl",
+        "route": "retrieve_record"
+      }
+    ],
+    "source_sha256": "2f12c68c43f30f489cf4cd56b180bdde99acef642cdaeec017d7ad18a2d93202",
+    "work": {
+      "engineering_items": 0,
+      "evidence_backed_decisions": 0,
+      "human_questions": 0,
+      "record_lookups": 1
+    }
+  },
+  "307": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "307": {
+        "evidence": [],
+        "facts": {},
+        "partial_evidence": [],
+        "reason": "Are the five surgical pathways exhaustive, and which planned procedures must be documented before volumetry?",
+        "source_sentences": [],
+        "state": "AUTHORING_HOLD"
+      }
+    },
+    "requests": [
+      {
+        "criteria": [
+          "307"
+        ],
+        "id": "c22ed97ae9fe41df1033c66486694cfb89b03566f2b4f7593577e9bcc30d704a",
+        "request": "Are the five surgical pathways exhaustive, and which planned procedures must be documented before volumetry?",
+        "route": "protocol_review"
+      }
+    ],
+    "source_sha256": "844349228fe841ce2694e062a791d890bf1ec69be986c3274ce2f92b88d12679",
+    "work": {
+      "engineering_items": 0,
+      "evidence_backed_decisions": 0,
+      "human_questions": 1,
+      "record_lookups": 0
+    }
+  },
+  "322": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "322": {
+        "evidence": [],
+        "facts": {
+          "adequate_contraception": {
+            "contract": "f-1591187e72568172498743d5",
+            "evidence": [],
+            "label": "adequate_contraception",
+            "state": "BINDING_HOLD",
+            "value": null
+          },
+          "pregnant": {
+            "contract": "f-898914ae782cda111574ac88",
+            "evidence": [],
+            "label": "pregnant",
+            "state": "MISSING_DATA",
+            "value": null
+          },
+          "woman_of_childbearing_age": {
+            "contract": "f-bc5c2de31b767e001bbc4721",
+            "evidence": [],
+            "label": "woman_of_childbearing_age",
+            "state": "BINDING_HOLD",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Negated protocol condition. Implement a patient-chart mapping for woman of childbearing age. Negated protocol condition. Implement a patient-chart mapping for adequate contraception.",
+        "source_sentences": [],
+        "state": "BINDING_HOLD"
+      }
+    },
+    "requests": [
+      {
+        "criteria": [
+          "322"
+        ],
+        "id": "48993ab3a4fad5434f595b9f5565b4797da451b47b58a24caa818dd4144cac70",
+        "request": "pregnant",
+        "route": "retrieve_record"
+      },
+      {
+        "contract": "f-bc5c2de31b767e001bbc4721",
+        "criteria": [
+          "322"
+        ],
+        "id": "d101ba016dd9273397634336d817591f7bd50a479e82362e373877ab8be21e16",
+        "request": "woman of childbearing age",
+        "route": "engineering"
+      },
+      {
+        "contract": "f-1591187e72568172498743d5",
+        "criteria": [
+          "322"
+        ],
+        "id": "9efdca69924f0fffd439b819f2026800025df6b0561a653dbf670c0f066af1c0",
+        "request": "adequate contraception",
+        "route": "engineering"
+      }
+    ],
+    "source_sha256": "844349228fe841ce2694e062a791d890bf1ec69be986c3274ce2f92b88d12679",
+    "work": {
+      "engineering_items": 2,
+      "evidence_backed_decisions": 0,
+      "human_questions": 0,
+      "record_lookups": 1
+    }
+  },
+  "323": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "323": {
+        "evidence": [],
+        "facts": {
+          "early_bone_marrow_failure_in_childhood": {
+            "contract": "f-2d79a3fedd426d2901ebbe8b",
+            "evidence": [],
+            "label": "early_bone_marrow_failure_in_childhood",
+            "state": "BINDING_HOLD",
+            "value": null
+          },
+          "immune_deficiency": {
+            "contract": "f-4e458ee942ca1715501b79bf",
+            "evidence": [
+              "Observation/n-b3328f79760e9ac8bed0b9e0965636"
+            ],
+            "label": "immune_deficiency",
+            "state": "AVAILABLE",
+            "value": true
+          }
+        },
+        "partial_evidence": [
+          "Observation/n-b3328f79760e9ac8bed0b9e0965636"
+        ],
+        "reason": "Implement a patient-chart mapping for early bone marrow failure in childhood.",
+        "source_sentences": [],
+        "state": "BINDING_HOLD"
+      }
+    },
+    "requests": [
+      {
+        "contract": "f-2d79a3fedd426d2901ebbe8b",
+        "criteria": [
+          "323"
+        ],
+        "id": "27ce7a31d0d1e39d7bd357d688847f4c470ff6813c5b59a00e40e9e38cad26c7",
+        "request": "early bone marrow failure in childhood",
+        "route": "engineering"
+      }
+    ],
+    "source_sha256": "844349228fe841ce2694e062a791d890bf1ec69be986c3274ce2f92b88d12679",
+    "work": {
+      "engineering_items": 1,
+      "evidence_backed_decisions": 0,
+      "human_questions": 0,
+      "record_lookups": 0
+    }
+  },
+  "328": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "328": {
+        "evidence": [],
+        "facts": {
+          "family_history_of_bleeding": {
+            "contract": "f-11e499cebbc37364e3240ffe",
+            "evidence": [],
+            "label": "family_history_of_bleeding",
+            "state": "BINDING_HOLD",
+            "value": null
+          },
+          "infant_history_of_bleeding": {
+            "contract": "f-8c98c49b4be17bf36ef26794",
+            "evidence": [],
+            "label": "infant_history_of_bleeding",
+            "state": "BINDING_HOLD",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Negated protocol condition. Implement a patient-chart mapping for infant history of bleeding. Implement a patient-chart mapping for family history of bleeding.",
+        "source_sentences": [],
+        "state": "BINDING_HOLD"
+      }
+    },
+    "requests": [
+      {
+        "contract": "f-8c98c49b4be17bf36ef26794",
+        "criteria": [
+          "328"
+        ],
+        "id": "9f64592dae64ec41af40308e948c24bf7a9939a916459aa980c0be8bc915c307",
+        "request": "infant history of bleeding",
+        "route": "engineering"
+      },
+      {
+        "contract": "f-11e499cebbc37364e3240ffe",
+        "criteria": [
+          "328"
+        ],
+        "id": "076d9406df586bfd10bebae5cc338e6c121724fffc4290a4b555580c232c836d",
+        "request": "family history of bleeding",
+        "route": "engineering"
+      }
+    ],
+    "source_sha256": "45c7d130440b3c40921fc87377a04f39e7ddbc476aabda31592b467122d21f32",
+    "work": {
+      "engineering_items": 2,
+      "evidence_backed_decisions": 0,
+      "human_questions": 0,
+      "record_lookups": 0
+    }
+  },
+  "329": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "329": {
+        "evidence": [],
+        "facts": {
+          "coagulopathy": {
+            "contract": "f-e80123caea11fd71c97ada85",
+            "evidence": [],
+            "label": "coagulopathy",
+            "state": "MISSING_DATA",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Negated protocol condition. Obtain source-linked coagulopathy.",
+        "source_sentences": [],
+        "state": "MISSING_DATA"
+      }
+    },
+    "requests": [
+      {
+        "criteria": [
+          "329"
+        ],
+        "id": "83bc1cd4218839e91958570ee298fae57c9d4f03a6b9f784115a6efa17a182e7",
+        "request": "coagulopathy",
+        "route": "retrieve_record"
+      }
+    ],
+    "source_sha256": "45c7d130440b3c40921fc87377a04f39e7ddbc476aabda31592b467122d21f32",
+    "work": {
+      "engineering_items": 0,
+      "evidence_backed_decisions": 0,
+      "human_questions": 0,
+      "record_lookups": 1
+    }
+  },
+  "330": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "330": {
+        "evidence": [],
+        "facts": {
+          "history_of_gi_bleeding": {
+            "contract": "f-8964e6c55da9b26621480349",
+            "evidence": [],
+            "label": "history_of_gi_bleeding",
+            "state": "MISSING_DATA",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Negated protocol condition. Obtain source-linked history of gi bleeding.",
+        "source_sentences": [],
+        "state": "MISSING_DATA"
+      }
+    },
+    "requests": [
+      {
+        "criteria": [
+          "330"
+        ],
+        "id": "76d4966512f238e2cec76be69d7340dc2580ee0ccd4b54a083d75d74758a784b",
+        "request": "history of gi bleeding",
+        "route": "retrieve_record"
+      }
+    ],
+    "source_sha256": "45c7d130440b3c40921fc87377a04f39e7ddbc476aabda31592b467122d21f32",
+    "work": {
+      "engineering_items": 0,
+      "evidence_backed_decisions": 0,
+      "human_questions": 0,
+      "record_lookups": 1
+    }
+  },
+  "332": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "332": {
+        "evidence": [],
+        "facts": {
+          "gestation_at_birth_weeks": {
+            "contract": "f-1faff41c10e1368e090902f1",
+            "evidence": [],
+            "label": "gestation_at_birth_weeks",
+            "state": "BINDING_HOLD",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Negated protocol condition. Implement a patient-chart mapping for gestation at birth weeks.",
+        "source_sentences": [],
+        "state": "BINDING_HOLD"
+      }
+    },
+    "requests": [
+      {
+        "contract": "f-1faff41c10e1368e090902f1",
+        "criteria": [
+          "332"
+        ],
+        "id": "55fa9bd0803febe8d07c5c5d05f7d4c4604a50b258b49cb3dd41f28b26b3b67d",
+        "request": "gestation at birth weeks",
+        "route": "engineering"
+      }
+    ],
+    "source_sha256": "45c7d130440b3c40921fc87377a04f39e7ddbc476aabda31592b467122d21f32",
+    "work": {
+      "engineering_items": 1,
+      "evidence_backed_decisions": 0,
+      "human_questions": 0,
+      "record_lookups": 0
+    }
+  },
+  "336": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "336": {
+        "evidence": [],
+        "facts": {
+          "consent_absent": {
+            "contract": "f-7a5e992ae9af6c098e88e663",
+            "evidence": [],
+            "label": "consent_absent",
+            "state": "BINDING_HOLD",
+            "value": null
+          },
+          "consent_refused": {
+            "contract": "f-ae5637d0825f63ba7fe88ac1",
+            "evidence": [],
+            "label": "consent_refused",
+            "state": "BINDING_HOLD",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Negated protocol condition. Implement a patient-chart mapping for consent refused. Implement a patient-chart mapping for consent absent.",
+        "source_sentences": [],
+        "state": "BINDING_HOLD"
+      }
+    },
+    "requests": [
+      {
+        "contract": "f-ae5637d0825f63ba7fe88ac1",
+        "criteria": [
+          "336"
+        ],
+        "id": "cfb513c2bea91fce7c981fa53b5696756abbec28c36329fbd69e93c0e0f978f3",
+        "request": "consent refused",
+        "route": "engineering"
+      },
+      {
+        "contract": "f-7a5e992ae9af6c098e88e663",
+        "criteria": [
+          "336"
+        ],
+        "id": "a8464a17c0e5ccb050bba9779c1c612fac254cf426674c03343f2c8521d7ba76",
+        "request": "consent absent",
+        "route": "engineering"
+      }
+    ],
+    "source_sha256": "45c7d130440b3c40921fc87377a04f39e7ddbc476aabda31592b467122d21f32",
+    "work": {
+      "engineering_items": 2,
+      "evidence_backed_decisions": 0,
+      "human_questions": 0,
+      "record_lookups": 0
+    }
+  },
+  "34": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "34": {
+        "evidence": [],
+        "facts": {
+          "fever_due_to_noninfectious_cause": {
+            "contract": "f-70bad0efcc3e531922fd431c",
+            "evidence": [],
+            "label": "fever_due_to_noninfectious_cause",
+            "state": "BINDING_HOLD",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Negated protocol condition. Implement a patient-chart mapping for fever due to noninfectious cause.",
+        "source_sentences": [],
+        "state": "BINDING_HOLD"
+      }
+    },
+    "requests": [
+      {
+        "contract": "f-70bad0efcc3e531922fd431c",
+        "criteria": [
+          "34"
+        ],
+        "id": "1dc4ec3511c627fd1dea2f7e7527b54df03cb874c01feda472d50ae59b29a7b3",
+        "request": "fever due to noninfectious cause",
+        "route": "engineering"
+      }
+    ],
+    "source_sha256": "190e19212725660d52bc5b51c635644cf2b6af8ff037128327d7563220118625",
+    "work": {
+      "engineering_items": 1,
+      "evidence_backed_decisions": 0,
+      "human_questions": 0,
+      "record_lookups": 0
+    }
+  },
+  "359": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "359": {
+        "evidence": [],
+        "facts": {
+          "gastric_carcinoma": {
+            "contract": "f-65eaefbef1d70836fe3bda52",
+            "evidence": [],
+            "label": "gastric_carcinoma",
+            "state": "MISSING_DATA",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Negated protocol condition. Obtain source-linked gastric carcinoma.",
+        "source_sentences": [],
+        "state": "MISSING_DATA"
+      }
+    },
+    "requests": [
+      {
+        "criteria": [
+          "359"
+        ],
+        "id": "6ac3eac8b14931e7bf925c8acf291648c712601e70bba6d6e158e81e797e13d5",
+        "request": "gastric carcinoma",
+        "route": "retrieve_record"
+      }
+    ],
+    "source_sha256": "fba0e3ed73e228dbe2f6761be1b0d5bffb98dad13d43c66538cce256d9fe2d81",
+    "work": {
+      "engineering_items": 0,
+      "evidence_backed_decisions": 0,
+      "human_questions": 0,
+      "record_lookups": 1
+    }
+  },
+  "36": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "36": {
+        "evidence": [],
+        "facts": {},
+        "partial_evidence": [],
+        "reason": "Which discharge disposition does \u2018automatic discharge\u2019 denote, and when must it occur?",
+        "source_sentences": [],
+        "state": "AUTHORING_HOLD"
+      }
+    },
+    "requests": [
+      {
+        "criteria": [
+          "36"
+        ],
+        "id": "c44a071c86d1447bdc054c33131c8fff507fe221bfc1f7512689fbdf70b5a073",
+        "request": "Which discharge disposition does \u2018automatic discharge\u2019 denote, and when must it occur?",
+        "route": "protocol_review"
+      }
+    ],
+    "source_sha256": "190e19212725660d52bc5b51c635644cf2b6af8ff037128327d7563220118625",
+    "work": {
+      "engineering_items": 0,
+      "evidence_backed_decisions": 0,
+      "human_questions": 1,
+      "record_lookups": 0
+    }
+  },
+  "366": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "366": {
+        "evidence": [],
+        "facts": {
+          "blunt_abdominal_trauma": {
+            "contract": "f-c04d2449d8ce3dcff8211c91",
+            "evidence": [],
+            "label": "blunt_abdominal_trauma",
+            "state": "MISSING_DATA",
+            "value": null
+          },
+          "open_laparotomy_required_for_abdominal_trauma_with_primary_closure": {
+            "contract": "f-939a0aa74a70ac455e0c8fd9",
+            "evidence": [],
+            "label": "open_laparotomy_required_for_abdominal_trauma_with_primary_closure",
+            "state": "BINDING_HOLD",
+            "value": null
+          },
+          "penetrating_abdominal_trauma": {
+            "contract": "f-0fd16d45721f3caa19fe6362",
+            "evidence": [],
+            "label": "penetrating_abdominal_trauma",
+            "state": "MISSING_DATA",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Implement a patient-chart mapping for open laparotomy required for abdominal trauma with primary closure.",
+        "source_sentences": [],
+        "state": "BINDING_HOLD"
+      }
+    },
+    "requests": [
+      {
+        "criteria": [
+          "366"
+        ],
+        "id": "1d94c18331a8ce9842db2c4fc054ae1016f0cc13bb9a8983caeb1453df3acc72",
+        "request": "blunt abdominal trauma",
+        "route": "retrieve_record"
+      },
+      {
+        "criteria": [
+          "366"
+        ],
+        "id": "3adce8baf223ed7e3bd2cfc74fe02003ea2832c668b7e72fede3517d2df58422",
+        "request": "penetrating abdominal trauma",
+        "route": "retrieve_record"
+      },
+      {
+        "contract": "f-939a0aa74a70ac455e0c8fd9",
+        "criteria": [
+          "366"
+        ],
+        "id": "528d2cea24663bd15a8cd02c032978b00cacbe94124c11a1696bc124ce4bac34",
+        "request": "open laparotomy required for abdominal trauma with primary closure",
+        "route": "engineering"
+      }
+    ],
+    "source_sha256": "d8155cb491f1c6e54e280188d7b8e7e2d4526ff0bf14bafb246daf8a3a76ed83",
+    "work": {
+      "engineering_items": 1,
+      "evidence_backed_decisions": 0,
+      "human_questions": 0,
+      "record_lookups": 2
+    }
+  },
+  "367": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "367": {
+        "evidence": [],
+        "facts": {
+          "acute_surgical_abdomen": {
+            "contract": "f-5bd7f6d7b359e1ce75e1439f",
+            "evidence": [],
+            "label": "acute_surgical_abdomen",
+            "state": "MISSING_DATA",
+            "value": null
+          },
+          "open_laparotomy_required_for_acute_surgical_abdomen_with_primary_closure": {
+            "contract": "f-e411eb3adb7bb1868c75226b",
+            "evidence": [],
+            "label": "open_laparotomy_required_for_acute_surgical_abdomen_with_primary_closure",
+            "state": "BINDING_HOLD",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Implement a patient-chart mapping for open laparotomy required for acute surgical abdomen with primary closure.",
+        "source_sentences": [],
+        "state": "BINDING_HOLD"
+      }
+    },
+    "requests": [
+      {
+        "criteria": [
+          "367"
+        ],
+        "id": "3ee222a1d1e77c7d6bf4485815fd7cc2f8a528a3b25013ebbaf950a1f98e9e8e",
+        "request": "acute surgical abdomen",
+        "route": "retrieve_record"
+      },
+      {
+        "contract": "f-e411eb3adb7bb1868c75226b",
+        "criteria": [
+          "367"
+        ],
+        "id": "bcf92bdc5c5912c51b9262fb1bdfaad92fc802ff212331e06ea87ac548891f90",
+        "request": "open laparotomy required for acute surgical abdomen with primary closure",
+        "route": "engineering"
+      }
+    ],
+    "source_sha256": "d8155cb491f1c6e54e280188d7b8e7e2d4526ff0bf14bafb246daf8a3a76ed83",
+    "work": {
+      "engineering_items": 1,
+      "evidence_backed_decisions": 0,
+      "human_questions": 0,
+      "record_lookups": 1
+    }
+  },
+  "379": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "379": {
+        "evidence": [],
+        "facts": {
+          "pregnant": {
+            "contract": "f-898914ae782cda111574ac88",
+            "evidence": [],
+            "label": "pregnant",
+            "state": "MISSING_DATA",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Negated protocol condition. Obtain source-linked pregnant.",
+        "source_sentences": [],
+        "state": "MISSING_DATA"
+      }
+    },
+    "requests": [
+      {
+        "criteria": [
+          "379"
+        ],
+        "id": "51507b5150fd93a3b7a9e6fba4e0aa8af25ed24c91dc05daf56b0a95fecf3c20",
+        "request": "pregnant",
+        "route": "retrieve_record"
+      }
+    ],
+    "source_sha256": "d8155cb491f1c6e54e280188d7b8e7e2d4526ff0bf14bafb246daf8a3a76ed83",
+    "work": {
+      "engineering_items": 0,
+      "evidence_backed_decisions": 0,
+      "human_questions": 0,
+      "record_lookups": 1
+    }
+  },
+  "385": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "385": {
+        "evidence": [],
+        "facts": {
+          "can_retain_oral_medication": {
+            "contract": "f-1656269df4b64ea363b753a7",
+            "evidence": [],
+            "label": "can_retain_oral_medication",
+            "state": "BINDING_HOLD",
+            "value": null
+          },
+          "can_take_oral_medication": {
+            "contract": "f-2e0e188355d77b2ac245d835",
+            "evidence": [],
+            "label": "can_take_oral_medication",
+            "state": "BINDING_HOLD",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Implement a patient-chart mapping for can take oral medication. Implement a patient-chart mapping for can retain oral medication.",
+        "source_sentences": [],
+        "state": "BINDING_HOLD"
+      }
+    },
+    "requests": [
+      {
+        "contract": "f-2e0e188355d77b2ac245d835",
+        "criteria": [
+          "385"
+        ],
+        "id": "687e443212f616454b2ab6b1072937d05864bd1e8c381d6eb66b787617539811",
+        "request": "can take oral medication",
+        "route": "engineering"
+      },
+      {
+        "contract": "f-1656269df4b64ea363b753a7",
+        "criteria": [
+          "385"
+        ],
+        "id": "9950f3fd7819bf1bd49a992645afab2309fb07931c2750d33bb1882d0b35fdc8",
+        "request": "can retain oral medication",
+        "route": "engineering"
+      }
+    ],
+    "source_sha256": "5a9a482e5e1a855f91d433f92f8171f5ad2ae2feb5c2c6c5cdffe3511d13c5e7",
+    "work": {
+      "engineering_items": 2,
+      "evidence_backed_decisions": 0,
+      "human_questions": 0,
+      "record_lookups": 0
+    }
+  },
+  "396": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "396": {
+        "evidence": [],
+        "facts": {
+          "current_uncontrolled_angina": {
+            "contract": "f-92b954d7e827520958ed00dc",
+            "evidence": [],
+            "label": "current_uncontrolled_angina",
+            "state": "MISSING_DATA",
+            "value": null
+          },
+          "ecg_acute_ischemia": {
+            "contract": "f-6b15dac726f52523768ba332",
+            "evidence": [],
+            "label": "ecg_acute_ischemia",
+            "state": "BINDING_HOLD",
+            "value": null
+          },
+          "history_of_mi": {
+            "contract": "f-023366ed86d8f56ff4056436",
+            "evidence": [],
+            "label": "history_of_mi",
+            "state": "MISSING_DATA",
+            "value": null
+          },
+          "severe_uncontrolled_ventricular_arrhythmia": {
+            "contract": "f-5b706f95e78607c11bc5fe6a",
+            "evidence": [],
+            "label": "severe_uncontrolled_ventricular_arrhythmia",
+            "state": "MISSING_DATA",
+            "value": null
+          },
+          "symptomatic_congestive_heart_failure": {
+            "contract": "f-4b7caf77c17e7cfa53b4ef2a",
+            "evidence": [],
+            "label": "symptomatic_congestive_heart_failure",
+            "state": "MISSING_DATA",
+            "value": null
+          },
+          "unstable_angina": {
+            "contract": "f-f3dc062cd412d3eaf20f6a4f",
+            "evidence": [],
+            "label": "unstable_angina",
+            "state": "MISSING_DATA",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Negated protocol condition. Implement a patient-chart mapping for ecg acute ischemia.",
+        "source_sentences": [],
+        "state": "BINDING_HOLD"
+      }
+    },
+    "requests": [
+      {
+        "criteria": [
+          "396"
+        ],
+        "id": "46b0b26baae9d4fb2e33ffbae704d3719e0262fe2a5588bacc389be41ac69757",
+        "request": "history of mi",
+        "route": "retrieve_record"
+      },
+      {
+        "criteria": [
+          "396"
+        ],
+        "id": "cb1b21c9b8aebcb21fa72b933723f7210b77f77317b1cfad65524265b453cd40",
+        "request": "current uncontrolled angina",
+        "route": "retrieve_record"
+      },
+      {
+        "criteria": [
+          "396"
+        ],
+        "id": "9bad5c1a0c6175426a0f8f113861368119d8bd969d53001169255b28de510374",
+        "request": "severe uncontrolled ventricular arrhythmia",
+        "route": "retrieve_record"
+      },
+      {
+        "criteria": [
+          "396"
+        ],
+        "id": "48dde323aa1f0792f8145046ec934ae858014fa7b58864fd9002d675fdbb1fd6",
+        "request": "symptomatic congestive heart failure",
+        "route": "retrieve_record"
+      },
+      {
+        "criteria": [
+          "396"
+        ],
+        "id": "5a31c23cff353962cf5b30fea64231dbdf2441566f1b72b0d1ff667e54255479",
+        "request": "unstable angina",
+        "route": "retrieve_record"
+      },
+      {
+        "contract": "f-6b15dac726f52523768ba332",
+        "criteria": [
+          "396"
+        ],
+        "id": "ec2f4e91e48cb3acb8ecc59a886e0792075131d18e686ad2a808f9d5524c960e",
+        "request": "ecg acute ischemia",
+        "route": "engineering"
+      }
+    ],
+    "source_sha256": "5a9a482e5e1a855f91d433f92f8171f5ad2ae2feb5c2c6c5cdffe3511d13c5e7",
+    "work": {
+      "engineering_items": 1,
+      "evidence_backed_decisions": 0,
+      "human_questions": 0,
+      "record_lookups": 5
+    }
+  },
+  "397": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "397": {
+        "evidence": [],
+        "facts": {},
+        "partial_evidence": [],
+        "reason": "Can a documented assessment establish marked baseline QT prolongation independently of repeated QTc >450 ms, and what qualifies as repeated?",
+        "source_sentences": [],
+        "state": "AUTHORING_HOLD"
+      }
+    },
+    "requests": [
+      {
+        "criteria": [
+          "397"
+        ],
+        "id": "a74b45992da3686c30ddd1c90e029c913956925216f9861596d0cc6a0840d800",
+        "request": "Can a documented assessment establish marked baseline QT prolongation independently of repeated QTc >450 ms, and what qualifies as repeated?",
+        "route": "protocol_review"
+      }
+    ],
+    "source_sha256": "5a9a482e5e1a855f91d433f92f8171f5ad2ae2feb5c2c6c5cdffe3511d13c5e7",
+    "work": {
+      "engineering_items": 0,
+      "evidence_backed_decisions": 0,
+      "human_questions": 1,
+      "record_lookups": 0
+    }
+  },
+  "400": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "400": {
+        "evidence": [],
+        "facts": {
+          "current_ischemic_cns_disease": {
+            "contract": "f-aa336eb6fad04a1c3c4499bb",
+            "evidence": [],
+            "label": "current_ischemic_cns_disease",
+            "state": "BINDING_HOLD",
+            "value": null
+          },
+          "history_ischemic_cns_disease": {
+            "contract": "f-40ade082d386a83839d926f8",
+            "evidence": [],
+            "label": "history_ischemic_cns_disease",
+            "state": "MISSING_DATA",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Negated protocol condition. Implement a patient-chart mapping for current ischemic cns disease.",
+        "source_sentences": [],
+        "state": "BINDING_HOLD"
+      }
+    },
+    "requests": [
+      {
+        "criteria": [
+          "400"
+        ],
+        "id": "ca1fcd4c8598ea4d3bd49dd32169aff3c0e1082bc343d87ebed262d30040cefd",
+        "request": "history ischemic cns disease",
+        "route": "retrieve_record"
+      },
+      {
+        "contract": "f-aa336eb6fad04a1c3c4499bb",
+        "criteria": [
+          "400"
+        ],
+        "id": "863275a0007bf8f4449dd1d63e48de0a8dcaa1a488b8df66d0cf2d9f62f6c09b",
+        "request": "current ischemic cns disease",
+        "route": "engineering"
+      }
+    ],
+    "source_sha256": "5a9a482e5e1a855f91d433f92f8171f5ad2ae2feb5c2c6c5cdffe3511d13c5e7",
+    "work": {
+      "engineering_items": 1,
+      "evidence_backed_decisions": 0,
+      "human_questions": 0,
+      "record_lookups": 1
+    }
+  },
+  "401": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "401": {
+        "evidence": [],
+        "facts": {},
+        "partial_evidence": [],
+        "reason": "Which listed cancers require documented excision to qualify for the five-year cancer-free exception?",
+        "source_sentences": [],
+        "state": "AUTHORING_HOLD"
+      }
+    },
+    "requests": [
+      {
+        "criteria": [
+          "401"
+        ],
+        "id": "5c5522ee73eee5eb437d14f28bb63d227b7eb43ec429f9ce49c000abf67cb945",
+        "request": "Which listed cancers require documented excision to qualify for the five-year cancer-free exception?",
+        "route": "protocol_review"
+      }
+    ],
+    "source_sha256": "5a9a482e5e1a855f91d433f92f8171f5ad2ae2feb5c2c6c5cdffe3511d13c5e7",
+    "work": {
+      "engineering_items": 0,
+      "evidence_backed_decisions": 0,
+      "human_questions": 1,
+      "record_lookups": 0
+    }
+  },
+  "402": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "402": {
+        "evidence": [],
+        "facts": {
+          "current_severe_infection": {
+            "contract": "f-d6aafeecb19d1e6d4d4f2789",
+            "evidence": [],
+            "label": "current_severe_infection",
+            "state": "MISSING_DATA",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Negated protocol condition. Obtain source-linked current severe infection.",
+        "source_sentences": [],
+        "state": "MISSING_DATA"
+      }
+    },
+    "requests": [
+      {
+        "criteria": [
+          "402"
+        ],
+        "id": "feb60b58190426be95d9effb502adc5be1c0db57abd9b7996eef8e7af60d08cb",
+        "request": "current severe infection",
+        "route": "retrieve_record"
+      }
+    ],
+    "source_sha256": "5a9a482e5e1a855f91d433f92f8171f5ad2ae2feb5c2c6c5cdffe3511d13c5e7",
+    "work": {
+      "engineering_items": 0,
+      "evidence_backed_decisions": 0,
+      "human_questions": 0,
+      "record_lookups": 1
+    }
+  },
+  "414": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "414": {
+        "evidence": [],
+        "facts": {
+          "systemic_lupus_erythematosus": {
+            "contract": "f-c493367dbdf3c821c4e148c1",
+            "evidence": [],
+            "label": "systemic_lupus_erythematosus",
+            "state": "MISSING_DATA",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Negated protocol condition. Negated protocol condition. Obtain source-linked systemic lupus erythematosus.",
+        "source_sentences": [],
+        "state": "MISSING_DATA"
+      }
+    },
+    "requests": [
+      {
+        "criteria": [
+          "414"
+        ],
+        "id": "0ea7b133bd7ab65e2384b40192ebb2885457ff7da08ec5f7055299205eb23d43",
+        "request": "systemic lupus erythematosus",
+        "route": "retrieve_record"
+      }
+    ],
+    "source_sha256": "5a9a482e5e1a855f91d433f92f8171f5ad2ae2feb5c2c6c5cdffe3511d13c5e7",
+    "work": {
+      "engineering_items": 0,
+      "evidence_backed_decisions": 0,
+      "human_questions": 0,
+      "record_lookups": 1
+    }
+  },
+  "418": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "418": {
+        "evidence": [],
+        "facts": {
+          "failed_mri_metal_screen": {
+            "contract": "f-b4bf8dadee1cb7b60506667d",
+            "evidence": [],
+            "label": "failed_mri_metal_screen",
+            "state": "BINDING_HOLD",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Negated protocol condition. Implement a patient-chart mapping for failed mri metal screen.",
+        "source_sentences": [],
+        "state": "BINDING_HOLD"
+      }
+    },
+    "requests": [
+      {
+        "contract": "f-b4bf8dadee1cb7b60506667d",
+        "criteria": [
+          "418"
+        ],
+        "id": "6e46d1bfe5b562855f0dad5f5947a3bbd2f633e5db47d6f0c0c1e852ef57a8ce",
+        "request": "failed mri metal screen",
+        "route": "engineering"
+      }
+    ],
+    "source_sha256": "804fec507dd57e54c001abd21546a58f0fdaaed3b9d153d2fcdad7a6d4f3b411",
+    "work": {
+      "engineering_items": 1,
+      "evidence_backed_decisions": 0,
+      "human_questions": 0,
+      "record_lookups": 0
+    }
+  },
+  "419": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "419": {
+        "evidence": [],
+        "facts": {
+          "claustrophobia": {
+            "contract": "f-2ce922c7f736cf701e3fb8ce",
+            "evidence": [],
+            "label": "claustrophobia",
+            "state": "MISSING_DATA",
+            "value": null
+          },
+          "sedation_required_to_hold_still": {
+            "contract": "f-0e0787baa081e6a765a344c2",
+            "evidence": [],
+            "label": "sedation_required_to_hold_still",
+            "state": "BINDING_HOLD",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Negated protocol condition. Implement a patient-chart mapping for sedation required to hold still.",
+        "source_sentences": [],
+        "state": "BINDING_HOLD"
+      }
+    },
+    "requests": [
+      {
+        "criteria": [
+          "419"
+        ],
+        "id": "abbbcb5b17e30616c72e710e13997a031678280ed0a6d299ee93f4b8de59166b",
+        "request": "claustrophobia",
+        "route": "retrieve_record"
+      },
+      {
+        "contract": "f-0e0787baa081e6a765a344c2",
+        "criteria": [
+          "419"
+        ],
+        "id": "979ff7eaefc78759e7032a266f3d99a6e47b0159c2778c1b91b3ab056b8e6991",
+        "request": "sedation required to hold still",
+        "route": "engineering"
+      }
+    ],
+    "source_sha256": "804fec507dd57e54c001abd21546a58f0fdaaed3b9d153d2fcdad7a6d4f3b411",
+    "work": {
+      "engineering_items": 1,
+      "evidence_backed_decisions": 0,
+      "human_questions": 0,
+      "record_lookups": 1
+    }
+  },
+  "435": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "435": {
+        "evidence": [],
+        "facts": {
+          "chest_ct_showed_active_tb": {
+            "contract": "f-e7cbcbc014663af855498365",
+            "evidence": [],
+            "label": "chest_ct_showed_active_tb",
+            "state": "BINDING_HOLD",
+            "value": null
+          },
+          "chest_ct_showed_ild": {
+            "contract": "f-250f6f1859dacb592ec08f28",
+            "evidence": [],
+            "label": "chest_ct_showed_ild",
+            "state": "BINDING_HOLD",
+            "value": null
+          },
+          "chest_ct_showed_lung_cancer": {
+            "contract": "f-9b6beb1b277277fa845c23a2",
+            "evidence": [],
+            "label": "chest_ct_showed_lung_cancer",
+            "state": "BINDING_HOLD",
+            "value": null
+          },
+          "chest_ct_showed_pulmonary_thromboembolism": {
+            "contract": "f-5dbfd45774969d145afa3eee",
+            "evidence": [],
+            "label": "chest_ct_showed_pulmonary_thromboembolism",
+            "state": "BINDING_HOLD",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Negated protocol condition. Implement a patient-chart mapping for chest ct showed lung cancer. Implement a patient-chart mapping for chest ct showed active tb. Implement a patient-chart mapping for chest ct showed pulmonary thromboembolism. Implement a patient-chart mapping for chest ct showed ild.",
+        "source_sentences": [],
+        "state": "BINDING_HOLD"
+      }
+    },
+    "requests": [
+      {
+        "contract": "f-9b6beb1b277277fa845c23a2",
+        "criteria": [
+          "435"
+        ],
+        "id": "dcc070f09d92a76ac018126675dad9de69850e6da46c032b344cae35bccea85d",
+        "request": "chest ct showed lung cancer",
+        "route": "engineering"
+      },
+      {
+        "contract": "f-e7cbcbc014663af855498365",
+        "criteria": [
+          "435"
+        ],
+        "id": "ae290faec5be1bf5e5919d1ff77dd271e401400f9cfc4047ea277c6597377a91",
+        "request": "chest ct showed active tb",
+        "route": "engineering"
+      },
+      {
+        "contract": "f-5dbfd45774969d145afa3eee",
+        "criteria": [
+          "435"
+        ],
+        "id": "9ca1ec037163c05ef3eb8667858c3833463cdcd32c2b6ebb0b375ffdf15f3327",
+        "request": "chest ct showed pulmonary thromboembolism",
+        "route": "engineering"
+      },
+      {
+        "contract": "f-250f6f1859dacb592ec08f28",
+        "criteria": [
+          "435"
+        ],
+        "id": "088986d8b62fb4c17572bf855b9511f4d59ba44a6767633a6ade33843375771c",
+        "request": "chest ct showed ild",
+        "route": "engineering"
+      }
+    ],
+    "source_sha256": "8e530421201a2a4d556991baa714d579a84687eaa8b991ed837e5d05f0365d5f",
+    "work": {
+      "engineering_items": 4,
+      "evidence_backed_decisions": 0,
+      "human_questions": 0,
+      "record_lookups": 0
+    }
+  },
+  "437": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "437": {
+        "evidence": [],
+        "facts": {},
+        "partial_evidence": [],
+        "reason": "Which classification and definitions establish the required type I or II COPD exacerbation?",
+        "source_sentences": [],
+        "state": "AUTHORING_HOLD"
+      }
+    },
+    "requests": [
+      {
+        "criteria": [
+          "437"
+        ],
+        "id": "3d17c6ac3b3ab358e402bc5f6b41f934f57d61fda62b8416ff9e1c6784aa8652",
+        "request": "Which classification and definitions establish the required type I or II COPD exacerbation?",
+        "route": "protocol_review"
+      }
+    ],
+    "source_sha256": "8e530421201a2a4d556991baa714d579a84687eaa8b991ed837e5d05f0365d5f",
+    "work": {
+      "engineering_items": 0,
+      "evidence_backed_decisions": 0,
+      "human_questions": 1,
+      "record_lookups": 0
+    }
+  },
+  "44": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "44": {
+        "evidence": [
+          "Observation/n-e118633b2b17678f325668ae665f3c"
+        ],
+        "facts": {
+          "age_years": {
+            "contract": "f-294019d9f0bf6d5c69f1dd3a",
+            "evidence": [
+              "Observation/n-e118633b2b17678f325668ae665f3c"
+            ],
+            "label": "age_years",
+            "state": "AVAILABLE",
+            "value": 58
+          }
+        },
+        "partial_evidence": [
+          "Observation/n-e118633b2b17678f325668ae665f3c"
+        ],
+        "reason": "Negated protocol condition. age_years = 58 (requires lt 18).",
+        "source_sentences": [
+          0
+        ],
+        "state": "MET"
+      }
+    },
+    "requests": [],
+    "source_sha256": "7db7b98d01354acf855cd7b610383ea9dd1df80ead35eeb47b9ba43467b559ad",
+    "work": {
+      "engineering_items": 0,
+      "evidence_backed_decisions": 1,
+      "human_questions": 0,
+      "record_lookups": 0
+    }
+  },
+  "45": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "45": {
+        "evidence": [],
+        "facts": {
+          "lung_cancer": {
+            "contract": "f-d019004ffe55b6c91a2bdaaa",
+            "evidence": [],
+            "label": "lung_cancer",
+            "state": "MISSING_DATA",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Negated protocol condition. Negated protocol condition. Obtain source-linked lung cancer.",
+        "source_sentences": [],
+        "state": "MISSING_DATA"
+      }
+    },
+    "requests": [
+      {
+        "criteria": [
+          "45"
+        ],
+        "id": "019f7ed5c81f10fadf5192fde1a30c0112c013317d68d24742f07372f711fa39",
+        "request": "lung cancer",
+        "route": "retrieve_record"
+      }
+    ],
+    "source_sha256": "7db7b98d01354acf855cd7b610383ea9dd1df80ead35eeb47b9ba43467b559ad",
+    "work": {
+      "engineering_items": 0,
+      "evidence_backed_decisions": 0,
+      "human_questions": 0,
+      "record_lookups": 1
+    }
+  },
+  "454": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "454": {
+        "evidence": [],
+        "facts": {
+          "age_years": {
+            "contract": "f-294019d9f0bf6d5c69f1dd3a",
+            "evidence": [
+              "Observation/n-074b0618e915e2d0390accc8213dc0"
+            ],
+            "label": "age_years",
+            "state": "AVAILABLE",
+            "value": 33
+          },
+          "male_or_female": {
+            "contract": "f-b1ef73b8433077f434b77340",
+            "evidence": [
+              "Observation/n-ebee0d7dd113cce30603e66dcda0e5"
+            ],
+            "label": "male_or_female",
+            "state": "AVAILABLE",
+            "value": true
+          },
+          "undergoing_emergency_laparotomy": {
+            "contract": "f-c732050fe6236a1a90184fb6",
+            "evidence": [],
+            "label": "undergoing_emergency_laparotomy",
+            "state": "BINDING_HOLD",
+            "value": null
+          }
+        },
+        "partial_evidence": [
+          "Observation/n-074b0618e915e2d0390accc8213dc0",
+          "Observation/n-ebee0d7dd113cce30603e66dcda0e5"
+        ],
+        "reason": "Implement a patient-chart mapping for undergoing emergency laparotomy.",
+        "source_sentences": [],
+        "state": "BINDING_HOLD"
+      }
+    },
+    "requests": [
+      {
+        "contract": "f-c732050fe6236a1a90184fb6",
+        "criteria": [
+          "454"
+        ],
+        "id": "7ecbb843ff031406c214c30d489dbfd5b0712ac098b142d2bd69d6ed753f629d",
+        "request": "undergoing emergency laparotomy",
+        "route": "engineering"
+      }
+    ],
+    "source_sha256": "c793d7320c8a16a8c71b768394696ee0f2b478b6157e1ef6a06afca6842d300e",
+    "work": {
+      "engineering_items": 1,
+      "evidence_backed_decisions": 0,
+      "human_questions": 0,
+      "record_lookups": 0
+    }
+  },
+  "46": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "46": {
+        "evidence": [],
+        "facts": {},
+        "partial_evidence": [],
+        "reason": "What interval and screening anchor define a \u2018recent\u2019 chest CT?",
+        "source_sentences": [],
+        "state": "AUTHORING_HOLD"
+      }
+    },
+    "requests": [
+      {
+        "criteria": [
+          "46"
+        ],
+        "id": "461b4113d9ca1d5be609be97f9f9dca36ad6e8e1e21afea3bbb6136bddc6ed07",
+        "request": "What interval and screening anchor define a \u2018recent\u2019 chest CT?",
+        "route": "protocol_review"
+      }
+    ],
+    "source_sha256": "7db7b98d01354acf855cd7b610383ea9dd1df80ead35eeb47b9ba43467b559ad",
+    "work": {
+      "engineering_items": 0,
+      "evidence_backed_decisions": 0,
+      "human_questions": 1,
+      "record_lookups": 0
+    }
+  },
+  "460": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "460": {
+        "evidence": [],
+        "facts": {
+          "ct_cerebral_edema": {
+            "contract": "f-536c70f82cbf3118c9f829a1",
+            "evidence": [],
+            "label": "ct_cerebral_edema",
+            "state": "BINDING_HOLD",
+            "value": null
+          },
+          "ct_diffuse_axonal_injury": {
+            "contract": "f-594192aad7d214826b9a16a0",
+            "evidence": [],
+            "label": "ct_diffuse_axonal_injury",
+            "state": "BINDING_HOLD",
+            "value": null
+          },
+          "ct_intracranial_hemorrhage": {
+            "contract": "f-ba086e7d57051740540d35dd",
+            "evidence": [],
+            "label": "ct_intracranial_hemorrhage",
+            "state": "BINDING_HOLD",
+            "value": null
+          },
+          "gcs": {
+            "contract": "f-16580c0d06fe8c8e20d6ee79",
+            "evidence": [
+              "Observation/n-1509f6222be8c4fced4d1fb251163d"
+            ],
+            "label": "gcs",
+            "state": "AVAILABLE",
+            "value": 6
+          },
+          "gcs_motor": {
+            "contract": "f-ce50747b17a43b49cfcba1b8",
+            "evidence": [],
+            "label": "gcs_motor",
+            "state": "BINDING_HOLD",
+            "value": null
+          },
+          "normal_head_ct": {
+            "contract": "f-c70ecfa21c5cc8731b70f283",
+            "evidence": [],
+            "label": "normal_head_ct",
+            "state": "BINDING_HOLD",
+            "value": null
+          },
+          "traumatic_brain_injury": {
+            "contract": "f-2d6c97437a9791a863c4f588",
+            "evidence": [],
+            "label": "traumatic_brain_injury",
+            "state": "MISSING_DATA",
+            "value": null
+          }
+        },
+        "partial_evidence": [
+          "Observation/n-1509f6222be8c4fced4d1fb251163d"
+        ],
+        "reason": "Implement a patient-chart mapping for ct intracranial hemorrhage. Implement a patient-chart mapping for ct cerebral edema. Implement a patient-chart mapping for ct diffuse axonal injury. Implement a patient-chart mapping for gcs motor. Implement a patient-chart mapping for normal head ct.",
+        "source_sentences": [],
+        "state": "BINDING_HOLD"
+      }
+    },
+    "requests": [
+      {
+        "criteria": [
+          "460"
+        ],
+        "id": "37a73c08bcb86b12b7b29420a5c28f61d4a0527f2089bbf463010e4b195920b9",
+        "request": "traumatic brain injury",
+        "route": "retrieve_record"
+      },
+      {
+        "contract": "f-ba086e7d57051740540d35dd",
+        "criteria": [
+          "460"
+        ],
+        "id": "287555f53c51a280fd38269926bffe129e8e73095c308c0c6152ac5016d1e2bd",
+        "request": "ct intracranial hemorrhage",
+        "route": "engineering"
+      },
+      {
+        "contract": "f-536c70f82cbf3118c9f829a1",
+        "criteria": [
+          "460"
+        ],
+        "id": "a2ee3bbccc0667f2792a3e62fc271321cdae92fe1de9a4f1c0d42e966d33ac67",
+        "request": "ct cerebral edema",
+        "route": "engineering"
+      },
+      {
+        "contract": "f-594192aad7d214826b9a16a0",
+        "criteria": [
+          "460"
+        ],
+        "id": "de5c6921c9451ce6b72fa4a1f916bde0cdd3fc83fd202f3e92f61f90bcf865c2",
+        "request": "ct diffuse axonal injury",
+        "route": "engineering"
+      },
+      {
+        "contract": "f-ce50747b17a43b49cfcba1b8",
+        "criteria": [
+          "460"
+        ],
+        "id": "9dfef3c34875ebce76f3f2223bc6e0b142dfd2af36e7f75761878c213ba4d3a0",
+        "request": "gcs motor",
+        "route": "engineering"
+      },
+      {
+        "contract": "f-c70ecfa21c5cc8731b70f283",
+        "criteria": [
+          "460"
+        ],
+        "id": "da695d57096a51a94d1f3d240444c681673e6bac8f955a77c685182ebb67008c",
+        "request": "normal head ct",
+        "route": "engineering"
+      }
+    ],
+    "source_sha256": "5b417970f16785d4e7019681dd5b4d5656d774dad0c859520884c165ef16ec87",
+    "work": {
+      "engineering_items": 5,
+      "evidence_backed_decisions": 0,
+      "human_questions": 0,
+      "record_lookups": 1
+    }
+  },
+  "467": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "467": {
+        "evidence": [],
+        "facts": {
+          "greater_than_mild_preinjury_neurodevelopmental_disability": {
+            "contract": "f-be88e553a37cd47210b197cd",
+            "evidence": [],
+            "label": "greater_than_mild_preinjury_neurodevelopmental_disability",
+            "state": "BINDING_HOLD",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Negated protocol condition. Implement a patient-chart mapping for greater than mild preinjury neurodevelopmental disability.",
+        "source_sentences": [],
+        "state": "BINDING_HOLD"
+      }
+    },
+    "requests": [
+      {
+        "contract": "f-be88e553a37cd47210b197cd",
+        "criteria": [
+          "467"
+        ],
+        "id": "9e160464d8907e85c7363395b80c049cbd06b1f0e9e9486445936665c2015fb6",
+        "request": "greater than mild preinjury neurodevelopmental disability",
+        "route": "engineering"
+      }
+    ],
+    "source_sha256": "5b417970f16785d4e7019681dd5b4d5656d774dad0c859520884c165ef16ec87",
+    "work": {
+      "engineering_items": 1,
+      "evidence_backed_decisions": 0,
+      "human_questions": 0,
+      "record_lookups": 0
+    }
+  },
+  "468": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "468": {
+        "evidence": [],
+        "facts": {
+          "acute_isolated_epidural_hematoma": {
+            "contract": "f-5d4227609722b511c6f7f51e",
+            "evidence": [],
+            "label": "acute_isolated_epidural_hematoma",
+            "state": "MISSING_DATA",
+            "value": null
+          },
+          "rapid_recovery_expected_after_surgical_removal": {
+            "contract": "f-f58406b3ef0d09bcc3038302",
+            "evidence": [],
+            "label": "rapid_recovery_expected_after_surgical_removal",
+            "state": "INVESTIGATOR_ACTIONS",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Negated protocol condition. Obtain source-linked acute isolated epidural hematoma.",
+        "source_sentences": [],
+        "state": "MISSING_DATA"
+      }
+    },
+    "requests": [
+      {
+        "criteria": [
+          "468"
+        ],
+        "id": "60768b4603b144562d5f5f54611a3ccc427bc9cdd69167c868fa02a53497a515",
+        "request": "acute isolated epidural hematoma",
+        "route": "retrieve_record"
+      },
+      {
+        "criteria": [
+          "468"
+        ],
+        "id": "45b6fcab13f6480d924879f7db0d430fefa3ee4a127efd59182eec28d31d33a9",
+        "request": "rapid recovery expected after surgical removal",
+        "route": "investigator"
+      }
+    ],
+    "source_sha256": "5b417970f16785d4e7019681dd5b4d5656d774dad0c859520884c165ef16ec87",
+    "work": {
+      "engineering_items": 0,
+      "evidence_backed_decisions": 0,
+      "human_questions": 1,
+      "record_lookups": 1
+    }
+  },
+  "475": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "475": {
+        "evidence": [],
+        "facts": {
+          "child_involved_in_motor_vehicle_collision_at_index_injury": {
+            "contract": "f-e6189a9376a10975fbcc8d62",
+            "evidence": [],
+            "label": "child_involved_in_motor_vehicle_collision_at_index_injury",
+            "state": "BINDING_HOLD",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Negated protocol condition. Implement a patient-chart mapping for child involved in motor vehicle collision at index injury.",
+        "source_sentences": [],
+        "state": "BINDING_HOLD"
+      }
+    },
+    "requests": [
+      {
+        "contract": "f-e6189a9376a10975fbcc8d62",
+        "criteria": [
+          "475"
+        ],
+        "id": "0cafa449d7ec11e7254640dfbd5b0164f157fbc4851c99a73f0961814721a0cf",
+        "request": "child involved in motor vehicle collision at index injury",
+        "route": "engineering"
+      }
+    ],
+    "source_sha256": "5b417970f16785d4e7019681dd5b4d5656d774dad0c859520884c165ef16ec87",
+    "work": {
+      "engineering_items": 1,
+      "evidence_backed_decisions": 0,
+      "human_questions": 0,
+      "record_lookups": 0
+    }
+  },
+  "476": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "476": {
+        "evidence": [],
+        "facts": {
+          "child_injured_by_another_rider_at_index_injury": {
+            "contract": "f-bd85c375ece6d53d666fab50",
+            "evidence": [],
+            "label": "child_injured_by_another_rider_at_index_injury",
+            "state": "BINDING_HOLD",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Negated protocol condition. Implement a patient-chart mapping for child injured by another rider at index injury.",
+        "source_sentences": [],
+        "state": "BINDING_HOLD"
+      }
+    },
+    "requests": [
+      {
+        "contract": "f-bd85c375ece6d53d666fab50",
+        "criteria": [
+          "476"
+        ],
+        "id": "f783412377b6684c6af05f84c2338b9003d551140897b50dae3d7c3e6fd10438",
+        "request": "child injured by another rider at index injury",
+        "route": "engineering"
+      }
+    ],
+    "source_sha256": "5b417970f16785d4e7019681dd5b4d5656d774dad0c859520884c165ef16ec87",
+    "work": {
+      "engineering_items": 1,
+      "evidence_backed_decisions": 0,
+      "human_questions": 0,
+      "record_lookups": 0
+    }
+  },
+  "477": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "477": {
+        "evidence": [],
+        "facts": {
+          "index_incident_involved_bicycle_with_bull_bars": {
+            "contract": "f-50024f51d13892ebb21ed3f5",
+            "evidence": [],
+            "label": "index_incident_involved_bicycle_with_bull_bars",
+            "state": "BINDING_HOLD",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Negated protocol condition. Implement a patient-chart mapping for index incident involved bicycle with bull bars.",
+        "source_sentences": [],
+        "state": "BINDING_HOLD"
+      }
+    },
+    "requests": [
+      {
+        "contract": "f-50024f51d13892ebb21ed3f5",
+        "criteria": [
+          "477"
+        ],
+        "id": "5553f499151bee9421e461560051f8ba06a94d32fe4299b54e3c4264051991b8",
+        "request": "index incident involved bicycle with bull bars",
+        "route": "engineering"
+      }
+    ],
+    "source_sha256": "5b417970f16785d4e7019681dd5b4d5656d774dad0c859520884c165ef16ec87",
+    "work": {
+      "engineering_items": 1,
+      "evidence_backed_decisions": 0,
+      "human_questions": 0,
+      "record_lookups": 0
+    }
+  },
+  "481": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "481": {
+        "evidence": [],
+        "facts": {},
+        "partial_evidence": [],
+        "reason": "Which individual in this group note is the screening subject? Supply their individual record.",
+        "source_sentences": [],
+        "state": "SOURCE_SCOPE_HOLD"
+      }
+    },
+    "requests": [
+      {
+        "criteria": [
+          "481"
+        ],
+        "id": "e8164a71ee5821b0a5ec0f0ec42c4b3f5fb947baba1c17bb9aca57cd7b57e091",
+        "request": "Which individual in this group note is the screening subject? Supply their individual record.",
+        "route": "identify_subject"
+      }
+    ],
+    "source_sha256": "6450a46fdea7dd8d7b314e62295bcdef612fdb730a2a4eebb77c5a3c2cd9136d",
+    "work": {
+      "engineering_items": 0,
+      "evidence_backed_decisions": 0,
+      "human_questions": 1,
+      "record_lookups": 0
+    }
+  },
+  "492": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "492": {
+        "evidence": [],
+        "facts": {},
+        "partial_evidence": [],
+        "reason": "Which individual in this group note is the screening subject? Supply their individual record.",
+        "source_sentences": [],
+        "state": "SOURCE_SCOPE_HOLD"
+      }
+    },
+    "requests": [
+      {
+        "criteria": [
+          "492"
+        ],
+        "id": "e8164a71ee5821b0a5ec0f0ec42c4b3f5fb947baba1c17bb9aca57cd7b57e091",
+        "request": "Which individual in this group note is the screening subject? Supply their individual record.",
+        "route": "identify_subject"
+      }
+    ],
+    "source_sha256": "6450a46fdea7dd8d7b314e62295bcdef612fdb730a2a4eebb77c5a3c2cd9136d",
+    "work": {
+      "engineering_items": 0,
+      "evidence_backed_decisions": 0,
+      "human_questions": 1,
+      "record_lookups": 0
+    }
+  },
+  "493": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "493": {
+        "evidence": [],
+        "facts": {},
+        "partial_evidence": [],
+        "reason": "Which individual in this group note is the screening subject? Supply their individual record.",
+        "source_sentences": [],
+        "state": "SOURCE_SCOPE_HOLD"
+      }
+    },
+    "requests": [
+      {
+        "criteria": [
+          "493"
+        ],
+        "id": "e8164a71ee5821b0a5ec0f0ec42c4b3f5fb947baba1c17bb9aca57cd7b57e091",
+        "request": "Which individual in this group note is the screening subject? Supply their individual record.",
+        "route": "identify_subject"
+      }
+    ],
+    "source_sha256": "6450a46fdea7dd8d7b314e62295bcdef612fdb730a2a4eebb77c5a3c2cd9136d",
+    "work": {
+      "engineering_items": 0,
+      "evidence_backed_decisions": 0,
+      "human_questions": 1,
+      "record_lookups": 0
+    }
+  },
+  "494": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "494": {
+        "evidence": [],
+        "facts": {},
+        "partial_evidence": [],
+        "reason": "Which individual in this group note is the screening subject? Supply their individual record.",
+        "source_sentences": [],
+        "state": "SOURCE_SCOPE_HOLD"
+      }
+    },
+    "requests": [
+      {
+        "criteria": [
+          "494"
+        ],
+        "id": "e8164a71ee5821b0a5ec0f0ec42c4b3f5fb947baba1c17bb9aca57cd7b57e091",
+        "request": "Which individual in this group note is the screening subject? Supply their individual record.",
+        "route": "identify_subject"
+      }
+    ],
+    "source_sha256": "6450a46fdea7dd8d7b314e62295bcdef612fdb730a2a4eebb77c5a3c2cd9136d",
+    "work": {
+      "engineering_items": 0,
+      "evidence_backed_decisions": 0,
+      "human_questions": 1,
+      "record_lookups": 0
+    }
+  },
+  "495": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "495": {
+        "evidence": [],
+        "facts": {},
+        "partial_evidence": [],
+        "reason": "Which individual in this group note is the screening subject? Supply their individual record.",
+        "source_sentences": [],
+        "state": "SOURCE_SCOPE_HOLD"
+      }
+    },
+    "requests": [
+      {
+        "criteria": [
+          "495"
+        ],
+        "id": "e8164a71ee5821b0a5ec0f0ec42c4b3f5fb947baba1c17bb9aca57cd7b57e091",
+        "request": "Which individual in this group note is the screening subject? Supply their individual record.",
+        "route": "identify_subject"
+      }
+    ],
+    "source_sha256": "6450a46fdea7dd8d7b314e62295bcdef612fdb730a2a4eebb77c5a3c2cd9136d",
+    "work": {
+      "engineering_items": 0,
+      "evidence_backed_decisions": 0,
+      "human_questions": 1,
+      "record_lookups": 0
+    }
+  },
+  "496": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "496": {
+        "evidence": [],
+        "facts": {},
+        "partial_evidence": [],
+        "reason": "Which individual in this group note is the screening subject? Supply their individual record.",
+        "source_sentences": [],
+        "state": "SOURCE_SCOPE_HOLD"
+      }
+    },
+    "requests": [
+      {
+        "criteria": [
+          "496"
+        ],
+        "id": "e8164a71ee5821b0a5ec0f0ec42c4b3f5fb947baba1c17bb9aca57cd7b57e091",
+        "request": "Which individual in this group note is the screening subject? Supply their individual record.",
+        "route": "identify_subject"
+      }
+    ],
+    "source_sha256": "6450a46fdea7dd8d7b314e62295bcdef612fdb730a2a4eebb77c5a3c2cd9136d",
+    "work": {
+      "engineering_items": 0,
+      "evidence_backed_decisions": 0,
+      "human_questions": 1,
+      "record_lookups": 0
+    }
+  },
+  "497": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "497": {
+        "evidence": [],
+        "facts": {},
+        "partial_evidence": [],
+        "reason": "Which individual in this group note is the screening subject? Supply their individual record.",
+        "source_sentences": [],
+        "state": "SOURCE_SCOPE_HOLD"
+      }
+    },
+    "requests": [
+      {
+        "criteria": [
+          "497"
+        ],
+        "id": "e8164a71ee5821b0a5ec0f0ec42c4b3f5fb947baba1c17bb9aca57cd7b57e091",
+        "request": "Which individual in this group note is the screening subject? Supply their individual record.",
+        "route": "identify_subject"
+      }
+    ],
+    "source_sha256": "6450a46fdea7dd8d7b314e62295bcdef612fdb730a2a4eebb77c5a3c2cd9136d",
+    "work": {
+      "engineering_items": 0,
+      "evidence_backed_decisions": 0,
+      "human_questions": 1,
+      "record_lookups": 0
+    }
+  },
+  "498": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "498": {
+        "evidence": [],
+        "facts": {},
+        "partial_evidence": [],
+        "reason": "What functional assessment and authorized reviewer establish the maternal reliability criterion?",
+        "source_sentences": [],
+        "state": "AUTHORING_HOLD"
+      }
+    },
+    "requests": [
+      {
+        "criteria": [
+          "498"
+        ],
+        "id": "6a0624a19c862aea8859ce5df1b005b52e7b93cec1de9cac770eba3111571df3",
+        "request": "What functional assessment and authorized reviewer establish the maternal reliability criterion?",
+        "route": "protocol_review"
+      }
+    ],
+    "source_sha256": "6450a46fdea7dd8d7b314e62295bcdef612fdb730a2a4eebb77c5a3c2cd9136d",
+    "work": {
+      "engineering_items": 0,
+      "evidence_backed_decisions": 0,
+      "human_questions": 1,
+      "record_lookups": 0
+    }
+  },
+  "502": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "502": {
+        "evidence": [],
+        "facts": {
+          "who_performance_status": {
+            "contract": "f-a9bf79cf3ea714c29bb1c857",
+            "evidence": [],
+            "label": "who_performance_status",
+            "state": "BINDING_HOLD",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Implement a patient-chart mapping for who performance status.",
+        "source_sentences": [],
+        "state": "BINDING_HOLD"
+      }
+    },
+    "requests": [
+      {
+        "contract": "f-a9bf79cf3ea714c29bb1c857",
+        "criteria": [
+          "502"
+        ],
+        "id": "3853e0f04c608b1a7a4d04ca62086f1760b1a3f8850835500b46abad1cdd3f19",
+        "request": "who performance status",
+        "route": "engineering"
+      }
+    ],
+    "source_sha256": "01945d0051cbf9d8ce14afd398b15c5587d600aa5dea251561509793d615f273",
+    "work": {
+      "engineering_items": 1,
+      "evidence_backed_decisions": 0,
+      "human_questions": 0,
+      "record_lookups": 0
+    }
+  },
+  "517": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "517": {
+        "evidence": [
+          "Observation/n-72fa883443ed9672ee48a28337239c"
+        ],
+        "facts": {
+          "age_years": {
+            "contract": "f-294019d9f0bf6d5c69f1dd3a",
+            "evidence": [
+              "Observation/n-72fa883443ed9672ee48a28337239c"
+            ],
+            "label": "age_years",
+            "state": "AVAILABLE",
+            "value": 21
+          }
+        },
+        "partial_evidence": [
+          "Observation/n-72fa883443ed9672ee48a28337239c"
+        ],
+        "reason": "Negated protocol condition. age_years = 21 (requires lt 18).",
+        "source_sentences": [
+          0
+        ],
+        "state": "MET"
+      }
+    },
+    "requests": [],
+    "source_sha256": "01945d0051cbf9d8ce14afd398b15c5587d600aa5dea251561509793d615f273",
+    "work": {
+      "engineering_items": 0,
+      "evidence_backed_decisions": 1,
+      "human_questions": 0,
+      "record_lookups": 0
+    }
+  },
+  "544": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "544": {
+        "evidence": [],
+        "facts": {},
+        "partial_evidence": [],
+        "reason": "Which findings or authorized assessment establish a \u2018severe cardiac condition\u2019 for this study?",
+        "source_sentences": [],
+        "state": "AUTHORING_HOLD"
+      }
+    },
+    "requests": [
+      {
+        "criteria": [
+          "544"
+        ],
+        "id": "d2512574979093d8dee06ec234032055580d4d78fca690a02ea78cc22b35439b",
+        "request": "Which findings or authorized assessment establish a \u2018severe cardiac condition\u2019 for this study?",
+        "route": "protocol_review"
+      }
+    ],
+    "source_sha256": "50630321ca620a55842aff122934ae739f2d97132998b99c267a265e2e68e91a",
+    "work": {
+      "engineering_items": 0,
+      "evidence_backed_decisions": 0,
+      "human_questions": 1,
+      "record_lookups": 0
+    }
+  },
+  "55": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "55": {
+        "evidence": [],
+        "facts": {},
+        "partial_evidence": [],
+        "reason": "Does a history of preterm birth exclude older children, or does the restriction apply only during the neonatal period?",
+        "source_sentences": [],
+        "state": "AUTHORING_HOLD"
+      }
+    },
+    "requests": [
+      {
+        "criteria": [
+          "55"
+        ],
+        "id": "550a94f0e3040b6395107eb3d9ea3fc397b0cedd2c2e286f384591fa1f60e74d",
+        "request": "Does a history of preterm birth exclude older children, or does the restriction apply only during the neonatal period?",
+        "route": "protocol_review"
+      }
+    ],
+    "source_sha256": "b84f8404e9c22885aa68fdc3dcafea94221f249e77b257611aa12581d9195e7b",
+    "work": {
+      "engineering_items": 0,
+      "evidence_backed_decisions": 0,
+      "human_questions": 1,
+      "record_lookups": 0
+    }
+  },
+  "577": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "577": {
+        "evidence": [
+          "Observation/n-914d95a79be42abfdd734a1e1ce48d"
+        ],
+        "facts": {
+          "active_treatment_of_any_form_not_considered": {
+            "contract": "f-41224a25e5cbf55856ba9b59",
+            "evidence": [
+              "Observation/n-914d95a79be42abfdd734a1e1ce48d"
+            ],
+            "label": "active_treatment_of_any_form_not_considered",
+            "state": "AVAILABLE",
+            "value": false
+          },
+          "moribund": {
+            "contract": "f-39659e26d1a06a5d3b3b57b6",
+            "evidence": [],
+            "label": "moribund",
+            "state": "MISSING_DATA",
+            "value": null
+          }
+        },
+        "partial_evidence": [
+          "Observation/n-914d95a79be42abfdd734a1e1ce48d"
+        ],
+        "reason": "Negated protocol condition. active_treatment_of_any_form_not_considered = False (requires eq True).",
+        "source_sentences": [
+          3
+        ],
+        "state": "MET"
+      }
+    },
+    "requests": [],
+    "source_sha256": "90feb6e2e42b1dda71b8a19974faa30b3a05570b5a27035a6f244848e689f105",
+    "work": {
+      "engineering_items": 0,
+      "evidence_backed_decisions": 1,
+      "human_questions": 0,
+      "record_lookups": 0
+    }
+  },
+  "621": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "621": {
+        "evidence": [],
+        "facts": {
+          "has_social_insurance": {
+            "contract": "f-417d73e80866ce255254c324",
+            "evidence": [],
+            "label": "has_social_insurance",
+            "state": "BINDING_HOLD",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Negated protocol condition. Negated protocol condition. Implement a patient-chart mapping for has social insurance.",
+        "source_sentences": [],
+        "state": "BINDING_HOLD"
+      }
+    },
+    "requests": [
+      {
+        "contract": "f-417d73e80866ce255254c324",
+        "criteria": [
+          "621"
+        ],
+        "id": "cc78f16b44d2beb369bae05e8ed71e12e5d8c74a72b4f08be22b6c87741275c6",
+        "request": "has social insurance",
+        "route": "engineering"
+      }
+    ],
+    "source_sha256": "ab965a81fb09dd678da825d447c82ac9e9ef4577ea2241d448e4bbdbbfa4e5d2",
+    "work": {
+      "engineering_items": 1,
+      "evidence_backed_decisions": 0,
+      "human_questions": 0,
+      "record_lookups": 0
+    }
+  },
+  "632": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "632": {
+        "evidence": [],
+        "facts": {
+          "unable_to_provide_written_consent": {
+            "contract": "f-822213e667944b07de4409a1",
+            "evidence": [],
+            "label": "unable_to_provide_written_consent",
+            "state": "BINDING_HOLD",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Negated protocol condition. Implement a patient-chart mapping for unable to provide written consent.",
+        "source_sentences": [],
+        "state": "BINDING_HOLD"
+      }
+    },
+    "requests": [
+      {
+        "contract": "f-822213e667944b07de4409a1",
+        "criteria": [
+          "632"
+        ],
+        "id": "fa9b7ebf4ce5f2513f0a51ca599cf7077eed70668ac1db9f00e9c5859f9de9cd",
+        "request": "unable to provide written consent",
+        "route": "engineering"
+      }
+    ],
+    "source_sha256": "ab965a81fb09dd678da825d447c82ac9e9ef4577ea2241d448e4bbdbbfa4e5d2",
+    "work": {
+      "engineering_items": 1,
+      "evidence_backed_decisions": 0,
+      "human_questions": 0,
+      "record_lookups": 0
+    }
+  },
+  "633": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "633": {
+        "evidence": [
+          "Observation/n-cad920b07777249324d5389b72193b"
+        ],
+        "facts": {
+          "age_years": {
+            "contract": "f-294019d9f0bf6d5c69f1dd3a",
+            "evidence": [
+              "Observation/n-cad920b07777249324d5389b72193b"
+            ],
+            "label": "age_years",
+            "state": "AVAILABLE",
+            "value": 65
+          }
+        },
+        "partial_evidence": [
+          "Observation/n-cad920b07777249324d5389b72193b"
+        ],
+        "reason": "Negated protocol condition. age_years = 65 (requires lt 18).",
+        "source_sentences": [
+          0
+        ],
+        "state": "MET"
+      }
+    },
+    "requests": [],
+    "source_sha256": "ab965a81fb09dd678da825d447c82ac9e9ef4577ea2241d448e4bbdbbfa4e5d2",
+    "work": {
+      "engineering_items": 0,
+      "evidence_backed_decisions": 1,
+      "human_questions": 0,
+      "record_lookups": 0
+    }
+  },
+  "636": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "636": {
+        "evidence": [],
+        "facts": {
+          "lipid_lowering_treatment_months": {
+            "contract": "f-af28f1a93b5f3b127b632ee5",
+            "evidence": [],
+            "label": "lipid_lowering_treatment_months",
+            "state": "BINDING_HOLD",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Implement a patient-chart mapping for lipid lowering treatment months.",
+        "source_sentences": [],
+        "state": "BINDING_HOLD"
+      }
+    },
+    "requests": [
+      {
+        "contract": "f-af28f1a93b5f3b127b632ee5",
+        "criteria": [
+          "636"
+        ],
+        "id": "659aca2f343b9637d5995581c4cb65763cf64a03e64e524e79b27cc1d67bed46",
+        "request": "lipid lowering treatment months",
+        "route": "engineering"
+      }
+    ],
+    "source_sha256": "3204ac56adccfb3970430cc9b6db59409a40cd1a9e5a9356898e4704025299da",
+    "work": {
+      "engineering_items": 1,
+      "evidence_backed_decisions": 0,
+      "human_questions": 0,
+      "record_lookups": 0
+    }
+  },
+  "637": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "637": {
+        "evidence": [],
+        "facts": {
+          "lipid_lowering_regimen_stable_six_weeks_immediately_before_enrolment": {
+            "contract": "f-75ac4d84a285f5f41dc8ee71",
+            "evidence": [],
+            "label": "lipid_lowering_regimen_stable_six_weeks_immediately_before_enrolment",
+            "state": "BINDING_HOLD",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Implement a patient-chart mapping for lipid lowering regimen stable six weeks immediately before enrolment.",
+        "source_sentences": [],
+        "state": "BINDING_HOLD"
+      }
+    },
+    "requests": [
+      {
+        "contract": "f-75ac4d84a285f5f41dc8ee71",
+        "criteria": [
+          "637"
+        ],
+        "id": "ea882bcbf9e041e08e21150192e3cf4737e83a6a12af67e086e2e792ee6595c0",
+        "request": "lipid lowering regimen stable six weeks immediately before enrolment",
+        "route": "engineering"
+      }
+    ],
+    "source_sha256": "3204ac56adccfb3970430cc9b6db59409a40cd1a9e5a9356898e4704025299da",
+    "work": {
+      "engineering_items": 1,
+      "evidence_backed_decisions": 0,
+      "human_questions": 0,
+      "record_lookups": 0
+    }
+  },
+  "640": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "640": {
+        "evidence": [],
+        "facts": {
+          "typical_chest_pain": {
+            "contract": "f-b9b9d0929efd8216d69b4531",
+            "evidence": [],
+            "label": "typical_chest_pain",
+            "state": "INVESTIGATOR_ACTIONS",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "typical chest pain",
+        "source_sentences": [],
+        "state": "INVESTIGATOR_ACTIONS"
+      }
+    },
+    "requests": [
+      {
+        "criteria": [
+          "640"
+        ],
+        "id": "9d38497b58449ac18b9f5bddf06a45017cde7f68db13fb229cd6035ce62a6d1a",
+        "request": "typical chest pain",
+        "route": "investigator"
+      }
+    ],
+    "source_sha256": "3204ac56adccfb3970430cc9b6db59409a40cd1a9e5a9356898e4704025299da",
+    "work": {
+      "engineering_items": 0,
+      "evidence_backed_decisions": 0,
+      "human_questions": 1,
+      "record_lookups": 0
+    }
+  },
+  "653": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "653": {
+        "evidence": [],
+        "facts": {
+          "unable_to_speak_english": {
+            "contract": "f-e4e415780cfac6427c85c19d",
+            "evidence": [],
+            "label": "unable_to_speak_english",
+            "state": "BINDING_HOLD",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Negated protocol condition. Implement a patient-chart mapping for unable to speak english.",
+        "source_sentences": [],
+        "state": "BINDING_HOLD"
+      }
+    },
+    "requests": [
+      {
+        "contract": "f-e4e415780cfac6427c85c19d",
+        "criteria": [
+          "653"
+        ],
+        "id": "79a77347cb548e7fd31dd01d577b520e6d74b05ab9b624f6011b8dfd34418e7f",
+        "request": "unable to speak english",
+        "route": "engineering"
+      }
+    ],
+    "source_sha256": "e74a17dee86c2d8c5929fdac4c0c4a5cae04b7b613cb1c0b1ce54932935fc503",
+    "work": {
+      "engineering_items": 1,
+      "evidence_backed_decisions": 0,
+      "human_questions": 0,
+      "record_lookups": 0
+    }
+  },
+  "671": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "671": {
+        "evidence": [],
+        "facts": {
+          "unipolar_major_depressive_disorder": {
+            "contract": "f-ad1af091d97ebf6ed675f799",
+            "evidence": [],
+            "label": "unipolar_major_depressive_disorder",
+            "state": "MISSING_DATA",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Obtain source-linked unipolar major depressive disorder.",
+        "source_sentences": [],
+        "state": "MISSING_DATA"
+      }
+    },
+    "requests": [
+      {
+        "criteria": [
+          "671"
+        ],
+        "id": "b06cda305b5a389e19871b7441edd6b75dca9fe2e5bea376ed7b562cb50d32ec",
+        "request": "unipolar major depressive disorder",
+        "route": "retrieve_record"
+      }
+    ],
+    "source_sha256": "b569f430e2ef49379ddb6718ccd02d076ca5f5a20a5e833e0f3101a2cfb337dc",
+    "work": {
+      "engineering_items": 0,
+      "evidence_backed_decisions": 0,
+      "human_questions": 0,
+      "record_lookups": 1
+    }
+  },
+  "706": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "706": {
+        "evidence": [],
+        "facts": {},
+        "partial_evidence": [],
+        "reason": "Do the listed pelvic symptoms all have to be present, or can a subset establish symptomatic pelvic congestion?",
+        "source_sentences": [],
+        "state": "AUTHORING_HOLD"
+      }
+    },
+    "requests": [
+      {
+        "criteria": [
+          "706"
+        ],
+        "id": "9e6ce18366b708681d536c90cd772c051581194f9f9134d1a4d224431cfd4c40",
+        "request": "Do the listed pelvic symptoms all have to be present, or can a subset establish symptomatic pelvic congestion?",
+        "route": "protocol_review"
+      }
+    ],
+    "source_sha256": "3063f3a37fe14e1c9fc7388b6f384f234f989cf0a5282294b72aa98f1ca4542d",
+    "work": {
+      "engineering_items": 0,
+      "evidence_backed_decisions": 0,
+      "human_questions": 1,
+      "record_lookups": 0
+    }
+  },
+  "720": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "720": {
+        "evidence": [],
+        "facts": {
+          "unexplained_menstrual_irregularity": {
+            "contract": "f-7a353002e7eab29054f94dc1",
+            "evidence": [],
+            "label": "unexplained_menstrual_irregularity",
+            "state": "MISSING_DATA",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Negated protocol condition. Obtain source-linked unexplained menstrual irregularity.",
+        "source_sentences": [],
+        "state": "MISSING_DATA"
+      }
+    },
+    "requests": [
+      {
+        "criteria": [
+          "720"
+        ],
+        "id": "3e1da40e59aa124355ae0d661d21d987a1b508cd05a6ceb99218854188a967f0",
+        "request": "unexplained menstrual irregularity",
+        "route": "retrieve_record"
+      }
+    ],
+    "source_sha256": "3063f3a37fe14e1c9fc7388b6f384f234f989cf0a5282294b72aa98f1ca4542d",
+    "work": {
+      "engineering_items": 0,
+      "evidence_backed_decisions": 0,
+      "human_questions": 0,
+      "record_lookups": 1
+    }
+  },
+  "722": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "722": {
+        "evidence": [],
+        "facts": {
+          "prior_thyroid_tissue_resection": {
+            "contract": "f-6ad6cbd9a1ebb793968bc1ee",
+            "evidence": [],
+            "label": "prior_thyroid_tissue_resection",
+            "state": "MISSING_DATA",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Negated protocol condition. Obtain source-linked prior thyroid tissue resection.",
+        "source_sentences": [],
+        "state": "MISSING_DATA"
+      }
+    },
+    "requests": [
+      {
+        "criteria": [
+          "722"
+        ],
+        "id": "dcc8351c810c9dca8ac37294628adb0b9d589f7bfdd412460e93300493bf413a",
+        "request": "prior thyroid tissue resection",
+        "route": "retrieve_record"
+      }
+    ],
+    "source_sha256": "ad0a2bc2a07981a7a1ba8f2f29c053736de00c07c9451a895e308e0eb5f2550a",
+    "work": {
+      "engineering_items": 0,
+      "evidence_backed_decisions": 0,
+      "human_questions": 0,
+      "record_lookups": 1
+    }
+  },
+  "723": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "723": {
+        "evidence": [],
+        "facts": {
+          "prior_neck_irradiation": {
+            "contract": "f-9aaf0d1a523ac24c46b64805",
+            "evidence": [],
+            "label": "prior_neck_irradiation",
+            "state": "MISSING_DATA",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Negated protocol condition. Obtain source-linked prior neck irradiation.",
+        "source_sentences": [],
+        "state": "MISSING_DATA"
+      }
+    },
+    "requests": [
+      {
+        "criteria": [
+          "723"
+        ],
+        "id": "3691f58a79c6d18e4c641caa523dbf4d718a57fc205da59b29a6dcbe6b280ecb",
+        "request": "prior neck irradiation",
+        "route": "retrieve_record"
+      }
+    ],
+    "source_sha256": "ad0a2bc2a07981a7a1ba8f2f29c053736de00c07c9451a895e308e0eb5f2550a",
+    "work": {
+      "engineering_items": 0,
+      "evidence_backed_decisions": 0,
+      "human_questions": 0,
+      "record_lookups": 1
+    }
+  },
+  "724": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "724": {
+        "evidence": [],
+        "facts": {
+          "prior_radioactive_iodine_therapy": {
+            "contract": "f-6aa5fd428ee20bf6752ea1ae",
+            "evidence": [],
+            "label": "prior_radioactive_iodine_therapy",
+            "state": "MISSING_DATA",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Negated protocol condition. Obtain source-linked prior radioactive iodine therapy.",
+        "source_sentences": [],
+        "state": "MISSING_DATA"
+      }
+    },
+    "requests": [
+      {
+        "criteria": [
+          "724"
+        ],
+        "id": "3896999805ab4f8657753d6add153b3c7f3f56f49b6e6f3d17ee96bc28af0989",
+        "request": "prior radioactive iodine therapy",
+        "route": "retrieve_record"
+      }
+    ],
+    "source_sha256": "ad0a2bc2a07981a7a1ba8f2f29c053736de00c07c9451a895e308e0eb5f2550a",
+    "work": {
+      "engineering_items": 0,
+      "evidence_backed_decisions": 0,
+      "human_questions": 0,
+      "record_lookups": 1
+    }
+  },
+  "725": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "725": {
+        "evidence": [],
+        "facts": {
+          "prior_treatment_amiodarone": {
+            "contract": "f-274e8650585677a69c762485",
+            "evidence": [],
+            "label": "prior_treatment_amiodarone",
+            "state": "MISSING_DATA",
+            "value": null
+          },
+          "prior_treatment_ethionamide": {
+            "contract": "f-f9906cf73d4fb9bd86559d65",
+            "evidence": [],
+            "label": "prior_treatment_ethionamide",
+            "state": "MISSING_DATA",
+            "value": null
+          },
+          "prior_treatment_lithium": {
+            "contract": "f-efc778ae637bde39d3022a7a",
+            "evidence": [],
+            "label": "prior_treatment_lithium",
+            "state": "MISSING_DATA",
+            "value": null
+          },
+          "prior_treatment_methimazole": {
+            "contract": "f-e071f7afd590e88408bad12d",
+            "evidence": [],
+            "label": "prior_treatment_methimazole",
+            "state": "MISSING_DATA",
+            "value": null
+          },
+          "prior_treatment_propylthiouracil": {
+            "contract": "f-d2aeeb5e49d49f71d1adbf19",
+            "evidence": [],
+            "label": "prior_treatment_propylthiouracil",
+            "state": "MISSING_DATA",
+            "value": null
+          },
+          "prior_treatment_sunitinib": {
+            "contract": "f-36c97da21fd8d6991adb5958",
+            "evidence": [],
+            "label": "prior_treatment_sunitinib",
+            "state": "MISSING_DATA",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Negated protocol condition. Obtain source-linked prior treatment lithium. Obtain source-linked prior treatment methimazole. Obtain source-linked prior treatment propylthiouracil. Obtain source-linked prior treatment ethionamide. Obtain source-linked prior treatment amiodarone. Obtain source-linked prior treatment sunitinib.",
+        "source_sentences": [],
+        "state": "MISSING_DATA"
+      }
+    },
+    "requests": [
+      {
+        "criteria": [
+          "725"
+        ],
+        "id": "a38d1f657cac5280409c31ccab4149b36f05af54b5ec0916b7e95924c5489ac3",
+        "request": "prior treatment lithium",
+        "route": "retrieve_record"
+      },
+      {
+        "criteria": [
+          "725"
+        ],
+        "id": "41afa525117fd35e97130f9388cf4a76248a9837e742c6e4fc957aee1480740d",
+        "request": "prior treatment methimazole",
+        "route": "retrieve_record"
+      },
+      {
+        "criteria": [
+          "725"
+        ],
+        "id": "3167a5685b3fad50101d3533c4c75bcea3d235ea8f50d30b3474d9dda0cefa5d",
+        "request": "prior treatment propylthiouracil",
+        "route": "retrieve_record"
+      },
+      {
+        "criteria": [
+          "725"
+        ],
+        "id": "b08188fb1cc5a99fed62c5b7d6af766beaa4aaa3c31060bbb3574e9546e93a1d",
+        "request": "prior treatment ethionamide",
+        "route": "retrieve_record"
+      },
+      {
+        "criteria": [
+          "725"
+        ],
+        "id": "ba3c2caf61467312720523869d58365ff89ae6df010a05defacef08fdd74ee1f",
+        "request": "prior treatment amiodarone",
+        "route": "retrieve_record"
+      },
+      {
+        "criteria": [
+          "725"
+        ],
+        "id": "5a95ff3f4da6f9d5f1f1aabc840b29ad5f9e8eeb65f7b078792550ac5a8cd99f",
+        "request": "prior treatment sunitinib",
+        "route": "retrieve_record"
+      }
+    ],
+    "source_sha256": "ad0a2bc2a07981a7a1ba8f2f29c053736de00c07c9451a895e308e0eb5f2550a",
+    "work": {
+      "engineering_items": 0,
+      "evidence_backed_decisions": 0,
+      "human_questions": 0,
+      "record_lookups": 6
+    }
+  },
+  "726": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "726": {
+        "evidence": [],
+        "facts": {
+          "prior_celiac_serology": {
+            "contract": "f-32ba73e93b7dbeecfb4031c5",
+            "evidence": [],
+            "label": "prior_celiac_serology",
+            "state": "MISSING_DATA",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Negated protocol condition. Obtain source-linked prior celiac serology.",
+        "source_sentences": [],
+        "state": "MISSING_DATA"
+      }
+    },
+    "requests": [
+      {
+        "criteria": [
+          "726"
+        ],
+        "id": "6d016434e6ac3051c2d9507e17334d0e4bd9a80f7b9780fc68f519662a44bc5d",
+        "request": "prior celiac serology",
+        "route": "retrieve_record"
+      }
+    ],
+    "source_sha256": "ad0a2bc2a07981a7a1ba8f2f29c053736de00c07c9451a895e308e0eb5f2550a",
+    "work": {
+      "engineering_items": 0,
+      "evidence_backed_decisions": 0,
+      "human_questions": 0,
+      "record_lookups": 1
+    }
+  },
+  "734": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "734": {
+        "evidence": [],
+        "facts": {
+          "congenital_immunodeficiency": {
+            "contract": "f-2ba5ab68859a136c8fdf424a",
+            "evidence": [],
+            "label": "congenital_immunodeficiency",
+            "state": "MISSING_DATA",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Negated protocol condition. Obtain source-linked congenital immunodeficiency.",
+        "source_sentences": [],
+        "state": "MISSING_DATA"
+      }
+    },
+    "requests": [
+      {
+        "criteria": [
+          "734"
+        ],
+        "id": "f0a3b1e2e817e116f87c935b13447f5836b1a280f216e7ec4ef0b106c0537ffd",
+        "request": "congenital immunodeficiency",
+        "route": "retrieve_record"
+      }
+    ],
+    "source_sha256": "302503e596b522c6e7b968016369eb43b97294996317a74204fc59fb4420716d",
+    "work": {
+      "engineering_items": 0,
+      "evidence_backed_decisions": 0,
+      "human_questions": 0,
+      "record_lookups": 1
+    }
+  },
+  "735": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "735": {
+        "evidence": [],
+        "facts": {
+          "hiv": {
+            "contract": "f-1927c0489c7375c4ea7927f6",
+            "evidence": [],
+            "label": "hiv",
+            "state": "MISSING_DATA",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Negated protocol condition. Obtain source-linked hiv.",
+        "source_sentences": [],
+        "state": "MISSING_DATA"
+      }
+    },
+    "requests": [
+      {
+        "criteria": [
+          "735"
+        ],
+        "id": "3f70e447c874c95ed2b096c5a67a84fd287e9a8853e3c72df677a662546c3847",
+        "request": "hiv",
+        "route": "retrieve_record"
+      }
+    ],
+    "source_sha256": "302503e596b522c6e7b968016369eb43b97294996317a74204fc59fb4420716d",
+    "work": {
+      "engineering_items": 0,
+      "evidence_backed_decisions": 0,
+      "human_questions": 0,
+      "record_lookups": 1
+    }
+  },
+  "736": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "736": {
+        "evidence": [],
+        "facts": {},
+        "partial_evidence": [],
+        "reason": "What exposure duration and continuity qualify corticosteroid therapy as long-term?",
+        "source_sentences": [],
+        "state": "AUTHORING_HOLD"
+      }
+    },
+    "requests": [
+      {
+        "criteria": [
+          "736"
+        ],
+        "id": "7d364a8c9837d82037eab82fe9b2a159e646d5f9558d3309ed7bc900a8b1e40e",
+        "request": "What exposure duration and continuity qualify corticosteroid therapy as long-term?",
+        "route": "protocol_review"
+      }
+    ],
+    "source_sha256": "302503e596b522c6e7b968016369eb43b97294996317a74204fc59fb4420716d",
+    "work": {
+      "engineering_items": 0,
+      "evidence_backed_decisions": 0,
+      "human_questions": 1,
+      "record_lookups": 0
+    }
+  },
+  "737": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "737": {
+        "evidence": [],
+        "facts": {},
+        "partial_evidence": [],
+        "reason": "Does a disorder in any listed gland system exclude the patient, or must all three systems be involved?",
+        "source_sentences": [],
+        "state": "AUTHORING_HOLD"
+      }
+    },
+    "requests": [
+      {
+        "criteria": [
+          "737"
+        ],
+        "id": "c917429c15bb1fb32f195baa82542a9c5bbc087221e99d2877fd541066ef0048",
+        "request": "Does a disorder in any listed gland system exclude the patient, or must all three systems be involved?",
+        "route": "protocol_review"
+      }
+    ],
+    "source_sha256": "302503e596b522c6e7b968016369eb43b97294996317a74204fc59fb4420716d",
+    "work": {
+      "engineering_items": 0,
+      "evidence_backed_decisions": 0,
+      "human_questions": 1,
+      "record_lookups": 0
+    }
+  },
+  "738": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "738": {
+        "evidence": [],
+        "facts": {
+          "tuberculosis": {
+            "contract": "f-adb23200ce1a6cd961a5acfc",
+            "evidence": [],
+            "label": "tuberculosis",
+            "state": "MISSING_DATA",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Negated protocol condition. Obtain source-linked tuberculosis.",
+        "source_sentences": [],
+        "state": "MISSING_DATA"
+      }
+    },
+    "requests": [
+      {
+        "criteria": [
+          "738"
+        ],
+        "id": "1dcdfbff52d920d24b6c834b2bb47430e717c21410d71cbaf79903aba33d158f",
+        "request": "tuberculosis",
+        "route": "retrieve_record"
+      }
+    ],
+    "source_sha256": "302503e596b522c6e7b968016369eb43b97294996317a74204fc59fb4420716d",
+    "work": {
+      "engineering_items": 0,
+      "evidence_backed_decisions": 0,
+      "human_questions": 0,
+      "record_lookups": 1
+    }
+  },
+  "795": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "795": {
+        "evidence": [],
+        "facts": {
+          "pregnant": {
+            "contract": "f-898914ae782cda111574ac88",
+            "evidence": [
+              "Observation/n-eae9fff96fe823ef7c7421d0e659ef"
+            ],
+            "label": "pregnant",
+            "state": "AVAILABLE",
+            "value": true
+          },
+          "unable_to_speak_french": {
+            "contract": "f-f65f2f5dccc01ab4c96ee274",
+            "evidence": [],
+            "label": "unable_to_speak_french",
+            "state": "BINDING_HOLD",
+            "value": null
+          }
+        },
+        "partial_evidence": [
+          "Observation/n-eae9fff96fe823ef7c7421d0e659ef"
+        ],
+        "reason": "Negated protocol condition. Implement a patient-chart mapping for unable to speak french.",
+        "source_sentences": [],
+        "state": "BINDING_HOLD"
+      }
+    },
+    "requests": [
+      {
+        "contract": "f-f65f2f5dccc01ab4c96ee274",
+        "criteria": [
+          "795"
+        ],
+        "id": "f336e05e3af490a6b5ccb732ad180fbc54784f79854535da937cef45ef6e0886",
+        "request": "unable to speak french",
+        "route": "engineering"
+      }
+    ],
+    "source_sha256": "15f4ae4ac277be2315b46530d91485319f9c8d9e955b44706864e5ddd54b3c53",
+    "work": {
+      "engineering_items": 1,
+      "evidence_backed_decisions": 0,
+      "human_questions": 0,
+      "record_lookups": 0
+    }
+  },
+  "81": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "81": {
+        "evidence": [],
+        "facts": {
+          "active_severe_infection_between_screening_and_baseline": {
+            "contract": "f-c3679faa722d97de7e64cffe",
+            "evidence": [],
+            "label": "active_severe_infection_between_screening_and_baseline",
+            "state": "BINDING_HOLD",
+            "value": null
+          },
+          "active_severe_infection_within_four_weeks_before_screening": {
+            "contract": "f-c4560c1e526fc1315b976128",
+            "evidence": [],
+            "label": "active_severe_infection_within_four_weeks_before_screening",
+            "state": "BINDING_HOLD",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Negated protocol condition. Implement a patient-chart mapping for active severe infection within four weeks before screening. Implement a patient-chart mapping for active severe infection between screening and baseline.",
+        "source_sentences": [],
+        "state": "BINDING_HOLD"
+      }
+    },
+    "requests": [
+      {
+        "contract": "f-c4560c1e526fc1315b976128",
+        "criteria": [
+          "81"
+        ],
+        "id": "60f486635aacadd3f418c967eec3a8e5a2720ee78fb10d968559837a7b3c21a2",
+        "request": "active severe infection within four weeks before screening",
+        "route": "engineering"
+      },
+      {
+        "contract": "f-c3679faa722d97de7e64cffe",
+        "criteria": [
+          "81"
+        ],
+        "id": "0a6b766325bf51ec582eae75e6a95ce5adb6bdb7753e063ca409320f51cb7bec",
+        "request": "active severe infection between screening and baseline",
+        "route": "engineering"
+      }
+    ],
+    "source_sha256": "b84f8404e9c22885aa68fdc3dcafea94221f249e77b257611aa12581d9195e7b",
+    "work": {
+      "engineering_items": 2,
+      "evidence_backed_decisions": 0,
+      "human_questions": 0,
+      "record_lookups": 0
+    }
+  },
+  "817": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "817": {
+        "evidence": [],
+        "facts": {
+          "neurologic_symptoms_nonvascular_origin_after_ct_or_mri": {
+            "contract": "f-e35a08377d30368238cdb918",
+            "evidence": [],
+            "label": "neurologic_symptoms_nonvascular_origin_after_ct_or_mri",
+            "state": "BINDING_HOLD",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Negated protocol condition. Implement a patient-chart mapping for neurologic symptoms nonvascular origin after ct or mri.",
+        "source_sentences": [],
+        "state": "BINDING_HOLD"
+      }
+    },
+    "requests": [
+      {
+        "contract": "f-e35a08377d30368238cdb918",
+        "criteria": [
+          "817"
+        ],
+        "id": "e978f570da571c6560625a56b1f272bc5c37dd7b13bef4fe22905ef02d20e9fd",
+        "request": "neurologic symptoms nonvascular origin after ct or mri",
+        "route": "engineering"
+      }
+    ],
+    "source_sha256": "b25bac4dfc715f73e9ef9852088829e3c77bbbefdf498bdb34e5f4b5b5265a30",
+    "work": {
+      "engineering_items": 1,
+      "evidence_backed_decisions": 0,
+      "human_questions": 0,
+      "record_lookups": 0
+    }
+  },
+  "850": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "850": {
+        "evidence": [],
+        "facts": {
+          "asthma_exacerbations_per_week": {
+            "contract": "f-1a0bac9b52a5a3e48a91d450",
+            "evidence": [],
+            "label": "asthma_exacerbations_per_week",
+            "state": "BINDING_HOLD",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Negated protocol condition. Implement a patient-chart mapping for asthma exacerbations per week.",
+        "source_sentences": [],
+        "state": "BINDING_HOLD"
+      }
+    },
+    "requests": [
+      {
+        "contract": "f-1a0bac9b52a5a3e48a91d450",
+        "criteria": [
+          "850"
+        ],
+        "id": "ca96aad048b528548085af6a4e3c8ec8a094e0f4614fa7972d1fbb017230c3cb",
+        "request": "asthma exacerbations per week",
+        "route": "engineering"
+      }
+    ],
+    "source_sha256": "73647117726ddf0a51bed80ad37b62461c236078840c12fe1d5ed52cf506724a",
+    "work": {
+      "engineering_items": 1,
+      "evidence_backed_decisions": 0,
+      "human_questions": 0,
+      "record_lookups": 0
+    }
+  },
+  "860": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "860": {
+        "evidence": [],
+        "facts": {
+          "reports_never_had_sexual_intercourse": {
+            "contract": "f-dfe062492dc40a463644fde7",
+            "evidence": [],
+            "label": "reports_never_had_sexual_intercourse",
+            "state": "PATIENT_SURVEY",
+            "value": null
+          },
+          "unmarried": {
+            "contract": "f-a4c706db06031b940ad7d3c6",
+            "evidence": [],
+            "label": "unmarried",
+            "state": "BINDING_HOLD",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Negated protocol condition. Implement a patient-chart mapping for unmarried.",
+        "source_sentences": [],
+        "state": "BINDING_HOLD"
+      }
+    },
+    "requests": [
+      {
+        "contract": "f-a4c706db06031b940ad7d3c6",
+        "criteria": [
+          "860"
+        ],
+        "id": "31f1a16d0d74d741e72b7ab53c985c8269f724bf06668c3e9d71f9270f440ac8",
+        "request": "unmarried",
+        "route": "engineering"
+      },
+      {
+        "criteria": [
+          "860"
+        ],
+        "id": "d40661788cb581119d1d65305887c36dd5c27de22ba864fd41e962d9b76cc416",
+        "request": "reports never had sexual intercourse",
+        "route": "patient"
+      }
+    ],
+    "source_sha256": "979c0084e926434300939d9f6de81d59a3b40298094903699048867268e703b4",
+    "work": {
+      "engineering_items": 1,
+      "evidence_backed_decisions": 0,
+      "human_questions": 1,
+      "record_lookups": 0
+    }
+  },
+  "866": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "866": {
+        "evidence": [],
+        "facts": {
+          "aliquot_with_valid_aptima_hpv_tigris_result_from_2007HPVASCUS30": {
+            "contract": "f-9a2752fb3336933b5f946b43",
+            "evidence": [],
+            "label": "aliquot_with_valid_aptima_hpv_tigris_result_from_2007HPVASCUS30",
+            "state": "BINDING_HOLD",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Implement a patient-chart mapping for aliquot with valid aptima hpv tigris result from 2007HPVASCUS30.",
+        "source_sentences": [],
+        "state": "BINDING_HOLD"
+      }
+    },
+    "requests": [
+      {
+        "contract": "f-9a2752fb3336933b5f946b43",
+        "criteria": [
+          "866"
+        ],
+        "id": "56e3a493eec3eb4f0deb661f1b9fe67c99946f61cac99d76ea93ef2d658f670f",
+        "request": "aliquot with valid aptima hpv tigris result from 2007HPVASCUS30",
+        "route": "engineering"
+      }
+    ],
+    "source_sha256": "979c0084e926434300939d9f6de81d59a3b40298094903699048867268e703b4",
+    "work": {
+      "engineering_items": 1,
+      "evidence_backed_decisions": 0,
+      "human_questions": 0,
+      "record_lookups": 0
+    }
+  },
+  "867": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "867": {
+        "evidence": [],
+        "facts": {
+          "aliquot_available": {
+            "contract": "f-e9a383bdd546910c6e2d02dc",
+            "evidence": [],
+            "label": "aliquot_available",
+            "state": "BINDING_HOLD",
+            "value": null
+          },
+          "aliquot_suitable_for_testing": {
+            "contract": "f-aff14e4b1a67b4b5be1df9af",
+            "evidence": [],
+            "label": "aliquot_suitable_for_testing",
+            "state": "BINDING_HOLD",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Implement a patient-chart mapping for aliquot available. Implement a patient-chart mapping for aliquot suitable for testing.",
+        "source_sentences": [],
+        "state": "BINDING_HOLD"
+      }
+    },
+    "requests": [
+      {
+        "contract": "f-e9a383bdd546910c6e2d02dc",
+        "criteria": [
+          "867"
+        ],
+        "id": "909e015aa4d9ac5647caf856b560138911f452f4ea83343eb0c57a0b917379bc",
+        "request": "aliquot available",
+        "route": "engineering"
+      },
+      {
+        "contract": "f-aff14e4b1a67b4b5be1df9af",
+        "criteria": [
+          "867"
+        ],
+        "id": "422e88862b5d385246fea414202f78b3292675202b413f7ef81de73f04004366",
+        "request": "aliquot suitable for testing",
+        "route": "engineering"
+      }
+    ],
+    "source_sha256": "979c0084e926434300939d9f6de81d59a3b40298094903699048867268e703b4",
+    "work": {
+      "engineering_items": 2,
+      "evidence_backed_decisions": 0,
+      "human_questions": 0,
+      "record_lookups": 0
+    }
+  },
+  "870": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "870": {
+        "evidence": [],
+        "facts": {
+          "significant_heart_failure_symptoms_developed_in_hospital_initially_admitted_for_other_reason": {
+            "contract": "f-44096fa66d47bb70fe779efb",
+            "evidence": [],
+            "label": "significant_heart_failure_symptoms_developed_in_hospital_initially_admitted_for_other_reason",
+            "state": "BINDING_HOLD",
+            "value": null
+          },
+          "worsening_heart_failure_primary_admission_reason": {
+            "contract": "f-dfc186375bb2197ece38412f",
+            "evidence": [],
+            "label": "worsening_heart_failure_primary_admission_reason",
+            "state": "BINDING_HOLD",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Implement a patient-chart mapping for worsening heart failure primary admission reason. Implement a patient-chart mapping for significant heart failure symptoms developed in hospital initially admitted for other reason.",
+        "source_sentences": [],
+        "state": "BINDING_HOLD"
+      }
+    },
+    "requests": [
+      {
+        "contract": "f-dfc186375bb2197ece38412f",
+        "criteria": [
+          "870"
+        ],
+        "id": "34300ce4c9e4e1778c32dbce46a53ac58dcf1337f0241741002029309852fe39",
+        "request": "worsening heart failure primary admission reason",
+        "route": "engineering"
+      },
+      {
+        "contract": "f-44096fa66d47bb70fe779efb",
+        "criteria": [
+          "870"
+        ],
+        "id": "b74832d2730c93ef4ad828ea0e2697add9a8d6c26e5fb7c14d1e6079ef4ad3ba",
+        "request": "significant heart failure symptoms developed in hospital initially admitted for other reason",
+        "route": "engineering"
+      }
+    ],
+    "source_sha256": "c9b60d817b819ef688a8af674b13ecacd17ce2e9814b2bb70bc50bf5368afb3e",
+    "work": {
+      "engineering_items": 2,
+      "evidence_backed_decisions": 0,
+      "human_questions": 0,
+      "record_lookups": 0
+    }
+  },
+  "875": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "875": {
+        "evidence": [],
+        "facts": {
+          "hospital_admission": {
+            "contract": "f-ba8f577a28cffd1afb67c408",
+            "evidence": [],
+            "label": "hospital_admission",
+            "state": "MISSING_DATA",
+            "value": null
+          },
+          "transferred_to_observation_unit": {
+            "contract": "f-0f8cc093d63712d33da5b6dd",
+            "evidence": [],
+            "label": "transferred_to_observation_unit",
+            "state": "BINDING_HOLD",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Implement a patient-chart mapping for transferred to observation unit.",
+        "source_sentences": [],
+        "state": "BINDING_HOLD"
+      }
+    },
+    "requests": [
+      {
+        "criteria": [
+          "875"
+        ],
+        "id": "710e3f4aeae89161457b85d1d169749cc50e7c860b71dabcb3028f5b9402834c",
+        "request": "hospital admission",
+        "route": "retrieve_record"
+      },
+      {
+        "contract": "f-0f8cc093d63712d33da5b6dd",
+        "criteria": [
+          "875"
+        ],
+        "id": "d9fd2d9994433d35f11453d3af8038a72c57f16fc7813c28dd0741595ebe858b",
+        "request": "transferred to observation unit",
+        "route": "engineering"
+      }
+    ],
+    "source_sha256": "c9b60d817b819ef688a8af674b13ecacd17ce2e9814b2bb70bc50bf5368afb3e",
+    "work": {
+      "engineering_items": 1,
+      "evidence_backed_decisions": 0,
+      "human_questions": 0,
+      "record_lookups": 1
+    }
+  },
+  "890": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "890": {
+        "evidence": [],
+        "facts": {
+          "cognitive_impairment_on_admission_screen": {
+            "contract": "f-d9044336ed4b9e058c2bcb6a",
+            "evidence": [],
+            "label": "cognitive_impairment_on_admission_screen",
+            "state": "BINDING_HOLD",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Implement a patient-chart mapping for cognitive impairment on admission screen.",
+        "source_sentences": [],
+        "state": "BINDING_HOLD"
+      }
+    },
+    "requests": [
+      {
+        "contract": "f-d9044336ed4b9e058c2bcb6a",
+        "criteria": [
+          "890"
+        ],
+        "id": "fd314439c3b24964b5735af8ab8cc81f7d52ce30da14496aaad3a569e2721ec1",
+        "request": "cognitive impairment on admission screen",
+        "route": "engineering"
+      }
+    ],
+    "source_sha256": "9ed9c14c2723cba661bb535697b68507aec18368dfe8d62b158d7f7a171ec572",
+    "work": {
+      "engineering_items": 1,
+      "evidence_backed_decisions": 0,
+      "human_questions": 0,
+      "record_lookups": 0
+    }
+  },
+  "919": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "919": {
+        "evidence": [],
+        "facts": {},
+        "partial_evidence": [],
+        "reason": "Please provide the governing passage defining a confirmed severe CDAD case, including the diagnostic and severity requirements.",
+        "source_sentences": [],
+        "state": "AUTHORING_HOLD"
+      }
+    },
+    "requests": [
+      {
+        "criteria": [
+          "919"
+        ],
+        "id": "433a8d9dcf239d823fa8ca4377a09dad46bedbe6f34be00d58652a9c18f3051e",
+        "request": "Please provide the governing passage defining a confirmed severe CDAD case, including the diagnostic and severity requirements.",
+        "route": "protocol_review"
+      }
+    ],
+    "source_sha256": "a3240c50f76b44e38d31c080058f4d94551935e9bd80c531bf490121a5c76e60",
+    "work": {
+      "engineering_items": 0,
+      "evidence_backed_decisions": 0,
+      "human_questions": 1,
+      "record_lookups": 0
+    }
+  },
+  "935": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "935": {
+        "evidence": [],
+        "facts": {
+          "enrolling_physician_considers_mycobacterial_culture_likely_positive": {
+            "contract": "f-b52f59762d76e86af6b27853",
+            "evidence": [],
+            "label": "enrolling_physician_considers_mycobacterial_culture_likely_positive",
+            "state": "INVESTIGATOR_ACTIONS",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "enrolling physician considers mycobacterial culture likely positive",
+        "source_sentences": [],
+        "state": "INVESTIGATOR_ACTIONS"
+      }
+    },
+    "requests": [
+      {
+        "criteria": [
+          "935"
+        ],
+        "id": "50a2df72869cc3946524cae8384dff0432b4f81dd68d1fad6830abbd2eff171a",
+        "request": "enrolling physician considers mycobacterial culture likely positive",
+        "route": "investigator"
+      }
+    ],
+    "source_sha256": "1c4773785b16808dad463c95c334969b3049eb544ed7edf18844c3350609887b",
+    "work": {
+      "engineering_items": 0,
+      "evidence_backed_decisions": 0,
+      "human_questions": 1,
+      "record_lookups": 0
+    }
+  },
+  "936": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "936": {
+        "evidence": [],
+        "facts": {
+          "china_subject": {
+            "contract": "f-aca319ef91048d3a97d4dedc",
+            "evidence": [],
+            "label": "china_subject",
+            "state": "STUDY_ACTION",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "china subject",
+        "source_sentences": [],
+        "state": "STUDY_ACTION"
+      }
+    },
+    "requests": [
+      {
+        "criteria": [
+          "936"
+        ],
+        "id": "bcd1bbf03e1ae40900a432cb7f30cd7f5ab00947b0c53fc32c756fdeae641fda",
+        "request": "china subject",
+        "route": "study_team"
+      }
+    ],
+    "source_sha256": "1c4773785b16808dad463c95c334969b3049eb544ed7edf18844c3350609887b",
+    "work": {
+      "engineering_items": 0,
+      "evidence_backed_decisions": 0,
+      "human_questions": 1,
+      "record_lookups": 0
+    }
+  },
+  "938": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "938": {
+        "evidence": [],
+        "facts": {
+          "willing_to_provide_blood_samples": {
+            "contract": "f-5808a93728feee9cae2ca35c",
+            "evidence": [],
+            "label": "willing_to_provide_blood_samples",
+            "state": "PATIENT_SURVEY",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "willing to provide blood samples",
+        "source_sentences": [],
+        "state": "PATIENT_SURVEY"
+      }
+    },
+    "requests": [
+      {
+        "criteria": [
+          "938"
+        ],
+        "id": "d2db087ffc46a7777f2809d7c8f1e70f1027626c01e6ea0fa1d44b03b502c651",
+        "request": "willing to provide blood samples",
+        "route": "patient"
+      }
+    ],
+    "source_sha256": "1c4773785b16808dad463c95c334969b3049eb544ed7edf18844c3350609887b",
+    "work": {
+      "engineering_items": 0,
+      "evidence_backed_decisions": 0,
+      "human_questions": 1,
+      "record_lookups": 0
+    }
+  },
+  "939": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "939": {
+        "evidence": [],
+        "facts": {
+          "willing_to_store_samples": {
+            "contract": "f-e4332df173b8a40c78e1c584",
+            "evidence": [],
+            "label": "willing_to_store_samples",
+            "state": "PATIENT_SURVEY",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "willing to store samples",
+        "source_sentences": [],
+        "state": "PATIENT_SURVEY"
+      }
+    },
+    "requests": [
+      {
+        "criteria": [
+          "939"
+        ],
+        "id": "d07625022203db2d141d5dfd203369ea290ab2c75edc506c34812001fbc634e1",
+        "request": "willing to store samples",
+        "route": "patient"
+      }
+    ],
+    "source_sha256": "1c4773785b16808dad463c95c334969b3049eb544ed7edf18844c3350609887b",
+    "work": {
+      "engineering_items": 0,
+      "evidence_backed_decisions": 0,
+      "human_questions": 1,
+      "record_lookups": 0
+    }
+  },
+  "940": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "940": {
+        "evidence": [],
+        "facts": {
+          "acute_kidney_disease": {
+            "contract": "f-93f78a22cb84806172e92a75",
+            "evidence": [],
+            "label": "acute_kidney_disease",
+            "state": "MISSING_DATA",
+            "value": null
+          },
+          "acute_liver_disease": {
+            "contract": "f-eeb7dc02f1a5e3b62120b69f",
+            "evidence": [],
+            "label": "acute_liver_disease",
+            "state": "MISSING_DATA",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Negated protocol condition. Obtain source-linked acute liver disease. Obtain source-linked acute kidney disease.",
+        "source_sentences": [],
+        "state": "MISSING_DATA"
+      }
+    },
+    "requests": [
+      {
+        "criteria": [
+          "940"
+        ],
+        "id": "31b6f519f98d4b965d0cd93cb6c731c3d6fd8fd9bbe6ac7f9ae4b3f0c28a8378",
+        "request": "acute liver disease",
+        "route": "retrieve_record"
+      },
+      {
+        "criteria": [
+          "940"
+        ],
+        "id": "d0cb7852ab274eb9afb5f1a5396c6a27a289f5afc75ad2f0a62cd168f803b404",
+        "request": "acute kidney disease",
+        "route": "retrieve_record"
+      }
+    ],
+    "source_sha256": "1c4773785b16808dad463c95c334969b3049eb544ed7edf18844c3350609887b",
+    "work": {
+      "engineering_items": 0,
+      "evidence_backed_decisions": 0,
+      "human_questions": 0,
+      "record_lookups": 2
+    }
+  },
+  "945": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "945": {
+        "evidence": [],
+        "facts": {
+          "current_unlicensed_investigational_aspergillosis_drug": {
+            "contract": "f-823e151c41ea9f9a190c358d",
+            "evidence": [],
+            "label": "current_unlicensed_investigational_aspergillosis_drug",
+            "state": "BINDING_HOLD",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Negated protocol condition. Implement a patient-chart mapping for current unlicensed investigational aspergillosis drug.",
+        "source_sentences": [],
+        "state": "BINDING_HOLD"
+      }
+    },
+    "requests": [
+      {
+        "contract": "f-823e151c41ea9f9a190c358d",
+        "criteria": [
+          "945"
+        ],
+        "id": "d984fe93b65afd8a33e6aa64457ed46931d1d1bd7dcfb1128bd1cf3289200b19",
+        "request": "current unlicensed investigational aspergillosis drug",
+        "route": "engineering"
+      }
+    ],
+    "source_sha256": "1c4773785b16808dad463c95c334969b3049eb544ed7edf18844c3350609887b",
+    "work": {
+      "engineering_items": 1,
+      "evidence_backed_decisions": 0,
+      "human_questions": 0,
+      "record_lookups": 0
+    }
+  },
+  "946": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "946": {
+        "evidence": [],
+        "facts": {
+          "qualifying_antifungal_course_days": {
+            "contract": "f-eb15ca93db2daac2a32ff139",
+            "evidence": [],
+            "label": "qualifying_antifungal_course_days",
+            "state": "BINDING_HOLD",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Negated protocol condition. Implement a patient-chart mapping for continuous days of administered voriconazole, itraconazole, posaconazole, caspofungin, micafungin, anidulafungin, amphotericin B or its lipid formulation, for the index probable or proven invasive aspergillosis episode, immediately preceding randomization.",
+        "source_sentences": [],
+        "state": "BINDING_HOLD"
+      }
+    },
+    "requests": [
+      {
+        "contract": "f-eb15ca93db2daac2a32ff139",
+        "criteria": [
+          "946"
+        ],
+        "id": "e500907674612641a69bd8c9e2095dc6a3f64f4cd0111fff1c94e4f3a8d15b76",
+        "request": "continuous days of administered voriconazole, itraconazole, posaconazole, caspofungin, micafungin, anidulafungin, amphotericin B or its lipid formulation, for the index probable or proven invasive aspergillosis episode, immediately preceding randomization",
+        "route": "engineering"
+      }
+    ],
+    "source_sha256": "1c4773785b16808dad463c95c334969b3049eb544ed7edf18844c3350609887b",
+    "work": {
+      "engineering_items": 1,
+      "evidence_backed_decisions": 0,
+      "human_questions": 0,
+      "record_lookups": 0
+    }
+  },
+  "952": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "952": {
+        "evidence": [],
+        "facts": {
+          "extubation_unlikely_within_24h_of_entry": {
+            "contract": "f-e9447b29cc440ec760fe2ef5",
+            "evidence": [],
+            "label": "extubation_unlikely_within_24h_of_entry",
+            "state": "INVESTIGATOR_ACTIONS",
+            "value": null
+          },
+          "on_artificial_ventilation": {
+            "contract": "f-04b554ad8dea2f70b5cc24a9",
+            "evidence": [],
+            "label": "on_artificial_ventilation",
+            "state": "BINDING_HOLD",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Negated protocol condition. Implement a patient-chart mapping for on artificial ventilation.",
+        "source_sentences": [],
+        "state": "BINDING_HOLD"
+      }
+    },
+    "requests": [
+      {
+        "contract": "f-04b554ad8dea2f70b5cc24a9",
+        "criteria": [
+          "952"
+        ],
+        "id": "0dfdfaee063b92cbbaeceecaec96521aa6900f68b8fd2bc3afac618820853283",
+        "request": "on artificial ventilation",
+        "route": "engineering"
+      },
+      {
+        "criteria": [
+          "952"
+        ],
+        "id": "a22429fbff0979bb37fcaa64feb02422c5e9c18616ce91d2fab1c47387f5d949",
+        "request": "extubation unlikely within 24h of entry",
+        "route": "investigator"
+      }
+    ],
+    "source_sha256": "1c4773785b16808dad463c95c334969b3049eb544ed7edf18844c3350609887b",
+    "work": {
+      "engineering_items": 1,
+      "evidence_backed_decisions": 0,
+      "human_questions": 1,
+      "record_lookups": 0
+    }
+  },
+  "953": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "953": {
+        "evidence": [],
+        "facts": {
+          "prior_azole_or_echinocandin_allergy_hypersensitivity_or_serious_reaction": {
+            "contract": "f-f9f25cbe46d7dbd191933912",
+            "evidence": [],
+            "label": "prior_azole_or_echinocandin_allergy_hypersensitivity_or_serious_reaction",
+            "state": "BINDING_HOLD",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Negated protocol condition. Implement a patient-chart mapping for prior azole or echinocandin allergy hypersensitivity or serious reaction.",
+        "source_sentences": [],
+        "state": "BINDING_HOLD"
+      }
+    },
+    "requests": [
+      {
+        "contract": "f-f9f25cbe46d7dbd191933912",
+        "criteria": [
+          "953"
+        ],
+        "id": "11177d699b5a2ae182c22a4e7a0b6f42cc0f20ebabffc56616d83bcae7e7cc49",
+        "request": "prior azole or echinocandin allergy hypersensitivity or serious reaction",
+        "route": "engineering"
+      }
+    ],
+    "source_sha256": "1c4773785b16808dad463c95c334969b3049eb544ed7edf18844c3350609887b",
+    "work": {
+      "engineering_items": 1,
+      "evidence_backed_decisions": 0,
+      "human_questions": 0,
+      "record_lookups": 0
+    }
+  },
+  "955": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "955": {
+        "evidence": [],
+        "facts": {
+          "investigator_identified_unacceptable_risk_from_concomitant_condition": {
+            "contract": "f-134dc312cd2222569a48f779",
+            "evidence": [],
+            "label": "investigator_identified_unacceptable_risk_from_concomitant_condition",
+            "state": "INVESTIGATOR_ACTIONS",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Negated protocol condition. investigator identified unacceptable risk from concomitant condition",
+        "source_sentences": [],
+        "state": "INVESTIGATOR_ACTIONS"
+      }
+    },
+    "requests": [
+      {
+        "criteria": [
+          "955"
+        ],
+        "id": "db82bc46b0df9586bc63a2a0dbebb984bb5d0dd13ff3dca9a0e48bd339546c87",
+        "request": "investigator identified unacceptable risk from concomitant condition",
+        "route": "investigator"
+      }
+    ],
+    "source_sha256": "1c4773785b16808dad463c95c334969b3049eb544ed7edf18844c3350609887b",
+    "work": {
+      "engineering_items": 0,
+      "evidence_backed_decisions": 0,
+      "human_questions": 1,
+      "record_lookups": 0
+    }
+  },
+  "957": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "957": {
+        "evidence": [],
+        "facts": {
+          "estimated_remaining_life_days": {
+            "contract": "f-a2623ff55a19c91b276c3a18",
+            "evidence": [],
+            "label": "estimated_remaining_life_days",
+            "state": "INVESTIGATOR_ACTIONS",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Negated protocol condition. estimated remaining life days",
+        "source_sentences": [],
+        "state": "INVESTIGATOR_ACTIONS"
+      }
+    },
+    "requests": [
+      {
+        "criteria": [
+          "957"
+        ],
+        "id": "fb636051932ea98cac84c6929dff60a58033a954cab23fca1c7152db62e4e60c",
+        "request": "estimated remaining life days",
+        "route": "investigator"
+      }
+    ],
+    "source_sha256": "1c4773785b16808dad463c95c334969b3049eb544ed7edf18844c3350609887b",
+    "work": {
+      "engineering_items": 0,
+      "evidence_backed_decisions": 0,
+      "human_questions": 1,
+      "record_lookups": 0
+    }
+  },
+  "962": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "962": {
+        "evidence": [],
+        "facts": {
+          "abnormal_neurologic_exam": {
+            "contract": "f-77e033d3809a1c4d057ea2f6",
+            "evidence": [],
+            "label": "abnormal_neurologic_exam",
+            "state": "MISSING_DATA",
+            "value": null
+          },
+          "impaired_consciousness": {
+            "contract": "f-e94a7ec2f334cfc692810482",
+            "evidence": [],
+            "label": "impaired_consciousness",
+            "state": "MISSING_DATA",
+            "value": null
+          },
+          "jaundice": {
+            "contract": "f-f7e2ca1909d4bf24eb434892",
+            "evidence": [],
+            "label": "jaundice",
+            "state": "MISSING_DATA",
+            "value": null
+          },
+          "malaria": {
+            "contract": "f-0716e6d1a7657998ba22c87d",
+            "evidence": [],
+            "label": "malaria",
+            "state": "MISSING_DATA",
+            "value": null
+          },
+          "non_falciparum_species_on_microscopy": {
+            "contract": "f-f0a565ec7746d4afe6d44968",
+            "evidence": [],
+            "label": "non_falciparum_species_on_microscopy",
+            "state": "MISSING_DATA",
+            "value": null
+          },
+          "parasites_per_ml": {
+            "contract": "f-08c11ff7c68e28dfd9026a71",
+            "evidence": [],
+            "label": "parasites_per_ml",
+            "state": "BINDING_HOLD",
+            "value": null
+          },
+          "patient_reported_hematuria": {
+            "contract": "f-1368fa258c396f5e0d9fc4af",
+            "evidence": [],
+            "label": "patient_reported_hematuria",
+            "state": "BINDING_HOLD",
+            "value": null
+          },
+          "persistent_vomiting": {
+            "contract": "f-c0fd77ddc7466823d2e31e55",
+            "evidence": [],
+            "label": "persistent_vomiting",
+            "state": "MISSING_DATA",
+            "value": null
+          },
+          "respiratory_distress": {
+            "contract": "f-16a0576708abfbd287151c49",
+            "evidence": [],
+            "label": "respiratory_distress",
+            "state": "MISSING_DATA",
+            "value": null
+          },
+          "seizures": {
+            "contract": "f-65432c80ab572b08465139c1",
+            "evidence": [],
+            "label": "seizures",
+            "state": "MISSING_DATA",
+            "value": null
+          },
+          "severe_or_complicated_malaria": {
+            "contract": "f-56412959f825394bd34cab53",
+            "evidence": [],
+            "label": "severe_or_complicated_malaria",
+            "state": "MISSING_DATA",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Negated protocol condition. Implement a patient-chart mapping for patient reported hematuria. Implement a patient-chart mapping for parasites per ml.",
+        "source_sentences": [],
+        "state": "BINDING_HOLD"
+      }
+    },
+    "requests": [
+      {
+        "criteria": [
+          "962"
+        ],
+        "id": "1423de5f56acbde5c662816445258c77ee6309cb88ed20ffc339cee3ed30ddee",
+        "request": "malaria",
+        "route": "retrieve_record"
+      },
+      {
+        "criteria": [
+          "962"
+        ],
+        "id": "b1e200683fe688f3289358ea19d5ef83fa5de9dcc30575a41ae22eae0a340efe",
+        "request": "severe or complicated malaria",
+        "route": "retrieve_record"
+      },
+      {
+        "criteria": [
+          "962"
+        ],
+        "id": "e4a34107f3746e83ac8ab75e19a5a87fe9f030c2f8405880a3b598a9c1dfa92f",
+        "request": "impaired consciousness",
+        "route": "retrieve_record"
+      },
+      {
+        "criteria": [
+          "962"
+        ],
+        "id": "322012d02f6d5ceea789b37caab589cf58b6ffef247a4427d28dcfb2db73c66f",
+        "request": "seizures",
+        "route": "retrieve_record"
+      },
+      {
+        "criteria": [
+          "962"
+        ],
+        "id": "41aad454889808adc49981928a04070f44effdb2e032f0614a1c5ecc40bb6a39",
+        "request": "abnormal neurologic exam",
+        "route": "retrieve_record"
+      },
+      {
+        "criteria": [
+          "962"
+        ],
+        "id": "9601f5c745a64332f5dcf098b9cfaaa2485f640de2501e21f5f807fa07741a42",
+        "request": "jaundice",
+        "route": "retrieve_record"
+      },
+      {
+        "criteria": [
+          "962"
+        ],
+        "id": "a6d252b020d785adfbb055fd4e4faa6eea019f4e9f5c47584b43a58fe6e20b78",
+        "request": "respiratory distress",
+        "route": "retrieve_record"
+      },
+      {
+        "criteria": [
+          "962"
+        ],
+        "id": "5b3d2970f2fb9ab7e7ad9396d73cf04e365629ed1e93565b09d04a0f1a45a697",
+        "request": "persistent vomiting",
+        "route": "retrieve_record"
+      },
+      {
+        "contract": "f-1368fa258c396f5e0d9fc4af",
+        "criteria": [
+          "962"
+        ],
+        "id": "69e4eadb20061c11599d4d7c88748d1c86ad765d049969912daee250020c1d41",
+        "request": "patient reported hematuria",
+        "route": "engineering"
+      },
+      {
+        "contract": "f-08c11ff7c68e28dfd9026a71",
+        "criteria": [
+          "962"
+        ],
+        "id": "7f3212ee4ce795e1e8e2993f23a7b96426a267927cf55544da38c167a8bfdddb",
+        "request": "parasites per ml",
+        "route": "engineering"
+      },
+      {
+        "criteria": [
+          "962"
+        ],
+        "id": "c7a091a33ce2747d9f322dd5930b29ef7ad4f9e2450d0091d523aa1156acfa24",
+        "request": "non falciparum species on microscopy",
+        "route": "retrieve_record"
+      }
+    ],
+    "source_sha256": "05c36ab49e87f062f4a00d5f9ab4749c30343bae06ee419607f0cd55e7d30ed0",
+    "work": {
+      "engineering_items": 2,
+      "evidence_backed_decisions": 0,
+      "human_questions": 0,
+      "record_lookups": 9
+    }
+  },
+  "965": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "965": {
+        "evidence": [],
+        "facts": {
+          "history_of_blood_dyscrasia": {
+            "contract": "f-326fea707f3872b768d2c5b7",
+            "evidence": [],
+            "label": "history_of_blood_dyscrasia",
+            "state": "MISSING_DATA",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Negated protocol condition. Obtain source-linked history of blood dyscrasia.",
+        "source_sentences": [],
+        "state": "MISSING_DATA"
+      }
+    },
+    "requests": [
+      {
+        "criteria": [
+          "965"
+        ],
+        "id": "327ba3a9cb6df3deb059680b44265798c65b948ae6489dbf571b8aa938997365",
+        "request": "history of blood dyscrasia",
+        "route": "retrieve_record"
+      }
+    ],
+    "source_sha256": "05c36ab49e87f062f4a00d5f9ab4749c30343bae06ee419607f0cd55e7d30ed0",
+    "work": {
+      "engineering_items": 0,
+      "evidence_backed_decisions": 0,
+      "human_questions": 0,
+      "record_lookups": 1
+    }
+  },
+  "985": {
+    "catalog_sha256": "58de1b6dcc9c57376f8ee4be4a6faebe870276b22b1e40d513b3963ad8a6923b",
+    "criteria": {
+      "985": {
+        "evidence": [],
+        "facts": {
+          "chest_tube_in_place": {
+            "contract": "f-36dd65d21ba3a357b4fdd5c9",
+            "evidence": [],
+            "label": "chest_tube_in_place",
+            "state": "MISSING_DATA",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Negated protocol condition. Obtain source-linked chest tube in place.",
+        "source_sentences": [],
+        "state": "MISSING_DATA"
+      }
+    },
+    "requests": [
+      {
+        "criteria": [
+          "985"
+        ],
+        "id": "a894abe7bd08ee301c3fe0a4c84e35f3680260eeb28af780572fee8c56826e31",
+        "request": "chest tube in place",
+        "route": "retrieve_record"
+      }
+    ],
+    "source_sha256": "38b654bd7978059e3f6e44a484cd5379e51c840ef13295969b075f50f7998f07",
+    "work": {
+      "engineering_items": 0,
+      "evidence_backed_decisions": 0,
+      "human_questions": 0,
+      "record_lookups": 1
+    }
+  }
+}

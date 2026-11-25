@@ -1,0 +1,56 @@
+{
+  "presentation_serum_creatinine": {
+    "clinical_scope": {
+      "analyte": "creatinine",
+      "specimen": "serum",
+      "time": "index patient presentation"
+    },
+    "forms": {
+      "serum_creatinine_mg_dl": {
+        "contract_spec": {
+          "kind": "number",
+          "label": "serum_creatinine_mg_dl",
+          "role": "record",
+          "scope": "serum creatinine mg dl",
+          "unit": "mg/dL"
+        },
+        "selector": {
+          "coding": [
+            "http://loinc.org",
+            "2160-0"
+          ],
+          "context": "presentation",
+          "local_code": "serum_creatinine_mg_dl",
+          "read": "quantity",
+          "resource": "Observation",
+          "unit": "mg/dL"
+        }
+      },
+      "serum_creatinine_umol_l": {
+        "contract_spec": {
+          "kind": "number",
+          "label": "serum_creatinine_umol_l",
+          "role": "record",
+          "scope": "serum creatinine umol l",
+          "unit": "umol/L"
+        },
+        "selector": {
+          "coding": [
+            "http://loinc.org",
+            "14682-9"
+          ],
+          "context": "Presentation laboratory results / Serum creatinine molar concentration",
+          "integer": false,
+          "local_code": "cf-presentation-laboratory-results-serum-creatinine-molar-concentration",
+          "maximum": null,
+          "minimum": 0,
+          "read": "field_quantity",
+          "resource": "Observation",
+          "study_scoped": false,
+          "unit": "umol/L"
+        }
+      }
+    },
+    "request": "Presentation serum creatinine in mg/dL or umol/L"
+  }
+}

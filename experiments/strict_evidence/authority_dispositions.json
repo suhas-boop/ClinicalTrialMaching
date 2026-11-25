@@ -1,0 +1,15 @@
+[
+  {
+    "study": "NCT02340533",
+    "protocol": "AD0152015",
+    "case": "706",
+    "role": "protocol_review",
+    "status": "dormant",
+    "recorded_on": "2026-11-25",
+    "basis": "User instruction to suspend repeat requests.",
+    "prior_answer": "Yes",
+    "answer_source": "nih_benchmark/round21/user_answer.json",
+    "authority": "User interpretation with no verified study authority or governing clause.",
+    "resume_when": "An applicable governing protocol clause or an attributable study-team ruling arrives that addresses whether one listed symptom suffices without a separate pelvic-congestion diagnosis."
+  }
+]

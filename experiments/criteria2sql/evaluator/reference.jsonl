@@ -1,0 +1,1 @@
+{"phase": "1", "table_id": "50", "query": "select id from records where age >= 18", "question": "adult patients,  >  /  = 18 years of age", "sql": {"agg": 0, "sel": 0, "conds": [[6, 3, "18"]]}}

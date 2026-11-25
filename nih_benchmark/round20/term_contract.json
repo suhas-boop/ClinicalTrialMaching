@@ -1,0 +1,62 @@
+{
+  "policy": "adult-exam-tachypnea-v1",
+  "term": "tachypnea",
+  "fact": "respiratory_rate",
+  "unit": "/min",
+  "open_lower_bound": 20,
+  "population": "An adult with an affirmative contemporaneous examination finding at presentation.",
+  "definition": "https://www.ncbi.nlm.nih.gov/sites/books/NBK470309/",
+  "corroboration": "https://www.ncbi.nlm.nih.gov/books/NBK591819/table/ch8oxygenation.T.symptoms_and_signs_of_r/",
+  "interpretation": "Use the defined general adult clinical-examination term to infer an interval. The observed term itself supplies no exact measurement.",
+  "alternative": {
+    "context": "Sensitivity analysis using an adverse-event reporting definition from a different setting.",
+    "open_lower_bound": 16,
+    "reference": "https://www.ehealthsask.ca/services/manuals/documents/sim-chapter11.pdf"
+  },
+  "governing_criteria": [
+    {
+      "study": "NCT01526382",
+      "text": "A respiratory rate of at least 20/min or a PaCO2 of 32mmHg or lower or the use of mechanical ventilation;",
+      "type": "inclusion",
+      "predicate": {
+        "any": [
+          {
+            "fact": "respiratory_rate",
+            "op": "ge",
+            "value": 20
+          },
+          {
+            "fact": "paco2_mmhg",
+            "op": "le",
+            "value": 32
+          },
+          {
+            "fact": "receiving_mechanical_ventilation"
+          }
+        ]
+      },
+      "evaluation_scope": "single listed predicate at the recorded examination",
+      "registry_locator": "eligibility/criteria/textblock",
+      "registry_sha256": "601eb5649d5812e9bf570284fc7c0fc9ec7272df7959caba59737dc41bd77a76",
+      "parent_rule": "Shock was defined by the presence 4 criteria:",
+      "screening_source": "https://doi.org/10.1007/s00134-014-3638-4",
+      "screening_context": "Study recruitment evaluated patients in the first 24 hours after ICU admission. The isolated item does not establish the complete shock definition, ICU timing or trial eligibility."
+    }
+  ],
+  "clinical_usage": [
+    {
+      "url": "https://jmsma.scholasticahq.com/article/123373.pdf",
+      "locator": "Case presentation, page 3 of 8",
+      "term": "tachypneic",
+      "observed_breaths_per_minute": 18,
+      "purpose": "Demonstrates terminology variability; this patient is outside the benchmark."
+    },
+    {
+      "url": "https://scholarlycommons.gbmc.org/cgi/viewcontent.cgi?article=1019&context=jchimp",
+      "term": "tachypneic",
+      "observed_breaths_per_minute": 18,
+      "purpose": "Adult case example in a different patient."
+    }
+  ],
+  "source_convention": "The vignette gives no patient-source or site definition of the documented sign."
+}

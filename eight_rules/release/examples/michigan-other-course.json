@@ -1,0 +1,483 @@
+{
+  "context": {
+    "study": "NCT05653388",
+    "protocol_sha256": "f920e02d5b194d147a76e2c60e94884f599d3982cda8e7ecfaee2a10a5f3f08b",
+    "mode": "synthetic_demo",
+    "patient": "Patient/demo-other-course-p",
+    "episode": "Condition/demo-other-course-current",
+    "as_of": "2026-04-15"
+  },
+  "bundle": {
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+      {
+        "resource": {
+          "active": true,
+          "id": "demo-other-course-p",
+          "resourceType": "Patient",
+          "meta": {
+            "versionId": "1"
+          }
+        },
+        "request": {
+          "method": "PUT",
+          "url": "Patient/demo-other-course-p"
+        }
+      },
+      {
+        "resource": {
+          "subject": {
+            "reference": "Patient/demo-other-course-p"
+          },
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "443719001"
+              }
+            ]
+          },
+          "id": "demo-other-course-current",
+          "resourceType": "Condition",
+          "recordedDate": "2026-03-20",
+          "verificationStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                "code": "confirmed"
+              }
+            ]
+          },
+          "evidence": [
+            {
+              "detail": [
+                {
+                  "reference": "DocumentReference/demo-other-course-source"
+                }
+              ]
+            }
+          ],
+          "meta": {
+            "versionId": "1"
+          }
+        },
+        "request": {
+          "method": "PUT",
+          "url": "Condition/demo-other-course-current"
+        }
+      },
+      {
+        "resource": {
+          "status": "active",
+          "intent": "plan",
+          "subject": {
+            "reference": "Patient/demo-other-course-p"
+          },
+          "addresses": [
+            {
+              "reference": "Condition/demo-other-course-current"
+            }
+          ],
+          "period": {
+            "start": "2026-04-01"
+          },
+          "id": "demo-other-course-current",
+          "resourceType": "CarePlan",
+          "meta": {
+            "versionId": "1"
+          }
+        },
+        "request": {
+          "method": "PUT",
+          "url": "CarePlan/demo-other-course-current"
+        }
+      },
+      {
+        "resource": {
+          "subject": {
+            "reference": "Patient/demo-other-course-p"
+          },
+          "code": {
+            "text": "Prior localized LMS episode"
+          },
+          "id": "demo-other-course-prior",
+          "resourceType": "Condition",
+          "meta": {
+            "versionId": "1"
+          }
+        },
+        "request": {
+          "method": "PUT",
+          "url": "Condition/demo-other-course-prior"
+        }
+      },
+      {
+        "resource": {
+          "status": "completed",
+          "intent": "plan",
+          "subject": {
+            "reference": "Patient/demo-other-course-p"
+          },
+          "addresses": [
+            {
+              "reference": "Condition/demo-other-course-prior"
+            }
+          ],
+          "period": {
+            "start": "2026-01-01",
+            "end": "2026-04-01"
+          },
+          "id": "demo-other-course-prior",
+          "resourceType": "CarePlan",
+          "meta": {
+            "versionId": "1"
+          }
+        },
+        "request": {
+          "method": "PUT",
+          "url": "CarePlan/demo-other-course-prior"
+        }
+      },
+      {
+        "resource": {
+          "status": "final",
+          "subject": {
+            "reference": "Patient/demo-other-course-p"
+          },
+          "code": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:research:course-binding-fixture",
+                "code": "treatment-line"
+              }
+            ]
+          },
+          "focus": [
+            {
+              "reference": "CarePlan/demo-other-course-current"
+            }
+          ],
+          "effectiveDateTime": "2026-04-15",
+          "valueInteger": 1,
+          "id": "demo-other-course-line",
+          "resourceType": "Observation",
+          "meta": {
+            "versionId": "1"
+          }
+        },
+        "request": {
+          "method": "PUT",
+          "url": "Observation/demo-other-course-line"
+        }
+      },
+      {
+        "resource": {
+          "status": "final",
+          "subject": {
+            "reference": "Patient/demo-other-course-p"
+          },
+          "code": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:research:course-binding-fixture",
+                "code": "complete-course-medication-inventory"
+              }
+            ]
+          },
+          "focus": [
+            {
+              "reference": "CarePlan/demo-other-course-current"
+            }
+          ],
+          "effectiveDateTime": "2026-04-15",
+          "valueBoolean": true,
+          "id": "demo-other-course-inventory",
+          "resourceType": "Observation",
+          "meta": {
+            "versionId": "1"
+          }
+        },
+        "request": {
+          "method": "PUT",
+          "url": "Observation/demo-other-course-inventory"
+        }
+      },
+      {
+        "resource": {
+          "status": "final",
+          "subject": {
+            "reference": "Patient/demo-other-course-p"
+          },
+          "code": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:research:course-binding-fixture",
+                "code": "course-receiving"
+              }
+            ]
+          },
+          "focus": [
+            {
+              "reference": "CarePlan/demo-other-course-current"
+            }
+          ],
+          "effectiveDateTime": "2026-04-15",
+          "valueBoolean": true,
+          "id": "demo-other-course-on-treatment",
+          "resourceType": "Observation",
+          "meta": {
+            "versionId": "1"
+          }
+        },
+        "request": {
+          "method": "PUT",
+          "url": "Observation/demo-other-course-on-treatment"
+        }
+      },
+      {
+        "resource": {
+          "subject": {
+            "reference": "Patient/demo-other-course-p"
+          },
+          "medicationCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "code": "1191138"
+              }
+            ]
+          },
+          "authoredOn": "2026-04-01",
+          "status": "active",
+          "intent": "order",
+          "basedOn": [
+            {
+              "reference": "CarePlan/demo-other-course-current"
+            }
+          ],
+          "id": "demo-other-course-0",
+          "resourceType": "MedicationRequest",
+          "meta": {
+            "versionId": "1"
+          }
+        },
+        "request": {
+          "method": "PUT",
+          "url": "MedicationRequest/demo-other-course-0"
+        }
+      },
+      {
+        "resource": {
+          "subject": {
+            "reference": "Patient/demo-other-course-p"
+          },
+          "medicationCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "code": "1191138"
+              }
+            ]
+          },
+          "effectiveDateTime": "2026-04-01",
+          "request": {
+            "reference": "MedicationRequest/demo-other-course-0"
+          },
+          "status": "completed",
+          "id": "demo-other-course-0",
+          "resourceType": "MedicationAdministration",
+          "meta": {
+            "versionId": "1"
+          }
+        },
+        "request": {
+          "method": "PUT",
+          "url": "MedicationAdministration/demo-other-course-0"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "DocumentReference",
+          "id": "demo-other-course-source",
+          "status": "current",
+          "subject": {
+            "reference": "Patient/demo-other-course-p"
+          },
+          "content": [
+            {
+              "attachment": {
+                "contentType": "application/json",
+                "data": "eyJpZCI6ICJvdGhlci1jb3Vyc2UiLCAiaW1hZ2luZyI6IHsib3RoZXJfY291cnNlIjogdHJ1ZX0sICJtZWRzIjogW1siMTE5MTEzOCIsICJjdXJyZW50Il1dfQ=="
+              }
+            }
+          ],
+          "meta": {
+            "versionId": "1"
+          }
+        },
+        "request": {
+          "method": "PUT",
+          "url": "DocumentReference/demo-other-course-source"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "id": "demo-other-course-metastatic",
+          "subject": {
+            "reference": "Patient/demo-other-course-p"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:research:course-binding-fixture",
+                "code": "metastatic"
+              }
+            ]
+          },
+          "focus": [
+            {
+              "reference": "Condition/demo-other-course-current"
+            }
+          ],
+          "effectiveDateTime": "2026-04-15",
+          "derivedFrom": [
+            {
+              "reference": "DocumentReference/demo-other-course-source"
+            }
+          ],
+          "valueBoolean": true,
+          "meta": {
+            "versionId": "1"
+          }
+        },
+        "request": {
+          "method": "PUT",
+          "url": "Observation/demo-other-course-metastatic"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "id": "demo-other-course-advanced-treatment-setting",
+          "subject": {
+            "reference": "Patient/demo-other-course-p"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:research:course-binding-fixture",
+                "code": "advanced_treatment_setting"
+              }
+            ]
+          },
+          "focus": [
+            {
+              "reference": "Condition/demo-other-course-current"
+            },
+            {
+              "reference": "CarePlan/demo-other-course-current"
+            }
+          ],
+          "effectiveDateTime": "2026-04-15",
+          "derivedFrom": [
+            {
+              "reference": "DocumentReference/demo-other-course-source"
+            }
+          ],
+          "valueBoolean": true,
+          "meta": {
+            "versionId": "1"
+          }
+        },
+        "request": {
+          "method": "PUT",
+          "url": "Observation/demo-other-course-advanced-treatment-setting"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "id": "demo-other-course-cycle1-start",
+          "subject": {
+            "reference": "Patient/demo-other-course-p"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:research:course-binding-fixture",
+                "code": "cycle1_start"
+              }
+            ]
+          },
+          "focus": [
+            {
+              "reference": "CarePlan/demo-other-course-current"
+            }
+          ],
+          "effectiveDateTime": "2026-04-01",
+          "derivedFrom": [
+            {
+              "reference": "DocumentReference/demo-other-course-source"
+            }
+          ],
+          "valueDateTime": "2026-04-01",
+          "meta": {
+            "versionId": "1"
+          }
+        },
+        "request": {
+          "method": "PUT",
+          "url": "Observation/demo-other-course-cycle1-start"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "id": "demo-other-course-baseline-measurable",
+          "subject": {
+            "reference": "Patient/demo-other-course-p"
+          },
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:research:course-binding-fixture",
+                "code": "baseline_measurable"
+              }
+            ]
+          },
+          "focus": [
+            {
+              "reference": "Condition/demo-other-course-current"
+            },
+            {
+              "reference": "CarePlan/demo-other-course-prior"
+            }
+          ],
+          "effectiveDateTime": "2026-03-28",
+          "derivedFrom": [
+            {
+              "reference": "DocumentReference/demo-other-course-source"
+            }
+          ],
+          "valueBoolean": true,
+          "method": {
+            "text": "RECIST 1.1"
+          },
+          "meta": {
+            "versionId": "1"
+          }
+        },
+        "request": {
+          "method": "PUT",
+          "url": "Observation/demo-other-course-baseline-measurable"
+        }
+      }
+    ]
+  }
+}

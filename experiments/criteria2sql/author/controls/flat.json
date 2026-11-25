@@ -1,0 +1,44 @@
+[
+  {
+    "id": 101,
+    "patient_id": "synthetic-101",
+    "scope": "complete",
+    "age": 17.0
+  },
+  {
+    "id": 102,
+    "patient_id": "synthetic-102",
+    "scope": "complete",
+    "age": 18.0
+  },
+  {
+    "id": 103,
+    "patient_id": "synthetic-103",
+    "scope": "complete",
+    "age": 18.0
+  },
+  {
+    "id": 104,
+    "patient_id": "synthetic-104",
+    "scope": "complete",
+    "age": 19.0
+  },
+  {
+    "id": 105,
+    "patient_id": "synthetic-105",
+    "scope": "complete",
+    "age": 17.0
+  },
+  {
+    "id": 106,
+    "patient_id": "synthetic-106",
+    "scope": "complete",
+    "age": 18.0
+  },
+  {
+    "id": 107,
+    "patient_id": "synthetic-107",
+    "scope": "missing",
+    "age": null
+  }
+]

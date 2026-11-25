@@ -1,0 +1,773 @@
+{
+  "108": {
+    "expression": {
+      "not": {
+        "fact": "hemodynamically_unstable"
+      }
+    },
+    "facts": {
+      "hemodynamically_unstable": {
+        "kind": "bool",
+        "label": "hemodynamically_unstable",
+        "role": "record",
+        "scope": "hemodynamically unstable"
+      }
+    }
+  },
+  "109": {
+    "expression": {
+      "not": {
+        "fact": "septic_shock"
+      }
+    },
+    "facts": {
+      "septic_shock": {
+        "kind": "bool",
+        "label": "septic_shock",
+        "role": "record",
+        "scope": "septic shock"
+      }
+    }
+  },
+  "111": {
+    "expression": {
+      "not": {
+        "fact": "cutaneous_ulcer_secondary_to_enteral_fistula"
+      }
+    },
+    "facts": {
+      "cutaneous_ulcer_secondary_to_enteral_fistula": {
+        "kind": "bool",
+        "label": "cutaneous_ulcer_secondary_to_enteral_fistula",
+        "role": "record",
+        "scope": "cutaneous ulcer secondary to enteral fistula"
+      }
+    }
+  },
+  "115": {
+    "expression": {
+      "not": {
+        "any": [
+          {
+            "fact": "cutaneous_ulcer_due_to_leishmania"
+          },
+          {
+            "fact": "cutaneous_ulcer_due_to_insect_bite"
+          }
+        ]
+      }
+    },
+    "facts": {
+      "cutaneous_ulcer_due_to_insect_bite": {
+        "kind": "bool",
+        "label": "cutaneous_ulcer_due_to_insect_bite",
+        "role": "record",
+        "scope": "cutaneous ulcer due to insect bite"
+      },
+      "cutaneous_ulcer_due_to_leishmania": {
+        "kind": "bool",
+        "label": "cutaneous_ulcer_due_to_leishmania",
+        "role": "record",
+        "scope": "cutaneous ulcer due to leishmania"
+      }
+    }
+  },
+  "116": {
+    "expression": {
+      "not": {
+        "fact": "cutaneous_ulcer_due_to_burns"
+      }
+    },
+    "facts": {
+      "cutaneous_ulcer_due_to_burns": {
+        "kind": "bool",
+        "label": "cutaneous_ulcer_due_to_burns",
+        "role": "record",
+        "scope": "cutaneous ulcer due to burns"
+      }
+    }
+  },
+  "120": {
+    "expression": {
+      "all": [
+        {
+          "any": [
+            {
+              "fact": "sibling_of_index_subject"
+            },
+            {
+              "fact": "parent_of_index_subject"
+            }
+          ]
+        },
+        {
+          "any": [
+            {
+              "fact": "index_insulin_resistance_on_ogtt"
+            },
+            {
+              "fact": "index_insulin_resistance_on_ivgtt"
+            }
+          ]
+        }
+      ]
+    },
+    "facts": {
+      "index_insulin_resistance_on_ivgtt": {
+        "kind": "bool",
+        "label": "index_insulin_resistance_on_ivgtt",
+        "role": "record",
+        "scope": "index insulin resistance on ivgtt"
+      },
+      "index_insulin_resistance_on_ogtt": {
+        "kind": "bool",
+        "label": "index_insulin_resistance_on_ogtt",
+        "role": "record",
+        "scope": "index insulin resistance on ogtt"
+      },
+      "parent_of_index_subject": {
+        "kind": "bool",
+        "label": "parent_of_index_subject",
+        "role": "record",
+        "scope": "parent of index subject"
+      },
+      "sibling_of_index_subject": {
+        "kind": "bool",
+        "label": "sibling_of_index_subject",
+        "role": "record",
+        "scope": "sibling of index subject"
+      }
+    }
+  },
+  "235": {
+    "expression": {
+      "all": [
+        {
+          "any": [
+            {
+              "fact": "menorrhagia"
+            },
+            {
+              "fact": "bulk_symptoms"
+            }
+          ]
+        },
+        {
+          "fact": "symptoms_attributed_to_uterine_fibroids"
+        }
+      ]
+    },
+    "facts": {
+      "bulk_symptoms": {
+        "kind": "bool",
+        "label": "bulk_symptoms",
+        "role": "record",
+        "scope": "bulk symptoms"
+      },
+      "menorrhagia": {
+        "kind": "bool",
+        "label": "menorrhagia",
+        "role": "record",
+        "scope": "menorrhagia"
+      },
+      "symptoms_attributed_to_uterine_fibroids": {
+        "kind": "bool",
+        "label": "symptoms_attributed_to_uterine_fibroids",
+        "role": "record",
+        "scope": "symptoms attributed to uterine fibroids"
+      }
+    }
+  },
+  "239": {
+    "expression": {
+      "not": {
+        "fact": "postmenopausal_woman"
+      }
+    },
+    "facts": {
+      "postmenopausal_woman": {
+        "kind": "bool",
+        "label": "postmenopausal_woman",
+        "role": "record",
+        "scope": "postmenopausal woman"
+      }
+    }
+  },
+  "328": {
+    "expression": {
+      "not": {
+        "any": [
+          {
+            "fact": "infant_history_of_bleeding"
+          },
+          {
+            "fact": "family_history_of_bleeding"
+          }
+        ]
+      }
+    },
+    "facts": {
+      "family_history_of_bleeding": {
+        "kind": "bool",
+        "label": "family_history_of_bleeding",
+        "role": "record",
+        "scope": "family history of bleeding"
+      },
+      "infant_history_of_bleeding": {
+        "kind": "bool",
+        "label": "infant_history_of_bleeding",
+        "role": "record",
+        "scope": "infant history of bleeding"
+      }
+    }
+  },
+  "329": {
+    "expression": {
+      "not": {
+        "fact": "coagulopathy"
+      }
+    },
+    "facts": {
+      "coagulopathy": {
+        "kind": "bool",
+        "label": "coagulopathy",
+        "role": "record",
+        "scope": "coagulopathy"
+      }
+    }
+  },
+  "330": {
+    "expression": {
+      "not": {
+        "fact": "history_of_gi_bleeding"
+      }
+    },
+    "facts": {
+      "history_of_gi_bleeding": {
+        "kind": "bool",
+        "label": "history_of_gi_bleeding",
+        "role": "record",
+        "scope": "history of gi bleeding"
+      }
+    }
+  },
+  "332": {
+    "expression": {
+      "not": {
+        "fact": "gestation_at_birth_weeks",
+        "op": "lt",
+        "value": 36
+      }
+    },
+    "facts": {
+      "gestation_at_birth_weeks": {
+        "kind": "number",
+        "label": "gestation_at_birth_weeks",
+        "role": "record",
+        "scope": "gestation at birth weeks",
+        "unit": "wk"
+      }
+    }
+  },
+  "336": {
+    "expression": {
+      "not": {
+        "any": [
+          {
+            "fact": "consent_refused"
+          },
+          {
+            "fact": "consent_absent"
+          }
+        ]
+      }
+    },
+    "facts": {
+      "consent_absent": {
+        "kind": "bool",
+        "label": "consent_absent",
+        "role": "record",
+        "scope": "consent absent"
+      },
+      "consent_refused": {
+        "kind": "bool",
+        "label": "consent_refused",
+        "role": "record",
+        "scope": "consent refused"
+      }
+    }
+  },
+  "366": {
+    "expression": {
+      "all": [
+        {
+          "any": [
+            {
+              "fact": "blunt_abdominal_trauma"
+            },
+            {
+              "fact": "penetrating_abdominal_trauma"
+            }
+          ]
+        },
+        {
+          "fact": "open_laparotomy_required_for_abdominal_trauma_with_primary_closure"
+        }
+      ]
+    },
+    "facts": {
+      "blunt_abdominal_trauma": {
+        "kind": "bool",
+        "label": "blunt_abdominal_trauma",
+        "role": "record",
+        "scope": "blunt abdominal trauma"
+      },
+      "open_laparotomy_required_for_abdominal_trauma_with_primary_closure": {
+        "kind": "bool",
+        "label": "open_laparotomy_required_for_abdominal_trauma_with_primary_closure",
+        "role": "record",
+        "scope": "open laparotomy required for abdominal trauma with primary closure"
+      },
+      "penetrating_abdominal_trauma": {
+        "kind": "bool",
+        "label": "penetrating_abdominal_trauma",
+        "role": "record",
+        "scope": "penetrating abdominal trauma"
+      }
+    }
+  },
+  "367": {
+    "expression": {
+      "all": [
+        {
+          "fact": "acute_surgical_abdomen"
+        },
+        {
+          "fact": "open_laparotomy_required_for_acute_surgical_abdomen_with_primary_closure"
+        }
+      ]
+    },
+    "facts": {
+      "acute_surgical_abdomen": {
+        "kind": "bool",
+        "label": "acute_surgical_abdomen",
+        "role": "record",
+        "scope": "acute surgical abdomen"
+      },
+      "open_laparotomy_required_for_acute_surgical_abdomen_with_primary_closure": {
+        "kind": "bool",
+        "label": "open_laparotomy_required_for_acute_surgical_abdomen_with_primary_closure",
+        "role": "record",
+        "scope": "open laparotomy required for acute surgical abdomen with primary closure"
+      }
+    }
+  },
+  "379": {
+    "expression": {
+      "not": {
+        "fact": "pregnant"
+      }
+    },
+    "facts": {
+      "pregnant": {
+        "kind": "bool",
+        "label": "pregnant",
+        "role": "record",
+        "scope": "pregnant"
+      }
+    }
+  },
+  "460": {
+    "expression": {
+      "all": [
+        {
+          "fact": "traumatic_brain_injury"
+        },
+        {
+          "any": [
+            {
+              "all": [
+                {
+                  "fact": "gcs",
+                  "op": "le",
+                  "value": 8
+                },
+                {
+                  "any": [
+                    {
+                      "fact": "ct_intracranial_hemorrhage"
+                    },
+                    {
+                      "fact": "ct_cerebral_edema"
+                    },
+                    {
+                      "fact": "ct_diffuse_axonal_injury"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "all": [
+                {
+                  "fact": "gcs_motor",
+                  "op": "le",
+                  "value": 3
+                },
+                {
+                  "fact": "normal_head_ct"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "facts": {
+      "ct_cerebral_edema": {
+        "kind": "bool",
+        "label": "ct_cerebral_edema",
+        "role": "record",
+        "scope": "ct cerebral edema"
+      },
+      "ct_diffuse_axonal_injury": {
+        "kind": "bool",
+        "label": "ct_diffuse_axonal_injury",
+        "role": "record",
+        "scope": "ct diffuse axonal injury"
+      },
+      "ct_intracranial_hemorrhage": {
+        "kind": "bool",
+        "label": "ct_intracranial_hemorrhage",
+        "role": "record",
+        "scope": "ct intracranial hemorrhage"
+      },
+      "gcs": {
+        "kind": "number",
+        "label": "gcs",
+        "role": "record",
+        "scope": "gcs",
+        "unit": "1"
+      },
+      "gcs_motor": {
+        "kind": "number",
+        "label": "gcs_motor",
+        "role": "record",
+        "scope": "gcs motor",
+        "unit": "1"
+      },
+      "normal_head_ct": {
+        "kind": "bool",
+        "label": "normal_head_ct",
+        "role": "record",
+        "scope": "normal head ct"
+      },
+      "traumatic_brain_injury": {
+        "kind": "bool",
+        "label": "traumatic_brain_injury",
+        "role": "record",
+        "scope": "traumatic brain injury"
+      }
+    }
+  },
+  "467": {
+    "expression": {
+      "not": {
+        "fact": "greater_than_mild_preinjury_neurodevelopmental_disability"
+      }
+    },
+    "facts": {
+      "greater_than_mild_preinjury_neurodevelopmental_disability": {
+        "kind": "bool",
+        "label": "greater_than_mild_preinjury_neurodevelopmental_disability",
+        "role": "record",
+        "scope": "greater than mild preinjury neurodevelopmental disability"
+      }
+    }
+  },
+  "468": {
+    "expression": {
+      "not": {
+        "all": [
+          {
+            "fact": "acute_isolated_epidural_hematoma"
+          },
+          {
+            "fact": "rapid_recovery_expected_after_surgical_removal"
+          }
+        ]
+      }
+    },
+    "facts": {
+      "acute_isolated_epidural_hematoma": {
+        "kind": "bool",
+        "label": "acute_isolated_epidural_hematoma",
+        "role": "record",
+        "scope": "acute isolated epidural hematoma"
+      },
+      "rapid_recovery_expected_after_surgical_removal": {
+        "kind": "bool",
+        "label": "rapid_recovery_expected_after_surgical_removal",
+        "role": "record",
+        "scope": "rapid recovery expected after surgical removal"
+      }
+    }
+  },
+  "475": {
+    "expression": {
+      "not": {
+        "fact": "child_involved_in_motor_vehicle_collision_at_index_injury"
+      }
+    },
+    "facts": {
+      "child_involved_in_motor_vehicle_collision_at_index_injury": {
+        "kind": "bool",
+        "label": "child_involved_in_motor_vehicle_collision_at_index_injury",
+        "role": "record",
+        "scope": "child involved in motor vehicle collision at index injury"
+      }
+    }
+  },
+  "476": {
+    "expression": {
+      "not": {
+        "fact": "child_injured_by_another_rider_at_index_injury"
+      }
+    },
+    "facts": {
+      "child_injured_by_another_rider_at_index_injury": {
+        "kind": "bool",
+        "label": "child_injured_by_another_rider_at_index_injury",
+        "role": "record",
+        "scope": "child injured by another rider at index injury"
+      }
+    }
+  },
+  "477": {
+    "expression": {
+      "not": {
+        "fact": "index_incident_involved_bicycle_with_bull_bars"
+      }
+    },
+    "facts": {
+      "index_incident_involved_bicycle_with_bull_bars": {
+        "kind": "bool",
+        "label": "index_incident_involved_bicycle_with_bull_bars",
+        "role": "record",
+        "scope": "index incident involved bicycle with bull bars"
+      }
+    }
+  },
+  "481": {
+    "expression": {
+      "fact": "permanent_resident_luanshya"
+    },
+    "facts": {
+      "permanent_resident_luanshya": {
+        "kind": "bool",
+        "label": "permanent_resident_luanshya",
+        "role": "record",
+        "scope": "permanent resident luanshya"
+      }
+    }
+  },
+  "492": {
+    "expression": {
+      "fact": "born_san_francis_designated_district_hospital_ifakara"
+    },
+    "facts": {
+      "born_san_francis_designated_district_hospital_ifakara": {
+        "kind": "bool",
+        "label": "born_san_francis_designated_district_hospital_ifakara",
+        "role": "record",
+        "scope": "born san francis designated district hospital ifakara"
+      }
+    }
+  },
+  "493": {
+    "expression": {
+      "not": {
+        "fact": "obvious_severe_congenital_malformation"
+      }
+    },
+    "facts": {
+      "obvious_severe_congenital_malformation": {
+        "kind": "bool",
+        "label": "obvious_severe_congenital_malformation",
+        "role": "record",
+        "scope": "obvious severe congenital malformation"
+      }
+    }
+  },
+  "494": {
+    "expression": {
+      "not": {
+        "fact": "twin_birth"
+      }
+    },
+    "facts": {
+      "twin_birth": {
+        "kind": "bool",
+        "label": "twin_birth",
+        "role": "record",
+        "scope": "twin birth"
+      }
+    }
+  },
+  "495": {
+    "expression": {
+      "not": {
+        "fact": "birth_weight_kg",
+        "op": "lt",
+        "value": 1.5
+      }
+    },
+    "facts": {
+      "birth_weight_kg": {
+        "kind": "number",
+        "label": "birth_weight_kg",
+        "role": "record",
+        "scope": "birth weight kg",
+        "unit": "kg"
+      }
+    }
+  },
+  "496": {
+    "expression": {
+      "not": {
+        "fact": "clinical_signs_of_cerebral_asphyxia"
+      }
+    },
+    "facts": {
+      "clinical_signs_of_cerebral_asphyxia": {
+        "kind": "bool",
+        "label": "clinical_signs_of_cerebral_asphyxia",
+        "role": "record",
+        "scope": "clinical signs of cerebral asphyxia"
+      }
+    }
+  },
+  "497": {
+    "expression": {
+      "not": {
+        "any": [
+          {
+            "fact": "clinical_signs_neonatal_infection"
+          },
+          {
+            "fact": "clinical_signs_congenital_infection"
+          }
+        ]
+      }
+    },
+    "facts": {
+      "clinical_signs_congenital_infection": {
+        "kind": "bool",
+        "label": "clinical_signs_congenital_infection",
+        "role": "record",
+        "scope": "clinical signs congenital infection"
+      },
+      "clinical_signs_neonatal_infection": {
+        "kind": "bool",
+        "label": "clinical_signs_neonatal_infection",
+        "role": "record",
+        "scope": "clinical signs neonatal infection"
+      }
+    }
+  },
+  "498": {
+    "expression": {
+      "not": {
+        "hold": "Clarify the intended maternal assessment and who determines it."
+      }
+    },
+    "facts": {}
+  },
+  "55": {
+    "expression": {
+      "not": {
+        "hold": "Confirm the scope of preterm and neonatal exclusion in the protocol."
+      }
+    },
+    "facts": {}
+  },
+  "577": {
+    "expression": {
+      "not": {
+        "all": [
+          {
+            "fact": "moribund"
+          },
+          {
+            "fact": "active_treatment_of_any_form_not_considered"
+          }
+        ]
+      }
+    },
+    "facts": {
+      "active_treatment_of_any_form_not_considered": {
+        "kind": "bool",
+        "label": "active_treatment_of_any_form_not_considered",
+        "role": "record",
+        "scope": "active treatment of any form not considered"
+      },
+      "moribund": {
+        "kind": "bool",
+        "label": "moribund",
+        "role": "record",
+        "scope": "moribund"
+      }
+    }
+  },
+  "795": {
+    "expression": {
+      "not": {
+        "hold": "Confirm whether pregnancy and inability to speak French are joint or separate exclusions."
+      }
+    },
+    "facts": {}
+  },
+  "81": {
+    "expression": {
+      "not": {
+        "any": [
+          {
+            "fact": "active_severe_infection_within_four_weeks_before_screening"
+          },
+          {
+            "fact": "active_severe_infection_between_screening_and_baseline"
+          }
+        ]
+      }
+    },
+    "facts": {
+      "active_severe_infection_between_screening_and_baseline": {
+        "kind": "bool",
+        "label": "active_severe_infection_between_screening_and_baseline",
+        "role": "record",
+        "scope": "active severe infection between screening and baseline"
+      },
+      "active_severe_infection_within_four_weeks_before_screening": {
+        "kind": "bool",
+        "label": "active_severe_infection_within_four_weeks_before_screening",
+        "role": "record",
+        "scope": "active severe infection within four weeks before screening"
+      }
+    }
+  },
+  "985": {
+    "expression": {
+      "not": {
+        "fact": "chest_tube_in_place"
+      }
+    },
+    "facts": {
+      "chest_tube_in_place": {
+        "kind": "bool",
+        "label": "chest_tube_in_place",
+        "role": "record",
+        "scope": "chest tube in place"
+      }
+    }
+  }
+}

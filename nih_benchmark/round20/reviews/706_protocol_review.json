@@ -1,0 +1,53 @@
+{
+  "case": "706",
+  "study": "NCT02340533",
+  "institutional_id": "AD0152015",
+  "independent_checks": [
+    {
+      "role": "Registration snapshot distributed by WHO",
+      "url": "https://trialsearch.who.int/Trial2.aspx?TrialID=NCT02340533",
+      "source_sha256": "0140cc9689b670b78b7fa7ebb80e10d5a0060a3990ec8dbccbeb2fb58c5b23d1",
+      "locator": "Key inclusion & exclusion criteria; Secondary ID(s); Results; last refreshed 3 August 2015",
+      "finding": "Links both study identifiers and repeats a comma-separated symptom list without a connective. Its protocol URL, results URL and date of first publication fields are empty. This source mirrors the registration."
+    },
+    {
+      "role": "Current official registration",
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT02340533",
+      "sha256": "703eeb51dd2d813d2c462a7a1490e6497471b124f49c3b5049ea34586c52b053",
+      "actual_completion": {
+        "date": "2015-06",
+        "type": "ACTUAL"
+      },
+      "enrollment": {
+        "count": 200,
+        "type": "ESTIMATED"
+      },
+      "supplied_documents_or_references": false,
+      "finding": "The intervention arm again refers to the symptom complex generally; the criteria list symptoms without an explicit AND or OR. Pregnancy and postmenopausal bleeding are not separate listed exclusions."
+    },
+    {
+      "role": "Original paper",
+      "url": "https://doi.org/10.1016/j.jmig.2015.11.004",
+      "full_text_url": "https://www.researchgate.net/publication/284133349_The_accuracy_of_hysteroscopic_endomyometrial_biopsy_in_diagnosis_of_adenomyosis",
+      "locator": "Materials and Methods; Table 2",
+      "finding": "The article expressly permits alternative presenting symptoms and reports 404 participants, through August 2015. It excludes pregnant and postmenopausal-bleeding participants in addition to refusal. Its ethics statement gives no trial registration or protocol identifier."
+    },
+    {
+      "role": "Independent systematic extraction of the paper",
+      "url": "https://ranzcog.edu.au/wp-content/uploads/Endometriosis-Clinical-Practice-Guideline-Technical-Report.pdf",
+      "locator": "Page 108, Dakhly et al., Participants, Inclusion criteria",
+      "finding": "Review team extracted the symptom alternatives, the additional exclusions and the 404/292 counts. It does not identify this protocol as NCT02340533."
+    },
+    {
+      "role": "Europe PMC identifier search",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22NCT02340533%22&format=json",
+      "source_sha256": "051160ab525ac806bd2d7caab489f88782068378dec1c51e0623ca7ce42941ef",
+      "exact_id_hits": 0,
+      "finding": "No publications matched the exact identifier in this query. This negative search does not decide whether the study and paper are the same."
+    }
+  ],
+  "clinical_claim": "The patient reports severe menstrual pelvic pain, heavy irregular periods, and intermittent intermenstrual spotting. She would meet an any-one-of-listed-symptoms rule at presentation. Dyspareunia and qualifying chronic duration are undocumented.",
+  "criterion_only": true,
+  "confirmed_authority_answers": 0,
+  "unresolved": "The paper is a plausible same-team study but no usable source establishes that its symptom policy applies to the frozen registration. The close correspondence permits a separately reported conditional analysis."
+}

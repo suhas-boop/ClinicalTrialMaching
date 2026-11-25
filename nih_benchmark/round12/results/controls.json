@@ -1,0 +1,412 @@
+[
+  {
+    "case": 1,
+    "text": "In the recovery bay she remains on a mechanical ventilator.",
+    "expected": {
+      "receiving_mechanical_ventilation": true
+    },
+    "observed": {
+      "receiving_mechanical_ventilation": true
+    },
+    "passed": true
+  },
+  {
+    "case": 2,
+    "text": "Her mother remains on a mechanical ventilator.",
+    "expected": {},
+    "observed": {},
+    "passed": true
+  },
+  {
+    "case": 3,
+    "text": "If needed, start mechanical ventilation.",
+    "expected": {},
+    "observed": {},
+    "passed": true
+  },
+  {
+    "case": 4,
+    "text": "Respiratory support: she is breathing spontaneously without mechanical ventilation.",
+    "expected": {
+      "receiving_mechanical_ventilation": false
+    },
+    "observed": {
+      "receiving_mechanical_ventilation": false
+    },
+    "passed": true
+  },
+  {
+    "case": 5,
+    "text": "CT chest today showed no interstitial lung disease or pulmonary embolism.",
+    "expected": {
+      "chest_ct_showed_ild": false,
+      "chest_ct_showed_pulmonary_thromboembolism": false
+    },
+    "observed": {
+      "chest_ct_showed_ild": false,
+      "chest_ct_showed_pulmonary_thromboembolism": false
+    },
+    "passed": true
+  },
+  {
+    "case": 6,
+    "text": "CT chest today showed pulmonary embolism without interstitial lung disease.",
+    "expected": {
+      "chest_ct_showed_ild": false,
+      "chest_ct_showed_pulmonary_thromboembolism": true
+    },
+    "observed": {
+      "chest_ct_showed_ild": false,
+      "chest_ct_showed_pulmonary_thromboembolism": true
+    },
+    "passed": true
+  },
+  {
+    "case": 7,
+    "text": "Yesterday\u2019s CXR showed pulmonary embolism.",
+    "expected": {},
+    "observed": {},
+    "passed": true
+  },
+  {
+    "case": 8,
+    "text": "CT chest today cannot exclude pulmonary embolism.",
+    "expected": {},
+    "observed": {},
+    "passed": true
+  },
+  {
+    "case": 9,
+    "text": "Head CT today was unremarkable.",
+    "expected": {
+      "normal_head_ct": true
+    },
+    "observed": {
+      "normal_head_ct": true
+    },
+    "passed": true
+  },
+  {
+    "case": 10,
+    "text": "CT head today showed no intracranial hemorrhage but demonstrated cerebral edema.",
+    "expected": {
+      "ct_intracranial_hemorrhage": false,
+      "ct_cerebral_edema": true
+    },
+    "observed": {
+      "ct_cerebral_edema": true,
+      "ct_intracranial_hemorrhage": false
+    },
+    "passed": true
+  },
+  {
+    "case": 11,
+    "text": "Head CT was recommended to rule out bleeding.",
+    "expected": {},
+    "observed": {},
+    "passed": true
+  },
+  {
+    "case": 12,
+    "text": "Social history: she is divorced.",
+    "expected": {
+      "unmarried": true
+    },
+    "observed": {
+      "unmarried": true
+    },
+    "passed": true
+  },
+  {
+    "case": 13,
+    "text": "Her daughter is divorced.",
+    "expected": {},
+    "observed": {},
+    "passed": true
+  },
+  {
+    "case": 14,
+    "text": "Dermatology: skin phototype was Fitzpatrick IV.",
+    "expected": {
+      "fitzpatrick_I": false,
+      "fitzpatrick_II": false,
+      "fitzpatrick_III": false
+    },
+    "observed": {
+      "fitzpatrick_III": false,
+      "fitzpatrick_I": false,
+      "fitzpatrick_II": false
+    },
+    "passed": true
+  },
+  {
+    "case": 15,
+    "text": "No evidence that she was born preterm.",
+    "expected": {},
+    "observed": {},
+    "passed": true
+  },
+  {
+    "case": 16,
+    "text": "Birth history: delivered at 35 weeks' gestation.",
+    "expected": {
+      "gestation_at_birth_weeks": 35
+    },
+    "observed": {
+      "gestation_at_birth_weeks": 35.0
+    },
+    "passed": true
+  },
+  {
+    "case": 17,
+    "text": "Obstetric history: delivered at 35 weeks' gestation.",
+    "expected": {},
+    "observed": {},
+    "passed": true
+  },
+  {
+    "case": 18,
+    "text": "The ABG today showed a PaCO2 of 31 mmHg.",
+    "expected": {
+      "paco2_mmhg": 31
+    },
+    "observed": {
+      "paco2_mmhg": 31.0
+    },
+    "passed": true
+  },
+  {
+    "case": 19,
+    "text": "A venous blood gas showed PCO2 of 31 mmHg.",
+    "expected": {},
+    "observed": {},
+    "passed": true
+  },
+  {
+    "case": 20,
+    "text": "GCS motor subscore: 3/6.",
+    "expected": {
+      "gcs_motor": 3
+    },
+    "observed": {
+      "gcs_motor": 3.0
+    },
+    "passed": true
+  },
+  {
+    "case": 21,
+    "text": "GCS motor subscore: 8/6.",
+    "expected": {},
+    "observed": {},
+    "passed": true
+  },
+  {
+    "case": 22,
+    "text": "He denies gross hematuria.",
+    "expected": {
+      "patient_reported_hematuria": false
+    },
+    "observed": {
+      "patient_reported_hematuria": false
+    },
+    "passed": true
+  },
+  {
+    "case": 23,
+    "text": "Urine microscopy showed 10 RBCs per high-power field.",
+    "expected": {},
+    "observed": {},
+    "passed": true
+  },
+  {
+    "case": 24,
+    "text": "Hospital course: transferred to the observation unit.",
+    "expected": {
+      "transferred_to_observation_unit": true
+    },
+    "observed": {
+      "transferred_to_observation_unit": true
+    },
+    "passed": true
+  },
+  {
+    "case": 25,
+    "text": "Hospital course: may transfer to the observation unit tomorrow.",
+    "expected": {},
+    "observed": {},
+    "passed": true
+  },
+  {
+    "case": 26,
+    "text": "She is currently nursing her infant.",
+    "expected": {
+      "breastfeeding": true
+    },
+    "observed": {
+      "breastfeeding": true
+    },
+    "passed": true
+  },
+  {
+    "case": 27,
+    "text": "She is a nursing student.",
+    "expected": {},
+    "observed": {},
+    "passed": true
+  },
+  {
+    "case": 28,
+    "text": "Her consent form is still unsigned.",
+    "expected": {},
+    "observed": {},
+    "passed": true
+  },
+  {
+    "case": 29,
+    "text": "For study NCT00557219, the patient declined consent.",
+    "expected": {
+      "consent_refused": true
+    },
+    "observed": {
+      "consent_refused": true
+    },
+    "passed": true
+  },
+  {
+    "case": 30,
+    "text": "For study NCT00557219, the patient declined consent.",
+    "expected": {},
+    "observed": {},
+    "passed": true
+  },
+  {
+    "case": 31,
+    "text": "No family history of bleeding was reported.",
+    "expected": {
+      "family_history_of_bleeding": false
+    },
+    "observed": {
+      "family_history_of_bleeding": false
+    },
+    "passed": true
+  },
+  {
+    "case": 32,
+    "text": "He denied any bleeding yesterday.",
+    "expected": {},
+    "observed": {},
+    "passed": true
+  },
+  {
+    "case": 33,
+    "text": "Study NCT01397994: she cannot travel to the site for treatment or follow-up.",
+    "expected": {
+      "unable_to_travel_for_treatment_or_followup": true
+    },
+    "observed": {
+      "unable_to_travel_for_treatment_or_followup": true
+    },
+    "passed": true
+  },
+  {
+    "case": 34,
+    "text": "She has difficulty taking the bus.",
+    "expected": {},
+    "observed": {},
+    "passed": true
+  },
+  {
+    "case": 35,
+    "text": "MRI safety screen was failed because of metal.",
+    "expected": {
+      "failed_mri_metal_screen": true
+    },
+    "observed": {
+      "failed_mri_metal_screen": true
+    },
+    "passed": true
+  },
+  {
+    "case": 36,
+    "text": "MRI safety screen is scheduled.",
+    "expected": {},
+    "observed": {},
+    "passed": true
+  },
+  {
+    "case": 37,
+    "text": "The admission cognitive screen documented impairment.",
+    "expected": {
+      "cognitive_impairment_on_admission_screen": true
+    },
+    "observed": {
+      "cognitive_impairment_on_admission_screen": true
+    },
+    "passed": true
+  },
+  {
+    "case": 38,
+    "text": "The family reports that memory has worsened.",
+    "expected": {},
+    "observed": {},
+    "passed": true
+  },
+  {
+    "case": 39,
+    "text": "ECG today showed signs of acute ischemia.",
+    "expected": {
+      "ecg_acute_ischemia": true
+    },
+    "observed": {
+      "ecg_acute_ischemia": true
+    },
+    "passed": true
+  },
+  {
+    "case": 40,
+    "text": "ECG today showed nonspecific changes.",
+    "expected": {},
+    "observed": {},
+    "passed": true
+  },
+  {
+    "case": 41,
+    "text": "She is now taking pills by mouth and keeping them down.",
+    "expected": {
+      "can_take_oral_medication": true,
+      "can_retain_oral_medication": true
+    },
+    "observed": {
+      "can_retain_oral_medication": true,
+      "can_take_oral_medication": true
+    },
+    "passed": true
+  },
+  {
+    "case": 42,
+    "text": "She could not retain her tablets last year.",
+    "expected": {},
+    "observed": {},
+    "passed": true
+  },
+  {
+    "case": 43,
+    "text": "Head CT today showed no edema or intracranial hemorrhage.",
+    "expected": {
+      "ct_cerebral_edema": false,
+      "ct_intracranial_hemorrhage": false
+    },
+    "observed": {
+      "ct_cerebral_edema": false,
+      "ct_intracranial_hemorrhage": false
+    },
+    "passed": true
+  },
+  {
+    "case": 44,
+    "text": "History:\nHead CT today showed no edema or intracranial hemorrhage.",
+    "expected": {},
+    "observed": {},
+    "passed": true
+  }
+]

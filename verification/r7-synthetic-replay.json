@@ -1,0 +1,117 @@
+{
+  "before": {
+    "115": "MISSING_DATA",
+    "116": "MISSING_DATA"
+  },
+  "after": {
+    "115": {
+      "state": "MISSING_DATA",
+      "reason": "Negated protocol condition. Obtain cutaneous_ulcer_due_to_leishmania. Obtain cutaneous_ulcer_due_to_insect_bite.",
+      "evidence": [],
+      "facts": {
+        "cutaneous_ulcer_due_to_leishmania": {
+          "label": "cutaneous_ulcer_due_to_leishmania",
+          "value": null,
+          "state": "MISSING_DATA",
+          "evidence": []
+        },
+        "cutaneous_ulcer_due_to_insect_bite": {
+          "label": "cutaneous_ulcer_due_to_insect_bite",
+          "value": null,
+          "state": "MISSING_DATA",
+          "evidence": []
+        }
+      },
+      "partial_evidence": []
+    },
+    "116": {
+      "state": "NOT_MET",
+      "reason": "Negated protocol condition. cutaneous_ulcer_due_to_burns = True (requires eq True).",
+      "evidence": [
+        "DocumentReference/src-f-c420d0ad806ceaad708d3a74/_history/1",
+        "Observation/obs-f-c420d0ad806ceaad708d3a74/_history/1"
+      ],
+      "facts": {
+        "cutaneous_ulcer_due_to_burns": {
+          "label": "cutaneous_ulcer_due_to_burns",
+          "value": true,
+          "state": "AVAILABLE",
+          "evidence": [
+            "DocumentReference/src-f-c420d0ad806ceaad708d3a74/_history/1",
+            "Observation/obs-f-c420d0ad806ceaad708d3a74/_history/1"
+          ]
+        }
+      },
+      "partial_evidence": [
+        "DocumentReference/src-f-c420d0ad806ceaad708d3a74/_history/1",
+        "Observation/obs-f-c420d0ad806ceaad708d3a74/_history/1"
+      ]
+    }
+  },
+  "added_versions": [
+    "DocumentReference/src-f-c420d0ad806ceaad708d3a74/_history/1",
+    "Observation/obs-f-c420d0ad806ceaad708d3a74/_history/1"
+  ],
+  "lookups": [
+    {
+      "request_id": "a1d13b76f2e8fd47799a38157f38e6387c30edb7c7c3f7ed2adaa8ccff19e15a",
+      "source_request_id": "7ac8b75ea7f7849f7c7b4429372a5a5eff60f54784705cdcbbdfa8e42eacfd56",
+      "criteria": [
+        "115"
+      ],
+      "needed": "cutaneous ulcer due to leishmania",
+      "suggested_record": "wound assessment",
+      "passages": []
+    },
+    {
+      "request_id": "4b3bfdd45d2c3c0d464d8814e53bd9ebd0a29f10af6783c1143c5a13453e3db0",
+      "source_request_id": "7ac8b75ea7f7849f7c7b4429372a5a5eff60f54784705cdcbbdfa8e42eacfd56",
+      "criteria": [
+        "115"
+      ],
+      "needed": "cutaneous ulcer due to insect bite",
+      "suggested_record": "wound assessment",
+      "passages": []
+    },
+    {
+      "request_id": "232ba589b3190fd99b5d871c77bf420e91e3aa3d8a160afe173f2826e0c2439a",
+      "source_request_id": "7ac8b75ea7f7849f7c7b4429372a5a5eff60f54784705cdcbbdfa8e42eacfd56",
+      "criteria": [
+        "116"
+      ],
+      "needed": "cutaneous ulcer due to burns",
+      "suggested_record": "wound assessment",
+      "passages": []
+    }
+  ],
+  "remaining_requests": [
+    {
+      "id": "a1d13b76f2e8fd47799a38157f38e6387c30edb7c7c3f7ed2adaa8ccff19e15a",
+      "route": "retrieve_record",
+      "request": "cutaneous ulcer due to leishmania",
+      "criteria": [
+        "115"
+      ]
+    },
+    {
+      "id": "4b3bfdd45d2c3c0d464d8814e53bd9ebd0a29f10af6783c1143c5a13453e3db0",
+      "route": "retrieve_record",
+      "request": "cutaneous ulcer due to insect bite",
+      "criteria": [
+        "115"
+      ]
+    }
+  ],
+  "work": {
+    "evidence_backed_decisions": 1,
+    "human_questions": 0,
+    "record_lookups": 2,
+    "engineering_items": 0
+  },
+  "source_inventory": {
+    "Clinical document": {
+      "documents": 1,
+      "readable": 0
+    }
+  }
+}

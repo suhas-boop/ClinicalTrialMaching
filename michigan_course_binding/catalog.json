@@ -1,0 +1,67 @@
+{
+  "version": "Michigan-March2025-binding-probe-2",
+  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+  "products": {
+    "1191138": {
+      "name": "doxorubicin hydrochloride 2 mg/mL injectable solution",
+      "formulation": "conventional solution",
+      "source": "https://bioportal.bioontology.org/ontologies/RXNORM?conceptid=1191138&p=classes",
+      "ingredients": [
+        "3639"
+      ]
+    },
+    "1790128": {
+      "name": "25 mL doxorubicin hydrochloride liposome 2 mg/mL injection [Doxil]",
+      "formulation": "liposomal Doxil",
+      "source": "https://www.dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=917eddf9-1d3f-4abe-8c81-d33b066e5bae",
+      "ingredients": [
+        "3639"
+      ]
+    },
+    "1791588": {
+      "name": "ifosfamide 3 GM injection",
+      "source": "https://www.dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=efb1d03b-2d91-406e-8110-d3a58b8fa7cc",
+      "ingredients": [
+        "5657"
+      ]
+    },
+    "1719003": {
+      "name": "gemcitabine 1000 MG injection",
+      "source": "https://bioportal.bioontology.org/ontologies/RXNORM?conceptid=1719003&p=classes",
+      "ingredients": [
+        "12574"
+      ]
+    },
+    "376888": {
+      "name": "docetaxel injectable solution",
+      "source": "https://bioportal.bioontology.org/ontologies/RXNORM?conceptid=376888&p=classes",
+      "ingredients": [
+        "72962"
+      ]
+    }
+  },
+  "regimen_source": "https://seer.cancer.gov/seertools/seerrx/rx/53c44b22102c1290262dda0e/",
+  "regimen_names": {
+    "AIM": [
+      "doxorubicin",
+      "ifosfamide",
+      "mesna"
+    ]
+  },
+  "rule": {
+    "study": "NCT05653388",
+    "criterion": "MI-LMS-02",
+    "version": "March 2025",
+    "criterion_paragraph": "35996DFF",
+    "protocol_sha256": "f920e02d5b194d147a76e2c60e94884f599d3982cda8e7ecfaee2a10a5f3f08b",
+    "line": 1,
+    "ingredient": "3639",
+    "tested_formulations": [
+      "conventional solution"
+    ],
+    "alternative_combination": [
+      "12574",
+      "72962"
+    ]
+  }
+}

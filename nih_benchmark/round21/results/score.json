@@ -1,0 +1,35 @@
+{
+  "assignments": 134,
+  "physician_definitive": 91,
+  "prediction_sha256": "c089aa321669a36d7f34c7b223685f04a6284f933a82ee95535aa74115a97720",
+  "user_responses": 1,
+  "independently_verified_protocol_responses": 0,
+  "strict": {
+    "agreements": 6,
+    "disagreements": 0,
+    "definitive_on_indeterminate": 0
+  },
+  "supported_exam": {
+    "agreements": 7,
+    "disagreements": 0,
+    "definitive_on_indeterminate": 0
+  },
+  "strict_plus_user": {
+    "agreements": 7,
+    "disagreements": 0,
+    "definitive_on_indeterminate": 0
+  },
+  "exam_plus_user": {
+    "agreements": 8,
+    "disagreements": 0,
+    "definitive_on_indeterminate": 0
+  },
+  "changed_from_supported_exam": [
+    {
+      "case": "706",
+      "previous": "AUTHORING_HOLD",
+      "current": "MET",
+      "physician_reference": "MET"
+    }
+  ]
+}

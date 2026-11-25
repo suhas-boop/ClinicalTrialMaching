@@ -1,0 +1,39 @@
+{
+  "pair": "239",
+  "study": "NCT00277680",
+  "study_internal_id": "MU22200105",
+  "patient": "sigir-201415",
+  "original_patient_note_sha256": "7b48f13174fdecd15aa559fbbd74cd92129139b36b7967ee727b622d21f891c6",
+  "patient_facts": [
+    {
+      "line": 0,
+      "finding": "Twelve-week history of amenorrhea; vaginal spotting increasing since yesterday. No explicit date or identification of prior spontaneous menstrual period."
+    }
+  ],
+  "registry_xml_sha256": "a940de2d28f7033e9107fde916fb188fd5fb966ac135a2b855851d336d54e47a",
+  "registry_locator": "eligibility/criteria/textblock, exclusion item 4; detailed_description/textblock",
+  "source_review": [
+    {
+      "authority": "Kirsten Hald, principal investigator, doctoral thesis",
+      "location": "5.1 and 5.2, papers II and V",
+      "linkage": "Explicit NCT00277680",
+      "url": "https://www.academia.edu/87035495/Uterine_sparing_treatment_of_leiomyomas_by_central_or_peripheral_occlusion_of_the_arterial_supply",
+      "finding": "Presents menopause as an exclusion and premenopausal women as recruitment population. Separately excludes recent specified hormonal medication use. Supplies no numeric menopause cutoff."
+    },
+    {
+      "authority": "Hald et al. 2007 randomized trial, PMID 17197583",
+      "location": "Materials and Methods",
+      "linkage": "Explicit NCT00277680",
+      "url": "https://www.rima.org/web/medline_pdf/LaparoscopicOcclusion.pdf",
+      "finding": "Participants attended gynecology consultation and completed bleeding assessment during last menstrual period before treatment. This was a before-treatment outcome measure; no twelve-month or other menopausal-status decision threshold is given."
+    },
+    {
+      "authority": "FEMME trial, different study",
+      "url": "https://doi.org/10.1002/ijgo.14626",
+      "excluded": "Numerical cutoff belongs to another trial."
+    }
+  ],
+  "numeric_comparison_permitted": false,
+  "clinical_decision": "MISSING_DATA",
+  "why": "No study-specific necessary-and-sufficient duration rule. The onset of a symptom and spotting cannot establish past ovarian function or an accepted true last menstrual period for every relevant etiology. No pregnancy status inferred."
+}

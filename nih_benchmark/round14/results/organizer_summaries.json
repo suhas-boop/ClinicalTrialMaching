@@ -1,0 +1,4199 @@
+{
+  "notes_joined": 53,
+  "subjects_with_assignments": 44,
+  "subjects_without_assignments": [
+    "sigir-20145",
+    "sigir-201416",
+    "sigir-201429",
+    "sigir-20152",
+    "sigir-20155",
+    "sigir-20158",
+    "sigir-20159",
+    "sigir-201513",
+    "sigir-201519"
+  ],
+  "group_assignments": 8,
+  "rule_pairs": 134,
+  "changed_outcomes": [],
+  "changed_operands": [],
+  "summary_cited_by_rule": [
+    "44",
+    "55",
+    "196",
+    "230",
+    "454",
+    "517",
+    "633"
+  ],
+  "baseline_outcomes": {
+    "MISSING_DATA": 96,
+    "AUTHORING_HOLD": 15,
+    "MET": 6,
+    "INVESTIGATOR_ACTIONS": 6,
+    "STUDY_ACTION": 2,
+    "SOURCE_SCOPE_HOLD": 7,
+    "PATIENT_SURVEY": 2
+  },
+  "expanded_outcomes": {
+    "MISSING_DATA": 96,
+    "AUTHORING_HOLD": 15,
+    "MET": 6,
+    "INVESTIGATOR_ACTIONS": 6,
+    "STUDY_ACTION": 2,
+    "SOURCE_SCOPE_HOLD": 7,
+    "PATIENT_SURVEY": 2
+  },
+  "subjects": {
+    "sigir-20141": {
+      "summary": "58-year-old woman with hypertension and obesity presents with exercise-related episodic chest pain radiating to the back.",
+      "summary_sha256": "f6201e01c5431571599c5653fb8b981e32878d72ec6c90a0e23692cc51f09fea",
+      "subject_id": "sigir-20141",
+      "topic": "1",
+      "year": "2014",
+      "locator": "/topics/topic[@number='1']/summary",
+      "xml_sha256": "8fa33d3a258da436c05d6009fc5713cc56038cc488535e52eccd6c19a11fc9e9",
+      "source_url": "https://trec-cds.org/topics2014.xml",
+      "subject": "Patient/sigir-20141",
+      "assigned": [
+        "20",
+        "25",
+        "26",
+        "29"
+      ],
+      "review_note": "Summary calls chest pain exercise-related; it supplies neither severity of hypertension nor a creatinine result.",
+      "source_resource_type": "Patient",
+      "added_source_digest": "f6201e01c5431571599c5653fb8b981e32878d72ec6c90a0e23692cc51f09fea",
+      "separately_ingested_clinical_facts": [
+        {
+          "resource": "Observation/x-46945c0c0b09d9a5bdac086a4a75f7",
+          "concept": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:trialgpt:clinical:v1",
+                "code": "age-at-presentation",
+                "display": "age at presentation"
+              },
+              {
+                "system": "http://loinc.org",
+                "code": "30525-0",
+                "display": "Age"
+              }
+            ],
+            "text": "age at presentation"
+          },
+          "value": {
+            "valueQuantity": {
+              "value": 58,
+              "system": "http://unitsofmeasure.org",
+              "code": "a",
+              "unit": "a"
+            }
+          }
+        }
+      ]
+    },
+    "sigir-20142": {
+      "summary": "8-year-old boy with 2 days of loose stools, fever, and cough after returning from a trip to Colorado. Chest x-ray shows bilateral lung infiltrates.",
+      "summary_sha256": "f3c9c15fbb66aae39bb41e381714f6b42426b138adf1dbfd9bfad993be68364a",
+      "subject_id": "sigir-20142",
+      "topic": "2",
+      "year": "2014",
+      "locator": "/topics/topic[@number='2']/summary",
+      "xml_sha256": "8fa33d3a258da436c05d6009fc5713cc56038cc488535e52eccd6c19a11fc9e9",
+      "source_url": "https://trec-cds.org/topics2014.xml",
+      "subject": "Patient/sigir-20142",
+      "assigned": [
+        "34",
+        "36"
+      ],
+      "source_resource_type": "Patient",
+      "added_source_digest": "f3c9c15fbb66aae39bb41e381714f6b42426b138adf1dbfd9bfad993be68364a",
+      "separately_ingested_clinical_facts": [
+        {
+          "resource": "Observation/x-c173b887d2458358afd5acfbadebff",
+          "concept": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:trialgpt:clinical:v1",
+                "code": "age-at-presentation",
+                "display": "age at presentation"
+              },
+              {
+                "system": "http://loinc.org",
+                "code": "30525-0",
+                "display": "Age"
+              }
+            ],
+            "text": "age at presentation"
+          },
+          "value": {
+            "valueQuantity": {
+              "value": 8,
+              "system": "http://unitsofmeasure.org",
+              "code": "a",
+              "unit": "a"
+            }
+          }
+        }
+      ]
+    },
+    "sigir-20143": {
+      "summary": " 58-year-old female non-smoker with left lung mass on x-ray. Head CT shows a solitary right frontal lobe mass.",
+      "summary_sha256": "b2f4e0434609d4c8372badc4d7fab11e76f7a8996decb0a1445442982bee5017",
+      "subject_id": "sigir-20143",
+      "topic": "3",
+      "year": "2014",
+      "locator": "/topics/topic[@number='3']/summary",
+      "xml_sha256": "8fa33d3a258da436c05d6009fc5713cc56038cc488535e52eccd6c19a11fc9e9",
+      "source_url": "https://trec-cds.org/topics2014.xml",
+      "subject": "Patient/sigir-20143",
+      "assigned": [
+        "44",
+        "45",
+        "46"
+      ],
+      "source_resource_type": "Patient",
+      "added_source_digest": "b2f4e0434609d4c8372badc4d7fab11e76f7a8996decb0a1445442982bee5017",
+      "separately_ingested_clinical_facts": [
+        {
+          "resource": "Observation/x-f67b743e8e7f643ad7b8f267c97201",
+          "concept": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:trialgpt:clinical:v1",
+                "code": "age-at-presentation",
+                "display": "age at presentation"
+              },
+              {
+                "system": "http://loinc.org",
+                "code": "30525-0",
+                "display": "Age"
+              }
+            ],
+            "text": "age at presentation"
+          },
+          "value": {
+            "valueQuantity": {
+              "value": 58,
+              "system": "http://unitsofmeasure.org",
+              "code": "a",
+              "unit": "a"
+            }
+          }
+        }
+      ]
+    },
+    "sigir-20144": {
+      "summary": "2-year-old boy with fever and irritability for 5 days. Physical exam findings include conjunctivitis, strawberry tongue, and desquamation of the fingers and toes. Lab results include low albumin, elevated white blood cell count and C-reactive protein, and urine leukocytes. Echo shows moderate dilation of the coronary arteries.",
+      "summary_sha256": "5d8ef77f5f0e4293b95c019f3a9f3539cf67dc1f0ac6e3fb9617726b2c113a20",
+      "subject_id": "sigir-20144",
+      "topic": "4",
+      "year": "2014",
+      "locator": "/topics/topic[@number='4']/summary",
+      "xml_sha256": "8fa33d3a258da436c05d6009fc5713cc56038cc488535e52eccd6c19a11fc9e9",
+      "source_url": "https://trec-cds.org/topics2014.xml",
+      "subject": "Patient/sigir-20144",
+      "assigned": [
+        "55",
+        "81"
+      ],
+      "source_resource_type": "Patient",
+      "added_source_digest": "5d8ef77f5f0e4293b95c019f3a9f3539cf67dc1f0ac6e3fb9617726b2c113a20",
+      "separately_ingested_clinical_facts": [
+        {
+          "resource": "Observation/x-0f3ee41ab5b6ed8d94398e8608fc15",
+          "concept": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:trialgpt:clinical:v1",
+                "code": "age-at-presentation",
+                "display": "age at presentation"
+              },
+              {
+                "system": "http://loinc.org",
+                "code": "30525-0",
+                "display": "Age"
+              }
+            ],
+            "text": "age at presentation"
+          },
+          "value": {
+            "valueQuantity": {
+              "value": 2,
+              "system": "http://unitsofmeasure.org",
+              "code": "a",
+              "unit": "a"
+            }
+          }
+        }
+      ]
+    },
+    "sigir-20145": {
+      "summary": "56-year-old woman presents with shortness of breath 3 weeks after surgical mastectomy. Physical exam is significant for right calf tenderness and decreased breath sounds at the right base. Her D-dimer level is elevated.",
+      "summary_sha256": "53302b6f789943557a899e285c632e3e6f9573a2418a511108d2af82b8f50e46",
+      "subject_id": "sigir-20145",
+      "topic": "5",
+      "year": "2014",
+      "locator": "/topics/topic[@number='5']/summary",
+      "xml_sha256": "8fa33d3a258da436c05d6009fc5713cc56038cc488535e52eccd6c19a11fc9e9",
+      "source_url": "https://trec-cds.org/topics2014.xml",
+      "subject": "Patient/sigir-20145",
+      "assigned": [],
+      "source_resource_type": "Patient",
+      "added_source_digest": "53302b6f789943557a899e285c632e3e6f9573a2418a511108d2af82b8f50e46",
+      "separately_ingested_clinical_facts": [
+        {
+          "resource": "Observation/x-aef933e69a07b05714a9298514d47a",
+          "concept": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:trialgpt:clinical:v1",
+                "code": "age-at-presentation",
+                "display": "age at presentation"
+              },
+              {
+                "system": "http://loinc.org",
+                "code": "30525-0",
+                "display": "Age"
+              }
+            ],
+            "text": "age at presentation"
+          },
+          "value": {
+            "valueQuantity": {
+              "value": 56,
+              "system": "http://unitsofmeasure.org",
+              "code": "a",
+              "unit": "a"
+            }
+          }
+        }
+      ]
+    },
+    "sigir-20146": {
+      "summary": "64-year-old woman with uncontrolled diabetes, now with an oozing, painful skin lesion on her left lower leg.",
+      "summary_sha256": "fb7256c8b19ad3c2e2086e8822e15dc2b9248af903fe83a2d424a6be1bd498dd",
+      "subject_id": "sigir-20146",
+      "topic": "6",
+      "year": "2014",
+      "locator": "/topics/topic[@number='6']/summary",
+      "xml_sha256": "8fa33d3a258da436c05d6009fc5713cc56038cc488535e52eccd6c19a11fc9e9",
+      "source_url": "https://trec-cds.org/topics2014.xml",
+      "subject": "Patient/sigir-20146",
+      "assigned": [
+        "108",
+        "109",
+        "111",
+        "115",
+        "116",
+        "120"
+      ],
+      "source_resource_type": "Patient",
+      "added_source_digest": "fb7256c8b19ad3c2e2086e8822e15dc2b9248af903fe83a2d424a6be1bd498dd",
+      "separately_ingested_clinical_facts": [
+        {
+          "resource": "Observation/x-feb89b58ec5b4b61e4b008bd77520f",
+          "concept": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:trialgpt:clinical:v1",
+                "code": "age-at-presentation",
+                "display": "age at presentation"
+              },
+              {
+                "system": "http://loinc.org",
+                "code": "30525-0",
+                "display": "Age"
+              }
+            ],
+            "text": "age at presentation"
+          },
+          "value": {
+            "valueQuantity": {
+              "value": 64,
+              "system": "http://unitsofmeasure.org",
+              "code": "a",
+              "unit": "a"
+            }
+          }
+        }
+      ]
+    },
+    "sigir-20147": {
+      "summary": "26-year-old obese woman with bipolar disorder, on zolpidem and lithium, with recent difficulty sleeping, agitation, suicidal ideation, and irritability.",
+      "summary_sha256": "80127035c31f070afd2e1be4010721b5fd204710c878b576458c5681a1830be6",
+      "subject_id": "sigir-20147",
+      "topic": "7",
+      "year": "2014",
+      "locator": "/topics/topic[@number='7']/summary",
+      "xml_sha256": "8fa33d3a258da436c05d6009fc5713cc56038cc488535e52eccd6c19a11fc9e9",
+      "source_url": "https://trec-cds.org/topics2014.xml",
+      "subject": "Patient/sigir-20147",
+      "assigned": [
+        "130",
+        "132",
+        "138",
+        "140"
+      ],
+      "source_resource_type": "Patient",
+      "added_source_digest": "80127035c31f070afd2e1be4010721b5fd204710c878b576458c5681a1830be6",
+      "separately_ingested_clinical_facts": [
+        {
+          "resource": "Observation/x-94cd648d2b09ab713bd0bbae7a0b35",
+          "concept": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:trialgpt:clinical:v1",
+                "code": "age-at-presentation",
+                "display": "age at presentation"
+              },
+              {
+                "system": "http://loinc.org",
+                "code": "30525-0",
+                "display": "Age"
+              }
+            ],
+            "text": "age at presentation"
+          },
+          "value": {
+            "valueQuantity": {
+              "value": 26,
+              "system": "http://unitsofmeasure.org",
+              "code": "a",
+              "unit": "a"
+            }
+          }
+        }
+      ]
+    },
+    "sigir-20148": {
+      "summary": "62-year-old man with progressive memory loss and involuntary leg movements. Brain MRI reveals cortical atrophy, and cortical biopsy shows vacuolar gray matter changes with reactive astrocytosis.",
+      "summary_sha256": "5b31fb1216c6b661588f404e52440011c7a3d1c9f0163abf183d949d3e857501",
+      "subject_id": "sigir-20148",
+      "topic": "8",
+      "year": "2014",
+      "locator": "/topics/topic[@number='8']/summary",
+      "xml_sha256": "8fa33d3a258da436c05d6009fc5713cc56038cc488535e52eccd6c19a11fc9e9",
+      "source_url": "https://trec-cds.org/topics2014.xml",
+      "subject": "Patient/sigir-20148",
+      "assigned": [
+        "142",
+        "145",
+        "147",
+        "150"
+      ],
+      "source_resource_type": "Patient",
+      "added_source_digest": "5b31fb1216c6b661588f404e52440011c7a3d1c9f0163abf183d949d3e857501",
+      "separately_ingested_clinical_facts": [
+        {
+          "resource": "Observation/x-5203b166615f831359bc23e543ff24",
+          "concept": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:trialgpt:clinical:v1",
+                "code": "age-at-presentation",
+                "display": "age at presentation"
+              },
+              {
+                "system": "http://loinc.org",
+                "code": "30525-0",
+                "display": "Age"
+              }
+            ],
+            "text": "age at presentation"
+          },
+          "value": {
+            "valueQuantity": {
+              "value": 62,
+              "system": "http://unitsofmeasure.org",
+              "code": "a",
+              "unit": "a"
+            }
+          }
+        }
+      ]
+    },
+    "sigir-20149": {
+      "summary": "43-year-old woman with soft, flesh-colored, pedunculated lesions on her neck.",
+      "summary_sha256": "36dcadff1b16237ad4716f4dca1aa548d665c6fae6a5f920030b0a3bdfc9a7ae",
+      "subject_id": "sigir-20149",
+      "topic": "9",
+      "year": "2014",
+      "locator": "/topics/topic[@number='9']/summary",
+      "xml_sha256": "8fa33d3a258da436c05d6009fc5713cc56038cc488535e52eccd6c19a11fc9e9",
+      "source_url": "https://trec-cds.org/topics2014.xml",
+      "subject": "Patient/sigir-20149",
+      "assigned": [
+        "154",
+        "155"
+      ],
+      "source_resource_type": "Patient",
+      "added_source_digest": "36dcadff1b16237ad4716f4dca1aa548d665c6fae6a5f920030b0a3bdfc9a7ae",
+      "separately_ingested_clinical_facts": [
+        {
+          "resource": "Observation/x-2e0dbfae293b0aef8684c9fc0b705b",
+          "concept": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:trialgpt:clinical:v1",
+                "code": "age-at-presentation",
+                "display": "age at presentation"
+              },
+              {
+                "system": "http://loinc.org",
+                "code": "30525-0",
+                "display": "Age"
+              }
+            ],
+            "text": "age at presentation"
+          },
+          "value": {
+            "valueQuantity": {
+              "value": 43,
+              "system": "http://unitsofmeasure.org",
+              "code": "a",
+              "unit": "a"
+            }
+          }
+        }
+      ]
+    },
+    "sigir-201410": {
+      "summary": "67-year-old woman status post cardiac catheterization via right femoral artery, now with a cool, pulseless right foot and right femoral bruit.",
+      "summary_sha256": "e61f7846fd3b23e0466fe712f2d698dd32bee8f692f280fadb618f0a6642374e",
+      "subject_id": "sigir-201410",
+      "topic": "10",
+      "year": "2014",
+      "locator": "/topics/topic[@number='10']/summary",
+      "xml_sha256": "8fa33d3a258da436c05d6009fc5713cc56038cc488535e52eccd6c19a11fc9e9",
+      "source_url": "https://trec-cds.org/topics2014.xml",
+      "subject": "Patient/sigir-201410",
+      "assigned": [
+        "171",
+        "174",
+        "177",
+        "179",
+        "184"
+      ],
+      "source_resource_type": "Patient",
+      "added_source_digest": "e61f7846fd3b23e0466fe712f2d698dd32bee8f692f280fadb618f0a6642374e",
+      "separately_ingested_clinical_facts": [
+        {
+          "resource": "Observation/x-0560ba2fd07a8e8ff34e1752fa528a",
+          "concept": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:trialgpt:clinical:v1",
+                "code": "age-at-presentation",
+                "display": "age at presentation"
+              },
+              {
+                "system": "http://loinc.org",
+                "code": "30525-0",
+                "display": "Age"
+              }
+            ],
+            "text": "age at presentation"
+          },
+          "value": {
+            "valueQuantity": {
+              "value": 67,
+              "system": "http://unitsofmeasure.org",
+              "code": "a",
+              "unit": "a"
+            }
+          }
+        }
+      ]
+    },
+    "sigir-201411": {
+      "summary": "40-year-old woman with severe right arm pain and hypotension. She has no history of trauma and right arm exam reveals no significant findings.",
+      "summary_sha256": "9e5c94b0d01f9d00c125e76ec0ca95bbf26a5ba5d30beec822b894fed424d772",
+      "subject_id": "sigir-201411",
+      "topic": "11",
+      "year": "2014",
+      "locator": "/topics/topic[@number='11']/summary",
+      "xml_sha256": "8fa33d3a258da436c05d6009fc5713cc56038cc488535e52eccd6c19a11fc9e9",
+      "source_url": "https://trec-cds.org/topics2014.xml",
+      "subject": "Patient/sigir-201411",
+      "assigned": [
+        "185",
+        "186",
+        "187",
+        "196"
+      ],
+      "review_note": "Summary says hypotension but gives no heart or respiratory rate, PaCO2 value, or formal shock diagnosis.",
+      "source_resource_type": "Patient",
+      "added_source_digest": "9e5c94b0d01f9d00c125e76ec0ca95bbf26a5ba5d30beec822b894fed424d772",
+      "separately_ingested_clinical_facts": [
+        {
+          "resource": "Observation/x-24e7f9b0ec3467d23f0e1b915e469d",
+          "concept": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:trialgpt:clinical:v1",
+                "code": "age-at-presentation",
+                "display": "age at presentation"
+              },
+              {
+                "system": "http://loinc.org",
+                "code": "30525-0",
+                "display": "Age"
+              }
+            ],
+            "text": "age at presentation"
+          },
+          "value": {
+            "valueQuantity": {
+              "value": 40,
+              "system": "http://unitsofmeasure.org",
+              "code": "a",
+              "unit": "a"
+            }
+          }
+        }
+      ]
+    },
+    "sigir-201412": {
+      "summary": "25-year-old woman with fatigue, hair loss, weight gain, and cold intolerance for 6 months.",
+      "summary_sha256": "9159f178dc1579bec59c327e398c3f999925cb53e2db954b84bbcd9f1c801176",
+      "subject_id": "sigir-201412",
+      "topic": "12",
+      "year": "2014",
+      "locator": "/topics/topic[@number='12']/summary",
+      "xml_sha256": "8fa33d3a258da436c05d6009fc5713cc56038cc488535e52eccd6c19a11fc9e9",
+      "source_url": "https://trec-cds.org/topics2014.xml",
+      "subject": "Patient/sigir-201412",
+      "assigned": [
+        "203"
+      ],
+      "source_resource_type": "Patient",
+      "added_source_digest": "9159f178dc1579bec59c327e398c3f999925cb53e2db954b84bbcd9f1c801176",
+      "separately_ingested_clinical_facts": [
+        {
+          "resource": "Observation/x-ddaa9826c55502c941e7bac710cb16",
+          "concept": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:trialgpt:clinical:v1",
+                "code": "age-at-presentation",
+                "display": "age at presentation"
+              },
+              {
+                "system": "http://loinc.org",
+                "code": "30525-0",
+                "display": "Age"
+              }
+            ],
+            "text": "age at presentation"
+          },
+          "value": {
+            "valueQuantity": {
+              "value": 25,
+              "system": "http://unitsofmeasure.org",
+              "code": "a",
+              "unit": "a"
+            }
+          }
+        }
+      ]
+    },
+    "sigir-201413": {
+      "summary": "30-year-old woman who is 3 weeks post-partum, presents with shortness of breath, tachypnea, and hypoxia.",
+      "summary_sha256": "deebfb426df04ca5be2b1984265f286b087e12afc5bcccc99f631afe97d0ff57",
+      "subject_id": "sigir-201413",
+      "topic": "13",
+      "year": "2014",
+      "locator": "/topics/topic[@number='13']/summary",
+      "xml_sha256": "8fa33d3a258da436c05d6009fc5713cc56038cc488535e52eccd6c19a11fc9e9",
+      "source_url": "https://trec-cds.org/topics2014.xml",
+      "subject": "Patient/sigir-201413",
+      "assigned": [
+        "212",
+        "217",
+        "218"
+      ],
+      "source_resource_type": "Patient",
+      "added_source_digest": "deebfb426df04ca5be2b1984265f286b087e12afc5bcccc99f631afe97d0ff57",
+      "separately_ingested_clinical_facts": [
+        {
+          "resource": "Observation/x-bad987a18cb60e18a19adcd3211cfa",
+          "concept": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:trialgpt:clinical:v1",
+                "code": "age-at-presentation",
+                "display": "age at presentation"
+              },
+              {
+                "system": "http://loinc.org",
+                "code": "30525-0",
+                "display": "Age"
+              }
+            ],
+            "text": "age at presentation"
+          },
+          "value": {
+            "valueQuantity": {
+              "value": 30,
+              "system": "http://unitsofmeasure.org",
+              "code": "a",
+              "unit": "a"
+            }
+          }
+        }
+      ]
+    },
+    "sigir-201414": {
+      "summary": "85-year-old man who was in a car accident 3 weeks ago, now with 3 days of progressively decreasing level of consciousness and impaired ability to perform activities of daily living.",
+      "summary_sha256": "6386be1f9bada21f94a4d396b75e9b38374d5b70ec32390e4fb194a84a1ebc97",
+      "subject_id": "sigir-201414",
+      "topic": "14",
+      "year": "2014",
+      "locator": "/topics/topic[@number='14']/summary",
+      "xml_sha256": "8fa33d3a258da436c05d6009fc5713cc56038cc488535e52eccd6c19a11fc9e9",
+      "source_url": "https://trec-cds.org/topics2014.xml",
+      "subject": "Patient/sigir-201414",
+      "assigned": [
+        "226",
+        "227",
+        "230",
+        "231",
+        "232",
+        "233"
+      ],
+      "source_resource_type": "Patient",
+      "added_source_digest": "6386be1f9bada21f94a4d396b75e9b38374d5b70ec32390e4fb194a84a1ebc97",
+      "separately_ingested_clinical_facts": [
+        {
+          "resource": "Observation/x-3468c9b28c51ee908b7577a217c4be",
+          "concept": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:trialgpt:clinical:v1",
+                "code": "age-at-presentation",
+                "display": "age at presentation"
+              },
+              {
+                "system": "http://loinc.org",
+                "code": "30525-0",
+                "display": "Age"
+              }
+            ],
+            "text": "age at presentation"
+          },
+          "value": {
+            "valueQuantity": {
+              "value": 85,
+              "system": "http://unitsofmeasure.org",
+              "code": "a",
+              "unit": "a"
+            }
+          }
+        }
+      ]
+    },
+    "sigir-201415": {
+      "summary": "36-year-old woman with amenorrhea, abdominal tenderness, enlarged uterus, and cervical dilation. Urine pregnancy test is negative. Ultrasound reveals an enlarged uterus with multiple cystic areas, which could be consistent with vesicular mole and fibroid degeneration.",
+      "summary_sha256": "da7566a10d9afbb25ab9498ef5d28390a649d822dea2481ba14a7950245f7ece",
+      "subject_id": "sigir-201415",
+      "topic": "15",
+      "year": "2014",
+      "locator": "/topics/topic[@number='15']/summary",
+      "xml_sha256": "8fa33d3a258da436c05d6009fc5713cc56038cc488535e52eccd6c19a11fc9e9",
+      "source_url": "https://trec-cds.org/topics2014.xml",
+      "subject": "Patient/sigir-201415",
+      "assigned": [
+        "235",
+        "239"
+      ],
+      "review_note": "Summary calls a reported ultrasound compatible with vesicular mole or fibroid degeneration. Neither possible diagnosis documents menopause.",
+      "source_resource_type": "Patient",
+      "added_source_digest": "da7566a10d9afbb25ab9498ef5d28390a649d822dea2481ba14a7950245f7ece",
+      "separately_ingested_clinical_facts": [
+        {
+          "resource": "Observation/x-dab86d51a6d70fc8fba2b90c9591bf",
+          "concept": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:trialgpt:clinical:v1",
+                "code": "age-at-presentation",
+                "display": "age at presentation"
+              },
+              {
+                "system": "http://loinc.org",
+                "code": "30525-0",
+                "display": "Age"
+              }
+            ],
+            "text": "age at presentation"
+          },
+          "value": {
+            "valueQuantity": {
+              "value": 36,
+              "system": "http://unitsofmeasure.org",
+              "code": "a",
+              "unit": "a"
+            }
+          }
+        }
+      ]
+    },
+    "sigir-201416": {
+      "summary": "28-year-old female with neck pain and left arm numbness 3 weeks after working with stray animals. Physical exam initially remarkable for slight left arm tremor and spasticity. Three days later she presented with significant arm spasticity, diaphoresis, agitation, difficulty swallowing, and hydrophobia.",
+      "summary_sha256": "f3aaa5e8fd1a01f28a60082b59573c6342c85fad6bfa0e52b3cff96aa06a6770",
+      "subject_id": "sigir-201416",
+      "topic": "16",
+      "year": "2014",
+      "locator": "/topics/topic[@number='16']/summary",
+      "xml_sha256": "8fa33d3a258da436c05d6009fc5713cc56038cc488535e52eccd6c19a11fc9e9",
+      "source_url": "https://trec-cds.org/topics2014.xml",
+      "subject": "Patient/sigir-201416",
+      "assigned": [],
+      "source_resource_type": "Patient",
+      "added_source_digest": "f3aaa5e8fd1a01f28a60082b59573c6342c85fad6bfa0e52b3cff96aa06a6770",
+      "separately_ingested_clinical_facts": [
+        {
+          "resource": "Observation/x-6622e8bb43754a0053f212a3bec7a9",
+          "concept": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:trialgpt:clinical:v1",
+                "code": "age-at-presentation",
+                "display": "age at presentation"
+              },
+              {
+                "system": "http://loinc.org",
+                "code": "30525-0",
+                "display": "Age"
+              }
+            ],
+            "text": "age at presentation"
+          },
+          "value": {
+            "valueQuantity": {
+              "value": 28,
+              "system": "http://unitsofmeasure.org",
+              "code": "a",
+              "unit": "a"
+            }
+          }
+        }
+      ]
+    },
+    "sigir-201417": {
+      "summary": "48-year-old man with common variable immunodeficiency presents with abdominal pain and fever. Ultrasound reveals hepatomegaly and free intraperitoneal fluid. A ruptured liver abscess is found and drained during exploratory laparotomy.",
+      "summary_sha256": "56a812fcc4d81d051cd6db707f0bca9940af157ea7534bb8bc30023effc4354d",
+      "subject_id": "sigir-201417",
+      "topic": "17",
+      "year": "2014",
+      "locator": "/topics/topic[@number='17']/summary",
+      "xml_sha256": "8fa33d3a258da436c05d6009fc5713cc56038cc488535e52eccd6c19a11fc9e9",
+      "source_url": "https://trec-cds.org/topics2014.xml",
+      "subject": "Patient/sigir-201417",
+      "assigned": [
+        "307",
+        "322",
+        "323"
+      ],
+      "source_resource_type": "Patient",
+      "added_source_digest": "56a812fcc4d81d051cd6db707f0bca9940af157ea7534bb8bc30023effc4354d",
+      "separately_ingested_clinical_facts": [
+        {
+          "resource": "Observation/x-d82a63571ab3e1cfc106501171549f",
+          "concept": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:trialgpt:clinical:v1",
+                "code": "age-at-presentation",
+                "display": "age at presentation"
+              },
+              {
+                "system": "http://loinc.org",
+                "code": "30525-0",
+                "display": "Age"
+              }
+            ],
+            "text": "age at presentation"
+          },
+          "value": {
+            "valueQuantity": {
+              "value": 48,
+              "system": "http://unitsofmeasure.org",
+              "code": "a",
+              "unit": "a"
+            }
+          }
+        }
+      ]
+    },
+    "sigir-201418": {
+      "summary": "6-month-old male with decreased urine output and edema several hours after surgery. He is hypertensive and tachycardic, has a high BUN and creatinine, and urine microscopy reveals red blood cells and granular casts.",
+      "summary_sha256": "631d6b0e1ec8652a36f0a0fca35232be17c3823af4a5f5d801abc986bb79060c",
+      "subject_id": "sigir-201418",
+      "topic": "18",
+      "year": "2014",
+      "locator": "/topics/topic[@number='18']/summary",
+      "xml_sha256": "8fa33d3a258da436c05d6009fc5713cc56038cc488535e52eccd6c19a11fc9e9",
+      "source_url": "https://trec-cds.org/topics2014.xml",
+      "subject": "Patient/sigir-201418",
+      "assigned": [
+        "328",
+        "329",
+        "330",
+        "332",
+        "336"
+      ],
+      "source_resource_type": "Patient",
+      "added_source_digest": "631d6b0e1ec8652a36f0a0fca35232be17c3823af4a5f5d801abc986bb79060c",
+      "separately_ingested_clinical_facts": []
+    },
+    "sigir-201419": {
+      "summary": "52-year-old man with history of smoking and heavy drinking, now with progressive dysphagia and 25-pound weight loss.",
+      "summary_sha256": "74e00fddd6629dc637e875dcca34a2b77480c4fa505799ca4fbceedada957971",
+      "subject_id": "sigir-201419",
+      "topic": "19",
+      "year": "2014",
+      "locator": "/topics/topic[@number='19']/summary",
+      "xml_sha256": "8fa33d3a258da436c05d6009fc5713cc56038cc488535e52eccd6c19a11fc9e9",
+      "source_url": "https://trec-cds.org/topics2014.xml",
+      "subject": "Patient/sigir-201419",
+      "assigned": [
+        "359"
+      ],
+      "source_resource_type": "Patient",
+      "added_source_digest": "74e00fddd6629dc637e875dcca34a2b77480c4fa505799ca4fbceedada957971",
+      "separately_ingested_clinical_facts": [
+        {
+          "resource": "Observation/x-11a4f6adf3c491f9dd4da800c639c6",
+          "concept": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:trialgpt:clinical:v1",
+                "code": "age-at-presentation",
+                "display": "age at presentation"
+              },
+              {
+                "system": "http://loinc.org",
+                "code": "30525-0",
+                "display": "Age"
+              }
+            ],
+            "text": "age at presentation"
+          },
+          "value": {
+            "valueQuantity": {
+              "value": 52,
+              "system": "http://unitsofmeasure.org",
+              "code": "a",
+              "unit": "a"
+            }
+          }
+        }
+      ]
+    },
+    "sigir-201420": {
+      "summary": "32-year-old unbelted driver status post car accident. Has multiple extremity fractures and severe abdominal pain with rebound and guarding.",
+      "summary_sha256": "44f9215b7733f18d6d15271809f21aa2dd93fe58cc8c6efaa7c0625f1c3421bc",
+      "subject_id": "sigir-201420",
+      "topic": "20",
+      "year": "2014",
+      "locator": "/topics/topic[@number='20']/summary",
+      "xml_sha256": "8fa33d3a258da436c05d6009fc5713cc56038cc488535e52eccd6c19a11fc9e9",
+      "source_url": "https://trec-cds.org/topics2014.xml",
+      "subject": "Patient/sigir-201420",
+      "assigned": [
+        "366",
+        "367",
+        "379"
+      ],
+      "source_resource_type": "Patient",
+      "added_source_digest": "44f9215b7733f18d6d15271809f21aa2dd93fe58cc8c6efaa7c0625f1c3421bc",
+      "separately_ingested_clinical_facts": []
+    },
+    "sigir-201421": {
+      "summary": "21-year-old female with progressive arthralgias, fatigue, and butterfly-shaped facial rash. Labs are significant for positive ANA and anti-double-stranded DNA, as well as proteinuria and RBC casts.",
+      "summary_sha256": "44f053ae3cbf8f071e37e9d462ccec72535ecb6562c8993de6acf1255162fad9",
+      "subject_id": "sigir-201421",
+      "topic": "21",
+      "year": "2014",
+      "locator": "/topics/topic[@number='21']/summary",
+      "xml_sha256": "8fa33d3a258da436c05d6009fc5713cc56038cc488535e52eccd6c19a11fc9e9",
+      "source_url": "https://trec-cds.org/topics2014.xml",
+      "subject": "Patient/sigir-201421",
+      "assigned": [
+        "385",
+        "396",
+        "397",
+        "400",
+        "401",
+        "402",
+        "414"
+      ],
+      "review_note": "Summary restates positive ANA and anti-double-stranded DNA and butterfly-shaped rash, without a specific diagnosis.",
+      "source_resource_type": "Patient",
+      "added_source_digest": "44f053ae3cbf8f071e37e9d462ccec72535ecb6562c8993de6acf1255162fad9",
+      "separately_ingested_clinical_facts": [
+        {
+          "resource": "Observation/x-10689dc716c8dbf140b31e35029d61",
+          "concept": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:trialgpt:clinical:v1",
+                "code": "age-at-presentation",
+                "display": "age at presentation"
+              },
+              {
+                "system": "http://loinc.org",
+                "code": "30525-0",
+                "display": "Age"
+              }
+            ],
+            "text": "age at presentation"
+          },
+          "value": {
+            "valueQuantity": {
+              "value": 21,
+              "system": "http://unitsofmeasure.org",
+              "code": "a",
+              "unit": "a"
+            }
+          }
+        }
+      ]
+    },
+    "sigir-201422": {
+      "summary": "15-year-old girl with right lower quadrant abdominal pain, decreased appetite, and enlarged appendix on abdominal ultrasound.",
+      "summary_sha256": "f3f7a14516e06cd664baee4efa04e8ffa954a7dca8e7a38d1c4eac22a919e2c2",
+      "subject_id": "sigir-201422",
+      "topic": "22",
+      "year": "2014",
+      "locator": "/topics/topic[@number='22']/summary",
+      "xml_sha256": "8fa33d3a258da436c05d6009fc5713cc56038cc488535e52eccd6c19a11fc9e9",
+      "source_url": "https://trec-cds.org/topics2014.xml",
+      "subject": "Patient/sigir-201422",
+      "assigned": [
+        "418",
+        "419"
+      ],
+      "source_resource_type": "Patient",
+      "added_source_digest": "f3f7a14516e06cd664baee4efa04e8ffa954a7dca8e7a38d1c4eac22a919e2c2",
+      "separately_ingested_clinical_facts": [
+        {
+          "resource": "Observation/x-fd7a94e16380e6e932fcc373160ea6",
+          "concept": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:trialgpt:clinical:v1",
+                "code": "age-at-presentation",
+                "display": "age at presentation"
+              },
+              {
+                "system": "http://loinc.org",
+                "code": "30525-0",
+                "display": "Age"
+              }
+            ],
+            "text": "age at presentation"
+          },
+          "value": {
+            "valueQuantity": {
+              "value": 15,
+              "system": "http://unitsofmeasure.org",
+              "code": "a",
+              "unit": "a"
+            }
+          }
+        }
+      ]
+    },
+    "sigir-201423": {
+      "summary": "63-year-old heavy smoker with productive cough, shortness of breath, tachypnea, and oxygen requirement. Chest x-ray shows hyperinflation with no consolidation.",
+      "summary_sha256": "924e6511c6600cdc9fec05e2e35740bf08493508a57f416b8479d86ec860ffbb",
+      "subject_id": "sigir-201423",
+      "topic": "23",
+      "year": "2014",
+      "locator": "/topics/topic[@number='23']/summary",
+      "xml_sha256": "8fa33d3a258da436c05d6009fc5713cc56038cc488535e52eccd6c19a11fc9e9",
+      "source_url": "https://trec-cds.org/topics2014.xml",
+      "subject": "Patient/sigir-201423",
+      "assigned": [
+        "435",
+        "437"
+      ],
+      "review_note": "Hyperinflation, smoking and oxygen requirement do not establish a GOLD-classified COPD exacerbation.",
+      "source_resource_type": "Patient",
+      "added_source_digest": "924e6511c6600cdc9fec05e2e35740bf08493508a57f416b8479d86ec860ffbb",
+      "separately_ingested_clinical_facts": []
+    },
+    "sigir-201424": {
+      "summary": " 33-year-old male presents with severe abdominal pain one week after a bike accident in which he sustained abdominal trauma. He is hypotensive and tachycardic, and imaging reveals a ruptured spleen and intraperitoneal hemorrhage.",
+      "summary_sha256": "290620d947ed2624d4b20e599821cd23faf63d2bdb86458f881c21f23f699519",
+      "subject_id": "sigir-201424",
+      "topic": "24",
+      "year": "2014",
+      "locator": "/topics/topic[@number='24']/summary",
+      "xml_sha256": "8fa33d3a258da436c05d6009fc5713cc56038cc488535e52eccd6c19a11fc9e9",
+      "source_url": "https://trec-cds.org/topics2014.xml",
+      "subject": "Patient/sigir-201424",
+      "assigned": [
+        "454"
+      ],
+      "review_note": "Ruptured spleen and intraperitoneal hemorrhage do not document that an emergency laparotomy actually took place.",
+      "source_resource_type": "Patient",
+      "added_source_digest": "290620d947ed2624d4b20e599821cd23faf63d2bdb86458f881c21f23f699519",
+      "separately_ingested_clinical_facts": [
+        {
+          "resource": "Observation/x-1c3d60b1bd2050fdf9d998903485ba",
+          "concept": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:trialgpt:clinical:v1",
+                "code": "age-at-presentation",
+                "display": "age at presentation"
+              },
+              {
+                "system": "http://loinc.org",
+                "code": "30525-0",
+                "display": "Age"
+              }
+            ],
+            "text": "age at presentation"
+          },
+          "value": {
+            "valueQuantity": {
+              "value": 33,
+              "system": "http://unitsofmeasure.org",
+              "code": "a",
+              "unit": "a"
+            }
+          }
+        }
+      ]
+    },
+    "sigir-201425": {
+      "summary": "8-year-old boy with decreased level of consciousness 30 minutes after falling from his bike and hitting his head. He was not wearing a helmet. In the ER he was bradycardic and hypertensive, and the neurosurgeon strongly advised immediate treatment.",
+      "summary_sha256": "1f2eb6e1a0100bef1123735ef69c365ac7aa020f420758ea70e23995924057bc",
+      "subject_id": "sigir-201425",
+      "topic": "25",
+      "year": "2014",
+      "locator": "/topics/topic[@number='25']/summary",
+      "xml_sha256": "8fa33d3a258da436c05d6009fc5713cc56038cc488535e52eccd6c19a11fc9e9",
+      "source_url": "https://trec-cds.org/topics2014.xml",
+      "subject": "Patient/sigir-201425",
+      "assigned": [
+        "460",
+        "467",
+        "468",
+        "475",
+        "476",
+        "477"
+      ],
+      "review_note": "The summary adds helmet nonuse. The full note gives GCS 6/15 but defers CT. The summary supplies neither the absent imaging result nor an explicit exclusion of a second vehicle or rider.",
+      "source_resource_type": "Patient",
+      "added_source_digest": "1f2eb6e1a0100bef1123735ef69c365ac7aa020f420758ea70e23995924057bc",
+      "separately_ingested_clinical_facts": [
+        {
+          "resource": "Observation/x-392df6ddae42c6d08c715bb829e99e",
+          "concept": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:trialgpt:clinical:v1",
+                "code": "age-at-presentation",
+                "display": "age at presentation"
+              },
+              {
+                "system": "http://loinc.org",
+                "code": "30525-0",
+                "display": "Age"
+              }
+            ],
+            "text": "age at presentation"
+          },
+          "value": {
+            "valueQuantity": {
+              "value": 8,
+              "system": "http://unitsofmeasure.org",
+              "code": "a",
+              "unit": "a"
+            }
+          }
+        }
+      ]
+    },
+    "sigir-201426": {
+      "summary": "Group traveling to the Amazon rainforest, including 3 pregnant women. All members' immunizations are up-to-date but they require malaria prophylaxis.",
+      "summary_sha256": "3af86897f81c4b0c659d302d78ddf4188e3103042326b83daf89bd99b184d23d",
+      "subject_id": "sigir-201426",
+      "topic": "26",
+      "year": "2014",
+      "locator": "/topics/topic[@number='26']/summary",
+      "xml_sha256": "8fa33d3a258da436c05d6009fc5713cc56038cc488535e52eccd6c19a11fc9e9",
+      "source_url": "https://trec-cds.org/topics2014.xml",
+      "subject": "Group/sigir-201426",
+      "assigned": [
+        "481",
+        "492",
+        "493",
+        "494",
+        "495",
+        "496",
+        "497",
+        "498"
+      ],
+      "review_note": "Wording describes a group including three pregnant women. It does not identify a screened individual.",
+      "source_resource_type": "Group",
+      "added_source_digest": "3af86897f81c4b0c659d302d78ddf4188e3103042326b83daf89bd99b184d23d",
+      "separately_ingested_clinical_facts": []
+    },
+    "sigir-201427": {
+      "summary": "21-year-old male with dozens of small polyps found on colonoscopy. Family history significant for both older siblings having total colectomies after colonoscopy revealed hundreds of adenomas.",
+      "summary_sha256": "ce55020ac162fe3675177331cc1959d18656c242830d845bfa807a46561e5527",
+      "subject_id": "sigir-201427",
+      "topic": "27",
+      "year": "2014",
+      "locator": "/topics/topic[@number='27']/summary",
+      "xml_sha256": "8fa33d3a258da436c05d6009fc5713cc56038cc488535e52eccd6c19a11fc9e9",
+      "source_url": "https://trec-cds.org/topics2014.xml",
+      "subject": "Patient/sigir-201427",
+      "assigned": [
+        "502",
+        "517"
+      ],
+      "source_resource_type": "Patient",
+      "added_source_digest": "ce55020ac162fe3675177331cc1959d18656c242830d845bfa807a46561e5527",
+      "separately_ingested_clinical_facts": [
+        {
+          "resource": "Observation/x-de41b63f191cd42ebe9c7d24155660",
+          "concept": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:trialgpt:clinical:v1",
+                "code": "age-at-presentation",
+                "display": "age at presentation"
+              },
+              {
+                "system": "http://loinc.org",
+                "code": "30525-0",
+                "display": "Age"
+              }
+            ],
+            "text": "age at presentation"
+          },
+          "value": {
+            "valueQuantity": {
+              "value": 21,
+              "system": "http://unitsofmeasure.org",
+              "code": "a",
+              "unit": "a"
+            }
+          }
+        }
+      ]
+    },
+    "sigir-201429": {
+      "summary": "51-year-old smoker with hypertension and diabetes, in menopause, needs recommendations for preventing osteoporosis.",
+      "summary_sha256": "23e9322baf22bb6b59d791652e58fd8c530f42dc6cb0919c8644f5e4e594cb3d",
+      "subject_id": "sigir-201429",
+      "topic": "29",
+      "year": "2014",
+      "locator": "/topics/topic[@number='29']/summary",
+      "xml_sha256": "8fa33d3a258da436c05d6009fc5713cc56038cc488535e52eccd6c19a11fc9e9",
+      "source_url": "https://trec-cds.org/topics2014.xml",
+      "subject": "Patient/sigir-201429",
+      "assigned": [],
+      "source_resource_type": "Patient",
+      "added_source_digest": "23e9322baf22bb6b59d791652e58fd8c530f42dc6cb0919c8644f5e4e594cb3d",
+      "separately_ingested_clinical_facts": []
+    },
+    "sigir-201430": {
+      "summary": "72-year-old man with calf pain while walking uphill. History of ischemic heart disease and worsening hypertension despite medication compliance. On physical exam he has a right carotid bruit and his lower extremities are cool, with diminished dorsalis pedis pulses.",
+      "summary_sha256": "9000cce1de3841fec6020163727ea14ed0d2487c2576e5530a3a8315e145a568",
+      "subject_id": "sigir-201430",
+      "topic": "30",
+      "year": "2014",
+      "locator": "/topics/topic[@number='30']/summary",
+      "xml_sha256": "8fa33d3a258da436c05d6009fc5713cc56038cc488535e52eccd6c19a11fc9e9",
+      "source_url": "https://trec-cds.org/topics2014.xml",
+      "subject": "Patient/sigir-201430",
+      "assigned": [
+        "544"
+      ],
+      "review_note": "Adds medication compliance to the worsening hypertension history. Cardiac severity and its required definition remain open.",
+      "source_resource_type": "Patient",
+      "added_source_digest": "9000cce1de3841fec6020163727ea14ed0d2487c2576e5530a3a8315e145a568",
+      "separately_ingested_clinical_facts": [
+        {
+          "resource": "Observation/x-33b9f55e28aefea9956d1687d2328b",
+          "concept": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:trialgpt:clinical:v1",
+                "code": "age-at-presentation",
+                "display": "age at presentation"
+              },
+              {
+                "system": "http://loinc.org",
+                "code": "30525-0",
+                "display": "Age"
+              }
+            ],
+            "text": "age at presentation"
+          },
+          "value": {
+            "valueQuantity": {
+              "value": 72,
+              "system": "http://unitsofmeasure.org",
+              "code": "a",
+              "unit": "a"
+            }
+          }
+        }
+      ]
+    },
+    "sigir-20151": {
+      "summary": "A 44-year-old man with coffee-ground emesis, tachycardia, hypoxia,  hypotension and  cool, clammy extremities.",
+      "summary_sha256": "94923a41bf55e18882916eb4032887b2c0368659597c7763bc49ba8049f171e0",
+      "subject_id": "sigir-20151",
+      "topic": "1",
+      "year": "2015",
+      "locator": "/topics/topic[@number='1']/summary",
+      "xml_sha256": "511f8992b7b2676a14a14cf556b2995a1084004691f2e7c031151d3eeac4e59c",
+      "source_url": "https://trec-cds.org/topics2015A.xml",
+      "subject": "Patient/sigir-20151",
+      "assigned": [
+        "577"
+      ],
+      "review_note": "Summary explicitly adds hypoxia to the signs given for this synthetic patient. No numerical oxygenation value is provided.",
+      "source_resource_type": "Patient",
+      "added_source_digest": "94923a41bf55e18882916eb4032887b2c0368659597c7763bc49ba8049f171e0",
+      "separately_ingested_clinical_facts": [
+        {
+          "resource": "Observation/x-8d5fa099f4e68639db8479d30f2a76",
+          "concept": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:trialgpt:clinical:v1",
+                "code": "age-at-presentation",
+                "display": "age at presentation"
+              },
+              {
+                "system": "http://loinc.org",
+                "code": "30525-0",
+                "display": "Age"
+              }
+            ],
+            "text": "age at presentation"
+          },
+          "value": {
+            "valueQuantity": {
+              "value": 44,
+              "system": "http://unitsofmeasure.org",
+              "code": "a",
+              "unit": "a"
+            }
+          }
+        },
+        {
+          "resource": "Observation/x-02fec2323cbab18d65df9ec5b722b7",
+          "concept": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:trialgpt:clinical:v1",
+                "code": "male_or_female",
+                "display": "male or female"
+              }
+            ],
+            "text": "male or female"
+          },
+          "value": {
+            "valueBoolean": true
+          }
+        },
+        {
+          "resource": "Observation/x-8d803de5abfda173e22becd1e085c6",
+          "concept": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:trialgpt:clinical:v1",
+                "code": "woman",
+                "display": "woman"
+              }
+            ],
+            "text": "woman"
+          },
+          "value": {
+            "valueBoolean": false
+          }
+        }
+      ]
+    },
+    "sigir-20152": {
+      "summary": "A 62-year-old immunosuppressed male with fever, cough and intranuclear inclusion bodies in bronchoalveolar lavage",
+      "summary_sha256": "12aa5638c42c034b8adbd84c7a572e71b61165e051d2d9bf3a4c2946fdae01fc",
+      "subject_id": "sigir-20152",
+      "topic": "2",
+      "year": "2015",
+      "locator": "/topics/topic[@number='2']/summary",
+      "xml_sha256": "511f8992b7b2676a14a14cf556b2995a1084004691f2e7c031151d3eeac4e59c",
+      "source_url": "https://trec-cds.org/topics2015A.xml",
+      "subject": "Patient/sigir-20152",
+      "assigned": [],
+      "source_resource_type": "Patient",
+      "added_source_digest": "12aa5638c42c034b8adbd84c7a572e71b61165e051d2d9bf3a4c2946fdae01fc",
+      "separately_ingested_clinical_facts": [
+        {
+          "resource": "Observation/x-2108fa3330428cea74f88403d0516d",
+          "concept": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:trialgpt:clinical:v1",
+                "code": "age-at-presentation",
+                "display": "age at presentation"
+              },
+              {
+                "system": "http://loinc.org",
+                "code": "30525-0",
+                "display": "Age"
+              }
+            ],
+            "text": "age at presentation"
+          },
+          "value": {
+            "valueQuantity": {
+              "value": 62,
+              "system": "http://unitsofmeasure.org",
+              "code": "a",
+              "unit": "a"
+            }
+          }
+        }
+      ]
+    },
+    "sigir-20153": {
+      "summary": "A 65-year-old male presents with dyspnea, tachypnea, chest pain on inspiration, and swelling and pain in the right calf. ",
+      "summary_sha256": "5de0ce03bff86d18aeea046cc6c875fedd29985aa704200dabc7a70e370d9ff1",
+      "subject_id": "sigir-20153",
+      "topic": "3",
+      "year": "2015",
+      "locator": "/topics/topic[@number='3']/summary",
+      "xml_sha256": "511f8992b7b2676a14a14cf556b2995a1084004691f2e7c031151d3eeac4e59c",
+      "source_url": "https://trec-cds.org/topics2015A.xml",
+      "subject": "Patient/sigir-20153",
+      "assigned": [
+        "621",
+        "632",
+        "633"
+      ],
+      "source_resource_type": "Patient",
+      "added_source_digest": "5de0ce03bff86d18aeea046cc6c875fedd29985aa704200dabc7a70e370d9ff1",
+      "separately_ingested_clinical_facts": [
+        {
+          "resource": "Observation/x-940c5c18e38ecfc8c35bbe2f43cd4d",
+          "concept": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:trialgpt:clinical:v1",
+                "code": "age-at-presentation",
+                "display": "age at presentation"
+              },
+              {
+                "system": "http://loinc.org",
+                "code": "30525-0",
+                "display": "Age"
+              }
+            ],
+            "text": "age at presentation"
+          },
+          "value": {
+            "valueQuantity": {
+              "value": 65,
+              "system": "http://unitsofmeasure.org",
+              "code": "a",
+              "unit": "a"
+            }
+          }
+        },
+        {
+          "resource": "Observation/x-15e3fe857f47cde851b525fe0e149c",
+          "concept": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:trialgpt:clinical:v1",
+                "code": "male_or_female",
+                "display": "male or female"
+              }
+            ],
+            "text": "male or female"
+          },
+          "value": {
+            "valueBoolean": true
+          }
+        },
+        {
+          "resource": "Observation/x-8bdaaa8d074e6c1dfd25a706e08a7d",
+          "concept": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:trialgpt:clinical:v1",
+                "code": "woman",
+                "display": "woman"
+              }
+            ],
+            "text": "woman"
+          },
+          "value": {
+            "valueBoolean": false
+          }
+        }
+      ]
+    },
+    "sigir-20154": {
+      "summary": "82-year-old woman awakened by acute stabbing chest pain, with ST-segment elevation, hypertension, sinus tachycardia, no diseases on coronary angiography and left ventricular dysfunction on ventriculography.",
+      "summary_sha256": "40bb1be60f76e0cc161d5d708ea479574a19542eb0de10cddbcb089672822641",
+      "subject_id": "sigir-20154",
+      "topic": "4",
+      "year": "2015",
+      "locator": "/topics/topic[@number='4']/summary",
+      "xml_sha256": "511f8992b7b2676a14a14cf556b2995a1084004691f2e7c031151d3eeac4e59c",
+      "source_url": "https://trec-cds.org/topics2015A.xml",
+      "subject": "Patient/sigir-20154",
+      "assigned": [
+        "636",
+        "637",
+        "640"
+      ],
+      "source_resource_type": "Patient",
+      "added_source_digest": "40bb1be60f76e0cc161d5d708ea479574a19542eb0de10cddbcb089672822641",
+      "separately_ingested_clinical_facts": [
+        {
+          "resource": "Observation/x-c49fa5cef234c91691154d9e67cbd3",
+          "concept": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:trialgpt:clinical:v1",
+                "code": "age-at-presentation",
+                "display": "age at presentation"
+              },
+              {
+                "system": "http://loinc.org",
+                "code": "30525-0",
+                "display": "Age"
+              }
+            ],
+            "text": "age at presentation"
+          },
+          "value": {
+            "valueQuantity": {
+              "value": 82,
+              "system": "http://unitsofmeasure.org",
+              "code": "a",
+              "unit": "a"
+            }
+          }
+        }
+      ]
+    },
+    "sigir-20155": {
+      "summary": "Young adult woman with 2 weeks of fever and migrating joint inflammation.",
+      "summary_sha256": "69bf47f6f23e934da7b6a1bb2b9b76e97e30680e9c105dc2df6caa5815eee53e",
+      "subject_id": "sigir-20155",
+      "topic": "5",
+      "year": "2015",
+      "locator": "/topics/topic[@number='5']/summary",
+      "xml_sha256": "511f8992b7b2676a14a14cf556b2995a1084004691f2e7c031151d3eeac4e59c",
+      "source_url": "https://trec-cds.org/topics2015A.xml",
+      "subject": "Patient/sigir-20155",
+      "assigned": [],
+      "source_resource_type": "Patient",
+      "added_source_digest": "69bf47f6f23e934da7b6a1bb2b9b76e97e30680e9c105dc2df6caa5815eee53e",
+      "separately_ingested_clinical_facts": []
+    },
+    "sigir-20156": {
+      "summary": "A 46-year-old woman with sweaty hands, exophthalmia, and weight loss despite increased eating.",
+      "summary_sha256": "18f0c47477a00d97b75f2c4df05dfa61103f5b4ce2dd6b8e258b4169dcff54d6",
+      "subject_id": "sigir-20156",
+      "topic": "6",
+      "year": "2015",
+      "locator": "/topics/topic[@number='6']/summary",
+      "xml_sha256": "511f8992b7b2676a14a14cf556b2995a1084004691f2e7c031151d3eeac4e59c",
+      "source_url": "https://trec-cds.org/topics2015A.xml",
+      "subject": "Patient/sigir-20156",
+      "assigned": [
+        "653"
+      ],
+      "source_resource_type": "Patient",
+      "added_source_digest": "18f0c47477a00d97b75f2c4df05dfa61103f5b4ce2dd6b8e258b4169dcff54d6",
+      "separately_ingested_clinical_facts": [
+        {
+          "resource": "Observation/x-84e7e38804ecb33ceefc12619d25b4",
+          "concept": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:trialgpt:clinical:v1",
+                "code": "age-at-presentation",
+                "display": "age at presentation"
+              },
+              {
+                "system": "http://loinc.org",
+                "code": "30525-0",
+                "display": "Age"
+              }
+            ],
+            "text": "age at presentation"
+          },
+          "value": {
+            "valueQuantity": {
+              "value": 46,
+              "system": "http://unitsofmeasure.org",
+              "code": "a",
+              "unit": "a"
+            }
+          }
+        },
+        {
+          "resource": "Observation/x-88482f35c080905d1b27e7306ae17a",
+          "concept": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:trialgpt:clinical:v1",
+                "code": "male_or_female",
+                "display": "male or female"
+              }
+            ],
+            "text": "male or female"
+          },
+          "value": {
+            "valueBoolean": true
+          }
+        },
+        {
+          "resource": "Observation/x-0569858983d420363338b3c2e94e5d",
+          "concept": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:trialgpt:clinical:v1",
+                "code": "woman",
+                "display": "woman"
+              }
+            ],
+            "text": "woman"
+          },
+          "value": {
+            "valueBoolean": true
+          }
+        },
+        {
+          "resource": "Observation/x-343fb7746660f80a1cb1383c3f497a",
+          "concept": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:trialgpt:clinical:v1",
+                "code": "explicit_woman_description",
+                "display": "explicit woman description"
+              }
+            ],
+            "text": "explicit woman description"
+          },
+          "value": {
+            "valueBoolean": true
+          }
+        }
+      ]
+    },
+    "sigir-20157": {
+      "summary": "A 22 year old female presents with changes in appetite and sleeping, fatigue, diminished ability to think or concentrate, anhedonia and feelings of guilt.",
+      "summary_sha256": "805bd17b4e4e4f583310e6baf5994c5f64b6e3298b99ed9a9c67a37a00cf7559",
+      "subject_id": "sigir-20157",
+      "topic": "7",
+      "year": "2015",
+      "locator": "/topics/topic[@number='7']/summary",
+      "xml_sha256": "511f8992b7b2676a14a14cf556b2995a1084004691f2e7c031151d3eeac4e59c",
+      "source_url": "https://trec-cds.org/topics2015A.xml",
+      "subject": "Patient/sigir-20157",
+      "assigned": [
+        "671"
+      ],
+      "review_note": "Original description gives age 20 and summary gives 22. Both sources describe symptoms. Neither contains a unipolar major depressive disorder diagnosis.",
+      "source_resource_type": "Patient",
+      "added_source_digest": "805bd17b4e4e4f583310e6baf5994c5f64b6e3298b99ed9a9c67a37a00cf7559",
+      "separately_ingested_clinical_facts": [
+        {
+          "resource": "Observation/x-af517b1f34a586cca2319c2a627369",
+          "concept": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:trialgpt:clinical:v1",
+                "code": "age-at-presentation",
+                "display": "age at presentation"
+              },
+              {
+                "system": "http://loinc.org",
+                "code": "30525-0",
+                "display": "Age"
+              }
+            ],
+            "text": "age at presentation"
+          },
+          "value": {
+            "valueQuantity": {
+              "value": 22,
+              "system": "http://unitsofmeasure.org",
+              "code": "a",
+              "unit": "a"
+            }
+          }
+        },
+        {
+          "resource": "Observation/x-6048c09ffdee4ba0051d4dd61cf906",
+          "concept": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:trialgpt:clinical:v1",
+                "code": "male_or_female",
+                "display": "male or female"
+              }
+            ],
+            "text": "male or female"
+          },
+          "value": {
+            "valueBoolean": true
+          }
+        },
+        {
+          "resource": "Observation/x-efa3524bd93a687f4e0fcb9d7c3cfe",
+          "concept": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:trialgpt:clinical:v1",
+                "code": "woman",
+                "display": "woman"
+              }
+            ],
+            "text": "woman"
+          },
+          "value": {
+            "valueBoolean": true
+          }
+        }
+      ]
+    },
+    "sigir-20158": {
+      "summary": "A 10-year-old boy with difficulty concentrating, daytime sleepiness, and failure to thrive. The boy sleeps restlessly, snores, sweats, breathes heavily through his mouth and gasps in his sleep. ",
+      "summary_sha256": "a57c03ed5cdaee75a2d45d7897ab34c6cd8f5fdf2f1af08cde73d1f8db5f76f1",
+      "subject_id": "sigir-20158",
+      "topic": "8",
+      "year": "2015",
+      "locator": "/topics/topic[@number='8']/summary",
+      "xml_sha256": "511f8992b7b2676a14a14cf556b2995a1084004691f2e7c031151d3eeac4e59c",
+      "source_url": "https://trec-cds.org/topics2015A.xml",
+      "subject": "Patient/sigir-20158",
+      "assigned": [],
+      "source_resource_type": "Patient",
+      "added_source_digest": "a57c03ed5cdaee75a2d45d7897ab34c6cd8f5fdf2f1af08cde73d1f8db5f76f1",
+      "separately_ingested_clinical_facts": [
+        {
+          "resource": "Observation/x-4f931138d3debfade9fd33a6751cf8",
+          "concept": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:trialgpt:clinical:v1",
+                "code": "age-at-presentation",
+                "display": "age at presentation"
+              },
+              {
+                "system": "http://loinc.org",
+                "code": "30525-0",
+                "display": "Age"
+              }
+            ],
+            "text": "age at presentation"
+          },
+          "value": {
+            "valueQuantity": {
+              "value": 10,
+              "system": "http://unitsofmeasure.org",
+              "code": "a",
+              "unit": "a"
+            }
+          }
+        },
+        {
+          "resource": "Observation/x-66f05b6fe63e8275fa70ada6830356",
+          "concept": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:trialgpt:clinical:v1",
+                "code": "male_or_female",
+                "display": "male or female"
+              }
+            ],
+            "text": "male or female"
+          },
+          "value": {
+            "valueBoolean": true
+          }
+        },
+        {
+          "resource": "Observation/x-54a75f5cf0214fd11d945e21004051",
+          "concept": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:trialgpt:clinical:v1",
+                "code": "woman",
+                "display": "woman"
+              }
+            ],
+            "text": "woman"
+          },
+          "value": {
+            "valueBoolean": false
+          }
+        }
+      ]
+    },
+    "sigir-20159": {
+      "summary": "A 10 year old child with recent history of pork consumption presents with fever, myalgia, facial edema and eosinophilia",
+      "summary_sha256": "8160fa52a9416aff1044dba14a6f1175990dfe053dc5e14d02eb605e5f3f2de5",
+      "subject_id": "sigir-20159",
+      "topic": "9",
+      "year": "2015",
+      "locator": "/topics/topic[@number='9']/summary",
+      "xml_sha256": "511f8992b7b2676a14a14cf556b2995a1084004691f2e7c031151d3eeac4e59c",
+      "source_url": "https://trec-cds.org/topics2015A.xml",
+      "subject": "Patient/sigir-20159",
+      "assigned": [],
+      "source_resource_type": "Patient",
+      "added_source_digest": "8160fa52a9416aff1044dba14a6f1175990dfe053dc5e14d02eb605e5f3f2de5",
+      "separately_ingested_clinical_facts": [
+        {
+          "resource": "Observation/x-79c0ea1ab29bc4a493ea1fd6781a7f",
+          "concept": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:trialgpt:clinical:v1",
+                "code": "age-at-presentation",
+                "display": "age at presentation"
+              },
+              {
+                "system": "http://loinc.org",
+                "code": "30525-0",
+                "display": "Age"
+              }
+            ],
+            "text": "age at presentation"
+          },
+          "value": {
+            "valueQuantity": {
+              "value": 10,
+              "system": "http://unitsofmeasure.org",
+              "code": "a",
+              "unit": "a"
+            }
+          }
+        }
+      ]
+    },
+    "sigir-201510": {
+      "summary": "A 38 year old woman with severe dysmenorrhea, menorrhagia, and menometrorrhagia. PMH of infertility treatment and ectopic pregnancy",
+      "summary_sha256": "3249b6c066a37118225304dc148f6f797d19df6d4c1cb33fceeb14e08246d0e1",
+      "subject_id": "sigir-201510",
+      "topic": "10",
+      "year": "2015",
+      "locator": "/topics/topic[@number='10']/summary",
+      "xml_sha256": "511f8992b7b2676a14a14cf556b2995a1084004691f2e7c031151d3eeac4e59c",
+      "source_url": "https://trec-cds.org/topics2015A.xml",
+      "subject": "Patient/sigir-201510",
+      "assigned": [
+        "706",
+        "720"
+      ],
+      "review_note": "Names dysmenorrhea, menorrhagia and menometrorrhagia explicitly. The note reports painful and heavy irregular menses and spotting. Neither provides the rule quantifier for the symptom list or documents dyspareunia.",
+      "source_resource_type": "Patient",
+      "added_source_digest": "3249b6c066a37118225304dc148f6f797d19df6d4c1cb33fceeb14e08246d0e1",
+      "separately_ingested_clinical_facts": [
+        {
+          "resource": "Observation/x-5cf7b609340fa9563ac8d81ee016b7",
+          "concept": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:trialgpt:clinical:v1",
+                "code": "age-at-presentation",
+                "display": "age at presentation"
+              },
+              {
+                "system": "http://loinc.org",
+                "code": "30525-0",
+                "display": "Age"
+              }
+            ],
+            "text": "age at presentation"
+          },
+          "value": {
+            "valueQuantity": {
+              "value": 38,
+              "system": "http://unitsofmeasure.org",
+              "code": "a",
+              "unit": "a"
+            }
+          }
+        },
+        {
+          "resource": "Observation/x-3f57b41a249c89321ff81ec3cc2295",
+          "concept": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:trialgpt:clinical:v1",
+                "code": "male_or_female",
+                "display": "male or female"
+              }
+            ],
+            "text": "male or female"
+          },
+          "value": {
+            "valueBoolean": true
+          }
+        },
+        {
+          "resource": "Observation/x-4042bf96495941da803e2b9d202f41",
+          "concept": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:trialgpt:clinical:v1",
+                "code": "woman",
+                "display": "woman"
+              }
+            ],
+            "text": "woman"
+          },
+          "value": {
+            "valueBoolean": true
+          }
+        },
+        {
+          "resource": "Observation/x-bb781f0a29cc85cc63c88ddde2c648",
+          "concept": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:trialgpt:clinical:v1",
+                "code": "explicit_woman_description",
+                "display": "explicit woman description"
+              }
+            ],
+            "text": "explicit woman description"
+          },
+          "value": {
+            "valueBoolean": true
+          }
+        }
+      ]
+    },
+    "sigir-201511": {
+      "summary": "A 56-year old Caucasian female presents with sensitivity to cold, fatigue, and constipation. Physical examination reveals hyporeflexia with delayed relaxation of knee and ankle reflexes, and very dry skin.",
+      "summary_sha256": "27d073219a8ae507621ee8af0a71229cf26f45316212f2d6eaa249aafaf5b027",
+      "subject_id": "sigir-201511",
+      "topic": "11",
+      "year": "2015",
+      "locator": "/topics/topic[@number='11']/summary",
+      "xml_sha256": "511f8992b7b2676a14a14cf556b2995a1084004691f2e7c031151d3eeac4e59c",
+      "source_url": "https://trec-cds.org/topics2015A.xml",
+      "subject": "Patient/sigir-201511",
+      "assigned": [
+        "722",
+        "723",
+        "724",
+        "725",
+        "726"
+      ],
+      "source_resource_type": "Patient",
+      "added_source_digest": "27d073219a8ae507621ee8af0a71229cf26f45316212f2d6eaa249aafaf5b027",
+      "separately_ingested_clinical_facts": [
+        {
+          "resource": "Observation/x-e77f4c32011c4fc202c391907dd7fc",
+          "concept": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:trialgpt:clinical:v1",
+                "code": "age-at-presentation",
+                "display": "age at presentation"
+              },
+              {
+                "system": "http://loinc.org",
+                "code": "30525-0",
+                "display": "Age"
+              }
+            ],
+            "text": "age at presentation"
+          },
+          "value": {
+            "valueQuantity": {
+              "value": 56,
+              "system": "http://unitsofmeasure.org",
+              "code": "a",
+              "unit": "a"
+            }
+          }
+        },
+        {
+          "resource": "Observation/x-19b261964afc7cc00125da3716a01d",
+          "concept": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:trialgpt:clinical:v1",
+                "code": "male_or_female",
+                "display": "male or female"
+              }
+            ],
+            "text": "male or female"
+          },
+          "value": {
+            "valueBoolean": true
+          }
+        },
+        {
+          "resource": "Observation/x-9bab486217eba049df919b7b513ab1",
+          "concept": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:trialgpt:clinical:v1",
+                "code": "woman",
+                "display": "woman"
+              }
+            ],
+            "text": "woman"
+          },
+          "value": {
+            "valueBoolean": true
+          }
+        }
+      ]
+    },
+    "sigir-201512": {
+      "summary": "A 44-year-old man complains of severe headache and fever. Nuchal rigidity was found on physical examination.",
+      "summary_sha256": "1bf9cc2884fd708810321dd07ceb550d5662d2be50ee7e68f5a881404afab72b",
+      "subject_id": "sigir-201512",
+      "topic": "12",
+      "year": "2015",
+      "locator": "/topics/topic[@number='12']/summary",
+      "xml_sha256": "511f8992b7b2676a14a14cf556b2995a1084004691f2e7c031151d3eeac4e59c",
+      "source_url": "https://trec-cds.org/topics2015A.xml",
+      "subject": "Patient/sigir-201512",
+      "assigned": [
+        "734",
+        "735",
+        "736",
+        "737",
+        "738"
+      ],
+      "source_resource_type": "Patient",
+      "added_source_digest": "1bf9cc2884fd708810321dd07ceb550d5662d2be50ee7e68f5a881404afab72b",
+      "separately_ingested_clinical_facts": [
+        {
+          "resource": "Observation/x-2375e55c5a901e41324151f2f1ce9f",
+          "concept": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:trialgpt:clinical:v1",
+                "code": "age-at-presentation",
+                "display": "age at presentation"
+              },
+              {
+                "system": "http://loinc.org",
+                "code": "30525-0",
+                "display": "Age"
+              }
+            ],
+            "text": "age at presentation"
+          },
+          "value": {
+            "valueQuantity": {
+              "value": 44,
+              "system": "http://unitsofmeasure.org",
+              "code": "a",
+              "unit": "a"
+            }
+          }
+        },
+        {
+          "resource": "Observation/x-315a33cc1a18b6816e43697d65aefe",
+          "concept": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:trialgpt:clinical:v1",
+                "code": "male_or_female",
+                "display": "male or female"
+              }
+            ],
+            "text": "male or female"
+          },
+          "value": {
+            "valueBoolean": true
+          }
+        },
+        {
+          "resource": "Observation/x-1cd19e33ac966f7650da5f2c60668f",
+          "concept": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:trialgpt:clinical:v1",
+                "code": "woman",
+                "display": "woman"
+              }
+            ],
+            "text": "woman"
+          },
+          "value": {
+            "valueBoolean": false
+          }
+        }
+      ]
+    },
+    "sigir-201513": {
+      "summary": "A 5-year-old boy presents with difficulty in breathing, stridor, drooling, fever, dysphagia and voice change.",
+      "summary_sha256": "b68507d813197743e1e763bb387e03eeef1dd4867201dd9ff1083202f9ee6405",
+      "subject_id": "sigir-201513",
+      "topic": "13",
+      "year": "2015",
+      "locator": "/topics/topic[@number='13']/summary",
+      "xml_sha256": "511f8992b7b2676a14a14cf556b2995a1084004691f2e7c031151d3eeac4e59c",
+      "source_url": "https://trec-cds.org/topics2015A.xml",
+      "subject": "Patient/sigir-201513",
+      "assigned": [],
+      "source_resource_type": "Patient",
+      "added_source_digest": "b68507d813197743e1e763bb387e03eeef1dd4867201dd9ff1083202f9ee6405",
+      "separately_ingested_clinical_facts": [
+        {
+          "resource": "Observation/x-6852e1e27a2aa00c32280488a97aac",
+          "concept": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:trialgpt:clinical:v1",
+                "code": "age-at-presentation",
+                "display": "age at presentation"
+              },
+              {
+                "system": "http://loinc.org",
+                "code": "30525-0",
+                "display": "Age"
+              }
+            ],
+            "text": "age at presentation"
+          },
+          "value": {
+            "valueQuantity": {
+              "value": 5,
+              "system": "http://unitsofmeasure.org",
+              "code": "a",
+              "unit": "a"
+            }
+          }
+        },
+        {
+          "resource": "Observation/x-0d72f3ce2c972eb2924be4a9ea276c",
+          "concept": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:trialgpt:clinical:v1",
+                "code": "male_or_female",
+                "display": "male or female"
+              }
+            ],
+            "text": "male or female"
+          },
+          "value": {
+            "valueBoolean": true
+          }
+        },
+        {
+          "resource": "Observation/x-97ef78d7c8b69e9587d9e479b25be6",
+          "concept": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:trialgpt:clinical:v1",
+                "code": "woman",
+                "display": "woman"
+              }
+            ],
+            "text": "woman"
+          },
+          "value": {
+            "valueBoolean": false
+          }
+        }
+      ]
+    },
+    "sigir-201514": {
+      "summary": "A young woman in her second gestation presenting with anemia resistant to improvement by iron supplementation, elevated LDH, anisocytosis, poikilocytosis, hemosiderinuria and normal clotting screen.",
+      "summary_sha256": "4cf9dd248a00cc2213d2b1c8ff40234f60a7a8d2eec019689573453db84c308b",
+      "subject_id": "sigir-201514",
+      "topic": "14",
+      "year": "2015",
+      "locator": "/topics/topic[@number='14']/summary",
+      "xml_sha256": "511f8992b7b2676a14a14cf556b2995a1084004691f2e7c031151d3eeac4e59c",
+      "source_url": "https://trec-cds.org/topics2015A.xml",
+      "subject": "Patient/sigir-201514",
+      "assigned": [
+        "795"
+      ],
+      "source_resource_type": "Patient",
+      "added_source_digest": "4cf9dd248a00cc2213d2b1c8ff40234f60a7a8d2eec019689573453db84c308b",
+      "separately_ingested_clinical_facts": []
+    },
+    "sigir-201515": {
+      "summary": "A 72-year-old woman with history of hypertension, type 2 diabetes, cryptogenic stroke, normal EKG, normal echocardiogram, normal angiograms, and complaints of occasional shortness of breath and palpitations.",
+      "summary_sha256": "2a6334db381a2de5fc6c47e9f6a8bf832f0cdcabec4b3e532e78d806541ba98c",
+      "subject_id": "sigir-201515",
+      "topic": "15",
+      "year": "2015",
+      "locator": "/topics/topic[@number='15']/summary",
+      "xml_sha256": "511f8992b7b2676a14a14cf556b2995a1084004691f2e7c031151d3eeac4e59c",
+      "source_url": "https://trec-cds.org/topics2015A.xml",
+      "subject": "Patient/sigir-201515",
+      "assigned": [
+        "817"
+      ],
+      "source_resource_type": "Patient",
+      "added_source_digest": "2a6334db381a2de5fc6c47e9f6a8bf832f0cdcabec4b3e532e78d806541ba98c",
+      "separately_ingested_clinical_facts": [
+        {
+          "resource": "Observation/x-0c4d0935d4d8f53c9c2af8c4631b70",
+          "concept": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:trialgpt:clinical:v1",
+                "code": "age-at-presentation",
+                "display": "age at presentation"
+              },
+              {
+                "system": "http://loinc.org",
+                "code": "30525-0",
+                "display": "Age"
+              }
+            ],
+            "text": "age at presentation"
+          },
+          "value": {
+            "valueQuantity": {
+              "value": 72,
+              "system": "http://unitsofmeasure.org",
+              "code": "a",
+              "unit": "a"
+            }
+          }
+        },
+        {
+          "resource": "Observation/x-ff36590f35b142655cfbeedb89c8c8",
+          "concept": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:trialgpt:clinical:v1",
+                "code": "male_or_female",
+                "display": "male or female"
+              }
+            ],
+            "text": "male or female"
+          },
+          "value": {
+            "valueBoolean": true
+          }
+        },
+        {
+          "resource": "Observation/x-3b1923548158cf187ae17d7d6cf724",
+          "concept": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:trialgpt:clinical:v1",
+                "code": "woman",
+                "display": "woman"
+              }
+            ],
+            "text": "woman"
+          },
+          "value": {
+            "valueBoolean": true
+          }
+        },
+        {
+          "resource": "Observation/x-7aa698400a3c8dd42a7db8eab94032",
+          "concept": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:trialgpt:clinical:v1",
+                "code": "explicit_woman_description",
+                "display": "explicit woman description"
+              }
+            ],
+            "text": "explicit woman description"
+          },
+          "value": {
+            "valueBoolean": true
+          }
+        }
+      ]
+    },
+    "sigir-201516": {
+      "summary": "A 4 year old boy presents with wheezing after playing in the backyard unobserved.",
+      "summary_sha256": "59254332f60108f5acbfb43f884f8ba730e1b7c40f4d8ba2f129328081b329fa",
+      "subject_id": "sigir-201516",
+      "topic": "16",
+      "year": "2015",
+      "locator": "/topics/topic[@number='16']/summary",
+      "xml_sha256": "511f8992b7b2676a14a14cf556b2995a1084004691f2e7c031151d3eeac4e59c",
+      "source_url": "https://trec-cds.org/topics2015A.xml",
+      "subject": "Patient/sigir-201516",
+      "assigned": [
+        "850"
+      ],
+      "source_resource_type": "Patient",
+      "added_source_digest": "59254332f60108f5acbfb43f884f8ba730e1b7c40f4d8ba2f129328081b329fa",
+      "separately_ingested_clinical_facts": [
+        {
+          "resource": "Observation/x-efaab08f81084ef6ed9dc467b33a2b",
+          "concept": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:trialgpt:clinical:v1",
+                "code": "age-at-presentation",
+                "display": "age at presentation"
+              },
+              {
+                "system": "http://loinc.org",
+                "code": "30525-0",
+                "display": "Age"
+              }
+            ],
+            "text": "age at presentation"
+          },
+          "value": {
+            "valueQuantity": {
+              "value": 4,
+              "system": "http://unitsofmeasure.org",
+              "code": "a",
+              "unit": "a"
+            }
+          }
+        },
+        {
+          "resource": "Observation/x-b050e8e3808162dcc9a3dd4a13fab7",
+          "concept": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:trialgpt:clinical:v1",
+                "code": "male_or_female",
+                "display": "male or female"
+              }
+            ],
+            "text": "male or female"
+          },
+          "value": {
+            "valueBoolean": true
+          }
+        },
+        {
+          "resource": "Observation/x-d5b3bc394a49546df563ed890d3fa0",
+          "concept": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:trialgpt:clinical:v1",
+                "code": "woman",
+                "display": "woman"
+              }
+            ],
+            "text": "woman"
+          },
+          "value": {
+            "valueBoolean": false
+          }
+        }
+      ]
+    },
+    "sigir-201517": {
+      "summary": "A 32 year old female with screening that was positive for human papilloma virus with normal Pap smears.",
+      "summary_sha256": "7744a653a198c3e324709cc6c584bc16130df18ac7523311b60db6d18450fa1c",
+      "subject_id": "sigir-201517",
+      "topic": "17",
+      "year": "2015",
+      "locator": "/topics/topic[@number='17']/summary",
+      "xml_sha256": "511f8992b7b2676a14a14cf556b2995a1084004691f2e7c031151d3eeac4e59c",
+      "source_url": "https://trec-cds.org/topics2015A.xml",
+      "subject": "Patient/sigir-201517",
+      "assigned": [
+        "860",
+        "866",
+        "867"
+      ],
+      "review_note": "Specifies positive HPV screening with normal cytology. The required APTIMA instrument, version and qualifying aliquot remain unestablished.",
+      "source_resource_type": "Patient",
+      "added_source_digest": "7744a653a198c3e324709cc6c584bc16130df18ac7523311b60db6d18450fa1c",
+      "separately_ingested_clinical_facts": [
+        {
+          "resource": "Observation/x-dd06658484d587b8ea99de130be9a6",
+          "concept": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:trialgpt:clinical:v1",
+                "code": "age-at-presentation",
+                "display": "age at presentation"
+              },
+              {
+                "system": "http://loinc.org",
+                "code": "30525-0",
+                "display": "Age"
+              }
+            ],
+            "text": "age at presentation"
+          },
+          "value": {
+            "valueQuantity": {
+              "value": 32,
+              "system": "http://unitsofmeasure.org",
+              "code": "a",
+              "unit": "a"
+            }
+          }
+        },
+        {
+          "resource": "Observation/x-86da8f421658ca98ab3cf26267f6c9",
+          "concept": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:trialgpt:clinical:v1",
+                "code": "male_or_female",
+                "display": "male or female"
+              }
+            ],
+            "text": "male or female"
+          },
+          "value": {
+            "valueBoolean": true
+          }
+        },
+        {
+          "resource": "Observation/x-219c8deef93cd23413282f23881057",
+          "concept": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:trialgpt:clinical:v1",
+                "code": "woman",
+                "display": "woman"
+              }
+            ],
+            "text": "woman"
+          },
+          "value": {
+            "valueBoolean": true
+          }
+        }
+      ]
+    },
+    "sigir-201518": {
+      "summary": "A 65-year-old African-American male with progressive dyspnea on exertion and while lying flat; bilateral pitting lower-extremity edema. The lungs revealed bilateral basilar crackles.",
+      "summary_sha256": "3fd2b43b3da1d207dcb8b3a86ee489f67bc99c33705adad45308cda9ade3ca33",
+      "subject_id": "sigir-201518",
+      "topic": "18",
+      "year": "2015",
+      "locator": "/topics/topic[@number='18']/summary",
+      "xml_sha256": "511f8992b7b2676a14a14cf556b2995a1084004691f2e7c031151d3eeac4e59c",
+      "source_url": "https://trec-cds.org/topics2015A.xml",
+      "subject": "Patient/sigir-201518",
+      "assigned": [
+        "870",
+        "875"
+      ],
+      "source_resource_type": "Patient",
+      "added_source_digest": "3fd2b43b3da1d207dcb8b3a86ee489f67bc99c33705adad45308cda9ade3ca33",
+      "separately_ingested_clinical_facts": [
+        {
+          "resource": "Observation/x-46fde6ad86ae75c28e79e885797324",
+          "concept": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:trialgpt:clinical:v1",
+                "code": "age-at-presentation",
+                "display": "age at presentation"
+              },
+              {
+                "system": "http://loinc.org",
+                "code": "30525-0",
+                "display": "Age"
+              }
+            ],
+            "text": "age at presentation"
+          },
+          "value": {
+            "valueQuantity": {
+              "value": 65,
+              "system": "http://unitsofmeasure.org",
+              "code": "a",
+              "unit": "a"
+            }
+          }
+        },
+        {
+          "resource": "Observation/x-18100ca7fcf192a15e872e72d08ef5",
+          "concept": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:trialgpt:clinical:v1",
+                "code": "male_or_female",
+                "display": "male or female"
+              }
+            ],
+            "text": "male or female"
+          },
+          "value": {
+            "valueBoolean": true
+          }
+        },
+        {
+          "resource": "Observation/x-39da871fd9577ed93c2db4dfcf8f8f",
+          "concept": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:trialgpt:clinical:v1",
+                "code": "woman",
+                "display": "woman"
+              }
+            ],
+            "text": "woman"
+          },
+          "value": {
+            "valueBoolean": false
+          }
+        }
+      ]
+    },
+    "sigir-201519": {
+      "summary": "A 66-year-old female smoker presents with worsening dyspnea, productive chronic cough, moderate respiratory distress and unintentional weight loss.",
+      "summary_sha256": "88d98738ef6f1bc5bda2082da506d9529f7c1fbfb76dd1db08e621db8f9d9ff2",
+      "subject_id": "sigir-201519",
+      "topic": "19",
+      "year": "2015",
+      "locator": "/topics/topic[@number='19']/summary",
+      "xml_sha256": "511f8992b7b2676a14a14cf556b2995a1084004691f2e7c031151d3eeac4e59c",
+      "source_url": "https://trec-cds.org/topics2015A.xml",
+      "subject": "Patient/sigir-201519",
+      "assigned": [],
+      "review_note": "Unintentional weight loss appears in the summary only. This subject has no assigned rule.",
+      "source_resource_type": "Patient",
+      "added_source_digest": "88d98738ef6f1bc5bda2082da506d9529f7c1fbfb76dd1db08e621db8f9d9ff2",
+      "separately_ingested_clinical_facts": [
+        {
+          "resource": "Observation/x-3caa32f9c363f89075d91581893040",
+          "concept": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:trialgpt:clinical:v1",
+                "code": "age-at-presentation",
+                "display": "age at presentation"
+              },
+              {
+                "system": "http://loinc.org",
+                "code": "30525-0",
+                "display": "Age"
+              }
+            ],
+            "text": "age at presentation"
+          },
+          "value": {
+            "valueQuantity": {
+              "value": 66,
+              "system": "http://unitsofmeasure.org",
+              "code": "a",
+              "unit": "a"
+            }
+          }
+        },
+        {
+          "resource": "Observation/x-77a5515403b40c5bcec344962b7a92",
+          "concept": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:trialgpt:clinical:v1",
+                "code": "male_or_female",
+                "display": "male or female"
+              }
+            ],
+            "text": "male or female"
+          },
+          "value": {
+            "valueBoolean": true
+          }
+        },
+        {
+          "resource": "Observation/x-fbef12eb962cfe61e48402097f1a56",
+          "concept": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:trialgpt:clinical:v1",
+                "code": "woman",
+                "display": "woman"
+              }
+            ],
+            "text": "woman"
+          },
+          "value": {
+            "valueBoolean": true
+          }
+        }
+      ]
+    },
+    "sigir-201520": {
+      "summary": "An 89-year-old man with progressive change in personality, poor memory, and myoclonic jerks.",
+      "summary_sha256": "177a2148b207084005e02a8369fb69808c4dc05b8d53547b74820fd5014397f0",
+      "subject_id": "sigir-201520",
+      "topic": "20",
+      "year": "2015",
+      "locator": "/topics/topic[@number='20']/summary",
+      "xml_sha256": "511f8992b7b2676a14a14cf556b2995a1084004691f2e7c031151d3eeac4e59c",
+      "source_url": "https://trec-cds.org/topics2015A.xml",
+      "subject": "Patient/sigir-201520",
+      "assigned": [
+        "890"
+      ],
+      "review_note": "Memory and personality changes do not supply a cognitive screening result at admission.",
+      "source_resource_type": "Patient",
+      "added_source_digest": "177a2148b207084005e02a8369fb69808c4dc05b8d53547b74820fd5014397f0",
+      "separately_ingested_clinical_facts": [
+        {
+          "resource": "Observation/x-ffbc9da694527c2d70e9e1fa4e9c00",
+          "concept": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:trialgpt:clinical:v1",
+                "code": "age-at-presentation",
+                "display": "age at presentation"
+              },
+              {
+                "system": "http://loinc.org",
+                "code": "30525-0",
+                "display": "Age"
+              }
+            ],
+            "text": "age at presentation"
+          },
+          "value": {
+            "valueQuantity": {
+              "value": 89,
+              "system": "http://unitsofmeasure.org",
+              "code": "a",
+              "unit": "a"
+            }
+          }
+        },
+        {
+          "resource": "Observation/x-9756f978bb6408ccbdaff58f7f98f2",
+          "concept": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:trialgpt:clinical:v1",
+                "code": "male_or_female",
+                "display": "male or female"
+              }
+            ],
+            "text": "male or female"
+          },
+          "value": {
+            "valueBoolean": true
+          }
+        },
+        {
+          "resource": "Observation/x-d5570d383be0e28b31123392b2f0ca",
+          "concept": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:trialgpt:clinical:v1",
+                "code": "woman",
+                "display": "woman"
+              }
+            ],
+            "text": "woman"
+          },
+          "value": {
+            "valueBoolean": false
+          }
+        }
+      ]
+    },
+    "sigir-201521": {
+      "summary": "A 32-year-old male presents with diarrhea and foul-smelling stools. Stool smear reveals protozoan parasites.",
+      "summary_sha256": "5a10f65d4bdd92343959d630bab524d4a6b7fdce8a868d6c92e0422aac0ae5c6",
+      "subject_id": "sigir-201521",
+      "topic": "21",
+      "year": "2015",
+      "locator": "/topics/topic[@number='21']/summary",
+      "xml_sha256": "511f8992b7b2676a14a14cf556b2995a1084004691f2e7c031151d3eeac4e59c",
+      "source_url": "https://trec-cds.org/topics2015A.xml",
+      "subject": "Patient/sigir-201521",
+      "assigned": [
+        "919"
+      ],
+      "source_resource_type": "Patient",
+      "added_source_digest": "5a10f65d4bdd92343959d630bab524d4a6b7fdce8a868d6c92e0422aac0ae5c6",
+      "separately_ingested_clinical_facts": [
+        {
+          "resource": "Observation/x-f09712e52b21404920442d04d2fe1a",
+          "concept": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:trialgpt:clinical:v1",
+                "code": "age-at-presentation",
+                "display": "age at presentation"
+              },
+              {
+                "system": "http://loinc.org",
+                "code": "30525-0",
+                "display": "Age"
+              }
+            ],
+            "text": "age at presentation"
+          },
+          "value": {
+            "valueQuantity": {
+              "value": 32,
+              "system": "http://unitsofmeasure.org",
+              "code": "a",
+              "unit": "a"
+            }
+          }
+        },
+        {
+          "resource": "Observation/x-f2d6d494e27bdce06d395d27852bad",
+          "concept": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:trialgpt:clinical:v1",
+                "code": "male_or_female",
+                "display": "male or female"
+              }
+            ],
+            "text": "male or female"
+          },
+          "value": {
+            "valueBoolean": true
+          }
+        },
+        {
+          "resource": "Observation/x-e2ba9830fd70159abb3510d8f26ef2",
+          "concept": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:trialgpt:clinical:v1",
+                "code": "woman",
+                "display": "woman"
+              }
+            ],
+            "text": "woman"
+          },
+          "value": {
+            "valueBoolean": false
+          }
+        }
+      ]
+    },
+    "sigir-201522": {
+      "summary": "A 65-year-old male complains of productive cough with tinges of blood. Chest X-ray reveals a round opaque mass within a cavity in his lung. Culture of the sputum revealed fungal elements.",
+      "summary_sha256": "5538e1879a7bb92f50f229c6cfa1d2c55ec16865d1b26b59f94ad27a900bfad4",
+      "subject_id": "sigir-201522",
+      "topic": "22",
+      "year": "2015",
+      "locator": "/topics/topic[@number='22']/summary",
+      "xml_sha256": "511f8992b7b2676a14a14cf556b2995a1084004691f2e7c031151d3eeac4e59c",
+      "source_url": "https://trec-cds.org/topics2015A.xml",
+      "subject": "Patient/sigir-201522",
+      "assigned": [
+        "935",
+        "936",
+        "938",
+        "939",
+        "940",
+        "945",
+        "946",
+        "952",
+        "953",
+        "955",
+        "957"
+      ],
+      "source_resource_type": "Patient",
+      "added_source_digest": "5538e1879a7bb92f50f229c6cfa1d2c55ec16865d1b26b59f94ad27a900bfad4",
+      "separately_ingested_clinical_facts": [
+        {
+          "resource": "Observation/x-62a90d4b6f47cc4eb52dd1a4aeb42d",
+          "concept": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:trialgpt:clinical:v1",
+                "code": "age-at-presentation",
+                "display": "age at presentation"
+              },
+              {
+                "system": "http://loinc.org",
+                "code": "30525-0",
+                "display": "Age"
+              }
+            ],
+            "text": "age at presentation"
+          },
+          "value": {
+            "valueQuantity": {
+              "value": 65,
+              "system": "http://unitsofmeasure.org",
+              "code": "a",
+              "unit": "a"
+            }
+          }
+        },
+        {
+          "resource": "Observation/x-16bce931fe1872bad3cb54ac59aabc",
+          "concept": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:trialgpt:clinical:v1",
+                "code": "male_or_female",
+                "display": "male or female"
+              }
+            ],
+            "text": "male or female"
+          },
+          "value": {
+            "valueBoolean": true
+          }
+        },
+        {
+          "resource": "Observation/x-c702503808cc1f001acfbec92f3029",
+          "concept": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:trialgpt:clinical:v1",
+                "code": "woman",
+                "display": "woman"
+              }
+            ],
+            "text": "woman"
+          },
+          "value": {
+            "valueBoolean": false
+          }
+        }
+      ]
+    },
+    "sigir-201523": {
+      "summary": "An 18-year-old male returned from Asia a week ago. He presents with high fever, severe headache and joint pain. His blood analysis reveals leukopenia, increased hematocrit and thrombocytopenia.",
+      "summary_sha256": "6f8a975cda6016ea5187ed1b57debd8a94ac3a23903c8de06671be80efb7cb70",
+      "subject_id": "sigir-201523",
+      "topic": "23",
+      "year": "2015",
+      "locator": "/topics/topic[@number='23']/summary",
+      "xml_sha256": "511f8992b7b2676a14a14cf556b2995a1084004691f2e7c031151d3eeac4e59c",
+      "source_url": "https://trec-cds.org/topics2015A.xml",
+      "subject": "Patient/sigir-201523",
+      "assigned": [
+        "962",
+        "965"
+      ],
+      "review_note": "Blood counts are abnormal during the current encounter. The summary does not date a prior blood dyscrasia.",
+      "source_resource_type": "Patient",
+      "added_source_digest": "6f8a975cda6016ea5187ed1b57debd8a94ac3a23903c8de06671be80efb7cb70",
+      "separately_ingested_clinical_facts": [
+        {
+          "resource": "Observation/x-86167ab511308e22c7b7def3192300",
+          "concept": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:trialgpt:clinical:v1",
+                "code": "age-at-presentation",
+                "display": "age at presentation"
+              },
+              {
+                "system": "http://loinc.org",
+                "code": "30525-0",
+                "display": "Age"
+              }
+            ],
+            "text": "age at presentation"
+          },
+          "value": {
+            "valueQuantity": {
+              "value": 18,
+              "system": "http://unitsofmeasure.org",
+              "code": "a",
+              "unit": "a"
+            }
+          }
+        },
+        {
+          "resource": "Observation/x-493e12637fa7f177cd7bdf8d751433",
+          "concept": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:trialgpt:clinical:v1",
+                "code": "male_or_female",
+                "display": "male or female"
+              }
+            ],
+            "text": "male or female"
+          },
+          "value": {
+            "valueBoolean": true
+          }
+        },
+        {
+          "resource": "Observation/x-4c83bf1eebfa11b6e6727c9ce1a010",
+          "concept": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:trialgpt:clinical:v1",
+                "code": "woman",
+                "display": "woman"
+              }
+            ],
+            "text": "woman"
+          },
+          "value": {
+            "valueBoolean": false
+          }
+        }
+      ]
+    },
+    "sigir-201524": {
+      "summary": "A 31 year old male presents with productive cough, chest pain, fever and chills. On exam he has audible wheezing with decreased breath sounds and dullness to percussion.",
+      "summary_sha256": "8f26aece50bfefa3401b3a7670d8984f68f72c729ddd062017e51d2e4b797424",
+      "subject_id": "sigir-201524",
+      "topic": "24",
+      "year": "2015",
+      "locator": "/topics/topic[@number='24']/summary",
+      "xml_sha256": "511f8992b7b2676a14a14cf556b2995a1084004691f2e7c031151d3eeac4e59c",
+      "source_url": "https://trec-cds.org/topics2015A.xml",
+      "subject": "Patient/sigir-201524",
+      "assigned": [
+        "985"
+      ],
+      "source_resource_type": "Patient",
+      "added_source_digest": "8f26aece50bfefa3401b3a7670d8984f68f72c729ddd062017e51d2e4b797424",
+      "separately_ingested_clinical_facts": [
+        {
+          "resource": "Observation/x-0abdd29a344027a958f27779393eeb",
+          "concept": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:trialgpt:clinical:v1",
+                "code": "age-at-presentation",
+                "display": "age at presentation"
+              },
+              {
+                "system": "http://loinc.org",
+                "code": "30525-0",
+                "display": "Age"
+              }
+            ],
+            "text": "age at presentation"
+          },
+          "value": {
+            "valueQuantity": {
+              "value": 31,
+              "system": "http://unitsofmeasure.org",
+              "code": "a",
+              "unit": "a"
+            }
+          }
+        },
+        {
+          "resource": "Observation/x-26fdcabe60fc0d54808899d69d86c3",
+          "concept": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:trialgpt:clinical:v1",
+                "code": "male_or_female",
+                "display": "male or female"
+              }
+            ],
+            "text": "male or female"
+          },
+          "value": {
+            "valueBoolean": true
+          }
+        },
+        {
+          "resource": "Observation/x-33b44bc7e237181607b9a03df10b35",
+          "concept": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:trialgpt:clinical:v1",
+                "code": "woman",
+                "display": "woman"
+              }
+            ],
+            "text": "woman"
+          },
+          "value": {
+            "valueBoolean": false
+          }
+        }
+      ]
+    }
+  },
+  "cases": [
+    {
+      "case": "20",
+      "subject": "Patient/sigir-20141",
+      "study": "NCT01397994",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "25",
+      "subject": "Patient/sigir-20141",
+      "study": "NCT00149227",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "26",
+      "subject": "Patient/sigir-20141",
+      "study": "NCT00149227",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "29",
+      "subject": "Patient/sigir-20141",
+      "study": "NCT00149227",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "34",
+      "subject": "Patient/sigir-20142",
+      "study": "NCT02618655",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "36",
+      "subject": "Patient/sigir-20142",
+      "study": "NCT02618655",
+      "baseline": "AUTHORING_HOLD",
+      "with_summary": "AUTHORING_HOLD",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "44",
+      "subject": "Patient/sigir-20143",
+      "study": "NCT01452971",
+      "baseline": "MET",
+      "with_summary": "MET",
+      "changed_facts": {},
+      "summary_evidence": {
+        "Observation/x-f67b743e8e7f643ad7b8f267c97201": {
+          "document": "DocumentReference/sigir-20143-trec-summary",
+          "sha256": "b2f4e0434609d4c8372badc4d7fab11e76f7a8996decb0a1445442982bee5017",
+          "lines": [
+            0
+          ]
+        }
+      }
+    },
+    {
+      "case": "45",
+      "subject": "Patient/sigir-20143",
+      "study": "NCT01452971",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "46",
+      "subject": "Patient/sigir-20143",
+      "study": "NCT02490059",
+      "baseline": "AUTHORING_HOLD",
+      "with_summary": "AUTHORING_HOLD",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "55",
+      "subject": "Patient/sigir-20144",
+      "study": "NCT02390596",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {
+        "Observation/x-0f3ee41ab5b6ed8d94398e8608fc15": {
+          "document": "DocumentReference/sigir-20144-trec-summary",
+          "sha256": "5d8ef77f5f0e4293b95c019f3a9f3539cf67dc1f0ac6e3fb9617726b2c113a20",
+          "lines": [
+            0
+          ]
+        }
+      }
+    },
+    {
+      "case": "81",
+      "subject": "Patient/sigir-20144",
+      "study": "NCT00841789",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "108",
+      "subject": "Patient/sigir-20146",
+      "study": "NCT02512159",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "109",
+      "subject": "Patient/sigir-20146",
+      "study": "NCT02512159",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "111",
+      "subject": "Patient/sigir-20146",
+      "study": "NCT02512159",
+      "baseline": "AUTHORING_HOLD",
+      "with_summary": "AUTHORING_HOLD",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "115",
+      "subject": "Patient/sigir-20146",
+      "study": "NCT02512159",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "116",
+      "subject": "Patient/sigir-20146",
+      "study": "NCT02512159",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "120",
+      "subject": "Patient/sigir-20146",
+      "study": "NCT00015626",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "130",
+      "subject": "Patient/sigir-20147",
+      "study": "NCT00845988",
+      "baseline": "AUTHORING_HOLD",
+      "with_summary": "AUTHORING_HOLD",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "132",
+      "subject": "Patient/sigir-20147",
+      "study": "NCT00845988",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "138",
+      "subject": "Patient/sigir-20147",
+      "study": "NCT01863628",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "140",
+      "subject": "Patient/sigir-20147",
+      "study": "NCT01863628",
+      "baseline": "AUTHORING_HOLD",
+      "with_summary": "AUTHORING_HOLD",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "142",
+      "subject": "Patient/sigir-20148",
+      "study": "NCT01519271",
+      "baseline": "INVESTIGATOR_ACTIONS",
+      "with_summary": "INVESTIGATOR_ACTIONS",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "145",
+      "subject": "Patient/sigir-20148",
+      "study": "NCT01519271",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "147",
+      "subject": "Patient/sigir-20148",
+      "study": "NCT01519271",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "150",
+      "subject": "Patient/sigir-20148",
+      "study": "NCT01628315",
+      "baseline": "STUDY_ACTION",
+      "with_summary": "STUDY_ACTION",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "154",
+      "subject": "Patient/sigir-20149",
+      "study": "NCT02615912",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "155",
+      "subject": "Patient/sigir-20149",
+      "study": "NCT02615912",
+      "baseline": "MET",
+      "with_summary": "MET",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "171",
+      "subject": "Patient/sigir-201410",
+      "study": "NCT02097186",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "174",
+      "subject": "Patient/sigir-201410",
+      "study": "NCT02097186",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "177",
+      "subject": "Patient/sigir-201410",
+      "study": "NCT02264964",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "179",
+      "subject": "Patient/sigir-201410",
+      "study": "NCT02264964",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "184",
+      "subject": "Patient/sigir-201410",
+      "study": "NCT02264964",
+      "baseline": "AUTHORING_HOLD",
+      "with_summary": "AUTHORING_HOLD",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "185",
+      "subject": "Patient/sigir-201411",
+      "study": "NCT01526382",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "186",
+      "subject": "Patient/sigir-201411",
+      "study": "NCT01526382",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "187",
+      "subject": "Patient/sigir-201411",
+      "study": "NCT01526382",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "196",
+      "subject": "Patient/sigir-201411",
+      "study": "NCT01723137",
+      "baseline": "MET",
+      "with_summary": "MET",
+      "changed_facts": {},
+      "summary_evidence": {
+        "Observation/x-24e7f9b0ec3467d23f0e1b915e469d": {
+          "document": "DocumentReference/sigir-201411-trec-summary",
+          "sha256": "9e5c94b0d01f9d00c125e76ec0ca95bbf26a5ba5d30beec822b894fed424d772",
+          "lines": [
+            0
+          ]
+        }
+      }
+    },
+    {
+      "case": "203",
+      "subject": "Patient/sigir-201412",
+      "study": "NCT01551498",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "212",
+      "subject": "Patient/sigir-201413",
+      "study": "NCT02264769",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "217",
+      "subject": "Patient/sigir-201413",
+      "study": "NCT00163709",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "218",
+      "subject": "Patient/sigir-201413",
+      "study": "NCT00163709",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "226",
+      "subject": "Patient/sigir-201414",
+      "study": "NCT01624545",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "227",
+      "subject": "Patient/sigir-201414",
+      "study": "NCT01624545",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "230",
+      "subject": "Patient/sigir-201414",
+      "study": "NCT01869855",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {
+        "Observation/x-3468c9b28c51ee908b7577a217c4be": {
+          "document": "DocumentReference/sigir-201414-trec-summary",
+          "sha256": "6386be1f9bada21f94a4d396b75e9b38374d5b70ec32390e4fb194a84a1ebc97",
+          "lines": [
+            0
+          ]
+        }
+      }
+    },
+    {
+      "case": "231",
+      "subject": "Patient/sigir-201414",
+      "study": "NCT01869855",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "232",
+      "subject": "Patient/sigir-201414",
+      "study": "NCT01869855",
+      "baseline": "INVESTIGATOR_ACTIONS",
+      "with_summary": "INVESTIGATOR_ACTIONS",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "233",
+      "subject": "Patient/sigir-201414",
+      "study": "NCT01869855",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "235",
+      "subject": "Patient/sigir-201415",
+      "study": "NCT00277680",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "239",
+      "subject": "Patient/sigir-201415",
+      "study": "NCT00277680",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "307",
+      "subject": "Patient/sigir-201417",
+      "study": "NCT01745731",
+      "baseline": "AUTHORING_HOLD",
+      "with_summary": "AUTHORING_HOLD",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "322",
+      "subject": "Patient/sigir-201417",
+      "study": "NCT01745731",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "323",
+      "subject": "Patient/sigir-201417",
+      "study": "NCT02556359",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "328",
+      "subject": "Patient/sigir-201418",
+      "study": "NCT01260883",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "329",
+      "subject": "Patient/sigir-201418",
+      "study": "NCT01260883",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "330",
+      "subject": "Patient/sigir-201418",
+      "study": "NCT01260883",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "332",
+      "subject": "Patient/sigir-201418",
+      "study": "NCT01260883",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "336",
+      "subject": "Patient/sigir-201418",
+      "study": "NCT00557219",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "359",
+      "subject": "Patient/sigir-201419",
+      "study": "NCT02509286",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "366",
+      "subject": "Patient/sigir-201420",
+      "study": "NCT02255487",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "367",
+      "subject": "Patient/sigir-201420",
+      "study": "NCT02255487",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "379",
+      "subject": "Patient/sigir-201420",
+      "study": "NCT01594385",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "385",
+      "subject": "Patient/sigir-201421",
+      "study": "NCT00997100",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "396",
+      "subject": "Patient/sigir-201421",
+      "study": "NCT00997100",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "397",
+      "subject": "Patient/sigir-201421",
+      "study": "NCT00997100",
+      "baseline": "AUTHORING_HOLD",
+      "with_summary": "AUTHORING_HOLD",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "400",
+      "subject": "Patient/sigir-201421",
+      "study": "NCT00997100",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "401",
+      "subject": "Patient/sigir-201421",
+      "study": "NCT00997100",
+      "baseline": "AUTHORING_HOLD",
+      "with_summary": "AUTHORING_HOLD",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "402",
+      "subject": "Patient/sigir-201421",
+      "study": "NCT00997100",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "414",
+      "subject": "Patient/sigir-201421",
+      "study": "NCT01520155",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "418",
+      "subject": "Patient/sigir-201422",
+      "study": "NCT00723788",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "419",
+      "subject": "Patient/sigir-201422",
+      "study": "NCT00723788",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "435",
+      "subject": "Patient/sigir-201423",
+      "study": "NCT02219360",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "437",
+      "subject": "Patient/sigir-201423",
+      "study": "NCT00170222",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "454",
+      "subject": "Patient/sigir-201424",
+      "study": "NCT02229695",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {
+        "Observation/x-1c3d60b1bd2050fdf9d998903485ba": {
+          "document": "DocumentReference/sigir-201424-trec-summary",
+          "sha256": "290620d947ed2624d4b20e599821cd23faf63d2bdb86458f881c21f23f699519",
+          "lines": [
+            0
+          ]
+        }
+      }
+    },
+    {
+      "case": "460",
+      "subject": "Patient/sigir-201425",
+      "study": "NCT00282269",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "467",
+      "subject": "Patient/sigir-201425",
+      "study": "NCT00282269",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "468",
+      "subject": "Patient/sigir-201425",
+      "study": "NCT00282269",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "475",
+      "subject": "Patient/sigir-201425",
+      "study": "NCT02378311",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "476",
+      "subject": "Patient/sigir-201425",
+      "study": "NCT02378311",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "477",
+      "subject": "Patient/sigir-201425",
+      "study": "NCT02378311",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "481",
+      "subject": "Group/sigir-201426",
+      "study": "NCT00373048",
+      "baseline": "SOURCE_SCOPE_HOLD",
+      "with_summary": "SOURCE_SCOPE_HOLD",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "492",
+      "subject": "Group/sigir-201426",
+      "study": "NCT00497471",
+      "baseline": "SOURCE_SCOPE_HOLD",
+      "with_summary": "SOURCE_SCOPE_HOLD",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "493",
+      "subject": "Group/sigir-201426",
+      "study": "NCT00497471",
+      "baseline": "SOURCE_SCOPE_HOLD",
+      "with_summary": "SOURCE_SCOPE_HOLD",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "494",
+      "subject": "Group/sigir-201426",
+      "study": "NCT00497471",
+      "baseline": "SOURCE_SCOPE_HOLD",
+      "with_summary": "SOURCE_SCOPE_HOLD",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "495",
+      "subject": "Group/sigir-201426",
+      "study": "NCT00497471",
+      "baseline": "SOURCE_SCOPE_HOLD",
+      "with_summary": "SOURCE_SCOPE_HOLD",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "496",
+      "subject": "Group/sigir-201426",
+      "study": "NCT00497471",
+      "baseline": "SOURCE_SCOPE_HOLD",
+      "with_summary": "SOURCE_SCOPE_HOLD",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "497",
+      "subject": "Group/sigir-201426",
+      "study": "NCT00497471",
+      "baseline": "SOURCE_SCOPE_HOLD",
+      "with_summary": "SOURCE_SCOPE_HOLD",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "498",
+      "subject": "Group/sigir-201426",
+      "study": "NCT00497471",
+      "baseline": "AUTHORING_HOLD",
+      "with_summary": "AUTHORING_HOLD",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "502",
+      "subject": "Patient/sigir-201427",
+      "study": "NCT01187901",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "517",
+      "subject": "Patient/sigir-201427",
+      "study": "NCT01713881",
+      "baseline": "MET",
+      "with_summary": "MET",
+      "changed_facts": {},
+      "summary_evidence": {
+        "Observation/x-de41b63f191cd42ebe9c7d24155660": {
+          "document": "DocumentReference/sigir-201427-trec-summary",
+          "sha256": "ce55020ac162fe3675177331cc1959d18656c242830d845bfa807a46561e5527",
+          "lines": [
+            0
+          ]
+        }
+      }
+    },
+    {
+      "case": "544",
+      "subject": "Patient/sigir-201430",
+      "study": "NCT02273232",
+      "baseline": "AUTHORING_HOLD",
+      "with_summary": "AUTHORING_HOLD",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "577",
+      "subject": "Patient/sigir-20151",
+      "study": "NCT01142245",
+      "baseline": "MET",
+      "with_summary": "MET",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "621",
+      "subject": "Patient/sigir-20153",
+      "study": "NCT01326507",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "632",
+      "subject": "Patient/sigir-20153",
+      "study": "NCT01139632",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "633",
+      "subject": "Patient/sigir-20153",
+      "study": "NCT01139632",
+      "baseline": "MET",
+      "with_summary": "MET",
+      "changed_facts": {},
+      "summary_evidence": {
+        "Observation/x-940c5c18e38ecfc8c35bbe2f43cd4d": {
+          "document": "DocumentReference/sigir-20153-trec-summary",
+          "sha256": "5de0ce03bff86d18aeea046cc6c875fedd29985aa704200dabc7a70e370d9ff1",
+          "lines": [
+            0
+          ]
+        }
+      }
+    },
+    {
+      "case": "636",
+      "subject": "Patient/sigir-20154",
+      "study": "NCT01243255",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "637",
+      "subject": "Patient/sigir-20154",
+      "study": "NCT01243255",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "640",
+      "subject": "Patient/sigir-20154",
+      "study": "NCT00844987",
+      "baseline": "INVESTIGATOR_ACTIONS",
+      "with_summary": "INVESTIGATOR_ACTIONS",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "653",
+      "subject": "Patient/sigir-20156",
+      "study": "NCT02375451",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "671",
+      "subject": "Patient/sigir-20157",
+      "study": "NCT02633449",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "706",
+      "subject": "Patient/sigir-201510",
+      "study": "NCT02340533",
+      "baseline": "AUTHORING_HOLD",
+      "with_summary": "AUTHORING_HOLD",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "720",
+      "subject": "Patient/sigir-201510",
+      "study": "NCT01377519",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "722",
+      "subject": "Patient/sigir-201511",
+      "study": "NCT01862510",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "723",
+      "subject": "Patient/sigir-201511",
+      "study": "NCT01862510",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "724",
+      "subject": "Patient/sigir-201511",
+      "study": "NCT01862510",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "725",
+      "subject": "Patient/sigir-201511",
+      "study": "NCT01862510",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "726",
+      "subject": "Patient/sigir-201511",
+      "study": "NCT01862510",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "734",
+      "subject": "Patient/sigir-201512",
+      "study": "NCT02467309",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "735",
+      "subject": "Patient/sigir-201512",
+      "study": "NCT02467309",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "736",
+      "subject": "Patient/sigir-201512",
+      "study": "NCT02467309",
+      "baseline": "AUTHORING_HOLD",
+      "with_summary": "AUTHORING_HOLD",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "737",
+      "subject": "Patient/sigir-201512",
+      "study": "NCT02467309",
+      "baseline": "AUTHORING_HOLD",
+      "with_summary": "AUTHORING_HOLD",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "738",
+      "subject": "Patient/sigir-201512",
+      "study": "NCT02467309",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "795",
+      "subject": "Patient/sigir-201514",
+      "study": "NCT00827463",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "817",
+      "subject": "Patient/sigir-201515",
+      "study": "NCT01550588",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "850",
+      "subject": "Patient/sigir-201516",
+      "study": "NCT00839124",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "860",
+      "subject": "Patient/sigir-201517",
+      "study": "NCT01231945",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "866",
+      "subject": "Patient/sigir-201517",
+      "study": "NCT01446198",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "867",
+      "subject": "Patient/sigir-201517",
+      "study": "NCT01446198",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "870",
+      "subject": "Patient/sigir-201518",
+      "study": "NCT00344513",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "875",
+      "subject": "Patient/sigir-201518",
+      "study": "NCT00534066",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "890",
+      "subject": "Patient/sigir-201520",
+      "study": "NCT00182832",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "919",
+      "subject": "Patient/sigir-201521",
+      "study": "NCT01959048",
+      "baseline": "AUTHORING_HOLD",
+      "with_summary": "AUTHORING_HOLD",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "935",
+      "subject": "Patient/sigir-201522",
+      "study": "NCT02534727",
+      "baseline": "INVESTIGATOR_ACTIONS",
+      "with_summary": "INVESTIGATOR_ACTIONS",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "936",
+      "subject": "Patient/sigir-201522",
+      "study": "NCT02534727",
+      "baseline": "STUDY_ACTION",
+      "with_summary": "STUDY_ACTION",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "938",
+      "subject": "Patient/sigir-201522",
+      "study": "NCT02534727",
+      "baseline": "PATIENT_SURVEY",
+      "with_summary": "PATIENT_SURVEY",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "939",
+      "subject": "Patient/sigir-201522",
+      "study": "NCT02534727",
+      "baseline": "PATIENT_SURVEY",
+      "with_summary": "PATIENT_SURVEY",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "940",
+      "subject": "Patient/sigir-201522",
+      "study": "NCT02534727",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "945",
+      "subject": "Patient/sigir-201522",
+      "study": "NCT01207128",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "946",
+      "subject": "Patient/sigir-201522",
+      "study": "NCT01207128",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "952",
+      "subject": "Patient/sigir-201522",
+      "study": "NCT01207128",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "953",
+      "subject": "Patient/sigir-201522",
+      "study": "NCT01207128",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "955",
+      "subject": "Patient/sigir-201522",
+      "study": "NCT01207128",
+      "baseline": "INVESTIGATOR_ACTIONS",
+      "with_summary": "INVESTIGATOR_ACTIONS",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "957",
+      "subject": "Patient/sigir-201522",
+      "study": "NCT01207128",
+      "baseline": "INVESTIGATOR_ACTIONS",
+      "with_summary": "INVESTIGATOR_ACTIONS",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "962",
+      "subject": "Patient/sigir-201523",
+      "study": "NCT00084240",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "965",
+      "subject": "Patient/sigir-201523",
+      "study": "NCT00084240",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {}
+    },
+    {
+      "case": "985",
+      "subject": "Patient/sigir-201524",
+      "study": "NCT00711399",
+      "baseline": "MISSING_DATA",
+      "with_summary": "MISSING_DATA",
+      "changed_facts": {},
+      "summary_evidence": {}
+    }
+  ]
+}

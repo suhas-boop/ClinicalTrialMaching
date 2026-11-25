@@ -1,0 +1,144 @@
+{
+  "numbered_criteria": 272,
+  "typed_suites": {
+    "FOG-001-301": {
+      "rules": 45,
+      "cases": 252,
+      "outcomes": {
+        "MET": 65,
+        "NOT_MET": 87,
+        "STUDY_ACTION": 7,
+        "NOT_APPLICABLE": 48,
+        "MISSING_DATA": 24,
+        "INVESTIGATOR_ACTIONS": 11,
+        "PATIENT_SURVEY": 4,
+        "AUTHORING_HOLD": 6
+      }
+    },
+    "NEOK001-1": {
+      "rules": 38,
+      "cases": 179,
+      "outcomes": {
+        "MET": 59,
+        "NOT_MET": 66,
+        "MISSING_DATA": 27,
+        "AUTHORING_HOLD": 10,
+        "STUDY_ACTION": 3,
+        "PATIENT_SURVEY": 3,
+        "NOT_APPLICABLE": 2,
+        "INVESTIGATOR_ACTIONS": 9
+      }
+    },
+    "DB-1311-O-1001": {
+      "rules": 42,
+      "cases": 232,
+      "outcomes": {
+        "MET": 73,
+        "NOT_MET": 82,
+        "STUDY_ACTION": 15,
+        "MISSING_DATA": 27,
+        "INVESTIGATOR_ACTIONS": 7,
+        "AUTHORING_HOLD": 4,
+        "PATIENT_SURVEY": 5,
+        "NOT_APPLICABLE": 19
+      }
+    },
+    "1479-0032": {
+      "rules": 28,
+      "cases": 153,
+      "outcomes": {
+        "MET": 56,
+        "NOT_MET": 51,
+        "MISSING_DATA": 22,
+        "STUDY_ACTION": 5,
+        "AUTHORING_HOLD": 11,
+        "INVESTIGATOR_ACTIONS": 4,
+        "PATIENT_SURVEY": 3,
+        "NOT_APPLICABLE": 1
+      }
+    },
+    "REC-1245-101": {
+      "rules": 31,
+      "cases": 120,
+      "outcomes": {
+        "MET": 45,
+        "NOT_MET": 42,
+        "AUTHORING_HOLD": 10,
+        "MISSING_DATA": 13,
+        "PATIENT_SURVEY": 4,
+        "STUDY_ACTION": 2,
+        "NOT_APPLICABLE": 3,
+        "INVESTIGATOR_ACTIONS": 1
+      },
+      "supplemental": {
+        "rules": 17,
+        "cases": 34,
+        "outcomes": {
+          "MET": 18,
+          "STUDY_ACTION": 2,
+          "NOT_MET": 8,
+          "AUTHORING_HOLD": 1,
+          "NOT_APPLICABLE": 4,
+          "INVESTIGATOR_ACTIONS": 1
+        }
+      }
+    },
+    "PH-L19TNFDOX2": {
+      "rules": 43,
+      "cases": 175,
+      "outcomes": {
+        "MET": 54,
+        "NOT_MET": 68,
+        "MISSING_DATA": 30,
+        "INVESTIGATOR_ACTIONS": 10,
+        "PATIENT_SURVEY": 5,
+        "NOT_APPLICABLE": 3,
+        "AUTHORING_HOLD": 5
+      }
+    }
+  },
+  "cross_study_controls": {
+    "inclusive boundary": "MET",
+    "below boundary": "NOT_MET",
+    "disabled mapping": "BINDING_HOLD",
+    "different patient": "MISSING_DATA",
+    "different episode": "MISSING_DATA",
+    "future event": "MISSING_DATA",
+    "unsigned source link": "MISSING_DATA",
+    "provisional result": "MISSING_DATA",
+    "wrong signer": "MISSING_DATA",
+    "incorrect unit namespace": "MISSING_DATA",
+    "boolean masquerading as number": "MISSING_DATA",
+    "conflicting observations": "MISSING_DATA",
+    "conflicting version rejected": true,
+    "missing is indeterminate under negation": "MISSING_DATA",
+    "fact-qualified applicability": "NOT_APPLICABLE",
+    "explicit unresolved interpretation": "AUTHORING_HOLD",
+    "historical protocol cannot screen current patients": true
+  },
+  "retained_focal_suite": {
+    "normalized_criterion_cases": 274,
+    "normalized_including_integrity": 285,
+    "native_checks": {
+      "prescreen_disease": 66,
+      "organ": 44,
+      "heart_rate": 43,
+      "drug_exposure": 31
+    },
+    "checked_whole_study_packets": 47,
+    "michigan_frozen_decisions": 114,
+    "protocol_clarification_branches": {
+      "106S01": [
+        "I06",
+        "I11",
+        "I18",
+        "E08",
+        "E11",
+        "E14"
+      ],
+      "NCT05653388": [
+        "MI-LMS-02"
+      ]
+    }
+  }
+}

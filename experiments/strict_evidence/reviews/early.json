@@ -1,0 +1,435 @@
+[
+  {
+    "case": "20",
+    "lines": [
+      8
+    ],
+    "blocker": "Future compliance with the study is stated. There is no location, travel assessment or demonstrated ability to reach treatment and follow-up.",
+    "classification": "source_scope"
+  },
+  {
+    "case": "25",
+    "lines": [
+      0,
+      3,
+      6
+    ],
+    "blocker": "Hypertension is documented. Its severity, malignant course and secondary cause are uncharacterized. The general examination supplies no blood pressure or etiology.",
+    "classification": "missing_patient_fact"
+  },
+  {
+    "case": "26",
+    "lines": [
+      0
+    ],
+    "blocker": "The patient is described as a 58-year-old woman. Neither current pregnancy nor childbearing potential is settled by this age and description.",
+    "classification": "missing_patient_fact"
+  },
+  {
+    "case": "29",
+    "lines": [
+      3,
+      6
+    ],
+    "blocker": "The note documents hypertension and a normal physical examination. It gives no serum creatinine result to compare with 3.0 mg/dL.",
+    "classification": "missing_patient_fact"
+  },
+  {
+    "case": "34",
+    "lines": [
+      0,
+      2,
+      4,
+      5
+    ],
+    "blocker": "Fever and respiratory findings are documented. The infiltrates have no established cause. Neither an infectious diagnosis nor a noninfectious cause is established.",
+    "classification": "missing_patient_fact"
+  },
+  {
+    "case": "36",
+    "lines": [
+      0,
+      6
+    ],
+    "blocker": "ER presentation and future willingness to comply provide no discharge disposition. The registry uses automatic discharge without defining its type or assessment time.",
+    "classification": "protocol_authority"
+  },
+  {
+    "case": "44",
+    "lines": [
+      0
+    ],
+    "blocker": "The note records age 58. This directly clears the under-18 exclusion.",
+    "classification": "supported"
+  },
+  {
+    "case": "45",
+    "lines": [
+      0,
+      2
+    ],
+    "blocker": "A lung mass on chest x-ray and a separately imaged frontal mass leave the diagnosis open. Neither establishes or excludes lung cancer.",
+    "classification": "missing_patient_fact"
+  },
+  {
+    "case": "46",
+    "lines": [
+      0,
+      2
+    ],
+    "blocker": "The lung finding is on chest x-ray. The CT targets the head. Neither documents a lung nodule on CT, and the registry leaves the recent-CT interval undefined.",
+    "classification": "protocol_authority"
+  },
+  {
+    "case": "55",
+    "lines": [
+      0
+    ],
+    "blocker": "Age two years rules out current neonatal and current preterm-newborn status. The note describes a boy but supplies no documented pregnancy nonapplicability under the existing strict contract.",
+    "classification": "missing_patient_fact"
+  },
+  {
+    "case": "81",
+    "lines": [
+      0,
+      1,
+      3,
+      4
+    ],
+    "blocker": "Five days of fever, inflammatory findings and coronary changes do not establish severe infection. No screening/baseline dates or qualifying infection assessment resolve either interval.",
+    "classification": "missing_patient_fact"
+  },
+  {
+    "case": "108",
+    "lines": [
+      0,
+      2,
+      3
+    ],
+    "blocker": "The painful enlarging lesion and diabetes history contain no hemodynamic examination or stability assessment.",
+    "classification": "missing_patient_fact"
+  },
+  {
+    "case": "109",
+    "lines": [
+      0,
+      2,
+      3
+    ],
+    "blocker": "A draining leg lesion does not establish or exclude systemic infection with septic shock. No shock assessment or systemic findings are supplied.",
+    "classification": "missing_patient_fact"
+  },
+  {
+    "case": "111",
+    "lines": [
+      2,
+      3
+    ],
+    "blocker": "No enteral fistula or causal relationship is stated. The registry leaves unresolved whether the fistula must cause the ulcer or merely coexist.",
+    "classification": "protocol_authority"
+  },
+  {
+    "case": "115",
+    "lines": [
+      0,
+      2,
+      3
+    ],
+    "blocker": "Diabetes and an oozing leg lesion are recorded without an attributed cause. Both leishmaniasis and an insect bite remain unassessed.",
+    "classification": "missing_patient_fact"
+  },
+  {
+    "case": "116",
+    "lines": [
+      2,
+      3
+    ],
+    "blocker": "The topical treatments and lesion progression provide neither a burn history nor another documented cause that resolves the burn relationship.",
+    "classification": "missing_patient_fact"
+  },
+  {
+    "case": "120",
+    "lines": [
+      0
+    ],
+    "blocker": "This patient's own diabetes and elevated HbA1c establish neither a qualifying parent/sibling relationship nor OGTT/IVGTT-documented insulin resistance in an index subject.",
+    "classification": "missing_patient_fact"
+  },
+  {
+    "case": "130",
+    "lines": [
+      0,
+      1,
+      2,
+      4,
+      5
+    ],
+    "blocker": "Bipolar history and distress about eating give no diagnosis of an eating disorder, substance abuse or psychotic disorder. The registry groups the three in a single undifferentiated bullet.",
+    "classification": "protocol_authority"
+  },
+  {
+    "case": "132",
+    "lines": [
+      0
+    ],
+    "blocker": "The patient is identified as a woman. Neither current pregnancy nor breastfeeding status is documented.",
+    "classification": "missing_patient_fact"
+  },
+  {
+    "case": "138",
+    "lines": [
+      0,
+      5
+    ],
+    "blocker": "Lithium and zolpidem are the specified current medications. The list gives no complete lifetime history of antipsychotic treatment.",
+    "classification": "missing_patient_fact"
+  },
+  {
+    "case": "140",
+    "lines": [
+      0
+    ],
+    "blocker": "Neither pregnancy nor lactation status is recorded. The original study lists pregnancy and lactation in one bullet without specifying whether either alone excludes.",
+    "classification": "protocol_authority"
+  },
+  {
+    "case": "142",
+    "lines": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "blocker": "The neurologic exam reports severe deficits. The study specifically requires its personnel to assess current symptoms of mild impairment. Neither a site assessment nor a study-defined negative result is recorded.",
+    "classification": "study_action"
+  },
+  {
+    "case": "145",
+    "lines": [
+      0,
+      1,
+      5
+    ],
+    "blocker": "The cognitive assessment and intent to consent provide no active suicidal ideation assessment or denial.",
+    "classification": "missing_patient_fact"
+  },
+  {
+    "case": "147",
+    "lines": [
+      3,
+      4
+    ],
+    "blocker": "Neuroimaging and a cortical biopsy are documented. Neither is a history of deep brain stimulation, and no comprehensive surgical history is supplied.",
+    "classification": "missing_patient_fact"
+  },
+  {
+    "case": "150",
+    "lines": [
+      0,
+      5
+    ],
+    "blocker": "The note records a neurology consultation and intent to participate. Neither prior enrollment in the blinded ASA study nor entry into its extension is documented.",
+    "classification": "study_action"
+  },
+  {
+    "case": "154",
+    "lines": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "blocker": "The registry gives no operational definition equating general health with the separate skin exclusion. The observed lesions and their colors establish neither healthy-subject status nor baseline Fitzpatrick I, II or III. Benign lesions and a healthy subject can coexist.",
+    "classification": "source_scope"
+  },
+  {
+    "case": "155",
+    "lines": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "blocker": "Multiple observed neck lesions satisfy the skin-condition branch of the supplied positive OR predicate. Other branches are unnecessary. The historical registry instead lists this sentence under exclusion, so retain that separate polarity conflict.",
+    "classification": "supported"
+  },
+  {
+    "case": "171",
+    "lines": [
+      0,
+      1,
+      2
+    ],
+    "blocker": "Femoral arterial catheterization and its local findings establish neither INR nor systemic anticoagulation. No component of the hepatic-disease definition is settled.",
+    "classification": "missing_patient_fact"
+  },
+  {
+    "case": "174",
+    "lines": [
+      0,
+      2
+    ],
+    "blocker": "The procedure was via the right femoral artery. The note gives no axillary operation and no comprehensive prior surgical history.",
+    "classification": "source_scope"
+  },
+  {
+    "case": "177",
+    "lines": [
+      0,
+      2
+    ],
+    "blocker": "The recent procedure used the femoral artery. It supplies neither a central venous procedure nor subsequent maintenance hemodialysis.",
+    "classification": "source_scope"
+  },
+  {
+    "case": "179",
+    "lines": [
+      0,
+      2
+    ],
+    "blocker": "The documented access is arterial. It does not exclude a separate previous central venous puncture or catheterization.",
+    "classification": "source_scope"
+  },
+  {
+    "case": "184",
+    "lines": [
+      0,
+      2,
+      3
+    ],
+    "blocker": "The local complication and future compliance are documented. The registry supplies no designated decision-maker or study determination of other inappropriate situation.",
+    "classification": "protocol_authority"
+  },
+  {
+    "case": "185",
+    "lines": [
+      0,
+      2,
+      3
+    ],
+    "blocker": "Hypotension, tachycardia and tachypnea are documented. No diagnosis of shock or ARDS is recorded. The registry's shock definition also requires vasopressor/resuscitation and hypoperfusion evidence; its ARDS definition requires gas exchange, chest imaging and ventilatory findings.",
+    "classification": "missing_patient_fact"
+  },
+  {
+    "case": "186",
+    "lines": [
+      2,
+      3
+    ],
+    "blocker": "The examination says tachycardic. Blood pressure 80/60 is a different measurement. A patient-specific heart rate in beats/minute is unavailable.",
+    "classification": "missing_patient_fact"
+  },
+  {
+    "case": "187",
+    "lines": [
+      2,
+      3
+    ],
+    "blocker": "Tachypnea is documented qualitatively. The note gives no measured respiratory rate or PaCO2, and no ventilator use or explicit status. None of the three OR branches can be evaluated definitively.",
+    "classification": "missing_patient_fact"
+  },
+  {
+    "case": "196",
+    "lines": [
+      0
+    ],
+    "blocker": "Age 40 directly clears the under-18 exclusion.",
+    "classification": "supported"
+  },
+  {
+    "case": "203",
+    "lines": [
+      0,
+      2,
+      3,
+      4
+    ],
+    "blocker": "Fatigue, cold intolerance and a cervical mass provide no thyroid peroxidase antibody test or result.",
+    "classification": "missing_patient_fact"
+  },
+  {
+    "case": "212",
+    "lines": [
+      6
+    ],
+    "blocker": "A promise to provide informed consent identifies future intent. It does not record the patient's current disposition regarding written consent at this screening visit.",
+    "classification": "source_scope"
+  },
+  {
+    "case": "217",
+    "lines": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "blocker": "Acute dyspnea follows a recent delivery, with a normal chest x-ray and CBC. No trauma denial, mechanism or clinical determination links or excludes trauma as the cause.",
+    "classification": "missing_patient_fact"
+  },
+  {
+    "case": "218",
+    "lines": [
+      0,
+      1,
+      3,
+      5
+    ],
+    "blocker": "Generally healthy past history and a normal CBC supply no presentation serum creatinine in either supported unit. Neither satisfies the quantitative exclusion.",
+    "classification": "missing_patient_fact"
+  },
+  {
+    "case": "226",
+    "lines": [
+      0,
+      1,
+      3
+    ],
+    "blocker": "A normal head CT three weeks before admission and subsequent decline give no recurrence assessment or first surgery date relative to study start. Neither component is proven false or true.",
+    "classification": "missing_patient_fact"
+  },
+  {
+    "case": "227",
+    "lines": [
+      0,
+      1,
+      3
+    ],
+    "blocker": "The earlier accident and normal CT do not establish current chronic subdural hematoma or its cause. No evaluation identifies or rules out a spontaneous spinal CSF fistula or meningeosis carcinomatosa.",
+    "classification": "missing_patient_fact"
+  },
+  {
+    "case": "230",
+    "lines": [
+      0,
+      1,
+      3
+    ],
+    "blocker": "Age 85 satisfies the age limb. Declining consciousness after an accident and a normal prior CT leave symptomatic chronic subdural hematoma unconfirmed.",
+    "classification": "missing_patient_fact"
+  },
+  {
+    "case": "231",
+    "lines": [
+      0,
+      1,
+      3
+    ],
+    "blocker": "The CT was normal at the accident three weeks earlier. No CT/MRI at the current presentation verifies or excludes a subsequently developed chronic subdural hematoma.",
+    "classification": "source_scope"
+  },
+  {
+    "case": "232",
+    "lines": [
+      0,
+      1,
+      3
+    ],
+    "blocker": "The patient presents with altered consciousness and an earlier normal scan. No operation or intraoperative surgeon decision on craniotomy is documented.",
+    "classification": "study_action"
+  }
+]

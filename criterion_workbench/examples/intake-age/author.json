@@ -1,0 +1,33 @@
+{
+  "study": "POCKETMD-SYNTHETIC-AGE",
+  "criterion_id": "POCKETMD-SYNTHETIC-AGE-I01",
+  "protocol_sha256": "a790fab4e66eff8254b7d3a57eb038eb4b503f3c9dc357b98f3dab3eadd0d9f3",
+  "catalog_version": "four-study-r4",
+  "polarity": "inclusion",
+  "disposition": "EXECUTABLE",
+  "clinical_questions": [],
+  "bindings": [
+    {
+      "fact": "age",
+      "status": "BOUND",
+      "catalog_key": "age"
+    }
+  ],
+  "obligations": [
+    {
+      "id": "age-at-screen",
+      "statement": "At least 21 completed years at screening.",
+      "source_locator": "Synthetic protocol v1, PDF page 1, Section 2.1, inclusion criterion 1"
+    }
+  ],
+  "draft": {
+    "fact": "age",
+    "operator": "ge",
+    "threshold": 21
+  },
+  "executable": {
+    "fact": "age",
+    "operator": "ge",
+    "threshold": 21
+  }
+}

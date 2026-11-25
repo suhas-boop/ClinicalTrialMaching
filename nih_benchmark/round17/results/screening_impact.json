@@ -1,0 +1,13 @@
+{
+  "patient_study_pairs": 68,
+  "dispositions": {
+    "CONTINUE_SCREENING": 62,
+    "NOT_ELIGIBLE_AT_PRESENTATION": 6
+  },
+  "decisive_reasons": {
+    "registered_age_window": 5,
+    "required_fever_duration": 1
+  },
+  "unresolved_criterion_rows_in_ruled_out_pairs": 13,
+  "of_these_rows_with_definitive_physician_reference": 11
+}

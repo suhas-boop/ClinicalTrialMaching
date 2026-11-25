@@ -1,0 +1,707 @@
+{
+  "joined_subjects": 53,
+  "subjects_with_official_addenda": 15,
+  "subjects_with_assigned_rules_and_addenda": 13,
+  "supplemental_subjects_without_assigned_rules": [
+    "sigir-201513",
+    "sigir-201519"
+  ],
+  "assigned_criteria_replayed_per_arm": 41,
+  "frozen": {
+    "MISSING_DATA": 30,
+    "AUTHORING_HOLD": 5,
+    "INVESTIGATOR_ACTIONS": 3,
+    "STUDY_ACTION": 1,
+    "PATIENT_SURVEY": 2
+  },
+  "supplement_attached_only": {
+    "MISSING_DATA": 30,
+    "AUTHORING_HOLD": 5,
+    "INVESTIGATOR_ACTIONS": 3,
+    "STUDY_ACTION": 1,
+    "PATIENT_SURVEY": 2
+  },
+  "supplement_projected": {
+    "MISSING_DATA": 30,
+    "AUTHORING_HOLD": 5,
+    "INVESTIGATOR_ACTIONS": 3,
+    "STUDY_ACTION": 1,
+    "PATIENT_SURVEY": 2
+  },
+  "eligibility_state_changes": [],
+  "clinical_operand_changes": [],
+  "subjects_with_extracted_supplemental_facts": [
+    "sigir-201511"
+  ],
+  "subjects": {
+    "sigir-201421": {
+      "wording": "lupus",
+      "source_url": "https://trec-cds.org/2015.html",
+      "source_sha256": "2c64eda9900fed3f0c09f269dfad41ae4f50c1c1af3321bc8e137869af130f69",
+      "locator": "Example treatment topic, paragraph immediately after examples table",
+      "frozen_note_sha256": "5a9a482e5e1a855f91d433f92f8171f5ad2ae2feb5c2c6c5cdffe3511d13c5e7",
+      "composite_sha256": "14967585bfcb3845c49d7f926248c9042e965797af2c5850f1b111476e97b5ba",
+      "wording_in_composite": [
+        572,
+        577
+      ],
+      "projection_template": "The patient has {verbatim diagnosis}.",
+      "source_fhir": "DocumentReference/sigir-201421-trec-diagnosis",
+      "clinical_facts_extracted_from_diagnosis": []
+    },
+    "sigir-201511": {
+      "wording": "Hypothyroidism",
+      "source_url": "https://trec-cds.org/topics2015B.xml",
+      "source_sha256": "7bc4bbe801f9d1ada3574aa7be5a8b0ccd20594a957f6feda38f378e93ff67ee",
+      "locator": "/topics/topic[@number='11']/diagnosis",
+      "frozen_note_sha256": "ad0a2bc2a07981a7a1ba8f2f29c053736de00c07c9451a895e308e0eb5f2550a",
+      "composite_sha256": "160cf788fbb20b52d6611b1ab84863208c780691cd1f90483fd95c10fc9cc688",
+      "wording_in_composite": [
+        522,
+        536
+      ],
+      "projection_template": "The patient carries a diagnosis of {verbatim diagnosis}.",
+      "source_fhir": "DocumentReference/sigir-201511-trec-diagnosis",
+      "clinical_facts_extracted_from_diagnosis": [
+        {
+          "subject": "Patient/sigir-201511",
+          "resource": "Condition/x-f0e70c304a66614d0689bdafe1b030",
+          "document": "DocumentReference/sigir-201511-note",
+          "sentences": [
+            5
+          ],
+          "context": "documented",
+          "excerpt": "The patient carries a diagnosis of Hypothyroidism.",
+          "spans": [
+            [
+              5,
+              487,
+              537
+            ]
+          ],
+          "start": 487,
+          "end": 537,
+          "producer": "prose-r12"
+        }
+      ]
+    },
+    "sigir-201512": {
+      "wording": "Bacterial Meningitis",
+      "source_url": "https://trec-cds.org/topics2015B.xml",
+      "source_sha256": "7bc4bbe801f9d1ada3574aa7be5a8b0ccd20594a957f6feda38f378e93ff67ee",
+      "locator": "/topics/topic[@number='12']/diagnosis",
+      "frozen_note_sha256": "302503e596b522c6e7b968016369eb43b97294996317a74204fc59fb4420716d",
+      "composite_sha256": "0d51c30d6f77e214fff5014894b78fd6ebc9312766eb1611eb083e9fd0bce0f5",
+      "wording_in_composite": [
+        431,
+        451
+      ],
+      "projection_template": "The patient has {verbatim diagnosis}.",
+      "source_fhir": "DocumentReference/sigir-201512-trec-diagnosis",
+      "clinical_facts_extracted_from_diagnosis": []
+    },
+    "sigir-201514": {
+      "wording": "Paroxysmal nocturnal hemoglobinuria",
+      "source_url": "https://trec-cds.org/topics2015B.xml",
+      "source_sha256": "7bc4bbe801f9d1ada3574aa7be5a8b0ccd20594a957f6feda38f378e93ff67ee",
+      "locator": "/topics/topic[@number='14']/diagnosis",
+      "frozen_note_sha256": "15f4ae4ac277be2315b46530d91485319f9c8d9e955b44706864e5ddd54b3c53",
+      "composite_sha256": "9dfd4cfc8e813767004af41534c10d3b614815b3f48170bb76bd206c75f0b807",
+      "wording_in_composite": [
+        1058,
+        1093
+      ],
+      "projection_template": "The patient has {verbatim diagnosis}.",
+      "source_fhir": "DocumentReference/sigir-201514-trec-diagnosis",
+      "clinical_facts_extracted_from_diagnosis": []
+    },
+    "sigir-201515": {
+      "wording": "Paroxysmal  atrial fibrillation",
+      "source_url": "https://trec-cds.org/topics2015B.xml",
+      "source_sha256": "7bc4bbe801f9d1ada3574aa7be5a8b0ccd20594a957f6feda38f378e93ff67ee",
+      "locator": "/topics/topic[@number='15']/diagnosis",
+      "frozen_note_sha256": "b25bac4dfc715f73e9ef9852088829e3c77bbbefdf498bdb34e5f4b5b5265a30",
+      "composite_sha256": "f7df40c6b3886fe875076a2440fe7afbb78c7afff10d430bb8bb99d9f152da80",
+      "wording_in_composite": [
+        818,
+        849
+      ],
+      "projection_template": "The patient has {verbatim diagnosis}.",
+      "source_fhir": "DocumentReference/sigir-201515-trec-diagnosis",
+      "clinical_facts_extracted_from_diagnosis": []
+    },
+    "sigir-201516": {
+      "wording": "Foreign Body Aspiration",
+      "source_url": "https://trec-cds.org/topics2015B.xml",
+      "source_sha256": "7bc4bbe801f9d1ada3574aa7be5a8b0ccd20594a957f6feda38f378e93ff67ee",
+      "locator": "/topics/topic[@number='16']/diagnosis",
+      "frozen_note_sha256": "73647117726ddf0a51bed80ad37b62461c236078840c12fe1d5ed52cf506724a",
+      "composite_sha256": "6d525db41fd156bfcd6b72dd463bacbe7dba9279f77767ae02d25db278c24762",
+      "wording_in_composite": [
+        720,
+        743
+      ],
+      "projection_template": "The patient has {verbatim diagnosis}.",
+      "source_fhir": "DocumentReference/sigir-201516-trec-diagnosis",
+      "clinical_facts_extracted_from_diagnosis": []
+    },
+    "sigir-201517": {
+      "wording": "Cervical Cancer precursor",
+      "source_url": "https://trec-cds.org/topics2015B.xml",
+      "source_sha256": "7bc4bbe801f9d1ada3574aa7be5a8b0ccd20594a957f6feda38f378e93ff67ee",
+      "locator": "/topics/topic[@number='17']/diagnosis",
+      "frozen_note_sha256": "979c0084e926434300939d9f6de81d59a3b40298094903699048867268e703b4",
+      "composite_sha256": "0ead978c230557d5f4aa36306513edfe09fdef64d96d53082f4be1dd06e18284",
+      "wording_in_composite": [
+        390,
+        415
+      ],
+      "projection_template": "The patient has {verbatim diagnosis}.",
+      "source_fhir": "DocumentReference/sigir-201517-trec-diagnosis",
+      "clinical_facts_extracted_from_diagnosis": []
+    },
+    "sigir-201518": {
+      "wording": "Congestive Heart Failure",
+      "source_url": "https://trec-cds.org/topics2015B.xml",
+      "source_sha256": "7bc4bbe801f9d1ada3574aa7be5a8b0ccd20594a957f6feda38f378e93ff67ee",
+      "locator": "/topics/topic[@number='18']/diagnosis",
+      "frozen_note_sha256": "c9b60d817b819ef688a8af674b13ecacd17ce2e9814b2bb70bc50bf5368afb3e",
+      "composite_sha256": "4a07fd28ba89136d81af7a29715957e4d29e18f314320be5ff1fc3c6f92301c7",
+      "wording_in_composite": [
+        497,
+        521
+      ],
+      "projection_template": "The patient has {verbatim diagnosis}.",
+      "source_fhir": "DocumentReference/sigir-201518-trec-diagnosis",
+      "clinical_facts_extracted_from_diagnosis": []
+    },
+    "sigir-201520": {
+      "wording": "Creutzfeldt-Jakob disease",
+      "source_url": "https://trec-cds.org/topics2015B.xml",
+      "source_sha256": "7bc4bbe801f9d1ada3574aa7be5a8b0ccd20594a957f6feda38f378e93ff67ee",
+      "locator": "/topics/topic[@number='20']/diagnosis",
+      "frozen_note_sha256": "9ed9c14c2723cba661bb535697b68507aec18368dfe8d62b158d7f7a171ec572",
+      "composite_sha256": "92e450f1bae12741802f78ddaf6e264d16401f1a9475cb52ad1cf97cf1ea19cb",
+      "wording_in_composite": [
+        1468,
+        1493
+      ],
+      "projection_template": "The patient has {verbatim diagnosis}.",
+      "source_fhir": "DocumentReference/sigir-201520-trec-diagnosis",
+      "clinical_facts_extracted_from_diagnosis": []
+    },
+    "sigir-201521": {
+      "wording": "Giardiasis",
+      "source_url": "https://trec-cds.org/topics2015B.xml",
+      "source_sha256": "7bc4bbe801f9d1ada3574aa7be5a8b0ccd20594a957f6feda38f378e93ff67ee",
+      "locator": "/topics/topic[@number='21']/diagnosis",
+      "frozen_note_sha256": "a3240c50f76b44e38d31c080058f4d94551935e9bd80c531bf490121a5c76e60",
+      "composite_sha256": "bf298569cd9267fcadc7a81ebe18a3d2e85c80afd8330c11ed9785afa269c483",
+      "wording_in_composite": [
+        541,
+        551
+      ],
+      "projection_template": "The patient has {verbatim diagnosis}.",
+      "source_fhir": "DocumentReference/sigir-201521-trec-diagnosis",
+      "clinical_facts_extracted_from_diagnosis": []
+    },
+    "sigir-201522": {
+      "wording": "Aspergillosis / Aspergilloma",
+      "source_url": "https://trec-cds.org/topics2015B.xml",
+      "source_sha256": "7bc4bbe801f9d1ada3574aa7be5a8b0ccd20594a957f6feda38f378e93ff67ee",
+      "locator": "/topics/topic[@number='22']/diagnosis",
+      "frozen_note_sha256": "1c4773785b16808dad463c95c334969b3049eb544ed7edf18844c3350609887b",
+      "composite_sha256": "ef65a222fb9d81c3f58bf3678c0795263258ab61d1ed54e8f267154d4b31588f",
+      "wording_in_composite": [
+        538,
+        566
+      ],
+      "projection_template": "The patient has {verbatim diagnosis}.",
+      "source_fhir": "DocumentReference/sigir-201522-trec-diagnosis",
+      "clinical_facts_extracted_from_diagnosis": []
+    },
+    "sigir-201523": {
+      "wording": "Dengue",
+      "source_url": "https://trec-cds.org/topics2015B.xml",
+      "source_sha256": "7bc4bbe801f9d1ada3574aa7be5a8b0ccd20594a957f6feda38f378e93ff67ee",
+      "locator": "/topics/topic[@number='23']/diagnosis",
+      "frozen_note_sha256": "05c36ab49e87f062f4a00d5f9ab4749c30343bae06ee419607f0cd55e7d30ed0",
+      "composite_sha256": "6a943b98d3a4d4a0ea1dde290070ae878e6a619e2e3a8afe6d95b7a1017dbfbc",
+      "wording_in_composite": [
+        429,
+        435
+      ],
+      "projection_template": "The patient has {verbatim diagnosis}.",
+      "source_fhir": "DocumentReference/sigir-201523-trec-diagnosis",
+      "clinical_facts_extracted_from_diagnosis": []
+    },
+    "sigir-201524": {
+      "wording": "Community Acquired Pneumonia (CAP)",
+      "source_url": "https://trec-cds.org/topics2015B.xml",
+      "source_sha256": "7bc4bbe801f9d1ada3574aa7be5a8b0ccd20594a957f6feda38f378e93ff67ee",
+      "locator": "/topics/topic[@number='24']/diagnosis",
+      "frozen_note_sha256": "38b654bd7978059e3f6e44a484cd5379e51c840ef13295969b075f50f7998f07",
+      "composite_sha256": "a1aa4d86dabc30f15bc97451a8a6d304104c09261fb05b2130b6e458a381a5fd",
+      "wording_in_composite": [
+        739,
+        773
+      ],
+      "projection_template": "The patient has {verbatim diagnosis}.",
+      "source_fhir": "DocumentReference/sigir-201524-trec-diagnosis",
+      "clinical_facts_extracted_from_diagnosis": []
+    }
+  },
+  "cases": [
+    {
+      "case": "385",
+      "study": "NCT00997100",
+      "subject": "sigir-201421",
+      "frozen": "MISSING_DATA",
+      "attached_only": "MISSING_DATA",
+      "expanded_source": "MISSING_DATA",
+      "clinical_operand_changes": {},
+      "expanded_evidence": [],
+      "expanded_source_hash_verified": true
+    },
+    {
+      "case": "396",
+      "study": "NCT00997100",
+      "subject": "sigir-201421",
+      "frozen": "MISSING_DATA",
+      "attached_only": "MISSING_DATA",
+      "expanded_source": "MISSING_DATA",
+      "clinical_operand_changes": {},
+      "expanded_evidence": [],
+      "expanded_source_hash_verified": true
+    },
+    {
+      "case": "397",
+      "study": "NCT00997100",
+      "subject": "sigir-201421",
+      "frozen": "AUTHORING_HOLD",
+      "attached_only": "AUTHORING_HOLD",
+      "expanded_source": "AUTHORING_HOLD",
+      "clinical_operand_changes": {},
+      "expanded_evidence": [],
+      "expanded_source_hash_verified": true
+    },
+    {
+      "case": "400",
+      "study": "NCT00997100",
+      "subject": "sigir-201421",
+      "frozen": "MISSING_DATA",
+      "attached_only": "MISSING_DATA",
+      "expanded_source": "MISSING_DATA",
+      "clinical_operand_changes": {},
+      "expanded_evidence": [],
+      "expanded_source_hash_verified": true
+    },
+    {
+      "case": "401",
+      "study": "NCT00997100",
+      "subject": "sigir-201421",
+      "frozen": "AUTHORING_HOLD",
+      "attached_only": "AUTHORING_HOLD",
+      "expanded_source": "AUTHORING_HOLD",
+      "clinical_operand_changes": {},
+      "expanded_evidence": [],
+      "expanded_source_hash_verified": true
+    },
+    {
+      "case": "402",
+      "study": "NCT00997100",
+      "subject": "sigir-201421",
+      "frozen": "MISSING_DATA",
+      "attached_only": "MISSING_DATA",
+      "expanded_source": "MISSING_DATA",
+      "clinical_operand_changes": {},
+      "expanded_evidence": [],
+      "expanded_source_hash_verified": true
+    },
+    {
+      "case": "414",
+      "study": "NCT01520155",
+      "subject": "sigir-201421",
+      "frozen": "MISSING_DATA",
+      "attached_only": "MISSING_DATA",
+      "expanded_source": "MISSING_DATA",
+      "clinical_operand_changes": {},
+      "expanded_evidence": [],
+      "expanded_source_hash_verified": true
+    },
+    {
+      "case": "722",
+      "study": "NCT01862510",
+      "subject": "sigir-201511",
+      "frozen": "MISSING_DATA",
+      "attached_only": "MISSING_DATA",
+      "expanded_source": "MISSING_DATA",
+      "clinical_operand_changes": {},
+      "expanded_evidence": [],
+      "expanded_source_hash_verified": true
+    },
+    {
+      "case": "723",
+      "study": "NCT01862510",
+      "subject": "sigir-201511",
+      "frozen": "MISSING_DATA",
+      "attached_only": "MISSING_DATA",
+      "expanded_source": "MISSING_DATA",
+      "clinical_operand_changes": {},
+      "expanded_evidence": [],
+      "expanded_source_hash_verified": true
+    },
+    {
+      "case": "724",
+      "study": "NCT01862510",
+      "subject": "sigir-201511",
+      "frozen": "MISSING_DATA",
+      "attached_only": "MISSING_DATA",
+      "expanded_source": "MISSING_DATA",
+      "clinical_operand_changes": {},
+      "expanded_evidence": [],
+      "expanded_source_hash_verified": true
+    },
+    {
+      "case": "725",
+      "study": "NCT01862510",
+      "subject": "sigir-201511",
+      "frozen": "MISSING_DATA",
+      "attached_only": "MISSING_DATA",
+      "expanded_source": "MISSING_DATA",
+      "clinical_operand_changes": {},
+      "expanded_evidence": [],
+      "expanded_source_hash_verified": true
+    },
+    {
+      "case": "726",
+      "study": "NCT01862510",
+      "subject": "sigir-201511",
+      "frozen": "MISSING_DATA",
+      "attached_only": "MISSING_DATA",
+      "expanded_source": "MISSING_DATA",
+      "clinical_operand_changes": {},
+      "expanded_evidence": [],
+      "expanded_source_hash_verified": true
+    },
+    {
+      "case": "734",
+      "study": "NCT02467309",
+      "subject": "sigir-201512",
+      "frozen": "MISSING_DATA",
+      "attached_only": "MISSING_DATA",
+      "expanded_source": "MISSING_DATA",
+      "clinical_operand_changes": {},
+      "expanded_evidence": [],
+      "expanded_source_hash_verified": true
+    },
+    {
+      "case": "735",
+      "study": "NCT02467309",
+      "subject": "sigir-201512",
+      "frozen": "MISSING_DATA",
+      "attached_only": "MISSING_DATA",
+      "expanded_source": "MISSING_DATA",
+      "clinical_operand_changes": {},
+      "expanded_evidence": [],
+      "expanded_source_hash_verified": true
+    },
+    {
+      "case": "736",
+      "study": "NCT02467309",
+      "subject": "sigir-201512",
+      "frozen": "AUTHORING_HOLD",
+      "attached_only": "AUTHORING_HOLD",
+      "expanded_source": "AUTHORING_HOLD",
+      "clinical_operand_changes": {},
+      "expanded_evidence": [],
+      "expanded_source_hash_verified": true
+    },
+    {
+      "case": "737",
+      "study": "NCT02467309",
+      "subject": "sigir-201512",
+      "frozen": "AUTHORING_HOLD",
+      "attached_only": "AUTHORING_HOLD",
+      "expanded_source": "AUTHORING_HOLD",
+      "clinical_operand_changes": {},
+      "expanded_evidence": [],
+      "expanded_source_hash_verified": true
+    },
+    {
+      "case": "738",
+      "study": "NCT02467309",
+      "subject": "sigir-201512",
+      "frozen": "MISSING_DATA",
+      "attached_only": "MISSING_DATA",
+      "expanded_source": "MISSING_DATA",
+      "clinical_operand_changes": {},
+      "expanded_evidence": [],
+      "expanded_source_hash_verified": true
+    },
+    {
+      "case": "795",
+      "study": "NCT00827463",
+      "subject": "sigir-201514",
+      "frozen": "MISSING_DATA",
+      "attached_only": "MISSING_DATA",
+      "expanded_source": "MISSING_DATA",
+      "clinical_operand_changes": {},
+      "expanded_evidence": [],
+      "expanded_source_hash_verified": true
+    },
+    {
+      "case": "817",
+      "study": "NCT01550588",
+      "subject": "sigir-201515",
+      "frozen": "MISSING_DATA",
+      "attached_only": "MISSING_DATA",
+      "expanded_source": "MISSING_DATA",
+      "clinical_operand_changes": {},
+      "expanded_evidence": [],
+      "expanded_source_hash_verified": true
+    },
+    {
+      "case": "850",
+      "study": "NCT00839124",
+      "subject": "sigir-201516",
+      "frozen": "MISSING_DATA",
+      "attached_only": "MISSING_DATA",
+      "expanded_source": "MISSING_DATA",
+      "clinical_operand_changes": {},
+      "expanded_evidence": [],
+      "expanded_source_hash_verified": true
+    },
+    {
+      "case": "860",
+      "study": "NCT01231945",
+      "subject": "sigir-201517",
+      "frozen": "MISSING_DATA",
+      "attached_only": "MISSING_DATA",
+      "expanded_source": "MISSING_DATA",
+      "clinical_operand_changes": {},
+      "expanded_evidence": [],
+      "expanded_source_hash_verified": true
+    },
+    {
+      "case": "866",
+      "study": "NCT01446198",
+      "subject": "sigir-201517",
+      "frozen": "MISSING_DATA",
+      "attached_only": "MISSING_DATA",
+      "expanded_source": "MISSING_DATA",
+      "clinical_operand_changes": {},
+      "expanded_evidence": [],
+      "expanded_source_hash_verified": true
+    },
+    {
+      "case": "867",
+      "study": "NCT01446198",
+      "subject": "sigir-201517",
+      "frozen": "MISSING_DATA",
+      "attached_only": "MISSING_DATA",
+      "expanded_source": "MISSING_DATA",
+      "clinical_operand_changes": {},
+      "expanded_evidence": [],
+      "expanded_source_hash_verified": true
+    },
+    {
+      "case": "870",
+      "study": "NCT00344513",
+      "subject": "sigir-201518",
+      "frozen": "MISSING_DATA",
+      "attached_only": "MISSING_DATA",
+      "expanded_source": "MISSING_DATA",
+      "clinical_operand_changes": {},
+      "expanded_evidence": [],
+      "expanded_source_hash_verified": true
+    },
+    {
+      "case": "875",
+      "study": "NCT00534066",
+      "subject": "sigir-201518",
+      "frozen": "MISSING_DATA",
+      "attached_only": "MISSING_DATA",
+      "expanded_source": "MISSING_DATA",
+      "clinical_operand_changes": {},
+      "expanded_evidence": [],
+      "expanded_source_hash_verified": true
+    },
+    {
+      "case": "890",
+      "study": "NCT00182832",
+      "subject": "sigir-201520",
+      "frozen": "MISSING_DATA",
+      "attached_only": "MISSING_DATA",
+      "expanded_source": "MISSING_DATA",
+      "clinical_operand_changes": {},
+      "expanded_evidence": [],
+      "expanded_source_hash_verified": true
+    },
+    {
+      "case": "919",
+      "study": "NCT01959048",
+      "subject": "sigir-201521",
+      "frozen": "AUTHORING_HOLD",
+      "attached_only": "AUTHORING_HOLD",
+      "expanded_source": "AUTHORING_HOLD",
+      "clinical_operand_changes": {},
+      "expanded_evidence": [],
+      "expanded_source_hash_verified": true
+    },
+    {
+      "case": "935",
+      "study": "NCT02534727",
+      "subject": "sigir-201522",
+      "frozen": "INVESTIGATOR_ACTIONS",
+      "attached_only": "INVESTIGATOR_ACTIONS",
+      "expanded_source": "INVESTIGATOR_ACTIONS",
+      "clinical_operand_changes": {},
+      "expanded_evidence": [],
+      "expanded_source_hash_verified": true
+    },
+    {
+      "case": "936",
+      "study": "NCT02534727",
+      "subject": "sigir-201522",
+      "frozen": "STUDY_ACTION",
+      "attached_only": "STUDY_ACTION",
+      "expanded_source": "STUDY_ACTION",
+      "clinical_operand_changes": {},
+      "expanded_evidence": [],
+      "expanded_source_hash_verified": true
+    },
+    {
+      "case": "938",
+      "study": "NCT02534727",
+      "subject": "sigir-201522",
+      "frozen": "PATIENT_SURVEY",
+      "attached_only": "PATIENT_SURVEY",
+      "expanded_source": "PATIENT_SURVEY",
+      "clinical_operand_changes": {},
+      "expanded_evidence": [],
+      "expanded_source_hash_verified": true
+    },
+    {
+      "case": "939",
+      "study": "NCT02534727",
+      "subject": "sigir-201522",
+      "frozen": "PATIENT_SURVEY",
+      "attached_only": "PATIENT_SURVEY",
+      "expanded_source": "PATIENT_SURVEY",
+      "clinical_operand_changes": {},
+      "expanded_evidence": [],
+      "expanded_source_hash_verified": true
+    },
+    {
+      "case": "940",
+      "study": "NCT02534727",
+      "subject": "sigir-201522",
+      "frozen": "MISSING_DATA",
+      "attached_only": "MISSING_DATA",
+      "expanded_source": "MISSING_DATA",
+      "clinical_operand_changes": {},
+      "expanded_evidence": [],
+      "expanded_source_hash_verified": true
+    },
+    {
+      "case": "945",
+      "study": "NCT01207128",
+      "subject": "sigir-201522",
+      "frozen": "MISSING_DATA",
+      "attached_only": "MISSING_DATA",
+      "expanded_source": "MISSING_DATA",
+      "clinical_operand_changes": {},
+      "expanded_evidence": [],
+      "expanded_source_hash_verified": true
+    },
+    {
+      "case": "946",
+      "study": "NCT01207128",
+      "subject": "sigir-201522",
+      "frozen": "MISSING_DATA",
+      "attached_only": "MISSING_DATA",
+      "expanded_source": "MISSING_DATA",
+      "clinical_operand_changes": {},
+      "expanded_evidence": [],
+      "expanded_source_hash_verified": true
+    },
+    {
+      "case": "952",
+      "study": "NCT01207128",
+      "subject": "sigir-201522",
+      "frozen": "MISSING_DATA",
+      "attached_only": "MISSING_DATA",
+      "expanded_source": "MISSING_DATA",
+      "clinical_operand_changes": {},
+      "expanded_evidence": [],
+      "expanded_source_hash_verified": true
+    },
+    {
+      "case": "953",
+      "study": "NCT01207128",
+      "subject": "sigir-201522",
+      "frozen": "MISSING_DATA",
+      "attached_only": "MISSING_DATA",
+      "expanded_source": "MISSING_DATA",
+      "clinical_operand_changes": {},
+      "expanded_evidence": [],
+      "expanded_source_hash_verified": true
+    },
+    {
+      "case": "955",
+      "study": "NCT01207128",
+      "subject": "sigir-201522",
+      "frozen": "INVESTIGATOR_ACTIONS",
+      "attached_only": "INVESTIGATOR_ACTIONS",
+      "expanded_source": "INVESTIGATOR_ACTIONS",
+      "clinical_operand_changes": {},
+      "expanded_evidence": [],
+      "expanded_source_hash_verified": true
+    },
+    {
+      "case": "957",
+      "study": "NCT01207128",
+      "subject": "sigir-201522",
+      "frozen": "INVESTIGATOR_ACTIONS",
+      "attached_only": "INVESTIGATOR_ACTIONS",
+      "expanded_source": "INVESTIGATOR_ACTIONS",
+      "clinical_operand_changes": {},
+      "expanded_evidence": [],
+      "expanded_source_hash_verified": true
+    },
+    {
+      "case": "962",
+      "study": "NCT00084240",
+      "subject": "sigir-201523",
+      "frozen": "MISSING_DATA",
+      "attached_only": "MISSING_DATA",
+      "expanded_source": "MISSING_DATA",
+      "clinical_operand_changes": {},
+      "expanded_evidence": [],
+      "expanded_source_hash_verified": true
+    },
+    {
+      "case": "965",
+      "study": "NCT00084240",
+      "subject": "sigir-201523",
+      "frozen": "MISSING_DATA",
+      "attached_only": "MISSING_DATA",
+      "expanded_source": "MISSING_DATA",
+      "clinical_operand_changes": {},
+      "expanded_evidence": [],
+      "expanded_source_hash_verified": true
+    },
+    {
+      "case": "985",
+      "study": "NCT00711399",
+      "subject": "sigir-201524",
+      "frozen": "MISSING_DATA",
+      "attached_only": "MISSING_DATA",
+      "expanded_source": "MISSING_DATA",
+      "clinical_operand_changes": {},
+      "expanded_evidence": [],
+      "expanded_source_hash_verified": true
+    }
+  ]
+}

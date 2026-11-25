@@ -1,0 +1,23 @@
+{
+  "entry_point": "python -B pocketmd.py respiratory-exam-score --out DIRECTORY",
+  "matched_case_keys_subjects_studies_and_source_digests": 134,
+  "unchanged_historical_states": 134,
+  "unchanged_r19_exam_states": 134,
+  "r19_output_byte_identical": true,
+  "r18_output_byte_identical": true,
+  "r20_two_independent_outputs_byte_identical": true,
+  "round20_control_groups": 5,
+  "passed_earlier_test_counts": {
+    "round19": 5,
+    "round18": 4,
+    "round14_top_level": 30,
+    "workbench": 190
+  },
+  "score_file_sha256": "2bb8875950e9738836a0ea81e92975112d51bd966825bd077ae3782520c28dd2",
+  "strict_decisive_agreements": 6,
+  "source_supported_exam_agreements": 7,
+  "adult_textbook_sensitivity_agreements": 8,
+  "lower_cutoff_sensitivity_agreements": 7,
+  "target_denominator": 91,
+  "scope": "The published 18/min observations illustrate a term-use conflict. They do not supply values to the benchmark patient."
+}

@@ -1,0 +1,73 @@
+{
+  "322": {
+    "policy": "trialgpt-literal-adult-description-r2",
+    "used": true,
+    "strict_state": "MISSING_DATA",
+    "trace": {
+      "criteria": {
+        "322": {
+          "state": "MET",
+          "reason": "Negated protocol condition. synthetic_vignette_literal_adult_women_cohort = False (requires eq True).",
+          "evidence": [
+            "Observation/x-85e389df28e4a610af51e890063ba5"
+          ],
+          "facts": {
+            "synthetic_vignette_literal_adult_women_cohort": {
+              "label": "synthetic_vignette_literal_adult_women_cohort",
+              "value": false,
+              "state": "AVAILABLE",
+              "evidence": [
+                "Observation/x-85e389df28e4a610af51e890063ba5"
+              ],
+              "contract": "f-f524fa08840b5df2a24d36bc"
+            },
+            "pregnant": {
+              "label": "pregnant",
+              "value": null,
+              "state": "MISSING_DATA",
+              "evidence": [],
+              "contract": "f-898914ae782cda111574ac88"
+            },
+            "woman_of_childbearing_age": {
+              "label": "woman_of_childbearing_age",
+              "value": null,
+              "state": "MISSING_DATA",
+              "evidence": [],
+              "contract": "f-bc5c2de31b767e001bbc4721"
+            },
+            "adequate_contraception": {
+              "label": "adequate_contraception",
+              "value": null,
+              "state": "MISSING_DATA",
+              "evidence": [],
+              "contract": "f-1591187e72568172498743d5"
+            }
+          },
+          "partial_evidence": [
+            "Observation/x-85e389df28e4a610af51e890063ba5"
+          ],
+          "source_sentences": [
+            0
+          ]
+        }
+      },
+      "requests": [],
+      "work": {
+        "evidence_backed_decisions": 1,
+        "human_questions": 0,
+        "record_lookups": 0,
+        "engineering_items": 0
+      },
+      "catalog_sha256": "ce05ed55ad9d7a476047f3cb2920039ad340208cd079c5dd763bab95e013feaf",
+      "source_sha256": "844349228fe841ce2694e062a791d890bf1ec69be986c3274ce2f92b88d12679"
+    },
+    "assumption": "For this synthetic eligibility question, the written male/man presentation descriptor places the subject outside both branches of the women-qualified exclusion.",
+    "source": "sigir-201417-note",
+    "source_sha256": "844349228fe841ce2694e062a791d890bf1ec69be986c3274ce2f92b88d12679",
+    "line": 0,
+    "literal": "male",
+    "source_excerpt": "0. A 48-year-old white male with history of common variable immunodeficiency (CVID) with acute abdominal pain, fever, dehydration, HR of 132 bpm, BP 80/40.",
+    "protocol": "NCT01745731",
+    "secondary_registry": "https://www.clinicaltrialsregister.eu/ctr-search/trial/2009-017793-20/ES"
+  }
+}

@@ -1,0 +1,773 @@
+{
+  "142": {
+    "expression": {
+      "all": [
+        {
+          "fact": "symptoms_of_mild_cognitive_impairment"
+        },
+        {
+          "fact": "study_personnel_confirm_mci_symptoms"
+        }
+      ]
+    },
+    "facts": {
+      "study_personnel_confirm_mci_symptoms": {
+        "kind": "bool",
+        "label": "study_personnel_confirm_mci_symptoms",
+        "role": "record",
+        "scope": "study personnel confirm mci symptoms"
+      },
+      "symptoms_of_mild_cognitive_impairment": {
+        "kind": "bool",
+        "label": "symptoms_of_mild_cognitive_impairment",
+        "role": "record",
+        "scope": "symptoms of mild cognitive impairment"
+      }
+    }
+  },
+  "145": {
+    "expression": {
+      "not": {
+        "fact": "active_suicidal_ideation"
+      }
+    },
+    "facts": {
+      "active_suicidal_ideation": {
+        "kind": "bool",
+        "label": "active_suicidal_ideation",
+        "role": "record",
+        "scope": "active suicidal ideation"
+      }
+    }
+  },
+  "147": {
+    "expression": {
+      "not": {
+        "fact": "previous_deep_brain_stimulation_surgery"
+      }
+    },
+    "facts": {
+      "previous_deep_brain_stimulation_surgery": {
+        "kind": "bool",
+        "label": "previous_deep_brain_stimulation_surgery",
+        "role": "record",
+        "scope": "previous deep brain stimulation surgery"
+      }
+    }
+  },
+  "150": {
+    "expression": {
+      "all": [
+        {
+          "fact": "enrolled_two_year_blinded_ASA_trial"
+        },
+        {
+          "fact": "entered_three_year_ASA_extension"
+        }
+      ]
+    },
+    "facts": {
+      "enrolled_two_year_blinded_ASA_trial": {
+        "kind": "bool",
+        "label": "enrolled_two_year_blinded_ASA_trial",
+        "role": "record",
+        "scope": "enrolled two year blinded ASA trial"
+      },
+      "entered_three_year_ASA_extension": {
+        "kind": "bool",
+        "label": "entered_three_year_ASA_extension",
+        "role": "record",
+        "scope": "entered three year ASA extension"
+      }
+    }
+  },
+  "154": {
+    "expression": {
+      "all": [
+        {
+          "fact": "healthy_subject"
+        },
+        {
+          "any": [
+            {
+              "fact": "fitzpatrick_I"
+            },
+            {
+              "fact": "fitzpatrick_II"
+            },
+            {
+              "fact": "fitzpatrick_III"
+            }
+          ]
+        }
+      ]
+    },
+    "facts": {
+      "fitzpatrick_I": {
+        "kind": "bool",
+        "label": "fitzpatrick_I",
+        "role": "record",
+        "scope": "fitzpatrick I"
+      },
+      "fitzpatrick_II": {
+        "kind": "bool",
+        "label": "fitzpatrick_II",
+        "role": "record",
+        "scope": "fitzpatrick II"
+      },
+      "fitzpatrick_III": {
+        "kind": "bool",
+        "label": "fitzpatrick_III",
+        "role": "record",
+        "scope": "fitzpatrick III"
+      },
+      "healthy_subject": {
+        "kind": "bool",
+        "label": "healthy_subject",
+        "role": "record",
+        "scope": "healthy subject"
+      }
+    }
+  },
+  "155": {
+    "expression": {
+      "any": [
+        {
+          "fact": "visible_skin_disease"
+        },
+        {
+          "fact": "tattoos"
+        },
+        {
+          "fact": "skin_condition"
+        },
+        {
+          "fact": "abnormal_skin_color"
+        }
+      ]
+    },
+    "facts": {
+      "abnormal_skin_color": {
+        "kind": "bool",
+        "label": "abnormal_skin_color",
+        "role": "record",
+        "scope": "abnormal skin color"
+      },
+      "skin_condition": {
+        "kind": "bool",
+        "label": "skin_condition",
+        "role": "record",
+        "scope": "skin condition"
+      },
+      "tattoos": {
+        "kind": "bool",
+        "label": "tattoos",
+        "role": "record",
+        "scope": "tattoos"
+      },
+      "visible_skin_disease": {
+        "kind": "bool",
+        "label": "visible_skin_disease",
+        "role": "record",
+        "scope": "visible skin disease"
+      }
+    }
+  },
+  "20": {
+    "expression": {
+      "not": {
+        "fact": "unable_to_travel_for_treatment_or_followup"
+      }
+    },
+    "facts": {
+      "unable_to_travel_for_treatment_or_followup": {
+        "kind": "bool",
+        "label": "unable_to_travel_for_treatment_or_followup",
+        "role": "record",
+        "scope": "unable to travel for treatment or followup"
+      }
+    }
+  },
+  "212": {
+    "expression": {
+      "not": {
+        "fact": "refused_written_consent"
+      }
+    },
+    "facts": {
+      "refused_written_consent": {
+        "kind": "bool",
+        "label": "refused_written_consent",
+        "role": "record",
+        "scope": "refused written consent"
+      }
+    }
+  },
+  "217": {
+    "expression": {
+      "not": {
+        "fact": "traumatic_cause_of_presenting_dyspnea"
+      }
+    },
+    "facts": {
+      "traumatic_cause_of_presenting_dyspnea": {
+        "kind": "bool",
+        "label": "traumatic_cause_of_presenting_dyspnea",
+        "role": "record",
+        "scope": "traumatic cause of presenting dyspnea"
+      }
+    }
+  },
+  "218": {
+    "expression": {
+      "not": {
+        "hold": "Confirm malformed serum creatinine unit in the supplied excerpt."
+      }
+    },
+    "facts": {}
+  },
+  "25": {
+    "expression": {
+      "not": {
+        "any": [
+          {
+            "fact": "severe_hypertension"
+          },
+          {
+            "fact": "malignant_hypertension"
+          },
+          {
+            "fact": "secondary_hypertension"
+          }
+        ]
+      }
+    },
+    "facts": {
+      "malignant_hypertension": {
+        "kind": "bool",
+        "label": "malignant_hypertension",
+        "role": "record",
+        "scope": "malignant hypertension"
+      },
+      "secondary_hypertension": {
+        "kind": "bool",
+        "label": "secondary_hypertension",
+        "role": "record",
+        "scope": "secondary hypertension"
+      },
+      "severe_hypertension": {
+        "kind": "bool",
+        "label": "severe_hypertension",
+        "role": "record",
+        "scope": "severe hypertension"
+      }
+    }
+  },
+  "26": {
+    "applies": {
+      "fact": "woman"
+    },
+    "expression": {
+      "not": {
+        "any": [
+          {
+            "fact": "pregnant"
+          },
+          {
+            "fact": "childbearing_potential"
+          }
+        ]
+      }
+    },
+    "facts": {
+      "childbearing_potential": {
+        "kind": "bool",
+        "label": "childbearing_potential",
+        "role": "record",
+        "scope": "childbearing potential"
+      },
+      "pregnant": {
+        "kind": "bool",
+        "label": "pregnant",
+        "role": "record",
+        "scope": "pregnant"
+      },
+      "woman": {
+        "kind": "bool",
+        "label": "woman",
+        "role": "record",
+        "scope": "woman"
+      }
+    }
+  },
+  "29": {
+    "expression": {
+      "not": {
+        "fact": "serum_creatinine_mg_dl",
+        "op": "gt",
+        "value": 3.0
+      }
+    },
+    "facts": {
+      "serum_creatinine_mg_dl": {
+        "kind": "number",
+        "label": "serum_creatinine_mg_dl",
+        "role": "record",
+        "scope": "serum creatinine mg dl",
+        "unit": "mg/dL"
+      }
+    }
+  },
+  "385": {
+    "expression": {
+      "all": [
+        {
+          "fact": "can_take_oral_medication"
+        },
+        {
+          "fact": "can_retain_oral_medication"
+        }
+      ]
+    },
+    "facts": {
+      "can_retain_oral_medication": {
+        "kind": "bool",
+        "label": "can_retain_oral_medication",
+        "role": "record",
+        "scope": "can retain oral medication"
+      },
+      "can_take_oral_medication": {
+        "kind": "bool",
+        "label": "can_take_oral_medication",
+        "role": "record",
+        "scope": "can take oral medication"
+      }
+    }
+  },
+  "396": {
+    "expression": {
+      "not": {
+        "any": [
+          {
+            "fact": "history_of_mi"
+          },
+          {
+            "fact": "current_uncontrolled_angina"
+          },
+          {
+            "fact": "severe_uncontrolled_ventricular_arrhythmia"
+          },
+          {
+            "fact": "symptomatic_congestive_heart_failure"
+          },
+          {
+            "fact": "unstable_angina"
+          },
+          {
+            "fact": "ecg_acute_ischemia"
+          }
+        ]
+      }
+    },
+    "facts": {
+      "current_uncontrolled_angina": {
+        "kind": "bool",
+        "label": "current_uncontrolled_angina",
+        "role": "record",
+        "scope": "current uncontrolled angina"
+      },
+      "ecg_acute_ischemia": {
+        "kind": "bool",
+        "label": "ecg_acute_ischemia",
+        "role": "record",
+        "scope": "ecg acute ischemia"
+      },
+      "history_of_mi": {
+        "kind": "bool",
+        "label": "history_of_mi",
+        "role": "record",
+        "scope": "history of mi"
+      },
+      "severe_uncontrolled_ventricular_arrhythmia": {
+        "kind": "bool",
+        "label": "severe_uncontrolled_ventricular_arrhythmia",
+        "role": "record",
+        "scope": "severe uncontrolled ventricular arrhythmia"
+      },
+      "symptomatic_congestive_heart_failure": {
+        "kind": "bool",
+        "label": "symptomatic_congestive_heart_failure",
+        "role": "record",
+        "scope": "symptomatic congestive heart failure"
+      },
+      "unstable_angina": {
+        "kind": "bool",
+        "label": "unstable_angina",
+        "role": "record",
+        "scope": "unstable angina"
+      }
+    }
+  },
+  "397": {
+    "expression": {
+      "not": {
+        "fact": "marked_baseline_qt_prolongation"
+      }
+    },
+    "facts": {
+      "marked_baseline_qt_prolongation": {
+        "kind": "bool",
+        "label": "marked_baseline_qt_prolongation",
+        "role": "record",
+        "scope": "marked baseline qt prolongation"
+      }
+    }
+  },
+  "400": {
+    "expression": {
+      "not": {
+        "any": [
+          {
+            "fact": "history_ischemic_cns_disease"
+          },
+          {
+            "fact": "current_ischemic_cns_disease"
+          }
+        ]
+      }
+    },
+    "facts": {
+      "current_ischemic_cns_disease": {
+        "kind": "bool",
+        "label": "current_ischemic_cns_disease",
+        "role": "record",
+        "scope": "current ischemic cns disease"
+      },
+      "history_ischemic_cns_disease": {
+        "kind": "bool",
+        "label": "history_ischemic_cns_disease",
+        "role": "record",
+        "scope": "history ischemic cns disease"
+      }
+    }
+  },
+  "401": {
+    "expression": {
+      "not": {
+        "fact": "current_or_prior_five_year_malignancy_outside_specified_exceptions"
+      }
+    },
+    "facts": {
+      "current_or_prior_five_year_malignancy_outside_specified_exceptions": {
+        "kind": "bool",
+        "label": "current_or_prior_five_year_malignancy_outside_specified_exceptions",
+        "role": "record",
+        "scope": "current or prior five year malignancy outside specified exceptions"
+      }
+    }
+  },
+  "402": {
+    "expression": {
+      "not": {
+        "fact": "current_severe_infection"
+      }
+    },
+    "facts": {
+      "current_severe_infection": {
+        "kind": "bool",
+        "label": "current_severe_infection",
+        "role": "record",
+        "scope": "current severe infection"
+      }
+    }
+  },
+  "414": {
+    "expression": {
+      "not": {
+        "not": {
+          "fact": "systemic_lupus_erythematosus"
+        }
+      }
+    },
+    "facts": {
+      "systemic_lupus_erythematosus": {
+        "kind": "bool",
+        "label": "systemic_lupus_erythematosus",
+        "role": "record",
+        "scope": "systemic lupus erythematosus"
+      }
+    }
+  },
+  "418": {
+    "expression": {
+      "not": {
+        "fact": "failed_mri_metal_screen"
+      }
+    },
+    "facts": {
+      "failed_mri_metal_screen": {
+        "kind": "bool",
+        "label": "failed_mri_metal_screen",
+        "role": "record",
+        "scope": "failed mri metal screen"
+      }
+    }
+  },
+  "419": {
+    "expression": {
+      "not": {
+        "any": [
+          {
+            "fact": "claustrophobia"
+          },
+          {
+            "fact": "sedation_required_to_hold_still"
+          }
+        ]
+      }
+    },
+    "facts": {
+      "claustrophobia": {
+        "kind": "bool",
+        "label": "claustrophobia",
+        "role": "record",
+        "scope": "claustrophobia"
+      },
+      "sedation_required_to_hold_still": {
+        "kind": "bool",
+        "label": "sedation_required_to_hold_still",
+        "role": "record",
+        "scope": "sedation required to hold still"
+      }
+    }
+  },
+  "850": {
+    "expression": {
+      "not": {
+        "fact": "asthma_exacerbations_per_week",
+        "op": "gt",
+        "value": 2
+      }
+    },
+    "facts": {
+      "asthma_exacerbations_per_week": {
+        "kind": "number",
+        "label": "asthma_exacerbations_per_week",
+        "role": "record",
+        "scope": "asthma exacerbations per week",
+        "unit": "/wk"
+      }
+    }
+  },
+  "890": {
+    "expression": {
+      "fact": "cognitive_impairment_on_admission_screen"
+    },
+    "facts": {
+      "cognitive_impairment_on_admission_screen": {
+        "kind": "bool",
+        "label": "cognitive_impairment_on_admission_screen",
+        "role": "record",
+        "scope": "cognitive impairment on admission screen"
+      }
+    }
+  },
+  "919": {
+    "expression": {
+      "hold": "Definition of severe CDAD referenced above is absent."
+    },
+    "facts": {}
+  },
+  "935": {
+    "expression": {
+      "fact": "enrolling_physician_considers_mycobacterial_culture_likely_positive"
+    },
+    "facts": {
+      "enrolling_physician_considers_mycobacterial_culture_likely_positive": {
+        "kind": "bool",
+        "label": "enrolling_physician_considers_mycobacterial_culture_likely_positive",
+        "role": "record",
+        "scope": "enrolling physician considers mycobacterial culture likely positive"
+      }
+    }
+  },
+  "936": {
+    "applies": {
+      "fact": "china_subject"
+    },
+    "expression": {
+      "fact": "positive_sputum_genexpert_mtb_rif"
+    },
+    "facts": {
+      "china_subject": {
+        "kind": "bool",
+        "label": "china_subject",
+        "role": "record",
+        "scope": "china subject"
+      },
+      "positive_sputum_genexpert_mtb_rif": {
+        "kind": "bool",
+        "label": "positive_sputum_genexpert_mtb_rif",
+        "role": "record",
+        "scope": "positive sputum genexpert mtb rif"
+      }
+    }
+  },
+  "938": {
+    "expression": {
+      "fact": "willing_to_provide_blood_samples"
+    },
+    "facts": {
+      "willing_to_provide_blood_samples": {
+        "kind": "bool",
+        "label": "willing_to_provide_blood_samples",
+        "role": "record",
+        "scope": "willing to provide blood samples"
+      }
+    }
+  },
+  "939": {
+    "expression": {
+      "fact": "willing_to_store_samples"
+    },
+    "facts": {
+      "willing_to_store_samples": {
+        "kind": "bool",
+        "label": "willing_to_store_samples",
+        "role": "record",
+        "scope": "willing to store samples"
+      }
+    }
+  },
+  "940": {
+    "expression": {
+      "not": {
+        "any": [
+          {
+            "fact": "acute_liver_disease"
+          },
+          {
+            "fact": "acute_kidney_disease"
+          }
+        ]
+      }
+    },
+    "facts": {
+      "acute_kidney_disease": {
+        "kind": "bool",
+        "label": "acute_kidney_disease",
+        "role": "record",
+        "scope": "acute kidney disease"
+      },
+      "acute_liver_disease": {
+        "kind": "bool",
+        "label": "acute_liver_disease",
+        "role": "record",
+        "scope": "acute liver disease"
+      }
+    }
+  },
+  "945": {
+    "expression": {
+      "not": {
+        "fact": "current_unlicensed_investigational_aspergillosis_drug"
+      }
+    },
+    "facts": {
+      "current_unlicensed_investigational_aspergillosis_drug": {
+        "kind": "bool",
+        "label": "current_unlicensed_investigational_aspergillosis_drug",
+        "role": "record",
+        "scope": "current unlicensed investigational aspergillosis drug"
+      }
+    }
+  },
+  "946": {
+    "expression": {
+      "not": {
+        "fact": "listed_antifungal_for_index_probable_or_proven_aspergillosis_over_seven_days_immediately_before_randomization"
+      }
+    },
+    "facts": {
+      "listed_antifungal_for_index_probable_or_proven_aspergillosis_over_seven_days_immediately_before_randomization": {
+        "kind": "bool",
+        "label": "listed_antifungal_for_index_probable_or_proven_aspergillosis_over_seven_days_immediately_before_randomization",
+        "role": "record",
+        "scope": "listed antifungal for index probable or proven aspergillosis over seven days immediately before randomization"
+      }
+    }
+  },
+  "952": {
+    "expression": {
+      "not": {
+        "all": [
+          {
+            "fact": "on_artificial_ventilation"
+          },
+          {
+            "fact": "extubation_unlikely_within_24h_of_entry"
+          }
+        ]
+      }
+    },
+    "facts": {
+      "extubation_unlikely_within_24h_of_entry": {
+        "kind": "bool",
+        "label": "extubation_unlikely_within_24h_of_entry",
+        "role": "record",
+        "scope": "extubation unlikely within 24h of entry"
+      },
+      "on_artificial_ventilation": {
+        "kind": "bool",
+        "label": "on_artificial_ventilation",
+        "role": "record",
+        "scope": "on artificial ventilation"
+      }
+    }
+  },
+  "953": {
+    "expression": {
+      "not": {
+        "fact": "prior_azole_or_echinocandin_allergy_hypersensitivity_or_serious_reaction"
+      }
+    },
+    "facts": {
+      "prior_azole_or_echinocandin_allergy_hypersensitivity_or_serious_reaction": {
+        "kind": "bool",
+        "label": "prior_azole_or_echinocandin_allergy_hypersensitivity_or_serious_reaction",
+        "role": "record",
+        "scope": "prior azole or echinocandin allergy hypersensitivity or serious reaction"
+      }
+    }
+  },
+  "955": {
+    "expression": {
+      "not": {
+        "fact": "investigator_identified_unacceptable_risk_from_concomitant_condition"
+      }
+    },
+    "facts": {
+      "investigator_identified_unacceptable_risk_from_concomitant_condition": {
+        "kind": "bool",
+        "label": "investigator_identified_unacceptable_risk_from_concomitant_condition",
+        "role": "record",
+        "scope": "investigator identified unacceptable risk from concomitant condition"
+      }
+    }
+  },
+  "957": {
+    "expression": {
+      "not": {
+        "fact": "life_expectancy_under_seven_days"
+      }
+    },
+    "facts": {
+      "life_expectancy_under_seven_days": {
+        "kind": "bool",
+        "label": "life_expectancy_under_seven_days",
+        "role": "record",
+        "scope": "life expectancy under seven days"
+      }
+    }
+  }
+}

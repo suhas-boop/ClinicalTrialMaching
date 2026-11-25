@@ -1,0 +1,386 @@
+[
+  {
+    "criteria": [
+      "55"
+    ],
+    "id": "1c3a6d2eedddf0088918db14b55995562784e3d57056a437ce130b433f9de760",
+    "request": "Confirm the scope of preterm and neonatal exclusion in the protocol.",
+    "route": "protocol_review"
+  },
+  {
+    "criteria": [
+      "81"
+    ],
+    "id": "2cf5ce5310b6ca957691e2b2a5e257e7771d6ac72c4d51177c4d5774895feb61",
+    "request": "active severe infection within four weeks before screening",
+    "route": "retrieve_record"
+  },
+  {
+    "criteria": [
+      "81"
+    ],
+    "id": "9ad986729d822943984f12dd13b3cb60ea18244578842b7fbb341575e949ae31",
+    "request": "active severe infection between screening and baseline",
+    "route": "retrieve_record"
+  },
+  {
+    "criteria": [
+      "108"
+    ],
+    "id": "637f99c3e41d791e3bf0bc0eb01f2abb0c0e0426f177de4231172b4596e5ee92",
+    "request": "hemodynamically unstable",
+    "route": "retrieve_record"
+  },
+  {
+    "criteria": [
+      "109"
+    ],
+    "id": "6f5453431120ea029ad984dc10e23bd4511c9fdba9a898bd2ade987a7b0556b9",
+    "request": "septic shock",
+    "route": "retrieve_record"
+  },
+  {
+    "criteria": [
+      "111"
+    ],
+    "id": "deaf647f991368873b2513e04564af93ddd40780924bc76e47493e49ea37eb19",
+    "request": "cutaneous ulcer secondary to enteral fistula",
+    "route": "retrieve_record"
+  },
+  {
+    "criteria": [
+      "115"
+    ],
+    "id": "154d3c889a2e744233c5d0cd0859f3d1dff6d07f3b4277276b282c50f10d7603",
+    "request": "cutaneous ulcer due to leishmania",
+    "route": "retrieve_record"
+  },
+  {
+    "criteria": [
+      "115"
+    ],
+    "id": "9571a54e5042b8f84fea9c429e2b9db59202c1939a2b747fd69302ff286a75d5",
+    "request": "cutaneous ulcer due to insect bite",
+    "route": "retrieve_record"
+  },
+  {
+    "criteria": [
+      "116"
+    ],
+    "id": "293a59951d49fabb4c11380a8a1838ab323413c27ad9b0fccde76ee6ad9f8293",
+    "request": "cutaneous ulcer due to burns",
+    "route": "retrieve_record"
+  },
+  {
+    "criteria": [
+      "120"
+    ],
+    "id": "8ac6d4bd7803bca458b7d384c8f73d5cab63828449666b693334b89ead4f0858",
+    "request": "sibling of index subject",
+    "route": "retrieve_record"
+  },
+  {
+    "criteria": [
+      "120"
+    ],
+    "id": "5037ca84efaecfda42c7b0994be62aa4a6beb3e836f9309043bf1cd3426b96a4",
+    "request": "parent of index subject",
+    "route": "retrieve_record"
+  },
+  {
+    "criteria": [
+      "120"
+    ],
+    "id": "11c8a633d9b6908aa0dc97f6253dcda1c24f939ec0447f0d24dfeec5ac504689",
+    "request": "index insulin resistance on ogtt",
+    "route": "retrieve_record"
+  },
+  {
+    "criteria": [
+      "120"
+    ],
+    "id": "d9661abba536d11f38f91934c4fae6f9992775888da0a34caa9497ba74a56ec1",
+    "request": "index insulin resistance on ivgtt",
+    "route": "retrieve_record"
+  },
+  {
+    "criteria": [
+      "235"
+    ],
+    "id": "0013c47c55ed9b6c6ead784253c2acfbad519806303257832075d1fe0230120f",
+    "request": "menorrhagia",
+    "route": "retrieve_record"
+  },
+  {
+    "criteria": [
+      "235"
+    ],
+    "id": "2492881ba19842327881743c45aa59310c8ba9baf9f67aaaf3fb1e5800d27432",
+    "request": "bulk symptoms",
+    "route": "retrieve_record"
+  },
+  {
+    "criteria": [
+      "235"
+    ],
+    "id": "33c6d9af686b0983cbf72dd3b5ba6ecd9ed8b2bb46b8adb90644cd0cbcbe2b20",
+    "request": "symptoms attributed to uterine fibroids",
+    "route": "retrieve_record"
+  },
+  {
+    "criteria": [
+      "239"
+    ],
+    "id": "eff0e47fdf0fc04182cfb4e2bc4ee0625b33e1be6290ecfc3c09c8066fc40ccb",
+    "request": "postmenopausal woman",
+    "route": "retrieve_record"
+  },
+  {
+    "criteria": [
+      "328"
+    ],
+    "id": "11a19efab6d502a4e3cbea5045e83e6e6fed24a95453d7fe5922480d71ad609b",
+    "request": "infant history of bleeding",
+    "route": "retrieve_record"
+  },
+  {
+    "criteria": [
+      "328"
+    ],
+    "id": "5db8451ea2460b1c10678fb10352c7634f686b6cfe861957132d89ffc15f4a1e",
+    "request": "family history of bleeding",
+    "route": "retrieve_record"
+  },
+  {
+    "criteria": [
+      "329"
+    ],
+    "id": "5d360caa1fd2763d1dc292154a0c1716e348ab9f0dac6c90aafc371e420b8ddc",
+    "request": "coagulopathy",
+    "route": "retrieve_record"
+  },
+  {
+    "criteria": [
+      "330"
+    ],
+    "id": "b8caf37661566f520725085083f891b232b11d4d230cbe030084de6b1f81666e",
+    "request": "history of gi bleeding",
+    "route": "retrieve_record"
+  },
+  {
+    "criteria": [
+      "332"
+    ],
+    "id": "75e39e75b11fa8e1a11be208967e96f4fa5fa99e2537a1fc26e75176f27f68b5",
+    "request": "gestation at birth weeks",
+    "route": "retrieve_record"
+  },
+  {
+    "criteria": [
+      "336"
+    ],
+    "id": "664e19a4fca12a4258b4aa77671a7fd3896220a09be4d5a29b79ff0c99f9df7b",
+    "request": "consent absent",
+    "route": "retrieve_record"
+  },
+  {
+    "criteria": [
+      "366"
+    ],
+    "id": "b9c8328aa7750b84b04cc423d4b5d2f11e75e7c5042192fddaf6efa1940467fa",
+    "request": "open laparotomy required for abdominal trauma with primary closure",
+    "route": "retrieve_record"
+  },
+  {
+    "criteria": [
+      "367"
+    ],
+    "id": "2e5d93b6835071c961713e3892216491e529cbde1c0d999a72ebd128e8759228",
+    "request": "open laparotomy required for acute surgical abdomen with primary closure",
+    "route": "retrieve_record"
+  },
+  {
+    "criteria": [
+      "379"
+    ],
+    "id": "64c0590d27ad5401be8553cc708bf2bfa443b42d783f34e2094957b7307e413c",
+    "request": "pregnant",
+    "route": "retrieve_record"
+  },
+  {
+    "criteria": [
+      "460"
+    ],
+    "id": "9f5d3950f144300c78d10ec82bf03c69713f17309419c1850bc7cbd41dcfc823",
+    "request": "ct intracranial hemorrhage",
+    "route": "retrieve_record"
+  },
+  {
+    "criteria": [
+      "460"
+    ],
+    "id": "03a12534dac8d878463e4cfaf33ac4fccf620805c73ed1ea8c4423f9f7f0874d",
+    "request": "ct cerebral edema",
+    "route": "retrieve_record"
+  },
+  {
+    "criteria": [
+      "460"
+    ],
+    "id": "b5d8748883d529b1406ea0e2b0679681556e0c88e05627ee007dab52dff40f1d",
+    "request": "ct diffuse axonal injury",
+    "route": "retrieve_record"
+  },
+  {
+    "criteria": [
+      "460"
+    ],
+    "id": "4d28db75b39a8e88cc38630ffd1ed1a40afa2a646a07a1cc1447a98f84eda681",
+    "request": "gcs motor",
+    "route": "retrieve_record"
+  },
+  {
+    "criteria": [
+      "460"
+    ],
+    "id": "69fdb7e0453b8dcc168fe918b535c27eee4bd2527b87e2e00d112a0c536081ff",
+    "request": "normal head ct",
+    "route": "retrieve_record"
+  },
+  {
+    "criteria": [
+      "467"
+    ],
+    "id": "7cfaf1e9193d5bf6ee754c3551843dec86e4de4e628f896b57a2de3bad974660",
+    "request": "greater than mild preinjury neurodevelopmental disability",
+    "route": "retrieve_record"
+  },
+  {
+    "criteria": [
+      "468"
+    ],
+    "id": "5e62eef0a50d4282b5ee65a22514c8876b5f10a1796d4e09d674f9a95cefa367",
+    "request": "acute isolated epidural hematoma",
+    "route": "retrieve_record"
+  },
+  {
+    "criteria": [
+      "468"
+    ],
+    "id": "96d72b9dc707188e6cfd557226bc29aa110fda16deeacbdc988da1bc0d711d5f",
+    "request": "rapid recovery expected after surgical removal",
+    "route": "investigator"
+  },
+  {
+    "criteria": [
+      "475"
+    ],
+    "id": "1d0d99c340f4dad183683bf7dc6c2344cfa7d7ab7bc77770b405b91b1f149711",
+    "request": "child involved in motor vehicle collision at index injury",
+    "route": "retrieve_record"
+  },
+  {
+    "criteria": [
+      "476"
+    ],
+    "id": "916a93f220991aa41c7bab83936ec73f79974ca8bc154b21c5fa2d0b734bbafb",
+    "request": "child injured by another rider at index injury",
+    "route": "retrieve_record"
+  },
+  {
+    "criteria": [
+      "477"
+    ],
+    "id": "e38a84d8feb4c836854c4f056f64679944f5e221b680d9d1ab8d36a99248e66d",
+    "request": "index incident involved bicycle with bull bars",
+    "route": "retrieve_record"
+  },
+  {
+    "criteria": [
+      "481"
+    ],
+    "id": "f80a95a381e6c11ccb93242708b8834e517ef76d186182b8e2c22771e9378b7b",
+    "request": "permanent resident luanshya",
+    "route": "retrieve_record"
+  },
+  {
+    "criteria": [
+      "492"
+    ],
+    "id": "fef37df8469c0d94b3518b0de899c2b8561662ca81a9e3ab4e548691b0cdf5b3",
+    "request": "born san francis designated district hospital ifakara",
+    "route": "retrieve_record"
+  },
+  {
+    "criteria": [
+      "493"
+    ],
+    "id": "f927d7840451e1cb94da9a685a30ec68ad5f91a0303bb1c60f81bc8cac45d438",
+    "request": "obvious severe congenital malformation",
+    "route": "retrieve_record"
+  },
+  {
+    "criteria": [
+      "494"
+    ],
+    "id": "2caff296af70bca94336ffcc8d7ab550e8633302c552f57003a6528bff5ff3b2",
+    "request": "twin birth",
+    "route": "retrieve_record"
+  },
+  {
+    "criteria": [
+      "495"
+    ],
+    "id": "35c92822cd22973676495a9ca9aa5516120063cdeec95730eec1a28c641668c0",
+    "request": "birth weight kg",
+    "route": "retrieve_record"
+  },
+  {
+    "criteria": [
+      "496"
+    ],
+    "id": "9f2e78ebcbe392548c38657ac07cb790883ca1d83b4f4700815685de996d0d60",
+    "request": "clinical signs of cerebral asphyxia",
+    "route": "retrieve_record"
+  },
+  {
+    "criteria": [
+      "497"
+    ],
+    "id": "4dd0c40982c74cbc32d15fb3fbc348186f81e2519662a2bc50b741276af7c3de",
+    "request": "clinical signs neonatal infection",
+    "route": "retrieve_record"
+  },
+  {
+    "criteria": [
+      "497"
+    ],
+    "id": "54ac55929e8e4751a88665e930d262c43b6199cca228b9cf94f19fe8a8c2d34d",
+    "request": "clinical signs congenital infection",
+    "route": "retrieve_record"
+  },
+  {
+    "criteria": [
+      "498"
+    ],
+    "id": "c96d48d81f446a1bd1343dc843ab514a5fc9be9e33fc8dafeb03181daffdfe8e",
+    "request": "Clarify the intended maternal assessment and who determines it.",
+    "route": "protocol_review"
+  },
+  {
+    "criteria": [
+      "795"
+    ],
+    "id": "a8ffc50539b523ff1a706a16bd13bde0a2a6cab802b3a84a9e15b34bd4ff3798",
+    "request": "Confirm whether pregnancy and inability to speak French are joint or separate exclusions.",
+    "route": "protocol_review"
+  },
+  {
+    "criteria": [
+      "985"
+    ],
+    "id": "c3d8bbe86685c4f20fafe20bfa07494df5cf27e4940588f4c62c6acb8f2b7d02",
+    "request": "chest tube in place",
+    "route": "retrieve_record"
+  }
+]

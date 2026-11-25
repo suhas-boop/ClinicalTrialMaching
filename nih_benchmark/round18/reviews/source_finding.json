@@ -1,0 +1,36 @@
+{
+  "benchmark": "R17, same 91 physician-definitive criterion assignments",
+  "strict_patient_fact_promotions": [],
+  "findings": [
+    {
+      "source": "https://trec.nist.gov/pubs/trec23/papers/overview-clinical.pdf",
+      "locator": "section 3, Tables 2 and 3",
+      "finding": "The 2014 track creators intentionally omitted information corresponding to the clinical question. Their example for case 11 gives qualitative tachycardia and tachypnea and numerical blood pressure, with no numerical pulse or respiratory rate. Case 21's documentation repeats the input findings."
+    },
+    {
+      "source": "https://trec.nist.gov/pubs/trec24/papers/Overview-CL.pdf",
+      "locator": "sections 3 and 4",
+      "finding": "The Task B diagnosis field is described as a working diagnosis. Assessors judged articles relevant if they might be useful to the treating clinician, without requiring that the article supply a correct diagnosis."
+    },
+    {
+      "source": "https://doi.org/10.3390/app162110948",
+      "locator": "section 3.1, dataset provenance",
+      "finding": "The 2014 supplementary physician differentials are the source already checked in R16. For the 10 missing 2015 topic diagnoses, the researchers inferred the most frequently recurring disease in relevant articles. The authors state this was performed by nonphysicians. This stream cannot add a confirmed diagnosis for 671."
+    },
+    {
+      "source": "https://personal.utdallas.edu/~sanda/ACM_TRGoodwin2017.pdf",
+      "locator": "figure 1 and section 5.3",
+      "finding": "Research team distinguishes one or more intended author candidates from chart documentation. It provides examples for topics 33, 42 and 54. Its topic 33 answer, pulmonary embolism, would not establish whether the patient could write consent in 632."
+    },
+    {
+      "source": "https://www.kup.at/kup/pdf/14124.pdf",
+      "locator": "Methods, inclusion criteria and Table 1, NCT01520155 explicitly identified",
+      "finding": "Frankfurt CASTLE SLE enrolled SLE patients already known to renal and rheumatology clinics. The methods do not establish a rule substituting classification from the vignette's tests for a known systemic diagnosis."
+    },
+    {
+      "source": "https://github.com/ncbi-nlp/TrialGPT/blob/main/trialgpt_matching/run_matching.py#L33",
+      "locator": "run_matching.py line 33, mirrored in ranking run_aggregation.py line 43",
+      "finding": "The input generator appends a generic consent and compliance statement identically for every note; the implementation adds no additional assertion of a specific signed document, site access, phlebotomy or storage authorization."
+    }
+  ]
+}

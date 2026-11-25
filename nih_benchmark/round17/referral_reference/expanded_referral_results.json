@@ -1,0 +1,48 @@
+{
+  "predictions_file_sha256": "02781f9bc54d1ffd2b4f62799d116edcf02db91d7988628a25994790235db865",
+  "original_topic_join_sha256": "71b5272e3fac79f17fced1433c3f017a58bb3c73ca025cf2240ee7a469c0c88d",
+  "published_qrels_sha256": "f0b9aa8aa22b4c4eb5405c0bd2dc8220ac43a9c1d75e08782a410324270ce45e",
+  "qrels_doi": "https://doi.org/10.4225/08/58e2e83d92c2b",
+  "qrels_source": "https://data.csiro.au/dap/ws/v2/collections/22333/data/49692372",
+  "subject_source_hashes_verified": 44,
+  "studies": 68,
+  "original_68_overlap": 0,
+  "new_patient_study_pairs": 2924,
+  "judged": 9,
+  "unjudged": 2915,
+  "grade_key": {
+    "0": "would decline referral",
+    "1": "consider referral after further investigation",
+    "2": "highly likely to refer",
+    "UNJUDGED": "no published judgment"
+  },
+  "grade_counts": {
+    "0": 7,
+    "1": 0,
+    "2": 2,
+    "UNJUDGED": 2915
+  },
+  "grades_by_pocketmd_disposition": {
+    "CONTINUE_SCREENING": {
+      "0": 7,
+      "1": 0,
+      "2": 2,
+      "UNJUDGED": 2811
+    },
+    "NOT_ELIGIBLE_AT_PRESENTATION": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "UNJUDGED": 104
+    }
+  },
+  "exclusion_gates": {
+    "registered_age_window": 104
+  },
+  "excluded_age_reasons": {
+    "ABOVE_MAXIMUM": 70,
+    "BELOW_MINIMUM": 34
+  },
+  "highly_likely_referral_with_age_exclusion": [],
+  "interpretation": "All newly excluded pairs lacked a published referral judgment. No independent trial-level assessment of those exclusions is available in this collection. Continuing screening asks for further evaluation. A non-referral grade measures referral preference."
+}

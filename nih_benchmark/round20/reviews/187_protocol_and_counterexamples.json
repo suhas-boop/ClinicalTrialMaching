@@ -1,0 +1,40 @@
+{
+  "patient": "sigir-201411",
+  "criterion": "187",
+  "recorded_anchor": "adult emergency examination",
+  "threshold": "RR \u226520/min OR PaCO2 \u226432 mmHg OR mechanical ventilation",
+  "patient_note_sha256": "db4467fa7cba03819df27445f2090c80d6acd145a3361057f24a2fb5877aaec1",
+  "sources": [
+    {
+      "role": "Common adult respiratory assessment definition",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK596716/",
+      "locator": "Chapter 10, Evaluate Vital Signs",
+      "result": "The stated threshold of more than 20 breaths/min supports the RR branch under this specific definition."
+    },
+    {
+      "role": "Contradictory documented adult bedside usage",
+      "url": "https://doi.org/10.67225/001c.123373",
+      "locator": "Case Report, admission examination",
+      "result": "An adult described as tachypneic had an explicit rate of 18/min. This challenges the automatic inference from unqualified narrative words. This is an unrelated individual."
+    },
+    {
+      "role": "Second contradictory bedside report",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9195121/",
+      "locator": "Case report, ER exam",
+      "result": "An older adult was described as mildly tachypneic at 18/min. External rates do not establish a rate in the TrialGPT patient."
+    },
+    {
+      "role": "Alternative reporting convention",
+      "url": "https://www.ehealthsask.ca/services/Manuals/Documents/SK%20AEFI%20User%20Guide.pdf",
+      "locator": "Respiratory, Tachypnea",
+      "result": "In this immunization reporting context the threshold for people older than 12 is over 16/min. The benchmark emergency case supplies no such reporting context."
+    },
+    {
+      "role": "Final RCT supplemental patient inclusion/exclusion table",
+      "url": "https://static-content.springer.com/esm/art%3A10.1007%2Fs00134-014-3638-4/MediaObjects/134_2014_3638_MOESM1_ESM.docx",
+      "sha256": "8146a7cd095ef3f4f1e99f368fff6f9e0aa98d2b68d3d13f21fc282833e34da1",
+      "locator": "Supplemental Tables 1\u20132; Table 2 separate SIRS and Shock columns",
+      "result": "Tachypnea appears among SIRS general variables without a numeric definition for that wording. The shock column describes hypotension after fluids. This document does not equate the chart adjective to the RR \u226520/min branch in the frozen registry."
+    }
+  ]
+}

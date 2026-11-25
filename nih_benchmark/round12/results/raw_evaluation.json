@@ -1,0 +1,30 @@
+{
+  "raw_screen": {
+    "agreeing_definite": 6,
+    "definite": 6,
+    "pairs": 134,
+    "state_counts": {
+      "AUTHORING_HOLD": 18,
+      "INVESTIGATOR_ACTIONS": 6,
+      "MET": 6,
+      "MISSING_DATA": 93,
+      "PATIENT_SURVEY": 2,
+      "SOURCE_SCOPE_HOLD": 7,
+      "STUDY_ACTION": 2
+    }
+  },
+  "reference_recovery": {
+    "medication": {
+      "other_predictions": [],
+      "recovered": 7,
+      "reference_count": 7,
+      "reference_only": []
+    },
+    "numeric": {
+      "other_predictions": [],
+      "recovered": 15,
+      "reference_count": 15,
+      "reference_only": []
+    }
+  }
+}

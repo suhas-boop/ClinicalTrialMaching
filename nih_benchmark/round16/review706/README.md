@@ -1,0 +1,17 @@
+# Study clarification for NCT02340533
+
+The registered inclusion criterion lists five symptoms. The wording leaves open whether a subset suffices and whether a diagnosis of pelvic congestion must also be documented. The blank request in `question.json` references the original registry snapshot. The registry does not include a verified governing protocol PDF. The coordinator can answer the question in ordinary language, giving the governing version and clause and identifying the authorized reviewer. Use the existing review queue or an authenticated study workflow. Engineering maps the approved interpretation into supported choices; a clinician does not need cryptographic tools. The Ed25519 CLI below is an optional machine-to-machine import example. No real signed response or trust key is distributed.
+
+    python -B nih_benchmark/round16/review706/clarify.py
+    python -B nih_benchmark/round16/review706/test_clarify.py
+    python -B nih_benchmark/round16/review706/demo.py
+
+The tests and signed-answer verification use Python cryptography with Ed25519 support (tested with 50.0.0). The CLI accepts an external answer, independently provisioned study authority and key registry, governing protocol bytes and a cutoff date. Use the JSON payload schema in `test_clarify.py`. The signer signs UTF-8 JSON with sorted keys, compact separators and unescaped Unicode. The operational trust store pins the authorized study, criterion, governing version, exact document digest, activated decision ID and validity interval. It is independently maintained by the site. Released decisions are rechecked against the current trust and revocation registry on every invocation. Sources and review traces must be retained with the result. Providing a file and key together does not establish that the signer is authorized. Do not provision the synthetic test key in an operational trust store.
+
+    python -B nih_benchmark/round16/review706/clarify.py --answer signed.json --trust authority-config.json --governing-protocol protocol.pdf --as-of 2026-11-24 --review-db approved.sqlite
+
+Out-of-scope choices, expired/revoked decisions, signature errors and tampering with the registry or governing protocol fail without a released rule. The optional existing ReviewQueue stores an immutable, protocol-scoped audit record; the verified signed answer remains the authority for the replay. Source evidence comes from a restricted set of affirmed and denied patient complaints in one verified FHIR DocumentReference. Unknown wording remains open. Each bound fact includes a digest, source line, character span and exact quotation. This research path is scoped to a current, explicitly reported symptom-based criterion; a duration, special assay, other aggregation or alternate population definition needs authoring review.
+
+Menstrual pain, self-reported heavy periods and spotting between periods are reported symptoms. The mapping records them at that granularity; it does not establish measured blood loss or diagnose pelvic congestion. The related Dakhly journal publication has not been verified as the protocol for this registry and supplies no authority decision.
+
+With an actual answer pending, the baseline remains AUTHORING_HOLD. Under one simulated interpretation the original documentation sufficed; the other three left missing patient evidence. `scenarios.json` records all four outcomes, using the same patient document and no manufactured patient values. No simulated answers enter the primary benchmark score.

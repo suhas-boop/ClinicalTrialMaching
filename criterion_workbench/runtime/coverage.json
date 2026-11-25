@@ -1,0 +1,25 @@
+{
+  "denominator": "numbered initial screening criteria in supplied protocol versions",
+  "by_study": {
+    "106S01": {
+      "authoring_pending": 28,
+      "tested_research_rule": 13,
+      "tested_with_scoped_holds": 1
+    },
+    "NEOK001-1": {
+      "authoring_pending": 35,
+      "tested_with_scoped_holds": 2,
+      "tested_research_rule": 1
+    },
+    "REC-1245-101": {
+      "authoring_pending": 29,
+      "tested_with_scoped_holds": 2
+    },
+    "NCT05653388": {
+      "existing_michigan_query": 3
+    }
+  },
+  "checks": 227,
+  "hospital_mapping": "unverified",
+  "clinical_validation": "pending"
+}

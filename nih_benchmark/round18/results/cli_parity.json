@@ -1,0 +1,20 @@
+{
+  "default_cli_cases": 134,
+  "outcome_counts": {
+    "MISSING_DATA": 96,
+    "AUTHORING_HOLD": 15,
+    "MET": 6,
+    "INVESTIGATOR_ACTIONS": 6,
+    "STUDY_ACTION": 2,
+    "SOURCE_SCOPE_HOLD": 7,
+    "PATIENT_SURVEY": 2
+  },
+  "strict_cited_source_and_line_preserved": [
+    "44",
+    "155",
+    "196",
+    "517",
+    "577",
+    "633"
+  ]
+}

@@ -1,0 +1,44 @@
+{"text":"In the recovery bay she remains on a mechanical ventilator.","want":{"receiving_mechanical_ventilation":true}}
+{"text":"Her mother remains on a mechanical ventilator.","want":{}}
+{"text":"If needed, start mechanical ventilation.","want":{}}
+{"text":"Respiratory support: she is breathing spontaneously without mechanical ventilation.","want":{"receiving_mechanical_ventilation":false}}
+{"text":"CT chest today showed no interstitial lung disease or pulmonary embolism.","want":{"chest_ct_showed_ild":false,"chest_ct_showed_pulmonary_thromboembolism":false}}
+{"text":"CT chest today showed pulmonary embolism without interstitial lung disease.","want":{"chest_ct_showed_ild":false,"chest_ct_showed_pulmonary_thromboembolism":true}}
+{"text":"Yesterday’s CXR showed pulmonary embolism.","want":{}}
+{"text":"CT chest today cannot exclude pulmonary embolism.","want":{}}
+{"text":"Head CT today was unremarkable.","want":{"normal_head_ct":true}}
+{"text":"CT head today showed no intracranial hemorrhage but demonstrated cerebral edema.","want":{"ct_intracranial_hemorrhage":false,"ct_cerebral_edema":true}}
+{"text":"Head CT was recommended to rule out bleeding.","want":{}}
+{"text":"Social history: she is divorced.","want":{"unmarried":true}}
+{"text":"Her daughter is divorced.","want":{}}
+{"text":"Dermatology: skin phototype was Fitzpatrick IV.","want":{"fitzpatrick_I":false,"fitzpatrick_II":false,"fitzpatrick_III":false}}
+{"text":"No evidence that she was born preterm.","want":{}}
+{"text":"Birth history: delivered at 35 weeks' gestation.","want":{"gestation_at_birth_weeks":35}}
+{"text":"Obstetric history: delivered at 35 weeks' gestation.","want":{}}
+{"text":"The ABG today showed a PaCO2 of 31 mmHg.","want":{"paco2_mmhg":31}}
+{"text":"A venous blood gas showed PCO2 of 31 mmHg.","want":{}}
+{"text":"GCS motor subscore: 3/6.","want":{"gcs_motor":3}}
+{"text":"GCS motor subscore: 8/6.","want":{}}
+{"text":"He denies gross hematuria.","want":{"patient_reported_hematuria":false}}
+{"text":"Urine microscopy showed 10 RBCs per high-power field.","want":{}}
+{"text":"Hospital course: transferred to the observation unit.","want":{"transferred_to_observation_unit":true}}
+{"text":"Hospital course: may transfer to the observation unit tomorrow.","want":{}}
+{"text":"She is currently nursing her infant.","want":{"breastfeeding":true}}
+{"text":"She is a nursing student.","want":{}}
+{"text":"Her consent form is still unsigned.","want":{}}
+{"text":"For study NCT00557219, the patient declined consent.","want":{"consent_refused":true},"study":"NCT00557219"}
+{"text":"For study NCT00557219, the patient declined consent.","want":{},"study":"NCT00000000"}
+{"text":"No family history of bleeding was reported.","want":{"family_history_of_bleeding":false}}
+{"text":"He denied any bleeding yesterday.","want":{}}
+{"text":"Study NCT01397994: she cannot travel to the site for treatment or follow-up.","want":{"unable_to_travel_for_treatment_or_followup":true},"study":"NCT01397994"}
+{"text":"She has difficulty taking the bus.","want":{}}
+{"text":"MRI safety screen was failed because of metal.","want":{"failed_mri_metal_screen":true}}
+{"text":"MRI safety screen is scheduled.","want":{}}
+{"text":"The admission cognitive screen documented impairment.","want":{"cognitive_impairment_on_admission_screen":true}}
+{"text":"The family reports that memory has worsened.","want":{}}
+{"text":"ECG today showed signs of acute ischemia.","want":{"ecg_acute_ischemia":true}}
+{"text":"ECG today showed nonspecific changes.","want":{}}
+{"text":"She is now taking pills by mouth and keeping them down.","want":{"can_take_oral_medication":true,"can_retain_oral_medication":true}}
+{"text":"She could not retain her tablets last year.","want":{}}
+{"text":"Head CT today showed no edema or intracranial hemorrhage.","want":{"ct_cerebral_edema":false,"ct_intracranial_hemorrhage":false}}
+{"text":"History:\nHead CT today showed no edema or intracranial hemorrhage.","want":{}}

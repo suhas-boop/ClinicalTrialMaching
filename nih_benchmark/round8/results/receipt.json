@@ -1,0 +1,29 @@
+{
+  "control_runs": 368,
+  "distinct_tasks": {
+    "identify_subject": 1,
+    "investigator": 8,
+    "patient": 3,
+    "protocol_review": 18,
+    "retrieve_record": 155,
+    "study_team": 3
+  },
+  "patient_result": {
+    "AUTHORING_HOLD": 18,
+    "INVESTIGATOR_ACTIONS": 6,
+    "MET": 6,
+    "MISSING_DATA": 93,
+    "PATIENT_SURVEY": 2,
+    "SOURCE_SCOPE_HOLD": 7,
+    "STUDY_ACTION": 2
+  },
+  "patients": 44,
+  "prediction_sha256": "2712a8195db5f206c553e8617802240c00224fda954b9c1ea8c731c445532a01",
+  "rows": 134,
+  "rule_pack_sha256": "e4c21dc82dc5356bb571b9d2de90936b503e1d5919c617aa5ab3a1425f6b929c",
+  "rule_status": {
+    "CLINICIAN_INPUT": 18,
+    "EXECUTABLE_NORMALIZED_FHIR": 116
+  },
+  "trials": 68
+}

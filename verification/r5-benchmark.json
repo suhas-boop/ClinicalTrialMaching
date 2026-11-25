@@ -1,0 +1,15 @@
+{
+  "rows": 63,
+  "agreement_on_definite": 4,
+  "changed": 0,
+  "audited_open": 33,
+  "audit_routes": {
+    "retrieve_record": 27,
+    "protocol_review": 5,
+    "investigator": 1
+  },
+  "live_engine_requests_for_63": {
+    "retrieve_record": 85,
+    "protocol_review": 7
+  }
+}

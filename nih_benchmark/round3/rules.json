@@ -1,0 +1,1292 @@
+{
+  "130": {
+    "expression": {
+      "not": {
+        "hold": "Clarify whether any listed disorder suffices or all must coexist."
+      }
+    },
+    "facts": {}
+  },
+  "132": {
+    "expression": {
+      "not": {
+        "any": [
+          {
+            "fact": "pregnant"
+          },
+          {
+            "fact": "breastfeeding"
+          }
+        ]
+      }
+    },
+    "facts": {
+      "breastfeeding": {
+        "kind": "bool",
+        "label": "breastfeeding",
+        "role": "record",
+        "scope": "breastfeeding"
+      },
+      "pregnant": {
+        "kind": "bool",
+        "label": "pregnant",
+        "role": "record",
+        "scope": "pregnant"
+      }
+    }
+  },
+  "138": {
+    "expression": {
+      "not": {
+        "fact": "any_past_or_current_antipsychotic_treatment"
+      }
+    },
+    "facts": {
+      "any_past_or_current_antipsychotic_treatment": {
+        "kind": "bool",
+        "label": "any_past_or_current_antipsychotic_treatment",
+        "role": "record",
+        "scope": "any past or current antipsychotic treatment"
+      }
+    }
+  },
+  "140": {
+    "expression": {
+      "not": {
+        "hold": "Clarify whether pregnancy and lactation are separate exclusions."
+      }
+    },
+    "facts": {}
+  },
+  "171": {
+    "expression": {
+      "not": {
+        "all": [
+          {
+            "fact": "inr",
+            "op": "gt",
+            "value": 2
+          },
+          {
+            "not": {
+              "fact": "systemic_anticoagulation"
+            }
+          }
+        ]
+      }
+    },
+    "facts": {
+      "inr": {
+        "kind": "number",
+        "label": "inr",
+        "role": "record",
+        "scope": "inr",
+        "unit": "1"
+      },
+      "systemic_anticoagulation": {
+        "kind": "bool",
+        "label": "systemic_anticoagulation",
+        "role": "record",
+        "scope": "systemic anticoagulation"
+      }
+    }
+  },
+  "174": {
+    "expression": {
+      "not": {
+        "fact": "prior_axillary_surgery"
+      }
+    },
+    "facts": {
+      "prior_axillary_surgery": {
+        "kind": "bool",
+        "label": "prior_axillary_surgery",
+        "role": "record",
+        "scope": "prior axillary surgery"
+      }
+    }
+  },
+  "177": {
+    "expression": {
+      "fact": "maintenance_hemodialysis_after_central_venous_catheterization"
+    },
+    "facts": {
+      "maintenance_hemodialysis_after_central_venous_catheterization": {
+        "kind": "bool",
+        "label": "maintenance_hemodialysis_after_central_venous_catheterization",
+        "role": "record",
+        "scope": "maintenance hemodialysis after central venous catheterization"
+      }
+    }
+  },
+  "179": {
+    "expression": {
+      "not": {
+        "fact": "prior_central_venous_puncture_or_catheterization"
+      }
+    },
+    "facts": {
+      "prior_central_venous_puncture_or_catheterization": {
+        "kind": "bool",
+        "label": "prior_central_venous_puncture_or_catheterization",
+        "role": "record",
+        "scope": "prior central venous puncture or catheterization"
+      }
+    }
+  },
+  "184": {
+    "expression": {
+      "not": {
+        "hold": "Identify the assessment and decision maker for other inappropriate situations."
+      }
+    },
+    "facts": {}
+  },
+  "185": {
+    "expression": {
+      "any": [
+        {
+          "fact": "diagnosed_shock"
+        },
+        {
+          "fact": "diagnosed_ards"
+        }
+      ]
+    },
+    "facts": {
+      "diagnosed_ards": {
+        "kind": "bool",
+        "label": "diagnosed_ards",
+        "role": "record",
+        "scope": "diagnosed ards"
+      },
+      "diagnosed_shock": {
+        "kind": "bool",
+        "label": "diagnosed_shock",
+        "role": "record",
+        "scope": "diagnosed shock"
+      }
+    }
+  },
+  "186": {
+    "expression": {
+      "fact": "heart_rate",
+      "op": "ge",
+      "value": 90
+    },
+    "facts": {
+      "heart_rate": {
+        "kind": "number",
+        "label": "heart_rate",
+        "role": "record",
+        "scope": "heart rate",
+        "unit": "/min"
+      }
+    }
+  },
+  "187": {
+    "expression": {
+      "any": [
+        {
+          "fact": "respiratory_rate",
+          "op": "ge",
+          "value": 20
+        },
+        {
+          "fact": "paco2_mmhg",
+          "op": "le",
+          "value": 32
+        },
+        {
+          "fact": "receiving_mechanical_ventilation"
+        }
+      ]
+    },
+    "facts": {
+      "paco2_mmhg": {
+        "kind": "number",
+        "label": "paco2_mmhg",
+        "role": "record",
+        "scope": "paco2 mmhg",
+        "unit": "mm[Hg]"
+      },
+      "receiving_mechanical_ventilation": {
+        "kind": "bool",
+        "label": "receiving_mechanical_ventilation",
+        "role": "record",
+        "scope": "receiving mechanical ventilation"
+      },
+      "respiratory_rate": {
+        "kind": "number",
+        "label": "respiratory_rate",
+        "role": "record",
+        "scope": "respiratory rate",
+        "unit": "/min"
+      }
+    }
+  },
+  "196": {
+    "expression": {
+      "not": {
+        "fact": "age_years",
+        "op": "lt",
+        "value": 18
+      }
+    },
+    "facts": {
+      "age_years": {
+        "kind": "number",
+        "label": "age_years",
+        "role": "record",
+        "scope": "age years",
+        "unit": "a"
+      }
+    }
+  },
+  "203": {
+    "expression": {
+      "fact": "positive_thyroid_peroxidase_antibodies"
+    },
+    "facts": {
+      "positive_thyroid_peroxidase_antibodies": {
+        "kind": "bool",
+        "label": "positive_thyroid_peroxidase_antibodies",
+        "role": "record",
+        "scope": "positive thyroid peroxidase antibodies"
+      }
+    }
+  },
+  "226": {
+    "expression": {
+      "not": {
+        "all": [
+          {
+            "fact": "recurrent_hematoma"
+          },
+          {
+            "fact": "first_surgery_before_study_start"
+          }
+        ]
+      }
+    },
+    "facts": {
+      "first_surgery_before_study_start": {
+        "kind": "bool",
+        "label": "first_surgery_before_study_start",
+        "role": "record",
+        "scope": "first surgery before study start"
+      },
+      "recurrent_hematoma": {
+        "kind": "bool",
+        "label": "recurrent_hematoma",
+        "role": "record",
+        "scope": "recurrent hematoma"
+      }
+    }
+  },
+  "227": {
+    "expression": {
+      "not": {
+        "any": [
+          {
+            "fact": "csh_due_to_spinal_csf_fistula"
+          },
+          {
+            "fact": "csh_due_to_meningeosis_carcinomatosa"
+          }
+        ]
+      }
+    },
+    "facts": {
+      "csh_due_to_meningeosis_carcinomatosa": {
+        "kind": "bool",
+        "label": "csh_due_to_meningeosis_carcinomatosa",
+        "role": "record",
+        "scope": "csh due to meningeosis carcinomatosa"
+      },
+      "csh_due_to_spinal_csf_fistula": {
+        "kind": "bool",
+        "label": "csh_due_to_spinal_csf_fistula",
+        "role": "record",
+        "scope": "csh due to spinal csf fistula"
+      }
+    }
+  },
+  "230": {
+    "expression": {
+      "all": [
+        {
+          "fact": "age_years",
+          "op": "ge",
+          "value": 18
+        },
+        {
+          "fact": "symptomatic_chronic_subdural_hematoma"
+        }
+      ]
+    },
+    "facts": {
+      "age_years": {
+        "kind": "number",
+        "label": "age_years",
+        "role": "record",
+        "scope": "age years",
+        "unit": "a"
+      },
+      "symptomatic_chronic_subdural_hematoma": {
+        "kind": "bool",
+        "label": "symptomatic_chronic_subdural_hematoma",
+        "role": "record",
+        "scope": "symptomatic chronic subdural hematoma"
+      }
+    }
+  },
+  "231": {
+    "expression": {
+      "fact": "chronic_subdural_hematoma_verified_on_ct_or_mri"
+    },
+    "facts": {
+      "chronic_subdural_hematoma_verified_on_ct_or_mri": {
+        "kind": "bool",
+        "label": "chronic_subdural_hematoma_verified_on_ct_or_mri",
+        "role": "record",
+        "scope": "chronic subdural hematoma verified on ct or mri"
+      }
+    }
+  },
+  "232": {
+    "expression": {
+      "not": {
+        "fact": "surgeon_decided_craniotomy_intraoperatively"
+      }
+    },
+    "facts": {
+      "surgeon_decided_craniotomy_intraoperatively": {
+        "kind": "bool",
+        "label": "surgeon_decided_craniotomy_intraoperatively",
+        "role": "record",
+        "scope": "surgeon decided craniotomy intraoperatively"
+      }
+    }
+  },
+  "233": {
+    "expression": {
+      "not": {
+        "fact": "csh_due_to_underlying_illness"
+      }
+    },
+    "facts": {
+      "csh_due_to_underlying_illness": {
+        "kind": "bool",
+        "label": "csh_due_to_underlying_illness",
+        "role": "record",
+        "scope": "csh due to underlying illness"
+      }
+    }
+  },
+  "307": {
+    "expression": {
+      "hold": "Verify how the five surgical alternatives, pre-volumetry requirements and optional investigations scope together."
+    },
+    "facts": {}
+  },
+  "322": {
+    "expression": {
+      "not": {
+        "any": [
+          {
+            "fact": "pregnant"
+          },
+          {
+            "all": [
+              {
+                "fact": "woman_of_childbearing_age"
+              },
+              {
+                "not": {
+                  "fact": "adequate_contraception"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "facts": {
+      "adequate_contraception": {
+        "kind": "bool",
+        "label": "adequate_contraception",
+        "role": "record",
+        "scope": "adequate contraception"
+      },
+      "pregnant": {
+        "kind": "bool",
+        "label": "pregnant",
+        "role": "record",
+        "scope": "pregnant"
+      },
+      "woman_of_childbearing_age": {
+        "kind": "bool",
+        "label": "woman_of_childbearing_age",
+        "role": "record",
+        "scope": "woman of childbearing age"
+      }
+    }
+  },
+  "323": {
+    "expression": {
+      "all": [
+        {
+          "fact": "immune_deficiency"
+        },
+        {
+          "fact": "early_bone_marrow_failure_in_childhood"
+        }
+      ]
+    },
+    "facts": {
+      "early_bone_marrow_failure_in_childhood": {
+        "kind": "bool",
+        "label": "early_bone_marrow_failure_in_childhood",
+        "role": "record",
+        "scope": "early bone marrow failure in childhood"
+      },
+      "immune_deficiency": {
+        "kind": "bool",
+        "label": "immune_deficiency",
+        "role": "record",
+        "scope": "immune deficiency"
+      }
+    }
+  },
+  "34": {
+    "expression": {
+      "not": {
+        "fact": "fever_due_to_noninfectious_cause"
+      }
+    },
+    "facts": {
+      "fever_due_to_noninfectious_cause": {
+        "kind": "bool",
+        "label": "fever_due_to_noninfectious_cause",
+        "role": "record",
+        "scope": "fever due to noninfectious cause"
+      }
+    }
+  },
+  "359": {
+    "expression": {
+      "not": {
+        "fact": "gastric_carcinoma"
+      }
+    },
+    "facts": {
+      "gastric_carcinoma": {
+        "kind": "bool",
+        "label": "gastric_carcinoma",
+        "role": "record",
+        "scope": "gastric carcinoma"
+      }
+    }
+  },
+  "36": {
+    "expression": {
+      "not": {
+        "hold": "Clarify the intended meaning of automatic discharge."
+      }
+    },
+    "facts": {}
+  },
+  "435": {
+    "expression": {
+      "not": {
+        "any": [
+          {
+            "fact": "chest_ct_showed_lung_cancer"
+          },
+          {
+            "fact": "chest_ct_showed_active_tb"
+          },
+          {
+            "fact": "chest_ct_showed_pulmonary_thromboembolism"
+          },
+          {
+            "fact": "chest_ct_showed_ild"
+          }
+        ]
+      }
+    },
+    "facts": {
+      "chest_ct_showed_active_tb": {
+        "kind": "bool",
+        "label": "chest_ct_showed_active_tb",
+        "role": "record",
+        "scope": "chest ct showed active tb"
+      },
+      "chest_ct_showed_ild": {
+        "kind": "bool",
+        "label": "chest_ct_showed_ild",
+        "role": "record",
+        "scope": "chest ct showed ild"
+      },
+      "chest_ct_showed_lung_cancer": {
+        "kind": "bool",
+        "label": "chest_ct_showed_lung_cancer",
+        "role": "record",
+        "scope": "chest ct showed lung cancer"
+      },
+      "chest_ct_showed_pulmonary_thromboembolism": {
+        "kind": "bool",
+        "label": "chest_ct_showed_pulmonary_thromboembolism",
+        "role": "record",
+        "scope": "chest ct showed pulmonary thromboembolism"
+      }
+    }
+  },
+  "437": {
+    "expression": {
+      "fact": "acute_copd_exacerbation_type_I_or_II_per_GOLD"
+    },
+    "facts": {
+      "acute_copd_exacerbation_type_I_or_II_per_GOLD": {
+        "kind": "bool",
+        "label": "acute_copd_exacerbation_type_I_or_II_per_GOLD",
+        "role": "record",
+        "scope": "acute copd exacerbation type I or II per GOLD"
+      }
+    }
+  },
+  "44": {
+    "expression": {
+      "not": {
+        "fact": "age_years",
+        "op": "lt",
+        "value": 18
+      }
+    },
+    "facts": {
+      "age_years": {
+        "kind": "number",
+        "label": "age_years",
+        "role": "record",
+        "scope": "age years",
+        "unit": "a"
+      }
+    }
+  },
+  "45": {
+    "expression": {
+      "not": {
+        "not": {
+          "fact": "lung_cancer"
+        }
+      }
+    },
+    "facts": {
+      "lung_cancer": {
+        "kind": "bool",
+        "label": "lung_cancer",
+        "role": "record",
+        "scope": "lung cancer"
+      }
+    }
+  },
+  "454": {
+    "expression": {
+      "all": [
+        {
+          "fact": "age_years",
+          "op": "gt",
+          "value": 18
+        },
+        {
+          "fact": "male_or_female"
+        },
+        {
+          "fact": "undergoing_emergency_laparotomy"
+        }
+      ]
+    },
+    "facts": {
+      "age_years": {
+        "kind": "number",
+        "label": "age_years",
+        "role": "record",
+        "scope": "age years",
+        "unit": "a"
+      },
+      "male_or_female": {
+        "kind": "bool",
+        "label": "male_or_female",
+        "role": "record",
+        "scope": "male or female"
+      },
+      "undergoing_emergency_laparotomy": {
+        "kind": "bool",
+        "label": "undergoing_emergency_laparotomy",
+        "role": "record",
+        "scope": "undergoing emergency laparotomy"
+      }
+    }
+  },
+  "46": {
+    "expression": {
+      "fact": "pulmonary_nodule_on_recent_ct"
+    },
+    "facts": {
+      "pulmonary_nodule_on_recent_ct": {
+        "kind": "bool",
+        "label": "pulmonary_nodule_on_recent_ct",
+        "role": "record",
+        "scope": "pulmonary nodule on recent ct"
+      }
+    }
+  },
+  "502": {
+    "expression": {
+      "fact": "who_performance_status",
+      "op": "le",
+      "value": 1
+    },
+    "facts": {
+      "who_performance_status": {
+        "kind": "number",
+        "label": "who_performance_status",
+        "role": "record",
+        "scope": "who performance status",
+        "unit": "1"
+      }
+    }
+  },
+  "517": {
+    "expression": {
+      "not": {
+        "fact": "age_years",
+        "op": "lt",
+        "value": 18
+      }
+    },
+    "facts": {
+      "age_years": {
+        "kind": "number",
+        "label": "age_years",
+        "role": "record",
+        "scope": "age years",
+        "unit": "a"
+      }
+    }
+  },
+  "544": {
+    "expression": {
+      "not": {
+        "fact": "severe_cardiac_condition"
+      }
+    },
+    "facts": {
+      "severe_cardiac_condition": {
+        "kind": "bool",
+        "label": "severe_cardiac_condition",
+        "role": "record",
+        "scope": "severe cardiac condition"
+      }
+    }
+  },
+  "621": {
+    "expression": {
+      "not": {
+        "not": {
+          "fact": "has_social_insurance"
+        }
+      }
+    },
+    "facts": {
+      "has_social_insurance": {
+        "kind": "bool",
+        "label": "has_social_insurance",
+        "role": "record",
+        "scope": "has social insurance"
+      }
+    }
+  },
+  "632": {
+    "expression": {
+      "not": {
+        "fact": "unable_to_provide_written_consent"
+      }
+    },
+    "facts": {
+      "unable_to_provide_written_consent": {
+        "kind": "bool",
+        "label": "unable_to_provide_written_consent",
+        "role": "record",
+        "scope": "unable to provide written consent"
+      }
+    }
+  },
+  "633": {
+    "expression": {
+      "not": {
+        "fact": "age_years",
+        "op": "lt",
+        "value": 18
+      }
+    },
+    "facts": {
+      "age_years": {
+        "kind": "number",
+        "label": "age_years",
+        "role": "record",
+        "scope": "age years",
+        "unit": "a"
+      }
+    }
+  },
+  "636": {
+    "expression": {
+      "fact": "lipid_lowering_treatment_months",
+      "op": "ge",
+      "value": 3
+    },
+    "facts": {
+      "lipid_lowering_treatment_months": {
+        "kind": "number",
+        "label": "lipid_lowering_treatment_months",
+        "role": "record",
+        "scope": "lipid lowering treatment months",
+        "unit": "mo"
+      }
+    }
+  },
+  "637": {
+    "expression": {
+      "fact": "lipid_lowering_regimen_stable_six_weeks_immediately_before_enrolment"
+    },
+    "facts": {
+      "lipid_lowering_regimen_stable_six_weeks_immediately_before_enrolment": {
+        "kind": "bool",
+        "label": "lipid_lowering_regimen_stable_six_weeks_immediately_before_enrolment",
+        "role": "record",
+        "scope": "lipid lowering regimen stable six weeks immediately before enrolment"
+      }
+    }
+  },
+  "640": {
+    "expression": {
+      "fact": "typical_chest_pain"
+    },
+    "facts": {
+      "typical_chest_pain": {
+        "kind": "bool",
+        "label": "typical_chest_pain",
+        "role": "record",
+        "scope": "typical chest pain"
+      }
+    }
+  },
+  "653": {
+    "expression": {
+      "not": {
+        "fact": "unable_to_speak_english"
+      }
+    },
+    "facts": {
+      "unable_to_speak_english": {
+        "kind": "bool",
+        "label": "unable_to_speak_english",
+        "role": "record",
+        "scope": "unable to speak english"
+      }
+    }
+  },
+  "671": {
+    "expression": {
+      "fact": "unipolar_major_depressive_disorder"
+    },
+    "facts": {
+      "unipolar_major_depressive_disorder": {
+        "kind": "bool",
+        "label": "unipolar_major_depressive_disorder",
+        "role": "record",
+        "scope": "unipolar major depressive disorder"
+      }
+    }
+  },
+  "706": {
+    "expression": {
+      "hold": "Clarify whether the symptoms define pelvic congestion or are each required."
+    },
+    "facts": {}
+  },
+  "720": {
+    "expression": {
+      "not": {
+        "fact": "unexplained_menstrual_irregularity"
+      }
+    },
+    "facts": {
+      "unexplained_menstrual_irregularity": {
+        "kind": "bool",
+        "label": "unexplained_menstrual_irregularity",
+        "role": "record",
+        "scope": "unexplained menstrual irregularity"
+      }
+    }
+  },
+  "722": {
+    "expression": {
+      "not": {
+        "fact": "prior_thyroid_tissue_resection"
+      }
+    },
+    "facts": {
+      "prior_thyroid_tissue_resection": {
+        "kind": "bool",
+        "label": "prior_thyroid_tissue_resection",
+        "role": "record",
+        "scope": "prior thyroid tissue resection"
+      }
+    }
+  },
+  "723": {
+    "expression": {
+      "not": {
+        "fact": "prior_neck_irradiation"
+      }
+    },
+    "facts": {
+      "prior_neck_irradiation": {
+        "kind": "bool",
+        "label": "prior_neck_irradiation",
+        "role": "record",
+        "scope": "prior neck irradiation"
+      }
+    }
+  },
+  "724": {
+    "expression": {
+      "not": {
+        "fact": "prior_radioactive_iodine_therapy"
+      }
+    },
+    "facts": {
+      "prior_radioactive_iodine_therapy": {
+        "kind": "bool",
+        "label": "prior_radioactive_iodine_therapy",
+        "role": "record",
+        "scope": "prior radioactive iodine therapy"
+      }
+    }
+  },
+  "725": {
+    "expression": {
+      "not": {
+        "any": [
+          {
+            "fact": "prior_treatment_lithium"
+          },
+          {
+            "fact": "prior_treatment_methimazole"
+          },
+          {
+            "fact": "prior_treatment_propylthiouracil"
+          },
+          {
+            "fact": "prior_treatment_ethionamide"
+          },
+          {
+            "fact": "prior_treatment_amiodarone"
+          },
+          {
+            "fact": "prior_treatment_sunitinib"
+          }
+        ]
+      }
+    },
+    "facts": {
+      "prior_treatment_amiodarone": {
+        "kind": "bool",
+        "label": "prior_treatment_amiodarone",
+        "role": "record",
+        "scope": "prior treatment amiodarone"
+      },
+      "prior_treatment_ethionamide": {
+        "kind": "bool",
+        "label": "prior_treatment_ethionamide",
+        "role": "record",
+        "scope": "prior treatment ethionamide"
+      },
+      "prior_treatment_lithium": {
+        "kind": "bool",
+        "label": "prior_treatment_lithium",
+        "role": "record",
+        "scope": "prior treatment lithium"
+      },
+      "prior_treatment_methimazole": {
+        "kind": "bool",
+        "label": "prior_treatment_methimazole",
+        "role": "record",
+        "scope": "prior treatment methimazole"
+      },
+      "prior_treatment_propylthiouracil": {
+        "kind": "bool",
+        "label": "prior_treatment_propylthiouracil",
+        "role": "record",
+        "scope": "prior treatment propylthiouracil"
+      },
+      "prior_treatment_sunitinib": {
+        "kind": "bool",
+        "label": "prior_treatment_sunitinib",
+        "role": "record",
+        "scope": "prior treatment sunitinib"
+      }
+    }
+  },
+  "726": {
+    "expression": {
+      "not": {
+        "fact": "prior_celiac_serology"
+      }
+    },
+    "facts": {
+      "prior_celiac_serology": {
+        "kind": "bool",
+        "label": "prior_celiac_serology",
+        "role": "record",
+        "scope": "prior celiac serology"
+      }
+    }
+  },
+  "734": {
+    "expression": {
+      "not": {
+        "fact": "congenital_immunodeficiency"
+      }
+    },
+    "facts": {
+      "congenital_immunodeficiency": {
+        "kind": "bool",
+        "label": "congenital_immunodeficiency",
+        "role": "record",
+        "scope": "congenital immunodeficiency"
+      }
+    }
+  },
+  "735": {
+    "expression": {
+      "not": {
+        "fact": "hiv"
+      }
+    },
+    "facts": {
+      "hiv": {
+        "kind": "bool",
+        "label": "hiv",
+        "role": "record",
+        "scope": "hiv"
+      }
+    }
+  },
+  "736": {
+    "expression": {
+      "not": {
+        "fact": "long_term_corticosteroids"
+      }
+    },
+    "facts": {
+      "long_term_corticosteroids": {
+        "kind": "bool",
+        "label": "long_term_corticosteroids",
+        "role": "record",
+        "scope": "long term corticosteroids"
+      }
+    }
+  },
+  "737": {
+    "expression": {
+      "not": {
+        "hold": "Clarify whether disorders in any of the three gland systems meet this exclusion."
+      }
+    },
+    "facts": {}
+  },
+  "738": {
+    "expression": {
+      "not": {
+        "fact": "tuberculosis"
+      }
+    },
+    "facts": {
+      "tuberculosis": {
+        "kind": "bool",
+        "label": "tuberculosis",
+        "role": "record",
+        "scope": "tuberculosis"
+      }
+    }
+  },
+  "817": {
+    "expression": {
+      "not": {
+        "fact": "neurologic_symptoms_nonvascular_origin_after_ct_or_mri"
+      }
+    },
+    "facts": {
+      "neurologic_symptoms_nonvascular_origin_after_ct_or_mri": {
+        "kind": "bool",
+        "label": "neurologic_symptoms_nonvascular_origin_after_ct_or_mri",
+        "role": "record",
+        "scope": "neurologic symptoms nonvascular origin after ct or mri"
+      }
+    }
+  },
+  "860": {
+    "expression": {
+      "not": {
+        "all": [
+          {
+            "fact": "unmarried"
+          },
+          {
+            "fact": "reports_never_had_sexual_intercourse"
+          }
+        ]
+      }
+    },
+    "facts": {
+      "reports_never_had_sexual_intercourse": {
+        "kind": "bool",
+        "label": "reports_never_had_sexual_intercourse",
+        "role": "record",
+        "scope": "reports never had sexual intercourse"
+      },
+      "unmarried": {
+        "kind": "bool",
+        "label": "unmarried",
+        "role": "record",
+        "scope": "unmarried"
+      }
+    }
+  },
+  "866": {
+    "expression": {
+      "fact": "aliquot_with_valid_aptima_hpv_tigris_result_from_2007HPVASCUS30"
+    },
+    "facts": {
+      "aliquot_with_valid_aptima_hpv_tigris_result_from_2007HPVASCUS30": {
+        "kind": "bool",
+        "label": "aliquot_with_valid_aptima_hpv_tigris_result_from_2007HPVASCUS30",
+        "role": "record",
+        "scope": "aliquot with valid aptima hpv tigris result from 2007HPVASCUS30"
+      }
+    }
+  },
+  "867": {
+    "expression": {
+      "all": [
+        {
+          "fact": "aliquot_available"
+        },
+        {
+          "fact": "aliquot_suitable_for_testing"
+        }
+      ]
+    },
+    "facts": {
+      "aliquot_available": {
+        "kind": "bool",
+        "label": "aliquot_available",
+        "role": "record",
+        "scope": "aliquot available"
+      },
+      "aliquot_suitable_for_testing": {
+        "kind": "bool",
+        "label": "aliquot_suitable_for_testing",
+        "role": "record",
+        "scope": "aliquot suitable for testing"
+      }
+    }
+  },
+  "870": {
+    "expression": {
+      "any": [
+        {
+          "fact": "worsening_heart_failure_primary_admission_reason"
+        },
+        {
+          "fact": "significant_heart_failure_symptoms_developed_in_hospital_initially_admitted_for_other_reason"
+        }
+      ]
+    },
+    "facts": {
+      "significant_heart_failure_symptoms_developed_in_hospital_initially_admitted_for_other_reason": {
+        "kind": "bool",
+        "label": "significant_heart_failure_symptoms_developed_in_hospital_initially_admitted_for_other_reason",
+        "role": "record",
+        "scope": "significant heart failure symptoms developed in hospital initially admitted for other reason"
+      },
+      "worsening_heart_failure_primary_admission_reason": {
+        "kind": "bool",
+        "label": "worsening_heart_failure_primary_admission_reason",
+        "role": "record",
+        "scope": "worsening heart failure primary admission reason"
+      }
+    }
+  },
+  "875": {
+    "expression": {
+      "any": [
+        {
+          "fact": "hospital_admission"
+        },
+        {
+          "fact": "transferred_to_observation_unit"
+        }
+      ]
+    },
+    "facts": {
+      "hospital_admission": {
+        "kind": "bool",
+        "label": "hospital_admission",
+        "role": "record",
+        "scope": "hospital admission"
+      },
+      "transferred_to_observation_unit": {
+        "kind": "bool",
+        "label": "transferred_to_observation_unit",
+        "role": "record",
+        "scope": "transferred to observation unit"
+      }
+    }
+  },
+  "962": {
+    "expression": {
+      "not": {
+        "all": [
+          {
+            "fact": "malaria"
+          },
+          {
+            "any": [
+              {
+                "fact": "severe_or_complicated_malaria"
+              },
+              {
+                "fact": "impaired_consciousness"
+              },
+              {
+                "fact": "seizures"
+              },
+              {
+                "fact": "abnormal_neurologic_exam"
+              },
+              {
+                "fact": "jaundice"
+              },
+              {
+                "fact": "respiratory_distress"
+              },
+              {
+                "fact": "persistent_vomiting"
+              },
+              {
+                "fact": "patient_reported_hematuria"
+              },
+              {
+                "fact": "parasites_per_ml",
+                "op": "gt",
+                "value": 100000
+              },
+              {
+                "fact": "non_falciparum_species_on_microscopy"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "facts": {
+      "abnormal_neurologic_exam": {
+        "kind": "bool",
+        "label": "abnormal_neurologic_exam",
+        "role": "record",
+        "scope": "abnormal neurologic exam"
+      },
+      "impaired_consciousness": {
+        "kind": "bool",
+        "label": "impaired_consciousness",
+        "role": "record",
+        "scope": "impaired consciousness"
+      },
+      "jaundice": {
+        "kind": "bool",
+        "label": "jaundice",
+        "role": "record",
+        "scope": "jaundice"
+      },
+      "malaria": {
+        "kind": "bool",
+        "label": "malaria",
+        "role": "record",
+        "scope": "malaria"
+      },
+      "non_falciparum_species_on_microscopy": {
+        "kind": "bool",
+        "label": "non_falciparum_species_on_microscopy",
+        "role": "record",
+        "scope": "non falciparum species on microscopy"
+      },
+      "parasites_per_ml": {
+        "kind": "number",
+        "label": "parasites_per_ml",
+        "role": "record",
+        "scope": "parasites per ml",
+        "unit": "/mL"
+      },
+      "patient_reported_hematuria": {
+        "kind": "bool",
+        "label": "patient_reported_hematuria",
+        "role": "record",
+        "scope": "patient reported hematuria"
+      },
+      "persistent_vomiting": {
+        "kind": "bool",
+        "label": "persistent_vomiting",
+        "role": "record",
+        "scope": "persistent vomiting"
+      },
+      "respiratory_distress": {
+        "kind": "bool",
+        "label": "respiratory_distress",
+        "role": "record",
+        "scope": "respiratory distress"
+      },
+      "seizures": {
+        "kind": "bool",
+        "label": "seizures",
+        "role": "record",
+        "scope": "seizures"
+      },
+      "severe_or_complicated_malaria": {
+        "kind": "bool",
+        "label": "severe_or_complicated_malaria",
+        "role": "record",
+        "scope": "severe or complicated malaria"
+      }
+    }
+  },
+  "965": {
+    "expression": {
+      "not": {
+        "fact": "history_of_blood_dyscrasia"
+      }
+    },
+    "facts": {
+      "history_of_blood_dyscrasia": {
+        "kind": "bool",
+        "label": "history_of_blood_dyscrasia",
+        "role": "record",
+        "scope": "history of blood dyscrasia"
+      }
+    }
+  }
+}

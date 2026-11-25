@@ -1,0 +1,21 @@
+{
+  "criteria": 63,
+  "patients": 29,
+  "source_texts": 87,
+  "rows_with_leads": 29,
+  "rows_with_active_requests": 63,
+  "grouped_source_requests": 60,
+  "cited_rows": 24,
+  "top5_overlap": 17,
+  "lexical_top5_overlap": 10,
+  "new_definite": 0,
+  "rows_with_new_numeric_leads": 0,
+  "after": {
+    "MISSING_DATA": 63
+  },
+  "prediction_sha256": "0cc6f19fcfd025ece545e0f2c97a8dd0ba1baaab473167d3be9df00dba96fdc1",
+  "topic_sha256": {
+    "2014": "8fa33d3a258da436c05d6009fc5713cc56038cc488535e52eccd6c19a11fc9e9",
+    "2015": "511f8992b7b2676a14a14cf556b2995a1084004691f2e7c031151d3eeac4e59c"
+  }
+}

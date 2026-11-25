@@ -1,0 +1,24 @@
+{
+  "rule": {
+    "expression": {
+      "not": {
+        "fact": "age_years",
+        "op": "lt",
+        "value": 18
+      }
+    },
+    "facts": {
+      "age_years": {
+        "kind": "number",
+        "label": "age_years",
+        "role": "record",
+        "scope": "age years",
+        "unit": "a"
+      }
+    }
+  },
+  "patient": "sigir-20143",
+  "study": "NCT01452971",
+  "criterion_text": "Participant is under 18 years old.",
+  "note": "0. A 58-year-old nonsmoker white female with mild exertional dyspnea and occasional cough is found to have a left lung mass on chest x-ray.\n1. She is otherwise asymptomatic.\n2. A neurologic examination is unremarkable, but a CT scan of the head shows a solitary mass in the right frontal lobe.\n3. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+}

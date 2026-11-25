@@ -1,0 +1,50 @@
+{
+  "study": "NCT02340533",
+  "history": [
+    {
+      "submitted": "2015-01-15",
+      "url": "https://clinicaltrials.gov/study/NCT02340533?tab=history&a=1",
+      "changes": [],
+      "retrieved_render_sha256": "ae2fcc07e760da26f68d2a05e9bd6f567fed3629d37c7a00b8f9f200f669a722"
+    },
+    {
+      "submitted": "2015-07-21",
+      "url": "https://clinicaltrials.gov/study/NCT02340533?tab=history&a=2",
+      "changes": [
+        "Recruitment Status",
+        "Study Identification",
+        "Study Status",
+        "Contacts/Locations"
+      ],
+      "retrieved_render_sha256": "b33df6736461514df710a9dbfdeee2d10ad160d9e92922777a23c73a8c63dcaa"
+    },
+    {
+      "submitted": "2015-07-26",
+      "url": "https://clinicaltrials.gov/study/NCT02340533?tab=history&a=3",
+      "changes": [
+        "Study Identification",
+        "Study Status"
+      ],
+      "retrieved_render_sha256": "778f85d1f2ff321971426a2a3462e4a86b2f1eb0b1e63bdb48074d15e75a2f61"
+    }
+  ],
+  "eligibility_verified": "First-version full eligibility equals latest registry eligibility after whitespace/list-markup normalization. The history index lists no eligibility amendments.",
+  "eligibility_normalized_sha256": "a30bd09dd819b80c0f0bc433e5e28976ade53342b9b2714ea038aa8da657ba89",
+  "arm_text_verified": "The complete original arm description equals the current API arm description after whitespace/list-markup normalization. The latest historical display also contains this arm text.",
+  "arm_normalized_sha256": "a65932c2cbf72f2077ec59cbe2ae4d029455da3d9bb14cd85a0eb5ea1014abf8",
+  "eligibility_source": "https://clinicaltrials.gov/study/NCT02340533?tab=history&a=1#eligibility-card",
+  "original_contact_source": "https://clinicaltrials.gov/study/NCT02340533?tab=history&a=1#contacts-locations-card",
+  "public_historical_primary_contact": {
+    "name": "Dina M Dakhly, MD",
+    "study_role": "Principal Investigator",
+    "affiliation": "Cairo University",
+    "email": "dinadakhly@gmail.com",
+    "current_address_verified": false
+  },
+  "current_api": "https://clinicaltrials.gov/api/v2/studies/NCT02340533",
+  "registry_publication_links": 0,
+  "protocol_document_attached": false,
+  "original_projected_completion": "2015-06",
+  "last_reported_actual_completion": "2015-06",
+  "interpretation": "Symptom grouping and whether a separate chronic pelvic-congestion determination is required remain unadjudicated."
+}

@@ -1,0 +1,702 @@
+{
+  "resourceType": "Bundle",
+  "type": "collection",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "demo",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-11-03T09:00:00Z"
+        },
+        "birthDate": "1980-03-10"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "EpisodeOfCare",
+        "id": "attempt",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-11-03T09:00:00Z"
+        },
+        "status": "active",
+        "patient": {
+          "reference": "Patient/demo"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "urn:pocketmd:demo:prescreen:v1",
+                "code": "trial-screening-attempt"
+              }
+            ]
+          }
+        ],
+        "diagnosis": [
+          {
+            "condition": {
+              "reference": "Condition/index/_history/1"
+            }
+          }
+        ],
+        "identifier": [
+          {
+            "system": "urn:pocketmd:demo:screening-study",
+            "value": "106S01"
+          }
+        ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "pre",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-11-18T15:00:00Z"
+        },
+        "status": "finished",
+        "subject": {
+          "reference": "Patient/demo"
+        },
+        "period": {
+          "start": "2026-11-03T09:00:00Z",
+          "end": "2026-11-18T15:00:00Z"
+        },
+        "identifier": [
+          {
+            "system": "urn:pocketmd:demo:screening-study",
+            "value": "106S01"
+          }
+        ],
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "urn:pocketmd:demo:prescreen:v1",
+                "code": "prescreening"
+              }
+            ]
+          }
+        ],
+        "episodeOfCare": [
+          {
+            "reference": "EpisodeOfCare/attempt/_history/1"
+          }
+        ],
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "AMB"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "screen",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-11-19T12:00:00Z"
+        },
+        "status": "finished",
+        "subject": {
+          "reference": "Patient/demo"
+        },
+        "period": {
+          "start": "2026-11-19T09:00:00Z",
+          "end": "2026-11-19T12:00:00Z"
+        },
+        "identifier": [
+          {
+            "system": "urn:pocketmd:demo:screening-study",
+            "value": "106S01"
+          }
+        ],
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "urn:pocketmd:demo:prescreen:v1",
+                "code": "formal-screening-assessments"
+              }
+            ]
+          }
+        ],
+        "episodeOfCare": [
+          {
+            "reference": "EpisodeOfCare/attempt/_history/1"
+          }
+        ],
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "AMB"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "doc-signed-pre",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-11-03T09:00:00Z"
+        },
+        "status": "current",
+        "docStatus": "final",
+        "subject": {
+          "reference": "Patient/demo"
+        },
+        "type": {
+          "coding": [
+            {
+              "system": "urn:pocketmd:demo:prescreen:v1",
+              "code": "signed-prescreen-consent"
+            }
+          ]
+        },
+        "date": "2026-11-03T09:00:00Z",
+        "context": {
+          "encounter": [
+            {
+              "reference": "Encounter/pre"
+            }
+          ]
+        },
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/plain",
+              "title": "Synthetic source for signed-pre",
+              "data": "U3ludGhldGljLg=="
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "signed-pre",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-11-03T09:00:00Z"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "Patient/demo"
+        },
+        "encounter": {
+          "reference": "Encounter/pre"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "urn:pocketmd:demo:prescreen:v1",
+              "code": "verified-prescreen-consent-signature"
+            }
+          ]
+        },
+        "effectiveDateTime": "2026-11-03T09:00:00Z",
+        "issued": "2026-11-03T09:00:00Z",
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/doc-signed-pre/_history/1"
+          }
+        ],
+        "valueDateTime": "2026-11-03T09:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "doc-signed-main",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-11-18T15:00:00Z"
+        },
+        "status": "current",
+        "docStatus": "final",
+        "subject": {
+          "reference": "Patient/demo"
+        },
+        "type": {
+          "coding": [
+            {
+              "system": "urn:pocketmd:demo:prescreen:v1",
+              "code": "signed-main-consent"
+            }
+          ]
+        },
+        "date": "2026-11-18T15:00:00Z",
+        "context": {
+          "encounter": [
+            {
+              "reference": "Encounter/pre"
+            }
+          ]
+        },
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/plain",
+              "title": "Synthetic source for signed-main",
+              "data": "U3ludGhldGljLg=="
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "signed-main",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-11-18T15:00:00Z"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "Patient/demo"
+        },
+        "encounter": {
+          "reference": "Encounter/pre"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "urn:pocketmd:demo:prescreen:v1",
+              "code": "verified-main-consent-signature"
+            }
+          ]
+        },
+        "effectiveDateTime": "2026-11-18T15:00:00Z",
+        "issued": "2026-11-18T15:00:00Z",
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/doc-signed-main/_history/1"
+          }
+        ],
+        "valueDateTime": "2026-11-18T15:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "doc-archive-review",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-11-03T13:00:00Z"
+        },
+        "status": "current",
+        "docStatus": "final",
+        "subject": {
+          "reference": "Patient/demo"
+        },
+        "type": {
+          "coding": [
+            {
+              "system": "urn:pocketmd:demo:prescreen:v1",
+              "code": "tissue-review"
+            }
+          ]
+        },
+        "date": "2026-11-03T13:00:00Z",
+        "context": {
+          "encounter": [
+            {
+              "reference": "Encounter/pre"
+            }
+          ]
+        },
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/plain",
+              "title": "Synthetic source for archive-review",
+              "data": "U3ludGhldGljLg=="
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "archive-review",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-11-03T13:00:00Z"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "Patient/demo"
+        },
+        "encounter": {
+          "reference": "Encounter/pre"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "urn:pocketmd:demo:prescreen:v1",
+              "code": "adequate-ffpe-archive-available"
+            }
+          ]
+        },
+        "effectiveDateTime": "2026-11-03T13:00:00Z",
+        "issued": "2026-11-03T13:00:00Z",
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/doc-archive-review/_history/1"
+          }
+        ],
+        "valueBoolean": false,
+        "focus": [
+          {
+            "reference": "Condition/index/_history/1"
+          }
+        ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "doc-feasibility",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-11-03T14:00:00Z"
+        },
+        "status": "current",
+        "docStatus": "final",
+        "subject": {
+          "reference": "Patient/demo"
+        },
+        "type": {
+          "coding": [
+            {
+              "system": "urn:pocketmd:demo:prescreen:v1",
+              "code": "tissue-review"
+            }
+          ]
+        },
+        "date": "2026-11-03T14:00:00Z",
+        "context": {
+          "encounter": [
+            {
+              "reference": "Encounter/pre"
+            }
+          ]
+        },
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/plain",
+              "title": "Synthetic source for feasibility",
+              "data": "U3ludGhldGljLg=="
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "feasibility",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-11-03T14:00:00Z"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "Patient/demo"
+        },
+        "encounter": {
+          "reference": "Encounter/pre"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "urn:pocketmd:demo:prescreen:v1",
+              "code": "fresh-biopsy-feasibility"
+            }
+          ]
+        },
+        "effectiveDateTime": "2026-11-03T14:00:00Z",
+        "issued": "2026-11-03T14:00:00Z",
+        "derivedFrom": [
+          {
+            "reference": "DocumentReference/doc-feasibility/_history/1"
+          }
+        ],
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "urn:pocketmd:demo:prescreen:v1",
+              "code": "safe-and-accessible"
+            }
+          ]
+        },
+        "focus": [
+          {
+            "reference": "Condition/index/_history/1"
+          }
+        ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "QuestionnaireResponse",
+        "id": "biopsy-preference",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-11-04T09:00:00Z"
+        },
+        "status": "completed",
+        "questionnaire": "https://example.org/pocketmd/Questionnaire/prescreen-biopsy|1",
+        "subject": {
+          "reference": "Patient/demo"
+        },
+        "source": {
+          "reference": "Patient/demo"
+        },
+        "encounter": {
+          "reference": "Encounter/pre"
+        },
+        "authored": "2026-11-04T09:00:00Z",
+        "item": [
+          {
+            "linkId": "willing-fresh-biopsy",
+            "answer": [
+              {
+                "valueBoolean": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Organization",
+        "id": "central",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-11-03T09:00:00Z"
+        },
+        "active": true,
+        "name": "Synthetic study-designated central lab",
+        "identifier": [
+          {
+            "system": "urn:pocketmd:demo:designated-lab",
+            "value": "106S01-central-IHC"
+          }
+        ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Condition",
+        "id": "index",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-11-03T09:00:00Z"
+        },
+        "subject": {
+          "reference": "Patient/demo"
+        },
+        "code": {
+          "text": "Synthetic index tumor"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ServiceRequest",
+        "id": "central-ihc",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-11-07T10:00:00Z"
+        },
+        "status": "completed",
+        "intent": "order",
+        "subject": {
+          "reference": "Patient/demo"
+        },
+        "encounter": {
+          "reference": "Encounter/pre"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "urn:pocketmd:demo:prescreen:v1",
+              "code": "trial-lrrc15-ihc-ivd"
+            }
+          ]
+        },
+        "reasonReference": [
+          {
+            "reference": "Condition/index/_history/1"
+          }
+        ],
+        "specimen": [
+          {
+            "reference": "Specimen/tumor/_history/1"
+          }
+        ],
+        "authoredOn": "2026-11-07T10:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Specimen",
+        "id": "tumor",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-11-07T09:00:00Z"
+        },
+        "status": "available",
+        "type": {
+          "coding": [
+            {
+              "system": "urn:pocketmd:demo:prescreen:v1",
+              "code": "freshly-obtained-tumor-biopsy"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/demo"
+        },
+        "condition": [
+          {
+            "coding": [
+              {
+                "system": "urn:pocketmd:demo:prescreen:v1",
+                "code": "adequate-for-ihc"
+              }
+            ]
+          }
+        ],
+        "collection": {
+          "collectedDateTime": "2026-11-07T09:00:00Z",
+          "method": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:demo:prescreen:v1",
+                "code": "core-biopsy"
+              }
+            ]
+          }
+        },
+        "container": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "urn:pocketmd:demo:prescreen:v1",
+                  "code": "ffpe-block"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "staining",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-11-12T15:00:00Z"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "Patient/demo"
+        },
+        "encounter": {
+          "reference": "Encounter/pre"
+        },
+        "specimen": {
+          "reference": "Specimen/tumor/_history/1"
+        },
+        "performer": [
+          {
+            "reference": "Organization/central/_history/1"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "urn:pocketmd:demo:prescreen:v1",
+              "code": "lrrc15-percent-cells-intensity-ge-1plus"
+            }
+          ]
+        },
+        "method": {
+          "coding": [
+            {
+              "system": "urn:pocketmd:demo:prescreen:v1",
+              "code": "trial-lrrc15-ihc-ivd"
+            }
+          ]
+        },
+        "effectiveDateTime": "2026-11-12T09:00:00Z",
+        "issued": "2026-11-12T15:00:00Z",
+        "valueQuantity": {
+          "value": 1,
+          "system": "http://unitsofmeasure.org",
+          "code": "%",
+          "unit": "%"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "DiagnosticReport",
+        "id": "ihc",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2026-11-12T15:00:00Z"
+        },
+        "basedOn": [
+          {
+            "reference": "ServiceRequest/central-ihc/_history/1"
+          }
+        ],
+        "status": "final",
+        "subject": {
+          "reference": "Patient/demo"
+        },
+        "encounter": {
+          "reference": "Encounter/pre"
+        },
+        "performer": [
+          {
+            "reference": "Organization/central/_history/1"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "urn:pocketmd:demo:prescreen:v1",
+              "code": "trial-lrrc15-ihc-ivd"
+            }
+          ]
+        },
+        "issued": "2026-11-12T15:00:00Z",
+        "specimen": [
+          {
+            "reference": "Specimen/tumor/_history/1"
+          }
+        ],
+        "result": [
+          {
+            "reference": "Observation/staining/_history/1"
+          }
+        ]
+      }
+    }
+  ]
+}

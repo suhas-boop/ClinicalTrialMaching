@@ -1,0 +1,2678 @@
+{
+  "dataset": {
+    "archive_sha256": "10e63f2f3e06315546243ac7114383ea31ac52930cb1d1c04aeee46afec20f80",
+    "archive_size": 525110950,
+    "attribution": "Bevan Koopman and Guido Zuccon, CSIRO, 2016. Creative Commons Attribution-ShareAlike 4.0 International.",
+    "comparison_normalization": "Full-text corroboration compares both eligibility sections or the full eligibility block, in order, after case-folding, Unicode normalization, normalization of comparison operators, and removal of numbering, typographic punctuation and headings. Age comparisons use structured values. Source bytes and local selection hashes are independently provided.",
+    "doi": "10.4225/08/5714557510C17",
+    "file_name": "clinicaltrials.gov-16_dec_2015.tgz",
+    "file_url": "https://data.csiro.au/dap/ws/v2/collections/17152/data/48639721",
+    "hash_note": "SHA-256 computed on bytes retrieved from the CSIRO data repository.",
+    "join_method": "Match the complete frozen criterion as a contiguous lexical sequence, with the same inclusion/exclusion section where explicit. Original scientific operators and units preserved. If no section header is available, only unscoped literal matches may be recorded. Audited immutable original XML is the source for age/sex fields independently of text-revision comparison.",
+    "name": "A Test Collection for Matching Patient to Clinical Trials",
+    "nih_release_date": "2024-05-28",
+    "nih_source": {
+      "last_modified": "Tue, 28 May 2024 11:14:46 GMT",
+      "selected": 68,
+      "selected_path": "nih_trial_info_selection.json",
+      "selected_sha256": "0ea45c0e6fdf3c080fa946f374c2bae6685348e2298e128c143cda376459a9b1",
+      "sha256": "7e927cd9b6d00c2998efcf0651b713400137cb1e94e59374604a863b0dfe05eb",
+      "size": 1172415692,
+      "url": "https://ftp.ncbi.nlm.nih.gov/pub/lu/TrialGPT/trial_info.json"
+    },
+    "published": "2016-04-18",
+    "snapshot_date": "2015-12-16",
+    "source_bridge_policy": "A study-wide December 2015 bound is corroborated for this retrospective benchmark only when the official current bound agrees, the official record was last submitted by the NIH release date, and either a full normalized eligibility text matches from at least one source or the official registry record has the same last-update date as the historical source. Preserve divergent endpoints explicitly. Each case-level criterion join must independently preserve its wording and source polarity. This procedure does not establish absence of intervening amendments.",
+    "source_url": "https://data.csiro.au/dap/ws/v2/collections/17152",
+    "version": 1
+  },
+  "studies": {
+    "NCT00015626": {
+      "archive_member": "clinicaltrials.gov-16_dec_2015/NCT00015626.xml",
+      "benchmark_version_verified": true,
+      "criterion_joins": [
+        {
+          "case": "120",
+          "criterion_type": "inclusion",
+          "frozen_criterion_sha256": "f742c2a4c69f9a2bf3cd058260370f6d9640573bc9a09697ed5d5ba2412fd4c2",
+          "status": "exact_lexical"
+        }
+      ],
+      "current_registry": {
+        "last_update_submitted": "2005-06-23",
+        "max_age": null,
+        "min_age": "5 Years",
+        "path": "current/NCT00015626.json",
+        "record_last_change_matches_2015_xml": true,
+        "sha256": "cea1d7c41924a99a874675f67b4e8c76298c1da6b6fae0d12741cae2fde37692",
+        "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT00015626"
+      },
+      "eligibility_text_sha256": "51ecb347d97f1ef2625a9dfde7850330c0aa6f9ce303c3135fa227a7e3fb27b7",
+      "lastchanged_date": "June 23, 2005",
+      "max_age": "N/A",
+      "max_agrees_across_registry_sources": true,
+      "min_age": "5 Years",
+      "min_agrees_across_registry_sources": true,
+      "nih_full_eligibility_matches_2015_normalized": true,
+      "nih_full_eligibility_matches_current_normalized": true,
+      "nih_source_key": "NCT00015626",
+      "path": "xml/NCT00015626.xml",
+      "sex": "Both",
+      "sha256": "82c304382aade7840edef39a82e2deb3025efb5eb30993c5a2da885f03ea2cd3"
+    },
+    "NCT00084240": {
+      "archive_member": "clinicaltrials.gov-16_dec_2015/NCT00084240.xml",
+      "benchmark_version_verified": true,
+      "criterion_joins": [
+        {
+          "case": "962",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "7653b34618267698f6c482a93f32b64eeda7d4c62a4117af22da9ff74f2e9cb0",
+          "status": "exact_lexical"
+        },
+        {
+          "case": "965",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "7c00e080afc0e503ecf35b72de664965fa1aec5b68cf82cd38dbe14c6e497c42",
+          "status": "exact_lexical"
+        }
+      ],
+      "current_registry": {
+        "last_update_submitted": "2008-10-30",
+        "max_age": "85 Years",
+        "min_age": "18 Years",
+        "path": "current/NCT00084240.json",
+        "record_last_change_matches_2015_xml": true,
+        "sha256": "0965c0d6a4f18ef40916cee40784c95912ddec201bfd79ce7f9a0235266e32cb",
+        "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT00084240"
+      },
+      "eligibility_text_sha256": "99d9972fbbc12260d9090060cdc484245f846c23a610fa9adb713f4110a1f192",
+      "lastchanged_date": "October 30, 2008",
+      "max_age": "85 Years",
+      "max_agrees_across_registry_sources": true,
+      "min_age": "18 Years",
+      "min_agrees_across_registry_sources": true,
+      "nih_full_eligibility_matches_2015_normalized": true,
+      "nih_full_eligibility_matches_current_normalized": true,
+      "nih_source_key": "NCT00084240",
+      "path": "xml/NCT00084240.xml",
+      "sex": "Both",
+      "sha256": "910035df611c239d320faa36c13c81a3c7e14aac5ea8c3167baa557abc7df1c7"
+    },
+    "NCT00149227": {
+      "archive_member": "clinicaltrials.gov-16_dec_2015/NCT00149227.xml",
+      "benchmark_version_verified": true,
+      "criterion_joins": [
+        {
+          "case": "25",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "c1f18d645ec85b35927366919264756be1da03d3b4ff3ad215f2e091dc6b0705",
+          "status": "exact_lexical"
+        },
+        {
+          "case": "26",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "5734d110b0c813a07c05fe8ee32d35473730619983613bfea6b125fa8f5a53ef",
+          "status": "exact_lexical"
+        },
+        {
+          "case": "29",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "17cd884176c1791ad8903a8e3948c93ad09c9b9b27ad9666a2cc421b69abc1a1",
+          "status": "exact_lexical"
+        }
+      ],
+      "current_registry": {
+        "last_update_submitted": "2012-12-09",
+        "max_age": "79 Years",
+        "min_age": "20 Years",
+        "path": "current/NCT00149227.json",
+        "record_last_change_matches_2015_xml": true,
+        "sha256": "9dc2008d22e873f8ffbe35b1d2dbe3777ad2bb8d651a1af5ed1a56b80e08b001",
+        "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT00149227"
+      },
+      "eligibility_text_sha256": "3ec446276a423629d7972218151708876906a038b0781ebf201bb405a6b9a816",
+      "lastchanged_date": "December 9, 2012",
+      "max_age": "79 Years",
+      "max_agrees_across_registry_sources": true,
+      "min_age": "20 Years",
+      "min_agrees_across_registry_sources": true,
+      "nih_full_eligibility_matches_2015_normalized": true,
+      "nih_full_eligibility_matches_current_normalized": true,
+      "nih_source_key": "NCT00149227",
+      "path": "xml/NCT00149227.xml",
+      "sex": "Both",
+      "sha256": "af245296f8d4e66911c2aa189cff75a456e54858f87420dffa9e3e99ea1a26dc"
+    },
+    "NCT00163709": {
+      "archive_member": "clinicaltrials.gov-16_dec_2015/NCT00163709.xml",
+      "benchmark_version_verified": true,
+      "criterion_joins": [
+        {
+          "case": "217",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "db820f3e3cd06f7b635ca1368f9241f8aaba16b87ece2e910eb8d3735c6e1ae4",
+          "status": "exact_lexical"
+        },
+        {
+          "case": "218",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "43feb5bd862f6a6b8a0442d8ee104761ee54b10be63e637851a7868e76a02a47",
+          "status": "exact_lexical"
+        }
+      ],
+      "current_registry": {
+        "last_update_submitted": "2006-10-03",
+        "max_age": null,
+        "min_age": "40 Years",
+        "path": "current/NCT00163709.json",
+        "record_last_change_matches_2015_xml": true,
+        "sha256": "57057b727dd5cc7bced09e3ad1a5466bdbec296a3e6c70599e3f68eba092f601",
+        "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT00163709"
+      },
+      "eligibility_text_sha256": "d7a0800a3427e08cfc2e02fa61007604216744934e51782e3c453dcf971d484b",
+      "lastchanged_date": "October 3, 2006",
+      "max_age": "N/A",
+      "max_agrees_across_registry_sources": true,
+      "min_age": "40 Years",
+      "min_agrees_across_registry_sources": true,
+      "nih_full_eligibility_matches_2015_normalized": true,
+      "nih_full_eligibility_matches_current_normalized": true,
+      "nih_source_key": "NCT00163709",
+      "path": "xml/NCT00163709.xml",
+      "sex": "Both",
+      "sha256": "e12989ca53a0a2d7de8e70eaf9450a85a0627a7cb56b91f291b1f1f7fbf5b709"
+    },
+    "NCT00170222": {
+      "archive_member": "clinicaltrials.gov-16_dec_2015/NCT00170222.xml",
+      "benchmark_version_verified": true,
+      "criterion_joins": [
+        {
+          "case": "437",
+          "criterion_type": "inclusion",
+          "frozen_criterion_sha256": "fe8e280f0635a78ff73a966732214d87afcdaa0ec39213b20e43fe80acaefb22",
+          "status": "exact_lexical"
+        }
+      ],
+      "current_registry": {
+        "last_update_submitted": "2008-09-26",
+        "max_age": null,
+        "min_age": "45 Years",
+        "path": "current/NCT00170222.json",
+        "record_last_change_matches_2015_xml": true,
+        "sha256": "accbfb04f757d55821fed0986d10f0694ab03e97b2304b2f6762daf55ffe06da",
+        "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT00170222"
+      },
+      "eligibility_text_sha256": "0611d8252596594421aaf1852226336ac824d1132d3bf49791b6d812b4ac6dcd",
+      "lastchanged_date": "September 26, 2008",
+      "max_age": "N/A",
+      "max_agrees_across_registry_sources": true,
+      "min_age": "45 Years",
+      "min_agrees_across_registry_sources": true,
+      "nih_full_eligibility_matches_2015_normalized": true,
+      "nih_full_eligibility_matches_current_normalized": true,
+      "nih_source_key": "NCT00170222",
+      "path": "xml/NCT00170222.xml",
+      "sex": "Both",
+      "sha256": "af248c07daeba7273f41b6ec994cfc529cd9e2633bd94bc9ec8438ef4a11f9d2"
+    },
+    "NCT00182832": {
+      "archive_member": "clinicaltrials.gov-16_dec_2015/NCT00182832.xml",
+      "benchmark_version_verified": true,
+      "criterion_joins": [
+        {
+          "case": "890",
+          "criterion_type": "inclusion",
+          "frozen_criterion_sha256": "2895b86cfb87cd8268882baae54c81676d3dbd7323670dd00969eaf276f3175d",
+          "status": "exact_lexical"
+        }
+      ],
+      "current_registry": {
+        "last_update_submitted": "2016-04-11",
+        "max_age": null,
+        "min_age": "65 Years",
+        "path": "current/NCT00182832.json",
+        "record_last_change_matches_2015_xml": false,
+        "sha256": "5b0f5a011f0ad6cfa382e61ffc270494bf6d884feedaa0f5e65372c9f23794ff",
+        "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT00182832"
+      },
+      "eligibility_text_sha256": "fad426eda44694f06211f6a589a88a396e0d08588e386662b813e99eb5cc74bc",
+      "lastchanged_date": "August 27, 2015",
+      "max_age": "N/A",
+      "max_agrees_across_registry_sources": true,
+      "min_age": "65 Years",
+      "min_agrees_across_registry_sources": true,
+      "nih_full_eligibility_matches_2015_normalized": true,
+      "nih_full_eligibility_matches_current_normalized": true,
+      "nih_source_key": "NCT00182832",
+      "path": "xml/NCT00182832.xml",
+      "sex": "Both",
+      "sha256": "eff5dea67d84ebe13b88ebb06481c22ac4928447b0563dc89493bfc2af7e1974"
+    },
+    "NCT00277680": {
+      "archive_member": "clinicaltrials.gov-16_dec_2015/NCT00277680.xml",
+      "benchmark_version_verified": true,
+      "criterion_joins": [
+        {
+          "case": "235",
+          "criterion_type": "inclusion",
+          "frozen_criterion_sha256": "b76e3c2b5fbe25ca8401a549eddef6d6062400d264e2931d661ce264886f54b3",
+          "status": "exact_lexical"
+        },
+        {
+          "case": "239",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "62253afd87649b97b98d3f7ad6b13d1386d2294b45235e47d876c51b3092cdf6",
+          "status": "exact_lexical"
+        }
+      ],
+      "current_registry": {
+        "last_update_submitted": "2011-07-03",
+        "max_age": null,
+        "min_age": "30 Years",
+        "path": "current/NCT00277680.json",
+        "record_last_change_matches_2015_xml": true,
+        "sha256": "b9b88cba6522a1b76a9d1540f1047757e7f21b5b13326f3ef6fbf775e42605aa",
+        "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT00277680"
+      },
+      "eligibility_text_sha256": "c472e2b404234d9023e0781cdff7cbb850af50ba7b5fc8ef965a4b232e9a5239",
+      "lastchanged_date": "July 3, 2011",
+      "max_age": "N/A",
+      "max_agrees_across_registry_sources": true,
+      "min_age": "30 Years",
+      "min_agrees_across_registry_sources": true,
+      "nih_full_eligibility_matches_2015_normalized": true,
+      "nih_full_eligibility_matches_current_normalized": true,
+      "nih_source_key": "NCT00277680",
+      "path": "xml/NCT00277680.xml",
+      "sex": "Female",
+      "sha256": "a940de2d28f7033e9107fde916fb188fd5fb966ac135a2b855851d336d54e47a"
+    },
+    "NCT00282269": {
+      "archive_member": "clinicaltrials.gov-16_dec_2015/NCT00282269.xml",
+      "benchmark_version_verified": true,
+      "criterion_joins": [
+        {
+          "case": "460",
+          "criterion_type": "inclusion",
+          "frozen_criterion_sha256": "b25383694c874046761ae7bdcafeb903cff98297eb17d2c52d2b13b78efaa2dd",
+          "status": "exact_lexical"
+        },
+        {
+          "case": "467",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "5346a918786132d66b2a2be57472c0659f843542a711ffb8ef61ec6e09ba4496",
+          "status": "exact_lexical"
+        },
+        {
+          "case": "468",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "7617ff67624a4420aacfac6d14d5444c925b62d7ec86c0bb8c3f4c6bb35a4bc1",
+          "status": "exact_lexical"
+        }
+      ],
+      "current_registry": {
+        "last_update_submitted": "2010-06-18",
+        "max_age": "16 Years",
+        "min_age": "1 Year",
+        "path": "current/NCT00282269.json",
+        "record_last_change_matches_2015_xml": true,
+        "sha256": "43f98deda4e84e74706fd891e3794dcd95595ec80b9a3fede6bf04a2018d4e29",
+        "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT00282269"
+      },
+      "eligibility_text_sha256": "7505b69e9b01959a4c54651320dcf3de7d36863e60d26cc47036efde9df4d836",
+      "lastchanged_date": "June 18, 2010",
+      "max_age": "16 Years",
+      "max_agrees_across_registry_sources": true,
+      "min_age": "1 Year",
+      "min_agrees_across_registry_sources": true,
+      "nih_full_eligibility_matches_2015_normalized": true,
+      "nih_full_eligibility_matches_current_normalized": true,
+      "nih_source_key": "NCT00282269",
+      "path": "xml/NCT00282269.xml",
+      "sex": "Both",
+      "sha256": "aa79bc1cf87fee0a585b56e8f9d57fb3d5450e8b0e215dffefb3f4b90913c465"
+    },
+    "NCT00344513": {
+      "archive_member": "clinicaltrials.gov-16_dec_2015/NCT00344513.xml",
+      "benchmark_version_verified": true,
+      "criterion_joins": [
+        {
+          "case": "870",
+          "criterion_type": "inclusion",
+          "frozen_criterion_sha256": "97900947e833a36e39f5db8977210a8ef0648b1ca0e119d3935f9145ea66e113",
+          "status": "exact_lexical"
+        }
+      ],
+      "current_registry": {
+        "last_update_submitted": "2020-11-20",
+        "max_age": null,
+        "min_age": null,
+        "path": "current/NCT00344513.json",
+        "record_last_change_matches_2015_xml": false,
+        "sha256": "2d05157bfbbc5f928cd9d19fd7d5fbcbf52c6569dd7f3b8e8df5a1ff9191ac7d",
+        "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT00344513"
+      },
+      "eligibility_text_sha256": "50ce6808f3fb0f6bcd2385093814056104a177160f7494c52a400e0a066fd5bc",
+      "lastchanged_date": "October 1, 2010",
+      "max_age": "N/A",
+      "max_agrees_across_registry_sources": true,
+      "min_age": "N/A",
+      "min_agrees_across_registry_sources": true,
+      "nih_full_eligibility_matches_2015_normalized": true,
+      "nih_full_eligibility_matches_current_normalized": true,
+      "nih_source_key": "NCT00344513",
+      "path": "xml/NCT00344513.xml",
+      "sex": "Both",
+      "sha256": "f12241b09cf3fe13c9c35b19dfc4dafae30f3b5b7d7e60728ca2da448b46933b"
+    },
+    "NCT00373048": {
+      "archive_member": "clinicaltrials.gov-16_dec_2015/NCT00373048.xml",
+      "benchmark_version_verified": true,
+      "criterion_joins": [
+        {
+          "case": "481",
+          "criterion_type": "inclusion",
+          "frozen_criterion_sha256": "e57b8f84590b97dd4581e61aaa3b6b4c3aa6129b1ec30d2838836f10c11ab730",
+          "status": "exact_lexical"
+        }
+      ],
+      "current_registry": {
+        "last_update_submitted": "2011-05-23",
+        "max_age": "50 Years",
+        "min_age": "18 Years",
+        "path": "current/NCT00373048.json",
+        "record_last_change_matches_2015_xml": true,
+        "sha256": "184b1c2f0644c0bccfdd99087f4720193acf9b0eda6fd55580eb3dde40f1c634",
+        "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT00373048"
+      },
+      "eligibility_text_sha256": "38e9628f44969d634b09a5ddcb21dd4c02870a96afb2b6a1d993f26f0e60a669",
+      "lastchanged_date": "May 23, 2011",
+      "max_age": "50 Years",
+      "max_agrees_across_registry_sources": true,
+      "min_age": "18 Years",
+      "min_agrees_across_registry_sources": true,
+      "nih_full_eligibility_matches_2015_normalized": true,
+      "nih_full_eligibility_matches_current_normalized": true,
+      "nih_source_key": "NCT00373048",
+      "path": "xml/NCT00373048.xml",
+      "sex": "Both",
+      "sha256": "6a86a1089532f67d3bf108d0fd205c508a0da105dfba9e269a457b24ed082e88"
+    },
+    "NCT00497471": {
+      "archive_member": "clinicaltrials.gov-16_dec_2015/NCT00497471.xml",
+      "benchmark_version_verified": false,
+      "criterion_joins": [
+        {
+          "case": "492",
+          "criterion_type": "inclusion",
+          "frozen_criterion_sha256": "6dbc05f8bb8534d832be531e56a6fea7f5731b492e2d1bb813071c537e6d312e",
+          "status": "exact_lexical"
+        },
+        {
+          "case": "493",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "9e8454e5b8a2b6bfa3bc34101c0af25a65f43e7314640e25758492301070caba",
+          "status": "exact_lexical"
+        },
+        {
+          "case": "494",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "41dc94acea8c37ace860f5b8fb6952c8695ab463a169ff85980b6931d8a554fb",
+          "status": "exact_lexical"
+        },
+        {
+          "case": "495",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "5a1851c645045299043dcc02447f918fd01d1d62d272566f9cf86e8d137bb075",
+          "status": "exact_lexical"
+        },
+        {
+          "case": "496",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "6500cae8a49498c69ceee222ab72e39ecddc4e3442bebaf6ae3b09ff2e53719b",
+          "status": "exact_lexical"
+        },
+        {
+          "case": "497",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "2e9fb8ab8d5269c842d9c70181a42fb86541772bb89a804db79276b2757ed30b",
+          "status": "exact_lexical"
+        },
+        {
+          "case": "498",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "78e03f1d88f2b2751036191270ebf3706d6b494ed21768a4063fa79ee616acf7",
+          "status": "exact_lexical"
+        }
+      ],
+      "current_registry": {
+        "last_update_submitted": "2007-07-05",
+        "max_age": "1 Day",
+        "min_age": "1 Day",
+        "path": "current/NCT00497471.json",
+        "record_last_change_matches_2015_xml": true,
+        "sha256": "347d100d750a7ed75dc8b7cc0ae292303342b8966508731d0d044b1d9ce05213",
+        "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT00497471"
+      },
+      "eligibility_text_sha256": "ee023070c595dffcc64640d60e6c6ba544d6d76f46816accf8a99a617104b3b5",
+      "lastchanged_date": "July 5, 2007",
+      "max_age": "1 Day",
+      "max_agrees_across_registry_sources": true,
+      "min_age": "N/A",
+      "min_agrees_across_registry_sources": false,
+      "nih_full_eligibility_matches_2015_normalized": true,
+      "nih_full_eligibility_matches_current_normalized": true,
+      "nih_source_key": "NCT00497471",
+      "path": "xml/NCT00497471.xml",
+      "sex": "Both",
+      "sha256": "0514ed34346ead14205d01e976f4606cf5dc5a2300d04222b7e4559804c15440",
+      "version_hold_reason": "Registry source bounds disagree."
+    },
+    "NCT00534066": {
+      "archive_member": "clinicaltrials.gov-16_dec_2015/NCT00534066.xml",
+      "benchmark_version_verified": true,
+      "criterion_joins": [
+        {
+          "case": "875",
+          "criterion_type": "inclusion",
+          "frozen_criterion_sha256": "1af0215ac37546eceb5e4e0b33eacb3ef6afe6d5b7794fdc69f6c1239844499f",
+          "status": "exact_lexical"
+        }
+      ],
+      "current_registry": {
+        "last_update_submitted": "2007-09-21",
+        "max_age": null,
+        "min_age": "18 Years",
+        "path": "current/NCT00534066.json",
+        "record_last_change_matches_2015_xml": true,
+        "sha256": "a59f42eb4d636067ccba11a98a91f2d2c662c313a6b8a6a50758d05f2fcb8a7f",
+        "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT00534066"
+      },
+      "eligibility_text_sha256": "ad26e4a5e6ecd712260f9311be50d33255b8d63f88fc09eb3e15299cf90aff4b",
+      "lastchanged_date": "September 21, 2007",
+      "max_age": "N/A",
+      "max_agrees_across_registry_sources": true,
+      "min_age": "18 Years",
+      "min_agrees_across_registry_sources": true,
+      "nih_full_eligibility_matches_2015_normalized": true,
+      "nih_full_eligibility_matches_current_normalized": true,
+      "nih_source_key": "NCT00534066",
+      "path": "xml/NCT00534066.xml",
+      "sex": "Both",
+      "sha256": "30addd69f1caf352ac2421f250f58ac0b65bda756d3d6ee61f032cf20dcb91b9"
+    },
+    "NCT00557219": {
+      "archive_member": "clinicaltrials.gov-16_dec_2015/NCT00557219.xml",
+      "benchmark_version_verified": true,
+      "criterion_joins": [
+        {
+          "case": "336",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "6ccd97f2aaf942168a5033686a1223e05a79ea8752facb80a957764a364cae1d",
+          "status": "exact_lexical"
+        }
+      ],
+      "current_registry": {
+        "last_update_submitted": "2016-11-14",
+        "max_age": null,
+        "min_age": "18 Years",
+        "path": "current/NCT00557219.json",
+        "record_last_change_matches_2015_xml": false,
+        "sha256": "2d3d169deecf64f941c7124a18937aafa1da4ea1b60c6c21daa9568bd65aabca",
+        "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT00557219"
+      },
+      "eligibility_text_sha256": "f0aed12bff28aa9f2dc8ac127a3b366e6eb74b347bd6dbd21f77455b95044031",
+      "lastchanged_date": "April 9, 2015",
+      "max_age": "N/A",
+      "max_agrees_across_registry_sources": true,
+      "min_age": "18 Years",
+      "min_agrees_across_registry_sources": true,
+      "nih_full_eligibility_matches_2015_normalized": true,
+      "nih_full_eligibility_matches_current_normalized": true,
+      "nih_source_key": "NCT00557219",
+      "path": "xml/NCT00557219.xml",
+      "sex": "Both",
+      "sha256": "9e5fe5fed6294932ca9d515a375eaec1fda2c7ce1dac9e4166762937bc14646d"
+    },
+    "NCT00711399": {
+      "archive_member": "clinicaltrials.gov-16_dec_2015/NCT00711399.xml",
+      "benchmark_version_verified": true,
+      "criterion_joins": [
+        {
+          "case": "985",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "43d9031b6dede71295e58e3a4b58a82ec590a90f0cd9e44b410edc762882fe7f",
+          "status": "exact_lexical"
+        }
+      ],
+      "current_registry": {
+        "last_update_submitted": "2010-09-13",
+        "max_age": "45 Years",
+        "min_age": "1 Year",
+        "path": "current/NCT00711399.json",
+        "record_last_change_matches_2015_xml": true,
+        "sha256": "30f3bb09ce983bb33cadc357cdf3d2c32413b94bfb6b5c46ae69e0d8400dd9ab",
+        "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT00711399"
+      },
+      "eligibility_text_sha256": "ac8f58775f8bc64449b8d6c9f3e1f45cde226f7dc27b26ca0aaefb4a363d0ff3",
+      "lastchanged_date": "September 13, 2010",
+      "max_age": "45 Years",
+      "max_agrees_across_registry_sources": true,
+      "min_age": "1 Year",
+      "min_agrees_across_registry_sources": true,
+      "nih_full_eligibility_matches_2015_normalized": true,
+      "nih_full_eligibility_matches_current_normalized": true,
+      "nih_source_key": "NCT00711399",
+      "path": "xml/NCT00711399.xml",
+      "sex": "Both",
+      "sha256": "9b68cf92c5d2d2e9b28523b2a0c15604f1b9fddaf32f6c054184d0c684f2cc77"
+    },
+    "NCT00723788": {
+      "archive_member": "clinicaltrials.gov-16_dec_2015/NCT00723788.xml",
+      "benchmark_version_verified": true,
+      "criterion_joins": [
+        {
+          "case": "418",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "0713df107e36e79b56dca3abbefd575808e52545e0942e9d08f9e397c6e7e502",
+          "status": "exact_lexical"
+        },
+        {
+          "case": "419",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "eb482844c69b0717b032dac4a29f0c3936583ade0f280ea3a0df0d1f1a310cf9",
+          "status": "exact_lexical"
+        }
+      ],
+      "current_registry": {
+        "last_update_submitted": "2014-11-14",
+        "max_age": "18 Years",
+        "min_age": "8 Years",
+        "path": "current/NCT00723788.json",
+        "record_last_change_matches_2015_xml": true,
+        "sha256": "9f520f7e42852d3cdf1670c0635bc137ca20970d8c5dddf57f451ac14f1a0085",
+        "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT00723788"
+      },
+      "eligibility_text_sha256": "9732b195e914b1fcd7ba8bf76a2a888f42685c57991a4e93079fa0d468efc8e0",
+      "lastchanged_date": "November 14, 2014",
+      "max_age": "18 Years",
+      "max_agrees_across_registry_sources": true,
+      "min_age": "8 Years",
+      "min_agrees_across_registry_sources": true,
+      "nih_full_eligibility_matches_2015_normalized": true,
+      "nih_full_eligibility_matches_current_normalized": true,
+      "nih_source_key": "NCT00723788",
+      "path": "xml/NCT00723788.xml",
+      "sex": "Both",
+      "sha256": "a4f2f9f514be87ec8d489012f213c8868c0f5275fa877a58eee1b5e284cce94a"
+    },
+    "NCT00827463": {
+      "archive_member": "clinicaltrials.gov-16_dec_2015/NCT00827463.xml",
+      "benchmark_version_verified": true,
+      "criterion_joins": [
+        {
+          "case": "795",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "d06fbb3f7c603b1c048f24b503da934229afd621db7cf43da13dce5a913b5d42",
+          "status": "exact_lexical"
+        }
+      ],
+      "current_registry": {
+        "last_update_submitted": "2016-08-19",
+        "max_age": "55 Years",
+        "min_age": "18 Years",
+        "path": "current/NCT00827463.json",
+        "record_last_change_matches_2015_xml": false,
+        "sha256": "6114fc3a5c069382006c74ea153c3c24b9cf7e9c27421493fa1ca1531fc3321e",
+        "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT00827463"
+      },
+      "eligibility_text_sha256": "7dcd07d3f44a98a3fbf47aaac1b081e33cddc9bbaa33c20055f5dfdb00903794",
+      "lastchanged_date": "September 8, 2009",
+      "max_age": "55 Years",
+      "max_agrees_across_registry_sources": true,
+      "min_age": "18 Years",
+      "min_agrees_across_registry_sources": true,
+      "nih_full_eligibility_matches_2015_normalized": true,
+      "nih_full_eligibility_matches_current_normalized": true,
+      "nih_source_key": "NCT00827463",
+      "path": "xml/NCT00827463.xml",
+      "sex": "Female",
+      "sha256": "8b03b9f627f36e64fb9f6da1f0d5a6cbb08d8c41f439da6c606f1894ba0ca210"
+    },
+    "NCT00839124": {
+      "archive_member": "clinicaltrials.gov-16_dec_2015/NCT00839124.xml",
+      "benchmark_version_verified": true,
+      "criterion_joins": [
+        {
+          "case": "850",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "c1af264e065147f168944e7552c9ace6a2aa3dc4bb30b9ab2908468c9df20fad",
+          "status": "exact_lexical"
+        }
+      ],
+      "current_registry": {
+        "last_update_submitted": "2012-12-04",
+        "max_age": "50 Years",
+        "min_age": "18 Years",
+        "path": "current/NCT00839124.json",
+        "record_last_change_matches_2015_xml": true,
+        "sha256": "a394b443569f50761ec210af02283e7091165bc11acab914b8d6acfce8d4ffe0",
+        "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT00839124"
+      },
+      "eligibility_text_sha256": "4e1bcf89ccfcd926695e435bc17cf01daea1a7322435d9236d3e6408f21ae450",
+      "lastchanged_date": "December 4, 2012",
+      "max_age": "50 Years",
+      "max_agrees_across_registry_sources": true,
+      "min_age": "18 Years",
+      "min_agrees_across_registry_sources": true,
+      "nih_full_eligibility_matches_2015_normalized": true,
+      "nih_full_eligibility_matches_current_normalized": true,
+      "nih_source_key": "NCT00839124",
+      "path": "xml/NCT00839124.xml",
+      "sex": "Both",
+      "sha256": "4f0a124b08138f785f29cc2b9c48485de21ecd618ad84a8798fb93bb3d6d02ea"
+    },
+    "NCT00841789": {
+      "archive_member": "clinicaltrials.gov-16_dec_2015/NCT00841789.xml",
+      "benchmark_version_verified": true,
+      "criterion_joins": [
+        {
+          "case": "81",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "979decb9816d0e5ae281680134ee261a902b13d6a90e63261329264e1cb10161",
+          "status": "exact_lexical"
+        }
+      ],
+      "current_registry": {
+        "last_update_submitted": "2023-04-13",
+        "max_age": "20 Years",
+        "min_age": "2 Months",
+        "path": "current/NCT00841789.json",
+        "record_last_change_matches_2015_xml": false,
+        "sha256": "63845e26e5a08c0ff66fb73c8878c9d1ed6c612925f44395c7ef595ffcafce14",
+        "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT00841789"
+      },
+      "eligibility_text_sha256": "2ccb824849d34f8f1cd78e382c2d5eebf8e75a7fa00ba2557ae898cbe1cf0185",
+      "lastchanged_date": "December 10, 2015",
+      "max_age": "20 Years",
+      "max_agrees_across_registry_sources": true,
+      "min_age": "2 Months",
+      "min_agrees_across_registry_sources": true,
+      "nih_full_eligibility_matches_2015_normalized": true,
+      "nih_full_eligibility_matches_current_normalized": true,
+      "nih_source_key": "NCT00841789",
+      "path": "xml/NCT00841789.xml",
+      "sex": "Both",
+      "sha256": "3567384a75f1345a8cc72c7d711d73afad1bba5759fa3b4952f17ff81b008275"
+    },
+    "NCT00844987": {
+      "archive_member": "clinicaltrials.gov-16_dec_2015/NCT00844987.xml",
+      "benchmark_version_verified": true,
+      "criterion_joins": [
+        {
+          "case": "640",
+          "criterion_type": "inclusion",
+          "frozen_criterion_sha256": "703c7542a9b88a93b77713293a5d6d24e38164421ea4064e2da5dba7bc0352c6",
+          "status": "exact_lexical"
+        }
+      ],
+      "current_registry": {
+        "last_update_submitted": "2010-05-26",
+        "max_age": null,
+        "min_age": "18 Years",
+        "path": "current/NCT00844987.json",
+        "record_last_change_matches_2015_xml": true,
+        "sha256": "8d3a064c2758c25867b2da15c7d9f6765516475e3371936f6092fa23ca4a0df0",
+        "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT00844987"
+      },
+      "eligibility_text_sha256": "fe44a73bc276d53e6f4a5067f52cac20cab1944244a9648269fb26ea2124b037",
+      "lastchanged_date": "May 26, 2010",
+      "max_age": "N/A",
+      "max_agrees_across_registry_sources": true,
+      "min_age": "18 Years",
+      "min_agrees_across_registry_sources": true,
+      "nih_full_eligibility_matches_2015_normalized": true,
+      "nih_full_eligibility_matches_current_normalized": true,
+      "nih_source_key": "NCT00844987",
+      "path": "xml/NCT00844987.xml",
+      "sex": "Both",
+      "sha256": "8aab00810be5ce60e20c4f7187e1fc6c8d1ca52a31932527a6340541ce760e25"
+    },
+    "NCT00845988": {
+      "archive_member": "clinicaltrials.gov-16_dec_2015/NCT00845988.xml",
+      "benchmark_version_verified": true,
+      "criterion_joins": [
+        {
+          "case": "130",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "14f1f02d2bee7b69875cc7dcbc2bc7045d7425b858b547a40d4efd65435ae02b",
+          "status": "exact_lexical"
+        },
+        {
+          "case": "132",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "ce9fdb593f86a692a18c83a3023bb13ffe2a2ab7cfd833d15447d7fd72b79073",
+          "status": "exact_lexical"
+        }
+      ],
+      "current_registry": {
+        "last_update_submitted": "2013-12-04",
+        "max_age": "65 Years",
+        "min_age": "18 Years",
+        "path": "current/NCT00845988.json",
+        "record_last_change_matches_2015_xml": true,
+        "sha256": "b35b0d200033b03525427601fd5f4ccc4d051df2ca16e70b97e950857812427b",
+        "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT00845988"
+      },
+      "eligibility_text_sha256": "5d4e8dcea316fd6a78b08859d8175a5a3830a131b052a51924261b2845b296a9",
+      "lastchanged_date": "December 4, 2013",
+      "max_age": "65 Years",
+      "max_agrees_across_registry_sources": true,
+      "min_age": "18 Years",
+      "min_agrees_across_registry_sources": true,
+      "nih_full_eligibility_matches_2015_normalized": true,
+      "nih_full_eligibility_matches_current_normalized": true,
+      "nih_source_key": "NCT00845988",
+      "path": "xml/NCT00845988.xml",
+      "sex": "Both",
+      "sha256": "7bf54a9eccc4eea1aacb615bcdf25a74bffd9dfd42f06e56b847514391caa47d"
+    },
+    "NCT00997100": {
+      "archive_member": "clinicaltrials.gov-16_dec_2015/NCT00997100.xml",
+      "benchmark_version_verified": true,
+      "criterion_joins": [
+        {
+          "case": "385",
+          "criterion_type": "inclusion",
+          "frozen_criterion_sha256": "aaff0d9e7eb9772fe4fe3d41cc0cee603d921d5cfb4bd22ba71bafcb62deafa1",
+          "status": "exact_lexical"
+        },
+        {
+          "case": "396",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "a453877982ca48ba8a015fd421fea579ed37d171fb547ad2f08c4eb645e196e0",
+          "status": "exact_lexical"
+        },
+        {
+          "case": "397",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "1c9db46999e96621948f159804066cf16fb91f0e27edcd8f70df33557551a3d5",
+          "status": "exact_lexical"
+        },
+        {
+          "case": "400",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "ddfb84bcc1aa67b38e2fed862ee4be9baf4019d49869bd29b86556f2c00c5fe0",
+          "status": "exact_lexical"
+        },
+        {
+          "case": "401",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "e14655415312e84e269da94ffbb33f891689a7d6a8eb607b90cc551c770e481d",
+          "status": "exact_lexical"
+        },
+        {
+          "case": "402",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "df3cd41310dea1895445a1cdc90ea00804e60ff22ce89434cd48bd71c5b0e576",
+          "status": "exact_lexical"
+        }
+      ],
+      "current_registry": {
+        "last_update_submitted": "2015-06-24",
+        "max_age": null,
+        "min_age": "18 Years",
+        "path": "current/NCT00997100.json",
+        "record_last_change_matches_2015_xml": true,
+        "sha256": "f8ede0d9c3d3a41d21ebfe163517cb63d4d84a1f35cbe1ce8cdb9eb27adfa422",
+        "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT00997100"
+      },
+      "eligibility_text_sha256": "2f9ea760818f39263af21bd8d21a18e45bd8ca241ac69f3dece155e1e8a6b170",
+      "lastchanged_date": "June 24, 2015",
+      "max_age": "N/A",
+      "max_agrees_across_registry_sources": true,
+      "min_age": "18 Years",
+      "min_agrees_across_registry_sources": true,
+      "nih_full_eligibility_matches_2015_normalized": true,
+      "nih_full_eligibility_matches_current_normalized": true,
+      "nih_source_key": "NCT00997100",
+      "path": "xml/NCT00997100.xml",
+      "sex": "Both",
+      "sha256": "6814bf724b698827d871160dd850ec8d507c176b7f71872b2b1dd068e7eac53a"
+    },
+    "NCT01139632": {
+      "archive_member": "clinicaltrials.gov-16_dec_2015/NCT01139632.xml",
+      "benchmark_version_verified": true,
+      "criterion_joins": [
+        {
+          "case": "632",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "80c07a32e2ba68016ff86d169fed25b4c31f702e4e0eeee7a780ecaea3dd1526",
+          "status": "exact_lexical"
+        },
+        {
+          "case": "633",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "ef590291052cdbc294ed2b4a585b01bf43a3a2d9c5516e8350fdc951a396750b",
+          "status": "exact_lexical"
+        }
+      ],
+      "current_registry": {
+        "last_update_submitted": "2011-04-05",
+        "max_age": null,
+        "min_age": "18 Years",
+        "path": "current/NCT01139632.json",
+        "record_last_change_matches_2015_xml": true,
+        "sha256": "58f4266157839ada42c9a9a2060cebc74a502eadec6913ba02216a20285b48dc",
+        "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT01139632"
+      },
+      "eligibility_text_sha256": "f616cd69f9a8bbb0b5f5538955b0e15a3db6bbc854b84be68c876168b56b326d",
+      "lastchanged_date": "April 5, 2011",
+      "max_age": "N/A",
+      "max_agrees_across_registry_sources": true,
+      "min_age": "18 Years",
+      "min_agrees_across_registry_sources": true,
+      "nih_full_eligibility_matches_2015_normalized": true,
+      "nih_full_eligibility_matches_current_normalized": true,
+      "nih_source_key": "NCT01139632",
+      "path": "xml/NCT01139632.xml",
+      "sex": "Both",
+      "sha256": "739763ee80abcfa7354faeb667ded9adfcb78c1ab46ac705c868dcbc294c83cf"
+    },
+    "NCT01142245": {
+      "archive_member": "clinicaltrials.gov-16_dec_2015/NCT01142245.xml",
+      "benchmark_version_verified": true,
+      "criterion_joins": [
+        {
+          "case": "577",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "b264fd9e74493a8f8da88a4a8960ae65c25b9a3304ce13eaa00cc2513b2ac066",
+          "status": "exact_lexical"
+        }
+      ],
+      "current_registry": {
+        "last_update_submitted": "2015-08-10",
+        "max_age": null,
+        "min_age": "18 Years",
+        "path": "current/NCT01142245.json",
+        "record_last_change_matches_2015_xml": true,
+        "sha256": "3a0a3bb6424eac1f27a77bd31b162ff197e23dab7203da4019c8d4f7f77fc902",
+        "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT01142245"
+      },
+      "eligibility_text_sha256": "0f87d7579520661965a88f7f35b7a2075ced5917ae02bf56ad6085749a847590",
+      "lastchanged_date": "August 10, 2015",
+      "max_age": "N/A",
+      "max_agrees_across_registry_sources": true,
+      "min_age": "18 Years",
+      "min_agrees_across_registry_sources": true,
+      "nih_full_eligibility_matches_2015_normalized": true,
+      "nih_full_eligibility_matches_current_normalized": true,
+      "nih_source_key": "NCT01142245",
+      "path": "xml/NCT01142245.xml",
+      "sex": "Both",
+      "sha256": "7ed328acaa2aba29f0c114b9b4f33e0b7a5fbe64d545d5c356303489f0e947bc"
+    },
+    "NCT01187901": {
+      "archive_member": "clinicaltrials.gov-16_dec_2015/NCT01187901.xml",
+      "benchmark_version_verified": true,
+      "criterion_joins": [
+        {
+          "case": "502",
+          "criterion_type": "inclusion",
+          "frozen_criterion_sha256": "2b852ee5ddb21b5dbcb086212e9869a23789a1780698c646651963b671598299",
+          "status": "exact_lexical"
+        }
+      ],
+      "current_registry": {
+        "last_update_submitted": "2016-05-10",
+        "max_age": "69 Years",
+        "min_age": "18 Years",
+        "path": "current/NCT01187901.json",
+        "record_last_change_matches_2015_xml": false,
+        "sha256": "6993cb8ff6d677f3f1ba1ec3efacb41e4f3acf27fd52958f7a782c0750ad9eb3",
+        "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT01187901"
+      },
+      "eligibility_text_sha256": "e9546cb38f56996b7d04c4d2627a0fc6b9beb554fc96fc9c12e9fc43ec43f082",
+      "lastchanged_date": "June 20, 2014",
+      "max_age": "69 Years",
+      "max_agrees_across_registry_sources": true,
+      "min_age": "18 Years",
+      "min_agrees_across_registry_sources": true,
+      "nih_full_eligibility_matches_2015_normalized": false,
+      "nih_full_eligibility_matches_current_normalized": true,
+      "nih_source_key": "NCT01187901",
+      "path": "xml/NCT01187901.xml",
+      "sex": "Both",
+      "sha256": "339f3ff6ae879a29696773e1b29f93f1c738ac67208823b4ebbcd3df815596fe"
+    },
+    "NCT01207128": {
+      "archive_member": "clinicaltrials.gov-16_dec_2015/NCT01207128.xml",
+      "benchmark_version_verified": true,
+      "criterion_joins": [
+        {
+          "case": "945",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "db5f8fc9cd890de7a028e68241f6dbb94665f8a16398275bf315c7ca25bc9766",
+          "status": "exact_lexical"
+        },
+        {
+          "case": "946",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "d491e4ad1bcf1ba9c2b3fb7fb01b5529c3668918190eaaeff82e16b4b9b52d39",
+          "status": "exact_lexical"
+        },
+        {
+          "case": "952",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "23d31fc2f625c8f4b76d93878ed4b7097d09b22f26737e5e25b28571a694fe5e",
+          "status": "exact_lexical"
+        },
+        {
+          "case": "953",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "944ab07563aa6e87bce9b9cd1c3430a8c99dc6639fe9d7eac92701f71a4f3052",
+          "status": "exact_lexical"
+        },
+        {
+          "case": "955",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "19c6f91d3b5d8c86449c025fdd4be02d279d64781742261374314035ccae0a8e",
+          "status": "exact_lexical"
+        },
+        {
+          "case": "957",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "53e633126e5496635668839de26fb7209bb4ac4a0514187b44f25706da9a71fc",
+          "status": "exact_lexical"
+        }
+      ],
+      "current_registry": {
+        "last_update_submitted": "2012-04-18",
+        "max_age": null,
+        "min_age": "18 Years",
+        "path": "current/NCT01207128.json",
+        "record_last_change_matches_2015_xml": true,
+        "sha256": "bfcdd5a987bb58be7578f4f9237cea700c9464ce63a92f7bfa3775d9d60a536f",
+        "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT01207128"
+      },
+      "eligibility_text_sha256": "d8ad0e20625e6bff3d7ee710b0aeaa7a7e8a7fbc0ae77ce05468ddedf03cd544",
+      "lastchanged_date": "April 18, 2012",
+      "max_age": "N/A",
+      "max_agrees_across_registry_sources": true,
+      "min_age": "18 Years",
+      "min_agrees_across_registry_sources": true,
+      "nih_full_eligibility_matches_2015_normalized": true,
+      "nih_full_eligibility_matches_current_normalized": true,
+      "nih_source_key": "NCT01207128",
+      "path": "xml/NCT01207128.xml",
+      "sex": "Both",
+      "sha256": "9334ef478db4849f7a136036acdb1b7d5a7436d34906117bad4b3a2f79440d39"
+    },
+    "NCT01231945": {
+      "archive_member": "clinicaltrials.gov-16_dec_2015/NCT01231945.xml",
+      "benchmark_version_verified": true,
+      "criterion_joins": [
+        {
+          "case": "860",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "36a34331d7672bf4b40a84beb2647c797d2e25b3e0cdaa11f18bac90316af242",
+          "status": "exact_lexical"
+        }
+      ],
+      "current_registry": {
+        "last_update_submitted": "2017-06-30",
+        "max_age": "65 Years",
+        "min_age": "25 Years",
+        "path": "current/NCT01231945.json",
+        "record_last_change_matches_2015_xml": false,
+        "sha256": "b0e6d4ac91ecf9ff5dfa7570f8cd90b26ccccaacae50961e287207425383a71f",
+        "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT01231945"
+      },
+      "eligibility_text_sha256": "80e1178a5a5206b10daa2ba293d6a9de6a3091cc82b42145e361fa2f29f1d59e",
+      "lastchanged_date": "December 22, 2010",
+      "max_age": "65 Years",
+      "max_agrees_across_registry_sources": true,
+      "min_age": "25 Years",
+      "min_agrees_across_registry_sources": true,
+      "nih_full_eligibility_matches_2015_normalized": true,
+      "nih_full_eligibility_matches_current_normalized": false,
+      "nih_source_key": "NCT01231945",
+      "path": "xml/NCT01231945.xml",
+      "sex": "Female",
+      "sha256": "74b8971b5e57e735f147285d4c1215ca17d243b14b36ef6a5498b8505557f7e7"
+    },
+    "NCT01243255": {
+      "archive_member": "clinicaltrials.gov-16_dec_2015/NCT01243255.xml",
+      "benchmark_version_verified": true,
+      "criterion_joins": [
+        {
+          "case": "636",
+          "criterion_type": "inclusion",
+          "frozen_criterion_sha256": "737d3beda226994f890728975fcf7b07796ec516ef8c8668657d41f683ccbf58",
+          "status": "exact_lexical"
+        },
+        {
+          "case": "637",
+          "criterion_type": "inclusion",
+          "frozen_criterion_sha256": "4b270af6dd973ebe890ddbc2fb3f7759bd6eb3b0c6aff619dda0ad6b313ef8d0",
+          "status": "exact_lexical"
+        }
+      ],
+      "current_registry": {
+        "last_update_submitted": "2012-04-03",
+        "max_age": null,
+        "min_age": "18 Years",
+        "path": "current/NCT01243255.json",
+        "record_last_change_matches_2015_xml": true,
+        "sha256": "c4e902313e7c5b170a179eccb3e0bb0d2fe1f965bb17a8a65bae3fb1a371d69f",
+        "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT01243255"
+      },
+      "eligibility_text_sha256": "ae8cef70110f3b3b1c15658172abb0d334f4a8904b4eda60fc99ad67efa1b7a6",
+      "lastchanged_date": "April 3, 2012",
+      "max_age": "N/A",
+      "max_agrees_across_registry_sources": true,
+      "min_age": "18 Years",
+      "min_agrees_across_registry_sources": true,
+      "nih_full_eligibility_matches_2015_normalized": true,
+      "nih_full_eligibility_matches_current_normalized": true,
+      "nih_source_key": "NCT01243255",
+      "path": "xml/NCT01243255.xml",
+      "sex": "Both",
+      "sha256": "18c30af517b4646753c9e4b3b8753677c953bc36bf3ca2a3442de64dcc21fa21"
+    },
+    "NCT01260883": {
+      "archive_member": "clinicaltrials.gov-16_dec_2015/NCT01260883.xml",
+      "benchmark_version_verified": true,
+      "criterion_joins": [
+        {
+          "case": "328",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "4b8af1397c462d74ff577a5bc813ef6a580841990b2f931d27ad7b690aa88f20",
+          "status": "exact_lexical"
+        },
+        {
+          "case": "329",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "f4687208b8a22bfe2fb3636d24d6d3c3c4953b467bf2c77b84e85fdfa6880688",
+          "status": "exact_lexical"
+        },
+        {
+          "case": "330",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "4a7aedb92f73aec6a104f8372d8b68e5ecd6f45a7307dafca366b79ceab6b3fc",
+          "status": "exact_lexical"
+        },
+        {
+          "case": "332",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "c0469397b6146ce27e45cbb4c0828d47a24865ed55e6e536bd79be0a304bdb39",
+          "status": "exact_lexical"
+        }
+      ],
+      "current_registry": {
+        "last_update_submitted": "2013-06-04",
+        "max_age": "18 Months",
+        "min_age": "2 Months",
+        "path": "current/NCT01260883.json",
+        "record_last_change_matches_2015_xml": true,
+        "sha256": "d3954b1be2cbdf221ba9a543f93d594d67980f8fdea015f19d1ad9dcc795c75c",
+        "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT01260883"
+      },
+      "eligibility_text_sha256": "12af74c080c3ebf750e0051e26b6559793b28c3e0c0bb9d97243e76979f40bc8",
+      "lastchanged_date": "June 4, 2013",
+      "max_age": "18 Months",
+      "max_agrees_across_registry_sources": true,
+      "min_age": "2 Months",
+      "min_agrees_across_registry_sources": true,
+      "nih_full_eligibility_matches_2015_normalized": true,
+      "nih_full_eligibility_matches_current_normalized": true,
+      "nih_source_key": "NCT01260883",
+      "path": "xml/NCT01260883.xml",
+      "sex": "Both",
+      "sha256": "c9fcd2c9779b084ff3e3e7ab1ec480438239bf6c0c71c2aee753a7ec34152566"
+    },
+    "NCT01326507": {
+      "archive_member": "clinicaltrials.gov-16_dec_2015/NCT01326507.xml",
+      "benchmark_version_verified": true,
+      "criterion_joins": [
+        {
+          "case": "621",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "48ec87d65d5d34257d23407bea3ad50aa62b6eb4add0c97e032d95d97f1e9ce3",
+          "status": "exact_lexical"
+        }
+      ],
+      "current_registry": {
+        "last_update_submitted": "2017-05-10",
+        "max_age": null,
+        "min_age": "18 Years",
+        "path": "current/NCT01326507.json",
+        "record_last_change_matches_2015_xml": false,
+        "sha256": "60d706329603bf664d807d28953b28b107a516b17a87790e9abe72b2aa083c73",
+        "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT01326507"
+      },
+      "eligibility_text_sha256": "fcda166d834da8d723dcb3292e004a1bdd0d6180371ae2b4508fc1b5d4b803dd",
+      "lastchanged_date": "December 13, 2011",
+      "max_age": "N/A",
+      "max_agrees_across_registry_sources": true,
+      "min_age": "18 Years",
+      "min_agrees_across_registry_sources": true,
+      "nih_full_eligibility_matches_2015_normalized": true,
+      "nih_full_eligibility_matches_current_normalized": true,
+      "nih_source_key": "NCT01326507",
+      "path": "xml/NCT01326507.xml",
+      "sex": "Both",
+      "sha256": "72cde79b42e46d902961a99a5694d6befcf3dcdaa823e2061dfdded144b44644"
+    },
+    "NCT01377519": {
+      "archive_member": "clinicaltrials.gov-16_dec_2015/NCT01377519.xml",
+      "benchmark_version_verified": false,
+      "criterion_joins": [
+        {
+          "case": "720",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "b337180a5baec21a5d89ec854649fae38904d896151153f1db3738e5cb5fa933",
+          "status": "exact_lexical"
+        }
+      ],
+      "current_registry": {
+        "last_update_submitted": "2019-11-04",
+        "max_age": "99 Years",
+        "min_age": "18 Years",
+        "path": "current/NCT01377519.json",
+        "record_last_change_matches_2015_xml": false,
+        "sha256": "3c8070f6772f79d6e76e0f3b2df58d3901f27fe998ca500c3abefcd82f09de8a",
+        "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT01377519"
+      },
+      "eligibility_text_sha256": "1dd1c8c72d1d533320b7f92e8684130019a3b5ae1f64e4dd5e3660a1febe1e37",
+      "lastchanged_date": "January 15, 2014",
+      "max_age": "N/A",
+      "max_agrees_across_registry_sources": false,
+      "min_age": "18 Years",
+      "min_agrees_across_registry_sources": true,
+      "nih_full_eligibility_matches_2015_normalized": true,
+      "nih_full_eligibility_matches_current_normalized": true,
+      "nih_source_key": "NCT01377519",
+      "path": "xml/NCT01377519.xml",
+      "sex": "Female",
+      "sha256": "b78e557dbb9a5a3827953226bf2cfe0849b365f7d4e84c5b250326c4b9c35259",
+      "version_hold_reason": "Registry source bounds disagree."
+    },
+    "NCT01397994": {
+      "archive_member": "clinicaltrials.gov-16_dec_2015/NCT01397994.xml",
+      "benchmark_version_verified": true,
+      "criterion_joins": [
+        {
+          "case": "20",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "bcfa3183d5599d71b22a1ebf9e42267f5985098fdbdaa34fa25f7c9efbbfba8b",
+          "status": "exact_lexical"
+        }
+      ],
+      "current_registry": {
+        "last_update_submitted": "2011-12-07",
+        "max_age": "65 Years",
+        "min_age": "25 Years",
+        "path": "current/NCT01397994.json",
+        "record_last_change_matches_2015_xml": true,
+        "sha256": "a556980202978c62ae87dc4899f9bf8e60d7a463c780222df8aedc7c5299a1ba",
+        "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT01397994"
+      },
+      "eligibility_text_sha256": "3eb4a2e1c821cde456507fa398e55ae3e4e1c2637453ea5d294832fa4257f64c",
+      "lastchanged_date": "December 7, 2011",
+      "max_age": "65 Years",
+      "max_agrees_across_registry_sources": true,
+      "min_age": "25 Years",
+      "min_agrees_across_registry_sources": true,
+      "nih_full_eligibility_matches_2015_normalized": true,
+      "nih_full_eligibility_matches_current_normalized": true,
+      "nih_source_key": "NCT01397994",
+      "path": "xml/NCT01397994.xml",
+      "sex": "Both",
+      "sha256": "82b8437703f00f3f60dd50b30a9568f3cd3fc7eb1c4503a9d702cbbfdb07ccfc"
+    },
+    "NCT01446198": {
+      "archive_member": "clinicaltrials.gov-16_dec_2015/NCT01446198.xml",
+      "benchmark_version_verified": true,
+      "criterion_joins": [
+        {
+          "case": "866",
+          "criterion_type": "inclusion",
+          "frozen_criterion_sha256": "119b956b4924736e8ff29487c7a5a800bce40a1f75f52c86139b811b92839ac0",
+          "status": "exact_lexical"
+        },
+        {
+          "case": "867",
+          "criterion_type": "inclusion",
+          "frozen_criterion_sha256": "9b4f2b13bd330483872c0dd72fa2f035ea208f5c81c0b0aaa73711aba69c9b45",
+          "status": "exact_lexical"
+        }
+      ],
+      "current_registry": {
+        "last_update_submitted": "2012-06-29",
+        "max_age": null,
+        "min_age": "18 Years",
+        "path": "current/NCT01446198.json",
+        "record_last_change_matches_2015_xml": true,
+        "sha256": "cb67c55e630ea4b6943a70a39bfeca7cd76c1d712b977a6ede085e1a56ddc8a2",
+        "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT01446198"
+      },
+      "eligibility_text_sha256": "4156d88a1ad9342d7b618e2d09aef25c99b56b9a18dbc6d794788e76150e257b",
+      "lastchanged_date": "June 29, 2012",
+      "max_age": "N/A",
+      "max_agrees_across_registry_sources": true,
+      "min_age": "18 Years",
+      "min_agrees_across_registry_sources": true,
+      "nih_full_eligibility_matches_2015_normalized": true,
+      "nih_full_eligibility_matches_current_normalized": true,
+      "nih_source_key": "NCT01446198",
+      "path": "xml/NCT01446198.xml",
+      "sex": "Female",
+      "sha256": "238a18d2b024b9da7d3fe166115f3219ea6f17972a5e5c1f43dbd435274f268b"
+    },
+    "NCT01452971": {
+      "archive_member": "clinicaltrials.gov-16_dec_2015/NCT01452971.xml",
+      "benchmark_version_verified": true,
+      "criterion_joins": [
+        {
+          "case": "44",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "161ff5682d582216d9ee372f53c6d13ccd0585dd2ccc1154410f1cf66b27eb09",
+          "status": "exact_lexical"
+        },
+        {
+          "case": "45",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "359d923044a00f09e6ad05c6c6461ff9a4752c67c11b6115df095f9a1ea0a3e1",
+          "status": "exact_lexical"
+        }
+      ],
+      "current_registry": {
+        "last_update_submitted": "2011-10-14",
+        "max_age": null,
+        "min_age": "18 Years",
+        "path": "current/NCT01452971.json",
+        "record_last_change_matches_2015_xml": true,
+        "sha256": "3ad7113de38b1e9a5f31a16b68eab95bac0f2fe5bd26daffe287a1d1e58b91a1",
+        "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT01452971"
+      },
+      "eligibility_text_sha256": "5d7dd18afc3f87ae9baeb704fac8ac5728c39f7fd0a6ebe6f02abb63237b7bb8",
+      "lastchanged_date": "October 14, 2011",
+      "max_age": "N/A",
+      "max_agrees_across_registry_sources": true,
+      "min_age": "18 Years",
+      "min_agrees_across_registry_sources": true,
+      "nih_full_eligibility_matches_2015_normalized": true,
+      "nih_full_eligibility_matches_current_normalized": true,
+      "nih_source_key": "NCT01452971",
+      "path": "xml/NCT01452971.xml",
+      "sex": "Both",
+      "sha256": "3c983b83c9f635507c7b704184b43fe34840a2cb99a9aa10e9697cac8105c6ae"
+    },
+    "NCT01519271": {
+      "archive_member": "clinicaltrials.gov-16_dec_2015/NCT01519271.xml",
+      "benchmark_version_verified": false,
+      "criterion_joins": [
+        {
+          "case": "142",
+          "criterion_type": "inclusion",
+          "frozen_criterion_sha256": "25ffbcb8494ca5b08e96b36061e3e9a175c3fefb4e665fdd39e586c1d39d7b4a",
+          "status": "exact_lexical"
+        },
+        {
+          "case": "145",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "cab0c2cc276cb0f757508c97946cbfedc1fada4d9f6d2d8e6e878dc02bb538c1",
+          "status": "exact_lexical"
+        },
+        {
+          "case": "147",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "4672195475fd65128d35054d7f82d5cb997be1a5ff488f233f3f8f6d52ff87a8",
+          "status": "exact_lexical"
+        }
+      ],
+      "current_registry": {
+        "last_update_submitted": "2017-02-22",
+        "max_age": "85 Years",
+        "min_age": "40 Years",
+        "path": "current/NCT01519271.json",
+        "record_last_change_matches_2015_xml": false,
+        "sha256": "1afaa13eea21c33ac8a7db841e56bbe8fe3b0d15d9e3f3a7ab4aeff1f6d80417",
+        "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT01519271"
+      },
+      "eligibility_text_sha256": "d174f70f5764e58ed000a88fdf66e50e0fa8026a917d30925420dd2d5e48fa2b",
+      "lastchanged_date": "February 24, 2015",
+      "max_age": "85 Years",
+      "max_agrees_across_registry_sources": true,
+      "min_age": "40 Years",
+      "min_agrees_across_registry_sources": true,
+      "nih_full_eligibility_matches_2015_normalized": false,
+      "nih_full_eligibility_matches_current_normalized": false,
+      "nih_source_key": "NCT01519271",
+      "path": "xml/NCT01519271.xml",
+      "sex": "Both",
+      "sha256": "99fb52d2602e074a5e6315cfd293385db6a56a902acfb281624e2ed98dfa9ec8",
+      "version_hold_reason": "The frozen NIH narrative does not align in full with either archived or current text under the documented comparison, and the registry changed after 2015."
+    },
+    "NCT01520155": {
+      "archive_member": "clinicaltrials.gov-16_dec_2015/NCT01520155.xml",
+      "benchmark_version_verified": true,
+      "criterion_joins": [
+        {
+          "case": "414",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "9a2baa3c3b772aec2f807855189e03eee11cbc5814d5aeb0a8d44bd1bc97ccb7",
+          "status": "exact_lexical"
+        }
+      ],
+      "current_registry": {
+        "last_update_submitted": "2013-12-20",
+        "max_age": "90 Years",
+        "min_age": "18 Years",
+        "path": "current/NCT01520155.json",
+        "record_last_change_matches_2015_xml": true,
+        "sha256": "89362b4b4a70c48aa187fce656a67ab85662d7b0e423470ccd98ea5f45bc057b",
+        "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT01520155"
+      },
+      "eligibility_text_sha256": "08384e0923cf4e9a6a52cda68068e0dc0d21a8b1db1ac4a9f815a7d65f78e0fa",
+      "lastchanged_date": "December 20, 2013",
+      "max_age": "90 Years",
+      "max_agrees_across_registry_sources": true,
+      "min_age": "18 Years",
+      "min_agrees_across_registry_sources": true,
+      "nih_full_eligibility_matches_2015_normalized": true,
+      "nih_full_eligibility_matches_current_normalized": true,
+      "nih_source_key": "NCT01520155",
+      "path": "xml/NCT01520155.xml",
+      "sex": "Both",
+      "sha256": "9992a95bb837542632f09a5c426d1ee15ccc6f549b4a133952fd3d9932f6276f"
+    },
+    "NCT01526382": {
+      "archive_member": "clinicaltrials.gov-16_dec_2015/NCT01526382.xml",
+      "benchmark_version_verified": true,
+      "criterion_joins": [
+        {
+          "case": "185",
+          "criterion_type": "inclusion",
+          "frozen_criterion_sha256": "cfeb89a02499e0d822dbc310ab2bf820572c0a95a46956345cf0575ae13f376b",
+          "status": "exact_lexical"
+        },
+        {
+          "case": "186",
+          "criterion_type": "inclusion",
+          "frozen_criterion_sha256": "c164fdc2f89c78af88630939d9ae7095c54ede93a0cf7c1da01df64a0c90ceaa",
+          "status": "exact_lexical"
+        },
+        {
+          "case": "187",
+          "criterion_type": "inclusion",
+          "frozen_criterion_sha256": "f7add2cd1da25c7429be43a6326ad571575e2b20a93fe40ec1c1c36730926ff8",
+          "status": "exact_lexical"
+        }
+      ],
+      "current_registry": {
+        "last_update_submitted": "2015-04-30",
+        "max_age": "80 Years",
+        "min_age": "18 Years",
+        "path": "current/NCT01526382.json",
+        "record_last_change_matches_2015_xml": true,
+        "sha256": "0905932b8c01ca4f4dfbdc329538b9b1d5647ead6ddd59ce46ceb1661a72c9e2",
+        "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT01526382"
+      },
+      "eligibility_text_sha256": "76506167549bb54b71de7a3835a1728372f0bcf94f1da64cc564b52c33846e65",
+      "lastchanged_date": "April 30, 2015",
+      "max_age": "80 Years",
+      "max_agrees_across_registry_sources": true,
+      "min_age": "18 Years",
+      "min_agrees_across_registry_sources": true,
+      "nih_full_eligibility_matches_2015_normalized": true,
+      "nih_full_eligibility_matches_current_normalized": true,
+      "nih_source_key": "NCT01526382",
+      "path": "xml/NCT01526382.xml",
+      "sex": "Both",
+      "sha256": "601eb5649d5812e9bf570284fc7c0fc9ec7272df7959caba59737dc41bd77a76"
+    },
+    "NCT01550588": {
+      "archive_member": "clinicaltrials.gov-16_dec_2015/NCT01550588.xml",
+      "benchmark_version_verified": true,
+      "criterion_joins": [
+        {
+          "case": "817",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "d3be7379500220ab6c71832901aff81174c460df378c1a4852a2178477db1564",
+          "status": "exact_lexical"
+        }
+      ],
+      "current_registry": {
+        "last_update_submitted": "2017-06-28",
+        "max_age": "80 Years",
+        "min_age": "18 Years",
+        "path": "current/NCT01550588.json",
+        "record_last_change_matches_2015_xml": false,
+        "sha256": "17511d270215f4bac12ccd2e540fc6947f2a55da1afaa36b4bca726fb197cf17",
+        "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT01550588"
+      },
+      "eligibility_text_sha256": "c5bda6333ad134ea401c0423e031ccbed75daa73c6a8e9a5bd0cfcb6eae20f05",
+      "lastchanged_date": "August 8, 2012",
+      "max_age": "80 Years",
+      "max_agrees_across_registry_sources": true,
+      "min_age": "18 Years",
+      "min_agrees_across_registry_sources": true,
+      "nih_full_eligibility_matches_2015_normalized": true,
+      "nih_full_eligibility_matches_current_normalized": true,
+      "nih_source_key": "NCT01550588",
+      "path": "xml/NCT01550588.xml",
+      "sex": "Both",
+      "sha256": "688b801281aee6fc265599a0c0d142162fe994fe4d6f65d1156a78a0f665fbcf"
+    },
+    "NCT01551498": {
+      "archive_member": "clinicaltrials.gov-16_dec_2015/NCT01551498.xml",
+      "benchmark_version_verified": true,
+      "criterion_joins": [
+        {
+          "case": "203",
+          "criterion_type": "inclusion",
+          "frozen_criterion_sha256": "08101a7640de07201c78e598d2b174579f1a54fd45bd0ac192dbf6b29b44b6ca",
+          "status": "exact_lexical"
+        }
+      ],
+      "current_registry": {
+        "last_update_submitted": "2015-10-29",
+        "max_age": "70 Years",
+        "min_age": "18 Years",
+        "path": "current/NCT01551498.json",
+        "record_last_change_matches_2015_xml": true,
+        "sha256": "3de10539a3666ba4fae71de27d6d25587ac3752c8989544548ed17473d3309c7",
+        "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT01551498"
+      },
+      "eligibility_text_sha256": "a93e32705cd6a25dda186d26afcb36c394f4366c6704c8b8369697c4778f1864",
+      "lastchanged_date": "October 29, 2015",
+      "max_age": "70 Years",
+      "max_agrees_across_registry_sources": true,
+      "min_age": "18 Years",
+      "min_agrees_across_registry_sources": true,
+      "nih_full_eligibility_matches_2015_normalized": true,
+      "nih_full_eligibility_matches_current_normalized": true,
+      "nih_source_key": "NCT01551498",
+      "path": "xml/NCT01551498.xml",
+      "sex": "Both",
+      "sha256": "6efc4a1ad37a276016b0a74109a9d21f3b3b28e0a885835d47b528eb7bdf7ada"
+    },
+    "NCT01594385": {
+      "archive_member": "clinicaltrials.gov-16_dec_2015/NCT01594385.xml",
+      "benchmark_version_verified": true,
+      "criterion_joins": [
+        {
+          "case": "379",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "56a9308fd8a1a076f7bebc281bacf7f1625256b0482389731df7616ac6eab559",
+          "status": "exact_lexical"
+        }
+      ],
+      "current_registry": {
+        "last_update_submitted": "2017-10-17",
+        "max_age": "89 Years",
+        "min_age": "18 Years",
+        "path": "current/NCT01594385.json",
+        "record_last_change_matches_2015_xml": false,
+        "sha256": "902243ad586fa172f9eb22dbac56ed8f066e363d2f8a162c1d7aedfa1e0a1b55",
+        "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT01594385"
+      },
+      "eligibility_text_sha256": "1ba5d613f09218c12c52d82d662f2e79a683affdb07eb904b414185ef64873e6",
+      "lastchanged_date": "January 27, 2014",
+      "max_age": "89 Years",
+      "max_agrees_across_registry_sources": true,
+      "min_age": "18 Years",
+      "min_agrees_across_registry_sources": true,
+      "nih_full_eligibility_matches_2015_normalized": true,
+      "nih_full_eligibility_matches_current_normalized": true,
+      "nih_source_key": "NCT01594385",
+      "path": "xml/NCT01594385.xml",
+      "sex": "Both",
+      "sha256": "9428d6bec6e541c8dbed27cda0cb8f9a1af8bd3c51863d16516a88d169cffc37"
+    },
+    "NCT01624545": {
+      "archive_member": "clinicaltrials.gov-16_dec_2015/NCT01624545.xml",
+      "benchmark_version_verified": true,
+      "criterion_joins": [
+        {
+          "case": "226",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "4ee46f1c9aff229a931e1e5590eae82df459922d62703a49ae5894fa43ddf6c2",
+          "status": "exact_lexical"
+        },
+        {
+          "case": "227",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "b6b36ff8950b5ff4341b1a2050dff89e0518e282612bfc01b1b265d50b31df97",
+          "status": "exact_lexical"
+        }
+      ],
+      "current_registry": {
+        "last_update_submitted": "2017-02-10",
+        "max_age": null,
+        "min_age": "18 Years",
+        "path": "current/NCT01624545.json",
+        "record_last_change_matches_2015_xml": false,
+        "sha256": "717d97bb255446d4c84d28f462a63b3c38996d71c0a48c74f0f21d6e47e40960",
+        "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT01624545"
+      },
+      "eligibility_text_sha256": "fc5cd8ee85a2db051eb07bef4fdef4743ec2d5367973a3323cb2d3bf4cb98b31",
+      "lastchanged_date": "July 23, 2015",
+      "max_age": "N/A",
+      "max_agrees_across_registry_sources": true,
+      "min_age": "18 Years",
+      "min_agrees_across_registry_sources": true,
+      "nih_full_eligibility_matches_2015_normalized": false,
+      "nih_full_eligibility_matches_current_normalized": true,
+      "nih_source_key": "NCT01624545",
+      "path": "xml/NCT01624545.xml",
+      "sex": "Both",
+      "sha256": "799b5bf3ed4f5404690cd0678819a0fe52ec93e16464af7099d0fa022a0b6bd8"
+    },
+    "NCT01628315": {
+      "archive_member": "clinicaltrials.gov-16_dec_2015/NCT01628315.xml",
+      "benchmark_version_verified": true,
+      "criterion_joins": [
+        {
+          "case": "150",
+          "criterion_type": "inclusion",
+          "frozen_criterion_sha256": "411e0e7633c86ccc3d9d945ad09ef1b4f648c1ab96d419b4d36da42510d27f48",
+          "status": "exact_lexical"
+        }
+      ],
+      "current_registry": {
+        "last_update_submitted": "2016-02-11",
+        "max_age": "55 Years",
+        "min_age": "18 Years",
+        "path": "current/NCT01628315.json",
+        "record_last_change_matches_2015_xml": false,
+        "sha256": "54bed5927fdaff56a8addd386c8102dfd714dc74e36ca7a00e29f6e5704ccecb",
+        "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT01628315"
+      },
+      "eligibility_text_sha256": "4cec90ed7fca0f28f05dcbde53e21d46056cc6aaa7e3d679588767ef402b474e",
+      "lastchanged_date": "July 8, 2014",
+      "max_age": "55 Years",
+      "max_agrees_across_registry_sources": true,
+      "min_age": "18 Years",
+      "min_agrees_across_registry_sources": true,
+      "nih_full_eligibility_matches_2015_normalized": true,
+      "nih_full_eligibility_matches_current_normalized": true,
+      "nih_source_key": "NCT01628315",
+      "path": "xml/NCT01628315.xml",
+      "sex": "Both",
+      "sha256": "c0da022bfdccc4a7fe0a610c28830124609dd453d51efd21c724ef235b4fa174"
+    },
+    "NCT01713881": {
+      "archive_member": "clinicaltrials.gov-16_dec_2015/NCT01713881.xml",
+      "benchmark_version_verified": true,
+      "criterion_joins": [
+        {
+          "case": "517",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "0c8d16b2203d58ae9a9dd63492010ab455ca21db0b63f91c731cd1928aca3ed3",
+          "status": "exact_lexical"
+        }
+      ],
+      "current_registry": {
+        "last_update_submitted": "2014-03-19",
+        "max_age": null,
+        "min_age": "18 Years",
+        "path": "current/NCT01713881.json",
+        "record_last_change_matches_2015_xml": true,
+        "sha256": "bc94302d0a3b23f60389c90ced00fe6c2c5fdf80a66b61cead0fc4479959f277",
+        "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT01713881"
+      },
+      "eligibility_text_sha256": "28ef9458862e2a176ae1d1f1ab851db9b815652ab0f9836bb4df90c00d1193ac",
+      "lastchanged_date": "March 19, 2014",
+      "max_age": "N/A",
+      "max_agrees_across_registry_sources": true,
+      "min_age": "18 Years",
+      "min_agrees_across_registry_sources": true,
+      "nih_full_eligibility_matches_2015_normalized": true,
+      "nih_full_eligibility_matches_current_normalized": true,
+      "nih_source_key": "NCT01713881",
+      "path": "xml/NCT01713881.xml",
+      "sex": "Both",
+      "sha256": "72a9679fbc89dc47661fe064106d64d44dbba8a37999d165d78829449e9b2f62"
+    },
+    "NCT01723137": {
+      "archive_member": "clinicaltrials.gov-16_dec_2015/NCT01723137.xml",
+      "benchmark_version_verified": true,
+      "criterion_joins": [
+        {
+          "case": "196",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "e0245a02c90cb56898a053c85e618e3a0ab47519784eefe5943331365843399d",
+          "status": "exact_lexical"
+        }
+      ],
+      "current_registry": {
+        "last_update_submitted": "2013-10-24",
+        "max_age": null,
+        "min_age": "18 Years",
+        "path": "current/NCT01723137.json",
+        "record_last_change_matches_2015_xml": true,
+        "sha256": "0b5ffdd8f808dca41349f18435f429ed43ee68fe8b9c76208d874e31a80130b8",
+        "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT01723137"
+      },
+      "eligibility_text_sha256": "4bf9e018e1fd44c3267c60d4bfbc23e3d20be93026efd2ecdfa5c49b56a1e935",
+      "lastchanged_date": "October 24, 2013",
+      "max_age": "N/A",
+      "max_agrees_across_registry_sources": true,
+      "min_age": "18 Years",
+      "min_agrees_across_registry_sources": true,
+      "nih_full_eligibility_matches_2015_normalized": true,
+      "nih_full_eligibility_matches_current_normalized": true,
+      "nih_source_key": "NCT01723137",
+      "path": "xml/NCT01723137.xml",
+      "sex": "Both",
+      "sha256": "6ad6f48b53baebc66beccce74b0d6afcba5486eac28514aed5f17665f5ea6ab9"
+    },
+    "NCT01745731": {
+      "archive_member": "clinicaltrials.gov-16_dec_2015/NCT01745731.xml",
+      "benchmark_version_verified": true,
+      "criterion_joins": [
+        {
+          "case": "307",
+          "criterion_type": "inclusion",
+          "frozen_criterion_sha256": "8130b913b4d95674c8690e90b1b3f3b6296c7ebd0e879c96ff30715530e57389",
+          "status": "unmatched"
+        },
+        {
+          "case": "322",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "8bf48a9e5c10cf8013a9de9262b8ddd3cd8fb50e31ab9ee9cc832ad20dd188ed",
+          "status": "exact_lexical"
+        }
+      ],
+      "current_registry": {
+        "last_update_submitted": "2015-12-11",
+        "max_age": null,
+        "min_age": "18 Years",
+        "path": "current/NCT01745731.json",
+        "record_last_change_matches_2015_xml": true,
+        "sha256": "caaed2c7a78c82d361abf9368f2db2d869e81783a758f4f0e441f0fec1065171",
+        "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT01745731"
+      },
+      "eligibility_text_sha256": "e0576d30764aa39b600818e4c607c2b47036750fd3ecd51b5a5038152e2f1d1a",
+      "lastchanged_date": "December 11, 2015",
+      "max_age": "N/A",
+      "max_agrees_across_registry_sources": true,
+      "min_age": "18 Years",
+      "min_agrees_across_registry_sources": true,
+      "nih_full_eligibility_matches_2015_normalized": true,
+      "nih_full_eligibility_matches_current_normalized": false,
+      "nih_source_key": "NCT01745731",
+      "path": "xml/NCT01745731.xml",
+      "sex": "Both",
+      "sha256": "0597d48c8a9547c069ba98552490d2a0eeb0c99a3a972634726e549588d08563"
+    },
+    "NCT01862510": {
+      "archive_member": "clinicaltrials.gov-16_dec_2015/NCT01862510.xml",
+      "benchmark_version_verified": true,
+      "criterion_joins": [
+        {
+          "case": "722",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "7ea5965f17fbf3edc471744ef69e5e25d2176b615e74516475f737c85f1633ad",
+          "status": "exact_lexical"
+        },
+        {
+          "case": "723",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "cf4a3d48ee0f808f2e8d2274525fe5cd84c72c708557454b68d62fc56d679b2f",
+          "status": "exact_lexical"
+        },
+        {
+          "case": "724",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "aa2b936d2ba4b12fc4456729d6b3b3f06f2b524298ee057e71e2cfc302074b4b",
+          "status": "exact_lexical"
+        },
+        {
+          "case": "725",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "6bf939c3b3ceb6788bd8659e9058b65e231de19a478fa575302f9ec92cd912ea",
+          "status": "exact_lexical"
+        },
+        {
+          "case": "726",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "c5d202b725d5c588fbacf268885936496dc0c0a4c3d583d03244b6f9905350ba",
+          "status": "exact_lexical"
+        }
+      ],
+      "current_registry": {
+        "last_update_submitted": "2014-12-05",
+        "max_age": null,
+        "min_age": "18 Years",
+        "path": "current/NCT01862510.json",
+        "record_last_change_matches_2015_xml": true,
+        "sha256": "08bed255d7a6de12baf63b57adff12e5d11d3a5cb1d9eecc89fdbdf2115e69be",
+        "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT01862510"
+      },
+      "eligibility_text_sha256": "3412b98f7c30b632d7cdac0a327d84c84f30286fc89d14eb22c9816147c824eb",
+      "lastchanged_date": "December 5, 2014",
+      "max_age": "N/A",
+      "max_agrees_across_registry_sources": true,
+      "min_age": "18 Years",
+      "min_agrees_across_registry_sources": true,
+      "nih_full_eligibility_matches_2015_normalized": true,
+      "nih_full_eligibility_matches_current_normalized": true,
+      "nih_source_key": "NCT01862510",
+      "path": "xml/NCT01862510.xml",
+      "sex": "Both",
+      "sha256": "92fe7d520e614cc88121994698efea92cc9954be7e2c9c87648f35ebad0cfa1f"
+    },
+    "NCT01863628": {
+      "archive_member": "clinicaltrials.gov-16_dec_2015/NCT01863628.xml",
+      "benchmark_version_verified": true,
+      "criterion_joins": [
+        {
+          "case": "138",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "12821ca0bccc62e2c482ef2364079612a447ffeeedff6ff4e13bbf4b65d7544c",
+          "status": "exact_lexical"
+        },
+        {
+          "case": "140",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "26e2284d2c89acc806810f8971725200f1e542eafc189662c1d10c5cc0f28f73",
+          "status": "exact_lexical"
+        }
+      ],
+      "current_registry": {
+        "last_update_submitted": "2015-03-14",
+        "max_age": "25 Years",
+        "min_age": "10 Years",
+        "path": "current/NCT01863628.json",
+        "record_last_change_matches_2015_xml": true,
+        "sha256": "00acafa8046b34235980a9af0a1f171f68e97d37affc5aceb6d7cc89cce5471f",
+        "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT01863628"
+      },
+      "eligibility_text_sha256": "4780e1858d33c3f0561dec59263a96b2ea4ee43378dbfebf3cf51c5eb17f4447",
+      "lastchanged_date": "March 14, 2015",
+      "max_age": "25 Years",
+      "max_agrees_across_registry_sources": true,
+      "min_age": "10 Years",
+      "min_agrees_across_registry_sources": true,
+      "nih_full_eligibility_matches_2015_normalized": true,
+      "nih_full_eligibility_matches_current_normalized": true,
+      "nih_source_key": "NCT01863628",
+      "path": "xml/NCT01863628.xml",
+      "sex": "Both",
+      "sha256": "5a54441fc7f2b1e48e0fa76b829876a4d074a3520d9ddf0dbf1b084cdc591cdc"
+    },
+    "NCT01869855": {
+      "archive_member": "clinicaltrials.gov-16_dec_2015/NCT01869855.xml",
+      "benchmark_version_verified": true,
+      "criterion_joins": [
+        {
+          "case": "230",
+          "criterion_type": "inclusion",
+          "frozen_criterion_sha256": "2651b898cb04b878593915e9bf9b661c3fbbef8494c2cf184050a54b7176628f",
+          "status": "exact_lexical"
+        },
+        {
+          "case": "231",
+          "criterion_type": "inclusion",
+          "frozen_criterion_sha256": "fa929dce1b760ac5981f2c68dbbeb57029bef2ef53c1953b2e037cb508434713",
+          "status": "exact_lexical"
+        },
+        {
+          "case": "232",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "c7cf5930c36c058ad2d7b489cf4890264576aae02aca74684590a5ab0bbc6df7",
+          "status": "exact_lexical"
+        },
+        {
+          "case": "233",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "22486b7bef458b21ea8b4b396e0dcf5327add7344d18b343f45226cfeefa09e2",
+          "status": "exact_lexical"
+        }
+      ],
+      "current_registry": {
+        "last_update_submitted": "2017-06-24",
+        "max_age": null,
+        "min_age": "18 Years",
+        "path": "current/NCT01869855.json",
+        "record_last_change_matches_2015_xml": false,
+        "sha256": "46eb4a6bf7caaa36f0fec537d3591a98a5cff73778012e4838a8caae2d5046a5",
+        "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT01869855"
+      },
+      "eligibility_text_sha256": "f9599587ebb49dbca8b0ea3963af4344e884ffe63331f75ee1426a7649112df3",
+      "lastchanged_date": "September 1, 2015",
+      "max_age": "N/A",
+      "max_agrees_across_registry_sources": true,
+      "min_age": "18 Years",
+      "min_agrees_across_registry_sources": true,
+      "nih_full_eligibility_matches_2015_normalized": false,
+      "nih_full_eligibility_matches_current_normalized": true,
+      "nih_source_key": "NCT01869855",
+      "path": "xml/NCT01869855.xml",
+      "sex": "Both",
+      "sha256": "f85219c0ec7c1f1688d0081a3a8fc4eb2e6d19d8e851a769fb6ed7357d6aebf1"
+    },
+    "NCT01959048": {
+      "archive_member": "clinicaltrials.gov-16_dec_2015/NCT01959048.xml",
+      "benchmark_version_verified": true,
+      "criterion_joins": [
+        {
+          "case": "919",
+          "criterion_type": "inclusion",
+          "frozen_criterion_sha256": "4f6ae4d267e50ff22ad74234d107afcebe46362b2c5bd0952e26bfd94e3ea62b",
+          "status": "exact_lexical"
+        }
+      ],
+      "current_registry": {
+        "last_update_submitted": "2019-08-07",
+        "max_age": null,
+        "min_age": "18 Years",
+        "path": "current/NCT01959048.json",
+        "record_last_change_matches_2015_xml": false,
+        "sha256": "1cc3ce8b75871f3ddfddce3f163db2bbc766058df47871ab8a0b869e4b9cf797",
+        "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT01959048"
+      },
+      "eligibility_text_sha256": "987d52736ae20fdcc9646ee982232b3abc2b4799865f3773465b94b6f96aa868",
+      "lastchanged_date": "September 5, 2015",
+      "max_age": "N/A",
+      "max_agrees_across_registry_sources": true,
+      "min_age": "18 Years",
+      "min_agrees_across_registry_sources": true,
+      "nih_full_eligibility_matches_2015_normalized": true,
+      "nih_full_eligibility_matches_current_normalized": true,
+      "nih_source_key": "NCT01959048",
+      "path": "xml/NCT01959048.xml",
+      "sex": "Both",
+      "sha256": "7a7498f9877a7a989a64e2f5a15d0ef0df05c81bd8f6f3116c49c1a565cfbb1d"
+    },
+    "NCT02097186": {
+      "archive_member": "clinicaltrials.gov-16_dec_2015/NCT02097186.xml",
+      "benchmark_version_verified": true,
+      "criterion_joins": [
+        {
+          "case": "171",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "ae0416589a463fe86a7685d37761ae36d0a8592738c3cb0df9ad71aae3f3a8c7",
+          "status": "exact_lexical"
+        },
+        {
+          "case": "174",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "b17722677ca7087fdf753ddb361fb177e612baa3ba5650ebeb100a750dfad2fe",
+          "status": "exact_lexical"
+        }
+      ],
+      "current_registry": {
+        "last_update_submitted": "2014-12-11",
+        "max_age": null,
+        "min_age": "18 Years",
+        "path": "current/NCT02097186.json",
+        "record_last_change_matches_2015_xml": true,
+        "sha256": "de79281cea69c54df0a8b98ddb343bd0bea2eafe305be22979387ed02d26113c",
+        "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT02097186"
+      },
+      "eligibility_text_sha256": "1a8a136915aee12d4ae1dec35c52d9ae7c24d59e1d7e158241c3970d30bf8984",
+      "lastchanged_date": "December 11, 2014",
+      "max_age": "N/A",
+      "max_agrees_across_registry_sources": true,
+      "min_age": "18 Years",
+      "min_agrees_across_registry_sources": true,
+      "nih_full_eligibility_matches_2015_normalized": true,
+      "nih_full_eligibility_matches_current_normalized": true,
+      "nih_source_key": "NCT02097186",
+      "path": "xml/NCT02097186.xml",
+      "sex": "Both",
+      "sha256": "0955812aaa7a316f7061e0daab69997c02c7d79403718b082a40da1de3bf668a"
+    },
+    "NCT02219360": {
+      "archive_member": "clinicaltrials.gov-16_dec_2015/NCT02219360.xml",
+      "benchmark_version_verified": true,
+      "criterion_joins": [
+        {
+          "case": "435",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "1632067f58acb8dee635e7bf820e4621cc9e8ed101e51b385b43eaaa1ca87e7a",
+          "status": "exact_lexical"
+        }
+      ],
+      "current_registry": {
+        "last_update_submitted": "2014-08-15",
+        "max_age": null,
+        "min_age": "40 Years",
+        "path": "current/NCT02219360.json",
+        "record_last_change_matches_2015_xml": true,
+        "sha256": "5bce891b5512bc2239dd9669c4dfbd62691b391bafe0861fcee89b8fb82baf6d",
+        "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT02219360"
+      },
+      "eligibility_text_sha256": "a40b9bc2addcf38771604da6379100780e6e3664649e873e140229d598077c1f",
+      "lastchanged_date": "August 15, 2014",
+      "max_age": "N/A",
+      "max_agrees_across_registry_sources": true,
+      "min_age": "40 Years",
+      "min_agrees_across_registry_sources": true,
+      "nih_full_eligibility_matches_2015_normalized": true,
+      "nih_full_eligibility_matches_current_normalized": true,
+      "nih_source_key": "NCT02219360",
+      "path": "xml/NCT02219360.xml",
+      "sex": "Both",
+      "sha256": "7edb6005151596a0e4a3e1b0f4924905c4f2e37a00ed48d08ef6982db33c0514"
+    },
+    "NCT02229695": {
+      "archive_member": "clinicaltrials.gov-16_dec_2015/NCT02229695.xml",
+      "benchmark_version_verified": true,
+      "criterion_joins": [
+        {
+          "case": "454",
+          "criterion_type": "inclusion",
+          "frozen_criterion_sha256": "f3b80760beacba68e9fa3843fa7818aabb7adca31cb96a60907735e833ae69f7",
+          "status": "exact_lexical"
+        }
+      ],
+      "current_registry": {
+        "last_update_submitted": "2014-08-28",
+        "max_age": "90 Years",
+        "min_age": "18 Years",
+        "path": "current/NCT02229695.json",
+        "record_last_change_matches_2015_xml": true,
+        "sha256": "57abaad953c721e8b002066618bf3d345162e101dad6ab4a0ba115ab64242953",
+        "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT02229695"
+      },
+      "eligibility_text_sha256": "d9b9c9565c8bf2bc985ada4c594eb81222742ea3af42de976c6cea865cd7c23e",
+      "lastchanged_date": "August 28, 2014",
+      "max_age": "90 Years",
+      "max_agrees_across_registry_sources": true,
+      "min_age": "18 Years",
+      "min_agrees_across_registry_sources": true,
+      "nih_full_eligibility_matches_2015_normalized": true,
+      "nih_full_eligibility_matches_current_normalized": true,
+      "nih_source_key": "NCT02229695",
+      "path": "xml/NCT02229695.xml",
+      "sex": "Both",
+      "sha256": "5531351c80c8a44bfc3024c29fbd47ff5a20e902ec370c2578fd1ad8a3fc5ba9"
+    },
+    "NCT02255487": {
+      "archive_member": "clinicaltrials.gov-16_dec_2015/NCT02255487.xml",
+      "benchmark_version_verified": false,
+      "criterion_joins": [
+        {
+          "case": "366",
+          "criterion_type": "inclusion",
+          "frozen_criterion_sha256": "e90b84ff1db60bd1043f3a98b451160d61578eb7fb3a4c5771f0da128db8d2a1",
+          "status": "unmatched"
+        },
+        {
+          "case": "367",
+          "criterion_type": "inclusion",
+          "frozen_criterion_sha256": "8c0cf65982d6fd4c91023fc6c7bd2588c5fa9a783c97ea656b3a0c5addb0c328",
+          "status": "unmatched"
+        }
+      ],
+      "current_registry": {
+        "last_update_submitted": "2022-04-29",
+        "max_age": null,
+        "min_age": "18 Years",
+        "path": "current/NCT02255487.json",
+        "record_last_change_matches_2015_xml": false,
+        "sha256": "ba5af9c0741adab035bf172decbc74630ac8c2a547ffaa78f8b205046a495db6",
+        "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT02255487"
+      },
+      "eligibility_text_sha256": "2b00aa573ec816b2c569d9191a2569c78441aaad6435f3fcf82ada19e29455c4",
+      "lastchanged_date": "August 7, 2015",
+      "max_age": "70 Years",
+      "max_agrees_across_registry_sources": false,
+      "min_age": "18 Years",
+      "min_agrees_across_registry_sources": true,
+      "nih_full_eligibility_matches_2015_normalized": false,
+      "nih_full_eligibility_matches_current_normalized": true,
+      "nih_source_key": "NCT02255487",
+      "path": "xml/NCT02255487.xml",
+      "sex": "Both",
+      "sha256": "9838f12a91fdf0aaba3b10016a919c1ad3b75f4119edeb22317f42ea6ecb09cb",
+      "version_hold_reason": "Registry source bounds disagree."
+    },
+    "NCT02264769": {
+      "archive_member": "clinicaltrials.gov-16_dec_2015/NCT02264769.xml",
+      "benchmark_version_verified": true,
+      "criterion_joins": [
+        {
+          "case": "212",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "87a17911ec4d8750d12feae6754e8bb9d582ac09e797c5f967b4018777135f57",
+          "status": "exact_lexical"
+        }
+      ],
+      "current_registry": {
+        "last_update_submitted": "2015-05-22",
+        "max_age": "50 Years",
+        "min_age": "18 Years",
+        "path": "current/NCT02264769.json",
+        "record_last_change_matches_2015_xml": true,
+        "sha256": "9f9c4079bcb3127f7355d7cb2377d3b1fcdf01f665a6fb12e348e693419cf83a",
+        "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT02264769"
+      },
+      "eligibility_text_sha256": "92115020c13ab507c432439e786aee221cd31812d73b2a35ddfbf831d9cae217",
+      "lastchanged_date": "May 22, 2015",
+      "max_age": "50 Years",
+      "max_agrees_across_registry_sources": true,
+      "min_age": "18 Years",
+      "min_agrees_across_registry_sources": true,
+      "nih_full_eligibility_matches_2015_normalized": true,
+      "nih_full_eligibility_matches_current_normalized": true,
+      "nih_source_key": "NCT02264769",
+      "path": "xml/NCT02264769.xml",
+      "sex": "Female",
+      "sha256": "dfe6a98f552db008af32e8e740f7061caeb050fb3ec7d8c87abc98209a390ddb"
+    },
+    "NCT02264964": {
+      "archive_member": "clinicaltrials.gov-16_dec_2015/NCT02264964.xml",
+      "benchmark_version_verified": true,
+      "criterion_joins": [
+        {
+          "case": "177",
+          "criterion_type": "inclusion",
+          "frozen_criterion_sha256": "24d0e6a2c69179907d5c00959227b6433309452c540e6795e36dcc24ff58c8b1",
+          "status": "exact_lexical"
+        },
+        {
+          "case": "179",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "f55199a1137650bfc02cf8592fe70fc13041e4c3977282e56396580695186476",
+          "status": "exact_lexical"
+        },
+        {
+          "case": "184",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "ee68a6c8be5a8469edba37b4120ffc926a9fa3b533fdf98c3cfb7781eab2a2d9",
+          "status": "exact_lexical"
+        }
+      ],
+      "current_registry": {
+        "last_update_submitted": "2014-10-09",
+        "max_age": null,
+        "min_age": "18 Years",
+        "path": "current/NCT02264964.json",
+        "record_last_change_matches_2015_xml": true,
+        "sha256": "7cf7cfe21df7c53fc39e850b65f95fe97824d3c0cc5bdefcc85ab9253bb853d7",
+        "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT02264964"
+      },
+      "eligibility_text_sha256": "87da22f62bf2fb4918ee415d7564efcad4511100c32afa4e7d17a0cbbf32b459",
+      "lastchanged_date": "October 9, 2014",
+      "max_age": "N/A",
+      "max_agrees_across_registry_sources": true,
+      "min_age": "18 Years",
+      "min_agrees_across_registry_sources": true,
+      "nih_full_eligibility_matches_2015_normalized": true,
+      "nih_full_eligibility_matches_current_normalized": true,
+      "nih_source_key": "NCT02264964",
+      "path": "xml/NCT02264964.xml",
+      "sex": "Both",
+      "sha256": "af0dcf1ae9caf76dfdd60892cde03cd37d9d2b0eb2f7d1a30d0161dffe43cce6"
+    },
+    "NCT02273232": {
+      "archive_member": "clinicaltrials.gov-16_dec_2015/NCT02273232.xml",
+      "benchmark_version_verified": true,
+      "criterion_joins": [
+        {
+          "case": "544",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "05d3dcf251250c734bce27bdfb891d88b539a39580406135769aa854019aecf2",
+          "status": "exact_lexical"
+        }
+      ],
+      "current_registry": {
+        "last_update_submitted": "2017-09-22",
+        "max_age": null,
+        "min_age": "18 Years",
+        "path": "current/NCT02273232.json",
+        "record_last_change_matches_2015_xml": false,
+        "sha256": "2fc4e012229e248623b29814721e8658d766626a4f14a68683c33071956d99d6",
+        "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT02273232"
+      },
+      "eligibility_text_sha256": "e7dc9e4f392ab76d1b86f17e790972205873e273f38f2568b0639cb0fa15906d",
+      "lastchanged_date": "October 8, 2015",
+      "max_age": "N/A",
+      "max_agrees_across_registry_sources": true,
+      "min_age": "18 Years",
+      "min_agrees_across_registry_sources": true,
+      "nih_full_eligibility_matches_2015_normalized": true,
+      "nih_full_eligibility_matches_current_normalized": true,
+      "nih_source_key": "NCT02273232",
+      "path": "xml/NCT02273232.xml",
+      "sex": "Both",
+      "sha256": "73eb68e810bd1e67d73db9a220a5e4f6b39cb00a19b3769423e8caa6de5ec293"
+    },
+    "NCT02340533": {
+      "archive_member": "clinicaltrials.gov-16_dec_2015/NCT02340533.xml",
+      "benchmark_version_verified": true,
+      "criterion_joins": [
+        {
+          "case": "706",
+          "criterion_type": "inclusion",
+          "frozen_criterion_sha256": "2c5e7c642a6c9b4863890690cc578a1ab5aeab8943c09cc8d179f37aa833b2e8",
+          "status": "exact_lexical"
+        }
+      ],
+      "current_registry": {
+        "last_update_submitted": "2015-07-26",
+        "max_age": "52 Years",
+        "min_age": "38 Years",
+        "path": "current/NCT02340533.json",
+        "record_last_change_matches_2015_xml": true,
+        "sha256": "703eeb51dd2d813d2c462a7a1490e6497471b124f49c3b5049ea34586c52b053",
+        "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT02340533"
+      },
+      "eligibility_text_sha256": "bf4483420becd7b6d782c3be9da4c34ff2bee9cf079284149b1ea175296fe490",
+      "lastchanged_date": "July 26, 2015",
+      "max_age": "52 Years",
+      "max_agrees_across_registry_sources": true,
+      "min_age": "38 Years",
+      "min_agrees_across_registry_sources": true,
+      "nih_full_eligibility_matches_2015_normalized": true,
+      "nih_full_eligibility_matches_current_normalized": true,
+      "nih_source_key": "NCT02340533",
+      "path": "xml/NCT02340533.xml",
+      "sex": "Female",
+      "sha256": "8d3f1231f1ebf8448d6b1dd205298591a2e355974d6ac24d7fb2db93a395beeb"
+    },
+    "NCT02375451": {
+      "archive_member": "clinicaltrials.gov-16_dec_2015/NCT02375451.xml",
+      "benchmark_version_verified": true,
+      "criterion_joins": [
+        {
+          "case": "653",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "fa87513ed9f92a0f56ccf0a9db27e903f01336ab077985e16107b605009dfc76",
+          "status": "exact_lexical"
+        }
+      ],
+      "current_registry": {
+        "last_update_submitted": "2017-06-23",
+        "max_age": "55 Years",
+        "min_age": "3 Years",
+        "path": "current/NCT02375451.json",
+        "record_last_change_matches_2015_xml": false,
+        "sha256": "cdc9ac1bd1a9d3f0eee996bf78d052bd5e7f7af3eae3117bbb1d1aa74ff9b3d1",
+        "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT02375451"
+      },
+      "eligibility_text_sha256": "e98bcb534a9d9addc9924a2e050d1acf2dfb03b0783529b09a7fa88017e210d7",
+      "lastchanged_date": "February 24, 2015",
+      "max_age": "55 Years",
+      "max_agrees_across_registry_sources": true,
+      "min_age": "3 Years",
+      "min_agrees_across_registry_sources": true,
+      "nih_full_eligibility_matches_2015_normalized": true,
+      "nih_full_eligibility_matches_current_normalized": true,
+      "nih_source_key": "NCT02375451",
+      "path": "xml/NCT02375451.xml",
+      "sex": "Both",
+      "sha256": "e445e96a400d371c5ab86c337a6c52f688774b6194ccb2427ea4af6f570c4b3e"
+    },
+    "NCT02378311": {
+      "archive_member": "clinicaltrials.gov-16_dec_2015/NCT02378311.xml",
+      "benchmark_version_verified": false,
+      "criterion_joins": [
+        {
+          "case": "475",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "29e7b44e40847640285beb868534ed80fd5aabc5ff50e5fcb5f84c0497950dd7",
+          "status": "exact_lexical"
+        },
+        {
+          "case": "476",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "eb060f96dd3f4af7d0e36412e755f7af5ce3a6ca3c8adb081e9c2010815b1e7c",
+          "status": "exact_lexical"
+        },
+        {
+          "case": "477",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "8e1f80f783d7bbb455611759d22227adf70e260fffd7440ec9cb690cff1a0f10",
+          "status": "exact_lexical"
+        }
+      ],
+      "current_registry": {
+        "last_update_submitted": "2016-01-13",
+        "max_age": "15 Years",
+        "min_age": "1 Day",
+        "path": "current/NCT02378311.json",
+        "record_last_change_matches_2015_xml": false,
+        "sha256": "fffacbc5a61de7f66ec31199c61dd838f8ffc9b5f043eb7b8faf09386e1dfd40",
+        "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT02378311"
+      },
+      "eligibility_text_sha256": "c8fa556763b2d0c121c6c7ef321a4bbd6ae137b772a75871820595c99784c53e",
+      "lastchanged_date": "September 9, 2015",
+      "max_age": "15 Years",
+      "max_agrees_across_registry_sources": true,
+      "min_age": "N/A",
+      "min_agrees_across_registry_sources": false,
+      "nih_full_eligibility_matches_2015_normalized": true,
+      "nih_full_eligibility_matches_current_normalized": true,
+      "nih_source_key": "NCT02378311",
+      "path": "xml/NCT02378311.xml",
+      "sex": "Both",
+      "sha256": "2b3f1ef0161cf2049ea19cab10b9338e2a8133f92e2c28b0f68fd88a225c69a2",
+      "version_hold_reason": "Registry source bounds disagree."
+    },
+    "NCT02390596": {
+      "archive_member": "clinicaltrials.gov-16_dec_2015/NCT02390596.xml",
+      "benchmark_version_verified": false,
+      "criterion_joins": [
+        {
+          "case": "55",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "7ba810559c9b87ad1e27b35cb326f5827db5f112c8d6528280c895058a491db1",
+          "status": "exact_lexical"
+        }
+      ],
+      "current_registry": {
+        "last_update_submitted": "2019-07-01",
+        "max_age": "18 Years",
+        "min_age": "3 Months",
+        "path": "current/NCT02390596.json",
+        "record_last_change_matches_2015_xml": false,
+        "sha256": "e5bec053c27247f6ad85ea8e1b4cbe595ac5aa7e84bd3a4dc16b96f1d99823c1",
+        "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT02390596"
+      },
+      "eligibility_text_sha256": "55ec50e53f1ba3b96bd19ee41731ca84a15816506a7bc10be125d316f7852843",
+      "lastchanged_date": "December 8, 2015",
+      "max_age": "18 Years",
+      "max_agrees_across_registry_sources": true,
+      "min_age": "8 Months",
+      "min_agrees_across_registry_sources": false,
+      "nih_full_eligibility_matches_2015_normalized": false,
+      "nih_full_eligibility_matches_current_normalized": true,
+      "nih_source_key": "NCT02390596",
+      "path": "xml/NCT02390596.xml",
+      "sex": "Both",
+      "sha256": "dfa2ceccbedb64eae342268849666e3d1a1cbd67261efd6d35e5afa73f6ace14",
+      "version_hold_reason": "Registry source bounds disagree."
+    },
+    "NCT02467309": {
+      "archive_member": "clinicaltrials.gov-16_dec_2015/NCT02467309.xml",
+      "benchmark_version_verified": true,
+      "criterion_joins": [
+        {
+          "case": "734",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "6986feb1194bb42a7c05d6ec78c68e0fc3c6e5a3bf5a7850b55f0c25a4cdf750",
+          "status": "exact_lexical"
+        },
+        {
+          "case": "735",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "892fc496031911917c029e2c66a802a9add74bb43de1fad2becd2e45cb9866d5",
+          "status": "exact_lexical"
+        },
+        {
+          "case": "736",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "c3ce2e62ce6c2e93b25f61225b56fd9f13e1c81b481d006f87244d31c139442b",
+          "status": "exact_lexical"
+        },
+        {
+          "case": "737",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "fc0570cc06ce509f6065a9ea8703dac692753b6ac72fce0107efdf5a8995f3fd",
+          "status": "exact_lexical"
+        },
+        {
+          "case": "738",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "7c14ea273dced13eabda91753548f719cdc3a8b53ddf66f4cf807ef7e8a5d3cf",
+          "status": "exact_lexical"
+        }
+      ],
+      "current_registry": {
+        "last_update_submitted": "2015-06-05",
+        "max_age": "18 Years",
+        "min_age": "1 Month",
+        "path": "current/NCT02467309.json",
+        "record_last_change_matches_2015_xml": true,
+        "sha256": "2046fd7ca1d58041a4b09642d73df884b084807f13cc806a5cdbcb6229731938",
+        "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT02467309"
+      },
+      "eligibility_text_sha256": "195844a0e929175ff43317e017d63d2a434c9a86cb4ae52327ff1e058b5a7067",
+      "lastchanged_date": "June 5, 2015",
+      "max_age": "18 Years",
+      "max_agrees_across_registry_sources": true,
+      "min_age": "1 Month",
+      "min_agrees_across_registry_sources": true,
+      "nih_full_eligibility_matches_2015_normalized": true,
+      "nih_full_eligibility_matches_current_normalized": true,
+      "nih_source_key": "NCT02467309",
+      "path": "xml/NCT02467309.xml",
+      "sex": "Both",
+      "sha256": "df5094b17e116ddd34f6f0c70b0a57e6e5fc5bbb6f9c891b7f2d3f14b2520dac"
+    },
+    "NCT02490059": {
+      "archive_member": "clinicaltrials.gov-16_dec_2015/NCT02490059.xml",
+      "benchmark_version_verified": true,
+      "criterion_joins": [
+        {
+          "case": "46",
+          "criterion_type": "inclusion",
+          "frozen_criterion_sha256": "204ad90b65324fa3401e9968ee59a6985a9d96e03e002907a9349e7d88d95033",
+          "status": "exact_lexical"
+        }
+      ],
+      "current_registry": {
+        "last_update_submitted": "2015-07-01",
+        "max_age": null,
+        "min_age": "18 Years",
+        "path": "current/NCT02490059.json",
+        "record_last_change_matches_2015_xml": true,
+        "sha256": "99cf686920d444f3ee1ae2c3e616d61e4f626d78d60504cb03200d580916b8c0",
+        "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT02490059"
+      },
+      "eligibility_text_sha256": "2c12a5ae98d83bc814524a743d1955ad54d0ffee73ac0b3dad3ceedb1aa229a2",
+      "lastchanged_date": "July 1, 2015",
+      "max_age": "N/A",
+      "max_agrees_across_registry_sources": true,
+      "min_age": "18 Years",
+      "min_agrees_across_registry_sources": true,
+      "nih_full_eligibility_matches_2015_normalized": true,
+      "nih_full_eligibility_matches_current_normalized": true,
+      "nih_source_key": "NCT02490059",
+      "path": "xml/NCT02490059.xml",
+      "sex": "Both",
+      "sha256": "ac2cc891219dbe937346594f0de598b1ca66e2d5fe1c3d06442647da2e1ced17"
+    },
+    "NCT02509286": {
+      "archive_member": "clinicaltrials.gov-16_dec_2015/NCT02509286.xml",
+      "benchmark_version_verified": true,
+      "criterion_joins": [
+        {
+          "case": "359",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "3fffc7d87fab90803e00a638a413346d77d2f5ddd455ecd0d273cf7838ecd8fb",
+          "status": "exact_lexical"
+        }
+      ],
+      "current_registry": {
+        "last_update_submitted": "2024-05-07",
+        "max_age": null,
+        "min_age": "18 Years",
+        "path": "current/NCT02509286.json",
+        "record_last_change_matches_2015_xml": false,
+        "sha256": "a6173a1c0d5d54b63fabe374052cc490a0132fe83b9826c842f4236a16df7e94",
+        "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT02509286"
+      },
+      "eligibility_text_sha256": "0354c84fc367d409f1ed729af1c5a45bc926c62e75ee19ec5493f25c4c8b1646",
+      "lastchanged_date": "December 2, 2015",
+      "max_age": "N/A",
+      "max_agrees_across_registry_sources": true,
+      "min_age": "18 Years",
+      "min_agrees_across_registry_sources": true,
+      "nih_full_eligibility_matches_2015_normalized": false,
+      "nih_full_eligibility_matches_current_normalized": true,
+      "nih_source_key": "NCT02509286",
+      "path": "xml/NCT02509286.xml",
+      "sex": "Both",
+      "sha256": "31efc21220ffdea2882d62c99c40ea90e4b328cb963ed96e6b7ea720b0725ba8"
+    },
+    "NCT02512159": {
+      "archive_member": "clinicaltrials.gov-16_dec_2015/NCT02512159.xml",
+      "benchmark_version_verified": true,
+      "criterion_joins": [
+        {
+          "case": "108",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "f4a818a0748dbb34d4d6af2f60a7256caf13c63aa25ad023a4542222ab0191bb",
+          "status": "exact_lexical"
+        },
+        {
+          "case": "109",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "823729572e657a387fe3620adb53e0d08b6683a4ff27e7c1afc474bb0f8090ef",
+          "status": "exact_lexical"
+        },
+        {
+          "case": "111",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "d7aabec12c359ca48a8f5a19ec487a13e6f6788d76008270050a94e447b3bece",
+          "status": "exact_lexical"
+        },
+        {
+          "case": "115",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "c404afccf87f4f0d526371364fa29a8a86f6c9e316e7d715df6da491610e885e",
+          "status": "exact_lexical"
+        },
+        {
+          "case": "116",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "e41ddd28b57ae71d82796579e45b71a13b2fe8f9748821c72b61462f53ffda3e",
+          "status": "exact_lexical"
+        }
+      ],
+      "current_registry": {
+        "last_update_submitted": "2015-07-29",
+        "max_age": "80 Years",
+        "min_age": "18 Years",
+        "path": "current/NCT02512159.json",
+        "record_last_change_matches_2015_xml": true,
+        "sha256": "b640d3cc91839f1791f6aa6986db5a233924b7e8bd770bfe636dc05e77c2941f",
+        "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT02512159"
+      },
+      "eligibility_text_sha256": "bb27daa64b565b206c6f212eeec10e019351bd8e898372be9010b4efe1cc06bd",
+      "lastchanged_date": "July 29, 2015",
+      "max_age": "80 Years",
+      "max_agrees_across_registry_sources": true,
+      "min_age": "18 Years",
+      "min_agrees_across_registry_sources": true,
+      "nih_full_eligibility_matches_2015_normalized": true,
+      "nih_full_eligibility_matches_current_normalized": true,
+      "nih_source_key": "NCT02512159",
+      "path": "xml/NCT02512159.xml",
+      "sex": "Both",
+      "sha256": "98950ddfd4d713fba632675403513da6659a48cb43aa7bd7d1b7fe2130aa4941"
+    },
+    "NCT02534727": {
+      "archive_member": "clinicaltrials.gov-16_dec_2015/NCT02534727.xml",
+      "benchmark_version_verified": false,
+      "criterion_joins": [
+        {
+          "case": "935",
+          "criterion_type": "inclusion",
+          "frozen_criterion_sha256": "7ab7047531703029912beb9dd189e42d1e2d5dd981b79a2b984a3b61cc02ddca",
+          "status": "exact_lexical"
+        },
+        {
+          "case": "936",
+          "criterion_type": "inclusion",
+          "frozen_criterion_sha256": "aefbb7d4964fd932c6959215ba1f340fbf728b2facc63f33b325713510dcb14a",
+          "status": "exact_lexical"
+        },
+        {
+          "case": "938",
+          "criterion_type": "inclusion",
+          "frozen_criterion_sha256": "811d7a2c5fa1fb8d50f4554a8d6482c6a757fa58dec80d448b684bd3fe6bea17",
+          "status": "exact_lexical"
+        },
+        {
+          "case": "939",
+          "criterion_type": "inclusion",
+          "frozen_criterion_sha256": "36879c957c888ab89dd7736b2568ba0acdfdced66307c87f60d154b071d18dc6",
+          "status": "exact_lexical"
+        },
+        {
+          "case": "940",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "3a38c7925a2d456ff5ae01353776aabd6051be12871bd1e82d8b516b9626787a",
+          "status": "exact_lexical"
+        }
+      ],
+      "current_registry": {
+        "last_update_submitted": "2022-03-25",
+        "max_age": null,
+        "min_age": "18 Years",
+        "path": "current/NCT02534727.json",
+        "record_last_change_matches_2015_xml": false,
+        "sha256": "ed217070060b6061bf4cee1d23b7e6cdf3e23b569bc09f80266d7a83d084ae7d",
+        "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT02534727"
+      },
+      "eligibility_text_sha256": "addbf01179d1d4339c28bcc8a55190a3ea8ed12fa0c5c75afdb50814c7552163",
+      "lastchanged_date": "October 16, 2015",
+      "max_age": "99 Years",
+      "max_agrees_across_registry_sources": false,
+      "min_age": "18 Years",
+      "min_agrees_across_registry_sources": true,
+      "nih_full_eligibility_matches_2015_normalized": true,
+      "nih_full_eligibility_matches_current_normalized": true,
+      "nih_source_key": "NCT02534727",
+      "path": "xml/NCT02534727.xml",
+      "sex": "Both",
+      "sha256": "459cb54c8e084ce3fc7f6a68bd728595704688d3cc1f59d67e020b4753b54a03",
+      "version_hold_reason": "Registry source bounds disagree."
+    },
+    "NCT02556359": {
+      "archive_member": "clinicaltrials.gov-16_dec_2015/NCT02556359.xml",
+      "benchmark_version_verified": true,
+      "criterion_joins": [
+        {
+          "case": "323",
+          "criterion_type": "inclusion",
+          "frozen_criterion_sha256": "492d2399a2bb78368d1734feecff341b5a0b7abefdc7891cf7475b890b551bc8",
+          "status": "exact_lexical"
+        }
+      ],
+      "current_registry": {
+        "last_update_submitted": "2016-04-15",
+        "max_age": null,
+        "min_age": null,
+        "path": "current/NCT02556359.json",
+        "record_last_change_matches_2015_xml": false,
+        "sha256": "a5128275f2db49a9932e373c63a2b6b46747faeb3decf400a8c4559a8f0b9a5a",
+        "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT02556359"
+      },
+      "eligibility_text_sha256": "dadb7e9be4251f472217b3cd22d631495ee46e7a897395197a36f742a160d301",
+      "lastchanged_date": "September 21, 2015",
+      "max_age": "N/A",
+      "max_agrees_across_registry_sources": true,
+      "min_age": "N/A",
+      "min_agrees_across_registry_sources": true,
+      "nih_full_eligibility_matches_2015_normalized": true,
+      "nih_full_eligibility_matches_current_normalized": true,
+      "nih_source_key": "NCT02556359",
+      "path": "xml/NCT02556359.xml",
+      "sex": "Both",
+      "sha256": "66d536962639d98f2a1bd0a4c56e18403e424bd67793d2577f99cad35c8f6a6f"
+    },
+    "NCT02615912": {
+      "archive_member": "clinicaltrials.gov-16_dec_2015/NCT02615912.xml",
+      "benchmark_version_verified": true,
+      "criterion_joins": [
+        {
+          "case": "154",
+          "criterion_type": "inclusion",
+          "frozen_criterion_sha256": "e0d6bfd1135aa16901a1a6012e56429d57ee5f91c41bb1f8806c81346b6e4fb9",
+          "status": "exact_lexical"
+        },
+        {
+          "case": "155",
+          "criterion_type": "inclusion",
+          "frozen_criterion_sha256": "c8ff7d6950fba7b26327c4e4bac32cb085619e240df8f2d6d1005c43e05b7e4d",
+          "status": "exact_lexical_unscoped_or_other_section"
+        }
+      ],
+      "current_registry": {
+        "last_update_submitted": "2016-09-26",
+        "max_age": "60 Years",
+        "min_age": "18 Years",
+        "path": "current/NCT02615912.json",
+        "record_last_change_matches_2015_xml": false,
+        "sha256": "7ee70bc711b9ab5f98e0ad6635790385fa0ac68b2bd148a731215a6cb32a867e",
+        "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT02615912"
+      },
+      "eligibility_text_sha256": "0aec9de1fb17ea070c88773c5318aaa8d0e7ac65702f578e4abdd286b3958df6",
+      "lastchanged_date": "December 16, 2015",
+      "max_age": "60 Years",
+      "max_agrees_across_registry_sources": true,
+      "min_age": "18 Years",
+      "min_agrees_across_registry_sources": true,
+      "nih_full_eligibility_matches_2015_normalized": true,
+      "nih_full_eligibility_matches_current_normalized": true,
+      "nih_source_key": "NCT02615912",
+      "path": "xml/NCT02615912.xml",
+      "sex": "Both",
+      "sha256": "7cecb96dc728a7d7905920cb918f94ad7eb638617d7e9f7492851a7ca7311542"
+    },
+    "NCT02618655": {
+      "archive_member": "clinicaltrials.gov-16_dec_2015/NCT02618655.xml",
+      "benchmark_version_verified": true,
+      "criterion_joins": [
+        {
+          "case": "34",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "6d16fb6599fb6aa5cc934b773adb1fb87ea5fb3d0b50263e8083f9bd489523b5",
+          "status": "exact_lexical"
+        },
+        {
+          "case": "36",
+          "criterion_type": "exclusion",
+          "frozen_criterion_sha256": "b84153b9868062e2f16eb041eb78cb8b4a5746c14b668877d4bbe485a4bd0db3",
+          "status": "exact_lexical"
+        }
+      ],
+      "current_registry": {
+        "last_update_submitted": "2016-07-23",
+        "max_age": null,
+        "min_age": null,
+        "path": "current/NCT02618655.json",
+        "record_last_change_matches_2015_xml": false,
+        "sha256": "1a521134dd430f1c41d322050231164688d15e5559c4280c5affb97a103036a5",
+        "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT02618655"
+      },
+      "eligibility_text_sha256": "e950ce3d5ab694526bca737ebe2dd0196c0d566b3068d410939a12f3c780c35d",
+      "lastchanged_date": "December 11, 2015",
+      "max_age": "N/A",
+      "max_agrees_across_registry_sources": true,
+      "min_age": "N/A",
+      "min_agrees_across_registry_sources": true,
+      "nih_full_eligibility_matches_2015_normalized": true,
+      "nih_full_eligibility_matches_current_normalized": true,
+      "nih_source_key": "NCT02618655",
+      "path": "xml/NCT02618655.xml",
+      "sex": "Both",
+      "sha256": "5ecf4469adaded673ddc407fc80a59752adc30c76835c05d521d9b0a33d00099"
+    },
+    "NCT02633449": {
+      "archive_member": "clinicaltrials.gov-16_dec_2015/NCT02633449.xml",
+      "benchmark_version_verified": true,
+      "criterion_joins": [
+        {
+          "case": "671",
+          "criterion_type": "inclusion",
+          "frozen_criterion_sha256": "0343bbf55dc4a5c5a5bc0868b3b029d0da46dcb614913a368120f559e4055d0d",
+          "status": "exact_lexical"
+        }
+      ],
+      "current_registry": {
+        "last_update_submitted": "2021-08-24",
+        "max_age": "65 Years",
+        "min_age": "20 Years",
+        "path": "current/NCT02633449.json",
+        "record_last_change_matches_2015_xml": false,
+        "sha256": "7b29bcaa287b441ad45b97cab816081a4975e383d0aaf2ed374eac78e59e9a56",
+        "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT02633449"
+      },
+      "eligibility_text_sha256": "3505cebe501a31ad7be5c7c51e696778fbdc14de8e2aa16e683a2e569793a943",
+      "lastchanged_date": "December 15, 2015",
+      "max_age": "65 Years",
+      "max_agrees_across_registry_sources": true,
+      "min_age": "20 Years",
+      "min_agrees_across_registry_sources": true,
+      "nih_full_eligibility_matches_2015_normalized": true,
+      "nih_full_eligibility_matches_current_normalized": false,
+      "nih_source_key": "NCT02633449",
+      "path": "xml/NCT02633449.xml",
+      "sex": "Both",
+      "sha256": "7b2c681441f5617bdfb497d932af96575fe01d854649853107299ba9dc7874bc"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "review": "independent note evidence audit, reference labels excluded from clinical sourcing",
+  "study_protocol": "https://doi.org/10.1186/1745-6215-14-32",
+  "registry": "https://clinicaltrials.gov/study/NCT01526382",
+  "pdf_or_publication_section": "Patient selection, paragraphs 1-3",
+  "patient_source": "https://trec.nist.gov/pubs/trec23/papers/overview-clinical.pdf",
+  "candidate_interpretation": "If the clinical evidence contract permits versioned exam-term interval entailment, the unchanged frozen numeric subexpressions can be tested using explicit signs observed during the documented adult examination. A future ICU screening measurement is unverified. Keep this chart-derived evidence type distinct from a measured vital if separate primary reporting requires direct numeric data.",
+  "candidates": [
+    {
+      "case": "186",
+      "patient": "sigir-201411",
+      "study": "NCT01526382",
+      "patient_sha256": "db4467fa7cba03819df27445f2090c80d6acd145a3361057f24a2fb5877aaec1",
+      "patient_excerpt": "2. On examination she is pale and in moderate discomfort, as well as tachypneic and tachycardic.",
+      "evaluation_anchor": "documented ED examination",
+      "criterion_text": "Heart rate of at least 90/min;",
+      "term": "tachycardic",
+      "standard": "Adult ACLS tachycardia greater than 100/min",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK613285/",
+      "eligible_numeric_predicate": "heart rate \u226590/min",
+      "method": "positive one-sided interval entailment only",
+      "limitation": "The authors use a numeric heart-rate threshold or an age-relative alternative; there is no case-level measured value."
+    },
+    {
+      "case": "187",
+      "patient": "sigir-201411",
+      "study": "NCT01526382",
+      "patient_sha256": "db4467fa7cba03819df27445f2090c80d6acd145a3361057f24a2fb5877aaec1",
+      "patient_excerpt": "2. On examination she is pale and in moderate discomfort, as well as tachypneic and tachycardic.",
+      "evaluation_anchor": "documented ED examination",
+      "criterion_text": "A respiratory rate of at least 20/min or a PaCO2 of 32mmHg or lower or the use of mechanical ventilation;",
+      "term": "tachypneic",
+      "standard": "Adult tachypnea greater than 20 breaths/min",
+      "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK470309/?report=reader",
+      "eligible_numeric_predicate": "respiratory rate \u226520/min branch",
+      "method": "positive one-sided interval entailment only",
+      "limitation": "The 2013 public protocol lists tachypnea among SIRS variables, whereas the registration frames the respiratory rate in the four-component shock definition. Neither wording states that a qualitative term supplants measured screening vitals.",
+      "counterexample": "A public Canadian adverse-event reporting definition permits tachypnea at 17\u201319 breaths/min for people older than twelve years; this is a different context and shows that the unconstrained term does not guarantee this trial threshold without a vocabulary contract.",
+      "counterexample_url": "https://www.ehealthsask.ca/services/manuals/documents/sim-chapter11.pdf"
+    }
+  ]
+}

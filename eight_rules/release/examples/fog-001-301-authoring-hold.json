@@ -1,0 +1,1203 @@
+{
+  "context": {
+    "study": "FOG-001-301",
+    "protocol_sha256": "f88bd59efffe199a3c8767edcb74d2b98c0e172d1b1f4804087ea0086fc73554",
+    "patient": "demo",
+    "encounter": "screen",
+    "episode": "index-demo",
+    "as_of": "2026-05-01T12:00:00Z",
+    "site_zone": "UTC",
+    "enabled_contracts": [
+      "f-01aae43165291972ad475dea",
+      "f-02fd71f29ac18fb8f0114e1a",
+      "f-037466d17f780518c4b27c33",
+      "f-040f8ecb82f6866fdba9ee9e",
+      "f-0446dbca577afd38818e4fe8",
+      "f-061c1db63eea62e2b69a1971",
+      "f-09b68cfcffa3184fb0b3082c",
+      "f-0b105bdd5c1abce5fa6959a9",
+      "f-0d778f3e81780b2b470a5477",
+      "f-0dfe561601011db096cb621c",
+      "f-0ed84be7f383b73961ca8bf2",
+      "f-0fe229440187e4d55b3f9214",
+      "f-120224277c655931cc3b0c38",
+      "f-12bb538452af5597cfc5d46a",
+      "f-13f757b30bd9628c499d2f01",
+      "f-154824096174a1a1b5daca60",
+      "f-16617b0ee5ec47c18b8babc3",
+      "f-1a58747de524d34ed15055ee",
+      "f-1b1dd51189deb0b1cf039df3",
+      "f-20a2ad3b83e9acf84c4ed77b",
+      "f-20aca3b3b82f11f7c68a7b7e",
+      "f-21067be2e5cb9d43342f5bb7",
+      "f-2285160e3123158b507c8aa0",
+      "f-2349b990377d371752ddf33b",
+      "f-23c8a78f21d5a5e608f60a07",
+      "f-23f15589e835ff4c6eb872b3",
+      "f-247f7f6cba22f07632cd21f8",
+      "f-24b7e33f926d7e41f826af1a",
+      "f-259d33e7c9d1e5ee57bbb9db",
+      "f-27f1a44faaad0bf36411e307",
+      "f-2bb05c01a6665bd2eabb8421",
+      "f-2dc6b8083dd041a9e4360302",
+      "f-2ddf2b0196204d04c368bda5",
+      "f-2e23b8ecb43f95fc962c5869",
+      "f-2f6e607b6b19756277699e8c",
+      "f-2f791df8ef73e2354f7cc9df",
+      "f-31b4c128cf47fa480c229733",
+      "f-31f4d3e20337ded02dc69dec",
+      "f-32aa18ee6a702dc23ea5bbba",
+      "f-33081b956e2d67b118717032",
+      "f-3315878ac8cd6f31d4793cd5",
+      "f-36088b6cdbbb9b9b40ad145b",
+      "f-37b98a06f52fae189f311113",
+      "f-3b100ae5cd295baacaf65d37",
+      "f-3b174ab60000ce38e9989e6f",
+      "f-3bd3cfecb29155d33c08c41d",
+      "f-3c8336ad9a4acef8b60dae99",
+      "f-3ce6a3234dba1ba2c02fe8e1",
+      "f-3db001c7982b37ffc9017cdc",
+      "f-3e452db84c084ec8f43e9574",
+      "f-404d5ff51359712c3c93e9b5",
+      "f-41a67ae8bdb4d72e6c384a32",
+      "f-437987c8e19000cc03e25ad7",
+      "f-44eca3757ef061458b97f128",
+      "f-480757fa4b1c95751abdf138",
+      "f-4819005bbd8b6075c790fa45",
+      "f-487792146804798a4e9e4b89",
+      "f-492ac8857e64898abc3b8085",
+      "f-4b798cb73f8dfff902e32d45",
+      "f-4d3950748d75a51ad626713d",
+      "f-4ea74d24bacaa7f2a3d6bd8a",
+      "f-500967195d0ddc3dd0aae9bd",
+      "f-5115026b90713a4c4d1ccbce",
+      "f-51efb58f226705bb6bcb14dd",
+      "f-546f8abf2508566650f5fd10",
+      "f-565a742dbc399d9bfe600b39",
+      "f-56d2511c20a120d775283414",
+      "f-56e14357a8e25176f51345ae",
+      "f-56eb88c81e39b886b699ae1d",
+      "f-57bbcd893c8618565f73e376",
+      "f-5d6c3ab3aa8417c5e6023fca",
+      "f-5f382079f758e4d31b535555",
+      "f-60df5db43443cffafdc265ec",
+      "f-62bdb8e37df02f1c15e97396",
+      "f-64be838df95bae0cc3f74707",
+      "f-6744581ed3e7f1d3bf8e013d",
+      "f-677a836c0050525509c05a2b",
+      "f-6849cb29ca763dbe011c5734",
+      "f-691220f64766a28a93d2c1f3",
+      "f-6b02c2fcdc9dc8675696c2cb",
+      "f-6eb783a75ff46046d297a7c7",
+      "f-6f55647e9312957154c198b2",
+      "f-71378edb04317a06d3370210",
+      "f-72bdeaff8e8846fa0ab9121f",
+      "f-77054da8c4909250d172cce2",
+      "f-77db1c512af5620dec05fde8",
+      "f-781e13f4ec69200bb49721b5",
+      "f-7b5cbbff5f5c0afd15ce17f2",
+      "f-7ea55da05a80e1c0c7b4b081",
+      "f-7fcf151da8e034628fa40775",
+      "f-7fe3b530c15253d0fd180a88",
+      "f-80ac46244f76dae4d30c04ad",
+      "f-830abb4fd5ea22981ec4fc10",
+      "f-836acd4b310b8ad8809eedaa",
+      "f-859b43873def367e1333662e",
+      "f-8601708158ed6076d026e8cd",
+      "f-8ab3a87cc682fe70f4b3b491",
+      "f-8b69c74eca0f78498d2cad10",
+      "f-8b8800486c2ebb502c606897",
+      "f-8d46cbf615cfd395c56effa4",
+      "f-8dc82f1d4341253dfcba649c",
+      "f-8edf8f3080a5c69629bd3594",
+      "f-8ef2e4b4d03efc6fc030f1d1",
+      "f-9074ae8645d129516bf231f8",
+      "f-9081de2629618281a5a31a1f",
+      "f-9291076acf2e542857f5387c",
+      "f-92b1d72fdb672c18dcf344f3",
+      "f-94230786e39d08726d854c4e",
+      "f-94ae6d274c9df27367942c92",
+      "f-992799981ab7629b39e2b18d",
+      "f-9928e6ca456ec2d63b101420",
+      "f-997d11f34c7d571441bab65d",
+      "f-9b929b59600aeb959e80fe4a",
+      "f-9d56bae9401311a7be8cc1ab",
+      "f-9e4a523ec28843139208a406",
+      "f-a02a38997852292abb666081",
+      "f-a33018decc197e716a07069e",
+      "f-a411e29e35fa930ce719ada8",
+      "f-a48817ee179959240c630366",
+      "f-a5214eb70b1d5130c527cfad",
+      "f-a7347b75ce512fe23a44d5c5",
+      "f-a9962b8b63667a419f51e27b",
+      "f-aace9f78adb9a5dec0574bde",
+      "f-ac2bf258f9493fbbdc201b1b",
+      "f-ad207223fb3087638bfb4cec",
+      "f-af4d0b0233d81e75d200db74",
+      "f-b3a36aed54ed0f55f276558e",
+      "f-b3f70a83326d2315d5e3092c",
+      "f-b455c7d41a771d7eae64811a",
+      "f-b4f06aa668bb2e439e5981c8",
+      "f-b5842804a1a97fa894a8b1d4",
+      "f-b5fbcefc21ad7b73e7a9d15f",
+      "f-b617db312918d6426038683f",
+      "f-ba2aec869d9c30a9f9037125",
+      "f-ba97af64a3d07e6073932369",
+      "f-bbc938f6e75219998ed401ee",
+      "f-bed6f468b7ccd8c758c8c13a",
+      "f-bf093f3a6437dd4d9bbd2036",
+      "f-bfdd82a9bb372946b3c56074",
+      "f-c5207b84e3da41878c130da9",
+      "f-c6328f7e4d4efa1a42413e9f",
+      "f-c677e2c2275ac284c2278c1b",
+      "f-c79823d864a3228a3162285b",
+      "f-cc4d80868a296861f4efd202",
+      "f-cd4553fb0c6a1017756fbff9",
+      "f-cdcb6890f3fb4b1722627960",
+      "f-ce9319cde7450fd1a42cb162",
+      "f-cfbd7f8fb203e031040a7084",
+      "f-d048476cec652c2cfa6b4b36",
+      "f-d08328c2cd0261476770a706",
+      "f-d1b289f57ec447d5ea5dbef0",
+      "f-d1e18571fd27849d7dad3b1f",
+      "f-d3de4d5e0ccd6b1d8b6d43e5",
+      "f-d4120a9c00b40a004e319612",
+      "f-d5875c2fd06819fcc9816b73",
+      "f-d5e790ae8125286698341e0f",
+      "f-d7278ac96dd5ac41b2b82c47",
+      "f-d85e90100065a527cb06d405",
+      "f-d9f5012b6fdf0258ced7e864",
+      "f-da1dcfe6b54d5bd2aa7744a6",
+      "f-da2f82667fb590fccbcd8fbd",
+      "f-da57d617d337293c10cd1af5",
+      "f-dab902492a52cfcd2c3f74cb",
+      "f-dac93a1b0519c60cb8806433",
+      "f-dc5ad113d26dc3804578f78f",
+      "f-dd80edb979e412f783eb9e31",
+      "f-e090f0cccbfe4104276bd922",
+      "f-e3bc08c0bd0613269c2dbf87",
+      "f-e3d80f9c753d7a46d10eb49f",
+      "f-e4164327cac76beed8d684f4",
+      "f-e53fabd8c926472c039d6223",
+      "f-e8dc2fb6b324d9428c0cfcd1",
+      "f-eb518e59aedf471776651d3a",
+      "f-ed0a99b37edc9a2ce63a05f4",
+      "f-edf20ddf3c43a79c65144f6c",
+      "f-ee2ecbe62fda007c78f86c2a",
+      "f-f017a3e359d230bc70084cfc",
+      "f-f2a3805ccedacd89e99f0e3c",
+      "f-f3a3b2c945e770339d4e20cf",
+      "f-f4c279c0ce29fa623eb096ed",
+      "f-f52d32fe4a86a6fcf6eac30c",
+      "f-f5f763cc9e3064fd2323edc1",
+      "f-f66e6f2763f9a51ad96e469b",
+      "f-fb9667ea5c298908301d56ac",
+      "f-fc3a22dab24ef5fd3ba3ffb2",
+      "f-fcf46bc13d658b2073abe0b7",
+      "f-fe26e81b22ecd531e22d810f",
+      "f-ff34a82987fcb5de86d1ad4e"
+    ],
+    "trusted_roles": {
+      "record": [
+        "Organization/demo-record"
+      ],
+      "investigator": [
+        "PractitionerRole/demo-investigator"
+      ],
+      "site": [
+        "Organization/demo-site"
+      ]
+    }
+  },
+  "bundle": {
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+      {
+        "resource": {
+          "resourceType": "Patient",
+          "id": "demo",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-05-01T12:00:00Z"
+          }
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Condition",
+          "id": "index-demo",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-05-01T12:00:00Z"
+          },
+          "subject": {
+            "reference": "Patient/demo"
+          }
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "screen",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-05-01T12:00:00Z"
+          },
+          "status": "in-progress",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB"
+          },
+          "subject": {
+            "reference": "Patient/demo"
+          },
+          "period": {
+            "start": "2026-05-01T12:00:00Z"
+          },
+          "identifier": [
+            {
+              "system": "urn:pocketmd:research:protocol-screening",
+              "value": "FOG-001-301|f88bd59efffe199a3c8767edcb74d2b98c0e172d1b1f4804087ea0086fc73554|screening"
+            },
+            {
+              "system": "urn:pocketmd:demo:screening-study",
+              "value": "FOG-001-301"
+            }
+          ]
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "DocumentReference",
+          "id": "src-f-e53fabd8c926472c039d6223",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-05-01T12:00:00Z"
+          },
+          "status": "current",
+          "subject": {
+            "reference": "Patient/demo"
+          },
+          "date": "2026-05-01T12:00:00Z",
+          "author": [
+            {
+              "reference": "Organization/demo-site"
+            }
+          ],
+          "identifier": [
+            {
+              "system": "urn:pocketmd:research:screening-source:v1",
+              "value": "f88bd59efffe199a3c8767edcb74d2b98c0e172d1b1f4804087ea0086fc73554"
+            }
+          ],
+          "content": [
+            {
+              "attachment": {
+                "contentType": "text/plain",
+                "title": "Synthetic source for Eligibility assessment phase"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "id": "obs-f-e53fabd8c926472c039d6223",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-05-01T12:00:00Z",
+            "profile": [
+              "urn:pocketmd:research:screening-fact:v2"
+            ]
+          },
+          "status": "final",
+          "subject": {
+            "reference": "Patient/demo"
+          },
+          "encounter": {
+            "reference": "Encounter/screen"
+          },
+          "effectiveDateTime": "2026-05-01T12:00:00Z",
+          "issued": "2026-05-01T12:00:00Z",
+          "focus": [
+            {
+              "reference": "Condition/index-demo"
+            }
+          ],
+          "performer": [
+            {
+              "reference": "Organization/demo-site"
+            }
+          ],
+          "derivedFrom": [
+            {
+              "reference": "DocumentReference/src-f-e53fabd8c926472c039d6223/_history/1"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:research:normalized-evidence:v2",
+                "version": "f88bd59efffe199a3c8767edcb74d2b98c0e172d1b1f4804087ea0086fc73554",
+                "code": "f-e53fabd8c926472c039d6223",
+                "display": "Eligibility assessment phase"
+              }
+            ]
+          },
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:research:normalized-evidence:v2/f-e53fabd8c926472c039d6223",
+                "code": "DB"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "DocumentReference",
+          "id": "src-f-12bb538452af5597cfc5d46a",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-05-01T12:00:00Z"
+          },
+          "status": "current",
+          "subject": {
+            "reference": "Patient/demo"
+          },
+          "date": "2026-05-01T12:00:00Z",
+          "author": [
+            {
+              "reference": "PractitionerRole/demo-investigator"
+            }
+          ],
+          "identifier": [
+            {
+              "system": "urn:pocketmd:research:screening-source:v1",
+              "value": "f88bd59efffe199a3c8767edcb74d2b98c0e172d1b1f4804087ea0086fc73554"
+            }
+          ],
+          "content": [
+            {
+              "attachment": {
+                "contentType": "text/plain",
+                "title": "Synthetic source for Childbearing potential under §5.4.1"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "id": "obs-f-12bb538452af5597cfc5d46a",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-05-01T12:00:00Z",
+            "profile": [
+              "urn:pocketmd:research:screening-fact:v2"
+            ]
+          },
+          "status": "final",
+          "subject": {
+            "reference": "Patient/demo"
+          },
+          "encounter": {
+            "reference": "Encounter/screen"
+          },
+          "effectiveDateTime": "2026-05-01T12:00:00Z",
+          "issued": "2026-05-01T12:00:00Z",
+          "focus": [
+            {
+              "reference": "Condition/index-demo"
+            }
+          ],
+          "performer": [
+            {
+              "reference": "PractitionerRole/demo-investigator"
+            }
+          ],
+          "derivedFrom": [
+            {
+              "reference": "DocumentReference/src-f-12bb538452af5597cfc5d46a/_history/1"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:research:normalized-evidence:v2",
+                "version": "f88bd59efffe199a3c8767edcb74d2b98c0e172d1b1f4804087ea0086fc73554",
+                "code": "f-12bb538452af5597cfc5d46a",
+                "display": "Childbearing potential under §5.4.1"
+              }
+            ]
+          },
+          "valueBoolean": true
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "DocumentReference",
+          "id": "src-f-da2f82667fb590fccbcd8fbd",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-05-01T12:00:00Z"
+          },
+          "status": "current",
+          "subject": {
+            "reference": "Patient/demo"
+          },
+          "date": "2026-05-01T12:00:00Z",
+          "author": [
+            {
+              "reference": "Organization/demo-record"
+            }
+          ],
+          "identifier": [
+            {
+              "system": "urn:pocketmd:research:screening-source:v1",
+              "value": "f88bd59efffe199a3c8767edcb74d2b98c0e172d1b1f4804087ea0086fc73554"
+            }
+          ],
+          "content": [
+            {
+              "attachment": {
+                "contentType": "text/plain",
+                "title": "Synthetic source for Highly sensitive serum beta-hCG result"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "id": "obs-f-da2f82667fb590fccbcd8fbd",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-05-01T12:00:00Z",
+            "profile": [
+              "urn:pocketmd:research:screening-fact:v2"
+            ]
+          },
+          "status": "final",
+          "subject": {
+            "reference": "Patient/demo"
+          },
+          "encounter": {
+            "reference": "Encounter/screen"
+          },
+          "effectiveDateTime": "2026-05-01T12:00:00Z",
+          "issued": "2026-05-01T12:00:00Z",
+          "focus": [
+            {
+              "reference": "Condition/index-demo"
+            }
+          ],
+          "performer": [
+            {
+              "reference": "Organization/demo-record"
+            }
+          ],
+          "derivedFrom": [
+            {
+              "reference": "DocumentReference/src-f-da2f82667fb590fccbcd8fbd/_history/1"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:research:normalized-evidence:v2",
+                "version": "f88bd59efffe199a3c8767edcb74d2b98c0e172d1b1f4804087ea0086fc73554",
+                "code": "f-da2f82667fb590fccbcd8fbd",
+                "display": "Highly sensitive serum beta-hCG result"
+              }
+            ]
+          },
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:research:normalized-evidence:v2/f-da2f82667fb590fccbcd8fbd",
+                "code": "negative"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "DocumentReference",
+          "id": "src-f-fe26e81b22ecd531e22d810f",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-05-01T12:00:00Z"
+          },
+          "status": "current",
+          "subject": {
+            "reference": "Patient/demo"
+          },
+          "date": "2026-05-01T12:00:00Z",
+          "author": [
+            {
+              "reference": "Patient/demo"
+            }
+          ],
+          "identifier": [
+            {
+              "system": "urn:pocketmd:research:screening-source:v1",
+              "value": "f88bd59efffe199a3c8767edcb74d2b98c0e172d1b1f4804087ea0086fc73554"
+            }
+          ],
+          "content": [
+            {
+              "attachment": {
+                "contentType": "text/plain",
+                "title": "Synthetic source for Agrees not to try to become pregnant"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "id": "obs-f-fe26e81b22ecd531e22d810f",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-05-01T12:00:00Z",
+            "profile": [
+              "urn:pocketmd:research:screening-fact:v2"
+            ]
+          },
+          "status": "final",
+          "subject": {
+            "reference": "Patient/demo"
+          },
+          "encounter": {
+            "reference": "Encounter/screen"
+          },
+          "effectiveDateTime": "2026-05-01T12:00:00Z",
+          "issued": "2026-05-01T12:00:00Z",
+          "focus": [
+            {
+              "reference": "Condition/index-demo"
+            }
+          ],
+          "performer": [
+            {
+              "reference": "Patient/demo"
+            }
+          ],
+          "derivedFrom": [
+            {
+              "reference": "DocumentReference/src-f-fe26e81b22ecd531e22d810f/_history/1"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:research:normalized-evidence:v2",
+                "version": "f88bd59efffe199a3c8767edcb74d2b98c0e172d1b1f4804087ea0086fc73554",
+                "code": "f-fe26e81b22ecd531e22d810f",
+                "display": "Agrees not to try to become pregnant"
+              }
+            ]
+          },
+          "valueBoolean": true
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "DocumentReference",
+          "id": "src-f-565a742dbc399d9bfe600b39",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-05-01T12:00:00Z"
+          },
+          "status": "current",
+          "subject": {
+            "reference": "Patient/demo"
+          },
+          "date": "2026-05-01T12:00:00Z",
+          "author": [
+            {
+              "reference": "Patient/demo"
+            }
+          ],
+          "identifier": [
+            {
+              "system": "urn:pocketmd:research:screening-source:v1",
+              "value": "f88bd59efffe199a3c8767edcb74d2b98c0e172d1b1f4804087ea0086fc73554"
+            }
+          ],
+          "content": [
+            {
+              "attachment": {
+                "contentType": "text/plain",
+                "title": "Synthetic source for Agrees not to breastfeed"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "id": "obs-f-565a742dbc399d9bfe600b39",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-05-01T12:00:00Z",
+            "profile": [
+              "urn:pocketmd:research:screening-fact:v2"
+            ]
+          },
+          "status": "final",
+          "subject": {
+            "reference": "Patient/demo"
+          },
+          "encounter": {
+            "reference": "Encounter/screen"
+          },
+          "effectiveDateTime": "2026-05-01T12:00:00Z",
+          "issued": "2026-05-01T12:00:00Z",
+          "focus": [
+            {
+              "reference": "Condition/index-demo"
+            }
+          ],
+          "performer": [
+            {
+              "reference": "Patient/demo"
+            }
+          ],
+          "derivedFrom": [
+            {
+              "reference": "DocumentReference/src-f-565a742dbc399d9bfe600b39/_history/1"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:research:normalized-evidence:v2",
+                "version": "f88bd59efffe199a3c8767edcb74d2b98c0e172d1b1f4804087ea0086fc73554",
+                "code": "f-565a742dbc399d9bfe600b39",
+                "display": "Agrees not to breastfeed"
+              }
+            ]
+          },
+          "valueBoolean": true
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "DocumentReference",
+          "id": "src-f-64be838df95bae0cc3f74707",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-05-01T12:00:00Z"
+          },
+          "status": "current",
+          "subject": {
+            "reference": "Patient/demo"
+          },
+          "date": "2026-05-01T12:00:00Z",
+          "author": [
+            {
+              "reference": "Patient/demo"
+            }
+          ],
+          "identifier": [
+            {
+              "system": "urn:pocketmd:research:screening-source:v1",
+              "value": "f88bd59efffe199a3c8767edcb74d2b98c0e172d1b1f4804087ea0086fc73554"
+            }
+          ],
+          "content": [
+            {
+              "attachment": {
+                "contentType": "text/plain",
+                "title": "Synthetic source for Agrees not to donate ova"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "id": "obs-f-64be838df95bae0cc3f74707",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-05-01T12:00:00Z",
+            "profile": [
+              "urn:pocketmd:research:screening-fact:v2"
+            ]
+          },
+          "status": "final",
+          "subject": {
+            "reference": "Patient/demo"
+          },
+          "encounter": {
+            "reference": "Encounter/screen"
+          },
+          "effectiveDateTime": "2026-05-01T12:00:00Z",
+          "issued": "2026-05-01T12:00:00Z",
+          "focus": [
+            {
+              "reference": "Condition/index-demo"
+            }
+          ],
+          "performer": [
+            {
+              "reference": "Patient/demo"
+            }
+          ],
+          "derivedFrom": [
+            {
+              "reference": "DocumentReference/src-f-64be838df95bae0cc3f74707/_history/1"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:research:normalized-evidence:v2",
+                "version": "f88bd59efffe199a3c8767edcb74d2b98c0e172d1b1f4804087ea0086fc73554",
+                "code": "f-64be838df95bae0cc3f74707",
+                "display": "Agrees not to donate ova"
+              }
+            ]
+          },
+          "valueBoolean": true
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "DocumentReference",
+          "id": "src-f-8b69c74eca0f78498d2cad10",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-05-01T12:00:00Z"
+          },
+          "status": "current",
+          "subject": {
+            "reference": "Patient/demo"
+          },
+          "date": "2026-05-01T12:00:00Z",
+          "author": [
+            {
+              "reference": "Patient/demo"
+            }
+          ],
+          "identifier": [
+            {
+              "system": "urn:pocketmd:research:screening-source:v1",
+              "value": "f88bd59efffe199a3c8767edcb74d2b98c0e172d1b1f4804087ea0086fc73554"
+            }
+          ],
+          "content": [
+            {
+              "attachment": {
+                "contentType": "text/plain",
+                "title": "Synthetic source for Sexual activity may cause pregnancy"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "id": "obs-f-8b69c74eca0f78498d2cad10",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-05-01T12:00:00Z",
+            "profile": [
+              "urn:pocketmd:research:screening-fact:v2"
+            ]
+          },
+          "status": "final",
+          "subject": {
+            "reference": "Patient/demo"
+          },
+          "encounter": {
+            "reference": "Encounter/screen"
+          },
+          "effectiveDateTime": "2026-05-01T12:00:00Z",
+          "issued": "2026-05-01T12:00:00Z",
+          "focus": [
+            {
+              "reference": "Condition/index-demo"
+            }
+          ],
+          "performer": [
+            {
+              "reference": "Patient/demo"
+            }
+          ],
+          "derivedFrom": [
+            {
+              "reference": "DocumentReference/src-f-8b69c74eca0f78498d2cad10/_history/1"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:research:normalized-evidence:v2",
+                "version": "f88bd59efffe199a3c8767edcb74d2b98c0e172d1b1f4804087ea0086fc73554",
+                "code": "f-8b69c74eca0f78498d2cad10",
+                "display": "Sexual activity may cause pregnancy"
+              }
+            ]
+          },
+          "valueBoolean": true
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "DocumentReference",
+          "id": "src-f-af4d0b0233d81e75d200db74",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-05-01T12:00:00Z"
+          },
+          "status": "current",
+          "subject": {
+            "reference": "Patient/demo"
+          },
+          "date": "2026-05-01T12:00:00Z",
+          "author": [
+            {
+              "reference": "Organization/demo-record"
+            }
+          ],
+          "identifier": [
+            {
+              "system": "urn:pocketmd:research:screening-source:v1",
+              "value": "f88bd59efffe199a3c8767edcb74d2b98c0e172d1b1f4804087ea0086fc73554"
+            }
+          ],
+          "content": [
+            {
+              "attachment": {
+                "contentType": "text/plain",
+                "title": "Synthetic source for Proposed pregnancy prevention method"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "id": "obs-f-af4d0b0233d81e75d200db74",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-05-01T12:00:00Z",
+            "profile": [
+              "urn:pocketmd:research:screening-fact:v2"
+            ]
+          },
+          "status": "final",
+          "subject": {
+            "reference": "Patient/demo"
+          },
+          "encounter": {
+            "reference": "Encounter/screen"
+          },
+          "effectiveDateTime": "2026-05-01T12:00:00Z",
+          "issued": "2026-05-01T12:00:00Z",
+          "focus": [
+            {
+              "reference": "Condition/index-demo"
+            }
+          ],
+          "performer": [
+            {
+              "reference": "Organization/demo-record"
+            }
+          ],
+          "derivedFrom": [
+            {
+              "reference": "DocumentReference/src-f-af4d0b0233d81e75d200db74/_history/1"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:research:normalized-evidence:v2",
+                "version": "f88bd59efffe199a3c8767edcb74d2b98c0e172d1b1f4804087ea0086fc73554",
+                "code": "f-af4d0b0233d81e75d200db74",
+                "display": "Proposed pregnancy prevention method"
+              }
+            ]
+          },
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:research:normalized-evidence:v2/f-af4d0b0233d81e75d200db74",
+                "code": "oral_ovulation_inhibiting"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "DocumentReference",
+          "id": "src-f-2f791df8ef73e2354f7cc9df",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-05-01T12:00:00Z"
+          },
+          "status": "current",
+          "subject": {
+            "reference": "Patient/demo"
+          },
+          "date": "2026-05-01T12:00:00Z",
+          "author": [
+            {
+              "reference": "Patient/demo"
+            }
+          ],
+          "identifier": [
+            {
+              "system": "urn:pocketmd:research:screening-source:v1",
+              "value": "f88bd59efffe199a3c8767edcb74d2b98c0e172d1b1f4804087ea0086fc73554"
+            }
+          ],
+          "content": [
+            {
+              "attachment": {
+                "contentType": "text/plain",
+                "title": "Synthetic source for Agrees to consistent protocol contraceptive use"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "id": "obs-f-2f791df8ef73e2354f7cc9df",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-05-01T12:00:00Z",
+            "profile": [
+              "urn:pocketmd:research:screening-fact:v2"
+            ]
+          },
+          "status": "final",
+          "subject": {
+            "reference": "Patient/demo"
+          },
+          "encounter": {
+            "reference": "Encounter/screen"
+          },
+          "effectiveDateTime": "2026-05-01T12:00:00Z",
+          "issued": "2026-05-01T12:00:00Z",
+          "focus": [
+            {
+              "reference": "Condition/index-demo"
+            }
+          ],
+          "performer": [
+            {
+              "reference": "Patient/demo"
+            }
+          ],
+          "derivedFrom": [
+            {
+              "reference": "DocumentReference/src-f-2f791df8ef73e2354f7cc9df/_history/1"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:research:normalized-evidence:v2",
+                "version": "f88bd59efffe199a3c8767edcb74d2b98c0e172d1b1f4804087ea0086fc73554",
+                "code": "f-2f791df8ef73e2354f7cc9df",
+                "display": "Agrees to consistent protocol contraceptive use"
+              }
+            ]
+          },
+          "valueBoolean": true
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "DocumentReference",
+          "id": "src-f-a9962b8b63667a419f51e27b",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-05-01T12:00:00Z"
+          },
+          "status": "current",
+          "subject": {
+            "reference": "Patient/demo"
+          },
+          "date": "2026-05-01T12:00:00Z",
+          "author": [
+            {
+              "reference": "Organization/demo-record"
+            }
+          ],
+          "identifier": [
+            {
+              "system": "urn:pocketmd:research:screening-source:v1",
+              "value": "f88bd59efffe199a3c8767edcb74d2b98c0e172d1b1f4804087ea0086fc73554"
+            }
+          ],
+          "content": [
+            {
+              "attachment": {
+                "contentType": "text/plain",
+                "title": "Synthetic source for Oral method lead-in before randomization"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "id": "obs-f-a9962b8b63667a419f51e27b",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-05-01T12:00:00Z",
+            "profile": [
+              "urn:pocketmd:research:screening-fact:v2"
+            ]
+          },
+          "status": "final",
+          "subject": {
+            "reference": "Patient/demo"
+          },
+          "encounter": {
+            "reference": "Encounter/screen"
+          },
+          "effectiveDateTime": "2026-05-01T12:00:00Z",
+          "issued": "2026-05-01T12:00:00Z",
+          "focus": [
+            {
+              "reference": "Condition/index-demo"
+            }
+          ],
+          "performer": [
+            {
+              "reference": "Organization/demo-record"
+            }
+          ],
+          "derivedFrom": [
+            {
+              "reference": "DocumentReference/src-f-a9962b8b63667a419f51e27b/_history/1"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:research:normalized-evidence:v2",
+                "version": "f88bd59efffe199a3c8767edcb74d2b98c0e172d1b1f4804087ea0086fc73554",
+                "code": "f-a9962b8b63667a419f51e27b",
+                "display": "Oral method lead-in before randomization"
+              }
+            ]
+          },
+          "valueQuantity": {
+            "value": 27,
+            "system": "urn:pocketmd:research:derived-unit",
+            "code": "days"
+          }
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "DocumentReference",
+          "id": "src-f-44eca3757ef061458b97f128",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-05-01T12:00:00Z"
+          },
+          "status": "current",
+          "subject": {
+            "reference": "Patient/demo"
+          },
+          "date": "2026-05-01T12:00:00Z",
+          "author": [
+            {
+              "reference": "Organization/demo-record"
+            }
+          ],
+          "identifier": [
+            {
+              "system": "urn:pocketmd:research:screening-source:v1",
+              "value": "f88bd59efffe199a3c8767edcb74d2b98c0e172d1b1f4804087ea0086fc73554"
+            }
+          ],
+          "content": [
+            {
+              "attachment": {
+                "contentType": "text/plain",
+                "title": "Synthetic source for Stable use of same oral method before treatment"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "id": "obs-f-44eca3757ef061458b97f128",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-05-01T12:00:00Z",
+            "profile": [
+              "urn:pocketmd:research:screening-fact:v2"
+            ]
+          },
+          "status": "final",
+          "subject": {
+            "reference": "Patient/demo"
+          },
+          "encounter": {
+            "reference": "Encounter/screen"
+          },
+          "effectiveDateTime": "2026-05-01T12:00:00Z",
+          "issued": "2026-05-01T12:00:00Z",
+          "focus": [
+            {
+              "reference": "Condition/index-demo"
+            }
+          ],
+          "performer": [
+            {
+              "reference": "Organization/demo-record"
+            }
+          ],
+          "derivedFrom": [
+            {
+              "reference": "DocumentReference/src-f-44eca3757ef061458b97f128/_history/1"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:research:normalized-evidence:v2",
+                "version": "f88bd59efffe199a3c8767edcb74d2b98c0e172d1b1f4804087ea0086fc73554",
+                "code": "f-44eca3757ef061458b97f128",
+                "display": "Stable use of same oral method before treatment"
+              }
+            ]
+          },
+          "valueQuantity": {
+            "value": 0,
+            "system": "urn:pocketmd:research:derived-unit",
+            "code": "calendar months"
+          }
+        }
+      }
+    ]
+  }
+}

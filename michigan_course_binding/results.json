@@ -1,0 +1,830 @@
+{
+  "server": {
+    "name": "HAPI FHIR Server",
+    "version": "5.4.0"
+  },
+  "fhirVersion": "4.0.1",
+  "catalog": "Michigan-March2025-binding-probe-1",
+  "results": [
+    {
+      "case": "paired",
+      "expected": "MET",
+      "queries": [
+        "CarePlan?patient=Patient%2Fpmd-23c3f3e8-paired-p&_count=2",
+        "Observation?patient=Patient%2Fpmd-23c3f3e8-paired-p&_count=2",
+        "http://127.0.0.1:55223/fhir?_getpages=d8b4d544-9a32-42dc-a8ac-443aaa3b618d&_getpagesoffset=2&_count=2&_pretty=true&_bundletype=searchset",
+        "MedicationRequest?patient=Patient%2Fpmd-23c3f3e8-paired-p&_count=2",
+        "MedicationAdministration?patient=Patient%2Fpmd-23c3f3e8-paired-p&_count=2"
+      ],
+      "evidence": [
+        "Condition/pmd-23c3f3e8-paired-current/_history/1",
+        "CarePlan/pmd-23c3f3e8-paired-current/_history/1",
+        "Observation/pmd-23c3f3e8-paired-on-treatment/_history/1",
+        "Observation/pmd-23c3f3e8-paired-line/_history/1",
+        "Observation/pmd-23c3f3e8-paired-inventory/_history/1"
+      ],
+      "medications": [
+        {
+          "administration": "MedicationAdministration/pmd-23c3f3e8-paired-0/_history/1",
+          "order": "MedicationRequest/pmd-23c3f3e8-paired-0/_history/1",
+          "course_links": [
+            "CarePlan/pmd-23c3f3e8-paired-current"
+          ],
+          "product": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "1791588"
+            }
+          ],
+          "ingredient": "5657",
+          "formulation": null,
+          "binding": "current course"
+        },
+        {
+          "administration": "MedicationAdministration/pmd-23c3f3e8-paired-1/_history/1",
+          "order": "MedicationRequest/pmd-23c3f3e8-paired-1/_history/1",
+          "course_links": [
+            "CarePlan/pmd-23c3f3e8-paired-current"
+          ],
+          "product": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "1191138"
+            }
+          ],
+          "ingredient": "3639",
+          "formulation": "conventional solution",
+          "binding": "current course"
+        }
+      ],
+      "as_of": "2026-04-15",
+      "patient": "Patient/pmd-23c3f3e8-paired-p",
+      "episode": "Condition/pmd-23c3f3e8-paired-current",
+      "orders_without_administration": [],
+      "outcome": "MET",
+      "reason": "Qualifying components, treatment line and administration bind to the same current course."
+    },
+    {
+      "case": "missing-link",
+      "expected": "MISSING_DATA",
+      "queries": [
+        "CarePlan?patient=Patient%2Fpmd-23c3f3e8-missing-link-p&_count=2",
+        "Observation?patient=Patient%2Fpmd-23c3f3e8-missing-link-p&_count=2",
+        "http://127.0.0.1:55223/fhir?_getpages=1098b37a-1934-4543-abd6-93dfa3fa9448&_getpagesoffset=2&_count=2&_pretty=true&_bundletype=searchset",
+        "MedicationRequest?patient=Patient%2Fpmd-23c3f3e8-missing-link-p&_count=2",
+        "MedicationAdministration?patient=Patient%2Fpmd-23c3f3e8-missing-link-p&_count=2"
+      ],
+      "evidence": [
+        "Condition/pmd-23c3f3e8-missing-link-current/_history/1",
+        "CarePlan/pmd-23c3f3e8-missing-link-current/_history/1",
+        "Observation/pmd-23c3f3e8-missing-link-inventory/_history/1",
+        "Observation/pmd-23c3f3e8-missing-link-line/_history/1",
+        "Observation/pmd-23c3f3e8-missing-link-on-treatment/_history/1"
+      ],
+      "medications": [
+        {
+          "administration": "MedicationAdministration/pmd-23c3f3e8-missing-link-1/_history/1",
+          "order": "MedicationRequest/pmd-23c3f3e8-missing-link-1/_history/1",
+          "course_links": [],
+          "product": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "1191138"
+            }
+          ],
+          "binding": "unresolved course"
+        },
+        {
+          "administration": "MedicationAdministration/pmd-23c3f3e8-missing-link-0/_history/1",
+          "order": "MedicationRequest/pmd-23c3f3e8-missing-link-0/_history/1",
+          "course_links": [
+            "CarePlan/pmd-23c3f3e8-missing-link-current"
+          ],
+          "product": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "1791588"
+            }
+          ],
+          "ingredient": "5657",
+          "formulation": null,
+          "binding": "current course"
+        }
+      ],
+      "as_of": "2026-04-15",
+      "patient": "Patient/pmd-23c3f3e8-missing-link-p",
+      "episode": "Condition/pmd-23c3f3e8-missing-link-current",
+      "orders_without_administration": [],
+      "outcome": "MISSING_DATA",
+      "reason": "Resolve the missing course link, qualifying administration, line or full regimen inventory."
+    },
+    {
+      "case": "no-line",
+      "expected": "MISSING_DATA",
+      "queries": [
+        "CarePlan?patient=Patient%2Fpmd-23c3f3e8-no-line-p&_count=2",
+        "Observation?patient=Patient%2Fpmd-23c3f3e8-no-line-p&_count=2",
+        "MedicationRequest?patient=Patient%2Fpmd-23c3f3e8-no-line-p&_count=2",
+        "MedicationAdministration?patient=Patient%2Fpmd-23c3f3e8-no-line-p&_count=2"
+      ],
+      "evidence": [
+        "Condition/pmd-23c3f3e8-no-line-current/_history/1",
+        "CarePlan/pmd-23c3f3e8-no-line-current/_history/1",
+        "Observation/pmd-23c3f3e8-no-line-inventory/_history/1",
+        "Observation/pmd-23c3f3e8-no-line-on-treatment/_history/1"
+      ],
+      "medications": [
+        {
+          "administration": "MedicationAdministration/pmd-23c3f3e8-no-line-0/_history/1",
+          "order": "MedicationRequest/pmd-23c3f3e8-no-line-0/_history/1",
+          "course_links": [
+            "CarePlan/pmd-23c3f3e8-no-line-current"
+          ],
+          "product": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "1191138"
+            }
+          ],
+          "ingredient": "3639",
+          "formulation": "conventional solution",
+          "binding": "current course"
+        }
+      ],
+      "as_of": "2026-04-15",
+      "patient": "Patient/pmd-23c3f3e8-no-line-p",
+      "episode": "Condition/pmd-23c3f3e8-no-line-current",
+      "orders_without_administration": [],
+      "outcome": "MISSING_DATA",
+      "reason": "Resolve the missing course link, qualifying administration, line or full regimen inventory."
+    },
+    {
+      "case": "second-line",
+      "expected": "NOT_MET",
+      "queries": [
+        "CarePlan?patient=Patient%2Fpmd-23c3f3e8-second-line-p&_count=2",
+        "Observation?patient=Patient%2Fpmd-23c3f3e8-second-line-p&_count=2",
+        "http://127.0.0.1:55223/fhir?_getpages=6a164176-a43d-4d6c-9186-8e7bb5c3fa18&_getpagesoffset=2&_count=2&_pretty=true&_bundletype=searchset",
+        "MedicationRequest?patient=Patient%2Fpmd-23c3f3e8-second-line-p&_count=2",
+        "MedicationAdministration?patient=Patient%2Fpmd-23c3f3e8-second-line-p&_count=2"
+      ],
+      "evidence": [
+        "Condition/pmd-23c3f3e8-second-line-current/_history/1",
+        "CarePlan/pmd-23c3f3e8-second-line-current/_history/1",
+        "Observation/pmd-23c3f3e8-second-line-inventory/_history/1",
+        "Observation/pmd-23c3f3e8-second-line-on-treatment/_history/1",
+        "Observation/pmd-23c3f3e8-second-line-line/_history/1"
+      ],
+      "medications": [
+        {
+          "administration": "MedicationAdministration/pmd-23c3f3e8-second-line-0/_history/1",
+          "order": "MedicationRequest/pmd-23c3f3e8-second-line-0/_history/1",
+          "course_links": [
+            "CarePlan/pmd-23c3f3e8-second-line-current"
+          ],
+          "product": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "1191138"
+            }
+          ],
+          "ingredient": "3639",
+          "formulation": "conventional solution",
+          "binding": "current course"
+        }
+      ],
+      "as_of": "2026-04-15",
+      "patient": "Patient/pmd-23c3f3e8-second-line-p",
+      "episode": "Condition/pmd-23c3f3e8-second-line-current",
+      "orders_without_administration": [],
+      "outcome": "NOT_MET",
+      "reason": "Documented line for the receiving course fails the first-line requirement."
+    },
+    {
+      "case": "planned",
+      "expected": "AUTHORING_HOLD",
+      "queries": [
+        "CarePlan?patient=Patient%2Fpmd-23c3f3e8-planned-p&_count=2",
+        "Observation?patient=Patient%2Fpmd-23c3f3e8-planned-p&_count=2",
+        "MedicationRequest?patient=Patient%2Fpmd-23c3f3e8-planned-p&_count=2",
+        "MedicationAdministration?patient=Patient%2Fpmd-23c3f3e8-planned-p&_count=2"
+      ],
+      "evidence": [
+        "Condition/pmd-23c3f3e8-planned-current/_history/1",
+        "CarePlan/pmd-23c3f3e8-planned-current/_history/1",
+        "Observation/pmd-23c3f3e8-planned-inventory/_history/1",
+        "Observation/pmd-23c3f3e8-planned-line/_history/1"
+      ],
+      "medications": [],
+      "as_of": "2026-04-15",
+      "patient": "Patient/pmd-23c3f3e8-planned-p",
+      "episode": "Condition/pmd-23c3f3e8-planned-current",
+      "orders_without_administration": [
+        "MedicationRequest/pmd-23c3f3e8-planned-0/_history/1"
+      ],
+      "outcome": "AUTHORING_HOLD",
+      "reason": "MI-TX-STATE: qualifying therapy ordered only; planned-only meaning requires review."
+    },
+    {
+      "case": "liposomal",
+      "expected": "AUTHORING_HOLD",
+      "queries": [
+        "CarePlan?patient=Patient%2Fpmd-23c3f3e8-liposomal-p&_count=2",
+        "Observation?patient=Patient%2Fpmd-23c3f3e8-liposomal-p&_count=2",
+        "http://127.0.0.1:55223/fhir?_getpages=7a247007-b00e-426e-8232-45aecdbd6b29&_getpagesoffset=2&_count=2&_pretty=true&_bundletype=searchset",
+        "MedicationRequest?patient=Patient%2Fpmd-23c3f3e8-liposomal-p&_count=2",
+        "MedicationAdministration?patient=Patient%2Fpmd-23c3f3e8-liposomal-p&_count=2"
+      ],
+      "evidence": [
+        "Condition/pmd-23c3f3e8-liposomal-current/_history/1",
+        "CarePlan/pmd-23c3f3e8-liposomal-current/_history/1",
+        "Observation/pmd-23c3f3e8-liposomal-inventory/_history/1",
+        "Observation/pmd-23c3f3e8-liposomal-line/_history/1",
+        "Observation/pmd-23c3f3e8-liposomal-on-treatment/_history/1"
+      ],
+      "medications": [
+        {
+          "administration": "MedicationAdministration/pmd-23c3f3e8-liposomal-0/_history/1",
+          "order": "MedicationRequest/pmd-23c3f3e8-liposomal-0/_history/1",
+          "course_links": [
+            "CarePlan/pmd-23c3f3e8-liposomal-current"
+          ],
+          "product": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "1790128"
+            }
+          ],
+          "ingredient": "3639",
+          "formulation": "liposomal Doxil",
+          "binding": "current course"
+        }
+      ],
+      "as_of": "2026-04-15",
+      "patient": "Patient/pmd-23c3f3e8-liposomal-p",
+      "episode": "Condition/pmd-23c3f3e8-liposomal-current",
+      "orders_without_administration": [],
+      "outcome": "AUTHORING_HOLD",
+      "reason": "Does this protocol accept the liposomal formulation?"
+    },
+    {
+      "case": "doublet",
+      "expected": "MET",
+      "queries": [
+        "CarePlan?patient=Patient%2Fpmd-23c3f3e8-doublet-p&_count=2",
+        "Observation?patient=Patient%2Fpmd-23c3f3e8-doublet-p&_count=2",
+        "http://127.0.0.1:55223/fhir?_getpages=801e9691-0230-45b1-939c-f86f1c76e887&_getpagesoffset=2&_count=2&_pretty=true&_bundletype=searchset",
+        "MedicationRequest?patient=Patient%2Fpmd-23c3f3e8-doublet-p&_count=2",
+        "MedicationAdministration?patient=Patient%2Fpmd-23c3f3e8-doublet-p&_count=2"
+      ],
+      "evidence": [
+        "Condition/pmd-23c3f3e8-doublet-current/_history/1",
+        "CarePlan/pmd-23c3f3e8-doublet-current/_history/1",
+        "Observation/pmd-23c3f3e8-doublet-on-treatment/_history/1",
+        "Observation/pmd-23c3f3e8-doublet-line/_history/1",
+        "Observation/pmd-23c3f3e8-doublet-inventory/_history/1"
+      ],
+      "medications": [
+        {
+          "administration": "MedicationAdministration/pmd-23c3f3e8-doublet-0/_history/1",
+          "order": "MedicationRequest/pmd-23c3f3e8-doublet-0/_history/1",
+          "course_links": [
+            "CarePlan/pmd-23c3f3e8-doublet-current"
+          ],
+          "product": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "1719003"
+            }
+          ],
+          "ingredient": "12574",
+          "formulation": null,
+          "binding": "current course"
+        },
+        {
+          "administration": "MedicationAdministration/pmd-23c3f3e8-doublet-1/_history/1",
+          "order": "MedicationRequest/pmd-23c3f3e8-doublet-1/_history/1",
+          "course_links": [
+            "CarePlan/pmd-23c3f3e8-doublet-current"
+          ],
+          "product": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "376888"
+            }
+          ],
+          "ingredient": "72962",
+          "formulation": null,
+          "binding": "current course"
+        }
+      ],
+      "as_of": "2026-04-15",
+      "patient": "Patient/pmd-23c3f3e8-doublet-p",
+      "episode": "Condition/pmd-23c3f3e8-doublet-current",
+      "orders_without_administration": [],
+      "outcome": "MET",
+      "reason": "Qualifying components, treatment line and administration bind to the same current course."
+    },
+    {
+      "case": "split-doublet",
+      "expected": "NOT_MET",
+      "queries": [
+        "CarePlan?patient=Patient%2Fpmd-23c3f3e8-split-doublet-p&_count=2",
+        "Observation?patient=Patient%2Fpmd-23c3f3e8-split-doublet-p&_count=2",
+        "http://127.0.0.1:55223/fhir?_getpages=d901acbe-4460-4fc4-8f71-07dddc627f00&_getpagesoffset=2&_count=2&_pretty=true&_bundletype=searchset",
+        "MedicationRequest?patient=Patient%2Fpmd-23c3f3e8-split-doublet-p&_count=2",
+        "MedicationAdministration?patient=Patient%2Fpmd-23c3f3e8-split-doublet-p&_count=2"
+      ],
+      "evidence": [
+        "Condition/pmd-23c3f3e8-split-doublet-current/_history/1",
+        "CarePlan/pmd-23c3f3e8-split-doublet-current/_history/1",
+        "Observation/pmd-23c3f3e8-split-doublet-line/_history/1",
+        "Observation/pmd-23c3f3e8-split-doublet-on-treatment/_history/1",
+        "Observation/pmd-23c3f3e8-split-doublet-inventory/_history/1"
+      ],
+      "medications": [
+        {
+          "administration": "MedicationAdministration/pmd-23c3f3e8-split-doublet-1/_history/1",
+          "order": "MedicationRequest/pmd-23c3f3e8-split-doublet-1/_history/1",
+          "course_links": [
+            "CarePlan/pmd-23c3f3e8-split-doublet-prior"
+          ],
+          "product": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "376888"
+            }
+          ],
+          "binding": "other course"
+        },
+        {
+          "administration": "MedicationAdministration/pmd-23c3f3e8-split-doublet-0/_history/1",
+          "order": "MedicationRequest/pmd-23c3f3e8-split-doublet-0/_history/1",
+          "course_links": [
+            "CarePlan/pmd-23c3f3e8-split-doublet-current"
+          ],
+          "product": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "1719003"
+            }
+          ],
+          "ingredient": "12574",
+          "formulation": null,
+          "binding": "current course"
+        }
+      ],
+      "as_of": "2026-04-15",
+      "patient": "Patient/pmd-23c3f3e8-split-doublet-p",
+      "episode": "Condition/pmd-23c3f3e8-split-doublet-current",
+      "orders_without_administration": [],
+      "outcome": "NOT_MET",
+      "reason": "The attested complete current regimen has neither accepted alternative."
+    },
+    {
+      "case": "incomplete-list",
+      "expected": "MISSING_DATA",
+      "queries": [
+        "CarePlan?patient=Patient%2Fpmd-23c3f3e8-incomplete-list-p&_count=2",
+        "Observation?patient=Patient%2Fpmd-23c3f3e8-incomplete-list-p&_count=2",
+        "http://127.0.0.1:55223/fhir?_getpages=e8520a77-81ff-4219-8de4-642538b4997a&_getpagesoffset=2&_count=2&_pretty=true&_bundletype=searchset",
+        "MedicationRequest?patient=Patient%2Fpmd-23c3f3e8-incomplete-list-p&_count=2",
+        "MedicationAdministration?patient=Patient%2Fpmd-23c3f3e8-incomplete-list-p&_count=2"
+      ],
+      "evidence": [
+        "Condition/pmd-23c3f3e8-incomplete-list-current/_history/1",
+        "CarePlan/pmd-23c3f3e8-incomplete-list-current/_history/1",
+        "Observation/pmd-23c3f3e8-incomplete-list-line/_history/1",
+        "Observation/pmd-23c3f3e8-incomplete-list-inventory/_history/1",
+        "Observation/pmd-23c3f3e8-incomplete-list-on-treatment/_history/1"
+      ],
+      "medications": [
+        {
+          "administration": "MedicationAdministration/pmd-23c3f3e8-incomplete-list-0/_history/1",
+          "order": "MedicationRequest/pmd-23c3f3e8-incomplete-list-0/_history/1",
+          "course_links": [
+            "CarePlan/pmd-23c3f3e8-incomplete-list-current"
+          ],
+          "product": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "1719003"
+            }
+          ],
+          "ingredient": "12574",
+          "formulation": null,
+          "binding": "current course"
+        }
+      ],
+      "as_of": "2026-04-15",
+      "patient": "Patient/pmd-23c3f3e8-incomplete-list-p",
+      "episode": "Condition/pmd-23c3f3e8-incomplete-list-current",
+      "orders_without_administration": [],
+      "outcome": "MISSING_DATA",
+      "reason": "Resolve the missing course link, qualifying administration, line or full regimen inventory."
+    },
+    {
+      "case": "unknown-product",
+      "expected": "BINDING_HOLD",
+      "queries": [
+        "CarePlan?patient=Patient%2Fpmd-23c3f3e8-unknown-product-p&_count=2",
+        "Observation?patient=Patient%2Fpmd-23c3f3e8-unknown-product-p&_count=2",
+        "http://127.0.0.1:55223/fhir?_getpages=c77eb8d0-74ec-4528-8980-0c2ad6b28184&_getpagesoffset=2&_count=2&_pretty=true&_bundletype=searchset",
+        "MedicationRequest?patient=Patient%2Fpmd-23c3f3e8-unknown-product-p&_count=2",
+        "MedicationAdministration?patient=Patient%2Fpmd-23c3f3e8-unknown-product-p&_count=2"
+      ],
+      "evidence": [
+        "Condition/pmd-23c3f3e8-unknown-product-current/_history/1",
+        "CarePlan/pmd-23c3f3e8-unknown-product-current/_history/1",
+        "Observation/pmd-23c3f3e8-unknown-product-inventory/_history/1",
+        "Observation/pmd-23c3f3e8-unknown-product-on-treatment/_history/1",
+        "Observation/pmd-23c3f3e8-unknown-product-line/_history/1"
+      ],
+      "medications": [
+        {
+          "administration": "MedicationAdministration/pmd-23c3f3e8-unknown-product-0/_history/1",
+          "order": "MedicationRequest/pmd-23c3f3e8-unknown-product-0/_history/1",
+          "course_links": [
+            "CarePlan/pmd-23c3f3e8-unknown-product-current"
+          ],
+          "product": [
+            {
+              "system": "urn:pocketmd:research:course-binding-fixture",
+              "code": "unmapped-local-drug"
+            }
+          ],
+          "binding": "terminology unresolved"
+        }
+      ],
+      "as_of": "2026-04-15",
+      "patient": "Patient/pmd-23c3f3e8-unknown-product-p",
+      "episode": "Condition/pmd-23c3f3e8-unknown-product-current",
+      "orders_without_administration": [],
+      "outcome": "BINDING_HOLD",
+      "reason": "Verify product terminology before classifying the regimen."
+    },
+    {
+      "case": "not-given",
+      "expected": "MISSING_DATA",
+      "queries": [
+        "CarePlan?patient=Patient%2Fpmd-23c3f3e8-not-given-p&_count=2",
+        "Observation?patient=Patient%2Fpmd-23c3f3e8-not-given-p&_count=2",
+        "MedicationRequest?patient=Patient%2Fpmd-23c3f3e8-not-given-p&_count=2",
+        "MedicationAdministration?patient=Patient%2Fpmd-23c3f3e8-not-given-p&_count=2"
+      ],
+      "evidence": [
+        "Condition/pmd-23c3f3e8-not-given-current/_history/1",
+        "CarePlan/pmd-23c3f3e8-not-given-current/_history/1",
+        "Observation/pmd-23c3f3e8-not-given-line/_history/1",
+        "Observation/pmd-23c3f3e8-not-given-inventory/_history/1"
+      ],
+      "medications": [],
+      "as_of": "2026-04-15",
+      "patient": "Patient/pmd-23c3f3e8-not-given-p",
+      "episode": "Condition/pmd-23c3f3e8-not-given-current",
+      "orders_without_administration": [],
+      "outcome": "MISSING_DATA",
+      "reason": "Resolve the missing course link, qualifying administration, line or full regimen inventory."
+    },
+    {
+      "case": "future-dose",
+      "expected": "MISSING_DATA",
+      "queries": [
+        "CarePlan?patient=Patient%2Fpmd-23c3f3e8-future-dose-p&_count=2",
+        "Observation?patient=Patient%2Fpmd-23c3f3e8-future-dose-p&_count=2",
+        "MedicationRequest?patient=Patient%2Fpmd-23c3f3e8-future-dose-p&_count=2",
+        "MedicationAdministration?patient=Patient%2Fpmd-23c3f3e8-future-dose-p&_count=2"
+      ],
+      "evidence": [
+        "Condition/pmd-23c3f3e8-future-dose-current/_history/1",
+        "CarePlan/pmd-23c3f3e8-future-dose-current/_history/1",
+        "Observation/pmd-23c3f3e8-future-dose-line/_history/1",
+        "Observation/pmd-23c3f3e8-future-dose-inventory/_history/1"
+      ],
+      "medications": [],
+      "as_of": "2026-04-15",
+      "patient": "Patient/pmd-23c3f3e8-future-dose-p",
+      "episode": "Condition/pmd-23c3f3e8-future-dose-current",
+      "orders_without_administration": [],
+      "outcome": "MISSING_DATA",
+      "reason": "Resolve the missing course link, qualifying administration, line or full regimen inventory."
+    },
+    {
+      "case": "patient-isolation",
+      "expected": "MISSING_DATA",
+      "queries": [
+        "CarePlan?patient=Patient%2Fpmd-23c3f3e8-patient-isolation-p&_count=2",
+        "Observation?patient=Patient%2Fpmd-23c3f3e8-patient-isolation-p&_count=2",
+        "MedicationRequest?patient=Patient%2Fpmd-23c3f3e8-patient-isolation-p&_count=2",
+        "MedicationAdministration?patient=Patient%2Fpmd-23c3f3e8-patient-isolation-p&_count=2"
+      ],
+      "evidence": [
+        "Condition/pmd-23c3f3e8-patient-isolation-current/_history/1",
+        "CarePlan/pmd-23c3f3e8-patient-isolation-current/_history/1",
+        "Observation/pmd-23c3f3e8-patient-isolation-line/_history/1",
+        "Observation/pmd-23c3f3e8-patient-isolation-inventory/_history/1"
+      ],
+      "medications": [],
+      "as_of": "2026-04-15",
+      "patient": "Patient/pmd-23c3f3e8-patient-isolation-p",
+      "episode": "Condition/pmd-23c3f3e8-patient-isolation-current",
+      "orders_without_administration": [],
+      "outcome": "MISSING_DATA",
+      "reason": "Resolve the missing course link, qualifying administration, line or full regimen inventory."
+    },
+    {
+      "case": "single-agent",
+      "expected": "MET",
+      "queries": [
+        "CarePlan?patient=Patient%2Fpmd-23c3f3e8-single-agent-p&_count=2",
+        "Observation?patient=Patient%2Fpmd-23c3f3e8-single-agent-p&_count=2",
+        "http://127.0.0.1:55223/fhir?_getpages=1642fa38-6c02-44fb-8e38-109ecbb3e18d&_getpagesoffset=2&_count=2&_pretty=true&_bundletype=searchset",
+        "MedicationRequest?patient=Patient%2Fpmd-23c3f3e8-single-agent-p&_count=2",
+        "MedicationAdministration?patient=Patient%2Fpmd-23c3f3e8-single-agent-p&_count=2"
+      ],
+      "evidence": [
+        "Condition/pmd-23c3f3e8-single-agent-current/_history/1",
+        "CarePlan/pmd-23c3f3e8-single-agent-current/_history/1",
+        "Observation/pmd-23c3f3e8-single-agent-line/_history/1",
+        "Observation/pmd-23c3f3e8-single-agent-inventory/_history/1",
+        "Observation/pmd-23c3f3e8-single-agent-on-treatment/_history/1"
+      ],
+      "medications": [
+        {
+          "administration": "MedicationAdministration/pmd-23c3f3e8-single-agent-0/_history/1",
+          "order": "MedicationRequest/pmd-23c3f3e8-single-agent-0/_history/1",
+          "course_links": [
+            "CarePlan/pmd-23c3f3e8-single-agent-current"
+          ],
+          "product": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "1191138"
+            }
+          ],
+          "ingredient": "3639",
+          "formulation": "conventional solution",
+          "binding": "current course"
+        }
+      ],
+      "as_of": "2026-04-15",
+      "patient": "Patient/pmd-23c3f3e8-single-agent-p",
+      "episode": "Condition/pmd-23c3f3e8-single-agent-current",
+      "orders_without_administration": [],
+      "outcome": "MET",
+      "reason": "Qualifying components, treatment line and administration bind to the same current course."
+    },
+    {
+      "case": "named-aim",
+      "expected": "MISSING_DATA",
+      "queries": [
+        "CarePlan?patient=Patient%2Fpmd-23c3f3e8-named-aim-p&_count=2",
+        "Observation?patient=Patient%2Fpmd-23c3f3e8-named-aim-p&_count=2",
+        "http://127.0.0.1:55223/fhir?_getpages=f1c6f386-3b99-474e-9dec-0ec6e821b20c&_getpagesoffset=2&_count=2&_pretty=true&_bundletype=searchset",
+        "MedicationRequest?patient=Patient%2Fpmd-23c3f3e8-named-aim-p&_count=2",
+        "MedicationAdministration?patient=Patient%2Fpmd-23c3f3e8-named-aim-p&_count=2"
+      ],
+      "evidence": [
+        "Condition/pmd-23c3f3e8-named-aim-current/_history/1",
+        "CarePlan/pmd-23c3f3e8-named-aim-current/_history/1",
+        "Observation/pmd-23c3f3e8-named-aim-inventory/_history/1",
+        "Observation/pmd-23c3f3e8-named-aim-on-treatment/_history/1",
+        "Observation/pmd-23c3f3e8-named-aim-line/_history/1",
+        "Observation/pmd-23c3f3e8-named-aim-named-regimen/_history/1"
+      ],
+      "medications": [],
+      "as_of": "2026-04-15",
+      "patient": "Patient/pmd-23c3f3e8-named-aim-p",
+      "episode": "Condition/pmd-23c3f3e8-named-aim-current",
+      "orders_without_administration": [],
+      "named_regimen": {
+        "reported": "AIM",
+        "components": [
+          "doxorubicin",
+          "ifosfamide",
+          "mesna"
+        ],
+        "source": "https://seer.cancer.gov/seertools/seerrx/rx/53c44b22102c1290262dda0e/"
+      },
+      "outcome": "MISSING_DATA",
+      "reason": "Named regimen supplies candidate components. Obtain product/formulation and check patient-specific modifications."
+    },
+    {
+      "case": "unverified-name",
+      "expected": "BINDING_HOLD",
+      "queries": [
+        "CarePlan?patient=Patient%2Fpmd-23c3f3e8-unverified-name-p&_count=2",
+        "Observation?patient=Patient%2Fpmd-23c3f3e8-unverified-name-p&_count=2",
+        "http://127.0.0.1:55223/fhir?_getpages=7a56714f-6038-42c8-a3a9-bf1354abda46&_getpagesoffset=2&_count=2&_pretty=true&_bundletype=searchset",
+        "MedicationRequest?patient=Patient%2Fpmd-23c3f3e8-unverified-name-p&_count=2",
+        "MedicationAdministration?patient=Patient%2Fpmd-23c3f3e8-unverified-name-p&_count=2"
+      ],
+      "evidence": [
+        "Condition/pmd-23c3f3e8-unverified-name-current/_history/1",
+        "CarePlan/pmd-23c3f3e8-unverified-name-current/_history/1",
+        "Observation/pmd-23c3f3e8-unverified-name-on-treatment/_history/1",
+        "Observation/pmd-23c3f3e8-unverified-name-named-regimen/_history/1",
+        "Observation/pmd-23c3f3e8-unverified-name-inventory/_history/1",
+        "Observation/pmd-23c3f3e8-unverified-name-line/_history/1"
+      ],
+      "medications": [],
+      "as_of": "2026-04-15",
+      "patient": "Patient/pmd-23c3f3e8-unverified-name-p",
+      "episode": "Condition/pmd-23c3f3e8-unverified-name-current",
+      "orders_without_administration": [],
+      "named_regimen": {
+        "reported": "Local plan 79",
+        "components": null,
+        "source": null
+      },
+      "outcome": "BINDING_HOLD",
+      "reason": "Resolve the site regimen name to a verified component listing."
+    },
+    {
+      "case": "unconfirmed-state",
+      "expected": "MISSING_DATA",
+      "queries": [
+        "CarePlan?patient=Patient%2Fpmd-23c3f3e8-unconfirmed-state-p&_count=2",
+        "Observation?patient=Patient%2Fpmd-23c3f3e8-unconfirmed-state-p&_count=2",
+        "MedicationRequest?patient=Patient%2Fpmd-23c3f3e8-unconfirmed-state-p&_count=2",
+        "MedicationAdministration?patient=Patient%2Fpmd-23c3f3e8-unconfirmed-state-p&_count=2"
+      ],
+      "evidence": [
+        "Condition/pmd-23c3f3e8-unconfirmed-state-current/_history/1",
+        "CarePlan/pmd-23c3f3e8-unconfirmed-state-current/_history/1",
+        "Observation/pmd-23c3f3e8-unconfirmed-state-inventory/_history/1",
+        "Observation/pmd-23c3f3e8-unconfirmed-state-line/_history/1"
+      ],
+      "medications": [
+        {
+          "administration": "MedicationAdministration/pmd-23c3f3e8-unconfirmed-state-0/_history/1",
+          "order": "MedicationRequest/pmd-23c3f3e8-unconfirmed-state-0/_history/1",
+          "course_links": [
+            "CarePlan/pmd-23c3f3e8-unconfirmed-state-current"
+          ],
+          "product": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "1191138"
+            }
+          ],
+          "ingredient": "3639",
+          "formulation": "conventional solution",
+          "binding": "current course"
+        }
+      ],
+      "as_of": "2026-04-15",
+      "patient": "Patient/pmd-23c3f3e8-unconfirmed-state-p",
+      "episode": "Condition/pmd-23c3f3e8-unconfirmed-state-current",
+      "orders_without_administration": [],
+      "outcome": "MISSING_DATA",
+      "reason": "Resolve the missing course link, qualifying administration, line or full regimen inventory."
+    },
+    {
+      "case": "paired-relink-prior",
+      "expected": "NOT_MET",
+      "queries": [
+        "CarePlan?patient=Patient%2Fpmd-23c3f3e8-paired-p&_count=2",
+        "Observation?patient=Patient%2Fpmd-23c3f3e8-paired-p&_count=2",
+        "http://127.0.0.1:55223/fhir?_getpages=489c042b-3ead-408e-b00f-063f989e3fae&_getpagesoffset=2&_count=2&_pretty=true&_bundletype=searchset",
+        "MedicationRequest?patient=Patient%2Fpmd-23c3f3e8-paired-p&_count=2",
+        "MedicationAdministration?patient=Patient%2Fpmd-23c3f3e8-paired-p&_count=2"
+      ],
+      "evidence": [
+        "Condition/pmd-23c3f3e8-paired-current/_history/1",
+        "CarePlan/pmd-23c3f3e8-paired-current/_history/1",
+        "Observation/pmd-23c3f3e8-paired-on-treatment/_history/1",
+        "Observation/pmd-23c3f3e8-paired-line/_history/1",
+        "Observation/pmd-23c3f3e8-paired-inventory/_history/1"
+      ],
+      "medications": [
+        {
+          "administration": "MedicationAdministration/pmd-23c3f3e8-paired-0/_history/1",
+          "order": "MedicationRequest/pmd-23c3f3e8-paired-0/_history/1",
+          "course_links": [
+            "CarePlan/pmd-23c3f3e8-paired-current"
+          ],
+          "product": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "1791588"
+            }
+          ],
+          "ingredient": "5657",
+          "formulation": null,
+          "binding": "current course"
+        },
+        {
+          "administration": "MedicationAdministration/pmd-23c3f3e8-paired-1/_history/1",
+          "order": "MedicationRequest/pmd-23c3f3e8-paired-1/_history/2",
+          "course_links": [
+            "CarePlan/pmd-23c3f3e8-paired-prior"
+          ],
+          "product": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "1191138"
+            }
+          ],
+          "binding": "other course"
+        }
+      ],
+      "as_of": "2026-04-15",
+      "patient": "Patient/pmd-23c3f3e8-paired-p",
+      "episode": "Condition/pmd-23c3f3e8-paired-current",
+      "orders_without_administration": [],
+      "outcome": "NOT_MET",
+      "reason": "The attested complete current regimen has neither accepted alternative."
+    },
+    {
+      "case": "paired-relink-current",
+      "expected": "MET",
+      "queries": [
+        "CarePlan?patient=Patient%2Fpmd-23c3f3e8-paired-p&_count=2",
+        "Observation?patient=Patient%2Fpmd-23c3f3e8-paired-p&_count=2",
+        "http://127.0.0.1:55223/fhir?_getpages=94e106b0-9004-4eab-9899-5fdc2afb3f5c&_getpagesoffset=2&_count=2&_pretty=true&_bundletype=searchset",
+        "MedicationRequest?patient=Patient%2Fpmd-23c3f3e8-paired-p&_count=2",
+        "MedicationAdministration?patient=Patient%2Fpmd-23c3f3e8-paired-p&_count=2"
+      ],
+      "evidence": [
+        "Condition/pmd-23c3f3e8-paired-current/_history/1",
+        "CarePlan/pmd-23c3f3e8-paired-current/_history/1",
+        "Observation/pmd-23c3f3e8-paired-on-treatment/_history/1",
+        "Observation/pmd-23c3f3e8-paired-line/_history/1",
+        "Observation/pmd-23c3f3e8-paired-inventory/_history/1"
+      ],
+      "medications": [
+        {
+          "administration": "MedicationAdministration/pmd-23c3f3e8-paired-0/_history/1",
+          "order": "MedicationRequest/pmd-23c3f3e8-paired-0/_history/1",
+          "course_links": [
+            "CarePlan/pmd-23c3f3e8-paired-current"
+          ],
+          "product": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "1791588"
+            }
+          ],
+          "ingredient": "5657",
+          "formulation": null,
+          "binding": "current course"
+        },
+        {
+          "administration": "MedicationAdministration/pmd-23c3f3e8-paired-1/_history/1",
+          "order": "MedicationRequest/pmd-23c3f3e8-paired-1/_history/3",
+          "course_links": [
+            "CarePlan/pmd-23c3f3e8-paired-current"
+          ],
+          "product": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "1191138"
+            }
+          ],
+          "ingredient": "3639",
+          "formulation": "conventional solution",
+          "binding": "current course"
+        }
+      ],
+      "as_of": "2026-04-15",
+      "patient": "Patient/pmd-23c3f3e8-paired-p",
+      "episode": "Condition/pmd-23c3f3e8-paired-current",
+      "orders_without_administration": [],
+      "outcome": "MET",
+      "reason": "Qualifying components, treatment line and administration bind to the same current course."
+    }
+  ],
+  "paired_mutations": [
+    {
+      "changed_fields": [
+        "basedOn"
+      ],
+      "before": [
+        {
+          "reference": "CarePlan/pmd-23c3f3e8-paired-current"
+        }
+      ],
+      "after": [
+        {
+          "reference": "CarePlan/pmd-23c3f3e8-paired-prior"
+        }
+      ]
+    },
+    {
+      "changed_fields": [
+        "basedOn"
+      ],
+      "before": [
+        {
+          "reference": "CarePlan/pmd-23c3f3e8-paired-prior"
+        }
+      ],
+      "after": [
+        {
+          "reference": "CarePlan/pmd-23c3f3e8-paired-current"
+        }
+      ]
+    }
+  ]
+}

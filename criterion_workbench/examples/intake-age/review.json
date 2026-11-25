@@ -1,0 +1,50 @@
+{
+  "study": "POCKETMD-SYNTHETIC-AGE",
+  "criterion_id": "POCKETMD-SYNTHETIC-AGE-I01",
+  "protocol_sha256": "a790fab4e66eff8254b7d3a57eb038eb4b503f3c9dc357b98f3dab3eadd0d9f3",
+  "catalog_version": "four-study-r4",
+  "decision": "approve_research_rule",
+  "reviewer_type": "synthetic_test_fixture",
+  "authority": "Synthetic engineering fixture only",
+  "decision_date": "2026-11-20",
+  "source_reference": "Fictional research QA reference. Synthetic protocol v1, PDF page 1, Section 2.1, inclusion criterion 1.",
+  "independent_source_review": true,
+  "draft_sha256": "ffd346db75e8052ee8146288a31a1730a4526a3e400d6fe0b6e00685c5cb8c62",
+  "answers_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "criterion_text": "At screening, participants must be at least 21 years of age.",
+  "time_anchor": "screening_run_local_date",
+  "reference_rule": {
+    "fact": "age",
+    "operator": "ge",
+    "threshold": 21
+  },
+  "covered_obligation_ids": [
+    "age-at-screen"
+  ],
+  "control_cases": [
+    {
+      "kind": "above",
+      "birth_date": "2004-11-20",
+      "expected": "MET",
+      "screening_date": "2026-11-20"
+    },
+    {
+      "kind": "boundary",
+      "birth_date": "2005-11-20",
+      "expected": "MET",
+      "screening_date": "2026-11-20"
+    },
+    {
+      "kind": "below",
+      "birth_date": "2005-11-21",
+      "expected": "NOT_MET",
+      "screening_date": "2026-11-20"
+    },
+    {
+      "kind": "missing",
+      "birth_date": null,
+      "expected": "MISSING_DATA",
+      "screening_date": "2026-11-20"
+    }
+  ]
+}

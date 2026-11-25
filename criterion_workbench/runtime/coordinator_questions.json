@@ -1,0 +1,39 @@
+{
+  "106S01": [
+    {
+      "id": "SOTIO-REGION",
+      "criterion": "106S01-I01",
+      "location": "Sections 5.2.1 and 12.2",
+      "question": "Which country, trial part and cohorts are open at this site, and which dated committee or sponsor record confirms adolescent enrollment permission?"
+    },
+    {
+      "id": "SOTIO-PROGRESSION",
+      "criterion": "106S01-I18",
+      "location": "Section 5.2.3 item 18, page 48",
+      "question": "If the previous treatment ended eight months before screening and RECIST progression was documented two months before screening, is the six-month timing requirement met? Which event or events must fall within six months?"
+    },
+    {
+      "id": "SOTIO-I06-ARCHIVE",
+      "criterion": "106S01-I06",
+      "location": "Amendment 1, sections 5.2.1(6) and 8.6.1, schedules Part A and Part B footnote 2 (pp. 22, 25, 47, 65\u201366).",
+      "when": "An adequate archival FFPE specimen is the sole tested sample and a fresh biopsy is medically feasible.",
+      "question": "If the central LRRC15 IHC result qualifies on an adequate archival FFPE specimen, may that specimen satisfy criterion 6 when fresh biopsy is safe and accessible, or is documented inability to obtain fresh tissue required? Please identify the governing sponsor or laboratory-manual instruction."
+    }
+  ],
+  "NEOK001-1": [
+    {
+      "id": "NEOK-TRIPLICATE",
+      "criterion": "NEOK001-1-E15",
+      "location": "Section 5.2 item 15, Table 4 footnote k and section 8.3.4",
+      "question": "Which reading, aggregate or repeat procedure governs eligibility when three screening QTcF readings straddle 470 ms? Please identify the governing instruction."
+    }
+  ],
+  "REC-1245-101": [
+    {
+      "id": "REC-REPEAT",
+      "criterion": "REC-1245-101-E07",
+      "location": "Sections 6.2 item 7 and 10.6.4",
+      "question": "Which result governs enrollment when a screening QTcF above 470 ms and the repeat ECGs disagree? The protocol specifies an average for toxicity grading."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "NEOK001-1-I02": {
+    "source": "Fresh in-session author in separate context using the criterion, protocol, catalog and supported operator grammar. Replayed for local CLI tests.",
+    "original_model_packet_sha256": "0700b07519aebb0c0de2b2e384d04e0e11a2869fc46619c74099d7c7fba28b77",
+    "response_sha256": "39b50b1baf6eb2b6c507b0e210bf25da1aa100d7838a1e46b12e563344c0fdb9"
+  },
+  "106S01-I18": {
+    "source": "Unedited first response from the earlier blinded SOTIO I18 study, reused as a saved model output.",
+    "response_sha256": "e6af558a0a26ae04f5a525a5b218e31e0319bc8d45f91bad6b87d12b4ab7a597"
+  },
+  "POCKETMD-SYNTHETIC-AGE-I01": {
+    "source": "Explicit synthetic controls for onboarding a new study and reviewing an age threshold. Author and reviewer records are fixtures."
+  },
+  "MI-LMS-01": {
+    "source": "Reference-derived interoperability fixture. Not a fresh model generation.",
+    "response_sha256": "d5c285a659ddfea606b99f4aaff565afb45b460ee36d35113d10c165c81f1b35",
+    "file": "compat/mi-reference-draft.json"
+  },
+  "REC-1245-101-I05": {
+    "source": "Reference-derived interoperability fixture. Not a fresh model generation.",
+    "response_sha256": "872ad7fc589501f5c7eb9d634e60e1c54dc2cb8ca70615515812b6fabfc79644",
+    "file": "compat/rec-reference-draft.json"
+  }
+}

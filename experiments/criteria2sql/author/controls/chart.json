@@ -1,0 +1,65 @@
+[
+  {
+    "id": 101,
+    "patient_id": "synthetic-101",
+    "scope": "complete",
+    "birth_date": "2007-05-13",
+    "screening_start": "2025-05-12T10:00:00-07:00",
+    "as_of": "2025-05-13T12:00:00-07:00",
+    "design": "Screening starts the day before the 18th birthday. The snapshot cutoff falls on the birthday."
+  },
+  {
+    "id": 102,
+    "patient_id": "synthetic-102",
+    "scope": "complete",
+    "birth_date": "2007-05-12",
+    "screening_start": "2025-05-12T10:00:00-07:00",
+    "as_of": "2025-05-12T12:00:00-07:00",
+    "design": "The 18th birthday falls on the screening date."
+  },
+  {
+    "id": 103,
+    "patient_id": "synthetic-103",
+    "scope": "complete",
+    "birth_date": "2007-05-11",
+    "screening_start": "2025-05-12T10:00:00-07:00",
+    "as_of": "2025-05-12T12:00:00-07:00",
+    "design": "The 18th birthday fell the day before screening."
+  },
+  {
+    "id": 104,
+    "patient_id": "synthetic-104",
+    "scope": "complete",
+    "birth_date": "2006-05-12",
+    "screening_start": "2025-05-12T10:00:00-07:00",
+    "as_of": "2025-05-12T12:00:00-07:00",
+    "design": "The 19th birthday falls on the screening date."
+  },
+  {
+    "id": 105,
+    "patient_id": "synthetic-105",
+    "scope": "complete",
+    "birth_date": "2008-01-01",
+    "screening_start": "2025-12-31T23:30:00-08:00",
+    "as_of": "2026-01-01T01:00:00-08:00",
+    "design": "Year-end control. The local screening date is December 31. Midnight UTC and the snapshot cutoff have already reached the January 1 birthday."
+  },
+  {
+    "id": 106,
+    "patient_id": "synthetic-106",
+    "scope": "complete",
+    "birth_date": "2008-01-01",
+    "screening_start": "2026-01-01T00:30:00-08:00",
+    "as_of": "2026-01-01T01:00:00-08:00",
+    "design": "Year-start control. Screening occurs just after local midnight on the January 1 birthday."
+  },
+  {
+    "id": 107,
+    "patient_id": "synthetic-107",
+    "scope": "missing",
+    "birth_date": null,
+    "screening_start": "2025-05-12T10:00:00-07:00",
+    "as_of": "2025-05-12T12:00:00-07:00",
+    "design": "The synthetic chart omits birth date. The equivalent flat age is null."
+  }
+]

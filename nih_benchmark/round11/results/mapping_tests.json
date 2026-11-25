@@ -1,0 +1,12 @@
+{
+  "formerly_blocked_contracts": 84,
+  "formerly_blocked_pairs": 58,
+  "checks": {
+    "value checks": 182,
+    "uncertainty or scope checks": 273,
+    "wrong study checks": 58,
+    "standard-only and unit checks": 4,
+    "original-chart near misses": 4,
+    "independent full-rule checks": 12
+  }
+}

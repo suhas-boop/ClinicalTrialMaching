@@ -1,0 +1,446 @@
+[
+  {
+    "case": "233",
+    "lines": [
+      0,
+      1,
+      3
+    ],
+    "blocker": "Decline followed an accident. The normal head CT was three weeks before admission. No current hematoma diagnosis or attribution to an underlying illness is documented.",
+    "classification": "missing_patient_fact"
+  },
+  {
+    "case": "235",
+    "lines": [
+      0,
+      1,
+      4,
+      5
+    ],
+    "blocker": "Spotting and abdominal tenderness accompany an enlarged uterus. There is no documented menorrhagia or bulk symptom attributed to fibroids. Fibroid degeneration is one of two differential diagnoses.",
+    "classification": "missing_patient_fact"
+  },
+  {
+    "case": "239",
+    "lines": [
+      0,
+      3,
+      5
+    ],
+    "blocker": "Twelve weeks of amenorrhea and recent spotting do not document a prior spontaneous menses or menopausal status. MU22200105 excludes postmenopausal women but supplies no duration test. Its investigator methods record bleeding in enrolled women without defining a screening cutoff.",
+    "classification": "missing_patient_fact"
+  },
+  {
+    "case": "307",
+    "lines": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "blocker": "The governing entry requires a lesion needing extended hepatic resection and describes five pathways before volumetry. It does not settle whether that list is exhaustive. The actual laparotomy drained a ruptured abscess. Neither an extended resection plan nor an assessment ruling it out is recorded.",
+    "classification": "protocol_authority"
+  },
+  {
+    "case": "322",
+    "lines": [
+      0
+    ],
+    "blocker": "The note describes an adult male. The strict reproductive-population contract requires the study-defined population or patient reproductive evidence. This description alone does not resolve the pregnancy or childbearing-potential-with-inadequate-contraception branches under that contract.",
+    "classification": "missing_patient_fact"
+  },
+  {
+    "case": "323",
+    "lines": [
+      0
+    ],
+    "blocker": "CVID supports the immune-deficiency conjunct. The record gives no history of childhood marrow failure and no negative childhood marrow history. The separate CVID registry bullet does not replace this assigned conjunction.",
+    "classification": "missing_patient_fact"
+  },
+  {
+    "case": "328",
+    "lines": [
+      0,
+      4,
+      5
+    ],
+    "blocker": "RBCs in the current postoperative urine sample do not establish bleeding history in the infant or family. Either history could trigger this exclusion, and clearing it requires both histories.",
+    "classification": "missing_patient_fact"
+  },
+  {
+    "case": "329",
+    "lines": [
+      0,
+      3,
+      5
+    ],
+    "blocker": "The postoperative renal evaluation gives urine RBCs but no coagulation diagnosis, coagulation results, or documented assessment establishing or excluding coagulopathy.",
+    "classification": "missing_patient_fact"
+  },
+  {
+    "case": "330",
+    "lines": [
+      0,
+      5
+    ],
+    "blocker": "Hematuria is a urinary finding. No personal history of gastrointestinal hemorrhage or documented negative GI bleeding history appears.",
+    "classification": "missing_patient_fact"
+  },
+  {
+    "case": "332",
+    "lines": [
+      0
+    ],
+    "blocker": "Six months is current age. Nothing states gestational age at birth for the <36-week comparison.",
+    "classification": "missing_patient_fact"
+  },
+  {
+    "case": "336",
+    "lines": [
+      0,
+      7
+    ],
+    "blocker": "The infant underwent clinical surgery. The trial-specific consent decision, including any guardian decision, is absent. Line 7 is the publisher’s appended future-consent assumption, not a performed study consent or documented refusal.",
+    "classification": "missing_patient_fact"
+  },
+  {
+    "case": "359",
+    "lines": [
+      0,
+      2,
+      3,
+      4
+    ],
+    "blocker": "Progressive dysphagia, perceived obstruction and weight loss do not establish or rule out gastric carcinoma. No endoscopy, tumor site, pathology or cancer assessment is recorded.",
+    "classification": "missing_patient_fact"
+  },
+  {
+    "case": "366",
+    "lines": [
+      0,
+      1,
+      2,
+      4,
+      5
+    ],
+    "blocker": "The collision, fractures, guarding and rebound do not document an abdominal injury requiring open laparotomy with primary closure. Neither the procedure requirement nor the intended closure is stated for either trauma mechanism.",
+    "classification": "missing_patient_fact"
+  },
+  {
+    "case": "367",
+    "lines": [
+      0,
+      4,
+      5
+    ],
+    "blocker": "Tenderness, four-quadrant rebound and absent bowel sounds are recorded. There is no surgical determination of acute abdomen requiring open laparotomy with primary closure.",
+    "classification": "missing_patient_fact"
+  },
+  {
+    "case": "379",
+    "lines": [
+      0
+    ],
+    "blocker": "The emergency note identifies a 32-year-old woman but gives no pregnancy assessment, test or documented pregnancy status at screening.",
+    "classification": "missing_patient_fact"
+  },
+  {
+    "case": "385",
+    "lines": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "blocker": "The rheumatologic presentation contains no observed oral medication administration, retention, or patient assessment of either ability.",
+    "classification": "missing_patient_fact"
+  },
+  {
+    "case": "396",
+    "lines": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "blocker": "Neither prior MI, uncontrolled or unstable angina, severe uncontrolled ventricular arrhythmia, symptomatic CHF nor acute ischemia on ECG is assessed. Clearing this exclusion requires evidence across all alternatives.",
+    "classification": "missing_patient_fact"
+  },
+  {
+    "case": "397",
+    "lines": [
+      0,
+      1,
+      2
+    ],
+    "blocker": "The registry presents repeated QTc >450 ms as an example of marked baseline prolongation. The accepted assessment and repetition requirement are unspecified. There is also no ECG or baseline QTc in the note.",
+    "classification": "protocol_authority"
+  },
+  {
+    "case": "400",
+    "lines": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "blocker": "Joint and skin findings, serology and urinalysis do not address either current ischemic CNS disease or its history. Neither alternative has a source-supported determination.",
+    "classification": "missing_patient_fact"
+  },
+  {
+    "case": "401",
+    "lines": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "blocker": "The registry leaves the scope of the excision requirement for its named cancer exceptions unclear. The note also contains no malignancy assessment, five-year cancer history or excision record.",
+    "classification": "protocol_authority"
+  },
+  {
+    "case": "402",
+    "lines": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "blocker": "The workup documents malaise, joint and skin findings, serology and urine findings. It records neither a severe infection nor an assessment ruling one out at presentation.",
+    "classification": "missing_patient_fact"
+  },
+  {
+    "case": "414",
+    "lines": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "blocker": "Malar-distribution rash, inflammatory joint findings, positive ANA/anti-dsDNA and RBC casts support suspicion. The CASTLE investigators enrolled clinic patients already diagnosed with SLE (Methods, NCT01520155). The note supplies no diagnosis. A separate trial’s ACR rule cannot establish this study’s patient-level fact.",
+    "classification": "missing_patient_fact"
+  },
+  {
+    "case": "418",
+    "lines": [
+      0,
+      5
+    ],
+    "blocker": "The abdominal ultrasound addresses the appendix. No MRI metal screening questionnaire, pass, or failure appears.",
+    "classification": "missing_patient_fact"
+  },
+  {
+    "case": "419",
+    "lines": [
+      0,
+      4,
+      5
+    ],
+    "blocker": "An abdominal exam and ultrasound do not document claustrophobia or a need for sedation to hold still in MRI. Both alternatives lack an assessment.",
+    "classification": "missing_patient_fact"
+  },
+  {
+    "case": "435",
+    "lines": [
+      3,
+      5,
+      6
+    ],
+    "blocker": "The imaging report is for a chest radiograph showing hyperinflation and no consolidation. There is no chest CT report assessing lung cancer, active TB, pulmonary thromboembolism or interstitial lung disease.",
+    "classification": "missing_patient_fact"
+  },
+  {
+    "case": "437",
+    "lines": [
+      0,
+      1,
+      3,
+      5,
+      6
+    ],
+    "blocker": "Respiratory symptoms began about a week before admission, with purulent sputum and use of home oxygen during the last 24 hours. No COPD diagnosis or GOLD-stage confirmation links those symptoms and hospitalization to a COPD exacerbation. The note also gives no measured change in sputum volume or comparison of purulence to baseline.",
+    "classification": "missing_patient_fact"
+  },
+  {
+    "case": "454",
+    "lines": [
+      0,
+      1,
+      3,
+      5
+    ],
+    "blocker": "Age and sex are bound. Imaging found a ruptured spleen with hemorrhage. The emergency procedures named were ultrasound and CT. The note gives no record of the patient undergoing emergency laparotomy.",
+    "classification": "missing_patient_fact"
+  },
+  {
+    "case": "460",
+    "lines": [
+      0,
+      2,
+      4,
+      5,
+      6
+    ],
+    "blocker": "GCS 6/15 is documented. The neurosurgical team deferred CT. The first branch lacks a qualifying abnormal CT finding and the alternative lacks a motor score ≤3 and a normal CT. Impaired limbs do not establish the GCS motor component.",
+    "classification": "missing_patient_fact"
+  },
+  {
+    "case": "467",
+    "lines": [
+      0,
+      1,
+      5
+    ],
+    "blocker": "Limb movement at the scene and neurologic deficits on arrival describe post-injury examinations. They provide no preinjury developmental disability assessment or severity.",
+    "classification": "missing_patient_fact"
+  },
+  {
+    "case": "468",
+    "lines": [
+      2,
+      5,
+      6
+    ],
+    "blocker": "The neurological decline is documented, with CT deferred. The record gives neither a confirmed isolated epidural hematoma nor a surgeon’s expectation of rapid recovery after removal. These are separate conjuncts.",
+    "classification": "missing_patient_fact"
+  },
+  {
+    "case": "475",
+    "lines": [
+      0,
+      1
+    ],
+    "blocker": "The child fell from his bicycle and struck pavement. No precipitating mechanism rules in or rules out motor vehicle involvement in the incident.",
+    "classification": "missing_patient_fact"
+  },
+  {
+    "case": "476",
+    "lines": [
+      0,
+      1
+    ],
+    "blocker": "Pavement is the documented impact surface. The account does not identify the cause of the fall or establish whether another rider inflicted the injury.",
+    "classification": "missing_patient_fact"
+  },
+  {
+    "case": "477",
+    "lines": [
+      0
+    ],
+    "blocker": "The record identifies a bicycle without describing its handlebar equipment. Whether it was fitted with bull bars is unknown.",
+    "classification": "missing_patient_fact"
+  },
+  {
+    "case": "481",
+    "lines": [
+      0,
+      1
+    ],
+    "blocker": "These are fourteen workers with no individual screening subject. The planned Brazil trip and previous travel do not specify permanent residence in Luanshya for any identified member.",
+    "classification": "source_scope"
+  },
+  {
+    "case": "492",
+    "lines": [
+      0,
+      2
+    ],
+    "blocker": "The group includes pregnant travelers but no identified birth or infant. Birth at San Francis Designated District Hospital of Ifakara requires an individual birth record.",
+    "classification": "source_scope"
+  },
+  {
+    "case": "493",
+    "lines": [
+      0,
+      2
+    ],
+    "blocker": "No infant is identified in the travel group. No individual neonatal examination establishes or excludes an obvious severe congenital malformation.",
+    "classification": "source_scope"
+  },
+  {
+    "case": "494",
+    "lines": [
+      0,
+      2
+    ],
+    "blocker": "Multiple pregnant group members do not establish twin status for any named newborn. The record lacks an individual birth and its plurality.",
+    "classification": "source_scope"
+  },
+  {
+    "case": "495",
+    "lines": [
+      0,
+      2
+    ],
+    "blocker": "The group has no identified newborn or documented birth weight. The <1.5 kg threshold cannot be evaluated for an individual.",
+    "classification": "source_scope"
+  },
+  {
+    "case": "496",
+    "lines": [
+      0,
+      2
+    ],
+    "blocker": "The note describes travelers and pregnancies, with no identified infant or individual neonatal examination for signs of cerebral asphyxia.",
+    "classification": "source_scope"
+  },
+  {
+    "case": "497",
+    "lines": [
+      0,
+      2
+    ],
+    "blocker": "There is no individual newborn evaluation. Neither the neonatal infection branch nor the congenital infection branch can be established from the travel group.",
+    "classification": "source_scope"
+  },
+  {
+    "case": "498",
+    "lines": [
+      0,
+      2
+    ],
+    "blocker": "The trial leaves the maternal functional standard and authorized assessor unspecified. The record also identifies no enrolled infant–mother pair or assessment. The compiled authoring hold precedes individual subject binding.",
+    "classification": "protocol_authority"
+  },
+  {
+    "case": "502",
+    "lines": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "blocker": "Being a college student and undergoing endoscopy do not document WHO performance status or the corresponding functional limitations. Line 2 describes the siblings, not the patient.",
+    "classification": "missing_patient_fact"
+  },
+  {
+    "case": "517",
+    "lines": [
+      0
+    ],
+    "blocker": "The patient is explicitly 21. The exclusion for age <18 is false and its eligibility-oriented result is MET. The ages of the two siblings are unrelated.",
+    "classification": "supported"
+  },
+  {
+    "case": "544",
+    "lines": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "blocker": "The study lists severe cardiac condition separately from exercise-risk class C and supplies no severity definition. Remote uncomplicated MI, worsening blood pressure and current drugs do not establish current severity or exclude a second cardiac condition.",
+    "classification": "protocol_authority"
+  },
+  {
+    "case": "577",
+    "lines": [
+      1,
+      2,
+      3
+    ],
+    "blocker": "At the index encounter the patient received rapid crystalloid followed by packed red cells and ICU admission. Active treatment was provided, falsifying the no-active-treatment conjunct regardless of the moribund assessment. The exclusion is cleared.",
+    "classification": "supported"
+  }
+]

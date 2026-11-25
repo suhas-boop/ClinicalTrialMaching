@@ -1,0 +1,222 @@
+{
+  "clear": {
+    "verdict": "PASS",
+    "obligations": [
+      {
+        "source_id": "criterion",
+        "quote": "At screening, participants must be at least 18 years old and have an ECOG performance status of 0 or 1.",
+        "coverage": "REPRESENTED",
+        "detail": "The all expression requires both completed age of 18 years or more and ECOG membership in {0, 1}. It includes the eighteenth birthday and excludes ECOG 2."
+      },
+      {
+        "source_id": "protocol",
+        "quote": "Assess both age and performance status at the study screening encounter.",
+        "coverage": "REPRESENTED",
+        "detail": "Both referenced facts are bound to the same participant and study screening encounter in the source-linked record."
+      }
+    ],
+    "questions": [],
+    "gaps": [],
+    "reason": "The conjunction, inclusive age threshold, exact ECOG scores, and screening encounter all match the supplied text and bindings."
+  },
+  "open": {
+    "verdict": "PASS",
+    "obligations": [
+      {
+        "source_id": "criterion",
+        "quote": "Participants must meet the study's ECOG performance status requirement at screening.",
+        "coverage": "QUESTION",
+        "detail": "The author asks which scores fulfill the study's screening requirement and holds the entire expression pending a numerical answer."
+      },
+      {
+        "source_id": "protocol",
+        "quote": "Measure ECOG performance status at the screening encounter. The supplied eligibility section gives no qualifying scores.",
+        "coverage": "QUESTION",
+        "detail": "The screening encounter is specified and the ECOG fact is bound there. The protocol gives no qualifying values, which is precisely the question raised."
+      }
+    ],
+    "questions": [],
+    "gaps": [],
+    "reason": "Investigator review is appropriate. The missing information is the study's qualifying score set, and the author's question requests it for screening."
+  },
+  "unmapped": {
+    "verdict": "PASS",
+    "obligations": [
+      {
+        "source_id": "criterion",
+        "quote": "At screening, participants must be at least 18 years old and have a serum albumin concentration of at least 3.0 g/dL.",
+        "coverage": "GAP",
+        "detail": "Both thresholds are explicit and inclusive. Age of at least 18 completed years is supported, while the additional requirement of serum albumin at least 3.0 g/dL has no bound fact. Holding the conjunction avoids passing a participant on age alone."
+      },
+      {
+        "source_id": "protocol",
+        "quote": "Use the serum albumin concentration from the screening encounter.",
+        "coverage": "GAP",
+        "detail": "The proposed binding gap requests this participant's serum albumin in g/dL at the screening encounter, preserving the required specimen, units and timing."
+      }
+    ],
+    "questions": [],
+    "gaps": [],
+    "reason": "Binding review is appropriate. The catalog supports age, and an encounter-specific serum albumin measurement is needed before the full criterion can execute."
+  },
+  "answered_narrow": {
+    "verdict": "PASS",
+    "obligations": [
+      {
+        "source_id": "criterion",
+        "quote": "Participants must meet the study's ECOG performance status requirement at screening.",
+        "coverage": "REPRESENTED",
+        "detail": "The expression checks the participant's screening ECOG score against the study-specific values supplied in the investigator's reply."
+      },
+      {
+        "source_id": "protocol",
+        "quote": "Measure ECOG performance status at the screening encounter.",
+        "coverage": "REPRESENTED",
+        "detail": "The ECOG fact resolves to this participant's score at the study screening encounter."
+      },
+      {
+        "source_id": "protocol",
+        "quote": "The supplied eligibility section gives no qualifying scores.",
+        "coverage": "CONTEXT",
+        "detail": "The original eligibility section left the qualifying values open. The investigator supplies them in the subsequent reply."
+      },
+      {
+        "source_id": "question:Q1",
+        "quote": "Which ECOG performance status scores qualify a participant at the screening encounter?",
+        "coverage": "CONTEXT",
+        "detail": "The question establishes that the reply concerns numerical eligibility values for the screening ECOG measurement."
+      },
+      {
+        "source_id": "answer:Q1",
+        "quote": "At screening, only ECOG scores of 0 or 1 qualify.",
+        "coverage": "REPRESENTED",
+        "detail": "The membership expression accepts exactly {0, 1} at screening, matching the study's reply."
+      }
+    ],
+    "questions": [],
+    "gaps": [],
+    "reason": "Execution is appropriate. The bound measurement is the screening ECOG score and the expression tests the investigator's specified set {0, 1}."
+  },
+  "answered_wide": {
+    "verdict": "PASS",
+    "obligations": [
+      {
+        "source_id": "criterion",
+        "quote": "Participants must meet the study's ECOG performance status requirement at screening.",
+        "coverage": "REPRESENTED",
+        "detail": "The expression checks the participant's screening ECOG score against the study-specific values supplied in the investigator's reply."
+      },
+      {
+        "source_id": "protocol",
+        "quote": "Measure ECOG performance status at the screening encounter.",
+        "coverage": "REPRESENTED",
+        "detail": "The ECOG fact resolves to this participant's score at the study screening encounter."
+      },
+      {
+        "source_id": "protocol",
+        "quote": "The supplied eligibility section gives no qualifying scores.",
+        "coverage": "CONTEXT",
+        "detail": "The original eligibility section left the qualifying values open. The investigator supplies them in the subsequent reply."
+      },
+      {
+        "source_id": "question:Q1",
+        "quote": "Which ECOG performance status scores qualify a participant at the screening encounter?",
+        "coverage": "CONTEXT",
+        "detail": "The question establishes that the reply concerns numerical eligibility values for the screening ECOG measurement."
+      },
+      {
+        "source_id": "answer:Q1",
+        "quote": "At screening, ECOG scores of 0, 1, or 2 qualify.",
+        "coverage": "REPRESENTED",
+        "detail": "The membership expression accepts exactly {0, 1, 2} at screening, matching the study's reply."
+      }
+    ],
+    "questions": [],
+    "gaps": [],
+    "reason": "Execution is appropriate. The bound measurement is the screening ECOG score and the expression tests the investigator's specified set {0, 1, 2}."
+  },
+  "answered_unclear": {
+    "verdict": "PASS",
+    "obligations": [
+      {
+        "source_id": "criterion",
+        "quote": "Participants must meet the study's ECOG performance status requirement at screening.",
+        "coverage": "QUESTION",
+        "detail": "The required measurement and time are known. The follow-up asks which screening ECOG values this study accepts."
+      },
+      {
+        "source_id": "protocol",
+        "quote": "Measure ECOG performance status at the screening encounter. The supplied eligibility section gives no qualifying scores.",
+        "coverage": "QUESTION",
+        "detail": "The protocol locates the measurement at screening and explicitly leaves the qualifying scores unspecified."
+      },
+      {
+        "source_id": "question:Q1",
+        "quote": "Which ECOG performance status scores qualify a participant at the screening encounter?",
+        "coverage": "CONTEXT",
+        "detail": "The original question asks the investigator to identify the qualifying screening scores."
+      },
+      {
+        "source_id": "answer:Q1",
+        "quote": "The screening team should use the usual scores.",
+        "coverage": "QUESTION",
+        "detail": "The phrase 'usual scores' supplies no numerical values. The author asks what the investigator means by that phrase and keeps execution on hold."
+      }
+    ],
+    "questions": [],
+    "gaps": [],
+    "reason": "The reply leaves the qualifying set unresolved. A focused follow-up and continued investigator review preserve the study's wording."
+  },
+  "neok_age": {
+    "verdict": "PASS",
+    "obligations": [
+      {
+        "source_id": "criterion",
+        "quote": "Participant is ≥ 18 years of age",
+        "coverage": "GAP",
+        "detail": "The proposal preserves the inclusive 18-year minimum. Determining that the participant had already reached it when screening began requires a date binding."
+      },
+      {
+        "source_id": "protocol",
+        "quote": "If at any time in the screening period a participant fails to meet the eligibility criteria, the participant will be designated a screen failure.",
+        "coverage": "GAP",
+        "detail": "Age in completed years increases monotonically. Testing the minimum at the beginning of the screening period covers every later day. The catalog establishes age when the supplied encounter starts, which can be after an earlier screening visit and an intervening eighteenth birthday."
+      },
+      {
+        "source_id": "polarity",
+        "quote": "inclusion",
+        "coverage": "CONTEXT",
+        "detail": "The 18-year minimum is a condition for inclusion throughout screening. The author retains that direction and holds the whole rule until the period start is tied to the age measurement."
+      }
+    ],
+    "questions": [],
+    "gaps": [],
+    "reason": "Binding review is correct. The clinical threshold and temporal obligation are determinate. The missing evidence is a binding for completed age at screening-period start or evidence that the supplied encounter starts on that date."
+  },
+  "exclusion": {
+    "verdict": "PASS",
+    "obligations": [
+      {
+        "source_id": "criterion",
+        "quote": "ECOG performance status of 3 or higher.",
+        "coverage": "REPRESENTED",
+        "detail": "For a resolved integer score, the eligibility expression passes values below 3. A score of exactly 3 and all higher scores meet the stated exclusion."
+      },
+      {
+        "source_id": "protocol",
+        "quote": "Use the ECOG score from the screening encounter.",
+        "coverage": "REPRESENTED",
+        "detail": "The ECOG fact uses the supplied participant and screening encounter and a final, valid documented assessment. Missing or conflicting scores leave insufficient evidence."
+      },
+      {
+        "source_id": "polarity",
+        "quote": "exclusion",
+        "coverage": "REPRESENTED",
+        "detail": "Since the criterion names a reason to exclude, passing this eligibility check requires a screening score strictly below the inclusive exclusion threshold."
+      }
+    ],
+    "questions": [],
+    "gaps": [],
+    "reason": "Execution is correct. The expression takes the complement of the exclusion condition for a known screening score, including the boundary at 3, and relies on the bound fact for encounter scope and evidence handling."
+  }
+}

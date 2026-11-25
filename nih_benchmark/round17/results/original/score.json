@@ -1,0 +1,27 @@
+{
+  "assignments": 134,
+  "reference_definite": 91,
+  "original_strict": {
+    "agreeing_definite": 6,
+    "disagreeing_definite": 0,
+    "definite_on_reference_indeterminate": 0
+  },
+  "with_actual_authority": {
+    "agreeing_definite": 6,
+    "disagreeing_definite": 0,
+    "definite_on_reference_indeterminate": 0
+  },
+  "actual_authority_responses": 0,
+  "literal_cohort": {
+    "agreeing_definite": 7,
+    "disagreeing_definite": 0,
+    "definite_on_reference_indeterminate": 0
+  },
+  "changed_by_authority": [],
+  "changed_only_by_literal_cohort": [
+    "322"
+  ],
+  "new_source_patient_or_group_joins": 29,
+  "assigned_pairs_in_new_source": 89,
+  "definitive_assertions_from_differential_column": 0
+}

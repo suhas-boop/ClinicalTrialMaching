@@ -1,0 +1,28 @@
+{
+  "replayed": 134,
+  "audited": 85,
+  "reference_definite": 91,
+  "definite": 6,
+  "agreeing_definite": 6,
+  "changed": [],
+  "primary": {
+    "MISSING_DATA": 59,
+    "AUTHORING_HOLD": 15,
+    "INVESTIGATOR_ACTIONS": 5,
+    "SOURCE_SCOPE_HOLD": 4,
+    "PATIENT_SURVEY": 2
+  },
+  "request_counts": {
+    "retrieve_record": 93,
+    "protocol_review": 15,
+    "investigator": 6,
+    "identify_subject": 1,
+    "patient": 2
+  },
+  "physician_without_sentence": 48,
+  "missing_data_without_sentence": 34,
+  "with_related_evidence": [
+    "186",
+    "187"
+  ]
+}

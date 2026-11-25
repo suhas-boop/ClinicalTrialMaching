@@ -1,0 +1,101 @@
+{
+  "resourceType": "Bundle",
+  "type": "transaction",
+  "id": "sigir-201426-export",
+  "entry": [
+    {
+      "fullUrl": "https://pocketmd.example/fhir/Device/pocketmd-r9",
+      "resource": {
+        "resourceType": "Device",
+        "id": "pocketmd-r9",
+        "deviceName": [
+          {
+            "name": "PocketMD research converter R9",
+            "type": "user-friendly-name"
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Device/pocketmd-r9"
+      }
+    },
+    {
+      "fullUrl": "https://pocketmd.example/fhir/Group/sigir-201426",
+      "resource": {
+        "resourceType": "Group",
+        "id": "sigir-201426",
+        "identifier": [
+          {
+            "system": "urn:nih:trialgpt:case",
+            "value": "sigir-201426"
+          }
+        ],
+        "type": "person",
+        "actual": true,
+        "quantity": 14
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Group/sigir-201426"
+      }
+    },
+    {
+      "fullUrl": "https://pocketmd.example/fhir/DocumentReference/sigir-201426-note",
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "sigir-201426-note",
+        "status": "current",
+        "subject": {
+          "reference": "Group/sigir-201426"
+        },
+        "identifier": [
+          {
+            "system": "urn:pocketmd:sha256",
+            "value": "6450a46fdea7dd8d7b314e62295bcdef612fdb730a2a4eebb77c5a3c2cd9136d"
+          }
+        ],
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/plain",
+              "data": "MC4gQSBncm91cCBvZiAxNCBodW1hbml0YXJpYW4gc2VydmljZSB3b3JrZXJzIGlzIHByZXBhcmluZyBhIHRyaXAgdG8gdGhlIEFtYXpvbiBSYWluZm9yZXN0IHJlZ2lvbiBpbiBCcmF6aWwuCjEuIEFsbCB0aGUgbWVtYmVycyBvZiB0aGUgZ3JvdXAgaGF2ZSB0cmF2ZWxlZCBvbiBtdWx0aXBsZSBvY2Nhc2lvbnMgYW5kIGhhdmUgdXAtdG8tZGF0ZSB2YWNjaW5lIGNlcnRpZmljYXRlcy4KMi4gTWFsYXJpYSBDaGVtb3Byb3BoeWxheGlzIGlzIGluZGljYXRlZCBidXQgdGhyZWUgb2YgdGhlIHdvbWVuIGFyZSBpbiBkaWZmZXJlbnQgc3RhZ2VzIG9mIHByZWduYW5jeS4KMy4gVGhlIHBhdGllbnQgd2lsbCBwcm92aWRlIGluZm9ybWVkIGNvbnNlbnQsIGFuZCB3aWxsIGNvbXBseSB3aXRoIHRoZSB0cmlhbCBwcm90b2NvbCB3aXRob3V0IGFueSBwcmFjdGljYWwgaXNzdWVzLg==",
+              "title": "TrialGPT numbered vignette sigir-201426"
+            }
+          }
+        ],
+        "extension": [
+          {
+            "url": "urn:pocketmd:document-source-role",
+            "extension": [
+              {
+                "url": "role",
+                "valueCode": "benchmark-assumption"
+              },
+              {
+                "url": "producer",
+                "valueUrl": "https://github.com/ncbi-nlp/TrialGPT/blob/97ba047695ca77bfe8d3634c10cbe10b0095929f/trialgpt_matching/run_matching.py#L33"
+              },
+              {
+                "url": "sourceSentence",
+                "valueInteger": 3
+              },
+              {
+                "url": "characterStart",
+                "valueInteger": 324
+              },
+              {
+                "url": "characterEnd",
+                "valueInteger": 436
+              }
+            ]
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "DocumentReference/sigir-201426-note"
+      }
+    }
+  ]
+}

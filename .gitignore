@@ -1,0 +1,18 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.venv*/
+.env
+.env.*
+
+# Site-supplied protocols and study-specific data packs are distributed separately.
+/criterion_workbench/examples/*-protocol.zip
+/criterion_workbench/examples/compat/*-protocol.zip
+/criterion_workbench/runtime/inventory.json
+/criterion_workbench/runtime/rec_contracts.json
+/criterion_workbench/runtime/michigan_source_packet.json
+/eight_rules/release/**/*.json
+!/eight_rules/release/**/examples/*.json
+/eight_rules/release/**/*.csv
+/eight_rules/release/**/*.psv
+/eight_rules/release/**/*.txt

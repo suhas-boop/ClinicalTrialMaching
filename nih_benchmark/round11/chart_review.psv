@@ -1,0 +1,58 @@
+20|The standard closing sentence describes expected compliance. It does not explicitly establish the patient's geographic access to treatment and follow-up.
+26|The note gives the patient's age and describes her as a woman. It gives no reproductive-potential assessment.
+34|The child has documented fever, respiratory symptoms and infiltrates. The note does not establish a noninfectious cause of the fever.
+81|Five days of fever and other findings are described. The record lacks a confirmed active severe infection linked to the study screening or baseline visit.
+108|The note describes diabetes, elevated HbA1c and a painful skin lesion. It gives no hemodynamic assessment.
+120|The patient's diabetes and elevated HbA1c do not establish a relationship to a study index subject or an insulin resistance result from either specified challenge test.
+132|The record describes current medications and symptoms. Lactation status is unspecified.
+154|The descriptions of lesion color and texture do not give a Fitzpatrick phototype or a healthy-volunteer assessment.
+171|Arterial catheterization is documented. The vignette supplies neither an INR result nor a systemic anticoagulation assessment.
+177|The documented catheter was placed via the right femoral artery. The note supplies no sequence of central venous catheterization followed by maintenance hemodialysis.
+187|Tachypnea is documented qualitatively. There is no respiratory rate count, arterial PaCO2 value or statement of mechanical ventilation.
+212|The patient is described as willing to consent in the future. The record contains no study-specific disposition for refusal of written consent.
+217|The note documents acute dyspnea after a recent delivery. It gives no determination of a traumatic cause.
+226|A prior normal head CT is recalled. The record does not establish a recurrent hematoma or a first operation dated relative to study start.
+227|The collateral history describes a prior accident and head CT. It does not attribute chronic subdural hematoma to either named cause.
+231|The daughter reports a normal head CT three weeks earlier. There is no current imaging confirmation of chronic subdural hematoma.
+233|The record does not establish a chronic subdural hematoma caused by an underlying illness.
+235|The ultrasound and differential mention possible fibroid degeneration. They do not establish that uterine fibroids caused the symptoms or document a clinician's bulk-symptom assessment.
+239|Twelve weeks of amenorrhea and a negative pregnancy test are documented. Menopausal status is unspecified.
+322|The record describes a 48-year-old male. It has no contraception assessment. Separately, the frozen rule tests pregnancy directly although the source says “pregnant women.” This applicability issue warrants rule-authoring review; the replay preserved the rule.
+323|The note describes a history of common variable immunodeficiency. It has no statement about early bone marrow failure in childhood.
+328|Urine microscopy documents red blood cells after surgery. Neither the infant's prior bleeding history nor the family's bleeding history is supplied.
+332|The patient is six months old. Gestational age at birth is unspecified.
+336|The vignette says the patient will provide consent. There is no completed consent record or refusal disposition for this study.
+366|Trauma, tenderness and guarding are documented. There is no surgical plan requiring open laparotomy with primary closure for abdominal trauma.
+367|The abdominal examination is described. There is no plan documenting open laparotomy and primary closure for an acute surgical abdomen.
+385|The note lists examination and laboratory findings. Oral medication intake and retention are unspecified.
+396|The note contains laboratory and examination findings. No ECG interpretation establishing or ruling out acute ischemia is supplied.
+400|The note describes rash, arthralgias and laboratory findings. It supplies no assessment of current ischemic CNS disease.
+418|Abdominal ultrasound is documented. The source contains no MRI metal safety screen.
+419|The note describes an abdominal work-up. It gives no assessment of whether sedation is required to hold still.
+435|The chest X-ray shows hyperinflation without consolidation. The criterion requires findings on a chest CT.
+454|Emergency ultrasound and CT identify hemorrhage due to splenic rupture. An emergency laparotomy actually underway is undocumented.
+460|Total GCS is 6/15. The neurosurgical team advised deferring CT. The note supplies neither the CT result nor the GCS motor subscore.
+467|Post-injury changes are documented. The note gives no preinjury assessment of neurodevelopmental disability.
+475|The boy fell from a bicycle. The account does not explicitly establish or exclude a motor vehicle's involvement.
+476|The fall and impact with the pavement are described. The record does not explicitly establish whether another rider caused the injury.
+477|The note describes a bicycle. Its equipment, including bull bars, is unspecified.
+502|The note describes college attendance and investigations. It gives no WHO performance status score.
+621|The note describes surgery, pain and rehabilitation. Social insurance coverage is unspecified.
+632|The generic future-consent sentence supplies no assessment of capacity to provide written consent for this study.
+636|Hypercholesterolemia is in the history. The record gives no duration of lipid-lowering treatment.
+637|The record gives no medication and dose history linked to the six-week interval before enrollment.
+653|The patient's symptom history is recorded. Ability to speak English is unspecified.
+795|Pregnancy is documented. The patient's ability to speak French is unspecified.
+817|The note describes a prior cryptogenic stroke, imaging and symptom resolution. It does not establish a post-imaging determination of nonvascular origin for the qualifying symptoms.
+850|The history says there was no previous wheezing. It gives no measured or reported frequency of asthma exacerbations per week.
+860|Cervical screening results are documented. Marital status is unspecified.
+866|HPV positivity is documented. The record gives no link to the specified study aliquot and valid Tigris assay.
+867|The record gives a Pap and HPV result. It gives no specimen inventory or quality result for the requested aliquot.
+870|Three weeks of worsening symptoms are described. The record does not document the principal reason for hospitalization or new significant symptoms during an admission for another cause.
+875|The symptoms and examination are described. Transfer to an observation unit is unspecified.
+890|The ED examination documents impaired orientation and recall. Its status as the required hospital-admission cognitive screen is unverified.
+945|Sputum culture and imaging are documented. The record provides no current investigational drug history for aspergillosis.
+946|Sputum culture and imaging are documented. No administered antifungal course, continuous duration, index-episode linkage or randomization anchor is supplied.
+952|The note describes symptoms, chest imaging and sputum testing. It does not state the patient's ventilation status.
+953|There is no history establishing or ruling out a qualifying prior reaction to either antifungal class.
+962|Fever, epistaxis and blood-count abnormalities are documented. There is no patient report of hematuria or blood parasite density per mL.

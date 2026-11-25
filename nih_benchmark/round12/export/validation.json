@@ -1,0 +1,9 @@
+{
+  "schema": "HL7 FHIR R4 4.0.1 JSON schema",
+  "bundles": 53,
+  "unique_resources": 1008,
+  "within_bundle_reference_occurrences": 2289,
+  "source_note_round_trips": 53,
+  "index_agrees_with_export": true,
+  "scope": "Schema, local references, subject isolation and provenance. No full terminology or implementation-guide certification."
+}

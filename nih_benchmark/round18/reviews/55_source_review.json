@@ -1,0 +1,13 @@
+{
+  "case": "55",
+  "trial": "NCT02390596",
+  "sponsor_protocol": "P130934",
+  "sources": [
+    "https://www.clinicaltrialsregister.eu/ctr-search/trial/2014-002715-41/ES",
+    "https://www.clinicaltrialsregister.eu/ctr-search/trial/2014-002715-41/IT",
+    "https://www.clinicaltrialsregister.eu/ctr-search/trial/2014-002715-41/FR"
+  ],
+  "patient_evidence": "The original chart documents an age of two years. That addresses the current newborn exclusion.",
+  "finding": "Study materials make pregnancy testing conditional and give no age cutoff, menarche criterion or other explicit function that establishes the separate pregnancy branch from this patient record.",
+  "strict_effect": 0
+}

@@ -1,0 +1,169 @@
+--- a/nih_benchmark/round12/prose.py
++++ b/nih_benchmark/round12/prose.py
+@@ -213,6 +213,10 @@
+     from record_facts import facts,symptoms
+     from note_adapter import abstract
+     from clinical_fields import from_line
++    from stroke_episode import patient_stroke_spans
++    stroke = patient_stroke_spans(raw, segments, consent_findings)
++    if stroke:
++        yield finding('neurologic_symptoms_nonvascular_origin_after_ct_or_mri', False), stroke
+     eligible=[]
+     for text,section,study,span in segments(raw):
+         if section in BLOCK or UNCERTAIN.search(text):continue
+--- /dev/null
++++ b/nih_benchmark/round12/stroke_episode.py
+@@ -0,0 +1,102 @@
++"""Bind one explicitly diagnosed patient stroke to completed imaging in the same episode."""
++import re
++
++
++STROKE = r"(?:acute )?(?:cryptogenic|isch(?:e|ae)mic) stroke"
++PERSON = r"(?:the patient|this patient|he|she)"
++DEMOGRAPHIC = (
++    r"(?:(?:[a-z'-]+ is )?(?:a |an )?)?[0-9]{1,3}[- ]year[- ]old "
++    r"(?:woman|man|patient|male|female)(?: with (?P<comorbid>[a-z0-9 ,'-]+?))?(?:,? who)?"
++)
++DIAGNOSIS = re.compile(
++    rf"(?:{PERSON}|{DEMOGRAPHIC}) (?:was (?:hospitali[sz]ed|admitted|treated) for|"
++    rf"was (?:discharged|diagnosed) with|had a final diagnosis of) "
++    rf"(?:a (?:discharge |final )?diagnosis of )?(?:an? )?(?:confirmed )?{STROKE}"
++    r"(?: (?:\w+ (?:days?|weeks?) ago|at this (?:admission|presentation)|today|yesterday))?"
++)
++AMBIGUOUS = re.compile(
++    r"\b(?:family|mother|father|husband|wife|partner|daughter|son|sibling|sister|brother|"
++    r"possible|potential|suspect(?:ed)?|probable|differential|question|risk|if|plan|denied|"
++    r"without|rule[ds]? out|history|prior|previous|remote|mimic)\b"
++)
++ANCHOR = (
++    r"(?:at (?:the|that) time|during (?:this|that|the same|the index) "
++    r"(?:admission|hospitali[sz]ation|episode)|for (?:these|those|the presenting|the index) symptoms)"
++)
++MODALITY = (
++    r"(?:(?:brain|head|cranial|cerebral) (?:ct(?: scan)?|mri|computed tomography|magnetic resonance imaging)|"
++    r"(?:ct(?: scan)?|mri|computed tomography|magnetic resonance imaging)(?: of (?:the )?(?:brain|head))?)"
++)
++RESULT = (
++    r"(?:normal|unremarkable|performed|completed|"
++    r"(?:negative for|no(?: evidence of)?) (?:brain|intracranial|cerebral) (?:h(?:ae|e)morrhage|bleeding)|"
++    r"(?:an? )?(?:acute |cerebral |ischemic |ischaemic )*(?:infarct(?:ion)?|ischemic stroke|ischaemic stroke))"
++)
++THERAPY = (
++    r"(?:,? and (?:he|she|the patient) (?:was (?:given|treated with)|received) "
++    r"(?:thrombolytic therapy|thrombolysis|alteplase|tenecteplase)"
++    r"(?: with resolution of (?:his|her|the) symptoms)?)?"
++)
++IMAGING = re.compile(
++    rf"{ANCHOR},? (?:an? |the |her |his )?(?P<modality>{MODALITY}) "
++    rf"(?:was|showed|demonstrated|revealed|confirmed) (?P<result>{RESULT}){THERAPY}"
++)
++BRAIN = re.compile(r"\b(?:brain|head|cranial|intracranial|cerebral)\b")
++VASCULAR_TEST = (
++    r"(?:trans(?:esophageal|thoracic) echocardiogra(?:m|phy)|echocardiogra(?:m|phy)|"
++    r"(?:(?:magnetic resonance|ct) angiogra(?:m|phy)|mra|cta) of (?:the )?"
++    r"(?:brain|head|neck|great vessels)(?: and (?:neck|great vessels))?)"
++)
++NORMAL_VESSELS = re.compile(
++    rf"(?:the )?{VASCULAR_TEST}(?: and {VASCULAR_TEST})* (?:found|showed|revealed) "
++    r"(?:no (?:evidence of )?abnormalities|normal findings)"
++)
++# Only clearly unrelated observations may accompany the episode. Unknown free
++# text could describe a correction, a different patient, or new focal symptoms.
++MEASURE = (
++    r"(?:(?:a |the )?blood pressure of \d+/\d+ (?:mm ?hg)|"
++    r"normal (?:blood )?glucose|normal sinus rhythm on (?:a |the )?(?:12-lead )?(?:electrocardiogram|ecg|ekg))"
++)
++CARDIO_EXAM = re.compile(rf"{PERSON} (?:presents|presented)(?: currently)? with {MEASURE}(?:(?:, |,? and ){MEASURE})*")
++SYMPTOM = r"(?:occasional )?(?:palpitations|shortness of breath|chest pain)"
++CARDIO_HISTORY = re.compile(
++    rf"{PERSON} reports (?:a )?history of {SYMPTOM}(?:(?:, |,? and ){SYMPTOM})*"
++    r"(?: lasting (?:for )?(?:a few|\d+) (?:minutes?|seconds?)(?: and (?:then )?stopping on their own)?)?"
++)
++
++
++def linked_imaging(text):
++    match = IMAGING.fullmatch(text)
++    return match and BRAIN.search(match["modality"] + " " + match["result"])
++
++
++def patient_stroke_spans(raw, segments, consent_findings):
++    """Return exact spans for an affirmed diagnosis and its linked imaging report."""
++    from record_facts import DIAG
++    from prose import parts as terms
++    if not re.search(STROKE, raw, re.I):
++        return None
++    parts = list(segments(raw))
++    if len(parts) < 2:
++        return None
++    # The segmenter suppresses family/unsupported sections. A suppressed
++    # sentence may change the diagnosis, so require complete source coverage.
++    masked = list(raw)
++    for _, section, study, (_, lo, hi) in parts:
++        if section or study:
++            return None
++        masked[lo:hi] = " " * (hi - lo)
++    if re.sub(r"(?m)^\s*\d+\.\s*", "", "".join(masked)).strip():
++        return None
++
++    texts = [" ".join(part[0].lower().split()).removesuffix(".") for part in parts]
++    diagnosis = DIAGNOSIS.fullmatch(texts[0])
++    if not diagnosis or AMBIGUOUS.search(texts[0]) or not linked_imaging(texts[1]):
++        return None
++    if diagnosis["comorbid"] and any(item not in DIAG for item in terms(diagnosis["comorbid"])):
++        return None
++    for extra in texts[2:]:
++        if not (NORMAL_VESSELS.fullmatch(extra) or CARDIO_EXAM.fullmatch(extra)
++                or CARDIO_HISTORY.fullmatch(extra) or consent_findings(extra, None)):
++            return None
++    return [part[3] for part in parts[:2]]
+--- a/nih_benchmark/round12/test_pipeline.py
++++ b/nih_benchmark/round12/test_pipeline.py
+@@ -35,6 +35,48 @@
+         self.assertEqual(s.read(spec)[1],'MISSING_DATA');self.assertEqual(len(s.read(spec)[2]),2)
+         for x in links:self.assertEqual(note[x['start']:x['end']],x['excerpt'])
+ 
++    def test_single_index_stroke_and_brain_imaging(self):
++        diagnosis = 'The patient was discharged with a diagnosis of acute ischemic stroke.'
++        imaging = 'During that admission, brain MRI revealed an acute infarct.'
++        note = diagnosis + '\n' + imaging
++        original = read_json(R11.parent / 'round9' / 'notes.json')['sigir-201515']
++        for raw in (original, note, note.replace('ischemic', 'ischaemic')):
++            with self.subTest(note=raw[:30]):
++                result, items, spans = self.resolve(raw, '817')
++                self.assertEqual(result['state'], 'MET')
++                self.assertEqual(result['source_sentences'], [0, 1])
++                ref, = result['evidence']
++                link, = (span for span in spans if span['resource'] == ref)
++                self.assertEqual(link['sentences'], [0, 1])
++                slices = [raw[start:end] for _, start, end in link['spans']]
++                self.assertEqual(slices, [line.split('. ', 1)[-1] if line[:1].isdigit() else line
++                                          for line in raw.splitlines()[:2]])
++                self.assertEqual(link['excerpt'], ' | '.join(slices))
++                observation, = (item for item in items
++                                if item['resourceType'] + '/' + item['id'] == ref)
++                self.assertIs(observation['valueBoolean'], False)
++
++        unrelated = 'During a different hospitalization, brain MRI revealed an acute infarct.'
++        negatives = [
++            imaging, diagnosis, 'Head CT showed no intracranial hemorrhage.',
++            note.replace('acute ischemic stroke', 'suspected ischemic stroke'),
++            note.replace('The patient', 'Her mother'), diagnosis + '\n' + unrelated,
++            diagnosis + '\nDuring that admission, chest CT was normal.',
++            diagnosis + '\nDuring that admission, brain MRI was planned.',
++            note.replace('acute ischemic stroke', 'seizure'),
++            note + '\nThe initial diagnosis was later revised to migraine.',
++            note + '\nCurrent symptoms have a nonvascular cause.',
++            note + '\nShe now presents with a new episode of aphasia.',
++            note.replace('a diagnosis of acute ischemic stroke', 'a stroke mimic'),
++            note + '\nFamily history:\nHer sister had new symptoms.',
++            note.replace('an acute infarct.', 'an acute infarct in another patient.'),
++        ]
++        for raw in negatives:
++            with self.subTest(note=raw):
++                result, _, _ = self.resolve(raw, '817')
++                self.assertEqual(result['state'], 'MISSING_DATA')
++                self.assertFalse(result['evidence'])
++
+     def test_sources_and_group(self):
+         _,items,_=self.resolve('CT chest today showed pulmonary embolism.')
+         spec=self.pack['rules']['435']['rule']['facts']['chest_ct_showed_pulmonary_thromboembolism']

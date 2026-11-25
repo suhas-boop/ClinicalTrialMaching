@@ -1,0 +1,85 @@
+{
+  "benchmark": "TrialGPT frozen patient–criterion assignments, retrospective development replay",
+  "prior_executable": 76,
+  "current_executable": 79,
+  "assignments": 134,
+  "reference_definite": 91,
+  "strict_decisions": 6,
+  "agreeing_strict_decisions": 6,
+  "disagreeing_strict_decisions": 0,
+  "unresolved_reference_definite": 85,
+  "remaining_by_route": {
+    "MISSING_DATA": 62,
+    "AUTHORING_HOLD": 12,
+    "INVESTIGATOR_ACTIONS": 5,
+    "SOURCE_SCOPE_HOLD": 4,
+    "PATIENT_SURVEY": 2
+  },
+  "state_changes": [
+    {
+      "annotation": "55",
+      "previous": "AUTHORING_HOLD",
+      "current": "MISSING_DATA",
+      "reference": "MET"
+    },
+    {
+      "annotation": "218",
+      "previous": "AUTHORING_HOLD",
+      "current": "MISSING_DATA",
+      "reference": "MET"
+    },
+    {
+      "annotation": "437",
+      "previous": "AUTHORING_HOLD",
+      "current": "MISSING_DATA",
+      "reference": "MET"
+    }
+  ],
+  "source_requests": 58,
+  "underlying_scoped_record_requests": 102,
+  "unique_other_actions_by_route": {
+    "identify_subject": 1,
+    "investigator": 6,
+    "patient": 2,
+    "protocol_review": 12
+  },
+  "prescreen_cases": [
+    "186",
+    "187"
+  ],
+  "matching_prescreen_cases": [
+    "186",
+    "187"
+  ],
+  "prescreen_patients": 1,
+  "published_source_criteria_replayed": 41,
+  "published_source_state_changes": [],
+  "summary_pairs_replayed": 134,
+  "summary_cases_with_new_citations": [
+    "44",
+    "55",
+    "196",
+    "230",
+    "454",
+    "517",
+    "633"
+  ],
+  "summary_outcome_changes": [],
+  "synthetic_scenarios": 8,
+  "excluded_from_primary": [
+    "synthetic controls",
+    "qualitative prescreen",
+    "public supplementary arm"
+  ],
+  "exclusion_silence_sensitivity_only": {
+    "pairs_reclassified": 70,
+    "reference_counts": {
+      "MET": 50,
+      "MISSING_DATA": 18,
+      "NOT_APPLICABLE": 2
+    },
+    "agrees_with_reference": 50,
+    "disagrees_with_reference": 20
+  },
+  "catalog_sha256": "8f74ae1b4fb2c4de07965dd52dc56fba5a04a9e82d1ae500452e9e414eaf2e66"
+}

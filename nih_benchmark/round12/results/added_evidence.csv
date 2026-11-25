@@ -1,0 +1,10 @@
+subject,resource,fact,value,context,source_lines,original_wording
+Patient/sigir-20141,Observation/x-f2e29960488c3da8d748780beb7e8f,reported smoking,False,patient symptom report,[4],"She denies smoking, diabetes, hypercholesterolemia, or a family history of heart disease."
+Patient/sigir-20141,Observation/x-84e1d84d6931f02f977dd38e1771a4,reported hypercholesterolemia,False,patient symptom report,[4],"She denies smoking, diabetes, hypercholesterolemia, or a family history of heart disease."
+Patient/sigir-201412,Observation/x-ea9b8e8a097bb311dee1379cd1bbc3,reported difficulty sleeping,False,patient symptom report,[1],She denies difficulty sleeping and sleeps an average of 8 hours a night.
+Patient/sigir-201414,Observation/x-6f0cb02ace99ea5b587033334a8abf,reported cough,False,reported recent history,[2],"He has had no fever, cough, rash or diarrhea."
+Patient/sigir-201414,Observation/x-f9d274b1ced22223a9228f5c0f7931,reported rash,False,reported recent history,[2],"He has had no fever, cough, rash or diarrhea."
+Patient/sigir-201414,Observation/x-2ae9f6c8f5d8fdcf06a71f00116b0f,reported diarrhea,False,reported recent history,[2],"He has had no fever, cough, rash or diarrhea."
+Patient/sigir-20143,Observation/x-207bfa945182047fd6c096a4d05205,abnormal neurologic exam,False,note abstraction,[2],"A neurologic examination is unremarkable, but a CT scan of the head shows a solitary mass in the right frontal lobe."
+Patient/sigir-20152,Observation/x-debb35617866237e03b504f45a53cf,hospital admission,True,note abstraction,[2],"He is admitted to the hospital, and his work-up includes bronchoscopy with bronchoalveolar lavage (BAL)."
+Patient/sigir-20158,Observation/x-b0f12ab732ed091f9f3c46d89ce629,reported night terrors,False,previous symptom history,[1],No history of headache or night terrors.

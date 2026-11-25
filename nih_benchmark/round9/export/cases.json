@@ -1,0 +1,373 @@
+[
+  {
+    "case": "sigir-20141",
+    "subject": "Patient/sigir-20141",
+    "sentences": 9,
+    "structured_facts": 12,
+    "sentences_with_structured_facts": 9
+  },
+  {
+    "case": "sigir-201410",
+    "subject": "Patient/sigir-201410",
+    "sentences": 4,
+    "structured_facts": 5,
+    "sentences_with_structured_facts": 4
+  },
+  {
+    "case": "sigir-201411",
+    "subject": "Patient/sigir-201411",
+    "sentences": 6,
+    "structured_facts": 10,
+    "sentences_with_structured_facts": 6
+  },
+  {
+    "case": "sigir-201412",
+    "subject": "Patient/sigir-201412",
+    "sentences": 6,
+    "structured_facts": 8,
+    "sentences_with_structured_facts": 6
+  },
+  {
+    "case": "sigir-201413",
+    "subject": "Patient/sigir-201413",
+    "sentences": 7,
+    "structured_facts": 10,
+    "sentences_with_structured_facts": 7
+  },
+  {
+    "case": "sigir-201414",
+    "subject": "Patient/sigir-201414",
+    "sentences": 5,
+    "structured_facts": 7,
+    "sentences_with_structured_facts": 5
+  },
+  {
+    "case": "sigir-201415",
+    "subject": "Patient/sigir-201415",
+    "sentences": 7,
+    "structured_facts": 9,
+    "sentences_with_structured_facts": 7
+  },
+  {
+    "case": "sigir-201416",
+    "subject": "Patient/sigir-201416",
+    "sentences": 5,
+    "structured_facts": 7,
+    "sentences_with_structured_facts": 5
+  },
+  {
+    "case": "sigir-201417",
+    "subject": "Patient/sigir-201417",
+    "sentences": 6,
+    "structured_facts": 13,
+    "sentences_with_structured_facts": 6
+  },
+  {
+    "case": "sigir-201418",
+    "subject": "Patient/sigir-201418",
+    "sentences": 8,
+    "structured_facts": 11,
+    "sentences_with_structured_facts": 8
+  },
+  {
+    "case": "sigir-201419",
+    "subject": "Patient/sigir-201419",
+    "sentences": 6,
+    "structured_facts": 8,
+    "sentences_with_structured_facts": 6
+  },
+  {
+    "case": "sigir-20142",
+    "subject": "Patient/sigir-20142",
+    "sentences": 7,
+    "structured_facts": 9,
+    "sentences_with_structured_facts": 7
+  },
+  {
+    "case": "sigir-201420",
+    "subject": "Patient/sigir-201420",
+    "sentences": 7,
+    "structured_facts": 10,
+    "sentences_with_structured_facts": 7
+  },
+  {
+    "case": "sigir-201421",
+    "subject": "Patient/sigir-201421",
+    "sentences": 5,
+    "structured_facts": 8,
+    "sentences_with_structured_facts": 5
+  },
+  {
+    "case": "sigir-201422",
+    "subject": "Patient/sigir-201422",
+    "sentences": 7,
+    "structured_facts": 9,
+    "sentences_with_structured_facts": 7
+  },
+  {
+    "case": "sigir-201423",
+    "subject": "Patient/sigir-201423",
+    "sentences": 8,
+    "structured_facts": 13,
+    "sentences_with_structured_facts": 8
+  },
+  {
+    "case": "sigir-201424",
+    "subject": "Patient/sigir-201424",
+    "sentences": 7,
+    "structured_facts": 10,
+    "sentences_with_structured_facts": 7
+  },
+  {
+    "case": "sigir-201425",
+    "subject": "Patient/sigir-201425",
+    "sentences": 8,
+    "structured_facts": 11,
+    "sentences_with_structured_facts": 8
+  },
+  {
+    "case": "sigir-201426",
+    "subject": "Group/sigir-201426",
+    "sentences": 4,
+    "structured_facts": 0,
+    "sentences_with_structured_facts": 0
+  },
+  {
+    "case": "sigir-201427",
+    "subject": "Patient/sigir-201427",
+    "sentences": 6,
+    "structured_facts": 7,
+    "sentences_with_structured_facts": 5
+  },
+  {
+    "case": "sigir-201429",
+    "subject": "Patient/sigir-201429",
+    "sentences": 6,
+    "structured_facts": 9,
+    "sentences_with_structured_facts": 6
+  },
+  {
+    "case": "sigir-20143",
+    "subject": "Patient/sigir-20143",
+    "sentences": 4,
+    "structured_facts": 7,
+    "sentences_with_structured_facts": 4
+  },
+  {
+    "case": "sigir-201430",
+    "subject": "Patient/sigir-201430",
+    "sentences": 9,
+    "structured_facts": 16,
+    "sentences_with_structured_facts": 9
+  },
+  {
+    "case": "sigir-20144",
+    "subject": "Patient/sigir-20144",
+    "sentences": 6,
+    "structured_facts": 9,
+    "sentences_with_structured_facts": 6
+  },
+  {
+    "case": "sigir-20145",
+    "subject": "Patient/sigir-20145",
+    "sentences": 7,
+    "structured_facts": 10,
+    "sentences_with_structured_facts": 7
+  },
+  {
+    "case": "sigir-20146",
+    "subject": "Patient/sigir-20146",
+    "sentences": 5,
+    "structured_facts": 7,
+    "sentences_with_structured_facts": 5
+  },
+  {
+    "case": "sigir-20147",
+    "subject": "Patient/sigir-20147",
+    "sentences": 7,
+    "structured_facts": 11,
+    "sentences_with_structured_facts": 7
+  },
+  {
+    "case": "sigir-20148",
+    "subject": "Patient/sigir-20148",
+    "sentences": 6,
+    "structured_facts": 8,
+    "sentences_with_structured_facts": 6
+  },
+  {
+    "case": "sigir-20149",
+    "subject": "Patient/sigir-20149",
+    "sentences": 6,
+    "structured_facts": 8,
+    "sentences_with_structured_facts": 6
+  },
+  {
+    "case": "sigir-20151",
+    "subject": "Patient/sigir-20151",
+    "sentences": 5,
+    "structured_facts": 10,
+    "sentences_with_structured_facts": 5
+  },
+  {
+    "case": "sigir-201510",
+    "subject": "Patient/sigir-201510",
+    "sentences": 3,
+    "structured_facts": 6,
+    "sentences_with_structured_facts": 3
+  },
+  {
+    "case": "sigir-201511",
+    "subject": "Patient/sigir-201511",
+    "sentences": 5,
+    "structured_facts": 7,
+    "sentences_with_structured_facts": 5
+  },
+  {
+    "case": "sigir-201512",
+    "subject": "Patient/sigir-201512",
+    "sentences": 5,
+    "structured_facts": 8,
+    "sentences_with_structured_facts": 5
+  },
+  {
+    "case": "sigir-201513",
+    "subject": "Patient/sigir-201513",
+    "sentences": 5,
+    "structured_facts": 7,
+    "sentences_with_structured_facts": 5
+  },
+  {
+    "case": "sigir-201514",
+    "subject": "Patient/sigir-201514",
+    "sentences": 10,
+    "structured_facts": 16,
+    "sentences_with_structured_facts": 10
+  },
+  {
+    "case": "sigir-201515",
+    "subject": "Patient/sigir-201515",
+    "sentences": 6,
+    "structured_facts": 11,
+    "sentences_with_structured_facts": 6
+  },
+  {
+    "case": "sigir-201516",
+    "subject": "Patient/sigir-201516",
+    "sentences": 9,
+    "structured_facts": 11,
+    "sentences_with_structured_facts": 9
+  },
+  {
+    "case": "sigir-201517",
+    "subject": "Patient/sigir-201517",
+    "sentences": 4,
+    "structured_facts": 7,
+    "sentences_with_structured_facts": 4
+  },
+  {
+    "case": "sigir-201518",
+    "subject": "Patient/sigir-201518",
+    "sentences": 4,
+    "structured_facts": 6,
+    "sentences_with_structured_facts": 4
+  },
+  {
+    "case": "sigir-201519",
+    "subject": "Patient/sigir-201519",
+    "sentences": 5,
+    "structured_facts": 5,
+    "sentences_with_structured_facts": 5
+  },
+  {
+    "case": "sigir-20152",
+    "subject": "Patient/sigir-20152",
+    "sentences": 5,
+    "structured_facts": 7,
+    "sentences_with_structured_facts": 5
+  },
+  {
+    "case": "sigir-201520",
+    "subject": "Patient/sigir-201520",
+    "sentences": 14,
+    "structured_facts": 17,
+    "sentences_with_structured_facts": 14
+  },
+  {
+    "case": "sigir-201521",
+    "subject": "Patient/sigir-201521",
+    "sentences": 6,
+    "structured_facts": 8,
+    "sentences_with_structured_facts": 6
+  },
+  {
+    "case": "sigir-201522",
+    "subject": "Patient/sigir-201522",
+    "sentences": 5,
+    "structured_facts": 8,
+    "sentences_with_structured_facts": 5
+  },
+  {
+    "case": "sigir-201523",
+    "subject": "Patient/sigir-201523",
+    "sentences": 3,
+    "structured_facts": 7,
+    "sentences_with_structured_facts": 3
+  },
+  {
+    "case": "sigir-201524",
+    "subject": "Patient/sigir-201524",
+    "sentences": 7,
+    "structured_facts": 10,
+    "sentences_with_structured_facts": 7
+  },
+  {
+    "case": "sigir-20153",
+    "subject": "Patient/sigir-20153",
+    "sentences": 4,
+    "structured_facts": 7,
+    "sentences_with_structured_facts": 4
+  },
+  {
+    "case": "sigir-20154",
+    "subject": "Patient/sigir-20154",
+    "sentences": 12,
+    "structured_facts": 19,
+    "sentences_with_structured_facts": 12
+  },
+  {
+    "case": "sigir-20155",
+    "subject": "Patient/sigir-20155",
+    "sentences": 5,
+    "structured_facts": 7,
+    "sentences_with_structured_facts": 5
+  },
+  {
+    "case": "sigir-20156",
+    "subject": "Patient/sigir-20156",
+    "sentences": 4,
+    "structured_facts": 7,
+    "sentences_with_structured_facts": 4
+  },
+  {
+    "case": "sigir-20157",
+    "subject": "Patient/sigir-20157",
+    "sentences": 5,
+    "structured_facts": 7,
+    "sentences_with_structured_facts": 5
+  },
+  {
+    "case": "sigir-20158",
+    "subject": "Patient/sigir-20158",
+    "sentences": 4,
+    "structured_facts": 7,
+    "sentences_with_structured_facts": 4
+  },
+  {
+    "case": "sigir-20159",
+    "subject": "Patient/sigir-20159",
+    "sentences": 7,
+    "structured_facts": 10,
+    "sentences_with_structured_facts": 7
+  }
+]

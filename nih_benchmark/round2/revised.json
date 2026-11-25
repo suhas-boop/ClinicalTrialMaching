@@ -1,0 +1,522 @@
+[
+  {
+    "annotation_id": 55,
+    "criterion_text": "Preterm and neonates, pregnancy",
+    "criterion_type": "exclusion",
+    "partial_sentences": [],
+    "patient_id": "sigir-20144",
+    "reason": "Negated protocol condition. Confirm the scope of preterm and neonatal exclusion in the protocol.",
+    "request_ids": [
+      "1c3a6d2eedddf0088918db14b55995562784e3d57056a437ce130b433f9de760"
+    ],
+    "sentences": [],
+    "state": "AUTHORING_HOLD",
+    "trial_id": "NCT02390596"
+  },
+  {
+    "annotation_id": 81,
+    "criterion_text": "Active severe infections within 4 weeks before screening visit, or between the screening and baseline visits.",
+    "criterion_type": "exclusion",
+    "partial_sentences": [],
+    "patient_id": "sigir-20144",
+    "reason": "Negated protocol condition. Obtain active_severe_infection_within_four_weeks_before_screening. Obtain active_severe_infection_between_screening_and_baseline.",
+    "request_ids": [
+      "2cf5ce5310b6ca957691e2b2a5e257e7771d6ac72c4d51177c4d5774895feb61",
+      "9ad986729d822943984f12dd13b3cb60ea18244578842b7fbb341575e949ae31"
+    ],
+    "sentences": [],
+    "state": "MISSING_DATA",
+    "trial_id": "NCT00841789"
+  },
+  {
+    "annotation_id": 108,
+    "criterion_text": "Hemodynamically unstable patients.",
+    "criterion_type": "exclusion",
+    "partial_sentences": [],
+    "patient_id": "sigir-20146",
+    "reason": "Negated protocol condition. Obtain hemodynamically_unstable.",
+    "request_ids": [
+      "637f99c3e41d791e3bf0bc0eb01f2abb0c0e0426f177de4231172b4596e5ee92"
+    ],
+    "sentences": [],
+    "state": "MISSING_DATA",
+    "trial_id": "NCT02512159"
+  },
+  {
+    "annotation_id": 109,
+    "criterion_text": "Patients with septic shock from any source.",
+    "criterion_type": "exclusion",
+    "partial_sentences": [],
+    "patient_id": "sigir-20146",
+    "reason": "Negated protocol condition. Obtain septic_shock.",
+    "request_ids": [
+      "6f5453431120ea029ad984dc10e23bd4511c9fdba9a898bd2ade987a7b0556b9"
+    ],
+    "sentences": [],
+    "state": "MISSING_DATA",
+    "trial_id": "NCT02512159"
+  },
+  {
+    "annotation_id": 111,
+    "criterion_text": "Patients with secondary cutaneous ulcer enteral fistula.",
+    "criterion_type": "exclusion",
+    "partial_sentences": [],
+    "patient_id": "sigir-20146",
+    "reason": "Negated protocol condition. Obtain cutaneous_ulcer_secondary_to_enteral_fistula.",
+    "request_ids": [
+      "deaf647f991368873b2513e04564af93ddd40780924bc76e47493e49ea37eb19"
+    ],
+    "sentences": [],
+    "state": "MISSING_DATA",
+    "trial_id": "NCT02512159"
+  },
+  {
+    "annotation_id": 115,
+    "criterion_text": "Patients with cutaneous ulcer leishmania, insect bite.",
+    "criterion_type": "exclusion",
+    "partial_sentences": [],
+    "patient_id": "sigir-20146",
+    "reason": "Negated protocol condition. Obtain cutaneous_ulcer_due_to_leishmania. Obtain cutaneous_ulcer_due_to_insect_bite.",
+    "request_ids": [
+      "154d3c889a2e744233c5d0cd0859f3d1dff6d07f3b4277276b282c50f10d7603",
+      "9571a54e5042b8f84fea9c429e2b9db59202c1939a2b747fd69302ff286a75d5"
+    ],
+    "sentences": [],
+    "state": "MISSING_DATA",
+    "trial_id": "NCT02512159"
+  },
+  {
+    "annotation_id": 116,
+    "criterion_text": "Patients with cutaneous ulcer burns.",
+    "criterion_type": "exclusion",
+    "partial_sentences": [],
+    "patient_id": "sigir-20146",
+    "reason": "Negated protocol condition. Obtain cutaneous_ulcer_due_to_burns.",
+    "request_ids": [
+      "293a59951d49fabb4c11380a8a1838ab323413c27ad9b0fccde76ee6ad9f8293"
+    ],
+    "sentences": [],
+    "state": "MISSING_DATA",
+    "trial_id": "NCT02512159"
+  },
+  {
+    "annotation_id": 120,
+    "criterion_text": "Siblings and parents of patients with insulin resistance. Siblings and parents will be included only in the case of documented insulin resistance in the index subject. Insulin resistance will be documented by OGTT and/or IVGTT.",
+    "criterion_type": "inclusion",
+    "partial_sentences": [],
+    "patient_id": "sigir-20146",
+    "reason": "Obtain sibling_of_index_subject. Obtain parent_of_index_subject. Obtain index_insulin_resistance_on_ogtt. Obtain index_insulin_resistance_on_ivgtt.",
+    "request_ids": [
+      "8ac6d4bd7803bca458b7d384c8f73d5cab63828449666b693334b89ead4f0858",
+      "5037ca84efaecfda42c7b0994be62aa4a6beb3e836f9309043bf1cd3426b96a4",
+      "11c8a633d9b6908aa0dc97f6253dcda1c24f939ec0447f0d24dfeec5ac504689",
+      "d9661abba536d11f38f91934c4fae6f9992775888da0a34caa9497ba74a56ec1"
+    ],
+    "sentences": [],
+    "state": "MISSING_DATA",
+    "trial_id": "NCT00015626"
+  },
+  {
+    "annotation_id": 235,
+    "criterion_text": "Menorrhagia and/or bulk symptoms associated with uterine fibroids",
+    "criterion_type": "inclusion",
+    "partial_sentences": [],
+    "patient_id": "sigir-201415",
+    "reason": "Obtain menorrhagia. Obtain bulk_symptoms. Obtain symptoms_attributed_to_uterine_fibroids.",
+    "request_ids": [
+      "0013c47c55ed9b6c6ead784253c2acfbad519806303257832075d1fe0230120f",
+      "2492881ba19842327881743c45aa59310c8ba9baf9f67aaaf3fb1e5800d27432",
+      "33c6d9af686b0983cbf72dd3b5ba6ecd9ed8b2bb46b8adb90644cd0cbcbe2b20"
+    ],
+    "sentences": [],
+    "state": "MISSING_DATA",
+    "trial_id": "NCT00277680"
+  },
+  {
+    "annotation_id": 239,
+    "criterion_text": "Postmenopausal women",
+    "criterion_type": "exclusion",
+    "partial_sentences": [],
+    "patient_id": "sigir-201415",
+    "reason": "Negated protocol condition. Obtain postmenopausal_woman.",
+    "request_ids": [
+      "eff0e47fdf0fc04182cfb4e2bc4ee0625b33e1be6290ecfc3c09c8066fc40ccb"
+    ],
+    "sentences": [],
+    "state": "MISSING_DATA",
+    "trial_id": "NCT00277680"
+  },
+  {
+    "annotation_id": 328,
+    "criterion_text": "Bleeding history in infant or family",
+    "criterion_type": "exclusion",
+    "partial_sentences": [],
+    "patient_id": "sigir-201418",
+    "reason": "Negated protocol condition. Obtain infant_history_of_bleeding. Obtain family_history_of_bleeding.",
+    "request_ids": [
+      "11a19efab6d502a4e3cbea5045e83e6e6fed24a95453d7fe5922480d71ad609b",
+      "5db8451ea2460b1c10678fb10352c7634f686b6cfe861957132d89ffc15f4a1e"
+    ],
+    "sentences": [],
+    "state": "MISSING_DATA",
+    "trial_id": "NCT01260883"
+  },
+  {
+    "annotation_id": 329,
+    "criterion_text": "Coagulopathy",
+    "criterion_type": "exclusion",
+    "partial_sentences": [],
+    "patient_id": "sigir-201418",
+    "reason": "Negated protocol condition. Obtain coagulopathy.",
+    "request_ids": [
+      "5d360caa1fd2763d1dc292154a0c1716e348ab9f0dac6c90aafc371e420b8ddc"
+    ],
+    "sentences": [],
+    "state": "MISSING_DATA",
+    "trial_id": "NCT01260883"
+  },
+  {
+    "annotation_id": 330,
+    "criterion_text": "Gastrointestinal bleeding history",
+    "criterion_type": "exclusion",
+    "partial_sentences": [],
+    "patient_id": "sigir-201418",
+    "reason": "Negated protocol condition. Obtain history_of_gi_bleeding.",
+    "request_ids": [
+      "b8caf37661566f520725085083f891b232b11d4d230cbe030084de6b1f81666e"
+    ],
+    "sentences": [],
+    "state": "MISSING_DATA",
+    "trial_id": "NCT01260883"
+  },
+  {
+    "annotation_id": 332,
+    "criterion_text": "Premature birth (<36 weeks gestation)",
+    "criterion_type": "exclusion",
+    "partial_sentences": [],
+    "patient_id": "sigir-201418",
+    "reason": "Negated protocol condition. Obtain gestation_at_birth_weeks.",
+    "request_ids": [
+      "75e39e75b11fa8e1a11be208967e96f4fa5fa99e2537a1fc26e75176f27f68b5"
+    ],
+    "sentences": [],
+    "state": "MISSING_DATA",
+    "trial_id": "NCT01260883"
+  },
+  {
+    "annotation_id": 336,
+    "criterion_text": "refused or none consent",
+    "criterion_type": "exclusion",
+    "partial_sentences": [
+      7
+    ],
+    "patient_id": "sigir-201418",
+    "reason": "Negated protocol condition. Obtain consent_absent.",
+    "request_ids": [
+      "664e19a4fca12a4258b4aa77671a7fd3896220a09be4d5a29b79ff0c99f9df7b"
+    ],
+    "sentences": [],
+    "state": "MISSING_DATA",
+    "trial_id": "NCT00557219"
+  },
+  {
+    "annotation_id": 366,
+    "criterion_text": "Has experienced abdominal trauma, blunt or penetrating, requiring open abdominal laparotomy with primary closure",
+    "criterion_type": "inclusion",
+    "partial_sentences": [
+      0,
+      1,
+      4,
+      5
+    ],
+    "patient_id": "sigir-201420",
+    "reason": "Obtain open_laparotomy_required_for_abdominal_trauma_with_primary_closure.",
+    "request_ids": [
+      "b9c8328aa7750b84b04cc423d4b5d2f11e75e7c5042192fddaf6efa1940467fa"
+    ],
+    "sentences": [],
+    "state": "MISSING_DATA",
+    "trial_id": "NCT02255487"
+  },
+  {
+    "annotation_id": 367,
+    "criterion_text": "Has experienced acute surgical abdomen requiring open abdominal laparotomy with primary closure",
+    "criterion_type": "inclusion",
+    "partial_sentences": [
+      4,
+      5
+    ],
+    "patient_id": "sigir-201420",
+    "reason": "Obtain open_laparotomy_required_for_acute_surgical_abdomen_with_primary_closure.",
+    "request_ids": [
+      "2e5d93b6835071c961713e3892216491e529cbde1c0d999a72ebd128e8759228"
+    ],
+    "sentences": [],
+    "state": "MISSING_DATA",
+    "trial_id": "NCT02255487"
+  },
+  {
+    "annotation_id": 379,
+    "criterion_text": "Pregnant patients",
+    "criterion_type": "exclusion",
+    "partial_sentences": [],
+    "patient_id": "sigir-201420",
+    "reason": "Negated protocol condition. Obtain pregnant.",
+    "request_ids": [
+      "64c0590d27ad5401be8553cc708bf2bfa443b42d783f34e2094957b7307e413c"
+    ],
+    "sentences": [],
+    "state": "MISSING_DATA",
+    "trial_id": "NCT01594385"
+  },
+  {
+    "annotation_id": 460,
+    "criterion_text": "have a severe traumatic brain injury as defined by either a GCS \u2264 8 and an abnormal CT scan (intracranial hemorrhage, cerebral edema or diffuse axonal injury) or a motor score \u2264 3 and normal CT scan",
+    "criterion_type": "inclusion",
+    "partial_sentences": [
+      0,
+      2,
+      5
+    ],
+    "patient_id": "sigir-201425",
+    "reason": "Obtain ct_intracranial_hemorrhage. Obtain ct_cerebral_edema. Obtain ct_diffuse_axonal_injury. Obtain gcs_motor. Obtain normal_head_ct.",
+    "request_ids": [
+      "9f5d3950f144300c78d10ec82bf03c69713f17309419c1850bc7cbd41dcfc823",
+      "03a12534dac8d878463e4cfaf33ac4fccf620805c73ed1ea8c4423f9f7f0874d",
+      "b5d8748883d529b1406ea0e2b0679681556e0c88e05627ee007dab52dff40f1d",
+      "4d28db75b39a8e88cc38630ffd1ed1a40afa2a646a07a1cc1447a98f84eda681",
+      "69fdb7e0453b8dcc168fe918b535c27eee4bd2527b87e2e00d112a0c536081ff"
+    ],
+    "sentences": [],
+    "state": "MISSING_DATA",
+    "trial_id": "NCT00282269"
+  },
+  {
+    "annotation_id": 467,
+    "criterion_text": "have more than mild neurodevelopmental disability prior to injury",
+    "criterion_type": "exclusion",
+    "partial_sentences": [],
+    "patient_id": "sigir-201425",
+    "reason": "Negated protocol condition. Obtain greater_than_mild_preinjury_neurodevelopmental_disability.",
+    "request_ids": [
+      "7cfaf1e9193d5bf6ee754c3551843dec86e4de4e628f896b57a2de3bad974660"
+    ],
+    "sentences": [],
+    "state": "MISSING_DATA",
+    "trial_id": "NCT00282269"
+  },
+  {
+    "annotation_id": 468,
+    "criterion_text": "have an acute isolated epidural hematoma and are expected to recover rapidly after surgical removal",
+    "criterion_type": "exclusion",
+    "partial_sentences": [],
+    "patient_id": "sigir-201425",
+    "reason": "Negated protocol condition. Obtain acute_isolated_epidural_hematoma.",
+    "request_ids": [
+      "5e62eef0a50d4282b5ee65a22514c8876b5f10a1796d4e09d674f9a95cefa367",
+      "96d72b9dc707188e6cfd557226bc29aa110fda16deeacbdc988da1bc0d711d5f"
+    ],
+    "sentences": [],
+    "state": "MISSING_DATA",
+    "trial_id": "NCT00282269"
+  },
+  {
+    "annotation_id": 475,
+    "criterion_text": "Incidents where the injured child was involved in a motor vehicle collision",
+    "criterion_type": "exclusion",
+    "partial_sentences": [],
+    "patient_id": "sigir-201425",
+    "reason": "Negated protocol condition. Obtain child_involved_in_motor_vehicle_collision_at_index_injury.",
+    "request_ids": [
+      "1d0d99c340f4dad183683bf7dc6c2344cfa7d7ab7bc77770b405b91b1f149711"
+    ],
+    "sentences": [],
+    "state": "MISSING_DATA",
+    "trial_id": "NCT02378311"
+  },
+  {
+    "annotation_id": 476,
+    "criterion_text": "Incidents where the injured child was injured by another rider (e.g. injured child run over by a cyclist)",
+    "criterion_type": "exclusion",
+    "partial_sentences": [],
+    "patient_id": "sigir-201425",
+    "reason": "Negated protocol condition. Obtain child_injured_by_another_rider_at_index_injury.",
+    "request_ids": [
+      "916a93f220991aa41c7bab83936ec73f79974ca8bc154b21c5fa2d0b734bbafb"
+    ],
+    "sentences": [],
+    "state": "MISSING_DATA",
+    "trial_id": "NCT02378311"
+  },
+  {
+    "annotation_id": 477,
+    "criterion_text": "Incidents involving a bicycle fitted with 'bull bars'",
+    "criterion_type": "exclusion",
+    "partial_sentences": [],
+    "patient_id": "sigir-201425",
+    "reason": "Negated protocol condition. Obtain index_incident_involved_bicycle_with_bull_bars.",
+    "request_ids": [
+      "e38a84d8feb4c836854c4f056f64679944f5e221b680d9d1ab8d36a99248e66d"
+    ],
+    "sentences": [],
+    "state": "MISSING_DATA",
+    "trial_id": "NCT02378311"
+  },
+  {
+    "annotation_id": 481,
+    "criterion_text": "Permanent residents of the Luanshya district",
+    "criterion_type": "inclusion",
+    "partial_sentences": [],
+    "patient_id": "sigir-201426",
+    "reason": "Obtain permanent_resident_luanshya.",
+    "request_ids": [
+      "f80a95a381e6c11ccb93242708b8834e517ef76d186182b8e2c22771e9378b7b"
+    ],
+    "sentences": [],
+    "state": "MISSING_DATA",
+    "trial_id": "NCT00373048"
+  },
+  {
+    "annotation_id": 492,
+    "criterion_text": "Born in San Francis Designated District Hospital of Ifakara",
+    "criterion_type": "inclusion",
+    "partial_sentences": [],
+    "patient_id": "sigir-201426",
+    "reason": "Obtain born_san_francis_designated_district_hospital_ifakara.",
+    "request_ids": [
+      "fef37df8469c0d94b3518b0de899c2b8561662ca81a9e3ab4e548691b0cdf5b3"
+    ],
+    "sentences": [],
+    "state": "MISSING_DATA",
+    "trial_id": "NCT00497471"
+  },
+  {
+    "annotation_id": 493,
+    "criterion_text": "Obvious severe congenital malformation such as: spina bifida, hydrocephalus or anencepahlus",
+    "criterion_type": "exclusion",
+    "partial_sentences": [],
+    "patient_id": "sigir-201426",
+    "reason": "Negated protocol condition. Obtain obvious_severe_congenital_malformation.",
+    "request_ids": [
+      "f927d7840451e1cb94da9a685a30ec68ad5f91a0303bb1c60f81bc8cac45d438"
+    ],
+    "sentences": [],
+    "state": "MISSING_DATA",
+    "trial_id": "NCT00497471"
+  },
+  {
+    "annotation_id": 494,
+    "criterion_text": "Twins",
+    "criterion_type": "exclusion",
+    "partial_sentences": [],
+    "patient_id": "sigir-201426",
+    "reason": "Negated protocol condition. Obtain twin_birth.",
+    "request_ids": [
+      "2caff296af70bca94336ffcc8d7ab550e8633302c552f57003a6528bff5ff3b2"
+    ],
+    "sentences": [],
+    "state": "MISSING_DATA",
+    "trial_id": "NCT00497471"
+  },
+  {
+    "annotation_id": 495,
+    "criterion_text": "Birth weight < 1,5 kg",
+    "criterion_type": "exclusion",
+    "partial_sentences": [],
+    "patient_id": "sigir-201426",
+    "reason": "Negated protocol condition. Obtain birth_weight_kg.",
+    "request_ids": [
+      "35c92822cd22973676495a9ca9aa5516120063cdeec95730eec1a28c641668c0"
+    ],
+    "sentences": [],
+    "state": "MISSING_DATA",
+    "trial_id": "NCT00497471"
+  },
+  {
+    "annotation_id": 496,
+    "criterion_text": "Clinical signs of cerebral asphyxia",
+    "criterion_type": "exclusion",
+    "partial_sentences": [],
+    "patient_id": "sigir-201426",
+    "reason": "Negated protocol condition. Obtain clinical_signs_of_cerebral_asphyxia.",
+    "request_ids": [
+      "9f2e78ebcbe392548c38657ac07cb790883ca1d83b4f4700815685de996d0d60"
+    ],
+    "sentences": [],
+    "state": "MISSING_DATA",
+    "trial_id": "NCT00497471"
+  },
+  {
+    "annotation_id": 497,
+    "criterion_text": "Clinical signs of neonatal or congenital infection",
+    "criterion_type": "exclusion",
+    "partial_sentences": [],
+    "patient_id": "sigir-201426",
+    "reason": "Negated protocol condition. Obtain clinical_signs_neonatal_infection. Obtain clinical_signs_congenital_infection.",
+    "request_ids": [
+      "4dd0c40982c74cbc32d15fb3fbc348186f81e2519662a2bc50b741276af7c3de",
+      "54ac55929e8e4751a88665e930d262c43b6199cca228b9cf94f19fe8a8c2d34d"
+    ],
+    "sentences": [],
+    "state": "MISSING_DATA",
+    "trial_id": "NCT00497471"
+  },
+  {
+    "annotation_id": 498,
+    "criterion_text": "Mother unreliable (deaf, mentally handicapped)",
+    "criterion_type": "exclusion",
+    "partial_sentences": [],
+    "patient_id": "sigir-201426",
+    "reason": "Negated protocol condition. Clarify the intended maternal assessment and who determines it.",
+    "request_ids": [
+      "c96d48d81f446a1bd1343dc843ab514a5fc9be9e33fc8dafeb03181daffdfe8e"
+    ],
+    "sentences": [],
+    "state": "AUTHORING_HOLD",
+    "trial_id": "NCT00497471"
+  },
+  {
+    "annotation_id": 577,
+    "criterion_text": "Moribund patients in whom active treatment of any form is not considered.",
+    "criterion_type": "exclusion",
+    "partial_sentences": [
+      3
+    ],
+    "patient_id": "sigir-20151",
+    "reason": "Negated protocol condition. active_treatment_of_any_form_not_considered = False (requires eq True).",
+    "request_ids": [],
+    "sentences": [
+      3
+    ],
+    "state": "MET",
+    "trial_id": "NCT01142245"
+  },
+  {
+    "annotation_id": 795,
+    "criterion_text": "pregnency women who don't speak french",
+    "criterion_type": "exclusion",
+    "partial_sentences": [],
+    "patient_id": "sigir-201514",
+    "reason": "Negated protocol condition. Confirm whether pregnancy and inability to speak French are joint or separate exclusions.",
+    "request_ids": [
+      "a8ffc50539b523ff1a706a16bd13bde0a2a6cab802b3a84a9e15b34bd4ff3798"
+    ],
+    "sentences": [],
+    "state": "AUTHORING_HOLD",
+    "trial_id": "NCT00827463"
+  },
+  {
+    "annotation_id": 985,
+    "criterion_text": "Chest tubes",
+    "criterion_type": "exclusion",
+    "partial_sentences": [],
+    "patient_id": "sigir-201524",
+    "reason": "Negated protocol condition. Obtain chest_tube_in_place.",
+    "request_ids": [
+      "c3d8bbe86685c4f20fafe20bfa07494df5cf27e4940588f4c62c6acb8f2b7d02"
+    ],
+    "sentences": [],
+    "state": "MISSING_DATA",
+    "trial_id": "NCT00711399"
+  }
+]

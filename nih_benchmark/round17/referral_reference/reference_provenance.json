@@ -1,0 +1,51 @@
+{
+  "source_title": "A Test Collection for Matching Patient to Clinical Trials",
+  "authors": "Bevan Koopman and Guido Zuccon",
+  "assessment_methods": "https://doi.org/10.1145/2911451.2914672",
+  "original_collection": "https://doi.org/10.4225/08/5714557510C17",
+  "version_history": "https://data.csiro.au/dap/ws/v2/collections/17152/versions",
+  "selected_source": {
+    "version": 4,
+    "published": "2017-04-04",
+    "doi": "https://doi.org/10.4225/08/58e2e83d92c2b",
+    "file": "https://data.csiro.au/dap/ws/v2/collections/22333/data/49692372",
+    "file_sha256": "f0b9aa8aa22b4c4eb5405c0bd2dc8220ac43a9c1d75e08782a410324270ce45e",
+    "records": 3870,
+    "description_file": "https://data.csiro.au/dap/ws/v2/collections/22333/data/49692376",
+    "description_file_sha256": "f150a44a5d6226734aead0e1daa555876159615e9248a05dc093fca48e1e2c3e"
+  },
+  "rights": "All Rights (including copyright) CSIRO, U.S. National Institute of Standards, U.S. National Institutes of Health 2016.",
+  "license": "CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0/",
+  "adaptation": "Subset of published patient\u2013study referral judgments with renamed columns, topic and protocol IDs, and source line locators.",
+  "clinical_meaning": {
+    "0": "would_not_refer",
+    "1": "consider_referral_after_further_investigation",
+    "2": "highly_likely_to_refer"
+  },
+  "missing_grade": "No judgment for that topic\u2013trial pair in that release. Leave blank and exclude from judged denominators.",
+  "design": "Medical assessors rated referral likelihood for a ranked pool with a finite assessment budget. These are trial-level referral preference judgments, without independent confirmation of eligibility or enrollment.",
+  "cohort": "Existing unique patient\u2013study assignments from the 134 criterion annotations. This convenience sample is not a representative sample of the full relevance collection.",
+  "identity": "Join the suffix of the sigir- identifier to the exact NUM in the organizers\u2019 topics file, preserving its original year and unpadded number. The full normalized patient description was verified for every selected subject.",
+  "assignments_sha256": "b2972ef7ad8d40fdc827b7eaae41c3cb8ae57bc49799e048006ac1c87bd941c4",
+  "selected_pairs": 68,
+  "selected_patients": 44,
+  "selected_studies": 68,
+  "selected_counts": {
+    "1": 33,
+    "2": 35
+  },
+  "transformed_release": {
+    "file": "https://raw.githubusercontent.com/ncbi-nlp/TrialGPT/1b3242cd50c153a9c324661d4a0bd94fc68a4226/dataset/sigir/qrels/test.tsv",
+    "file_sha256": "5298efb4859cfcdfe2cae5748eb1df1d4970c383c35a87e20145d1b3c25ea8ab",
+    "topics": "https://raw.githubusercontent.com/ncbi-nlp/TrialGPT/1b3242cd50c153a9c324661d4a0bd94fc68a4226/dataset/sigir/queries.jsonl",
+    "topics_sha256": "97ce3172bf6f80f3a5ac81371b83c9f031eccb243004b12cb5fd0015d372aa9b",
+    "records": 3835,
+    "agreements_on_overlapping_pairs": 3835,
+    "selected_pairs_covered": 66,
+    "absent_original_topic_ids": [
+      "201426"
+    ],
+    "comparison": "The transformed release omits the original group topic. The source grade remains available for those rows and still refers to the group vignette."
+  },
+  "reference_csv_sha256": "71b5272e3fac79f17fced1433c3f017a58bb3c73ca025cf2240ee7a469c0c88d"
+}

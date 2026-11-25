@@ -1,0 +1,62 @@
+{
+  "format": "criteria2sql-blind-prediction-freeze-v1",
+  "scope": {
+    "study": "Criteria2SQL",
+    "version": "045528d70a7d788775a24763adfed6c66023c914",
+    "criterion_id": "dev-242",
+    "version_meaning": "Dataset commit. No governing protocol or study-approved interpretation accompanied the criterion."
+  },
+  "rule_sha256": "e4515195d81569f211b7f1e4b5a335437ed4a71d3b9e4a75c4b84fe9b3070280",
+  "inputs_sha256": {
+    "experiments/criteria2sql/predict.py": "5dc20cec000bc2c2c58475aa881e38fa918d77c92e699cf6c0a3ca24f21d97aa",
+    "experiments/criteria2sql/author/published-context.json": "73ff12070a5e3123d5f37eff2e451028be841e181ab87b1e6002c345e8290c69",
+    "experiments/criteria2sql/author/packet.json": "48b544e5f55af3e5b598f10f98c097a08b1ee76a48ae47390358f530e712e60b",
+    "experiments/criteria2sql/author/candidate.json": "67504b9bf3f8624b080432114e8934f59fea61b66ee057bdb60f7cc00c4a31c2",
+    "experiments/criteria2sql/author/review.json": "b8b3ef5537127a1671444cc24faf44f428bb9394997d3b715aa3cf610043bc20",
+    "experiments/criteria2sql/author/replay_judgments.py": "e05230720f5e3dc80987f0e83ad3879f5de4d4a2348921930766ddc4ce04a9f3",
+    "experiments/criteria2sql/author/normalized.py": "1b8bca5425e138014cc9d734c8777c70b369f504fbeac27b65462887165fc2ea",
+    "experiments/criteria2sql/author/concept-map.json": "dc67d1fdd0f443f3c35af59e60f1fc7a2f9fe12ab2a2a8c6ba99e515d6793c3f",
+    "experiments/criteria2sql/author/controls/flat.json": "d156827ab849c93f6f40c916f856c1223f4fc1b33b72d1d9670301279cb46470",
+    "experiments/criteria2sql/author/controls/chart.json": "3ed3d9310221c2afc02075670cb43b24af6576ef471b25c85e86eb5787e106e4",
+    "pocketmd.py": "bc4928e9aeb66bd0df52b7740ed4d871096230269a7ed05eadf7a9867cb378ec",
+    "criterion_workbench/rules.py": "a6e3c3d0f6257fbbafe1821082905dd3342c67274fe12eb7fd0c38355eb30a19",
+    "criterion_workbench/text_author.py": "0525df5d21f13cf1c3086581991742fbcb357c7c9012de647b3747a135fdcd87",
+    "criterion_workbench/bounded_rules.py": "419bd3f5bb16c045063e0e16148256db494289200227bbb166d36d549e594daa",
+    "criterion_workbench/compiler.py": "0beeabd26d563b5e1b30f72fb8aef5e2c1fdf5bdf001d8d899e108ff19b23ac7",
+    "criterion_workbench/runtime/catalog.json": "3adddd24eef622b803490a50b2f410be6e97af2b5625ebac1f4ab51ac3c77290",
+    "criterion_workbench/runtime/screen.py": "af56dda5159f348dae6c4e3718e4c62f116931c367c0c4f4775ae6b0dbe80df3",
+    "criterion_workbench/runtime/evidence.py": "74f2fcca28ec6907ed9272b0db33af90e5e0a41c2f4c555f0bb52ec805f37814"
+  },
+  "outputs_sha256": {
+    "bundles/synthetic-101.json": "1b0fe599506f263d19c635672a9b879d29c6da319411f9790e546f535a197af8",
+    "bundles/synthetic-102.json": "641e20fe6772ee00a6e68c2a9cc3405cd0663a7c50261455f287bf96011d781f",
+    "bundles/synthetic-103.json": "eba80c25a84542eca689df0058c1af82e32ce7a04d9a21cb838255638ad4365b",
+    "bundles/synthetic-104.json": "7aa4783ec96c469a4ce18a37eb7ea2ad69bcf0e1edd52b74ff6d217a9989dc50",
+    "bundles/synthetic-105.json": "f321dcb09f249065cdd01446411a590a27a2ca0d6f2767282bd215be75693ad4",
+    "bundles/synthetic-106.json": "e972d8e1beefdc20ae5eb9ff4295f04cf5f6dbb1d268b47675db5112e59d8dce",
+    "bundles/synthetic-107.json": "59df1dd79ec610ad94a4ee25605e4014c005e857cb3858e5ae6567c22255f139",
+    "fhir.json": "c4bdb8fb7b7d3ae8b14a2114a9f71b0df777f6969ec91573699706d13648209b",
+    "normalized.json": "c451fcf0fc8df7505b5ad36ac8706b03d1d43bfc39b46062d08c88f0b102acaf",
+    "rule.json": "4157295ef88b48f29eab3bbe0c566676054b74a89de2e0f1b1e879abc21db738"
+  },
+  "counts": {
+    "normalized": {
+      "complete": {
+        "NOT_MET": 2,
+        "MET": 4
+      },
+      "missing": {
+        "MISSING_DATA": 1
+      }
+    },
+    "fhir": {
+      "complete": {
+        "NOT_MET": 2,
+        "MET": 4
+      },
+      "missing": {
+        "MISSING_DATA": 1
+      }
+    }
+  }
+}

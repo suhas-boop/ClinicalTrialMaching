@@ -1,0 +1,337 @@
+{
+  "version": "four-study-r4",
+  "profile": "Versioned, normalized synthetic FHIR R4 screening snapshot",
+  "mappings": [
+    {
+      "key": "qtcf",
+      "system": "urn:pocketmd:demo:ecg-lab",
+      "code": "QTcF-12lead",
+      "meaning": "Fridericia-corrected QT interval from a 12-lead ECG",
+      "status": "synthetic_only",
+      "unit_system": "http://unitsofmeasure.org",
+      "unit_codes": [
+        "ms",
+        "s"
+      ],
+      "value": "Observation.valueQuantity",
+      "context": [
+        "subject",
+        "encounter",
+        "effectiveDateTime",
+        "issued",
+        "derivedFrom"
+      ]
+    },
+    {
+      "key": "long_qt_history",
+      "system": "urn:pocketmd:demo:history",
+      "code": "reviewed-long-qt-syndrome-history",
+      "meaning": "Explicitly documented personal history present or absent",
+      "status": "synthetic_only",
+      "value": "Observation.valueBoolean",
+      "context": [
+        "subject",
+        "encounter",
+        "effectiveDateTime",
+        "issued",
+        "derivedFrom"
+      ]
+    },
+    {
+      "key": "age",
+      "meaning": "Age in completed calendar years on screening date",
+      "value": "Patient.birthDate",
+      "context": [
+        "screening Encounter.period.start",
+        "patient identity",
+        "snapshot cutoff"
+      ],
+      "status": "FHIR_native"
+    },
+    {
+      "key": "ecog",
+      "system": "http://loinc.org",
+      "code": "89247-1",
+      "meaning": "Screening ECOG performance status score",
+      "type": "integer",
+      "required_role": null,
+      "status": "LOINC_identity_verified_numeric_normalized",
+      "value": "Observation.valueInteger"
+    },
+    {
+      "key": "lansky",
+      "system": "urn:pocketmd:demo:performance",
+      "code": "lansky",
+      "meaning": "Lansky performance score",
+      "type": "percentage",
+      "required_role": null,
+      "status": "synthetic_only",
+      "value": "Observation.valueInteger"
+    },
+    {
+      "key": "karnofsky",
+      "system": "urn:pocketmd:demo:performance",
+      "code": "karnofsky",
+      "meaning": "Karnofsky performance score",
+      "type": "percentage",
+      "required_role": null,
+      "status": "synthetic_only",
+      "value": "Observation.valueInteger"
+    },
+    {
+      "key": "ecog2_clearance",
+      "system": "urn:pocketmd:demo:assessment",
+      "code": "ecog2-agreement",
+      "meaning": "Study sponsor medical monitor agreement to include this participant with ECOG 2",
+      "type": "boolean",
+      "required_role": "sponsor-medical-monitor",
+      "status": "synthetic_only",
+      "value": "Observation.valueBoolean"
+    },
+    {
+      "key": "appropriate_candidate",
+      "system": "urn:pocketmd:demo:assessment",
+      "code": "candidate-experimental-therapy",
+      "meaning": "Investigator assessment of candidacy for experimental therapy",
+      "type": "boolean",
+      "required_role": "investigator",
+      "status": "synthetic_only",
+      "value": "Observation.valueBoolean"
+    },
+    {
+      "key": "severe_preexisting",
+      "system": "urn:pocketmd:demo:assessment",
+      "code": "severe-preexisting",
+      "meaning": "Investigator assessment of severe preexisting medical conditions",
+      "type": "boolean",
+      "required_role": "investigator",
+      "status": "synthetic_only",
+      "value": "Observation.valueBoolean"
+    },
+    {
+      "key": "substance_abuse",
+      "system": "urn:pocketmd:demo:assessment",
+      "code": "alcohol-or-drug-abuse",
+      "meaning": "Investigator assessment of alcohol or drug abuse",
+      "type": "boolean",
+      "required_role": "investigator",
+      "status": "synthetic_only",
+      "value": "Observation.valueBoolean"
+    },
+    {
+      "key": "interstitial_pneumonitis_history",
+      "system": "urn:pocketmd:demo:history",
+      "code": "interstitial-pneumonitis",
+      "meaning": "Explicit personal history review for interstitial pneumonitis",
+      "type": "boolean",
+      "required_role": null,
+      "status": "synthetic_only",
+      "value": "Observation.valueBoolean"
+    },
+    {
+      "key": "pulmonary_fibrosis_history",
+      "system": "urn:pocketmd:demo:history",
+      "code": "pulmonary-fibrosis",
+      "meaning": "Explicit personal history review for pulmonary fibrosis",
+      "type": "boolean",
+      "required_role": null,
+      "status": "synthetic_only",
+      "value": "Observation.valueBoolean"
+    },
+    {
+      "key": "major_ventricular_arrhythmia_history",
+      "system": "urn:pocketmd:demo:history",
+      "code": "major-ventricular-arrhythmia",
+      "meaning": "Explicit personal history review for major ventricular arrhythmias",
+      "type": "boolean",
+      "required_role": null,
+      "status": "synthetic_only",
+      "value": "Observation.valueBoolean"
+    },
+    {
+      "key": "congenital_longqt",
+      "system": "urn:pocketmd:demo:history",
+      "code": "personal-congenital-long-qt",
+      "meaning": "Personal history of congenital long QT syndrome",
+      "type": "boolean",
+      "required_role": null,
+      "status": "synthetic_only",
+      "value": "Observation.valueBoolean"
+    },
+    {
+      "key": "family_congenital_longqt",
+      "system": "urn:pocketmd:demo:history",
+      "code": "family-congenital-long-qt",
+      "meaning": "Family history of congenital long QT syndrome",
+      "type": "boolean",
+      "required_role": null,
+      "status": "synthetic_only",
+      "value": "Observation.valueBoolean"
+    },
+    {
+      "key": "anc",
+      "system": "http://loinc.org",
+      "code": "751-8",
+      "meaning": "anc",
+      "type": "lab_quantity",
+      "canonical_unit": "10*9/L",
+      "scales": {
+        "10*9/L": 1,
+        "10*3/uL": 1,
+        "/uL": 0.001
+      },
+      "status": "research_fixture",
+      "value": "Observation.valueQuantity"
+    },
+    {
+      "key": "platelets",
+      "system": "http://loinc.org",
+      "code": "777-3",
+      "meaning": "platelets",
+      "type": "lab_quantity",
+      "canonical_unit": "10*9/L",
+      "scales": {
+        "10*9/L": 1,
+        "10*3/uL": 1,
+        "/uL": 0.001
+      },
+      "status": "research_fixture",
+      "value": "Observation.valueQuantity"
+    },
+    {
+      "key": "hemoglobin",
+      "system": "http://loinc.org",
+      "code": "718-7",
+      "meaning": "hemoglobin",
+      "type": "lab_quantity",
+      "canonical_unit": "g/dL",
+      "scales": {
+        "g/dL": 1,
+        "g/L": 0.1
+      },
+      "status": "research_fixture",
+      "value": "Observation.valueQuantity"
+    },
+    {
+      "key": "albumin",
+      "system": "http://loinc.org",
+      "code": "1751-7",
+      "meaning": "albumin",
+      "type": "lab_quantity",
+      "canonical_unit": "g/dL",
+      "scales": {
+        "g/dL": 1,
+        "g/L": 0.1
+      },
+      "status": "research_fixture",
+      "value": "Observation.valueQuantity"
+    },
+    {
+      "key": "rbc_review",
+      "system": "urn:pocketmd:demo:transfusion-service",
+      "code": "last-completed-red-cell-transfusion-review",
+      "meaning": "Source-verified complete red-cell administration history through review time, with latest actual event timestamp or explicit never. Orders and other blood products excluded.",
+      "status": "synthetic_only",
+      "type": "transfusion_review"
+    },
+    {
+      "key": "estimated_survival",
+      "system": "urn:pocketmd:demo:assessment",
+      "code": "estimated-life-expectancy",
+      "meaning": "Investigator estimate of life expectancy at screening",
+      "type": "duration_estimate",
+      "required_role": "investigator",
+      "status": "synthetic_only",
+      "value": "Observation.valueQuantity",
+      "scales": {
+        "mo": 1,
+        "a": 12
+      }
+    }
+  ],
+  "site_mapping_state": "No production site code crosswalk has been supplied. A label or generic QTc code does not establish Fridericia correction.",
+  "prescreen_assays": {
+    "sotio-lrrc15-ihc": {
+      "status": "synthetic_only",
+      "system": "urn:pocketmd:demo:prescreen:v1",
+      "assay": "trial-lrrc15-ihc-ivd",
+      "result": "lrrc15-percent-cells-intensity-ge-1plus",
+      "unit_system": "http://unitsofmeasure.org",
+      "unit": "%",
+      "laboratory_identifier": {
+        "system": "urn:pocketmd:demo:designated-lab",
+        "value": "106S01-central-IHC"
+      },
+      "collection_methods": [
+        "core-biopsy",
+        "incisional-biopsy",
+        "excisional-biopsy",
+        "verified-non-fna-tumor-biopsy"
+      ],
+      "questionnaire": "https://example.org/pocketmd/Questionnaire/prescreen-biopsy|1",
+      "willingness_item": "willing-fresh-biopsy",
+      "events": {
+        "prescreen_signature": [
+          "verified-prescreen-consent-signature",
+          "signed-prescreen-consent",
+          "valueDateTime"
+        ],
+        "main_signature": [
+          "verified-main-consent-signature",
+          "signed-main-consent",
+          "valueDateTime"
+        ],
+        "archive_available": [
+          "adequate-ffpe-archive-available",
+          "tissue-review",
+          "valueBoolean"
+        ],
+        "fresh_feasibility": [
+          "fresh-biopsy-feasibility",
+          "tissue-review",
+          "valueCodeableConcept"
+        ]
+      },
+      "bindings": {
+        "attempt": "Encounter.episodeOfCare -> EpisodeOfCare.patient and diagnosis.condition; one study screening attempt",
+        "phase": "Encounter.type and period; formal-screening-assessments starts with the first actual screening assessment",
+        "signature": "Observation.valueDateTime, normalized documented participant/authorized signature time, with a pinned signed form in derivedFrom",
+        "clinical_review": "Observation.valueBoolean or valueCodeableConcept and pinned source DocumentReference in derivedFrom",
+        "order": "DiagnosticReport.basedOn -> ServiceRequest.reasonReference, specimen, encounter, authoredOn",
+        "sample": "Specimen.type, collection.method, collection.collectedDateTime, condition and container.type; unstained slides of archival FFPE only",
+        "report": "DiagnosticReport.performer, specimen and result; final designated trial laboratory report",
+        "staining": "Observation.valueQuantity = percentage of cells in the tested sample with LRRC15 intensity of at least 1+; effectiveDateTime = trial assay assessment time",
+        "willingness": "QuestionnaireResponse.questionnaire, source, subject, encounter, authored, item.linkId and answer.valueBoolean"
+      },
+      "submitted_forms": [
+        "ffpe-block",
+        "unstained-ffpe-slides"
+      ]
+    }
+  },
+  "agreement_forms": {
+    "other-interventional-agreement": {
+      "status": "synthetic_only",
+      "questionnaire": "https://example.org/pocketmd/Questionnaire/106S01-other-interventional-trials|amendment-1-v1",
+      "items": {
+        "participant": {
+          "link_id": "participant-agrees",
+          "text": "Do you agree to avoid participating in other interventional clinical trials while enrolled in SOTIO 106S01, except during the survival follow-up period?"
+        },
+        "legal_representative": {
+          "link_id": "representative-agrees-for-participant",
+          "text": "As the participant\u2019s legal representative, do you agree that the participant will avoid participating in other interventional clinical trials while enrolled in SOTIO 106S01, except during the survival follow-up period?"
+        }
+      },
+      "role_system": "urn:pocketmd:demo:respondent-authority:v1",
+      "representative_role": "legal-representative",
+      "authority_document_type": "verified-study-representation",
+      "bindings": {
+        "answer": "QuestionnaireResponse.questionnaire, item.linkId and answer.valueBoolean; original recorded response to the versioned item",
+        "respondent": "QuestionnaireResponse.source; author is the recorder",
+        "identity": "Patient.birthDate; subject, screening encounter and as-of versions",
+        "representative": "RelatedPerson.patient, relationship, period and active; same-person DocumentReference.context.related and encounter, authority validity period and version"
+      }
+    }
+  }
+}

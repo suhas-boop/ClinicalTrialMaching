@@ -1,0 +1,128 @@
+[
+  {
+    "id": 101,
+    "patient_id": "synthetic-101",
+    "scope": "complete",
+    "study": "Criteria2SQL",
+    "version": "045528d70a7d788775a24763adfed6c66023c914",
+    "rule_sha256": "e4515195d81569f211b7f1e4b5a335437ed4a71d3b9e4a75c4b84fe9b3070280",
+    "patient": "synthetic-101",
+    "encounter": "screen-synthetic-101",
+    "as_of": "2025-05-13T12:00:00-07:00",
+    "state": "NOT_MET",
+    "reason": "The screening evidence fails the expression.",
+    "evidence": [
+      "Encounter/screen-synthetic-101/_history/1",
+      "Patient/synthetic-101/_history/1"
+    ],
+    "criterion_id": "dev-242"
+  },
+  {
+    "id": 102,
+    "patient_id": "synthetic-102",
+    "scope": "complete",
+    "study": "Criteria2SQL",
+    "version": "045528d70a7d788775a24763adfed6c66023c914",
+    "rule_sha256": "e4515195d81569f211b7f1e4b5a335437ed4a71d3b9e4a75c4b84fe9b3070280",
+    "patient": "synthetic-102",
+    "encounter": "screen-synthetic-102",
+    "as_of": "2025-05-12T12:00:00-07:00",
+    "state": "MET",
+    "reason": "The screening evidence satisfies the expression.",
+    "evidence": [
+      "Encounter/screen-synthetic-102/_history/1",
+      "Patient/synthetic-102/_history/1"
+    ],
+    "criterion_id": "dev-242"
+  },
+  {
+    "id": 103,
+    "patient_id": "synthetic-103",
+    "scope": "complete",
+    "study": "Criteria2SQL",
+    "version": "045528d70a7d788775a24763adfed6c66023c914",
+    "rule_sha256": "e4515195d81569f211b7f1e4b5a335437ed4a71d3b9e4a75c4b84fe9b3070280",
+    "patient": "synthetic-103",
+    "encounter": "screen-synthetic-103",
+    "as_of": "2025-05-12T12:00:00-07:00",
+    "state": "MET",
+    "reason": "The screening evidence satisfies the expression.",
+    "evidence": [
+      "Encounter/screen-synthetic-103/_history/1",
+      "Patient/synthetic-103/_history/1"
+    ],
+    "criterion_id": "dev-242"
+  },
+  {
+    "id": 104,
+    "patient_id": "synthetic-104",
+    "scope": "complete",
+    "study": "Criteria2SQL",
+    "version": "045528d70a7d788775a24763adfed6c66023c914",
+    "rule_sha256": "e4515195d81569f211b7f1e4b5a335437ed4a71d3b9e4a75c4b84fe9b3070280",
+    "patient": "synthetic-104",
+    "encounter": "screen-synthetic-104",
+    "as_of": "2025-05-12T12:00:00-07:00",
+    "state": "MET",
+    "reason": "The screening evidence satisfies the expression.",
+    "evidence": [
+      "Encounter/screen-synthetic-104/_history/1",
+      "Patient/synthetic-104/_history/1"
+    ],
+    "criterion_id": "dev-242"
+  },
+  {
+    "id": 105,
+    "patient_id": "synthetic-105",
+    "scope": "complete",
+    "study": "Criteria2SQL",
+    "version": "045528d70a7d788775a24763adfed6c66023c914",
+    "rule_sha256": "e4515195d81569f211b7f1e4b5a335437ed4a71d3b9e4a75c4b84fe9b3070280",
+    "patient": "synthetic-105",
+    "encounter": "screen-synthetic-105",
+    "as_of": "2026-01-01T01:00:00-08:00",
+    "state": "NOT_MET",
+    "reason": "The screening evidence fails the expression.",
+    "evidence": [
+      "Encounter/screen-synthetic-105/_history/1",
+      "Patient/synthetic-105/_history/1"
+    ],
+    "criterion_id": "dev-242"
+  },
+  {
+    "id": 106,
+    "patient_id": "synthetic-106",
+    "scope": "complete",
+    "study": "Criteria2SQL",
+    "version": "045528d70a7d788775a24763adfed6c66023c914",
+    "rule_sha256": "e4515195d81569f211b7f1e4b5a335437ed4a71d3b9e4a75c4b84fe9b3070280",
+    "patient": "synthetic-106",
+    "encounter": "screen-synthetic-106",
+    "as_of": "2026-01-01T01:00:00-08:00",
+    "state": "MET",
+    "reason": "The screening evidence satisfies the expression.",
+    "evidence": [
+      "Encounter/screen-synthetic-106/_history/1",
+      "Patient/synthetic-106/_history/1"
+    ],
+    "criterion_id": "dev-242"
+  },
+  {
+    "id": 107,
+    "patient_id": "synthetic-107",
+    "scope": "missing",
+    "study": "Criteria2SQL",
+    "version": "045528d70a7d788775a24763adfed6c66023c914",
+    "rule_sha256": "e4515195d81569f211b7f1e4b5a335437ed4a71d3b9e4a75c4b84fe9b3070280",
+    "patient": "synthetic-107",
+    "encounter": "screen-synthetic-107",
+    "as_of": "2025-05-12T12:00:00-07:00",
+    "state": "MISSING_DATA",
+    "reason": "Verify age evidence: A complete Patient.birthDate is required.",
+    "evidence": [
+      "Encounter/screen-synthetic-107/_history/1",
+      "Patient/synthetic-107/_history/1"
+    ],
+    "criterion_id": "dev-242"
+  }
+]

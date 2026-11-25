@@ -1,0 +1,62 @@
+{
+  "case": "186",
+  "patient": "sigir-201411",
+  "study": "NCT01526382",
+  "sources": [
+    {
+      "role": "patient vignette",
+      "locator": "Topic 11, description",
+      "url": "https://trec.nist.gov/pubs/trec23/papers/overview-clinical.pdf",
+      "reading": "Adult age 40 in the emergency room. The examiner characterizes the current heart rate as tachycardic. The vignette contains no numerical pulse."
+    },
+    {
+      "role": "benchmark criterion",
+      "locator": "frozen registry snapshot, heart-rate component in the shock branch",
+      "url": "https://clinicaltrials.gov/study/NCT01526382",
+      "reading": "The scored comparison is heart rate at least 90/min. This atom specifies neither a recording method nor an ICU-specific timepoint."
+    },
+    {
+      "role": "terminology used in the scored policy",
+      "url": "https://www.mayoclinic.org/diseases-conditions/tachycardia/symptoms-causes/syc-20355127",
+      "locator": "Overview",
+      "reading": "The term tachycardia means a heart rate over 100 beats/min. The chart finding therefore supports the comparison at this exam under the named policy."
+    },
+    {
+      "role": "terminology",
+      "locator": "Abnormal heart rhythms, tachycardia",
+      "url": "https://www.heart.org/en/health-topics/arrhythmia/about-arrhythmia",
+      "reading": "The American Heart Association uses a rate greater than 100/min as the conventional adult meaning. This supports a lower-bound comparison under that interpretation."
+    },
+    {
+      "role": "terminology context",
+      "locator": "Tachycardia: Fast Heart Rate",
+      "url": "https://www.heart.org/en/health-topics/arrhythmia/about-arrhythmia/tachycardia--fast-heart-rate",
+      "reading": "The dedicated article describes the usual resting definition. Resting position is not specified in the vignette."
+    },
+    {
+      "role": "prospective study protocol",
+      "locator": "Patient selection",
+      "url": "https://doi.org/10.1186/1745-6215-14-32",
+      "reading": "Full study eligibility involves critically ill patients in participating ICUs. The publication lists a heart-rate variable within its SIRS definition. It is distinct from the registered shock-component wording."
+    },
+    {
+      "role": "final trial report",
+      "locator": "Methods, Participants",
+      "url": "https://doi.org/10.1007/s00134-014-3638-4",
+      "reading": "For the enrolled cohort the clinical criteria were required within 24 hours after ICU admission. The vignette does not establish an ICU admission or an ICU-time observation. This contextual fact does not alter the standalone frozen benchmark question."
+    },
+    {
+      "role": "terminology counterexample",
+      "locator": "Scenario VIII; postpartum case example",
+      "url": "https://www.cdc.gov/nchs/data/nvss/vsrg/vsrg004.pdf",
+      "reading": "The example pairs the word tachycardic with an explicit pulse of 94/min. Use an observed value when supplied; term-derived bounds are explicitly labeled interpretations."
+    }
+  ],
+  "patient_note_sha256": "db4467fa7cba03819df27445f2090c80d6acd145a3361057f24a2fb5877aaec1",
+  "clinical_authority_response": null,
+  "separate_reporting": [
+    "Previously frozen strict evidence policy",
+    "Standalone threshold evaluated at the documented exam using the published adult terminology convention",
+    "Whole-study applicability and ICU enrollment workflow"
+  ]
+}

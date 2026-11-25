@@ -1,0 +1,45 @@
+{
+  "age_reasons": {
+    "ABOVE_MAXIMUM": 70,
+    "AGE_BOUND_ABSENT_OR_UNSUPPORTED": 112,
+    "BELOW_MINIMUM": 34,
+    "BENCHMARK_REGISTRATION_VERSION_UNVERIFIED": 301,
+    "HISTORICAL_ENROLLMENT_AGE_REQUIRED": 17,
+    "INDEX_PATIENT_PRESENTATION_AGE_UNVERIFIED": 296,
+    "INDIVIDUAL_PATIENT_REQUIRED": 60,
+    "NO_PROVEN_AGE_VIOLATION": 1418,
+    "STUDY_AGE_SCOPE_REVIEW_REQUIRED": 616
+  },
+  "age_states": {
+    "EXCLUDED_BY_AGE_AT_PRESENTATION": 104,
+    "NO_DEFINITE_AGE_EXCLUSION": 1418,
+    "UNRATED": 1402
+  },
+  "assigned_studies": 68,
+  "assigned_subjects": 44,
+  "code_sha256": {
+    "expanded_screen.py": "dd3b0dcd01249aba08c88d234753534eda76e1996939729fb7163191028897d4",
+    "fever_gate.py": "114b5c1bbc093c0a3f9cdcddc74a42f153aa556731bd9ed969900dbcbc5de535",
+    "study_scope.py": "1667dd9976345b8b9d4f598bef3d4e6d81227e31f707511fa85bcc588aeb7dfc",
+    "trial_disposition.py": "f4d6a60c07e5afbc552409a2bd0b23a96a1e4153f74c05a058aa0de71a8964b7"
+  },
+  "decisive_gate_counts": {
+    "registered_age_window": 104
+  },
+  "dispositions": {
+    "CONTINUE_SCREENING": 2820,
+    "NOT_ELIGIBLE_AT_PRESENTATION": 104
+  },
+  "expanded_pairs": 2924,
+  "fever_states": {
+    "GATE_NOT_DEFINED_FOR_STUDY": 2881,
+    "MISSING_DATA": 42,
+    "SOURCE_SCOPE_HOLD": 1
+  },
+  "group_subjects": 1,
+  "original_assignments": 134,
+  "original_pairs_excluded": 68,
+  "predictions_sha256": "02781f9bc54d1ffd2b4f62799d116edcf02db91d7988628a25994790235db865",
+  "scope": "Read only frozen assignments, source charts, rules and registrations. Continue screening means no exclusion established by the implemented gates.",
+  "sources_sha256": "f241983ff4a4cfa99059516c9a7a4e6727f69824e61985d7e3a2f112ea207b06"
+}

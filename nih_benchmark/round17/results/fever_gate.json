@@ -1,0 +1,54 @@
+{
+  "assignments": 134,
+  "patient_study_pairs": 68,
+  "gates": [
+    {
+      "study": "NCT02618655",
+      "subject": "Patient/sigir-20142",
+      "gate": "inclusion-fever-duration",
+      "state": "NOT_MET",
+      "source_sha256": "190e19212725660d52bc5b51c635644cf2b6af8ff037128327d7563220118625",
+      "evidence": [
+        "DocumentReference/sigir-20142-note#sha256=190e19212725660d52bc5b51c635644cf2b6af8ff037128327d7563220118625&line=0&start=3&end=102",
+        "DocumentReference/sigir-20142-note#sha256=190e19212725660d52bc5b51c635644cf2b6af8ff037128327d7563220118625&line=2&start=165&end=244"
+      ],
+      "source_spans": {
+        "DocumentReference/sigir-20142-note#sha256=190e19212725660d52bc5b51c635644cf2b6af8ff037128327d7563220118625&line=0&start=3&end=102": {
+          "line": 0,
+          "start": 3,
+          "end": 102,
+          "document": "DocumentReference/sigir-20142-note",
+          "quote": "An 8-year-old male presents in March to the ER with fever up to 39 C, dyspnea and cough for 2 days."
+        },
+        "DocumentReference/sigir-20142-note#sha256=190e19212725660d52bc5b51c635644cf2b6af8ff037128327d7563220118625&line=2&start=165&end=244": {
+          "line": 2,
+          "start": 165,
+          "end": 244,
+          "document": "DocumentReference/sigir-20142-note",
+          "quote": "Parents report that prior to the onset of fever and cough, he had loose stools."
+        }
+      },
+      "protocol": {
+        "trial_id": "NCT02618655",
+        "criterion_type": "inclusion",
+        "criterion_text": "patients have fever more than one week",
+        "registry_url": "https://clinicaltrials.gov/study/NCT02618655",
+        "registry_sha256": "fbaf17afb1e459dff97f0ff2a1a5d86e09a189a6a1a2242678c990703a76bb50",
+        "registry_date": "2016-07-26",
+        "location": "protocolSection.eligibilityModule.eligibilityCriteria / inclusion item 1",
+        "start": 23,
+        "end": 61
+      },
+      "value_days": 2,
+      "operator": "gt",
+      "threshold_days": 7,
+      "catalog_sha256": "2d1feeaa78045c238c56f48b67ab4bff7aeb24b7017c38b8d3cf0e1828c8b98d",
+      "linked_frozen_criteria": [
+        34,
+        36
+      ]
+    }
+  ],
+  "registry_sha256": "fbaf17afb1e459dff97f0ff2a1a5d86e09a189a6a1a2242678c990703a76bb50",
+  "frozen_criterion_scores_modified": false
+}

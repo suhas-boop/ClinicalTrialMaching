@@ -1,0 +1,20 @@
+{"text":"No ICH on today's head CT.","want":{"ct_intracranial_hemorrhage":false}}
+{"text":"Current chest CT:\nNo PE or interstitial lung disease.","want":{"chest_ct_showed_pulmonary_thromboembolism":false,"chest_ct_showed_ild":false}}
+{"text":"On today's chest CT there is no sign of a pulmonary embolus.","want":{"chest_ct_showed_pulmonary_thromboembolism":false}}
+{"text":"The scan protocol lists interstitial lung disease as an indication.","want":{}}
+{"text":"The patient receives nutrition via a feeding tube.","want":{}}
+{"text":"Admitted for monitoring. Transfer to the observation unit is under discussion.","want":{}}
+{"text":"She reports a family history of bleeding.","want":{"family_history_of_bleeding":true}}
+{"text":"Her father is covered by social insurance. He is receiving systemic anticoagulation.","want":{}}
+{"text":"The patient is enrolled in social insurance.","want":{"has_social_insurance":true}}
+{"text":"WHO performance score of 2.","want":{"who_performance_status":2}}
+{"text":"Performance status was felt to be good.","want":{}}
+{"text":"PaCO2 on arterial sampling was 30 mm Hg.","want":{"paco2_mmhg":30}}
+{"text":"She continues to breastfeed her baby.","want":{"breastfeeding":true}}
+{"text":"Patient was previously on artificial ventilation.","want":{}}
+{"text":"She is on artificial ventilation.","want":{"on_artificial_ventilation":true}}
+{"text":"He has a documented history of early childhood bone marrow failure.","want":{"early_bone_marrow_failure_in_childhood":true}}
+{"text":"For study NCT02512159, the patient is using contraception judged adequate for this study.","want":{"adequate_contraception":true},"study":"NCT02512159"}
+{"text":"The patient is using contraception judged adequate for this study.","want":{}}
+{"text":"Family history:\nShe is breastfeeding.\n\nCurrent head CT:\nNo cerebral edema.","want":{"ct_cerebral_edema":false}}
+{"text":"Skin exam documented Fitzpatrick phototype II.","want":{"fitzpatrick_I":false,"fitzpatrick_II":true,"fitzpatrick_III":false}}

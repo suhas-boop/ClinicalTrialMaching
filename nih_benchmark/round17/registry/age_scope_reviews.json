@@ -1,0 +1,47 @@
+{
+  "reviews": {
+    "NCT00163709": {
+      "anchor": "ENROLLMENT",
+      "excerpt": "all patients presenting to the ED with shortness of breath that are over 40 years old",
+      "locator": "eligibility/criteria/textblock",
+      "note": "Emergency-department population; the narrative requires over 40. The structured lower limit alone cannot decide whether a 40-year-old meets the narrative wording.",
+      "source_sha256": "e12989ca53a0a2d7de8e70eaf9450a85a0627a7cb56b91f291b1f1f7fbf5b709"
+    },
+    "NCT00557219": {
+      "anchor": "ENROLLMENT",
+      "excerpt": "signed consent will be obtained from the patient before surgery",
+      "locator": "detailed_description/textblock",
+      "note": "The participant is the surgical patient. A legal representative may provide consent in defined circumstances.",
+      "source_sha256": "9e5fe5fed6294932ca9d515a375eaec1fda2c7ce1dac9e4166762937bc14646d"
+    },
+    "NCT00839124": {
+      "anchor": "ENROLLMENT",
+      "excerpt": "open label study of allergic asthmatic and normal volunteers",
+      "locator": "detailed_description/textblock",
+      "note": "Healthy-control and allergic-asthma arms use the registered age range. The age-six clause concerns symptom onset.",
+      "source_sha256": "4f0a124b08138f785f29cc2b9c48485de21ecd618ad84a8798fb93bb3d6d02ea"
+    },
+    "NCT01628315": {
+      "anchor": "HISTORICAL",
+      "excerpt": "Enrolled into the 2-year, double-blind, placebo-controlled ASA study and entered 3 year extension study",
+      "locator": "eligibility/criteria/textblock",
+      "note": "Participants were already enrolled in the earlier ASA trial and entered the extension. Age at the historical enrollment is required.",
+      "source_sha256": "c0da022bfdccc4a7fe0a610c28830124609dd453d51efd21c724ef235b4fa174"
+    },
+    "NCT01863628": {
+      "anchor": "ENROLLMENT",
+      "excerpt": "offspring of parents with bipolar disorder aged between 10—25 years",
+      "locator": "detailed_description/textblock",
+      "note": "Subjects and treatment specifies offspring aged 10 to 25. Parent diagnostic interviews support the offspring screening. Scope is the registered study.",
+      "source_sha256": "5a54441fc7f2b1e48e0fa76b829876a4d074a3520d9ddf0dbf1b084cdc591cdc"
+    },
+    "NCT02467309": {
+      "anchor": "ENROLLMENT",
+      "excerpt": "outcomes of children with bacterial meningitis",
+      "locator": "brief_summary/textblock",
+      "note": "The registered population is children with bacterial meningitis. There is no adult arm in this registration.",
+      "source_sha256": "df5094b17e116ddd34f6f0c70b0a57e6e5fc5bbb6f9c891b7f2d3f14b2520dac"
+    }
+  },
+  "scope": "registered study at the index presentation"
+}

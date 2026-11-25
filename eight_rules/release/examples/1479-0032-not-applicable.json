@@ -1,0 +1,665 @@
+{
+  "context": {
+    "study": "1479-0032",
+    "protocol_sha256": "70959eefde1c1f6201e9574c8040075b8e0f2b7be1f14bba999ff816d797de6d",
+    "patient": "demo",
+    "encounter": "screen",
+    "episode": "index-demo",
+    "as_of": "2026-05-01T12:00:00Z",
+    "site_zone": "UTC",
+    "enabled_contracts": [
+      "f-0209865270996bcac7aa779f",
+      "f-0314db7e1cc3c903215ae67f",
+      "f-0416c791f5b1178dbfd2c89c",
+      "f-04517e27c6d83d949e231a62",
+      "f-063fc835d5cd6eb26be5069c",
+      "f-06b1b41d85eadbf51e51dcf0",
+      "f-07d01332281945fec158975d",
+      "f-084412c1343fec563f8fdace",
+      "f-0c9fc23549ba9d96110301c0",
+      "f-0d3b012eb3e5b69f1e01eafc",
+      "f-0e6bdecf08ee4ad873f4091f",
+      "f-10e6a49e4b77f1d8ef5848e3",
+      "f-1173ac977b3b2b15f031a721",
+      "f-11d9b8ceaf1e09a5f3aef0d6",
+      "f-1531f91eeb2c12ee3841f4bc",
+      "f-17b87931b634cda01b0e8bf4",
+      "f-17d09b703395b9c5fa1d76c6",
+      "f-18bc8e85d15c84a67e198164",
+      "f-1a3eecb65f55838498d8ed93",
+      "f-1c2a37e34537f6474271bfc3",
+      "f-1c485a13c35b13f0e936ccf7",
+      "f-1d6b86e82ca168a3191a7a6c",
+      "f-1d9e55bb33e032e8a1d893dd",
+      "f-1db2be2e69360988252aa76c",
+      "f-208054c6e380e401f3c30555",
+      "f-24fd7f4fdabbf60a2258f765",
+      "f-26975d3e6305f10d2f006716",
+      "f-2988a52f92da7c1a7aab202c",
+      "f-2d9cd1b22c2f163895682020",
+      "f-2f995b12b29e44a0f9329261",
+      "f-3325b9a39137131f462c3219",
+      "f-37ca128d712eb44710caae92",
+      "f-37fd090bbd530907b71fe2e1",
+      "f-39d31414a0581baaf7790723",
+      "f-3a158f6e9380054dca0951ad",
+      "f-3d1184e7a7647b16be262db0",
+      "f-3d1e01db9b0f1fbd9e1ac7f9",
+      "f-4069134a19a7dd1c00eff64a",
+      "f-45e273c751baee8b6ecc81a9",
+      "f-4678403ca9c5f9cc8e284373",
+      "f-4758d28546edbcf1a8b40df3",
+      "f-4819fba5ded8001c93714666",
+      "f-49bd543e4eb4b8d60cb72087",
+      "f-4b4ae7b8a5da262ea43179c3",
+      "f-4b5ca47f9a8c6ccf7c30d785",
+      "f-4cf55dbe487b287fd89e2671",
+      "f-4f6357f8c65b76801acfb282",
+      "f-51b648d0e53458dd45584a0c",
+      "f-543675279cd1135b549aa276",
+      "f-549a1f9de2d7f0f0a9c65651",
+      "f-57bfc307bf87e003ab949048",
+      "f-580aee3dadc64b450ee44663",
+      "f-59d78762133a92b187319cca",
+      "f-5a5e2f60eba066e0dbcc9999",
+      "f-5bd573dd278e48ac675a0b89",
+      "f-5bd9b5d6f0e71a4921ffc1dd",
+      "f-5d5d47e7b3dff4d4bffd76fd",
+      "f-5df7e8427a5b1805f933be6c",
+      "f-5ea8189ba82135a900e23089",
+      "f-5edb9fa56e7de16d3299c947",
+      "f-5f499b4fbd88c8e67afd78e1",
+      "f-610fd7e84b4135da39150485",
+      "f-630801d6053f8b0d0987ffd4",
+      "f-64763072dc173412a2a56939",
+      "f-6519a575b9eb1b7e4a1dce41",
+      "f-67978a2c2e51b594d6265170",
+      "f-6c5e1e6381a059c9f56e5f2f",
+      "f-6e9ef6dde09b54419bd927ae",
+      "f-6f55dccf3148b737014d446d",
+      "f-7073b871abc2d7ba40e4e779",
+      "f-7518df1ea5de184ed9be82a2",
+      "f-754cbeba424d4cbb51bc2650",
+      "f-773df41d4a637d3f09c94333",
+      "f-777697cd27efe05c238cc53d",
+      "f-7874a497fd00d8c64833adbd",
+      "f-79073791f1944a391b43795e",
+      "f-791e587a543bae2c0cef3295",
+      "f-7a363f13a36d4eb98c21c691",
+      "f-7aec30065ac1764cc5621a3f",
+      "f-7bdac25481de98e0ff61b3fb",
+      "f-7c15f1f000c78c1a400912a9",
+      "f-7cb7e2ab59fdfbcdd13c5a07",
+      "f-7e31831d44a55822c880a91f",
+      "f-80889bcb37678424d11bbe77",
+      "f-808b06acafb4beb9679823db",
+      "f-8243e3c0978f47b98816eff8",
+      "f-83c6fb47ece9f2140b909936",
+      "f-868cb34b484a9f11c2fa8960",
+      "f-890872f246c590bcb5148f7a",
+      "f-89eeab5c9f22744f2b9c5b3c",
+      "f-8b39a356f071d953fe3a13d2",
+      "f-8b43ed4c1a822baea232362f",
+      "f-8feef181b21ccc116592b1ec",
+      "f-91bd684c8142c4cdca0d068b",
+      "f-93290dc1846b957129f166e8",
+      "f-959e07921fecc500665fc0c2",
+      "f-963c8e46bc7618fea6bb87e7",
+      "f-97e4560013014211ce3b409c",
+      "f-992ad6642b68da8451418eb4",
+      "f-9d1181ab3875f7ba459680ef",
+      "f-9d329e0989583a045aee1c9a",
+      "f-9d39bb796843061316a6fcff",
+      "f-9fba0b76882c4ed312d6bfc2",
+      "f-a0940342e9ef19bdffe1c6c9",
+      "f-a0a25a3443485adc6c220f8a",
+      "f-a277a1775d0a682f2d6a2c7c",
+      "f-a391406f77e6bd3d5ca929f6",
+      "f-a4356dfd534337dec15193ef",
+      "f-a5c02143afb9fc582ff2db66",
+      "f-a8bcee8d3f9a55038d5ce787",
+      "f-a9501ea5c7abf7cca8fe2a60",
+      "f-a99b172e9e678aa8f49681bc",
+      "f-a9c8b3d0239945c730bd4177",
+      "f-ab91525662fe618242f3c3a3",
+      "f-ac4c2f890fc9c6c844b55e0f",
+      "f-af69def70268340ceaf04858",
+      "f-b10db7db2a700134999103cc",
+      "f-b167f8cd411fb6e7276f6166",
+      "f-b23833d6ea0f9d11ca472f94",
+      "f-b3679030be62ca1fd455ba06",
+      "f-b43d4466f52507abf09ce9c5",
+      "f-b63323b7e92eec80fba8f1e9",
+      "f-b63b6b55f13bd67d2b5a02d8",
+      "f-bc9750eadfddf369d416b937",
+      "f-bd943e61a480764671300e69",
+      "f-bfe09329bb900b9f9382ec8c",
+      "f-c0bf7ea4920d91194deccfe2",
+      "f-c1cc87aa71302169bf0105b1",
+      "f-c2f9797d97426dd347cc232a",
+      "f-c6b49f6758a721f0405ccc14",
+      "f-c99e8c3660c11f4e39144756",
+      "f-cb6ceafd25d6db5fa1265387",
+      "f-cc4717968c9dd06056aa8967",
+      "f-cc6a305d322602d55ac13194",
+      "f-cde8b792c28dcd81e4a1e99e",
+      "f-ce5be31fe36245aa6c73bf6e",
+      "f-ce682519ecb353e2cd822754",
+      "f-d024d4ce5dd4531778bca3ce",
+      "f-d44c91ad1be503efecb219c6",
+      "f-d46b072fe658c4fd8d2393d0",
+      "f-d76fb9217e86b88f1229e547",
+      "f-d84b00fcac43f6906406c601",
+      "f-d96596d6cf89c491893496ec",
+      "f-dc03a4463aa3a8b69bddce7c",
+      "f-dc43d2749ec0a04574033a76",
+      "f-de3ebd7aeb36f91430508804",
+      "f-e14474225edfa2c4cd846115",
+      "f-e2c9a33cb86b9e34f1042318",
+      "f-e2d6bfc6f9624edee1685b2a",
+      "f-e39fcb5fe99e57bd94346bbc",
+      "f-e3d93864ab3111f0cb51e40a",
+      "f-e46fa6326980595d9484666e",
+      "f-eaea8f7a6436944a8a3df830",
+      "f-eb431190feec607bcb625a38",
+      "f-eb616e3ce50fe2e57bb7f2b3",
+      "f-ed2ed8a69688bb531eaf0bc7",
+      "f-ef3a7ce8f71d394f06336fe1",
+      "f-efa76cd5f98bad14f49bdb19",
+      "f-f19516ad1c008a4b6a33df3e",
+      "f-f292a5dee4055cacd12afe2e",
+      "f-f9f0312ada6d9dfe95416742",
+      "f-fb829b1b976e1ca6d6213b4d",
+      "f-fd842cefea68e0c70476166d",
+      "f-fff5b995cb49ad12f074fa8a"
+    ],
+    "trusted_roles": {
+      "record": [
+        "Organization/demo-record"
+      ],
+      "investigator": [
+        "PractitionerRole/demo-investigator"
+      ],
+      "site": [
+        "Organization/demo-site"
+      ]
+    }
+  },
+  "bundle": {
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+      {
+        "resource": {
+          "resourceType": "Patient",
+          "id": "demo",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-05-01T12:00:00Z"
+          }
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Condition",
+          "id": "index-demo",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-05-01T12:00:00Z"
+          },
+          "subject": {
+            "reference": "Patient/demo"
+          }
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Encounter",
+          "id": "screen",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-05-01T12:00:00Z"
+          },
+          "status": "in-progress",
+          "class": {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+            "code": "AMB"
+          },
+          "subject": {
+            "reference": "Patient/demo"
+          },
+          "period": {
+            "start": "2026-05-01T12:00:00Z"
+          },
+          "identifier": [
+            {
+              "system": "urn:pocketmd:research:protocol-screening",
+              "value": "1479-0032|70959eefde1c1f6201e9574c8040075b8e0f2b7be1f14bba999ff816d797de6d|screening"
+            },
+            {
+              "system": "urn:pocketmd:demo:screening-study",
+              "value": "1479-0032"
+            }
+          ]
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "DocumentReference",
+          "id": "src-f-6f55dccf3148b737014d446d",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-05-01T12:00:00Z"
+          },
+          "status": "current",
+          "subject": {
+            "reference": "Patient/demo"
+          },
+          "date": "2026-05-01T12:00:00Z",
+          "author": [
+            {
+              "reference": "Organization/demo-record"
+            }
+          ],
+          "identifier": [
+            {
+              "system": "urn:pocketmd:research:screening-source:v1",
+              "value": "70959eefde1c1f6201e9574c8040075b8e0f2b7be1f14bba999ff816d797de6d"
+            }
+          ],
+          "content": [
+            {
+              "attachment": {
+                "contentType": "text/plain",
+                "title": "Synthetic source for Documented sex for this protocol"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "id": "obs-f-6f55dccf3148b737014d446d",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-05-01T12:00:00Z",
+            "profile": [
+              "urn:pocketmd:research:screening-fact:v2"
+            ]
+          },
+          "status": "final",
+          "subject": {
+            "reference": "Patient/demo"
+          },
+          "encounter": {
+            "reference": "Encounter/screen"
+          },
+          "effectiveDateTime": "2026-05-01T12:00:00Z",
+          "issued": "2026-05-01T12:00:00Z",
+          "focus": [
+            {
+              "reference": "Condition/index-demo"
+            }
+          ],
+          "performer": [
+            {
+              "reference": "Organization/demo-record"
+            }
+          ],
+          "derivedFrom": [
+            {
+              "reference": "DocumentReference/src-f-6f55dccf3148b737014d446d/_history/1"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:research:normalized-evidence:v2",
+                "version": "70959eefde1c1f6201e9574c8040075b8e0f2b7be1f14bba999ff816d797de6d",
+                "code": "f-6f55dccf3148b737014d446d",
+                "display": "Documented sex for this protocol"
+              }
+            ]
+          },
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:research:normalized-evidence:v2/f-6f55dccf3148b737014d446d",
+                "code": "MALE"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "DocumentReference",
+          "id": "src-f-7073b871abc2d7ba40e4e779",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-05-01T12:00:00Z"
+          },
+          "status": "current",
+          "subject": {
+            "reference": "Patient/demo"
+          },
+          "date": "2026-05-01T12:00:00Z",
+          "author": [
+            {
+              "reference": "Organization/demo-record"
+            }
+          ],
+          "identifier": [
+            {
+              "system": "urn:pocketmd:research:screening-source:v1",
+              "value": "70959eefde1c1f6201e9574c8040075b8e0f2b7be1f14bba999ff816d797de6d"
+            }
+          ],
+          "content": [
+            {
+              "attachment": {
+                "contentType": "text/plain",
+                "title": "Synthetic source for Current pregnancy"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "id": "obs-f-7073b871abc2d7ba40e4e779",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-05-01T12:00:00Z",
+            "profile": [
+              "urn:pocketmd:research:screening-fact:v2"
+            ]
+          },
+          "status": "final",
+          "subject": {
+            "reference": "Patient/demo"
+          },
+          "encounter": {
+            "reference": "Encounter/screen"
+          },
+          "effectiveDateTime": "2026-05-01T12:00:00Z",
+          "issued": "2026-05-01T12:00:00Z",
+          "focus": [
+            {
+              "reference": "Condition/index-demo"
+            }
+          ],
+          "performer": [
+            {
+              "reference": "Organization/demo-record"
+            }
+          ],
+          "derivedFrom": [
+            {
+              "reference": "DocumentReference/src-f-7073b871abc2d7ba40e4e779/_history/1"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:research:normalized-evidence:v2",
+                "version": "70959eefde1c1f6201e9574c8040075b8e0f2b7be1f14bba999ff816d797de6d",
+                "code": "f-7073b871abc2d7ba40e4e779",
+                "display": "Current pregnancy"
+              }
+            ]
+          },
+          "valueBoolean": false
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "DocumentReference",
+          "id": "src-f-890872f246c590bcb5148f7a",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-05-01T12:00:00Z"
+          },
+          "status": "current",
+          "subject": {
+            "reference": "Patient/demo"
+          },
+          "date": "2026-05-01T12:00:00Z",
+          "author": [
+            {
+              "reference": "Patient/demo"
+            }
+          ],
+          "identifier": [
+            {
+              "system": "urn:pocketmd:research:screening-source:v1",
+              "value": "70959eefde1c1f6201e9574c8040075b8e0f2b7be1f14bba999ff816d797de6d"
+            }
+          ],
+          "content": [
+            {
+              "attachment": {
+                "contentType": "text/plain",
+                "title": "Synthetic source for Currently nursing"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "id": "obs-f-890872f246c590bcb5148f7a",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-05-01T12:00:00Z",
+            "profile": [
+              "urn:pocketmd:research:screening-fact:v2"
+            ]
+          },
+          "status": "final",
+          "subject": {
+            "reference": "Patient/demo"
+          },
+          "encounter": {
+            "reference": "Encounter/screen"
+          },
+          "effectiveDateTime": "2026-05-01T12:00:00Z",
+          "issued": "2026-05-01T12:00:00Z",
+          "focus": [
+            {
+              "reference": "Condition/index-demo"
+            }
+          ],
+          "performer": [
+            {
+              "reference": "Patient/demo"
+            }
+          ],
+          "derivedFrom": [
+            {
+              "reference": "DocumentReference/src-f-890872f246c590bcb5148f7a/_history/1"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:research:normalized-evidence:v2",
+                "version": "70959eefde1c1f6201e9574c8040075b8e0f2b7be1f14bba999ff816d797de6d",
+                "code": "f-890872f246c590bcb5148f7a",
+                "display": "Currently nursing"
+              }
+            ]
+          },
+          "valueBoolean": false
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "DocumentReference",
+          "id": "src-f-37ca128d712eb44710caae92",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-05-01T12:00:00Z"
+          },
+          "status": "current",
+          "subject": {
+            "reference": "Patient/demo"
+          },
+          "date": "2026-05-01T12:00:00Z",
+          "author": [
+            {
+              "reference": "Patient/demo"
+            }
+          ],
+          "identifier": [
+            {
+              "system": "urn:pocketmd:research:screening-source:v1",
+              "value": "70959eefde1c1f6201e9574c8040075b8e0f2b7be1f14bba999ff816d797de6d"
+            }
+          ],
+          "content": [
+            {
+              "attachment": {
+                "contentType": "text/plain",
+                "title": "Synthetic source for Plans pregnancy or nursing during trial"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "id": "obs-f-37ca128d712eb44710caae92",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-05-01T12:00:00Z",
+            "profile": [
+              "urn:pocketmd:research:screening-fact:v2"
+            ]
+          },
+          "status": "final",
+          "subject": {
+            "reference": "Patient/demo"
+          },
+          "encounter": {
+            "reference": "Encounter/screen"
+          },
+          "effectiveDateTime": "2026-05-01T12:00:00Z",
+          "issued": "2026-05-01T12:00:00Z",
+          "focus": [
+            {
+              "reference": "Condition/index-demo"
+            }
+          ],
+          "performer": [
+            {
+              "reference": "Patient/demo"
+            }
+          ],
+          "derivedFrom": [
+            {
+              "reference": "DocumentReference/src-f-37ca128d712eb44710caae92/_history/1"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:research:normalized-evidence:v2",
+                "version": "70959eefde1c1f6201e9574c8040075b8e0f2b7be1f14bba999ff816d797de6d",
+                "code": "f-37ca128d712eb44710caae92",
+                "display": "Plans pregnancy or nursing during trial"
+              }
+            ]
+          },
+          "valueBoolean": false
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "DocumentReference",
+          "id": "src-f-f19516ad1c008a4b6a33df3e",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-05-01T12:00:00Z"
+          },
+          "status": "current",
+          "subject": {
+            "reference": "Patient/demo"
+          },
+          "date": "2026-05-01T12:00:00Z",
+          "author": [
+            {
+              "reference": "Patient/demo"
+            }
+          ],
+          "identifier": [
+            {
+              "system": "urn:pocketmd:research:screening-source:v1",
+              "value": "70959eefde1c1f6201e9574c8040075b8e0f2b7be1f14bba999ff816d797de6d"
+            }
+          ],
+          "content": [
+            {
+              "attachment": {
+                "contentType": "text/plain",
+                "title": "Synthetic source for Plans pregnancy or nursing after last dose"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "id": "obs-f-f19516ad1c008a4b6a33df3e",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2026-05-01T12:00:00Z",
+            "profile": [
+              "urn:pocketmd:research:screening-fact:v2"
+            ]
+          },
+          "status": "final",
+          "subject": {
+            "reference": "Patient/demo"
+          },
+          "encounter": {
+            "reference": "Encounter/screen"
+          },
+          "effectiveDateTime": "2026-05-01T12:00:00Z",
+          "issued": "2026-05-01T12:00:00Z",
+          "focus": [
+            {
+              "reference": "Condition/index-demo"
+            }
+          ],
+          "performer": [
+            {
+              "reference": "Patient/demo"
+            }
+          ],
+          "derivedFrom": [
+            {
+              "reference": "DocumentReference/src-f-f19516ad1c008a4b6a33df3e/_history/1"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "urn:pocketmd:research:normalized-evidence:v2",
+                "version": "70959eefde1c1f6201e9574c8040075b8e0f2b7be1f14bba999ff816d797de6d",
+                "code": "f-f19516ad1c008a4b6a33df3e",
+                "display": "Plans pregnancy or nursing after last dose"
+              }
+            ]
+          },
+          "valueBoolean": false
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,200 @@
+[
+  {
+    "case": 1,
+    "text": "No ICH on today's head CT.",
+    "expected": {
+      "ct_intracranial_hemorrhage": false
+    },
+    "observed": {
+      "ct_intracranial_hemorrhage": false
+    },
+    "passed": true
+  },
+  {
+    "case": 2,
+    "text": "Current chest CT:\nNo PE or interstitial lung disease.",
+    "expected": {
+      "chest_ct_showed_pulmonary_thromboembolism": false,
+      "chest_ct_showed_ild": false
+    },
+    "observed": {
+      "chest_ct_showed_ild": false,
+      "chest_ct_showed_pulmonary_thromboembolism": false
+    },
+    "passed": true
+  },
+  {
+    "case": 3,
+    "text": "On today's chest CT there is no sign of a pulmonary embolus.",
+    "expected": {
+      "chest_ct_showed_pulmonary_thromboembolism": false
+    },
+    "observed": {
+      "chest_ct_showed_pulmonary_thromboembolism": false
+    },
+    "passed": true
+  },
+  {
+    "case": 4,
+    "text": "The scan protocol lists interstitial lung disease as an indication.",
+    "expected": {},
+    "observed": {},
+    "passed": true
+  },
+  {
+    "case": 5,
+    "text": "The patient receives nutrition via a feeding tube.",
+    "expected": {},
+    "observed": {},
+    "passed": true
+  },
+  {
+    "case": 6,
+    "text": "Admitted for monitoring. Transfer to the observation unit is under discussion.",
+    "expected": {},
+    "observed": {},
+    "passed": true
+  },
+  {
+    "case": 7,
+    "text": "She reports a family history of bleeding.",
+    "expected": {
+      "family_history_of_bleeding": true
+    },
+    "observed": {
+      "family_history_of_bleeding": true
+    },
+    "passed": true
+  },
+  {
+    "case": 8,
+    "text": "Her father is covered by social insurance. He is receiving systemic anticoagulation.",
+    "expected": {},
+    "observed": {},
+    "passed": true
+  },
+  {
+    "case": 9,
+    "text": "The patient is enrolled in social insurance.",
+    "expected": {
+      "has_social_insurance": true
+    },
+    "observed": {
+      "has_social_insurance": true
+    },
+    "passed": true
+  },
+  {
+    "case": 10,
+    "text": "WHO performance score of 2.",
+    "expected": {
+      "who_performance_status": 2
+    },
+    "observed": {
+      "who_performance_status": 2.0
+    },
+    "passed": true
+  },
+  {
+    "case": 11,
+    "text": "Performance status was felt to be good.",
+    "expected": {},
+    "observed": {},
+    "passed": true
+  },
+  {
+    "case": 12,
+    "text": "PaCO2 on arterial sampling was 30 mm Hg.",
+    "expected": {
+      "paco2_mmhg": 30
+    },
+    "observed": {
+      "paco2_mmhg": 30.0
+    },
+    "passed": true
+  },
+  {
+    "case": 13,
+    "text": "She continues to breastfeed her baby.",
+    "expected": {
+      "breastfeeding": true
+    },
+    "observed": {
+      "breastfeeding": true
+    },
+    "passed": true
+  },
+  {
+    "case": 14,
+    "text": "Patient was previously on artificial ventilation.",
+    "expected": {},
+    "observed": {},
+    "passed": true
+  },
+  {
+    "case": 15,
+    "text": "She is on artificial ventilation.",
+    "expected": {
+      "on_artificial_ventilation": true
+    },
+    "observed": {
+      "on_artificial_ventilation": true
+    },
+    "passed": true
+  },
+  {
+    "case": 16,
+    "text": "He has a documented history of early childhood bone marrow failure.",
+    "expected": {
+      "early_bone_marrow_failure_in_childhood": true
+    },
+    "observed": {
+      "early_bone_marrow_failure_in_childhood": true
+    },
+    "passed": true
+  },
+  {
+    "case": 17,
+    "text": "For study NCT02512159, the patient is using contraception judged adequate for this study.",
+    "expected": {
+      "adequate_contraception": true
+    },
+    "observed": {
+      "adequate_contraception": true
+    },
+    "passed": true
+  },
+  {
+    "case": 18,
+    "text": "The patient is using contraception judged adequate for this study.",
+    "expected": {},
+    "observed": {},
+    "passed": true
+  },
+  {
+    "case": 19,
+    "text": "Family history:\nShe is breastfeeding.\n\nCurrent head CT:\nNo cerebral edema.",
+    "expected": {
+      "ct_cerebral_edema": false
+    },
+    "observed": {
+      "ct_cerebral_edema": false
+    },
+    "passed": true
+  },
+  {
+    "case": 20,
+    "text": "Skin exam documented Fitzpatrick phototype II.",
+    "expected": {
+      "fitzpatrick_I": false,
+      "fitzpatrick_II": true,
+      "fitzpatrick_III": false
+    },
+    "observed": {
+      "fitzpatrick_III": false,
+      "fitzpatrick_I": false,
+      "fitzpatrick_II": true
+    },
+    "passed": true
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "sigir-20141": {
+    "unable_to_travel_for_treatment_or_followup": [false, [8]],
+    "woman": [true,[0]]
+  },
+  "sigir-20148": {
+    "symptoms_of_mild_cognitive_impairment": [false,[0,1]]
+  },
+  "sigir-20149": {
+    "visible_skin_disease": [true,[0,1,2]],
+    "skin_condition": [true,[0,1,2]],
+    "abnormal_skin_color": [true,[4]]
+  },
+  "sigir-201413": {
+    "refused_written_consent": [false,[6]]
+  }
+}

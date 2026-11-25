@@ -1,0 +1,40 @@
+[
+  {
+    "round": "pilot",
+    "patients": 10,
+    "trials": 15,
+    "rows": 36,
+    "binary": 4,
+    "binary_agree": 4,
+    "gold_binary": 30,
+    "exact_sentences": 2,
+    "original_exact_states": 10,
+    "revised_exact_states": 8,
+    "review_routes": {
+      "retrieve_record": 40,
+      "study_team": 3,
+      "protocol_review": 2,
+      "investigator": 2,
+      "patient": 2
+    },
+    "evidence_retained_unresolved": 1
+  },
+  {
+    "round": "holdout",
+    "patients": 10,
+    "trials": 16,
+    "rows": 35,
+    "binary": 1,
+    "binary_agree": 1,
+    "gold_binary": 24,
+    "exact_sentences": 0,
+    "original_exact_states": 11,
+    "revised_exact_states": 11,
+    "review_routes": {
+      "protocol_review": 3,
+      "retrieve_record": 44,
+      "investigator": 1
+    },
+    "evidence_retained_unresolved": 4
+  }
+]

@@ -1,0 +1,637 @@
+{
+  "115": {
+    "criteria": {
+      "115": {
+        "evidence": [],
+        "facts": {
+          "cutaneous_ulcer_due_to_insect_bite": {
+            "evidence": [],
+            "label": "cutaneous_ulcer_due_to_insect_bite",
+            "state": "MISSING_DATA",
+            "value": null
+          },
+          "cutaneous_ulcer_due_to_leishmania": {
+            "evidence": [],
+            "label": "cutaneous_ulcer_due_to_leishmania",
+            "state": "MISSING_DATA",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Negated protocol condition. Obtain cutaneous_ulcer_due_to_leishmania. Obtain cutaneous_ulcer_due_to_insect_bite.",
+        "state": "MISSING_DATA"
+      }
+    },
+    "new_evidence_backed_decisions": [],
+    "new_resource_versions": [],
+    "remaining_requests": [
+      {
+        "criteria": [
+          "115"
+        ],
+        "id": "154d3c889a2e744233c5d0cd0859f3d1dff6d07f3b4277276b282c50f10d7603",
+        "request": "cutaneous ulcer due to leishmania",
+        "route": "retrieve_record"
+      },
+      {
+        "criteria": [
+          "115"
+        ],
+        "id": "9571a54e5042b8f84fea9c429e2b9db59202c1939a2b747fd69302ff286a75d5",
+        "request": "cutaneous ulcer due to insect bite",
+        "route": "retrieve_record"
+      }
+    ],
+    "transitions": {
+      "115": {
+        "after": "MISSING_DATA",
+        "before": "MISSING_DATA",
+        "evidence": []
+      }
+    }
+  },
+  "116": {
+    "criteria": {
+      "116": {
+        "evidence": [],
+        "facts": {
+          "cutaneous_ulcer_due_to_burns": {
+            "evidence": [],
+            "label": "cutaneous_ulcer_due_to_burns",
+            "state": "MISSING_DATA",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Negated protocol condition. Obtain cutaneous_ulcer_due_to_burns.",
+        "state": "MISSING_DATA"
+      }
+    },
+    "new_evidence_backed_decisions": [],
+    "new_resource_versions": [],
+    "remaining_requests": [
+      {
+        "criteria": [
+          "116"
+        ],
+        "id": "293a59951d49fabb4c11380a8a1838ab323413c27ad9b0fccde76ee6ad9f8293",
+        "request": "cutaneous ulcer due to burns",
+        "route": "retrieve_record"
+      }
+    ],
+    "transitions": {
+      "116": {
+        "after": "MISSING_DATA",
+        "before": "MISSING_DATA",
+        "evidence": []
+      }
+    }
+  },
+  "239": {
+    "criteria": {
+      "239": {
+        "evidence": [],
+        "facts": {
+          "postmenopausal_woman": {
+            "evidence": [],
+            "label": "postmenopausal_woman",
+            "state": "MISSING_DATA",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Negated protocol condition. Obtain postmenopausal_woman.",
+        "state": "MISSING_DATA"
+      }
+    },
+    "new_evidence_backed_decisions": [],
+    "new_resource_versions": [],
+    "remaining_requests": [
+      {
+        "criteria": [
+          "239"
+        ],
+        "id": "eff0e47fdf0fc04182cfb4e2bc4ee0625b33e1be6290ecfc3c09c8066fc40ccb",
+        "request": "postmenopausal woman",
+        "route": "retrieve_record"
+      }
+    ],
+    "transitions": {
+      "239": {
+        "after": "MISSING_DATA",
+        "before": "MISSING_DATA",
+        "evidence": []
+      }
+    }
+  },
+  "25": {
+    "criteria": {
+      "25": {
+        "evidence": [],
+        "facts": {
+          "malignant_hypertension": {
+            "evidence": [],
+            "label": "malignant_hypertension",
+            "state": "MISSING_DATA",
+            "value": null
+          },
+          "secondary_hypertension": {
+            "evidence": [],
+            "label": "secondary_hypertension",
+            "state": "MISSING_DATA",
+            "value": null
+          },
+          "severe_hypertension": {
+            "evidence": [],
+            "label": "severe_hypertension",
+            "state": "MISSING_DATA",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Negated protocol condition. Obtain severe_hypertension. Obtain malignant_hypertension. Obtain secondary_hypertension.",
+        "state": "MISSING_DATA"
+      }
+    },
+    "new_evidence_backed_decisions": [],
+    "new_resource_versions": [],
+    "remaining_requests": [
+      {
+        "criteria": [
+          "25"
+        ],
+        "id": "013f1a455da5940df7c3440dba9e7071ae6e1a8de40f6bdab860d213f591e2cc",
+        "request": "severe hypertension",
+        "route": "retrieve_record"
+      },
+      {
+        "criteria": [
+          "25"
+        ],
+        "id": "9f048159e87e05d1f2074d415ee05bd20a46a7cd7cb24359e8993532bab988c4",
+        "request": "malignant hypertension",
+        "route": "retrieve_record"
+      },
+      {
+        "criteria": [
+          "25"
+        ],
+        "id": "a9731dc21f71ac2b1a27cdb8da53e150e8dff78024f7021e6396175ebfa32b02",
+        "request": "secondary hypertension",
+        "route": "retrieve_record"
+      }
+    ],
+    "transitions": {
+      "25": {
+        "after": "MISSING_DATA",
+        "before": "MISSING_DATA",
+        "evidence": []
+      }
+    }
+  },
+  "336": {
+    "criteria": {
+      "336": {
+        "evidence": [],
+        "facts": {
+          "consent_absent": {
+            "evidence": [],
+            "label": "consent_absent",
+            "state": "MISSING_DATA",
+            "value": null
+          },
+          "consent_refused": {
+            "evidence": [
+              "DocumentReference/src-f-ae5637d0825f63ba7fe88ac1/_history/1",
+              "Observation/obs-f-ae5637d0825f63ba7fe88ac1/_history/1"
+            ],
+            "label": "consent_refused",
+            "state": "AVAILABLE",
+            "value": false
+          }
+        },
+        "partial_evidence": [
+          "DocumentReference/src-f-ae5637d0825f63ba7fe88ac1/_history/1",
+          "Observation/obs-f-ae5637d0825f63ba7fe88ac1/_history/1"
+        ],
+        "reason": "Negated protocol condition. Obtain consent_absent.",
+        "state": "MISSING_DATA"
+      }
+    },
+    "new_evidence_backed_decisions": [],
+    "new_resource_versions": [],
+    "remaining_requests": [
+      {
+        "criteria": [
+          "336"
+        ],
+        "id": "664e19a4fca12a4258b4aa77671a7fd3896220a09be4d5a29b79ff0c99f9df7b",
+        "request": "consent absent",
+        "route": "retrieve_record"
+      }
+    ],
+    "transitions": {
+      "336": {
+        "after": "MISSING_DATA",
+        "before": "MISSING_DATA",
+        "evidence": []
+      }
+    }
+  },
+  "366": {
+    "criteria": {
+      "366": {
+        "evidence": [],
+        "facts": {
+          "blunt_abdominal_trauma": {
+            "evidence": [
+              "DocumentReference/src-f-c04d2449d8ce3dcff8211c91/_history/1",
+              "Observation/obs-f-c04d2449d8ce3dcff8211c91/_history/1"
+            ],
+            "label": "blunt_abdominal_trauma",
+            "state": "AVAILABLE",
+            "value": true
+          },
+          "open_laparotomy_required_for_abdominal_trauma_with_primary_closure": {
+            "evidence": [],
+            "label": "open_laparotomy_required_for_abdominal_trauma_with_primary_closure",
+            "state": "MISSING_DATA",
+            "value": null
+          },
+          "penetrating_abdominal_trauma": {
+            "evidence": [],
+            "label": "penetrating_abdominal_trauma",
+            "state": "MISSING_DATA",
+            "value": null
+          }
+        },
+        "partial_evidence": [
+          "DocumentReference/src-f-c04d2449d8ce3dcff8211c91/_history/1",
+          "Observation/obs-f-c04d2449d8ce3dcff8211c91/_history/1"
+        ],
+        "reason": "Obtain open_laparotomy_required_for_abdominal_trauma_with_primary_closure.",
+        "state": "MISSING_DATA"
+      }
+    },
+    "new_evidence_backed_decisions": [],
+    "new_resource_versions": [],
+    "remaining_requests": [
+      {
+        "criteria": [
+          "366"
+        ],
+        "id": "b9c8328aa7750b84b04cc423d4b5d2f11e75e7c5042192fddaf6efa1940467fa",
+        "request": "open laparotomy required for abdominal trauma with primary closure",
+        "route": "retrieve_record"
+      }
+    ],
+    "transitions": {
+      "366": {
+        "after": "MISSING_DATA",
+        "before": "MISSING_DATA",
+        "evidence": []
+      }
+    }
+  },
+  "367": {
+    "criteria": {
+      "367": {
+        "evidence": [],
+        "facts": {
+          "acute_surgical_abdomen": {
+            "evidence": [
+              "DocumentReference/src-f-5bd7f6d7b359e1ce75e1439f/_history/1",
+              "Observation/obs-f-5bd7f6d7b359e1ce75e1439f/_history/1"
+            ],
+            "label": "acute_surgical_abdomen",
+            "state": "AVAILABLE",
+            "value": true
+          },
+          "open_laparotomy_required_for_acute_surgical_abdomen_with_primary_closure": {
+            "evidence": [],
+            "label": "open_laparotomy_required_for_acute_surgical_abdomen_with_primary_closure",
+            "state": "MISSING_DATA",
+            "value": null
+          }
+        },
+        "partial_evidence": [
+          "DocumentReference/src-f-5bd7f6d7b359e1ce75e1439f/_history/1",
+          "Observation/obs-f-5bd7f6d7b359e1ce75e1439f/_history/1"
+        ],
+        "reason": "Obtain open_laparotomy_required_for_acute_surgical_abdomen_with_primary_closure.",
+        "state": "MISSING_DATA"
+      }
+    },
+    "new_evidence_backed_decisions": [],
+    "new_resource_versions": [],
+    "remaining_requests": [
+      {
+        "criteria": [
+          "367"
+        ],
+        "id": "2e5d93b6835071c961713e3892216491e529cbde1c0d999a72ebd128e8759228",
+        "request": "open laparotomy required for acute surgical abdomen with primary closure",
+        "route": "retrieve_record"
+      }
+    ],
+    "transitions": {
+      "367": {
+        "after": "MISSING_DATA",
+        "before": "MISSING_DATA",
+        "evidence": []
+      }
+    }
+  },
+  "385": {
+    "criteria": {
+      "385": {
+        "evidence": [],
+        "facts": {
+          "can_retain_oral_medication": {
+            "evidence": [],
+            "label": "can_retain_oral_medication",
+            "state": "MISSING_DATA",
+            "value": null
+          },
+          "can_take_oral_medication": {
+            "evidence": [],
+            "label": "can_take_oral_medication",
+            "state": "MISSING_DATA",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Obtain can_take_oral_medication. Obtain can_retain_oral_medication.",
+        "state": "MISSING_DATA"
+      }
+    },
+    "new_evidence_backed_decisions": [],
+    "new_resource_versions": [],
+    "remaining_requests": [
+      {
+        "criteria": [
+          "385"
+        ],
+        "id": "ca6365a2aaaf517cebaea3da898da3d5540d1121c982a7df08dde9ff06cfa5fa",
+        "request": "can take oral medication",
+        "route": "retrieve_record"
+      },
+      {
+        "criteria": [
+          "385"
+        ],
+        "id": "b6fd74942168c4d715511ab9d3756ac2675b5ee7cf13bf5502484f504c33ccb2",
+        "request": "can retain oral medication",
+        "route": "retrieve_record"
+      }
+    ],
+    "transitions": {
+      "385": {
+        "after": "MISSING_DATA",
+        "before": "MISSING_DATA",
+        "evidence": []
+      }
+    }
+  },
+  "460": {
+    "criteria": {
+      "460": {
+        "evidence": [],
+        "facts": {
+          "ct_cerebral_edema": {
+            "evidence": [],
+            "label": "ct_cerebral_edema",
+            "state": "MISSING_DATA",
+            "value": null
+          },
+          "ct_diffuse_axonal_injury": {
+            "evidence": [],
+            "label": "ct_diffuse_axonal_injury",
+            "state": "MISSING_DATA",
+            "value": null
+          },
+          "ct_intracranial_hemorrhage": {
+            "evidence": [],
+            "label": "ct_intracranial_hemorrhage",
+            "state": "MISSING_DATA",
+            "value": null
+          },
+          "gcs": {
+            "evidence": [
+              "DocumentReference/src-f-16580c0d06fe8c8e20d6ee79/_history/1",
+              "Observation/obs-f-16580c0d06fe8c8e20d6ee79/_history/1"
+            ],
+            "label": "gcs",
+            "state": "AVAILABLE",
+            "value": 6
+          },
+          "gcs_motor": {
+            "evidence": [],
+            "label": "gcs_motor",
+            "state": "MISSING_DATA",
+            "value": null
+          },
+          "normal_head_ct": {
+            "evidence": [],
+            "label": "normal_head_ct",
+            "state": "MISSING_DATA",
+            "value": null
+          },
+          "traumatic_brain_injury": {
+            "evidence": [
+              "DocumentReference/src-f-2d6c97437a9791a863c4f588/_history/1",
+              "Observation/obs-f-2d6c97437a9791a863c4f588/_history/1"
+            ],
+            "label": "traumatic_brain_injury",
+            "state": "AVAILABLE",
+            "value": true
+          }
+        },
+        "partial_evidence": [
+          "DocumentReference/src-f-16580c0d06fe8c8e20d6ee79/_history/1",
+          "DocumentReference/src-f-2d6c97437a9791a863c4f588/_history/1",
+          "Observation/obs-f-16580c0d06fe8c8e20d6ee79/_history/1",
+          "Observation/obs-f-2d6c97437a9791a863c4f588/_history/1"
+        ],
+        "reason": "Obtain ct_intracranial_hemorrhage. Obtain ct_cerebral_edema. Obtain ct_diffuse_axonal_injury. Obtain gcs_motor. Obtain normal_head_ct.",
+        "state": "MISSING_DATA"
+      }
+    },
+    "new_evidence_backed_decisions": [],
+    "new_resource_versions": [],
+    "remaining_requests": [
+      {
+        "criteria": [
+          "460"
+        ],
+        "id": "9f5d3950f144300c78d10ec82bf03c69713f17309419c1850bc7cbd41dcfc823",
+        "request": "ct intracranial hemorrhage",
+        "route": "retrieve_record"
+      },
+      {
+        "criteria": [
+          "460"
+        ],
+        "id": "03a12534dac8d878463e4cfaf33ac4fccf620805c73ed1ea8c4423f9f7f0874d",
+        "request": "ct cerebral edema",
+        "route": "retrieve_record"
+      },
+      {
+        "criteria": [
+          "460"
+        ],
+        "id": "b5d8748883d529b1406ea0e2b0679681556e0c88e05627ee007dab52dff40f1d",
+        "request": "ct diffuse axonal injury",
+        "route": "retrieve_record"
+      },
+      {
+        "criteria": [
+          "460"
+        ],
+        "id": "4d28db75b39a8e88cc38630ffd1ed1a40afa2a646a07a1cc1447a98f84eda681",
+        "request": "gcs motor",
+        "route": "retrieve_record"
+      },
+      {
+        "criteria": [
+          "460"
+        ],
+        "id": "69fdb7e0453b8dcc168fe918b535c27eee4bd2527b87e2e00d112a0c536081ff",
+        "request": "normal head ct",
+        "route": "retrieve_record"
+      }
+    ],
+    "transitions": {
+      "460": {
+        "after": "MISSING_DATA",
+        "before": "MISSING_DATA",
+        "evidence": []
+      }
+    }
+  },
+  "81": {
+    "criteria": {
+      "81": {
+        "evidence": [],
+        "facts": {
+          "active_severe_infection_between_screening_and_baseline": {
+            "evidence": [],
+            "label": "active_severe_infection_between_screening_and_baseline",
+            "state": "MISSING_DATA",
+            "value": null
+          },
+          "active_severe_infection_within_four_weeks_before_screening": {
+            "evidence": [],
+            "label": "active_severe_infection_within_four_weeks_before_screening",
+            "state": "MISSING_DATA",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Negated protocol condition. Obtain active_severe_infection_within_four_weeks_before_screening. Obtain active_severe_infection_between_screening_and_baseline.",
+        "state": "MISSING_DATA"
+      }
+    },
+    "new_evidence_backed_decisions": [],
+    "new_resource_versions": [],
+    "remaining_requests": [
+      {
+        "criteria": [
+          "81"
+        ],
+        "id": "2cf5ce5310b6ca957691e2b2a5e257e7771d6ac72c4d51177c4d5774895feb61",
+        "request": "active severe infection within four weeks before screening",
+        "route": "retrieve_record"
+      },
+      {
+        "criteria": [
+          "81"
+        ],
+        "id": "9ad986729d822943984f12dd13b3cb60ea18244578842b7fbb341575e949ae31",
+        "request": "active severe infection between screening and baseline",
+        "route": "retrieve_record"
+      }
+    ],
+    "transitions": {
+      "81": {
+        "after": "MISSING_DATA",
+        "before": "MISSING_DATA",
+        "evidence": []
+      }
+    }
+  },
+  "850": {
+    "criteria": {
+      "850": {
+        "evidence": [],
+        "facts": {
+          "asthma_exacerbations_per_week": {
+            "evidence": [],
+            "label": "asthma_exacerbations_per_week",
+            "state": "MISSING_DATA",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Negated protocol condition. Obtain asthma_exacerbations_per_week.",
+        "state": "MISSING_DATA"
+      }
+    },
+    "new_evidence_backed_decisions": [],
+    "new_resource_versions": [],
+    "remaining_requests": [
+      {
+        "criteria": [
+          "850"
+        ],
+        "id": "afd79fc7b26f1ba5b9cb36aab1719931906c8b122c0b41842180b0872beb351a",
+        "request": "asthma exacerbations per week",
+        "route": "retrieve_record"
+      }
+    ],
+    "transitions": {
+      "850": {
+        "after": "MISSING_DATA",
+        "before": "MISSING_DATA",
+        "evidence": []
+      }
+    }
+  },
+  "890": {
+    "criteria": {
+      "890": {
+        "evidence": [],
+        "facts": {
+          "cognitive_impairment_on_admission_screen": {
+            "evidence": [],
+            "label": "cognitive_impairment_on_admission_screen",
+            "state": "MISSING_DATA",
+            "value": null
+          }
+        },
+        "partial_evidence": [],
+        "reason": "Obtain cognitive_impairment_on_admission_screen.",
+        "state": "MISSING_DATA"
+      }
+    },
+    "new_evidence_backed_decisions": [],
+    "new_resource_versions": [],
+    "remaining_requests": [
+      {
+        "criteria": [
+          "890"
+        ],
+        "id": "1fa2f1363ff9fb2c48f0c7f97ec81e738a57fee80f7a435a79a0546a4b0e831e",
+        "request": "cognitive impairment on admission screen",
+        "route": "retrieve_record"
+      }
+    ],
+    "transitions": {
+      "890": {
+        "after": "MISSING_DATA",
+        "before": "MISSING_DATA",
+        "evidence": []
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "obesity": {
+    "code": "E66.9",
+    "display": "Obesity, unspecified"
+  },
+  "bipolar-disorder": {
+    "code": "F31.9",
+    "display": "Bipolar disorder, unspecified"
+  },
+  "hypothyroidism": {
+    "code": "E03.9",
+    "display": "Hypothyroidism, unspecified"
+  },
+  "common-variable-immunodeficiency": {
+    "code": "D83.9",
+    "display": "Common variable immunodeficiency, unspecified"
+  },
+  "iron-deficiency": {
+    "code": "E61.1",
+    "display": "Iron deficiency"
+  },
+  "leukopenia": {
+    "code": "D72.819",
+    "display": "Decreased white blood cell count, unspecified"
+  },
+  "thrombocytopenia": {
+    "code": "D69.6",
+    "display": "Thrombocytopenia, unspecified"
+  },
+  "psoriasis": {
+    "code": "L40.9",
+    "display": "Psoriasis, unspecified"
+  },
+  "allergic-rhinitis": {
+    "code": "J30.9",
+    "display": "Allergic rhinitis, unspecified"
+  }
+}

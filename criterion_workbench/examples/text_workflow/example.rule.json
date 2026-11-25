@@ -1,0 +1,187 @@
+{
+  "answers": [
+    {
+      "answer": "At screening, ECOG scores of 0, 1, or 2 qualify.",
+      "question": "Which ECOG performance status scores qualify a participant at the screening encounter?",
+      "question_id": "Q1",
+      "recorded_at": "2026-11-20T22:16:31.627968+00:00",
+      "reviewer": "Simulated study investigator"
+    }
+  ],
+  "authoring_review": {
+    "audit": {
+      "author": {
+        "citations": [
+          {
+            "quote": "Participants must meet the study's ECOG performance status requirement at screening.",
+            "source_id": "criterion"
+          },
+          {
+            "quote": "Measure ECOG performance status at the screening encounter.",
+            "source_id": "protocol"
+          },
+          {
+            "quote": "At screening, ECOG scores of 0, 1, or 2 qualify.",
+            "source_id": "answer:Q1"
+          }
+        ],
+        "expression": {
+          "fact": "ecog",
+          "op": "in",
+          "values": [
+            0,
+            1,
+            2
+          ]
+        },
+        "gaps": [],
+        "questions": [],
+        "reason": "The study clarification identifies screening ECOG scores of 0, 1, or 2 as qualifying.",
+        "status": "EXECUTABLE"
+      },
+      "author_instructions_sha256": "2cfbcf9e0739a74bf69c2aa9f1b34a378c3abd736fa1797f373ac2cc8da2f40d",
+      "bound_facts": [
+        "ecog"
+      ],
+      "catalog_sha256": "107e4d349f0789e8a9e144f6ee52bc9baef2de62ac1b5039550ef852fcfc02fb",
+      "gate_version": "text-author-gate-v1",
+      "provider": {
+        "transport": "command"
+      },
+      "source_sha256": "c17ece4f357ca47f317c716bd7008cd1e428ef6bd556a1e7a18078ce3d4cd73f",
+      "verification": {
+        "gaps": [],
+        "obligations": [
+          {
+            "coverage": "REPRESENTED",
+            "detail": "The expression checks the participant's screening ECOG score against the study-specific values supplied in the investigator's reply.",
+            "quote": "Participants must meet the study's ECOG performance status requirement at screening.",
+            "source_id": "criterion"
+          },
+          {
+            "coverage": "REPRESENTED",
+            "detail": "The ECOG fact resolves to this participant's score at the study screening encounter.",
+            "quote": "Measure ECOG performance status at the screening encounter.",
+            "source_id": "protocol"
+          },
+          {
+            "coverage": "CONTEXT",
+            "detail": "The original eligibility section left the qualifying values open. The investigator supplies them in the subsequent reply.",
+            "quote": "The supplied eligibility section gives no qualifying scores.",
+            "source_id": "protocol"
+          },
+          {
+            "coverage": "CONTEXT",
+            "detail": "The question establishes that the reply concerns numerical eligibility values for the screening ECOG measurement.",
+            "quote": "Which ECOG performance status scores qualify a participant at the screening encounter?",
+            "source_id": "question:Q1"
+          },
+          {
+            "coverage": "REPRESENTED",
+            "detail": "The membership expression accepts exactly {0, 1, 2} at screening, matching the study's reply.",
+            "quote": "At screening, ECOG scores of 0, 1, or 2 qualify.",
+            "source_id": "answer:Q1"
+          }
+        ],
+        "questions": [],
+        "reason": "Execution is appropriate. The bound measurement is the screening ECOG score and the expression tests the investigator's specified set {0, 1, 2}.",
+        "verdict": "PASS"
+      },
+      "verify_instructions_sha256": "7cb112cbd69aac51b1dfa534574e3bbecc5c35d3b6c86b7ac8d8bd830542d986"
+    },
+    "citations": [
+      {
+        "quote": "Participants must meet the study's ECOG performance status requirement at screening.",
+        "source_id": "criterion"
+      },
+      {
+        "quote": "Measure ECOG performance status at the screening encounter.",
+        "source_id": "protocol"
+      },
+      {
+        "quote": "At screening, ECOG scores of 0, 1, or 2 qualify.",
+        "source_id": "answer:Q1"
+      }
+    ],
+    "expression": {
+      "fact": "ecog",
+      "op": "in",
+      "values": [
+        0,
+        1,
+        2
+      ]
+    },
+    "gaps": [],
+    "questions": [],
+    "reason": "The study clarification identifies screening ECOG scores of 0, 1, or 2 as qualifying.",
+    "status": "EXECUTABLE"
+  },
+  "bindings": [
+    "ecog"
+  ],
+  "catalog": {
+    "facts": {
+      "age": {
+        "context": [
+          "screening Encounter.period.start",
+          "patient identity",
+          "snapshot cutoff"
+        ],
+        "key": "age",
+        "meaning": "Age in completed calendar years on screening date",
+        "status": "FHIR_native",
+        "value": "Patient.birthDate"
+      },
+      "ecog": {
+        "code": "89247-1",
+        "key": "ecog",
+        "meaning": "Screening ECOG performance status score",
+        "required_role": null,
+        "status": "LOINC_identity_verified_numeric_normalized",
+        "system": "http://loinc.org",
+        "type": "integer",
+        "value": "Observation.valueInteger"
+      }
+    },
+    "mode": "synthetic_research",
+    "sha256": "107e4d349f0789e8a9e144f6ee52bc9baef2de62ac1b5039550ef852fcfc02fb",
+    "source_sha256": "9be767125b04fec06365f01b1db36805cd1059d4148b13342f43ee5a17b0ab4d",
+    "version": "four-study-r4"
+  },
+  "citations": [
+    {
+      "quote": "Participants must meet the study's ECOG performance status requirement at screening.",
+      "source_id": "criterion"
+    },
+    {
+      "quote": "Measure ECOG performance status at the screening encounter.",
+      "source_id": "protocol"
+    },
+    {
+      "quote": "At screening, ECOG scores of 0, 1, or 2 qualify.",
+      "source_id": "answer:Q1"
+    }
+  ],
+  "expression": {
+    "fact": "ecog",
+    "op": "in",
+    "values": [
+      0,
+      1,
+      2
+    ]
+  },
+  "format": "pocketmd.bounded-rule.v1",
+  "id": "ANSWERED_WIDE",
+  "release": "research",
+  "sha256": "d400f7302a527520b90cc7eca97ccc0a864935e0eb3e4ca198eb100fbda18bed",
+  "sources": {
+    "answer:Q1": "At screening, ECOG scores of 0, 1, or 2 qualify.",
+    "criterion": "Participants must meet the study's ECOG performance status requirement at screening.",
+    "protocol": "Measure ECOG performance status at the screening encounter. The supplied eligibility section gives no qualifying scores.",
+    "question:Q1": "Which ECOG performance status scores qualify a participant at the screening encounter?"
+  },
+  "study": "DEMO-SARCOMA",
+  "version": "research-v1"
+}

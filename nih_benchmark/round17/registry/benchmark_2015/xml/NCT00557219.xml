@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="158511">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 16, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT00557219</url>
+  </required_header>
+  <id_info>
+    <org_study_id>AMG-NKEBN/225/2007</org_study_id>
+    <nct_id>NCT00557219</nct_id>
+  </id_info>
+  <brief_title>Fenoldopam and Ketanserin for Acute Kidney Failure Prevention After Cardiac Surgery</brief_title>
+  <official_title>Influence of Fenoldopam and Ketanserin on Function and Kidney Injury Parameters in Patients With Increased Risk of Acute Kidney Failure After Cardiac Surgery</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Medical University of Gdansk</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Medical University of Gdansk</source>
+  <oversight_info>
+    <authority>Poland: Ministry of Science and Higher Education</authority>
+    <has_dmc>No</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of the study is to compare the effect of fenoldopam and ketanserin on kidney
+      function preservation in patients at high risk for renal failure after cardiac surgery.
+      Acute, oliguric renal failure develops in up to 2% of patients undergoing cardiac surgery.
+      Some of them require renal replacement therapy and despite that mortality in this group
+      exceeds 30-60%. The investigators await that the use of fenoldopam and/or ketanserin may
+      decrease the rate of severe renal failure.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Informed, signed consent will be obtained from the patient before surgery. In patients with
+      acute consciousness disorders, the consent will be obtained from a legal representative and
+      confirmed by the local court - accordingly to Polish legacy.
+
+      Patients willing to participate into the study and fulfilling at least one of two inclusion
+      criteria will be randomly assigned to one of the three study groups. The treatment will be
+      applied for 24 hours.
+
+      Intention to treat analysis will include comparison for differences of continuous,
+      homogeneous distributed data with use of parametric tests, parametric or inhomogeneous
+      distributed data - with use of nonparametric tests. The treatment effect will be assessed by
+      comparison of the odds ratios for primary and secondary outcomes between the groups.
+    </textblock>
+  </detailed_description>
+  <overall_status>Suspended</overall_status>
+  <why_stopped>
+    Main cooperator finished cooperation
+  </why_stopped>
+  <start_date>April 2008</start_date>
+  <completion_date type="Anticipated">June 2016</completion_date>
+  <primary_completion_date type="Anticipated">December 2015</primary_completion_date>
+  <phase>Phase 3</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Allocation: Randomized, Endpoint Classification: Safety/Efficacy Study, Intervention Model: Parallel Assignment, Masking: Double Blind (Subject, Caregiver), Primary Purpose: Prevention</study_design>
+  <primary_outcome>
+    <measure>cystatin C and NGAL in serum</measure>
+    <time_frame>after 24 and 48 hours from treatment start</time_frame>
+    <safety_issue>Yes</safety_issue>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>β2microglobulin in urine</measure>
+    <time_frame>after 24, 48 and 72 hours of treatment</time_frame>
+    <safety_issue>Yes</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>creatinine increase in serum</measure>
+    <time_frame>after 24, 48 and 72 hours of treatment</time_frame>
+    <safety_issue>Yes</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>frequency of renal replacement therapy</measure>
+    <time_frame>7 days after surgery</time_frame>
+    <safety_issue>Yes</safety_issue>
+  </secondary_outcome>
+  <number_of_arms>3</number_of_arms>
+  <enrollment type="Anticipated">90</enrollment>
+  <condition>Acute Renal Failure</condition>
+  <arm_group>
+    <arm_group_label>P</arm_group_label>
+    <arm_group_type>Placebo Comparator</arm_group_type>
+    <description>Control group receiving placebo</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>K</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>patients receiving ketanserin infusion</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>F</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>patients receiving fenoldopam</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>fenoldopam (Corlopam)</intervention_name>
+    <description>continuous intravenous infusion of 0.3 μg/kg/min fenoldopam for 24 hours</description>
+    <arm_group_label>F</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>placebo</intervention_name>
+    <description>continuous intravenous infusion of 2 mL/hour of 0.9% natrium chloride solution for 24 hours</description>
+    <arm_group_label>P</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>ketanserin (Sufrexal)</intervention_name>
+    <description>continuous intravenous infusion 0.1 mg/kg/hour ketanserin for 24 hours</description>
+    <arm_group_label>K</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  cardiac surgery
+
+          -  at least one risk factor for acute renal failure:
+
+               1. oliguria &lt; 0.5 ml/kg/hour for over 3 hours despite adequate blood volume and
+                  furosemide intravenously
+
+               2. at least 60 mg furosemide/12 hours iv to maintain diuresis &gt; 1 ml/kg/hour
+
+        Exclusion Criteria:
+
+          -  refused or none consent
+
+          -  chronic renal failure with chronic renal replacement therapy
+
+          -  chronic increase of serum creatinine &gt; 2 mg/dl
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Katarzyna Klajbor, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Dept. of Cardiac Anesthesiology, Medical University of Gdańsk</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Romuald Lango, MD, PhD</last_name>
+    <role>Study Director</role>
+    <affiliation>Dept. of Cardiac Anesthesiology, Medical University of Gdańsk</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Department of Cadiac Anesthesiology, Medical University of Gdańsk</name>
+      <address>
+        <city>Gdańsk</city>
+        <zip>80-211</zip>
+        <country>Poland</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Department of Cardiac Anesthesiology, Medical University of Gdańsk</name>
+      <address>
+        <city>Gdańsk</city>
+        <zip>80-211</zip>
+        <country>Poland</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Poland</country>
+  </location_countries>
+  <link>
+    <url>http://www.informator.gumed.edu.pl/327</url>
+    <description>home page of the Dept. of Cardiac Anesthesiology, MUG</description>
+  </link>
+  <verification_date>April 2015</verification_date>
+  <lastchanged_date>April 9, 2015</lastchanged_date>
+  <firstreceived_date>November 9, 2007</firstreceived_date>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Medical University of Gdansk</investigator_affiliation>
+    <investigator_full_name>Maciej M. Kowalik</investigator_full_name>
+    <investigator_title>Dr.</investigator_title>
+  </responsible_party>
+  <keyword>cardiac surgery</keyword>
+  <keyword>fenoldopam</keyword>
+  <keyword>ketanserin</keyword>
+  <keyword>renal replacement therapy</keyword>
+  <is_fda_regulated>Yes</is_fda_regulated>
+  <is_section_801>Yes</is_section_801>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Acute Kidney Injury</mesh_term>
+    <mesh_term>Renal Insufficiency</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Fenoldopam</mesh_term>
+    <mesh_term>Ketanserin</mesh_term>
+  </intervention_browse>
+  <!-- Results have not yet been posted for this study                                -->
+</clinical_study>

@@ -1,0 +1,50 @@
+{
+  "export_1": {
+    "export_rows": 31,
+    "current_documents": 31,
+    "current_readable": 31,
+    "dispositions": {
+      "current_readable": 31
+    },
+    "requested_original_attachments": 0,
+    "chart_search": {
+      "transfusion": {
+        "passages_returned_cap_100": 0,
+        "distinct_documents_in_returned_set": 0
+      },
+      "INR": {
+        "passages_returned_cap_100": 0,
+        "distinct_documents_in_returned_set": 0
+      },
+      "filgrastim pegfilgrastim": {
+        "passages_returned_cap_100": 0,
+        "distinct_documents_in_returned_set": 0
+      }
+    }
+  },
+  "export_2": {
+    "export_rows": 109,
+    "current_documents": 67,
+    "current_readable": 49,
+    "dispositions": {
+      "current_unreadable": 18,
+      "withheld": 42,
+      "current_readable": 49
+    },
+    "requested_original_attachments": 18,
+    "chart_search": {
+      "transfusion": {
+        "passages_returned_cap_100": 10,
+        "distinct_documents_in_returned_set": 8
+      },
+      "INR": {
+        "passages_returned_cap_100": 0,
+        "distinct_documents_in_returned_set": 0
+      },
+      "filgrastim pegfilgrastim": {
+        "passages_returned_cap_100": 16,
+        "distinct_documents_in_returned_set": 16
+      }
+    }
+  }
+}

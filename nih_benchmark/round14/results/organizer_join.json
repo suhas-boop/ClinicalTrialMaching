@@ -1,0 +1,860 @@
+{
+  "sigir-20141": {
+    "source_note_sha256": "2f12c68c43f30f489cf4cd56b180bdde99acef642cdaeec017d7ad18a2d93202",
+    "same_case_check": "equal after whitespace and source formatting",
+    "description_sha256": "3a8906b5b969f2ed4ab1a98a998ff0b73a33cada82de40b1f7a813b8ad7b1807",
+    "supplement": null
+  },
+  "sigir-20142": {
+    "source_note_sha256": "190e19212725660d52bc5b51c635644cf2b6af8ff037128327d7563220118625",
+    "same_case_check": "equal after whitespace and source formatting",
+    "description_sha256": "7fdbbb7eddef80f6f497fdf4afdb97b9fe38672621acd49c7d6c27095ac95a0b",
+    "supplement": null
+  },
+  "sigir-20143": {
+    "source_note_sha256": "7db7b98d01354acf855cd7b610383ea9dd1df80ead35eeb47b9ba43467b559ad",
+    "same_case_check": "equal after whitespace and source formatting",
+    "description_sha256": "2eecccbbc99e1190a54d65f8d7529b2a76ff8760fe1ff86799eefb5c67835c23",
+    "supplement": null
+  },
+  "sigir-20144": {
+    "source_note_sha256": "b84f8404e9c22885aa68fdc3dcafea94221f249e77b257611aa12581d9195e7b",
+    "same_case_check": "equal after whitespace and source formatting",
+    "description_sha256": "4d385b45e27088b0303878dc5627d8a4ced6d967ecabc4d60534109ad4bed5e9",
+    "supplement": null
+  },
+  "sigir-20145": {
+    "source_note_sha256": "d1e5fa28bdd53b8bc93180a790d5c5c7ac11d6f27a58b0be97c1670d94045cf8",
+    "same_case_check": "equal after whitespace and source formatting",
+    "description_sha256": "00c0cb833ff091f190f236137fba557348523d6573702db12672705fdc43891b",
+    "supplement": null
+  },
+  "sigir-20146": {
+    "source_note_sha256": "22f6ea5a775d6019acbaea70d047802924963c446af7e6dc2e61ef9f88c0abe9",
+    "same_case_check": "equal after whitespace and source formatting",
+    "description_sha256": "9283f81107a553fc56139fbc1a1189fefd9a367e94683cc0844694fc8443a927",
+    "supplement": null
+  },
+  "sigir-20147": {
+    "source_note_sha256": "867d6d6173382ea0098563cdd4ba6bca14e5b05368f31b6aa0d696316fd9160b",
+    "same_case_check": "equal after whitespace and source formatting",
+    "description_sha256": "f861cfc775d6e605c1a2654f5521f686ac1a5936c7c30c9f293d3711fa2b5157",
+    "supplement": null
+  },
+  "sigir-20148": {
+    "source_note_sha256": "1223a13fef1f8204929da1d739cdd28442607067f1ab2ef56d02ea928dab2253",
+    "same_case_check": "equal after whitespace and source formatting",
+    "description_sha256": "bf233ea077c677b53b79b2218014ffa707ce27fe2ccf248ac1c6eef537825840",
+    "supplement": null
+  },
+  "sigir-20149": {
+    "source_note_sha256": "2092b6ca515b1931f317a278b8742d3598cf2e09c5e5cc0f6ff779618ecd8a32",
+    "same_case_check": "equal after whitespace and source formatting",
+    "description_sha256": "dcf05af3ed5e72436717e745dde208096be2d7f3fc004efe4aa1c88ce953f78b",
+    "supplement": null
+  },
+  "sigir-201410": {
+    "source_note_sha256": "d75a03711fc9b2a5995355dd47a4a7618bfc96838c461f73d2d687f0cd1abb8d",
+    "same_case_check": "equal after whitespace and source formatting",
+    "description_sha256": "d2ba2566d1d4276695793ff99adfc81894f63290b93ffcd02f7c481acd1b63ba",
+    "supplement": null
+  },
+  "sigir-201411": {
+    "source_note_sha256": "db4467fa7cba03819df27445f2090c80d6acd145a3361057f24a2fb5877aaec1",
+    "same_case_check": "equal after whitespace and source formatting",
+    "description_sha256": "2358c48ad1a38e6e34b254dd5a64fdcc47a3000806a99cbd9832ff5d48ddfdde",
+    "supplement": null
+  },
+  "sigir-201412": {
+    "source_note_sha256": "a0eac65bc8ed1f16677856cb71a94f7da8d1202cd92ef1c5ffc0e912f9ac0020",
+    "same_case_check": "equal after whitespace and source formatting",
+    "description_sha256": "3bc26b037ff11ea3662db18341c4fc269f1a526900281260a33de2a2e2777fef",
+    "supplement": null
+  },
+  "sigir-201413": {
+    "source_note_sha256": "2c46cae14a71d4b21ec7a1e407c6049b8d4f6f766d29508adcfd33d4172d2b54",
+    "same_case_check": "equal after whitespace and source formatting",
+    "description_sha256": "09334c33da2b03b0890d83ba4640c6e1778a3dade106b6e42ad855c0746013a1",
+    "supplement": null
+  },
+  "sigir-201414": {
+    "source_note_sha256": "907ec481451b6bd039e1d00846ab29534a5a5dc42174521b3ee1bd25b2f4d7ea",
+    "same_case_check": "equal after whitespace and source formatting",
+    "description_sha256": "586588d1d452eabdfe13efd6e073fb94d62e822c61ba61ae73295cdb6ece0ab3",
+    "supplement": null
+  },
+  "sigir-201415": {
+    "source_note_sha256": "7b48f13174fdecd15aa559fbbd74cd92129139b36b7967ee727b622d21f891c6",
+    "same_case_check": "equal after whitespace and source formatting",
+    "description_sha256": "8fa0cda2ecb4124d1773d89ec2a2ad8d32a5785c8d17160ae5840fab9ceb05d4",
+    "supplement": null
+  },
+  "sigir-201416": {
+    "source_note_sha256": "643583196e97fc5cbfe959ade358e47a6a450495bd0c90531af44b485d536e4f",
+    "same_case_check": "equal after whitespace and source formatting",
+    "description_sha256": "b020dc7b977da248e44a9dd404c9a70d2894ae4edecb4f9aece98ef9feb18e78",
+    "supplement": null
+  },
+  "sigir-201417": {
+    "source_note_sha256": "844349228fe841ce2694e062a791d890bf1ec69be986c3274ce2f92b88d12679",
+    "same_case_check": "equal after whitespace and source formatting",
+    "description_sha256": "3e8a1941060d7a8c499c41880277ef714197723e4f5f7bab9434fe3352605da8",
+    "supplement": null
+  },
+  "sigir-201418": {
+    "source_note_sha256": "45c7d130440b3c40921fc87377a04f39e7ddbc476aabda31592b467122d21f32",
+    "same_case_check": "equal after whitespace and source formatting",
+    "description_sha256": "07a7599fd01646bfd4b1d45f4f91d6d3281a63d63896bf6a5768ac5ac89a9f51",
+    "supplement": null
+  },
+  "sigir-201419": {
+    "source_note_sha256": "fba0e3ed73e228dbe2f6761be1b0d5bffb98dad13d43c66538cce256d9fe2d81",
+    "same_case_check": "equal after whitespace and source formatting",
+    "description_sha256": "822e6f04c335437f86184fdc87bf080e640d95ab754af95f0a7c22b2c87f1506",
+    "supplement": null
+  },
+  "sigir-201420": {
+    "source_note_sha256": "d8155cb491f1c6e54e280188d7b8e7e2d4526ff0bf14bafb246daf8a3a76ed83",
+    "same_case_check": "equal after whitespace and source formatting",
+    "description_sha256": "e848d1c586b77b6db481a10d35a3bb4e9fc1ca04fe519104f6c2c620d1dfa134",
+    "supplement": null
+  },
+  "sigir-201421": {
+    "source_note_sha256": "5a9a482e5e1a855f91d433f92f8171f5ad2ae2feb5c2c6c5cdffe3511d13c5e7",
+    "same_case_check": "equal after whitespace and source formatting",
+    "description_sha256": "0d16c57d01871b4e5915d3b11c3f906a92ab77e6d81c436a02c8147e3b28e0bc",
+    "supplement": {
+      "wording": "lupus",
+      "locator": "Example treatment topic, paragraph immediately after examples table",
+      "source_url": "https://trec-cds.org/2015.html",
+      "source_sha256": "2c64eda9900fed3f0c09f269dfad41ae4f50c1c1af3321bc8e137869af130f69",
+      "fhir": {
+        "resourceType": "DocumentReference",
+        "id": "sigir-201421-trec-diagnosis",
+        "status": "current",
+        "subject": {
+          "reference": "Patient/sigir-201421"
+        },
+        "type": {
+          "text": "TREC organizer-supplied synthetic vignette diagnosis"
+        },
+        "description": "Supplemental research-source diagnosis",
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/plain",
+              "data": "bHVwdXM=",
+              "title": "Example treatment topic, paragraph immediately after examples table"
+            }
+          }
+        ],
+        "context": {
+          "related": [
+            {
+              "identifier": {
+                "system": "https://trec-cds.org/2015.html",
+                "value": "2c64eda9900fed3f0c09f269dfad41ae4f50c1c1af3321bc8e137869af130f69"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "sigir-201422": {
+    "source_note_sha256": "804fec507dd57e54c001abd21546a58f0fdaaed3b9d153d2fcdad7a6d4f3b411",
+    "same_case_check": "equal after whitespace and source formatting",
+    "description_sha256": "4ea50e3717ce55cd9afdb663d39caa5a840197d0ae0e5402ba6853dfdb2a254a",
+    "supplement": null
+  },
+  "sigir-201423": {
+    "source_note_sha256": "8e530421201a2a4d556991baa714d579a84687eaa8b991ed837e5d05f0365d5f",
+    "same_case_check": "equal after whitespace and source formatting",
+    "description_sha256": "c663a760ee80d20446483c21b4d82536d6beaefbcc7591c9bcceda8509a38aae",
+    "supplement": null
+  },
+  "sigir-201424": {
+    "source_note_sha256": "c793d7320c8a16a8c71b768394696ee0f2b478b6157e1ef6a06afca6842d300e",
+    "same_case_check": "equal after whitespace and source formatting",
+    "description_sha256": "f5ef8fc12641017f7f6b38abf24563f1b5a040ddcd3665dd7a8004b4987a2949",
+    "supplement": null
+  },
+  "sigir-201425": {
+    "source_note_sha256": "5b417970f16785d4e7019681dd5b4d5656d774dad0c859520884c165ef16ec87",
+    "same_case_check": "equal after whitespace and source formatting",
+    "description_sha256": "3f0591148337555fb1b435571be07c3e6edf07976eb60a2791f008eba156326a",
+    "supplement": null
+  },
+  "sigir-201426": {
+    "source_note_sha256": "6450a46fdea7dd8d7b314e62295bcdef612fdb730a2a4eebb77c5a3c2cd9136d",
+    "same_case_check": "equal after whitespace and source formatting",
+    "description_sha256": "2a036304b8bb797c9a439caaa571bce890ba794af4e05c2f78bf5aa9206f3000",
+    "supplement": null
+  },
+  "sigir-201427": {
+    "source_note_sha256": "01945d0051cbf9d8ce14afd398b15c5587d600aa5dea251561509793d615f273",
+    "same_case_check": "equal after whitespace and source formatting",
+    "description_sha256": "0ef9cfbe8b54de91be9b130ed18365190f741309a06bee71be549c7b5cf92c41",
+    "supplement": null
+  },
+  "sigir-201429": {
+    "source_note_sha256": "1b49e38d288e460273b88ee9ee278e1b9abb7d1ee81c1083f367eaf02445df35",
+    "same_case_check": "equal after whitespace and source formatting",
+    "description_sha256": "e087d66bc21b6b80c027b0b00d1ab53fbd4fc4539575e5291b191d3094422c4a",
+    "supplement": null
+  },
+  "sigir-201430": {
+    "source_note_sha256": "50630321ca620a55842aff122934ae739f2d97132998b99c267a265e2e68e91a",
+    "same_case_check": "equal after whitespace and source formatting",
+    "description_sha256": "bb30db1ba8d892711e4c8fb58fa4052d83404ba3e0c017c3ea8f7429516c3d88",
+    "supplement": null
+  },
+  "sigir-20151": {
+    "source_note_sha256": "90feb6e2e42b1dda71b8a19974faa30b3a05570b5a27035a6f244848e689f105",
+    "same_case_check": "equal after whitespace and source formatting",
+    "description_sha256": "9761eda6e05e84fb217d20ba87b976ff45c4c505cfd1c8040f1f288dfaa6b9bc",
+    "supplement": null
+  },
+  "sigir-20152": {
+    "source_note_sha256": "729282c78e0b6264ee635f264fcae46cf81433959399a4675064cd5ecbfbf7f1",
+    "same_case_check": "equal after whitespace and source formatting",
+    "description_sha256": "4af5d37561742eb52e5d4d25b5915e76c20d7418bf9d2fc1dfd4ae22c2ecb02b",
+    "supplement": null
+  },
+  "sigir-20153": {
+    "source_note_sha256": "ab965a81fb09dd678da825d447c82ac9e9ef4577ea2241d448e4bbdbbfa4e5d2",
+    "same_case_check": "equal after whitespace and source formatting",
+    "description_sha256": "1fee2ab2ca82d3a600d3d36c935bd3838324a158f0720f2a252202aa1ae36325",
+    "supplement": null
+  },
+  "sigir-20154": {
+    "source_note_sha256": "3204ac56adccfb3970430cc9b6db59409a40cd1a9e5a9356898e4704025299da",
+    "same_case_check": "equal after whitespace and source formatting",
+    "description_sha256": "0ef17ea7ee08cd632f5bf989b4f69258ddc8ff20f9776da1115b25bb622aea48",
+    "supplement": null
+  },
+  "sigir-20155": {
+    "source_note_sha256": "dc66fde02c18dfef2a5d0c3563306ffb66e7eeb529d159cff2ef5a8bdbde2392",
+    "same_case_check": "equal after whitespace and source formatting",
+    "description_sha256": "d619d3088814b5aaf8292f5b9140bc65000c22354b1d1c9acad7c5156b2dc845",
+    "supplement": null
+  },
+  "sigir-20156": {
+    "source_note_sha256": "e74a17dee86c2d8c5929fdac4c0c4a5cae04b7b613cb1c0b1ce54932935fc503",
+    "same_case_check": "equal after whitespace and source formatting",
+    "description_sha256": "029f27cf67fac35c024c50b346a9c1d5b21d1c796388a691a136d2598c997327",
+    "supplement": null
+  },
+  "sigir-20157": {
+    "source_note_sha256": "b569f430e2ef49379ddb6718ccd02d076ca5f5a20a5e833e0f3101a2cfb337dc",
+    "same_case_check": "equal after whitespace and source formatting",
+    "description_sha256": "4e94711f245a71d3824e2f564a0e99fd8abf47424d9b1863d88bda7758e9f0f9",
+    "supplement": null
+  },
+  "sigir-20158": {
+    "source_note_sha256": "bba683821c51879e759da5dedbd18a0c55920a288edf1aa0dbfa5bb2e71c923b",
+    "same_case_check": "equal after whitespace and source formatting",
+    "description_sha256": "4360f6667340cf3fff977e66243024e21f2d836c97d1d04676820cbb65e22883",
+    "supplement": null
+  },
+  "sigir-20159": {
+    "source_note_sha256": "221c2ba0b61e868ad7e8302f878ff5f07b5a25675dc93719a91edb031e643c6f",
+    "same_case_check": "equal after whitespace and source formatting",
+    "description_sha256": "0caf63355d31ddb4350070daa5e7040ed9463b4e0b8efe4183858593ff70ce2e",
+    "supplement": null
+  },
+  "sigir-201510": {
+    "source_note_sha256": "3063f3a37fe14e1c9fc7388b6f384f234f989cf0a5282294b72aa98f1ca4542d",
+    "same_case_check": "equal after whitespace and source formatting",
+    "description_sha256": "d7ede978402d185323fba0552a441613b9d6663e233f6e5c026c262e372e894b",
+    "supplement": null
+  },
+  "sigir-201511": {
+    "source_note_sha256": "ad0a2bc2a07981a7a1ba8f2f29c053736de00c07c9451a895e308e0eb5f2550a",
+    "same_case_check": "equal after whitespace and source formatting",
+    "description_sha256": "737486acd9fc0e128b62e7f0c2f9bde2a0777572a6a969a0ef6715a360d35837",
+    "supplement": {
+      "wording": "Hypothyroidism",
+      "locator": "/topics/topic[@number='11']/diagnosis",
+      "source_url": "https://trec-cds.org/topics2015B.xml",
+      "source_sha256": "7bc4bbe801f9d1ada3574aa7be5a8b0ccd20594a957f6feda38f378e93ff67ee",
+      "fhir": {
+        "resourceType": "DocumentReference",
+        "id": "sigir-201511-trec-diagnosis",
+        "status": "current",
+        "subject": {
+          "reference": "Patient/sigir-201511"
+        },
+        "type": {
+          "text": "TREC organizer-supplied synthetic vignette diagnosis"
+        },
+        "description": "Supplemental research-source diagnosis",
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/plain",
+              "data": "SHlwb3RoeXJvaWRpc20=",
+              "title": "/topics/topic[@number='11']/diagnosis"
+            }
+          }
+        ],
+        "context": {
+          "related": [
+            {
+              "identifier": {
+                "system": "https://trec-cds.org/topics2015B.xml",
+                "value": "7bc4bbe801f9d1ada3574aa7be5a8b0ccd20594a957f6feda38f378e93ff67ee"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "sigir-201512": {
+    "source_note_sha256": "302503e596b522c6e7b968016369eb43b97294996317a74204fc59fb4420716d",
+    "same_case_check": "equal after whitespace and source formatting",
+    "description_sha256": "8f0ef86233426410669ccd2359ffa5b20bec5aba42a010ffb75a6a39f6b05917",
+    "supplement": {
+      "wording": "Bacterial Meningitis",
+      "locator": "/topics/topic[@number='12']/diagnosis",
+      "source_url": "https://trec-cds.org/topics2015B.xml",
+      "source_sha256": "7bc4bbe801f9d1ada3574aa7be5a8b0ccd20594a957f6feda38f378e93ff67ee",
+      "fhir": {
+        "resourceType": "DocumentReference",
+        "id": "sigir-201512-trec-diagnosis",
+        "status": "current",
+        "subject": {
+          "reference": "Patient/sigir-201512"
+        },
+        "type": {
+          "text": "TREC organizer-supplied synthetic vignette diagnosis"
+        },
+        "description": "Supplemental research-source diagnosis",
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/plain",
+              "data": "QmFjdGVyaWFsIE1lbmluZ2l0aXM=",
+              "title": "/topics/topic[@number='12']/diagnosis"
+            }
+          }
+        ],
+        "context": {
+          "related": [
+            {
+              "identifier": {
+                "system": "https://trec-cds.org/topics2015B.xml",
+                "value": "7bc4bbe801f9d1ada3574aa7be5a8b0ccd20594a957f6feda38f378e93ff67ee"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "sigir-201513": {
+    "source_note_sha256": "8256e4d7930784d1b684dac38452c2fb341f2154a06225db56a4ae28cd33eed7",
+    "same_case_check": "equal after whitespace and source formatting",
+    "description_sha256": "e4ff03a472824fe512e8fa6851997c58f0ee29a7bf27a2783a4fc59651a86917",
+    "supplement": {
+      "wording": "Epiglottitis",
+      "locator": "/topics/topic[@number='13']/diagnosis",
+      "source_url": "https://trec-cds.org/topics2015B.xml",
+      "source_sha256": "7bc4bbe801f9d1ada3574aa7be5a8b0ccd20594a957f6feda38f378e93ff67ee",
+      "fhir": {
+        "resourceType": "DocumentReference",
+        "id": "sigir-201513-trec-diagnosis",
+        "status": "current",
+        "subject": {
+          "reference": "Patient/sigir-201513"
+        },
+        "type": {
+          "text": "TREC organizer-supplied synthetic vignette diagnosis"
+        },
+        "description": "Supplemental research-source diagnosis",
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/plain",
+              "data": "RXBpZ2xvdHRpdGlz",
+              "title": "/topics/topic[@number='13']/diagnosis"
+            }
+          }
+        ],
+        "context": {
+          "related": [
+            {
+              "identifier": {
+                "system": "https://trec-cds.org/topics2015B.xml",
+                "value": "7bc4bbe801f9d1ada3574aa7be5a8b0ccd20594a957f6feda38f378e93ff67ee"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "sigir-201514": {
+    "source_note_sha256": "15f4ae4ac277be2315b46530d91485319f9c8d9e955b44706864e5ddd54b3c53",
+    "same_case_check": "equal after whitespace and source formatting",
+    "description_sha256": "851b0eb7d8f59076aa9123ab51796eebeae1b11338f50ba9cf08a88e7e4430a7",
+    "supplement": {
+      "wording": "Paroxysmal nocturnal hemoglobinuria",
+      "locator": "/topics/topic[@number='14']/diagnosis",
+      "source_url": "https://trec-cds.org/topics2015B.xml",
+      "source_sha256": "7bc4bbe801f9d1ada3574aa7be5a8b0ccd20594a957f6feda38f378e93ff67ee",
+      "fhir": {
+        "resourceType": "DocumentReference",
+        "id": "sigir-201514-trec-diagnosis",
+        "status": "current",
+        "subject": {
+          "reference": "Patient/sigir-201514"
+        },
+        "type": {
+          "text": "TREC organizer-supplied synthetic vignette diagnosis"
+        },
+        "description": "Supplemental research-source diagnosis",
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/plain",
+              "data": "UGFyb3h5c21hbCBub2N0dXJuYWwgaGVtb2dsb2JpbnVyaWE=",
+              "title": "/topics/topic[@number='14']/diagnosis"
+            }
+          }
+        ],
+        "context": {
+          "related": [
+            {
+              "identifier": {
+                "system": "https://trec-cds.org/topics2015B.xml",
+                "value": "7bc4bbe801f9d1ada3574aa7be5a8b0ccd20594a957f6feda38f378e93ff67ee"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "sigir-201515": {
+    "source_note_sha256": "b25bac4dfc715f73e9ef9852088829e3c77bbbefdf498bdb34e5f4b5b5265a30",
+    "same_case_check": "equal after whitespace and source formatting",
+    "description_sha256": "1257e3d51346123b8d4f2536d040adf7f261c0536642fc9def89a5983bc4d7d4",
+    "supplement": {
+      "wording": "Paroxysmal  atrial fibrillation",
+      "locator": "/topics/topic[@number='15']/diagnosis",
+      "source_url": "https://trec-cds.org/topics2015B.xml",
+      "source_sha256": "7bc4bbe801f9d1ada3574aa7be5a8b0ccd20594a957f6feda38f378e93ff67ee",
+      "fhir": {
+        "resourceType": "DocumentReference",
+        "id": "sigir-201515-trec-diagnosis",
+        "status": "current",
+        "subject": {
+          "reference": "Patient/sigir-201515"
+        },
+        "type": {
+          "text": "TREC organizer-supplied synthetic vignette diagnosis"
+        },
+        "description": "Supplemental research-source diagnosis",
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/plain",
+              "data": "UGFyb3h5c21hbCAgYXRyaWFsIGZpYnJpbGxhdGlvbg==",
+              "title": "/topics/topic[@number='15']/diagnosis"
+            }
+          }
+        ],
+        "context": {
+          "related": [
+            {
+              "identifier": {
+                "system": "https://trec-cds.org/topics2015B.xml",
+                "value": "7bc4bbe801f9d1ada3574aa7be5a8b0ccd20594a957f6feda38f378e93ff67ee"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "sigir-201516": {
+    "source_note_sha256": "73647117726ddf0a51bed80ad37b62461c236078840c12fe1d5ed52cf506724a",
+    "same_case_check": "equal after whitespace and source formatting",
+    "description_sha256": "8c2a6e1a98e68065a880dfb46879144dd6d9b8cba715a9de502d082b9535284b",
+    "supplement": {
+      "wording": "Foreign Body Aspiration",
+      "locator": "/topics/topic[@number='16']/diagnosis",
+      "source_url": "https://trec-cds.org/topics2015B.xml",
+      "source_sha256": "7bc4bbe801f9d1ada3574aa7be5a8b0ccd20594a957f6feda38f378e93ff67ee",
+      "fhir": {
+        "resourceType": "DocumentReference",
+        "id": "sigir-201516-trec-diagnosis",
+        "status": "current",
+        "subject": {
+          "reference": "Patient/sigir-201516"
+        },
+        "type": {
+          "text": "TREC organizer-supplied synthetic vignette diagnosis"
+        },
+        "description": "Supplemental research-source diagnosis",
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/plain",
+              "data": "Rm9yZWlnbiBCb2R5IEFzcGlyYXRpb24=",
+              "title": "/topics/topic[@number='16']/diagnosis"
+            }
+          }
+        ],
+        "context": {
+          "related": [
+            {
+              "identifier": {
+                "system": "https://trec-cds.org/topics2015B.xml",
+                "value": "7bc4bbe801f9d1ada3574aa7be5a8b0ccd20594a957f6feda38f378e93ff67ee"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "sigir-201517": {
+    "source_note_sha256": "979c0084e926434300939d9f6de81d59a3b40298094903699048867268e703b4",
+    "same_case_check": "equal after whitespace and source formatting",
+    "description_sha256": "efd2585ef2e197a7126f9a628eb51251a5f90f06c4746ea1610800bf82ab4dba",
+    "supplement": {
+      "wording": "Cervical Cancer precursor",
+      "locator": "/topics/topic[@number='17']/diagnosis",
+      "source_url": "https://trec-cds.org/topics2015B.xml",
+      "source_sha256": "7bc4bbe801f9d1ada3574aa7be5a8b0ccd20594a957f6feda38f378e93ff67ee",
+      "fhir": {
+        "resourceType": "DocumentReference",
+        "id": "sigir-201517-trec-diagnosis",
+        "status": "current",
+        "subject": {
+          "reference": "Patient/sigir-201517"
+        },
+        "type": {
+          "text": "TREC organizer-supplied synthetic vignette diagnosis"
+        },
+        "description": "Supplemental research-source diagnosis",
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/plain",
+              "data": "Q2VydmljYWwgQ2FuY2VyIHByZWN1cnNvcg==",
+              "title": "/topics/topic[@number='17']/diagnosis"
+            }
+          }
+        ],
+        "context": {
+          "related": [
+            {
+              "identifier": {
+                "system": "https://trec-cds.org/topics2015B.xml",
+                "value": "7bc4bbe801f9d1ada3574aa7be5a8b0ccd20594a957f6feda38f378e93ff67ee"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "sigir-201518": {
+    "source_note_sha256": "c9b60d817b819ef688a8af674b13ecacd17ce2e9814b2bb70bc50bf5368afb3e",
+    "same_case_check": "equal after whitespace and source formatting",
+    "description_sha256": "0795d9aa7e165b910469da27220423aa472f4909d5c1ace45347595cc178924f",
+    "supplement": {
+      "wording": "Congestive Heart Failure",
+      "locator": "/topics/topic[@number='18']/diagnosis",
+      "source_url": "https://trec-cds.org/topics2015B.xml",
+      "source_sha256": "7bc4bbe801f9d1ada3574aa7be5a8b0ccd20594a957f6feda38f378e93ff67ee",
+      "fhir": {
+        "resourceType": "DocumentReference",
+        "id": "sigir-201518-trec-diagnosis",
+        "status": "current",
+        "subject": {
+          "reference": "Patient/sigir-201518"
+        },
+        "type": {
+          "text": "TREC organizer-supplied synthetic vignette diagnosis"
+        },
+        "description": "Supplemental research-source diagnosis",
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/plain",
+              "data": "Q29uZ2VzdGl2ZSBIZWFydCBGYWlsdXJl",
+              "title": "/topics/topic[@number='18']/diagnosis"
+            }
+          }
+        ],
+        "context": {
+          "related": [
+            {
+              "identifier": {
+                "system": "https://trec-cds.org/topics2015B.xml",
+                "value": "7bc4bbe801f9d1ada3574aa7be5a8b0ccd20594a957f6feda38f378e93ff67ee"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "sigir-201519": {
+    "source_note_sha256": "60a50aacf31f1a63f39e24bd573539248dbf4d7f81b2f44a7a6a20d7ce121df4",
+    "same_case_check": "equal after whitespace and source formatting",
+    "description_sha256": "d75a534c305729b5079cfd5622adde2829b09064176b0f8f2a54b45a665b058e",
+    "supplement": {
+      "wording": "Chronic Obstructive Pulmonary Disease",
+      "locator": "/topics/topic[@number='19']/diagnosis",
+      "source_url": "https://trec-cds.org/topics2015B.xml",
+      "source_sha256": "7bc4bbe801f9d1ada3574aa7be5a8b0ccd20594a957f6feda38f378e93ff67ee",
+      "fhir": {
+        "resourceType": "DocumentReference",
+        "id": "sigir-201519-trec-diagnosis",
+        "status": "current",
+        "subject": {
+          "reference": "Patient/sigir-201519"
+        },
+        "type": {
+          "text": "TREC organizer-supplied synthetic vignette diagnosis"
+        },
+        "description": "Supplemental research-source diagnosis",
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/plain",
+              "data": "Q2hyb25pYyBPYnN0cnVjdGl2ZSBQdWxtb25hcnkgRGlzZWFzZQ==",
+              "title": "/topics/topic[@number='19']/diagnosis"
+            }
+          }
+        ],
+        "context": {
+          "related": [
+            {
+              "identifier": {
+                "system": "https://trec-cds.org/topics2015B.xml",
+                "value": "7bc4bbe801f9d1ada3574aa7be5a8b0ccd20594a957f6feda38f378e93ff67ee"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "sigir-201520": {
+    "source_note_sha256": "9ed9c14c2723cba661bb535697b68507aec18368dfe8d62b158d7f7a171ec572",
+    "same_case_check": "equal after formatting and temperature degree-symbol normalization",
+    "description_sha256": "dd8f740946d59b211a563f631f307fb773ab54582a37f55cb88e7023892f47bd",
+    "supplement": {
+      "wording": "Creutzfeldt-Jakob disease",
+      "locator": "/topics/topic[@number='20']/diagnosis",
+      "source_url": "https://trec-cds.org/topics2015B.xml",
+      "source_sha256": "7bc4bbe801f9d1ada3574aa7be5a8b0ccd20594a957f6feda38f378e93ff67ee",
+      "fhir": {
+        "resourceType": "DocumentReference",
+        "id": "sigir-201520-trec-diagnosis",
+        "status": "current",
+        "subject": {
+          "reference": "Patient/sigir-201520"
+        },
+        "type": {
+          "text": "TREC organizer-supplied synthetic vignette diagnosis"
+        },
+        "description": "Supplemental research-source diagnosis",
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/plain",
+              "data": "Q3JldXR6ZmVsZHQtSmFrb2IgZGlzZWFzZQ==",
+              "title": "/topics/topic[@number='20']/diagnosis"
+            }
+          }
+        ],
+        "context": {
+          "related": [
+            {
+              "identifier": {
+                "system": "https://trec-cds.org/topics2015B.xml",
+                "value": "7bc4bbe801f9d1ada3574aa7be5a8b0ccd20594a957f6feda38f378e93ff67ee"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "sigir-201521": {
+    "source_note_sha256": "a3240c50f76b44e38d31c080058f4d94551935e9bd80c531bf490121a5c76e60",
+    "same_case_check": "equal after whitespace and source formatting",
+    "description_sha256": "98898e5b30b82a2e22f885244fd9d3e1ff84732e3ac22586600f660892f72fbe",
+    "supplement": {
+      "wording": "Giardiasis",
+      "locator": "/topics/topic[@number='21']/diagnosis",
+      "source_url": "https://trec-cds.org/topics2015B.xml",
+      "source_sha256": "7bc4bbe801f9d1ada3574aa7be5a8b0ccd20594a957f6feda38f378e93ff67ee",
+      "fhir": {
+        "resourceType": "DocumentReference",
+        "id": "sigir-201521-trec-diagnosis",
+        "status": "current",
+        "subject": {
+          "reference": "Patient/sigir-201521"
+        },
+        "type": {
+          "text": "TREC organizer-supplied synthetic vignette diagnosis"
+        },
+        "description": "Supplemental research-source diagnosis",
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/plain",
+              "data": "R2lhcmRpYXNpcw==",
+              "title": "/topics/topic[@number='21']/diagnosis"
+            }
+          }
+        ],
+        "context": {
+          "related": [
+            {
+              "identifier": {
+                "system": "https://trec-cds.org/topics2015B.xml",
+                "value": "7bc4bbe801f9d1ada3574aa7be5a8b0ccd20594a957f6feda38f378e93ff67ee"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "sigir-201522": {
+    "source_note_sha256": "1c4773785b16808dad463c95c334969b3049eb544ed7edf18844c3350609887b",
+    "same_case_check": "equal after whitespace and source formatting",
+    "description_sha256": "3f48f5d1d9add0420f49169ee1a59533f53c7649289aa1ae1b6be59911f77fc8",
+    "supplement": {
+      "wording": "Aspergillosis / Aspergilloma",
+      "locator": "/topics/topic[@number='22']/diagnosis",
+      "source_url": "https://trec-cds.org/topics2015B.xml",
+      "source_sha256": "7bc4bbe801f9d1ada3574aa7be5a8b0ccd20594a957f6feda38f378e93ff67ee",
+      "fhir": {
+        "resourceType": "DocumentReference",
+        "id": "sigir-201522-trec-diagnosis",
+        "status": "current",
+        "subject": {
+          "reference": "Patient/sigir-201522"
+        },
+        "type": {
+          "text": "TREC organizer-supplied synthetic vignette diagnosis"
+        },
+        "description": "Supplemental research-source diagnosis",
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/plain",
+              "data": "QXNwZXJnaWxsb3NpcyAvIEFzcGVyZ2lsbG9tYQ==",
+              "title": "/topics/topic[@number='22']/diagnosis"
+            }
+          }
+        ],
+        "context": {
+          "related": [
+            {
+              "identifier": {
+                "system": "https://trec-cds.org/topics2015B.xml",
+                "value": "7bc4bbe801f9d1ada3574aa7be5a8b0ccd20594a957f6feda38f378e93ff67ee"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "sigir-201523": {
+    "source_note_sha256": "05c36ab49e87f062f4a00d5f9ab4749c30343bae06ee419607f0cd55e7d30ed0",
+    "same_case_check": "equal after whitespace and source formatting",
+    "description_sha256": "bc362d3faded6f58076f1aa4bbea211cba12242447eccca83a143ea7e9110ea6",
+    "supplement": {
+      "wording": "Dengue",
+      "locator": "/topics/topic[@number='23']/diagnosis",
+      "source_url": "https://trec-cds.org/topics2015B.xml",
+      "source_sha256": "7bc4bbe801f9d1ada3574aa7be5a8b0ccd20594a957f6feda38f378e93ff67ee",
+      "fhir": {
+        "resourceType": "DocumentReference",
+        "id": "sigir-201523-trec-diagnosis",
+        "status": "current",
+        "subject": {
+          "reference": "Patient/sigir-201523"
+        },
+        "type": {
+          "text": "TREC organizer-supplied synthetic vignette diagnosis"
+        },
+        "description": "Supplemental research-source diagnosis",
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/plain",
+              "data": "RGVuZ3Vl",
+              "title": "/topics/topic[@number='23']/diagnosis"
+            }
+          }
+        ],
+        "context": {
+          "related": [
+            {
+              "identifier": {
+                "system": "https://trec-cds.org/topics2015B.xml",
+                "value": "7bc4bbe801f9d1ada3574aa7be5a8b0ccd20594a957f6feda38f378e93ff67ee"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "sigir-201524": {
+    "source_note_sha256": "38b654bd7978059e3f6e44a484cd5379e51c840ef13295969b075f50f7998f07",
+    "same_case_check": "equal after whitespace and source formatting",
+    "description_sha256": "10cc28f8b038abe58ce73b8af6083cefec7adc850214f49a90c24a8de2cd110b",
+    "supplement": {
+      "wording": "Community Acquired Pneumonia (CAP)",
+      "locator": "/topics/topic[@number='24']/diagnosis",
+      "source_url": "https://trec-cds.org/topics2015B.xml",
+      "source_sha256": "7bc4bbe801f9d1ada3574aa7be5a8b0ccd20594a957f6feda38f378e93ff67ee",
+      "fhir": {
+        "resourceType": "DocumentReference",
+        "id": "sigir-201524-trec-diagnosis",
+        "status": "current",
+        "subject": {
+          "reference": "Patient/sigir-201524"
+        },
+        "type": {
+          "text": "TREC organizer-supplied synthetic vignette diagnosis"
+        },
+        "description": "Supplemental research-source diagnosis",
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/plain",
+              "data": "Q29tbXVuaXR5IEFjcXVpcmVkIFBuZXVtb25pYSAoQ0FQKQ==",
+              "title": "/topics/topic[@number='24']/diagnosis"
+            }
+          }
+        ],
+        "context": {
+          "related": [
+            {
+              "identifier": {
+                "system": "https://trec-cds.org/topics2015B.xml",
+                "value": "7bc4bbe801f9d1ada3574aa7be5a8b0ccd20594a957f6feda38f378e93ff67ee"
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

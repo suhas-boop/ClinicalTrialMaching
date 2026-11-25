@@ -1,0 +1,25 @@
+{
+  "sources": {
+    "criterion": "adult patients,  >  /  = 18 years of age",
+    "protocol": "Synthetic comparison convention: evaluate this positive age requirement as an inclusion predicate at the selected screening encounter. The source fragment has no accompanying inclusion/exclusion heading or governing protocol."
+  },
+  "catalog": {
+    "mode": "synthetic_research",
+    "version": "four-study-r4",
+    "source_sha256": "9be767125b04fec06365f01b1db36805cd1059d4148b13342f43ee5a17b0ab4d",
+    "facts": {
+      "age": {
+        "key": "age",
+        "meaning": "Age in completed calendar years on screening date",
+        "value": "Patient.birthDate",
+        "context": [
+          "screening Encounter.period.start",
+          "patient identity",
+          "snapshot cutoff"
+        ],
+        "status": "FHIR_native"
+      }
+    },
+    "sha256": "551f73758e367c0849a601fe7281def4c8db3a525c3c47bd9d0e9a688d22388a"
+  }
+}

@@ -1,0 +1,327 @@
+case,sentence,source_text,has_structured_fact,resource_references
+sigir-20141,0,A 58-year-old African-American woman presents to the ER with episodic pressing/burning anterior chest pain that began two days earlier for the first time in her life.,True,Observation/n-0ff61c2e47cfed67a174a4c1c9ab13 | Observation/n-27beb57390c87f49ff91e182e22812 | Observation/n-f2f8f6c835da6bf737fefe29bae239
+sigir-20141,1,"The pain started while she was walking, radiates to the back, and is accompanied by nausea, diaphoresis and mild dyspnea, but is not increased on inspiration.",True,Observation/n-78c46ab10eaca63ad7895979fd5f23
+sigir-20141,2,The latest episode of pain ended half an hour prior to her arrival.,True,Observation/n-3044c0aa4589b125e45bdc207d9aa5
+sigir-20141,3,She is known to have hypertension and obesity.,True,Condition/n-cd854fc3b253d92d254b77b75d7375 | Condition/n-ec7c5c01e1a2886c112f50c988bf03
+sigir-20141,4,"She denies smoking, diabetes, hypercholesterolemia, or a family history of heart disease.",True,Observation/n-88cead0199eb2b22750ae9391b8e60
+sigir-20141,5,She currently takes no medications.,True,Observation/n-9057bcd43a3a087c432347050ab2d7
+sigir-20141,6,Physical examination is normal.,True,Observation/n-08af96aba32e1d9b5e20e7a67cd853
+sigir-20141,7,The EKG shows nonspecific changes.,True,Observation/n-73d69216e8ac3aa1cc9b5e15c58e41
+sigir-20141,8,"The patient will provide informed consent, and will comply with the trial protocol without any practical issues.",True,Observation/n-b4f4348070651eebd84639288deaef
+sigir-201410,0,A physician is called to see a 67-year-old woman who underwent cardiac catheterization via the right femoral artery earlier in the morning.,True,Observation/n-7e55e3065da851771ef1102898bd84 | Procedure/n-e5bfe64c96799364f404bb85ae55a0
+sigir-201410,1,She is now complaining of a cool right foot.,True,Observation/n-d71c1cc43371355e1adebe27ac6b1a
+sigir-201410,2,"Upon examination she has a pulsatile mass in her right groin with loss of distal pulses, and auscultation reveals a bruit over the point at which the right femoral artery was entered.",True,Observation/n-b46916fcf2d4ce3b072afffbd51a30
+sigir-201410,3,"The patient will provide informed consent, and will comply with the trial protocol without any practical issues.",True,Observation/n-55ebf1fa01b6c88274b8498037eb69
+sigir-201411,0,A 40-year-old woman with no past medical history presents to the ER with excruciating pain in her right arm that had started 1 hour prior to her admission.,True,Observation/n-056d2ab6abd1be5202cee145b67c61 | Observation/n-758b67a6901afb17651bceead891f4 | Observation/n-9aece1e1e5134394884fad7ad638e1
+sigir-201411,1,She denies trauma.,True,Observation/n-2cb728ec588723195861658cde7afe
+sigir-201411,2,"On examination she is pale and in moderate discomfort, as well as tachypneic and tachycardic.",True,Observation/n-04fbdb6a34eb294fbc49d85aaa328d | Observation/n-18a2768904358b934e660e36768e43
+sigir-201411,3,Her body temperature is normal and her blood pressure is 80/60.,True,Observation/n-2f2a375147b51a6b385ec30406820e | Observation/n-f305dc1b8b0d514a525ed833557e47
+sigir-201411,4,Her right arm has no discoloration or movement limitation.,True,Observation/n-9df8844ea05b22e62c6f9d6747395e
+sigir-201411,5,"The patient will provide informed consent, and will comply with the trial protocol without any practical issues.",True,Observation/n-beb7c67382fcb2a746c9e1a4b2f5b4
+sigir-201412,0,A 25-year-old woman presents to the clinic complaining of prolonged fatigue.,True,Observation/n-5359c03478eef26d61bfe50c64ae28 | Observation/n-976dcaf73f082c05fccc6528b6517b | Observation/n-a1ba205be4295ac0ec015f79aa2373
+sigir-201412,1,She denies difficulty sleeping and sleeps an average of 8 hours a night.,True,Observation/n-0ec3becb51a2b5cc02aa0cbb003d13
+sigir-201412,2,"She also notes hair loss, a change in her voice and weight gain during the previous 6 months.",True,Observation/n-3925efb5c33e6db865cbac081570cf
+sigir-201412,3,She complains of cold intolerance.,True,Observation/n-94b54178be45919749cded8a13cd1f
+sigir-201412,4,"On examination she has a prominent, soft, uniform anterior cervical mass at the midline.",True,Observation/n-d862fd8563b503a8f21331827510ef
+sigir-201412,5,"The patient will provide informed consent, and will comply with the trial protocol without any practical issues.",True,Observation/n-60a19e1951b6cb12a0034777899bf3
+sigir-201413,0,A 30-year-old generally healthy woman presents with shortness of breath that had started 2 hours before admission.,True,Observation/n-0153ee92f6f13fd37e3c6a0a5721fe | Observation/n-73c68a53a060bd3dc78ecc0249c2d7 | Observation/n-b58ba71c8ea7892bbec10562c867e1
+sigir-201413,1,She has had no health problems in the past besides 2 natural abortions.,True,Observation/n-827d0ee893fe91dcacd670a01e8fcd
+sigir-201413,2,She had given birth to a healthy child 3 weeks before.,True,Observation/n-219c392c5820c0bd7b3cfadbfcfa90
+sigir-201413,3,"On examination, she is apprehensive, tachypneic and tachycardic, her blood pressure is 110/70 and her oxygen saturation 92%.",True,Observation/n-953935bc15a5b5d6a52651273d46e9 | Observation/n-a16da609fb8369b55f805233f0538a
+sigir-201413,4,"Otherwise, physical examination is unremarkable.",True,Observation/n-660cdcb9d8845ebcafda2f8bba3857
+sigir-201413,5,Her chest x-ray and CBC are normal.,True,Observation/n-25c851f8ff25c8ebde0a414d3019b7
+sigir-201413,6,"The patient will provide informed consent, and will comply with the trial protocol without any practical issues.",True,Observation/n-e5f269b5507051553d38eca9722ec0
+sigir-201414,0,An 85-year-old man is brought to the ER because of gradual decrease in his level of consciousness.,True,Observation/n-5f0341a61a5a1a114b35dd38948364 | Observation/n-89168992145666971a5ddabff35664 | Observation/n-f149312ea2058fc891a424311f82b3
+sigir-201414,1,In the last 3 days he stopped walking and eating by himself.,True,Observation/n-d5d28c0b7330e97e4682f78f2d4a61
+sigir-201414,2,"He has had no fever, cough, rash or diarrhea.",True,Observation/n-c971267a0fbbb7124ed4dff6b5e69a
+sigir-201414,3,His daughter recalls that he had been involved in a car accident 3 weeks prior to his admission and had a normal head CT at that time.,True,Observation/n-f1c70fd9650cdabfdc7d7bf9ac87f3
+sigir-201414,4,"The patient will provide informed consent, and will comply with the trial protocol without any practical issues.",True,Observation/n-f5059a4ed51ada26046c29a6f3060b
+sigir-201415,0,"A 36-year-old woman presents to the emergency department with 12 weeks of amenorrhea, vaginal spotting that has increased since yesterday, lower abdominal tenderness, nausea and vomiting.",True,Observation/n-55ec799c75f6a9812ee55b0981cec2 | Observation/n-993b8fbf2a423e5c784e19b67b1583 | Observation/n-f603707db0a5999246cd86941e8e39
+sigir-201415,1,"The physical exam reveals overall tender abdomen, 18-week sized uterus, and cervical dilation of 2 cm.",True,Observation/n-a78a54306f56d385c269aae8ca3578
+sigir-201415,2,The complete blood count and biochemical profile are normal.,True,Observation/n-6de3f2bdf2a5e134934c65b3bcabfa
+sigir-201415,3,Point of care pregnancy test with cut-off sensitivity of 25 mIU/ml Beta-HCG is negative.,True,Observation/n-d2304074ea840bca88ec0b1216bc93
+sigir-201415,4,The ultrasound reports enlarged uterus (12 cm x 9 cm x 7 cms) with multiple cystic areas in the interior.,True,Observation/n-d6bc48930a91c4e795a9d27f1a15e2
+sigir-201415,5,The differential diagnosis includes vesicular mole vs fibroid degeneration.,True,Observation/n-1e5fd06a0dd5535ddbfb45163f51e5
+sigir-201415,6,"The patient will provide informed consent, and will comply with the trial protocol without any practical issues.",True,Observation/n-6a647672008e752ddf4d5484922a2e
+sigir-201416,0,A 28-year-old female with neck and shoulder pain and left hand and arm paresthesias three weeks after returning from a trip to California where she attended a stray animal recovery campaign.,True,Observation/n-0b42cde2bb3e6cca40ced2d35e003a | Observation/n-1fddfde55f2e1cffc9c57954ec2b69 | Observation/n-dce2979097f749b134d048594accf2
+sigir-201416,1,Her physical exam was unremarkable except for slight tremors and almost imperceptible spasticity.,True,Observation/n-0a21ef2342a356480b2a8af36c3c9a
+sigir-201416,2,She was prescribed NSAIDS and a topical muscle relaxant.,True,Observation/n-b6f80bae1769baaf256653180d74f4
+sigir-201416,3,"She was brought in to the ER three days later with spastic arm movements, sweating, increasing agitation and anxiety, malaise, difficultly swallowing and marked hydrophobia, and was immediately hospitalized.",True,Observation/n-68a587559bcef38b566b92635cdce9
+sigir-201416,4,"The patient will provide informed consent, and will comply with the trial protocol without any practical issues.",True,Observation/n-1dbab7fd7268ee1b8d3c7d9e6b5b7c
+sigir-201417,0,"A 48-year-old white male with history of common variable immunodeficiency (CVID) with acute abdominal pain, fever, dehydration, HR of 132 bpm, BP 80/40.",True,Condition/n-af751421ca4a2b618bad4b1bbb9db9 | Observation/n-1550c734ecb356b72af62b24922911 | Observation/n-725e8ea9de151c7127fc3ec67c333f | Observation/n-b3328f79760e9ac8bed0b9e0965636 | Observation/n-b809f275c050befae273a69ba8fc89 | Observation/n-c65ef752c218d1f9b13d9cafaad263
+sigir-201417,1,The physical examination is remarkable for tenderness and positive Murphy sign.,True,Observation/n-be3fed3afe07547cd3e02e9f9171de
+sigir-201417,2,Abdominal ultrasound shows hepatomegaly and abundant free intraperitoneal fluid.,True,Observation/n-2832f3a854f9686c53218c6dbb1895
+sigir-201417,3,"Exploratory laparotomy reveals a ruptured liver abscess, which is then surgically drained.",True,Condition/n-d2e71dcace6cb631fffb61bd4198c2 | Procedure/n-5310f4c26b22c339331270e3e0fad1 | Procedure/n-c5c560ae40472ef77a9a3f00b0ba2c
+sigir-201417,4,"After surgery, the patient is taken to the ICU.",True,Observation/n-46db7d818f4906ad89dc0c92613c43
+sigir-201417,5,"The patient will provide informed consent, and will comply with the trial protocol without any practical issues.",True,Observation/n-09b49cfaa5cf15ca81ef37ed1e45d1
+sigir-201418,0,A 6-month-old male infant has a urine output of less than 0.2 mL/kg/hr shortly after undergoing major surgery.,True,Observation/n-2c1c4b575dcd5f536b6232ca30bebf
+sigir-201418,1,"On examination, he has generalized edema.",True,Observation/n-a3fc2592f0603be97f89a66d33ce35
+sigir-201418,2,"His blood pressure is 115/80 mm Hg, his pulse is 141/min, and his respirations are 18/min.",True,Observation/n-7444d064b62e217f90bfb53182ac33 | Observation/n-8010380e5e95f4368683a5a6e3e7b5 | Observation/n-c5056cfd5270c57cf8a9ef4ec32743
+sigir-201418,3,"His blood urea nitrogen is 33 mg/dL, and his serum creatinine is 1.3 mg/dL.",True,Observation/n-621263ebdc13cac7e472fe0bbbf721 | Observation/n-b5ea831a9eef5d16a1642668d3b70e
+sigir-201418,4,Initial urinalysis shows specific gravity of 1.017.,True,Observation/n-9732440ef72d8c6f3b13c6c02d56b7
+sigir-201418,5,"Microscopic examination of the urine sample reveals 1 WBC per high-power field (HPF), 18 RBCs per HPF, and 5 granular casts per HPF.",True,Observation/n-4679d0981c370e5501683735b0eb42
+sigir-201418,6,His fractional excretion of sodium is 3.3%.,True,Observation/n-6295cb9db9acce332dc4cae74960fd
+sigir-201418,7,"The patient will provide informed consent, and will comply with the trial protocol without any practical issues.",True,Observation/n-4a4d5247225111baa4cb90e949a4de
+sigir-201419,0,"A 52-year-old African American man with a history of heavy smoking and drinking, describes progressive dysphagia that began several months ago.",True,Observation/n-290c2dd3ae233ebf87fb3226a93eff | Observation/n-70c6866e0e60678614ccdaa2bdf319 | Observation/n-cc191bab446c05fd982eeb4308c837
+sigir-201419,1,He first noticed difficulty swallowing meat.,True,Observation/n-cfc5725db60f5cc2f9f36cd1ac9ee3
+sigir-201419,2,"His trouble swallowing then progressed to include other solid foods, soft foods, and then liquids.",True,Observation/n-a0391a5e960f8886e0f5dbf6b2d1a0
+sigir-201419,3,He is able to locate the point where food is obstructed at the lower end of his sternum.,True,Observation/n-07a8eee06891af39d4992923e254dd
+sigir-201419,4,He has lost a total of 25 pounds.,True,Observation/n-b7b5570fa78974daa6b2560a6818e2
+sigir-201419,5,"The patient will provide informed consent, and will comply with the trial protocol without any practical issues.",True,Observation/n-5928ee91664c3b2ce57838223062ee
+sigir-20142,0,"An 8-year-old male presents in March to the ER with fever up to 39 C, dyspnea and cough for 2 days.",True,Observation/n-38ba0a52c5ca52d4216668183c7fca | Observation/n-b4ee08cc3eb8be5ff348b3a2d9f5cb | Observation/n-d174bca33255860d79ecc8b0abcfeb
+sigir-20142,1,He has just returned from a 5 day vacation in Colorado.,True,Observation/n-c4ff4d246f315861ed7277ecbab89f
+sigir-20142,2,"Parents report that prior to the onset of fever and cough, he had loose stools.",True,Observation/n-b181b99f6014f07058956fde46015d
+sigir-20142,3,He denies upper respiratory tract symptoms.,True,Observation/n-695076d8afd9d0e5ad26e842c48b5d
+sigir-20142,4,On examination he is in respiratory distress and has bronchial respiratory sounds on the left.,True,Observation/n-681c75a44c7d2d17e58c0fe6894ffa
+sigir-20142,5,A chest x-ray shows bilateral lung infiltrates.,True,Observation/n-1a343add6d0671e31604e00a2c6634
+sigir-20142,6,"The patient will provide informed consent, and will comply with the trial protocol without any practical issues.",True,Observation/n-67d91627123daa7a06174cadf52699
+sigir-201420,0,A 32-year-old woman is admitted to the ER following a car accident.,True,Observation/n-2f348f2d1b51d6d6aa2d237f5a8329 | Observation/n-5b2ddcef448cc6f1df5e5c06cf3912 | Observation/n-a7076a8def3d785033c18926dc0ae6
+sigir-201420,1,She has sustained multiple injuries including upper and lower extremity fractures.,True,Observation/n-76770abd96214d243c0e5b8bb83ebd
+sigir-201420,2,"She is fully awake and alert, and she reports that she was not wearing a seat belt.",True,Observation/n-679db564a8520ac99735b2f5ce4c6f
+sigir-201420,3,"Her blood pressure is 134/74 mm Hg, and her pulse is 87/min.",True,Observation/n-23dddbf35b225fe41efcfc131a112a | Observation/n-b94e01ef92fe944d24df8ea31b5fc1
+sigir-201420,4,Physical examination reveals a tender abdomen with guarding and rebound in all four quadrants.,True,Observation/n-44420e9df9565190606af028e74aab
+sigir-201420,5,She has no bowel sounds.,True,Observation/n-71e904557de937072bbae05a5a1f8e
+sigir-201420,6,"The patient will provide informed consent, and will comply with the trial protocol without any practical issues.",True,Observation/n-1074b24487208cda42b59cec88c1c8
+sigir-201421,0,A 21-year-old female is evaluated for progressive arthralgias and malaise.,True,Observation/n-283382b6d8bf66efcb14fc67a3bc15 | Observation/n-9d0eda6cdb22b507eb904b22d40517 | Observation/n-d620dc3862ed4597d8596ba5567851
+sigir-201421,1,"On examination she is found to have alopecia, a rash mainly distributed on the bridge of her nose and her cheeks, a delicate non-palpable purpura on her calves, and swelling and tenderness of her wrists and ankles.",True,Observation/n-b0a5c9e99ba582c69d04a53f7f83fa
+sigir-201421,2,"Her lab shows normocytic anemia, thrombocytopenia, a 4/4 positive ANA and anti-dsDNA.",True,Condition/n-f229b349163cc9196bb74c2fa3c144 | Observation/n-66f5bb0679895033ba976a9203513c
+sigir-201421,3,Her urine is positive for protein and RBC casts.,True,Observation/n-47bbf4af0c5f189cc545060567b0cb
+sigir-201421,4,"The patient will provide informed consent, and will comply with the trial protocol without any practical issues.",True,Observation/n-99a111e939f193b9591a68fe3a4707
+sigir-201422,0,A 15-year-old girl presents to the ER with abdominal pain.,True,Observation/n-610340a7ef392ce6c9fcbfcf222e70 | Observation/n-9950b3876bed1b487b3f8869cf080a | Observation/n-e06c1ae2d95407700b94e304a89f64
+sigir-201422,1,"The pain appeared gradually and was periumbilical at first, localizing to the right lower quadrant over hours.",True,Observation/n-042fdde6bf5b9fc560a466f23a6f0c
+sigir-201422,2,She has had no appetite since yesterday but denies diarrhea.,True,Observation/n-afc1f0dfeb63c91084b6de691829b9
+sigir-201422,3,She has had no sexual partners and her menses are regular.,True,Observation/n-df6af93246063e2fe227dbe942ce72
+sigir-201422,4,"On examination, she has localized rebound tenderness over the right lower quadrant.",True,Observation/n-b0553b9c80c73981fc155c606f8b4a
+sigir-201422,5,"On an abdominal ultrasound, a markedly edematous appendix is seen.",True,Observation/n-d1df6093733faacecaec52ee6d84b6
+sigir-201422,6,"The patient will provide informed consent, and will comply with the trial protocol without any practical issues.",True,Observation/n-6e525b4a2b1da72668f0f190843784
+sigir-201423,0,A 63-year-old man presents with cough and shortness of breath.,True,Observation/n-7d356688a7884b704969fa91356835 | Observation/n-8c6eb7b8083506d8d764ccb91b183e | Observation/n-bc9b6bef0ed8441631c0f72ad49fb0
+sigir-201423,1,"His past medical history is notable for heavy smoking, spinal stenosis, diabetes, hypothyroidism and mild psoriasis.",True,Condition/n-0d424ee23166984bdb93a1fa672681 | Condition/n-afe9b3f5617dae048652a11a75984c | Condition/n-c4fe68e73b0a94c79d0b1b50e8bdbc | Condition/n-f1342e813451dfa303d57d1c2023ec
+sigir-201423,2,He also has a family history of early onset dementia.,True,FamilyMemberHistory/n-2472c83aa0e980fc937c0639337256
+sigir-201423,3,"His symptoms began about a week prior to his admission, with productive cough, purulent sputum and difficulty breathing, requiring him to use his home oxygen for the past 24 hours.",True,Observation/n-5dc7d0ecbb887b0f293422e89bec72
+sigir-201423,4,He denies fever.,True,Observation/n-b1782b3b626eb6aa4ef33f523c3493
+sigir-201423,5,"On examination he is cyanotic, tachypneic, with a barrel shaped chest and diffuse rales over his lungs.",True,Observation/n-7eca08b54ae2ada3a7efd19bf854bc
+sigir-201423,6,A chest x-ray is notable for hyperinflation with no consolidation.,True,Observation/n-404c05a7beec7c2bfae8f9589537ae
+sigir-201423,7,"The patient will provide informed consent, and will comply with the trial protocol without any practical issues.",True,Observation/n-bcb44a0fcf51e6dac632e966559a61
+sigir-201424,0,A 33-year-old male athlete presented to the ER with acute abdominal pain.,True,Observation/n-074b0618e915e2d0390accc8213dc0 | Observation/n-87835e89afd8559c8684a64683664b | Observation/n-ebee0d7dd113cce30603e66dcda0e5
+sigir-201424,1,"Family member says the patient fell off his bike a week earlier and suffered blunt trauma to the left hemi-abdomen, and he has had mild abdominal pain since that day.",True,Observation/n-500b803a5ca7846baf16d7bfd78719
+sigir-201424,2,"The patient's history is negative for smoking, drugs, and alcohol.",True,Observation/n-c6d5996152b0be627250fc27c4aecf
+sigir-201424,3,"BP: 60/30 mmHg, HR: 140/min.",True,Observation/n-7b0f0a0bb0b58f65193733ab47eeec | Observation/n-f7a59f8a373091223b95bb3f8e1336
+sigir-201424,4,"The patient is pale, the physical examination of the abdomen revealed muscle contraction and resistance.",True,Observation/n-516dd1aca5be582034bc06ddebabf5
+sigir-201424,5,Emergency ultrasound and CT scan of the abdomen reveal extended intraperitoneal hemorrhage due to spleen rupture.,True,Condition/n-973d06802bb3f965bc9d81631d1b87
+sigir-201424,6,"The patient will provide informed consent, and will comply with the trial protocol without any practical issues.",True,Observation/n-2bdda35337036cc73da3e89d4ed780
+sigir-201425,0,An 8-year-old boy fell from his bike striking his left temple on the pavement.,True,Observation/n-77d88863f2cbf3b077156215dc9670 | Observation/n-c23cc4af0e2a844b4925702cd6a76d | Observation/n-ed7641ee8361b337ae7f925f042d46
+sigir-201425,1,"There was no immediate loss of consciousness, and a brief examination at the scene noted his pupils were symmetrical, reactive to the light, and he was moving all four limbs.",True,Observation/n-d8af37d36530d5f88e6e91d60c4619
+sigir-201425,2,"Half an hour after the fall the child became drowsy, pale, and vomited.",True,Observation/n-aa6be0346bbdcc5a259106c4810fb9
+sigir-201425,3,He was transferred to the emergency department.,True,Observation/n-ac82dc461f358ab7ceb5216ff07678
+sigir-201425,4,"Upon arrival the heart rate was 52/min, blood pressure of 155/98.",True,Observation/n-70a674e1b8fba32c90699f56a23900 | Observation/n-af43d95fd9b42f3ed5b77409e3581f
+sigir-201425,5,"The Glasgow Coma Scale (GCS) was 6/15, the pupils were asymmetrical and movement of the right upper and lower extremities was impaired.",True,Observation/n-1509f6222be8c4fced4d1fb251163d
+sigir-201425,6,The neurosurgical team advised deferring the CT scan in favor of initiating immediate treatment.,True,Observation/n-9553d95029687ab9756b36d5f2b0bf
+sigir-201425,7,"The patient will provide informed consent, and will comply with the trial protocol without any practical issues.",True,Observation/n-94c0f7ebe52d76c5bf0a2dc4298ae8
+sigir-201426,0,A group of 14 humanitarian service workers is preparing a trip to the Amazon Rainforest region in Brazil.,False,
+sigir-201426,1,All the members of the group have traveled on multiple occasions and have up-to-date vaccine certificates.,False,
+sigir-201426,2,Malaria Chemoprophylaxis is indicated but three of the women are in different stages of pregnancy.,False,
+sigir-201426,3,"The patient will provide informed consent, and will comply with the trial protocol without any practical issues.",False,
+sigir-201427,0,A 21-year-old college student undergoes colonoscopy due to family history of multiple polyps in his older siblings.,True,Observation/n-72fa883443ed9672ee48a28337239c | Procedure/n-9c579f730f1ff77574ce945381efb4
+sigir-201427,1,"His brother underwent total proctocolectomy at age 22, and his sister underwent a total proctocolectomy at age 28, after both were found to have hundreds of colonic adenomas on colonoscopy.",True,FamilyMemberHistory/n-48b38a8f628d853351a7a029e3b1cb | FamilyMemberHistory/n-4ae3b86e5c3469cc7fdd0f0d6eb806
+sigir-201427,2,Both siblings are currently well without any findings of neoplasms.,False,
+sigir-201427,3,The patient undergoes sigmoidoscopy and is found to have dozens of small colonic polyps within rectosigmoid.,True,Procedure/n-b080252023e9931aa48d935f2282c8
+sigir-201427,4,Several of these are biopsied and are all benign adenomas.,True,Observation/n-e4c84dc96ee453398bbb78b445973f
+sigir-201427,5,"The patient will provide informed consent, and will comply with the trial protocol without any practical issues.",True,Observation/n-89f934373fcdf181853baad28629dd
+sigir-201429,0,A 51-year-old woman is seen in clinic for advice on osteoporosis.,True,Observation/n-0345f583b2ee3d1df246ca2c303df1 | Observation/n-7f2ba00d014f5b4c2ec244eb736a0d | Observation/n-fb68403ca9df06524fe4145873dfc0
+sigir-201429,1,She has a past medical history of significant hypertension and diet-controlled diabetes mellitus.,True,Condition/n-13d27c7b52bff2450dffcadf45b41c | Condition/n-ef273097aa77c478f646ef55553341
+sigir-201429,2,She currently smokes 1 pack of cigarettes per day.,True,Observation/n-2e5074d9db711f4c62c702256963df
+sigir-201429,3,She was documented by previous LH and FSH levels to be in menopause within the last year.,True,Observation/n-f89655ecb1db0f6a5dc558341d62b0
+sigir-201429,4,She is concerned about breaking her hip as she gets older and is seeking advice on osteoporosis prevention.,True,Observation/n-b8629d91a5b91da0b3edf0b24bfeb6
+sigir-201429,5,"The patient will provide informed consent, and will comply with the trial protocol without any practical issues.",True,Observation/n-1cfb7bb28970a48f59eaf9c5a75011
+sigir-20143,0,A 58-year-old nonsmoker white female with mild exertional dyspnea and occasional cough is found to have a left lung mass on chest x-ray.,True,Observation/n-17fbb673004066806c62e9bf5df751 | Observation/n-547a07953c734209c2bfe78a7aedd0 | Observation/n-e118633b2b17678f325668ae665f3c | Observation/n-e4e2e5517f6577993e966f3d22c55c
+sigir-20143,1,She is otherwise asymptomatic.,True,Observation/n-6bec0dde9a206d414acdd84402cdeb
+sigir-20143,2,"A neurologic examination is unremarkable, but a CT scan of the head shows a solitary mass in the right frontal lobe.",True,Observation/n-f13d22549ea7dc1081d9ea7d37ca0d
+sigir-20143,3,"The patient will provide informed consent, and will comply with the trial protocol without any practical issues.",True,Observation/n-5564fd7fc36fd5aa2eb96220b24309
+sigir-201430,0,A 72-year-old man complains of increasing calf pain when walking uphill.,True,Observation/n-2f76e6af0840ca45df8a7403da6961 | Observation/n-86d0ae3904d3cb2db222d007c902c3 | Observation/n-c15ae14d8f6349c9ccb0d5b4332246
+sigir-201430,1,The symptoms have gradually increased over the past 3 months.,True,Observation/n-37070cd8172792ef92df4a1783b04d
+sigir-201430,2,The patient had an uncomplicated myocardial infarction 2 years earlier and a transient ischemic attack 6 months ago.,True,Condition/n-8f61668d1a51a53f5f15a4b7191ca8 | Condition/n-b3ffca02b1bd0dc5cbe351f8ac82a8
+sigir-201430,3,"Over the past month, his blood pressure has worsened despite previous control with diltiazem, hydrochlorothiazide, and propranolol.",True,MedicationStatement/n-6b126795e90f5fcf0e94229fc6eefe | MedicationStatement/n-932238c6212863d852b6c723b1eca2
+sigir-201430,4,"His is currently taking isosorbide dinitrate, hydrochlorothiazide, and aspirin.",True,MedicationStatement/n-27cde3b1a64931d4cb747095b27cd8 | MedicationStatement/n-6fec6802855618230ff2594df5d623 | MedicationStatement/n-b470bb7df255dde266b1779868d12d
+sigir-201430,5,"On physical examination, his blood pressure is 151/91 mm Hg, and his pulse is 67/min.",True,Observation/n-ab5878bbdf9da5458f69f924c8876d | Observation/n-fd166feb17c324d211f5f28362f457
+sigir-201430,6,There is a right carotid bruit.,True,Observation/n-cf70ea76856cba29d27b9b63b71197
+sigir-201430,7,His lower extremities are slightly cool to the touch and have diminished pulses at the dorsalis pedis.,True,Observation/n-8c6f367ae50d0c9eb226783f86cf76
+sigir-201430,8,"The patient will provide informed consent, and will comply with the trial protocol without any practical issues.",True,Observation/n-ff7d6621b25ae239fd62c2718c4cab
+sigir-20144,0,A 2-year-old boy is brought to the emergency department by his parents for 5 days of high fever and irritability.,True,Observation/n-5558d0a9eab18afde91c89435a50a3 | Observation/n-d9e7b6fbe98cd3229a4f628ee65098 | Observation/n-f1c7e4a7f0c0bc9a69036ff8ce54ee
+sigir-20144,1,"The physical exam reveals conjunctivitis, strawberry tongue, inflammation of the hands and feet, desquamation of the skin of the fingers and toes, and cervical lymphadenopathy with the smallest node at 1.5 cm.",True,Observation/n-93756ce85807c16cd2292ebbb0491e
+sigir-20144,2,The abdominal exam demonstrates tenderness and enlarged liver.,True,Observation/n-fb43edf286d6525b6dec3377db1c98
+sigir-20144,3,"Laboratory tests report elevated alanine aminotransferase, white blood cell count of 17,580/mm, albumin 2.1 g/dL, C-reactive protein 4.5 mg, erythrocyte sedimentation rate 60 mm/h, mild normochromic, normocytic anemia, and leukocytes in urine of 20/mL with no bacteria identified.",True,Observation/n-1f8294ff1270d0ba26339eac5d3ec3 | Observation/n-2cea1d76717c331bbf3833dd039163
+sigir-20144,4,The echocardiogram shows moderate dilation of the coronary arteries with possible coronary artery aneurysm.,True,Observation/n-dbdb7c93c47310b17e5e5921cacfe1
+sigir-20144,5,"The patient will provide informed consent, and will comply with the trial protocol without any practical issues.",True,Observation/n-4862982dbfd7c49d622c7beb11756b
+sigir-20145,0,A 56-year-old female on 20th day post-left mastectomy presents to the emergency department complaining of shortness of breath and malaise.,True,Observation/n-008035802773846cff606db48e6937 | Observation/n-09b4fa2f6f3356d5f9089847aac14e | Observation/n-298b1d4003c0d10f4dce93b22b6107 | Procedure/n-0b5692b51a083e5720b09302f6b603
+sigir-20145,1,The patient says that she has remained in bed for the last two weeks.,True,Observation/n-ae750fff9e05f941a8fa33ce335ad1
+sigir-20145,2,The physical examination reveals tenderness on the left upper thoracic wall and right calf.,True,Observation/n-a46bf177591f182893b953c025fc28
+sigir-20145,3,The surgical incision shows no bleeding or signs of infection.,True,Observation/n-6a2eb65b052eab77e2e0298b386321
+sigir-20145,4,"Pulmonary auscultation is significant for bilateral decreased breath sounds, especially at the right base.",True,Observation/n-5f71a91c0ff8c9516e49bc65297623
+sigir-20145,5,Laboratory tests reveal an elevated D-dimer.,True,Observation/n-14a32e3a7688217c594d3abb75cefa
+sigir-20145,6,"The patient will provide informed consent, and will comply with the trial protocol without any practical issues.",True,Observation/n-5a909ac1e608d3dae3f825e8f3757e
+sigir-20146,0,64-year-old obese female with diagnosis of diabetes mellitus and persistently elevated HbA1c.,True,Condition/n-7dfaed83e39b20cf1370c812287307 | Observation/n-345ba28271abbe7128b9402c36359d | Observation/n-5b0d7bfa3cba095ea096f7ddd6ad4f
+sigir-20146,1,She is reluctant to see a nutritionist and is not compliant with her diabetes medication or exercise.,True,Observation/n-9f2854187a67d70b2a90eb501a07c1
+sigir-20146,2,She complains of a painful skin lesion on the left lower leg.,True,Observation/n-c94885f2e916d5f48170960da27760
+sigir-20146,3,She has tried using topical lotions and creams but the lesion has increased in size and is now oozing.,True,Observation/n-23b745128f16b61703b1af9a8aab2d
+sigir-20146,4,"The patient will provide informed consent, and will comply with the trial protocol without any practical issues.",True,Observation/n-a210f83bbb0160b7e62fad58da52c2
+sigir-20147,0,A 26-year-old obese woman with a history of bipolar disorder complains that her recent struggles with her weight and eating have caused her to feel depressed.,True,Condition/n-a8fd17a24651fb87bfafbbdfa253f0 | Observation/n-7ede58bdfd6af3c198ebd1e392a809 | Observation/n-bbe3595e9370978bb0915c6c103bc6 | Observation/n-c7b30fc7d8a4343295563b01de6e11
+sigir-20147,1,She states that she has recently had difficulty sleeping and feels excessively anxious and agitated.,True,Observation/n-cf515d6df78a652b8bfedd226a31a9
+sigir-20147,2,She also states that she has had thoughts of suicide.,True,Observation/n-f92326a75a70bb439ffc3bc16cce76
+sigir-20147,3,She often finds herself fidgety and unable to sit still for extended periods of time.,True,Observation/n-6183142810508824195c7b06682f6b
+sigir-20147,4,Her family tells her that she is increasingly irritable.,True,Observation/n-a287903d4e206c547f5e47d03fca1e
+sigir-20147,5,Her current medications include lithium carbonate and zolpidem.,True,MedicationStatement/n-931c2ac755ce541ebf2407de9b826f | MedicationStatement/n-c50f8b8dcaa40adfdd357317cca30d
+sigir-20147,6,"The patient will provide informed consent, and will comply with the trial protocol without any practical issues.",True,Observation/n-478bba387e5605c207ae63419a2cc9
+sigir-20148,0,A 62-year-old man sees a neurologist for progressive memory loss and jerking movements of the lower extremities.,True,Observation/n-2128ed7ca38543e644b4b5c879347a | Observation/n-4a3a260bf48041d63b9d6b0a5fceb8 | Observation/n-52dde2af38c07b06f7565ef8aebdfd
+sigir-20148,1,Neurologic examination confirms severe cognitive deficits and memory dysfunction.,True,Observation/n-2ccbbeabac8b579341e4d72bd07db5
+sigir-20148,2,An electroencephalogram shows generalized periodic sharp waves.,True,Observation/n-2800d117cf1f5c08b42d1fa0e9222f
+sigir-20148,3,Neuroimaging studies show moderately advanced cerebral atrophy.,True,Observation/n-44e91f18c0407034ca93c71bd8af3a
+sigir-20148,4,A cortical biopsy shows diffuse vacuolar changes of the gray matter with reactive astrocytosis but no inflammatory infiltration.,True,Procedure/n-62e48ce8cf08269b7ccafb0beaf7bf
+sigir-20148,5,"The patient will provide informed consent, and will comply with the trial protocol without any practical issues.",True,Observation/n-3cce7bbd7248f17c20e6c365cc9049
+sigir-20149,0,A 43-year-old woman visits her dermatologist for lesions on her neck.,True,Observation/n-67cf449a81c57276aeec5f51a2f617 | Observation/n-84d898fbcf974cd6317dbd546ea246 | Observation/n-9a690aaeb14511e0c0bb1551196f72 | Observation/n-f98e9b9e9a1ac2e384fa4278b141ae
+sigir-20149,1,"On examination, multiple lesions are seen.",True,Observation/n-9a690aaeb14511e0c0bb1551196f72
+sigir-20149,2,"Each lesion is small soft, and pedunculated.",True,Observation/n-009c485af755fa7e1fc0ce05bca76b
+sigir-20149,3,The largest lesion is about 4 mm in diameter.,True,Observation/n-73a3d5749a2f175f52c2732b73865c
+sigir-20149,4,The color of different lesions varies from flesh colored to slightly hyperpigmented.,True,Observation/n-27bfcedee2bde773ad11beb4084ad8
+sigir-20149,5,"The patient will provide informed consent, and will comply with the trial protocol without any practical issues.",True,Observation/n-cfa99975698d90576aca6883014a72
+sigir-20151,0,"A 44 yo male is brought to the emergency room after multiple bouts of vomiting that has a ""coffee ground"" appearance.",True,Observation/n-8eb5f5ef82eb9c9835e144456301e4 | Observation/n-b404f8d9e89a489d45834e4ee570dd | Observation/n-cd4d6a895196584fe1d4e2258fe2bc
+sigir-20151,1,His heart rate is 135 bpm and blood pressure is 70/40 mmHg.,True,Observation/n-e62944526a351e222d41b5129ea36c | Observation/n-edf53baa83a0860cb7b5fff3ef5751
+sigir-20151,2,Physical exam findings include decreased mental status and cool extremities.,True,Observation/n-428e93d5551aa2e694b0fe2f7b829b
+sigir-20151,3,He receives a rapid infusion of crystalloid solution followed by packed red blood cell transfusion and is admitted to the ICU for further care.,True,Observation/n-914d95a79be42abfdd734a1e1ce48d | Observation/n-a635cf4ab9cb06c1f801fc9d70b862 | Procedure/n-4ba3e7a8c740c58896d99da0879c9b
+sigir-20151,4,"The patient will provide informed consent, and will comply with the trial protocol without any practical issues.",True,Observation/n-d3edc45183bcd1720cb3f7fdc6ad1a
+sigir-201510,0,"A 38 year old woman complains of severe premenstrual and menstrual pelvic pain, heavy, irregular periods and occasional spotting between periods.",True,Observation/n-4bf7ccc607c526bc8fd067256b13f0 | Observation/n-5677cfcfee74b965e1692334a76db6 | Observation/n-5f1266fb2921e6e8b0f94eb798ff07 | Observation/n-612c0b66eb04d08fdd4cd9658e9c34
+sigir-201510,1,Past medical history remarkable for  two years of infertility treatment and an ectopic pregnancy at age 26.,True,Condition/n-a4b4431b4ebddf5987f7f8bc4a46c5
+sigir-201510,2,"The patient will provide informed consent, and will comply with the trial protocol without any practical issues.",True,Observation/n-6da2a50eb6704067c719d5cae8b0a6
+sigir-201511,0,A 56-year old Caucasian female complains of being markedly more sensitive to the cold than most people.,True,Observation/n-55429f2f2aa6e0b3b659c7f7e8b1d0 | Observation/n-9cb2be31656fc84252ff7fe7d62c44 | Observation/n-a7ec4439c9a158c927000cbe33dc7f
+sigir-201511,1,"She also gets tired easily, has decreased appetite, and has recently tried home remedies for her constipation.",True,Observation/n-719821d823192b3a33c0df7c8f6aa3
+sigir-201511,2,"Physical examination reveals hyporeflexia with delayed relaxation of knee and ankle reflexes, and very dry skin.",True,Observation/n-10f8879c7427a3a8787f1377728f46
+sigir-201511,3,She moves and talks slowly.,True,Observation/n-8f2bce6155d6cb49252fb9cae661aa
+sigir-201511,4,"The patient will provide informed consent, and will comply with the trial protocol without any practical issues.",True,Observation/n-a5b44092faba28552f86b5520543ff
+sigir-201512,0,A 44-year-old man was recently in an automobile accident where he sustained a skull fracture.,True,Condition/n-c29ad28c8fc218eecf6ee664acd7f5 | Observation/n-449204327de835e163afb28b67687a | Observation/n-70667bfa23f420be6d73c1bafa3325 | Observation/n-7e4a93c580a9f51d0bd33fa6a5d592
+sigir-201512,1,"In the emergency room, he noted clear fluid dripping from his nose.",True,Observation/n-f5b5f3e3cfdd9de709c18b3d954a0a
+sigir-201512,2,The following day he started complaining of severe headache and fever.,True,Observation/n-b5196fe2c50c4c7cc65dd60dc77a8d
+sigir-201512,3,Nuchal rigidity was found on physical examination.,True,Observation/n-656b34fbda7b654af8554dbc5881f0
+sigir-201512,4,"The patient will provide informed consent, and will comply with the trial protocol without any practical issues.",True,Observation/n-de98c50773ea71999b2db77d47276d
+sigir-201513,0,"A 5-year-old boy presents to the emergency department with complaints of progressively worsening dysphagia, drooling, fever and vocal changes.",True,Observation/n-a0023c54a549bad2a606a419f49b58 | Observation/n-d95bceca443e8da40083676fff4223 | Observation/n-e3deb1c59ffaf11881d31a3c12ad86
+sigir-201513,1,"He is toxic-appearing, and leans forward while sitting on his mother's lap.",True,Observation/n-f937e52e4a131713db41548c67bb41
+sigir-201513,2,"He is drooling and speaks with a muffled ""hot potato"" voice.",True,Observation/n-b57198a6e7aeaaa6fcb43a2414fa75
+sigir-201513,3,"The parents deny the possibility of foreign body ingestion or trauma, and they report that they are delaying some of his vaccines.",True,Observation/n-772528cba70c918c800a27e35cf32b
+sigir-201513,4,"The patient will provide informed consent, and will comply with the trial protocol without any practical issues.",True,Observation/n-d4c8e09947ad7217dc9b7c6044a375
+sigir-201514,0,"A 27-year-old woman at 11 weeks gestation in her second pregnancy is found to have a hemoglobin (Hb) of 9.0 g/dL, white blood cell count 6.3 x 109/L, platelet count 119 x 109/L, mean corpuscular volume 109 fL.",True,Observation/n-229eba27cf3facae93238c44beabc6 | Observation/n-813feb0245007ed04dbd4f117e7a2f | Observation/n-9feeded5d0d30aa6d4761ac0eeef6d | Observation/n-bf6688714c734cd3005ccba90de493 | Observation/n-dcf1154591e59a4ba8e922390d1bd5 | Observation/n-eae9fff96fe823ef7c7421d0e659ef | Observation/n-f12e1a8f7e6a88ffb058ca459c5c0a
+sigir-201514,1,Further investigations reveal mild iron deficiency.,True,Condition/n-6299ae57ae4cb68b44e516f1cc94e8
+sigir-201514,2,She already receives iron supplementation.,True,MedicationStatement/n-aa666ca0026d1fd9d6ceed704fb7b6
+sigir-201514,3,The obstetrician repeats the complete blood cell count 2 weeks later.,True,Procedure/n-acd9b793fb913cd7564e913a101c6a
+sigir-201514,4,"The Hb is 8.9 g/dL, WBC count 7.1 x 109/L, and platelets 108 x 109/L.",True,Observation/n-2eaaf09e274e91da9eeaf7eab64908
+sigir-201514,5,She describes difficulty swallowing.,True,Observation/n-06d48ea851d748130d8b0b899c00a3
+sigir-201514,6,A reticulocyte count is performed and found elevated at 180 x 109/L.,True,Observation/n-9bad2a51f6213aa358a95e2dbac0a8
+sigir-201514,7,The obstetrician requests a hematology consult.,True,Observation/n-4fd664975db1119cffbc12cce8a5ff
+sigir-201514,8,"The following additional results were found: Negative DAT, normal clotting screen, elevated LDH (2000 IU/L), normal urea and electrolytes, normal alanine aminotransferase (ALT), anisocytosis, poikilocytosis, no fragments, no agglutination, polychromasia and presence of hemosiderin in the urine.",True,Observation/n-e8ce44fb82769a80e0e8696976a3ec
+sigir-201514,9,"The patient will provide informed consent, and will comply with the trial protocol without any practical issues.",True,Observation/n-a1b77b354d906eaf1da2d8da86f93a
+sigir-201515,0,"Karen is a 72-year-old woman with hypertension and type 2 diabetes, who was hospitalized for cryptogenic stroke two weeks ago.",True,Condition/n-030506c029bfe4140c7234b2f7c50d | Condition/n-1f1d7add3f84810fa062a0c2504451 | Condition/n-7317fc649576ff72d5a396d0f8321c | Observation/n-0564fe6fe9ccb46499ec2ef9a83f65
+sigir-201515,1,"At the time, computed tomography was negative for brain hemorrhage and she was given thrombolytic therapy with resolution of her symptoms.",True,Observation/n-85b5c13ade0f574087700670768ec9 | Observation/n-e18ee5ea5d93994c55bcf15d9399e1
+sigir-201515,2,Transesophageal echocardiogram and magnetic resonance angiogram of brain and great vessels found no evidence of abnormalities.,True,Observation/n-9bf9c1f136c5fe7fb3d0efd562ee7a
+sigir-201515,3,"She presents currently with a blood pressure of 120/70 mm Hg, normal glucose, and normal sinus rhythm on a 12-lead electrocardiogram.",True,Observation/n-4082a654c87684bd663b9650390a18 | Observation/n-e8dccd905a83f15cfffd974b5bb095
+sigir-201515,4,"She reports history of occasional palpitations, shortness of breath and chest pain lasting for a few minutes and then stopping on their own.",True,Observation/n-ec636881c4dcf2938bbfcbed969c93
+sigir-201515,5,"The patient will provide informed consent, and will comply with the trial protocol without any practical issues.",True,Observation/n-ea1ad67602ef72ecfa990acdaf05d4
+sigir-201516,0,A 4 year old boy presents to the emergency room with wheezing.,True,Observation/n-3b558a7e5215382bf72d8be7f61c53 | Observation/n-963cfa742263eba1a4187b9948b214 | Observation/n-be3d97d60fc1d41ec49b6e6db1625f
+sigir-201516,1,"He has had a history of allergic rhinitis, but no history of wheezing.",True,Condition/n-85f2a512c0a1215ea9c5bbcd52a5d8
+sigir-201516,2,His mother reports that 5 hours ago patient was playing in the backyard sandbox when she heard him suddenly start coughing.,True,Observation/n-9038f7b475d31df2e26d71162b0147
+sigir-201516,3,"The coughing lasted only moments, but he has been audibly wheezing since.",True,Observation/n-70b8bb8ed424df143cd5866a3e5b99
+sigir-201516,4,"Mother was concerned, because his breathing has not returned to normal, so she brought him to the ED.",True,Observation/n-3e4af07a869cdde367dc4677078ab3
+sigir-201516,5,"On exam, the child is playful and well appearing.",True,Observation/n-b986f3f39652242de652bb4b5a3613
+sigir-201516,6,Wheezing is heard in the mid-right chest area.,True,Observation/n-759143394b7faa2d83cd8c4de39590
+sigir-201516,7,O2 sats are 100% on room air.,True,Observation/n-646c553bb058e623e3a5bb09517fc3
+sigir-201516,8,"The patient will provide informed consent, and will comply with the trial protocol without any practical issues.",True,Observation/n-02456464f0e03e359f7268c0031108
+sigir-201517,0,A 32 year old female with no previous medical history presents to clinic to discuss lab results from her most recent pap smear.,True,Observation/n-26d34489e32725fd2e15bd09843476 | Observation/n-cb1901a42b2f5a673af4b0ac764811 | Observation/n-ebc949634646bc92295dbfc2ff53cd
+sigir-201517,1,She reports no complaints and is in general good health.,True,Observation/n-ecd2e5eab89467229bbc3415f6b466
+sigir-201517,2,"The results of her PAP were cytology negative, HPV positive.",True,Observation/n-9d368ed27f3a6a4a89ae1e2c60e106 | Observation/n-b1cfb99a588b897abc392f130581a8
+sigir-201517,3,"The patient will provide informed consent, and will comply with the trial protocol without any practical issues.",True,Observation/n-95a2d2e3979e30ecbf3792fac288b9
+sigir-201518,0,A 65 yo African-American male with shortness of breath related to exertion that has been worsening over the past three weeks.,True,Observation/n-2946138372f89aa4edbd8c754f98e9 | Observation/n-829c6d23618438ae0d85a45aeffa9e | Observation/n-e73128706d56f693d3a10c67eb7c6c
+sigir-201518,1,He also has difficulty breathing when lying flat and has started using two to three extra pillows at night.,True,Observation/n-3d7358b69256f29fc96bca1d32c359
+sigir-201518,2,"Significant physical exam findings include bibasilar lung crackles, pitting ankle edema and jugular venous distension.",True,Observation/n-5dd419fbaa10eb2634e85d01c47a40
+sigir-201518,3,"The patient will provide informed consent, and will comply with the trial protocol without any practical issues.",True,Observation/n-cbfd592a9755703ed76c99c8f4a101
+sigir-201519,0,"A 66yo female with significant smoking history and chronic cough for the past two years presents with recent, progressive shortness of breath.",True,Observation/n-6a54fcbf4df870b3dc1e656b16dd7d
+sigir-201519,1,She is in moderate respiratory distress after walking from the waiting room to the examination room.,True,Observation/n-fc80a84496b145c34d48d562256b5d
+sigir-201519,2,"Physical exam reveals mildly distended neck veins, a barrel-shaped chest, and moderate inspiratory and expiratory wheezes.",True,Observation/n-c67f96b9d941fd395ac712ad8f0371
+sigir-201519,3,She has smoked 1 to 2 packs per days for the past 47 years.,True,Observation/n-983e750c0e8828344e2d4c6f34de92
+sigir-201519,4,"The patient will provide informed consent, and will comply with the trial protocol without any practical issues.",True,Observation/n-3e917d01f3a0dce5e960351cca68aa
+sigir-20152,0,A 62 yo male presents with four days of non-productive cough and one day of fever.,True,Observation/n-4002a632c97495ad8667499bcd6be1 | Observation/n-637ccfd670802af8e2abba1c7a4664 | Observation/n-9b057b49a31c7837ce162a2b5d617f
+sigir-20152,1,"He is on immunosuppressive medications, including prednisone.",True,MedicationStatement/n-8431ac3042906ee5476e1904570a44
+sigir-20152,2,"He is admitted to the hospital, and his work-up includes bronchoscopy with bronchoalveolar lavage (BAL).",True,Observation/n-71806f2d1393fd108dba8975720c38
+sigir-20152,3,BAL fluid examination reveals owl's eye inclusion bodies in the nuclei of infection cells.,True,Observation/n-56bb141518294f1ed3834f0ac12213
+sigir-20152,4,"The patient will provide informed consent, and will comply with the trial protocol without any practical issues.",True,Observation/n-04133c0be985a66ca317be28e9e503
+sigir-201520,0,An 89-year-old man was brought to the emergency department by his wife and son after six months of progressive changes in cognition and personality.,True,Observation/n-af8f290b0c5f44324684bd38384721
+sigir-201520,1,"He began to have poor memory, difficulty expressing himself, and exhibited unusual behaviors, such as pouring milk onto the table and undressing immediately after getting dressed.",True,Observation/n-2b88ff2e985ce30776bc254e83d04b
+sigir-201520,2,"He is unable to dress, bathe, use the toilet, or walk independently.",True,Observation/n-3133eae6ef9cd66003d42092923f3c
+sigir-201520,3,"On examination the patient's temperature was 36.5C (97.7F), the heart rate 61 bpm in an irregular rhythm, the blood pressure 144/78 mm Hg, and the respiratory rate 18 bpm.",True,Observation/n-5ddcf8b73b7026f48bf0d8c1098f56 | Observation/n-771cccf4d361bcda48775451ad39bb | Observation/n-9d82d99a1ce7c3e23e4cfe994c3216 | Observation/n-bfbc1211d7545b5e5fed2828cc9b56
+sigir-201520,4,The patient was alert and oriented to self and city but not year.,True,Observation/n-2fe0a4444ca76f6d00a191d73fc27f
+sigir-201520,5,He frequently interrupted the examiner.,True,Observation/n-bdc2407480c2227eac73abb3d9daf6
+sigir-201520,6,"He repeatedly reached out to grab things in front of him, including the examiner's tie and face.",True,Observation/n-01d7e294a5c0b73f308bd1a1169e53
+sigir-201520,7,"He could not spell the word ""world"" backward, could not follow commands involving multiple steps and was unable to perform simple calculations.",True,Observation/n-2a37d941622b07c5c396743456532f
+sigir-201520,8,"His speech was fluent, but he often used similar-sounding word substitutions.",True,Observation/n-9f68e649215f118b764e6fc40f242f
+sigir-201520,9,He could immediately recall three out of three words but recalled none of them after 5 minutes.,True,Observation/n-82fcb1b2b2989740456d9478d5e449
+sigir-201520,10,Examination of the cranial nerves revealed clinically significant paratonic rigidity.,True,Observation/n-e749f07fa8f27851705fec94ea5af4
+sigir-201520,11,"Myoclonic jerks were seen in the arms, with symmetrically brisk reflexes.",True,Observation/n-32b9270abbde62d527f8ac0ac8cae1
+sigir-201520,12,The reflexes in the legs were normal.,True,Observation/n-3aa4b7b7aa1a835cfac25440d03832
+sigir-201520,13,"The patient will provide informed consent, and will comply with the trial protocol without any practical issues.",True,Observation/n-641b0feeaa0f19a74799be6025d746
+sigir-201521,0,"A 32-year-old male presents to your office complaining of diarrhea, abdominal cramping and flatulence.",True,Observation/n-35b825de7acbb47512926c253cfe9f | Observation/n-87933b69e3782e19c741dfc9bfac84 | Observation/n-c316121a41a0b50f495d7aafd51ed4
+sigir-201521,1,Stools are greasy and foul-smelling.,True,Observation/n-5acf5c7771d507bfde4dad50fe552d
+sigir-201521,2,He also has loss of appetite and malaise.,True,Observation/n-c20d9afed67e3efdd22449fbf489b1
+sigir-201521,3,He recently returned home from a hiking trip in the mountains where he drank water from natural sources.,True,Observation/n-0783db96612b3518b1a96f178284f4
+sigir-201521,4,"An iodine-stained stool smear revealed ellipsoidal cysts with smooth, well-defined walls and 2+ nuclei.",True,Observation/n-75c4df34136b406be456f0f1d94f17
+sigir-201521,5,"The patient will provide informed consent, and will comply with the trial protocol without any practical issues.",True,Observation/n-fc5f7b8106791dd5835802b8afb160
+sigir-201522,0,A 65-year-old male with a history of tuberculosis has started to complain of productive cough with tinges of blood.,True,Condition/n-4997dec2f945d8866eb55239e64527 | Observation/n-5c4ffbaf2a780cf26f9c962d329bbb | Observation/n-b4ea1b42ed818e0341c43224d493db | Observation/n-f4fb48403839a118f731fbadd25cd6
+sigir-201522,1,Chest X-ray reveals a round opaque mass within a cavity in his left upper lobe.,True,Observation/n-caa6ac53139a70287b103daeb86a83
+sigir-201522,2,The spherical mass moved in the cavity during supine and prone CT imaging.,True,Observation/n-f475b58591f45838004e8fbd4495d2
+sigir-201522,3,"Culture of the sputum revealed an organism with septated, low-angle branching hyphae that had straight, parallel walls.",True,Observation/n-2e32df78b35c917c6b6ffa477ed05e
+sigir-201522,4,"The patient will provide informed consent, and will comply with the trial protocol without any practical issues.",True,Observation/n-7c01f5b6372a606748f361504f67d1
+sigir-201523,0,"An 18-year-old male returning from a recent vacation in Asia presents to the ER with a sudden onset of high fever, chills, facial flushing, epistaxis and severe headache and joint pain.",True,Observation/n-55e6384275acf39bbd75dd6fccdc02 | Observation/n-992fbb9b600e6d2294366e12fa6644 | Observation/n-a4d370ef4cd0845d839a296ba0cb4a | Observation/n-be7054c7765985af20acfe3f35c0f5
+sigir-201523,1,"His complete blood count reveals leukopenia, increased hematocrit concentration and thrombocytopenia.",True,Condition/n-c25f0c4295f25c340caed7006eabd0 | Condition/n-e2671ca1003e1e25062b008eee4b3d
+sigir-201523,2,"The patient will provide informed consent, and will comply with the trial protocol without any practical issues.",True,Observation/n-b992a477e3f741bd6004c420d75d87
+sigir-201524,0,A 31 yo male with no significant past medical history presents with productive cough and chest pain.,True,Observation/n-5841b73918db05720df0407d3104bc | Observation/n-72fd853de383f210d0fac6dbedb3fe | Observation/n-edbc3b934cea9597c2606d40816c82
+sigir-201524,1,"He reports developing cold symptoms one week ago that were improving until two days ago, when he developed a new fever, chills, and worsening cough.",True,Observation/n-e265b6cb868bdd9024add1e61dcdc1
+sigir-201524,2,He has right-sided chest pain that is aggravated by coughing.,True,Observation/n-895d88471de8047b57601323b909f6
+sigir-201524,3,His wife also had cold symptoms a week ago but is now feeling well.,True,Observation/n-eee77f90ed2e9826e061465b911620
+sigir-201524,4,"Vitals signs include temperature 103.4, pulse 105, blood pressure 120/80, and respiratory rate 15.",True,Observation/n-051336357d9a767394bb3e5f059e0e | Observation/n-c4d6ceaadc5bd1fe5d1f2a38314909
+sigir-201524,5,"Lung exam reveals expiratory wheezing, decreased breath sounds, and egophany in the left lower lung field.",True,Observation/n-7ff0d206cdf99ca85a6457af32287a
+sigir-201524,6,"The patient will provide informed consent, and will comply with the trial protocol without any practical issues.",True,Observation/n-7e8e10b63395f141858e8e397060a7
+sigir-20153,0,"A 65 yo male with no significant history of cardiovascular disease presents to the emergency room with acute onset of shortness of breath, tachypnea, and left-sided chest pain that worsens with inspiration.",True,Observation/n-1f1f260ed525075dadb91e3723277d | Observation/n-ab65343c80b65321df4beb35bc5c6c | Observation/n-cad920b07777249324d5389b72193b
+sigir-20153,1,"Of note, he underwent a right total hip replacement two weeks prior to presentation and  was unable to begin physical therapy and rehabilitation for several days following the surgery due to poor pain management.",True,Procedure/n-7fd6f07376c632af0a49f8ef07c1db
+sigir-20153,2,Relevant physical exam findings include a respiratory rate of 35 and right calf pain.,True,Observation/n-9589e437cf172997440392398202d6 | Observation/n-a4c1c117fac13d71088df60aa6129b
+sigir-20153,3,"The patient will provide informed consent, and will comply with the trial protocol without any practical issues.",True,Observation/n-d488ee0430a3c464575263ba034fad
+sigir-20154,0,An 82-year-old woman comes to the emergency department because of chest pain and shortness of breath after being awakened in the morning by stabbing substernal chest pain radiating to the left shoulder and jaw.,True,Observation/n-5dde83c77f69713049b8dfeaf3bbca | Observation/n-dddbd6685d543a741eaf7b65cf1a9f | Observation/n-f342189cac7b58b23fd099146cce85
+sigir-20154,1,"The patient had hypertension, renal-artery stenosis with chronic renal insufficiency, hypercholesterolemia, osteoporosis and dementia.",True,Condition/n-4427bfbcb4b769d2f9d8a9f8aa5dc9 | Condition/n-510b1ec122c8bc3f1d99df42d81d16 | Condition/n-6c54f3862f4b49c3f333f03d338693 | Condition/n-976b85982de5b5441aed5015692144
+sigir-20154,2,"Blood pressure was 199/108 mm Hg, respiratory rate 18 bpm, oxygen saturation 98% on ambient air.",True,Observation/n-7cb422e48ff1f752a7f9cb69cbcb70 | Observation/n-c0ffb007245c0bf5ddf3be780b7cf6 | Observation/n-ef64650a9c4d16674e95e80a7d4986
+sigir-20154,3,The heart sounds were rapid and with no murmurs.,True,Observation/n-c4b6e5fe3b4e8fb457636f5d7c0130
+sigir-20154,4,"CK-MB was 10.9 ng/ml, CK was 89 U/l, CK index was 12.2% and Troponin T was 0.40 ng/ml.",True,Observation/n-fde12812b8a0fb7408706a2d6f19d9
+sigir-20154,5,"An EKG showed sinus regular tachycardia of 119 bpm, with ST-segment elevations up to 3 mm in V1, V2, and V3.",True,Observation/n-7c730695d3243341599475891a4508
+sigir-20154,6,A chest radiograph showed low lung volumes and right basilar subsegmental atelectasis.,True,Observation/n-4cd144bca001b057a0ee2304f65f70
+sigir-20154,7,Coronary angiography showed no stenosis or clinically significant disease.,True,Procedure/n-8f2da11a74d36ec8a56967e1cbc602
+sigir-20154,8,"Left ventriculography revealed akinesis of the anterior wall, hypokinesis of the apical and distal inferior walls, and compensatory hyperkinesis of the basal anterior and basal inferior walls.",True,Observation/n-8f8200a47cba7325fdce99225e3a17
+sigir-20154,9,"A transthoracic echocardiogram showed severe segmental left ventricular dysfunction involving the septum, anteroseptal territory, and apex.",True,Observation/n-bde53a58cb63d3ea42c780d378a2a4
+sigir-20154,10,The overall left ventricular systolic function was mildly impaired and there was mild mitral regurgitation.,True,Observation/n-fb10f1b5c8ed60a91112f207e78631
+sigir-20154,11,"The patient will provide informed consent, and will comply with the trial protocol without any practical issues.",True,Observation/n-49ba682d2fea04a44c6959d57129fa
+sigir-20155,0,A 31-year-old woman with no previous medical problems comes to the emergency room with a history of 2 weeks of joint pain and fatigue.,True,Observation/n-1a575e08196de6171d04c552a64acd | Observation/n-9151af00aaac4211cdac9253f40433 | Observation/n-e1d83d3afc9bebd5694781f75be9a1
+sigir-20155,1,"Initially she had right ankle swelling and difficulty standing up and walking, all of which resolved after a few days.",True,Observation/n-1b91fc03ae219e648c1b9f8c49b86b
+sigir-20155,2,"For the past several days she has had pain, swelling and stiffness in her knees, hips and right elbow.",True,Observation/n-ad0d9040993271337e44c14d940ce8
+sigir-20155,3,She also reports intermittent fevers ranging from 38.2 to 39.4 degrees Celsius and chest pain.,True,Observation/n-f2c8a432e8cadca9a36f627746ad09
+sigir-20155,4,"The patient will provide informed consent, and will comply with the trial protocol without any practical issues.",True,Observation/n-6e81dc58efe915dec22a10d48ddcd8
+sigir-20156,0,"A 46-year-old woman presents  with a 9 month history of weight loss (20 lb), sweating, insomnia and diarrhea.",True,Observation/n-71d2596b59df1c6a5d0caa1694906b | Observation/n-74dbc56a6a3a0a5e14f9b1d4ba1020 | Observation/n-b8a25e37ef975c6018b84f614279f4
+sigir-20156,1,She reports to have been eating more than normal and that her heart sometimes races for no reason.,True,Observation/n-10e1ced3041a43063f191748b8a76f
+sigir-20156,2,"On physical examination her hands are warm and sweaty, her pulse is irregular at 110bpm and there is hyperreflexia and mild exophthalmia.",True,Observation/n-1ed264da722f03de494d6ebcc8f625 | Observation/n-83676cdd9a936279ed72e28a1aa23f
+sigir-20156,3,"The patient will provide informed consent, and will comply with the trial protocol without any practical issues.",True,Observation/n-a1a0ad072a178af76b7c211fef3b5e
+sigir-20157,0,A 20 yo female college student with no significant past medical history presents with a chief complaint of fatigue.,True,Observation/n-2deed3db258f14f49de34269422c1d | Observation/n-3f712dd427f95b3b86b4836d51b80e | Observation/n-9021747a4900326e38d5229ae8666d
+sigir-20157,1,She reports increased sleep and appetite over the past few months as well as difficulty concentrating on her schoolwork.,True,Observation/n-1c10163e2c15d7112644015cca4ee4
+sigir-20157,2,She no longer enjoys spending time with her friends and feels guilty for not spending more time with her family.,True,Observation/n-4b389502afefed4d447cadbb804596
+sigir-20157,3,"Her physical exam and laboratory tests, including hemoglobin, hematocrit and thyroid stimulating hormone, are within normal limits.",True,Observation/n-5cea2edddc2e9eb5c16e7c9c67fb80
+sigir-20157,4,"The patient will provide informed consent, and will comply with the trial protocol without any practical issues.",True,Observation/n-1d0e7c1104c2f2cd5079e58ae1f3cb
+sigir-20158,0,"A 10 yo boy with nighttime snoring, pauses in breathing, and restlessness with nighttime awakenings.",True,Observation/n-024991c972e610ff838cbaa2ffebe3 | Observation/n-2d73517669aa7fae3f2d37f0d73f93 | Observation/n-9c894daea95e174f1a0068057e407e | Observation/n-fbed0d593442cc88aea39c92a912e8
+sigir-20158,1,No history of headache or night terrors.,True,Observation/n-8125a2ee2fcfa612207dcebea9d231
+sigir-20158,2,"The boy's teacher recently contacted his parents because she was concerned about his declining grades, lack of attention, and excessive sleepiness during class.",True,Observation/n-b3fa8c1fb9f2ab984eecded1548736
+sigir-20158,3,"The patient will provide informed consent, and will comply with the trial protocol without any practical issues.",True,Observation/n-53224b7a2e34a2577eca00e310b1e2
+sigir-20159,0,"A 10 year old child is brought to the emergency room complaining of myalgia, cough, and shortness of breath.",True,Observation/n-400ba6917aaee9685efe41b9639483
+sigir-20159,1,"Two weeks ago the patient was seen by his pediatrician for low-grade fever, abdominal pain, and diarrhea, diagnosed with a viral illness, and prescribed OTC medications.",True,Condition/n-0e00dc8259839721c5c04914ef601d
+sigir-20159,2,Three weeks ago the family returned home after a stay with relatives on a farm that raises domestic pigs for consumption.,True,Observation/n-6f2f3fc8f48800a57e6341e5316283
+sigir-20159,3,"Vital signs: T: 39.5 C, BP: 90/60 HR: 120/min RR: 40/min.",True,Observation/n-1c150314b135ea043f09d3a048b7a2 | Observation/n-20606ed3011b170908b7f5a41421f4 | Observation/n-69e233dba9a1fe17d07bbaa25b7dc5 | Observation/n-e708abb4bc75a3d34a1e752f899f58
+sigir-20159,4,"Physical exam findings include cyanosis,  slight stiffness of the neck,  and  marked periorbital edema.",True,Observation/n-30d8fb6d96a5a1666e69fbfc96ce8d
+sigir-20159,5,"Lab results include WBC 25,000, with 25% Eosinophils, and an unremarkable urinalysis.",True,Observation/n-8f364273459c8dea9d6cf7c8ffea99
+sigir-20159,6,"The patient will provide informed consent, and will comply with the trial protocol without any practical issues.",True,Observation/n-1d974bd92280955b1b57363624071c

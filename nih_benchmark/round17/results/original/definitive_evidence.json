@@ -1,0 +1,120 @@
+{
+  "44": {
+    "subject": "Patient/sigir-20143",
+    "study": "NCT01452971",
+    "criterion": "44",
+    "criterion_type": "exclusion",
+    "criterion_text": "Participant is under 18 years old.",
+    "state": "MET",
+    "source_sha256": "7db7b98d01354acf855cd7b610383ea9dd1df80ead35eeb47b9ba43467b559ad",
+    "catalog_sha256": "8f74ae1b4fb2c4de07965dd52dc56fba5a04a9e82d1ae500452e9e414eaf2e66",
+    "references": [
+      "Observation/x-89fd4ea4646207d8907a8cd7e401ad"
+    ],
+    "cited_lines": [
+      {
+        "line": 0,
+        "text": "0. A 58-year-old nonsmoker white female with mild exertional dyspnea and occasional cough is found to have a left lung mass on chest x-ray."
+      }
+    ]
+  },
+  "155": {
+    "subject": "Patient/sigir-20149",
+    "study": "NCT02615912",
+    "criterion": "155",
+    "criterion_type": "inclusion",
+    "criterion_text": "Subjects with visible skin disease, tattoos, skin condition, or abnormal skin color",
+    "state": "MET",
+    "source_sha256": "2092b6ca515b1931f317a278b8742d3598cf2e09c5e5cc0f6ff779618ecd8a32",
+    "catalog_sha256": "8f74ae1b4fb2c4de07965dd52dc56fba5a04a9e82d1ae500452e9e414eaf2e66",
+    "references": [
+      "Observation/x-e1a9b5a654de4380eb0cc3861254f8"
+    ],
+    "cited_lines": [
+      {
+        "line": 0,
+        "text": "0. A 43-year-old woman visits her dermatologist for lesions on her neck."
+      },
+      {
+        "line": 1,
+        "text": "1. On examination, multiple lesions are seen."
+      }
+    ]
+  },
+  "196": {
+    "subject": "Patient/sigir-201411",
+    "study": "NCT01723137",
+    "criterion": "196",
+    "criterion_type": "exclusion",
+    "criterion_text": "Less than 18 years of age",
+    "state": "MET",
+    "source_sha256": "db4467fa7cba03819df27445f2090c80d6acd145a3361057f24a2fb5877aaec1",
+    "catalog_sha256": "8f74ae1b4fb2c4de07965dd52dc56fba5a04a9e82d1ae500452e9e414eaf2e66",
+    "references": [
+      "Observation/x-5afa550df507089a1427470e47fda7"
+    ],
+    "cited_lines": [
+      {
+        "line": 0,
+        "text": "0. A 40-year-old woman with no past medical history presents to the ER with excruciating pain in her right arm that had started 1 hour prior to her admission."
+      }
+    ]
+  },
+  "517": {
+    "subject": "Patient/sigir-201427",
+    "study": "NCT01713881",
+    "criterion": "517",
+    "criterion_type": "exclusion",
+    "criterion_text": "Less than 18 years old",
+    "state": "MET",
+    "source_sha256": "01945d0051cbf9d8ce14afd398b15c5587d600aa5dea251561509793d615f273",
+    "catalog_sha256": "8f74ae1b4fb2c4de07965dd52dc56fba5a04a9e82d1ae500452e9e414eaf2e66",
+    "references": [
+      "Observation/x-7355df5bc9de96f32f577f01647486"
+    ],
+    "cited_lines": [
+      {
+        "line": 0,
+        "text": "0. A 21-year-old college student undergoes colonoscopy due to family history of multiple polyps in his older siblings."
+      }
+    ]
+  },
+  "577": {
+    "subject": "Patient/sigir-20151",
+    "study": "NCT01142245",
+    "criterion": "577",
+    "criterion_type": "exclusion",
+    "criterion_text": "Moribund patients in whom active treatment of any form is not considered.",
+    "state": "MET",
+    "source_sha256": "90feb6e2e42b1dda71b8a19974faa30b3a05570b5a27035a6f244848e689f105",
+    "catalog_sha256": "8f74ae1b4fb2c4de07965dd52dc56fba5a04a9e82d1ae500452e9e414eaf2e66",
+    "references": [
+      "Observation/x-1680fa87fb5aac0b6751e7770260b3"
+    ],
+    "cited_lines": [
+      {
+        "line": 3,
+        "text": "3. He receives a rapid infusion of crystalloid solution followed by packed red blood cell transfusion and is admitted to the ICU for further care."
+      }
+    ]
+  },
+  "633": {
+    "subject": "Patient/sigir-20153",
+    "study": "NCT01139632",
+    "criterion": "633",
+    "criterion_type": "exclusion",
+    "criterion_text": "Age <18 years.",
+    "state": "MET",
+    "source_sha256": "ab965a81fb09dd678da825d447c82ac9e9ef4577ea2241d448e4bbdbbfa4e5d2",
+    "catalog_sha256": "8f74ae1b4fb2c4de07965dd52dc56fba5a04a9e82d1ae500452e9e414eaf2e66",
+    "references": [
+      "Observation/x-ed3708d09e7dd22d62124cf4235a22"
+    ],
+    "cited_lines": [
+      {
+        "line": 0,
+        "text": "0. A 65 yo male with no significant history of cardiovascular disease presents to the emergency room with acute onset of shortness of breath, tachypnea, and left-sided chest pain that worsens with inspiration."
+      }
+    ]
+  }
+}

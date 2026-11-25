@@ -1,0 +1,535 @@
+annotation_id,study,patient,criterion,chart_review,former_mapping_gap,selector_resource,source_fields,accepted_source_formats,actual_fact_state,criterion_state,partial_evidence,original_note
+952,NCT01207128,sigir-201522,"The patient is on artificial ventilation, and unlikely to be extubated within 24 hours of study entry.","The note describes symptoms, chest imaging and sputum testing. It does not state the patient's ventilation status.",on_artificial_ventilation,Observation,Respiratory support / Receiving artificial ventilation,Explicit structured report field,MISSING_DATA,MISSING_DATA,,"0. A 65-year-old male with a history of tuberculosis has started to complain of productive cough with tinges of blood.
+1. Chest X-ray reveals a round opaque mass within a cavity in his left upper lobe.
+2. The spherical mass moved in the cavity during supine and prone CT imaging.
+3. Culture of the sputum revealed an organism with septated, low-angle branching hyphae that had straight, parallel walls.
+4. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+962,NCT00084240,sigir-201523,"Severe or complicated malaria including subjects with any of the following: a.) Impaired consciousness, seizures or abnormal neurologic exam b.) Jaundice c.) Respiratory distress d.) Persistent vomiting e.) Hematuria, as reported by the patient f.) Parasite density > 100,000 parasites/mL g.) Presence of non-falciparum species on microscopy","Fever, epistaxis and blood-count abnormalities are documented. There is no patient report of hematuria or blood parasite density per mL.",parasites_per_ml,Observation,Blood microscopy / Malaria parasite density,Explicit structured report field or supported narrative sentence,MISSING_DATA,MISSING_DATA,,"0. An 18-year-old male returning from a recent vacation in Asia presents to the ER with a sudden onset of high fever, chills, facial flushing, epistaxis and severe headache and joint pain.
+1. His complete blood count reveals leukopenia, increased hematocrit concentration and thrombocytopenia.
+2. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+154,NCT02615912,sigir-20149,"Healthy Subjects with Fitzpatrick Skin Types I, II or III",The descriptions of lesion color and texture do not give a Fitzpatrick phototype or a healthy-volunteer assessment.,fitzpatrick_III,Observation,Dermatology examination / Fitzpatrick phototype,Explicit structured report field or supported narrative sentence,MISSING_DATA,MISSING_DATA,,"0. A 43-year-old woman visits her dermatologist for lesions on her neck.
+1. On examination, multiple lesions are seen.
+2. Each lesion is small soft, and pedunculated.
+3. The largest lesion is about 4 mm in diameter.
+4. The color of different lesions varies from flesh colored to slightly hyperpigmented.
+5. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+419,NCT00723788,sigir-201422,Claustrophobia or need for sedation due to inability to hold still,The note describes an abdominal work-up. It gives no assessment of whether sedation is required to hold still.,sedation_required_to_hold_still,Observation,Perioperative assessment / Requires sedation to remain still,Explicit structured report field,MISSING_DATA,MISSING_DATA,,"0. A 15-year-old girl presents to the ER with abdominal pain.
+1. The pain appeared gradually and was periumbilical at first, localizing to the right lower quadrant over hours.
+2. She has had no appetite since yesterday but denies diarrhea.
+3. She has had no sexual partners and her menses are regular.
+4. On examination, she has localized rebound tenderness over the right lower quadrant.
+5. On an abdominal ultrasound, a markedly edematous appendix is seen.
+6. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+875,NCT00534066,sigir-201518,admission to the hospital or transfer to the Observation Unit,The symptoms and examination are described. Transfer to an observation unit is unspecified.,transferred_to_observation_unit,Observation,Encounter disposition / Transferred to observation unit,Explicit structured report field,MISSING_DATA,MISSING_DATA,,"0. A 65 yo African-American male with shortness of breath related to exertion that has been worsening over the past three weeks.
+1. He also has difficulty breathing when lying flat and has started using two to three extra pillows at night.
+2. Significant physical exam findings include bibasilar lung crackles, pitting ankle edema and jugular venous distension.
+3. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+239,NCT00277680,sigir-201415,Postmenopausal women,Twelve weeks of amenorrhea and a negative pregnancy test are documented. Menopausal status is unspecified.,postmenopausal_woman,Observation,Menstrual history / Postmenopausal woman,Explicit structured report field,MISSING_DATA,MISSING_DATA,,"0. A 36-year-old woman presents to the emergency department with 12 weeks of amenorrhea, vaginal spotting that has increased since yesterday, lower abdominal tenderness, nausea and vomiting.
+1. The physical exam reveals overall tender abdomen, 18-week sized uterus, and cervical dilation of 2 cm.
+2. The complete blood count and biochemical profile are normal.
+3. Point of care pregnancy test with cut-off sensitivity of 25 mIU/ml Beta-HCG is negative.
+4. The ultrasound reports enlarged uterus (12 cm x 9 cm x 7 cms) with multiple cystic areas in the interior.
+5. The differential diagnosis includes vesicular mole vs fibroid degeneration.
+6. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+328,NCT01260883,sigir-201418,Bleeding history in infant or family,Urine microscopy documents red blood cells after surgery. Neither the infant's prior bleeding history nor the family's bleeding history is supplied.,family_history_of_bleeding,Observation,Bleeding history / Bleeding in a family member,Explicit structured report field,MISSING_DATA,MISSING_DATA,,"0. A 6-month-old male infant has a urine output of less than 0.2 mL/kg/hr shortly after undergoing major surgery.
+1. On examination, he has generalized edema.
+2. His blood pressure is 115/80 mm Hg, his pulse is 141/min, and his respirations are 18/min.
+3. His blood urea nitrogen is 33 mg/dL, and his serum creatinine is 1.3 mg/dL.
+4. Initial urinalysis shows specific gravity of 1.017.
+5. Microscopic examination of the urine sample reveals 1 WBC per high-power field (HPF), 18 RBCs per HPF, and 5 granular casts per HPF.
+6. His fractional excretion of sodium is 3.3%.
+7. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+962,NCT00084240,sigir-201523,"Severe or complicated malaria including subjects with any of the following: a.) Impaired consciousness, seizures or abnormal neurologic exam b.) Jaundice c.) Respiratory distress d.) Persistent vomiting e.) Hematuria, as reported by the patient f.) Parasite density > 100,000 parasites/mL g.) Presence of non-falciparum species on microscopy","Fever, epistaxis and blood-count abnormalities are documented. There is no patient report of hematuria or blood parasite density per mL.",patient_reported_hematuria,Observation,Patient symptom report / Blood visible in urine,Explicit structured report field or supported narrative sentence,MISSING_DATA,MISSING_DATA,,"0. An 18-year-old male returning from a recent vacation in Asia presents to the ER with a sudden onset of high fever, chills, facial flushing, epistaxis and severe headache and joint pain.
+1. His complete blood count reveals leukopenia, increased hematocrit concentration and thrombocytopenia.
+2. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+322,NCT01745731,sigir-201417,Pregnant women or women of childbearing age who do not have adequate contraception.,"The record describes a 48-year-old male. It has no contraception assessment. Separately, the frozen rule tests pregnancy directly although the source says “pregnant women.” This applicability issue warrants rule-authoring review; the replay preserved the rule.",adequate_contraception,Observation,Reproductive assessment / Adequate contraception documented,Explicit structured report field,MISSING_DATA,MISSING_DATA,,"0. A 48-year-old white male with history of common variable immunodeficiency (CVID) with acute abdominal pain, fever, dehydration, HR of 132 bpm, BP 80/40.
+1. The physical examination is remarkable for tenderness and positive Murphy sign.
+2. Abdominal ultrasound shows hepatomegaly and abundant free intraperitoneal fluid.
+3. Exploratory laparotomy reveals a ruptured liver abscess, which is then surgically drained.
+4. After surgery, the patient is taken to the ICU.
+5. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+385,NCT00997100,sigir-201421,Ability to take and retain oral medication,The note lists examination and laboratory findings. Oral medication intake and retention are unspecified.,can_retain_oral_medication,Observation,Medication tolerance / Can retain oral medication,Explicit structured report field or supported narrative sentence,MISSING_DATA,MISSING_DATA,,"0. A 21-year-old female is evaluated for progressive arthralgias and malaise.
+1. On examination she is found to have alopecia, a rash mainly distributed on the bridge of her nose and her cheeks, a delicate non-palpable purpura on her calves, and swelling and tenderness of her wrists and ankles.
+2. Her lab shows normocytic anemia, thrombocytopenia, a 4/4 positive ANA and anti-dsDNA.
+3. Her urine is positive for protein and RBC casts.
+4. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+217,NCT00163709,sigir-201413,Patients presenting with a traumatic cause of dyspnea,The note documents acute dyspnea after a recent delivery. It gives no determination of a traumatic cause.,traumatic_cause_of_presenting_dyspnea,Observation,Presenting dyspnea assessment / Trauma determined to be the cause,Explicit structured report field,MISSING_DATA,MISSING_DATA,,"0. A 30-year-old generally healthy woman presents with shortness of breath that had started 2 hours before admission.
+1. She has had no health problems in the past besides 2 natural abortions.
+2. She had given birth to a healthy child 3 weeks before.
+3. On examination, she is apprehensive, tachypneic and tachycardic, her blood pressure is 110/70 and her oxygen saturation 92%.
+4. Otherwise, physical examination is unremarkable.
+5. Her chest x-ray and CBC are normal.
+6. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+850,NCT00839124,sigir-201516,Exacerbation of asthma more than 2x/week which would be characteristic of a person of moderate or severe persistent asthma as outlined in the current NHLBI guidelines for diagnosis and management of asthma.,The history says there was no previous wheezing. It gives no measured or reported frequency of asthma exacerbations per week.,asthma_exacerbations_per_week,Observation,Asthma history / Exacerbation frequency,Explicit structured report field or supported narrative sentence,MISSING_DATA,MISSING_DATA,,"0. A 4 year old boy presents to the emergency room with wheezing.
+1. He has had a history of allergic rhinitis, but no history of wheezing.
+2. His mother reports that 5 hours ago patient was playing in the backyard sandbox when she heard him suddenly start coughing.
+3. The coughing lasted only moments, but he has been audibly wheezing since.
+4. Mother was concerned, because his breathing has not returned to normal, so she brought him to the ED.
+5. On exam, the child is playful and well appearing.
+6. Wheezing is heard in the mid-right chest area.
+7. O2 sats are 100% on room air.
+8. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+154,NCT02615912,sigir-20149,"Healthy Subjects with Fitzpatrick Skin Types I, II or III",The descriptions of lesion color and texture do not give a Fitzpatrick phototype or a healthy-volunteer assessment.,healthy_subject,Observation,Screening examination / Healthy volunteer assessment passed,Explicit structured report field,MISSING_DATA,MISSING_DATA,,"0. A 43-year-old woman visits her dermatologist for lesions on her neck.
+1. On examination, multiple lesions are seen.
+2. Each lesion is small soft, and pedunculated.
+3. The largest lesion is about 4 mm in diameter.
+4. The color of different lesions varies from flesh colored to slightly hyperpigmented.
+5. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+332,NCT01260883,sigir-201418,Premature birth (<36 weeks gestation),The patient is six months old. Gestational age at birth is unspecified.,gestation_at_birth_weeks,Observation,Birth record / Gestation at birth,Explicit structured report field or supported narrative sentence,MISSING_DATA,MISSING_DATA,,"0. A 6-month-old male infant has a urine output of less than 0.2 mL/kg/hr shortly after undergoing major surgery.
+1. On examination, he has generalized edema.
+2. His blood pressure is 115/80 mm Hg, his pulse is 141/min, and his respirations are 18/min.
+3. His blood urea nitrogen is 33 mg/dL, and his serum creatinine is 1.3 mg/dL.
+4. Initial urinalysis shows specific gravity of 1.017.
+5. Microscopic examination of the urine sample reveals 1 WBC per high-power field (HPF), 18 RBCs per HPF, and 5 granular casts per HPF.
+6. His fractional excretion of sodium is 3.3%.
+7. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+435,NCT02219360,sigir-201423,"Chest CT shows lung cancer, active pulmonary tuberculosis, pulmonary thromboembolism or interstitial lung diseases",The chest X-ray shows hyperinflation without consolidation. The criterion requires findings on a chest CT.,chest_ct_showed_ild,Observation,Current chest CT final report / Interstitial lung disease,Explicit structured report field or supported narrative sentence,MISSING_DATA,MISSING_DATA,,"0. A 63-year-old man presents with cough and shortness of breath.
+1. His past medical history is notable for heavy smoking, spinal stenosis, diabetes, hypothyroidism and mild psoriasis.
+2. He also has a family history of early onset dementia.
+3. His symptoms began about a week prior to his admission, with productive cough, purulent sputum and difficulty breathing, requiring him to use his home oxygen for the past 24 hours.
+4. He denies fever.
+5. On examination he is cyanotic, tachypneic, with a barrel shaped chest and diffuse rales over his lungs.
+6. A chest x-ray is notable for hyperinflation with no consolidation.
+7. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+212,NCT02264769,sigir-201413,Refusal to give written informed consent.,The patient is described as willing to consent in the future. The record contains no study-specific disposition for refusal of written consent.,refused_written_consent,Observation,Trial consent log / Written informed consent refused,Explicit structured report field,MISSING_DATA,MISSING_DATA,,"0. A 30-year-old generally healthy woman presents with shortness of breath that had started 2 hours before admission.
+1. She has had no health problems in the past besides 2 natural abortions.
+2. She had given birth to a healthy child 3 weeks before.
+3. On examination, she is apprehensive, tachypneic and tachycardic, her blood pressure is 110/70 and her oxygen saturation 92%.
+4. Otherwise, physical examination is unremarkable.
+5. Her chest x-ray and CBC are normal.
+6. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+26,NCT00149227,sigir-20141,Pregnant women and women of childbearing potential,The note gives the patient's age and describes her as a woman. It gives no reproductive-potential assessment.,childbearing_potential,Observation,Reproductive assessment / Potential for childbearing,Explicit structured report field,MISSING_DATA,MISSING_DATA,Observation/n-f2f8f6c835da6bf737fefe29bae239,"0. A 58-year-old African-American woman presents to the ER with episodic pressing/burning anterior chest pain that began two days earlier for the first time in her life.
+1. The pain started while she was walking, radiates to the back, and is accompanied by nausea, diaphoresis and mild dyspnea, but is not increased on inspiration.
+2. The latest episode of pain ended half an hour prior to her arrival.
+3. She is known to have hypertension and obesity.
+4. She denies smoking, diabetes, hypercholesterolemia, or a family history of heart disease.
+5. She currently takes no medications.
+6. Physical examination is normal.
+7. The EKG shows nonspecific changes.
+8. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+323,NCT02556359,sigir-201417,Immune Deficiency and early BMF in childhood,The note describes a history of common variable immunodeficiency. It has no statement about early bone marrow failure in childhood.,early_bone_marrow_failure_in_childhood,Observation,Childhood hematology history / Early bone marrow failure during childhood,Explicit structured report field,MISSING_DATA,MISSING_DATA,Observation/n-b3328f79760e9ac8bed0b9e0965636,"0. A 48-year-old white male with history of common variable immunodeficiency (CVID) with acute abdominal pain, fever, dehydration, HR of 132 bpm, BP 80/40.
+1. The physical examination is remarkable for tenderness and positive Murphy sign.
+2. Abdominal ultrasound shows hepatomegaly and abundant free intraperitoneal fluid.
+3. Exploratory laparotomy reveals a ruptured liver abscess, which is then surgically drained.
+4. After surgery, the patient is taken to the ICU.
+5. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+385,NCT00997100,sigir-201421,Ability to take and retain oral medication,The note lists examination and laboratory findings. Oral medication intake and retention are unspecified.,can_take_oral_medication,Observation,Medication tolerance / Able to take medication by mouth,Explicit structured report field or supported narrative sentence,MISSING_DATA,MISSING_DATA,,"0. A 21-year-old female is evaluated for progressive arthralgias and malaise.
+1. On examination she is found to have alopecia, a rash mainly distributed on the bridge of her nose and her cheeks, a delicate non-palpable purpura on her calves, and swelling and tenderness of her wrists and ankles.
+2. Her lab shows normocytic anemia, thrombocytopenia, a 4/4 positive ANA and anti-dsDNA.
+3. Her urine is positive for protein and RBC casts.
+4. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+621,NCT01326507,sigir-20153,patient without social insurance,"The note describes surgery, pain and rehabilitation. Social insurance coverage is unspecified.",has_social_insurance,Observation,Insurance verification / Enrolled in social insurance,Explicit structured report field,MISSING_DATA,MISSING_DATA,,"0. A 65 yo male with no significant history of cardiovascular disease presents to the emergency room with acute onset of shortness of breath, tachypnea, and left-sided chest pain that worsens with inspiration.
+1. Of note, he underwent a right total hip replacement two weeks prior to presentation and  was unable to begin physical therapy and rehabilitation for several days following the surgery due to poor pain management.
+2. Relevant physical exam findings include a respiratory rate of 35 and right calf pain.
+3. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+870,NCT00344513,sigir-201518,Hospitalized for episode of worsening heart failure as primary cause of admission or significant heart failure symptoms that develop during the hospitalization when the initial reason for admission was not heart failure.,Three weeks of worsening symptoms are described. The record does not document the principal reason for hospitalization or new significant symptoms during an admission for another cause.,significant_heart_failure_symptoms_developed_in_hospital_initially_admitted_for_other_reason,Observation,Hospital course assessment / Significant heart failure symptoms developed during admission for another reason,Explicit structured report field,MISSING_DATA,MISSING_DATA,,"0. A 65 yo African-American male with shortness of breath related to exertion that has been worsening over the past three weeks.
+1. He also has difficulty breathing when lying flat and has started using two to three extra pillows at night.
+2. Significant physical exam findings include bibasilar lung crackles, pitting ankle edema and jugular venous distension.
+3. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+132,NCT00845988,sigir-20147,pregnant or breast feeding women,The record describes current medications and symptoms. Lactation status is unspecified.,breastfeeding,Observation,Lactation assessment / Currently breastfeeding,Explicit structured report field or supported narrative sentence,MISSING_DATA,MISSING_DATA,,"0. A 26-year-old obese woman with a history of bipolar disorder complains that her recent struggles with her weight and eating have caused her to feel depressed.
+1. She states that she has recently had difficulty sleeping and feels excessively anxious and agitated.
+2. She also states that she has had thoughts of suicide.
+3. She often finds herself fidgety and unable to sit still for extended periods of time.
+4. Her family tells her that she is increasingly irritable.
+5. Her current medications include lithium carbonate and zolpidem.
+6. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+477,NCT02378311,sigir-201425,Incidents involving a bicycle fitted with 'bull bars',"The note describes a bicycle. Its equipment, including bull bars, is unspecified.",index_incident_involved_bicycle_with_bull_bars,Observation,Index injury equipment history / Bicycle fitted with bull bars involved,Explicit structured report field,MISSING_DATA,MISSING_DATA,,"0. An 8-year-old boy fell from his bike striking his left temple on the pavement.
+1. There was no immediate loss of consciousness, and a brief examination at the scene noted his pupils were symmetrical, reactive to the light, and he was moving all four limbs.
+2. Half an hour after the fall the child became drowsy, pale, and vomited.
+3. He was transferred to the emergency department.
+4. Upon arrival the heart rate was 52/min, blood pressure of 155/98.
+5. The Glasgow Coma Scale (GCS) was 6/15, the pupils were asymmetrical and movement of the right upper and lower extremities was impaired.
+6. The neurosurgical team advised deferring the CT scan in favor of initiating immediate treatment.
+7. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+460,NCT00282269,sigir-201425,"have a severe traumatic brain injury as defined by either a GCS ≤ 8 and an abnormal CT scan (intracranial hemorrhage, cerebral edema or diffuse axonal injury) or a motor score ≤ 3 and normal CT scan",Total GCS is 6/15. The neurosurgical team advised deferring CT. The note supplies neither the CT result nor the GCS motor subscore.,ct_cerebral_edema,Observation,Current head CT final report / Cerebral edema,Explicit structured report field or supported narrative sentence,MISSING_DATA,MISSING_DATA,Observation/n-1509f6222be8c4fced4d1fb251163d,"0. An 8-year-old boy fell from his bike striking his left temple on the pavement.
+1. There was no immediate loss of consciousness, and a brief examination at the scene noted his pupils were symmetrical, reactive to the light, and he was moving all four limbs.
+2. Half an hour after the fall the child became drowsy, pale, and vomited.
+3. He was transferred to the emergency department.
+4. Upon arrival the heart rate was 52/min, blood pressure of 155/98.
+5. The Glasgow Coma Scale (GCS) was 6/15, the pupils were asymmetrical and movement of the right upper and lower extremities was impaired.
+6. The neurosurgical team advised deferring the CT scan in favor of initiating immediate treatment.
+7. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+235,NCT00277680,sigir-201415,Menorrhagia and/or bulk symptoms associated with uterine fibroids,The ultrasound and differential mention possible fibroid degeneration. They do not establish that uterine fibroids caused the symptoms or document a clinician's bulk-symptom assessment.,symptoms_attributed_to_uterine_fibroids,Observation,Gynecology assessment / Symptoms attributed to uterine fibroids,Explicit structured report field,MISSING_DATA,MISSING_DATA,,"0. A 36-year-old woman presents to the emergency department with 12 weeks of amenorrhea, vaginal spotting that has increased since yesterday, lower abdominal tenderness, nausea and vomiting.
+1. The physical exam reveals overall tender abdomen, 18-week sized uterus, and cervical dilation of 2 cm.
+2. The complete blood count and biochemical profile are normal.
+3. Point of care pregnancy test with cut-off sensitivity of 25 mIU/ml Beta-HCG is negative.
+4. The ultrasound reports enlarged uterus (12 cm x 9 cm x 7 cms) with multiple cystic areas in the interior.
+5. The differential diagnosis includes vesicular mole vs fibroid degeneration.
+6. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+460,NCT00282269,sigir-201425,"have a severe traumatic brain injury as defined by either a GCS ≤ 8 and an abnormal CT scan (intracranial hemorrhage, cerebral edema or diffuse axonal injury) or a motor score ≤ 3 and normal CT scan",Total GCS is 6/15. The neurosurgical team advised deferring CT. The note supplies neither the CT result nor the GCS motor subscore.,ct_diffuse_axonal_injury,Observation,Current head CT final report / Diffuse axonal injury,Explicit structured report field or supported narrative sentence,MISSING_DATA,MISSING_DATA,Observation/n-1509f6222be8c4fced4d1fb251163d,"0. An 8-year-old boy fell from his bike striking his left temple on the pavement.
+1. There was no immediate loss of consciousness, and a brief examination at the scene noted his pupils were symmetrical, reactive to the light, and he was moving all four limbs.
+2. Half an hour after the fall the child became drowsy, pale, and vomited.
+3. He was transferred to the emergency department.
+4. Upon arrival the heart rate was 52/min, blood pressure of 155/98.
+5. The Glasgow Coma Scale (GCS) was 6/15, the pupils were asymmetrical and movement of the right upper and lower extremities was impaired.
+6. The neurosurgical team advised deferring the CT scan in favor of initiating immediate treatment.
+7. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+435,NCT02219360,sigir-201423,"Chest CT shows lung cancer, active pulmonary tuberculosis, pulmonary thromboembolism or interstitial lung diseases",The chest X-ray shows hyperinflation without consolidation. The criterion requires findings on a chest CT.,chest_ct_showed_pulmonary_thromboembolism,Observation,Current chest CT final report / Pulmonary thromboembolism,Explicit structured report field or supported narrative sentence,MISSING_DATA,MISSING_DATA,,"0. A 63-year-old man presents with cough and shortness of breath.
+1. His past medical history is notable for heavy smoking, spinal stenosis, diabetes, hypothyroidism and mild psoriasis.
+2. He also has a family history of early onset dementia.
+3. His symptoms began about a week prior to his admission, with productive cough, purulent sputum and difficulty breathing, requiring him to use his home oxygen for the past 24 hours.
+4. He denies fever.
+5. On examination he is cyanotic, tachypneic, with a barrel shaped chest and diffuse rales over his lungs.
+6. A chest x-ray is notable for hyperinflation with no consolidation.
+7. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+226,NCT01624545,sigir-201414,Recurrent hematoma if the first surgery was performed before study start,A prior normal head CT is recalled. The record does not establish a recurrent hematoma or a first operation dated relative to study start.,recurrent_hematoma,Observation,Neurosurgical assessment / Recurrence of index hematoma,Explicit structured report field,MISSING_DATA,MISSING_DATA,,"0. An 85-year-old man is brought to the ER because of gradual decrease in his level of consciousness.
+1. In the last 3 days he stopped walking and eating by himself.
+2. He has had no fever, cough, rash or diarrhea.
+3. His daughter recalls that he had been involved in a car accident 3 weeks prior to his admission and had a normal head CT at that time.
+4. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+396,NCT00997100,sigir-201421,"History of myocardial infarction or current uncontrolled angina, severe uncontrolled ventricular arrhythmias, symptomatic congestive heart failure, unstable angina pectoris, or electrocardiographic evidence of acute ischemia.",The note contains laboratory and examination findings. No ECG interpretation establishing or ruling out acute ischemia is supplied.,ecg_acute_ischemia,Observation,ECG interpretation / Acute ischemic changes,Explicit structured report field,MISSING_DATA,MISSING_DATA,,"0. A 21-year-old female is evaluated for progressive arthralgias and malaise.
+1. On examination she is found to have alopecia, a rash mainly distributed on the bridge of her nose and her cheeks, a delicate non-palpable purpura on her calves, and swelling and tenderness of her wrists and ankles.
+2. Her lab shows normocytic anemia, thrombocytopenia, a 4/4 positive ANA and anti-dsDNA.
+3. Her urine is positive for protein and RBC casts.
+4. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+34,NCT02618655,sigir-20142,fever for non-infectious diseases such as rheumatic autoimmune disease or with tumor,"The child has documented fever, respiratory symptoms and infiltrates. The note does not establish a noninfectious cause of the fever.",fever_due_to_noninfectious_cause,Observation,Fever assessment / Noninfectious etiology established,Explicit structured report field,MISSING_DATA,MISSING_DATA,,"0. An 8-year-old male presents in March to the ER with fever up to 39 C, dyspnea and cough for 2 days.
+1. He has just returned from a 5 day vacation in Colorado.
+2. Parents report that prior to the onset of fever and cough, he had loose stools.
+3. He denies upper respiratory tract symptoms.
+4. On examination he is in respiratory distress and has bronchial respiratory sounds on the left.
+5. A chest x-ray shows bilateral lung infiltrates.
+6. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+20,NCT01397994,sigir-20141,Geographical inaccessibility for treatment or follow-up evaluations,The standard closing sentence describes expected compliance. It does not explicitly establish the patient's geographic access to treatment and follow-up.,unable_to_travel_for_treatment_or_followup,Observation,Screening logistics / Travel for treatment or follow-up geographically impossible,Explicit structured report field,MISSING_DATA,MISSING_DATA,,"0. A 58-year-old African-American woman presents to the ER with episodic pressing/burning anterior chest pain that began two days earlier for the first time in her life.
+1. The pain started while she was walking, radiates to the back, and is accompanied by nausea, diaphoresis and mild dyspnea, but is not increased on inspiration.
+2. The latest episode of pain ended half an hour prior to her arrival.
+3. She is known to have hypertension and obesity.
+4. She denies smoking, diabetes, hypercholesterolemia, or a family history of heart disease.
+5. She currently takes no medications.
+6. Physical examination is normal.
+7. The EKG shows nonspecific changes.
+8. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+637,NCT01243255,sigir-20154,No lipid lowering drug/dose change for a minimum 6 weeks prior to enrolment to the study,The record gives no medication and dose history linked to the six-week interval before enrollment.,lipid_lowering_regimen_stable_six_weeks_immediately_before_enrolment,Observation,Enrollment medication reconciliation / Lipid lowering drugs and doses stable throughout six weeks immediately before enrollment,Explicit structured report field,MISSING_DATA,MISSING_DATA,,"0. An 82-year-old woman comes to the emergency department because of chest pain and shortness of breath after being awakened in the morning by stabbing substernal chest pain radiating to the left shoulder and jaw.
+1. The patient had hypertension, renal-artery stenosis with chronic renal insufficiency, hypercholesterolemia, osteoporosis and dementia.
+2. Blood pressure was 199/108 mm Hg, respiratory rate 18 bpm, oxygen saturation 98% on ambient air.
+3. The heart sounds were rapid and with no murmurs.
+4. CK-MB was 10.9 ng/ml, CK was 89 U/l, CK index was 12.2% and Troponin T was 0.40 ng/ml.
+5. An EKG showed sinus regular tachycardia of 119 bpm, with ST-segment elevations up to 3 mm in V1, V2, and V3.
+6. A chest radiograph showed low lung volumes and right basilar subsegmental atelectasis.
+7. Coronary angiography showed no stenosis or clinically significant disease.
+8. Left ventriculography revealed akinesis of the anterior wall, hypokinesis of the apical and distal inferior walls, and compensatory hyperkinesis of the basal anterior and basal inferior walls.
+9. A transthoracic echocardiogram showed severe segmental left ventricular dysfunction involving the septum, anteroseptal territory, and apex.
+10. The overall left ventricular systolic function was mildly impaired and there was mild mitral regurgitation.
+11. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+154,NCT02615912,sigir-20149,"Healthy Subjects with Fitzpatrick Skin Types I, II or III",The descriptions of lesion color and texture do not give a Fitzpatrick phototype or a healthy-volunteer assessment.,fitzpatrick_I,Observation,Dermatology examination / Fitzpatrick phototype,Explicit structured report field or supported narrative sentence,MISSING_DATA,MISSING_DATA,,"0. A 43-year-old woman visits her dermatologist for lesions on her neck.
+1. On examination, multiple lesions are seen.
+2. Each lesion is small soft, and pedunculated.
+3. The largest lesion is about 4 mm in diameter.
+4. The color of different lesions varies from flesh colored to slightly hyperpigmented.
+5. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+227,NCT01624545,sigir-201414,CSH due to spontaneous spinal CSF fistula or meningeosis carcinomatosa,The collateral history describes a prior accident and head CT. It does not attribute chronic subdural hematoma to either named cause.,csh_due_to_meningeosis_carcinomatosa,Observation,Neurosurgical assessment / Index chronic subdural hematoma due to meningeosis carcinomatosa,Explicit structured report field,MISSING_DATA,MISSING_DATA,,"0. An 85-year-old man is brought to the ER because of gradual decrease in his level of consciousness.
+1. In the last 3 days he stopped walking and eating by himself.
+2. He has had no fever, cough, rash or diarrhea.
+3. His daughter recalls that he had been involved in a car accident 3 weeks prior to his admission and had a normal head CT at that time.
+4. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+336,NCT00557219,sigir-201418,refused or none consent,The vignette says the patient will provide consent. There is no completed consent record or refusal disposition for this study.,consent_absent,Observation,Trial consent log / No consent on file,Explicit structured report field,MISSING_DATA,MISSING_DATA,,"0. A 6-month-old male infant has a urine output of less than 0.2 mL/kg/hr shortly after undergoing major surgery.
+1. On examination, he has generalized edema.
+2. His blood pressure is 115/80 mm Hg, his pulse is 141/min, and his respirations are 18/min.
+3. His blood urea nitrogen is 33 mg/dL, and his serum creatinine is 1.3 mg/dL.
+4. Initial urinalysis shows specific gravity of 1.017.
+5. Microscopic examination of the urine sample reveals 1 WBC per high-power field (HPF), 18 RBCs per HPF, and 5 granular casts per HPF.
+6. His fractional excretion of sodium is 3.3%.
+7. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+120,NCT00015626,sigir-20146,Siblings and parents of patients with insulin resistance. Siblings and parents will be included only in the case of documented insulin resistance in the index subject. Insulin resistance will be documented by OGTT and/or IVGTT.,The patient's diabetes and elevated HbA1c do not establish a relationship to a study index subject or an insulin resistance result from either specified challenge test.,sibling_of_index_subject,Observation,Study pedigree / Patient is sibling of index subject,Explicit structured report field,MISSING_DATA,MISSING_DATA,,"0. 64-year-old obese female with diagnosis of diabetes mellitus and persistently elevated HbA1c.
+1. She is reluctant to see a nutritionist and is not compliant with her diabetes medication or exercise.
+2. She complains of a painful skin lesion on the left lower leg.
+3. She has tried using topical lotions and creams but the lesion has increased in size and is now oozing.
+4. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+632,NCT01139632,sigir-20153,Inability to write inform consent.,The generic future-consent sentence supplies no assessment of capacity to provide written consent for this study.,unable_to_provide_written_consent,Observation,Trial consent capacity assessment / Unable to provide written consent,Explicit structured report field,MISSING_DATA,MISSING_DATA,,"0. A 65 yo male with no significant history of cardiovascular disease presents to the emergency room with acute onset of shortness of breath, tachypnea, and left-sided chest pain that worsens with inspiration.
+1. Of note, he underwent a right total hip replacement two weeks prior to presentation and  was unable to begin physical therapy and rehabilitation for several days following the surgery due to poor pain management.
+2. Relevant physical exam findings include a respiratory rate of 35 and right calf pain.
+3. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+945,NCT01207128,sigir-201522,The patient is being treated with an unlicensed investigational drug for aspergillosis.,Sputum culture and imaging are documented. The record provides no current investigational drug history for aspergillosis.,current_unlicensed_investigational_aspergillosis_drug,Observation,Study medication review / Currently taking unlicensed investigational aspergillosis drug,Explicit structured report field,MISSING_DATA,MISSING_DATA,,"0. A 65-year-old male with a history of tuberculosis has started to complain of productive cough with tinges of blood.
+1. Chest X-ray reveals a round opaque mass within a cavity in his left upper lobe.
+2. The spherical mass moved in the cavity during supine and prone CT imaging.
+3. Culture of the sputum revealed an organism with septated, low-angle branching hyphae that had straight, parallel walls.
+4. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+328,NCT01260883,sigir-201418,Bleeding history in infant or family,Urine microscopy documents red blood cells after surgery. Neither the infant's prior bleeding history nor the family's bleeding history is supplied.,infant_history_of_bleeding,Observation,Infant medical history / Prior bleeding in this infant,Explicit structured report field,MISSING_DATA,MISSING_DATA,,"0. A 6-month-old male infant has a urine output of less than 0.2 mL/kg/hr shortly after undergoing major surgery.
+1. On examination, he has generalized edema.
+2. His blood pressure is 115/80 mm Hg, his pulse is 141/min, and his respirations are 18/min.
+3. His blood urea nitrogen is 33 mg/dL, and his serum creatinine is 1.3 mg/dL.
+4. Initial urinalysis shows specific gravity of 1.017.
+5. Microscopic examination of the urine sample reveals 1 WBC per high-power field (HPF), 18 RBCs per HPF, and 5 granular casts per HPF.
+6. His fractional excretion of sodium is 3.3%.
+7. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+120,NCT00015626,sigir-20146,Siblings and parents of patients with insulin resistance. Siblings and parents will be included only in the case of documented insulin resistance in the index subject. Insulin resistance will be documented by OGTT and/or IVGTT.,The patient's diabetes and elevated HbA1c do not establish a relationship to a study index subject or an insulin resistance result from either specified challenge test.,index_insulin_resistance_on_ivgtt,Observation,Index subject IV glucose tolerance test / Insulin resistance established,Explicit structured report field,MISSING_DATA,MISSING_DATA,,"0. 64-year-old obese female with diagnosis of diabetes mellitus and persistently elevated HbA1c.
+1. She is reluctant to see a nutritionist and is not compliant with her diabetes medication or exercise.
+2. She complains of a painful skin lesion on the left lower leg.
+3. She has tried using topical lotions and creams but the lesion has increased in size and is now oozing.
+4. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+366,NCT02255487,sigir-201420,"Has experienced abdominal trauma, blunt or penetrating, requiring open abdominal laparotomy with primary closure","Trauma, tenderness and guarding are documented. There is no surgical plan requiring open laparotomy with primary closure for abdominal trauma.",open_laparotomy_required_for_abdominal_trauma_with_primary_closure,Observation,Trauma surgical plan / Open laparotomy with primary closure required for abdominal trauma,Explicit structured report field,MISSING_DATA,MISSING_DATA,,"0. A 32-year-old woman is admitted to the ER following a car accident.
+1. She has sustained multiple injuries including upper and lower extremity fractures.
+2. She is fully awake and alert, and she reports that she was not wearing a seat belt.
+3. Her blood pressure is 134/74 mm Hg, and her pulse is 87/min.
+4. Physical examination reveals a tender abdomen with guarding and rebound in all four quadrants.
+5. She has no bowel sounds.
+6. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+866,NCT01446198,sigir-201517,the sample had an aliquot with a valid positive or negative APTIMA HPV Assay TIGRIS System result (from testing under protocol 2007HPVASCUS30),HPV positivity is documented. The record gives no link to the specified study aliquot and valid Tigris assay.,aliquot_with_valid_aptima_hpv_tigris_result_from_2007HPVASCUS30,Observation,2007HPVASCUS30 specimen verification / Linked aliquot has valid APTIMA HPV Tigris result,Explicit structured report field,MISSING_DATA,MISSING_DATA,,"0. A 32 year old female with no previous medical history presents to clinic to discuss lab results from her most recent pap smear.
+1. She reports no complaints and is in general good health.
+2. The results of her PAP were cytology negative, HPV positive.
+3. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+120,NCT00015626,sigir-20146,Siblings and parents of patients with insulin resistance. Siblings and parents will be included only in the case of documented insulin resistance in the index subject. Insulin resistance will be documented by OGTT and/or IVGTT.,The patient's diabetes and elevated HbA1c do not establish a relationship to a study index subject or an insulin resistance result from either specified challenge test.,parent_of_index_subject,Observation,Study pedigree / Patient is parent of index subject,Explicit structured report field,MISSING_DATA,MISSING_DATA,,"0. 64-year-old obese female with diagnosis of diabetes mellitus and persistently elevated HbA1c.
+1. She is reluctant to see a nutritionist and is not compliant with her diabetes medication or exercise.
+2. She complains of a painful skin lesion on the left lower leg.
+3. She has tried using topical lotions and creams but the lesion has increased in size and is now oozing.
+4. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+435,NCT02219360,sigir-201423,"Chest CT shows lung cancer, active pulmonary tuberculosis, pulmonary thromboembolism or interstitial lung diseases",The chest X-ray shows hyperinflation without consolidation. The criterion requires findings on a chest CT.,chest_ct_showed_lung_cancer,Observation,Current chest CT final report / Lung cancer,Explicit structured report field or supported narrative sentence,MISSING_DATA,MISSING_DATA,,"0. A 63-year-old man presents with cough and shortness of breath.
+1. His past medical history is notable for heavy smoking, spinal stenosis, diabetes, hypothyroidism and mild psoriasis.
+2. He also has a family history of early onset dementia.
+3. His symptoms began about a week prior to his admission, with productive cough, purulent sputum and difficulty breathing, requiring him to use his home oxygen for the past 24 hours.
+4. He denies fever.
+5. On examination he is cyanotic, tachypneic, with a barrel shaped chest and diffuse rales over his lungs.
+6. A chest x-ray is notable for hyperinflation with no consolidation.
+7. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+171,NCT02097186,sigir-201410,Patients with severe hepatic disease defined as an international normalised ratio >2 in the absence of systemic anticoagulation,Arterial catheterization is documented. The vignette supplies neither an INR result nor a systemic anticoagulation assessment.,inr,Observation,Coagulation assay / Platelet-poor plasma INR,Explicit structured report field or supported narrative sentence,MISSING_DATA,MISSING_DATA,,"0. A physician is called to see a 67-year-old woman who underwent cardiac catheterization via the right femoral artery earlier in the morning.
+1. She is now complaining of a cool right foot.
+2. Upon examination she has a pulsatile mass in her right groin with loss of distal pulses, and auscultation reveals a bruit over the point at which the right femoral artery was entered.
+3. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+860,NCT01231945,sigir-201517,are not married AND report never having had sexual intercourse,Cervical screening results are documented. Marital status is unspecified.,unmarried,Observation,Social history / Current marital status,Explicit structured report field or supported narrative sentence,MISSING_DATA,MISSING_DATA,,"0. A 32 year old female with no previous medical history presents to clinic to discuss lab results from her most recent pap smear.
+1. She reports no complaints and is in general good health.
+2. The results of her PAP were cytology negative, HPV positive.
+3. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+171,NCT02097186,sigir-201410,Patients with severe hepatic disease defined as an international normalised ratio >2 in the absence of systemic anticoagulation,Arterial catheterization is documented. The vignette supplies neither an INR result nor a systemic anticoagulation assessment.,systemic_anticoagulation,Observation,Medication reconciliation / Currently receiving systemic anticoagulation,Explicit structured report field or supported narrative sentence,MISSING_DATA,MISSING_DATA,,"0. A physician is called to see a 67-year-old woman who underwent cardiac catheterization via the right femoral artery earlier in the morning.
+1. She is now complaining of a cool right foot.
+2. Upon examination she has a pulsatile mass in her right groin with loss of distal pulses, and auscultation reveals a bruit over the point at which the right femoral artery was entered.
+3. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+187,NCT01526382,sigir-201411,A respiratory rate of at least 20/min or a PaCO2 of 32mmHg or lower or the use of mechanical ventilation;,"Tachypnea is documented qualitatively. There is no respiratory rate count, arterial PaCO2 value or statement of mechanical ventilation.",paco2_mmhg,Observation,Arterial blood gas / PaCO2,Explicit structured report field or supported narrative sentence,MISSING_DATA,MISSING_DATA,,"0. A 40-year-old woman with no past medical history presents to the ER with excruciating pain in her right arm that had started 1 hour prior to her admission.
+1. She denies trauma.
+2. On examination she is pale and in moderate discomfort, as well as tachypneic and tachycardic.
+3. Her body temperature is normal and her blood pressure is 80/60.
+4. Her right arm has no discoloration or movement limitation.
+5. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+502,NCT01187901,sigir-201427,WHO performance status ≤1,The note describes college attendance and investigations. It gives no WHO performance status score.,who_performance_status,Observation,Performance assessment / WHO performance status,Explicit structured report field or supported narrative sentence,MISSING_DATA,MISSING_DATA,,"0. A 21-year-old college student undergoes colonoscopy due to family history of multiple polyps in his older siblings.
+1. His brother underwent total proctocolectomy at age 22, and his sister underwent a total proctocolectomy at age 28, after both were found to have hundreds of colonic adenomas on colonoscopy.
+2. Both siblings are currently well without any findings of neoplasms.
+3. The patient undergoes sigmoidoscopy and is found to have dozens of small colonic polyps within rectosigmoid.
+4. Several of these are biopsied and are all benign adenomas.
+5. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+400,NCT00997100,sigir-201421,"History of, or current, ischemic CNS disease.","The note describes rash, arthralgias and laboratory findings. It supplies no assessment of current ischemic CNS disease.",current_ischemic_cns_disease,Observation,Neurology assessment / Current ischemic CNS disease,Explicit structured report field,MISSING_DATA,MISSING_DATA,,"0. A 21-year-old female is evaluated for progressive arthralgias and malaise.
+1. On examination she is found to have alopecia, a rash mainly distributed on the bridge of her nose and her cheeks, a delicate non-palpable purpura on her calves, and swelling and tenderness of her wrists and ankles.
+2. Her lab shows normocytic anemia, thrombocytopenia, a 4/4 positive ANA and anti-dsDNA.
+3. Her urine is positive for protein and RBC casts.
+4. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+336,NCT00557219,sigir-201418,refused or none consent,The vignette says the patient will provide consent. There is no completed consent record or refusal disposition for this study.,consent_refused,Observation,Trial consent log / Consent refused,Explicit structured report field,MISSING_DATA,MISSING_DATA,,"0. A 6-month-old male infant has a urine output of less than 0.2 mL/kg/hr shortly after undergoing major surgery.
+1. On examination, he has generalized edema.
+2. His blood pressure is 115/80 mm Hg, his pulse is 141/min, and his respirations are 18/min.
+3. His blood urea nitrogen is 33 mg/dL, and his serum creatinine is 1.3 mg/dL.
+4. Initial urinalysis shows specific gravity of 1.017.
+5. Microscopic examination of the urine sample reveals 1 WBC per high-power field (HPF), 18 RBCs per HPF, and 5 granular casts per HPF.
+6. His fractional excretion of sodium is 3.3%.
+7. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+636,NCT01243255,sigir-20154,Lipid lowering drug treatment lasting at least 3 months,Hypercholesterolemia is in the history. The record gives no duration of lipid-lowering treatment.,lipid_lowering_treatment_months,Observation,Medication history / Duration of lipid lowering treatment,Explicit structured report field or supported narrative sentence,MISSING_DATA,MISSING_DATA,,"0. An 82-year-old woman comes to the emergency department because of chest pain and shortness of breath after being awakened in the morning by stabbing substernal chest pain radiating to the left shoulder and jaw.
+1. The patient had hypertension, renal-artery stenosis with chronic renal insufficiency, hypercholesterolemia, osteoporosis and dementia.
+2. Blood pressure was 199/108 mm Hg, respiratory rate 18 bpm, oxygen saturation 98% on ambient air.
+3. The heart sounds were rapid and with no murmurs.
+4. CK-MB was 10.9 ng/ml, CK was 89 U/l, CK index was 12.2% and Troponin T was 0.40 ng/ml.
+5. An EKG showed sinus regular tachycardia of 119 bpm, with ST-segment elevations up to 3 mm in V1, V2, and V3.
+6. A chest radiograph showed low lung volumes and right basilar subsegmental atelectasis.
+7. Coronary angiography showed no stenosis or clinically significant disease.
+8. Left ventriculography revealed akinesis of the anterior wall, hypokinesis of the apical and distal inferior walls, and compensatory hyperkinesis of the basal anterior and basal inferior walls.
+9. A transthoracic echocardiogram showed severe segmental left ventricular dysfunction involving the septum, anteroseptal territory, and apex.
+10. The overall left ventricular systolic function was mildly impaired and there was mild mitral regurgitation.
+11. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+867,NCT01446198,sigir-201517,an aliquot is available and suitable for testing,The record gives a Pap and HPV result. It gives no specimen inventory or quality result for the requested aliquot.,aliquot_suitable_for_testing,Observation,Specimen quality review for index sample / Aliquot suitable for testing,Explicit structured report field,MISSING_DATA,MISSING_DATA,,"0. A 32 year old female with no previous medical history presents to clinic to discuss lab results from her most recent pap smear.
+1. She reports no complaints and is in general good health.
+2. The results of her PAP were cytology negative, HPV positive.
+3. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+177,NCT02264964,sigir-201410,Maintenance hemodialysis after central vena catheterization.,The documented catheter was placed via the right femoral artery. The note supplies no sequence of central venous catheterization followed by maintenance hemodialysis.,maintenance_hemodialysis_after_central_venous_catheterization,Observation,Nephrology treatment timeline / Maintenance hemodialysis after central venous catheterization,Explicit structured report field,MISSING_DATA,MISSING_DATA,,"0. A physician is called to see a 67-year-old woman who underwent cardiac catheterization via the right femoral artery earlier in the morning.
+1. She is now complaining of a cool right foot.
+2. Upon examination she has a pulsatile mass in her right groin with loss of distal pulses, and auscultation reveals a bruit over the point at which the right femoral artery was entered.
+3. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+418,NCT00723788,sigir-201422,Failure to pass MRI metal screening,Abdominal ultrasound is documented. The source contains no MRI metal safety screen.,failed_mri_metal_screen,Observation,MRI safety assessment / Metal safety screening failed,Explicit structured report field,MISSING_DATA,MISSING_DATA,,"0. A 15-year-old girl presents to the ER with abdominal pain.
+1. The pain appeared gradually and was periumbilical at first, localizing to the right lower quadrant over hours.
+2. She has had no appetite since yesterday but denies diarrhea.
+3. She has had no sexual partners and her menses are regular.
+4. On examination, she has localized rebound tenderness over the right lower quadrant.
+5. On an abdominal ultrasound, a markedly edematous appendix is seen.
+6. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+227,NCT01624545,sigir-201414,CSH due to spontaneous spinal CSF fistula or meningeosis carcinomatosa,The collateral history describes a prior accident and head CT. It does not attribute chronic subdural hematoma to either named cause.,csh_due_to_spinal_csf_fistula,Observation,Neurosurgical assessment / Index chronic subdural hematoma due to spinal CSF fistula,Explicit structured report field,MISSING_DATA,MISSING_DATA,,"0. An 85-year-old man is brought to the ER because of gradual decrease in his level of consciousness.
+1. In the last 3 days he stopped walking and eating by himself.
+2. He has had no fever, cough, rash or diarrhea.
+3. His daughter recalls that he had been involved in a car accident 3 weeks prior to his admission and had a normal head CT at that time.
+4. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+233,NCT01869855,sigir-201414,Chronic subdural hematoma caused by another underlying illness (e.g. caused by over-drainage of a vp-shunt),The record does not establish a chronic subdural hematoma caused by an underlying illness.,csh_due_to_underlying_illness,Observation,Neurosurgical assessment / Index chronic subdural hematoma caused by underlying illness,Explicit structured report field,MISSING_DATA,MISSING_DATA,,"0. An 85-year-old man is brought to the ER because of gradual decrease in his level of consciousness.
+1. In the last 3 days he stopped walking and eating by himself.
+2. He has had no fever, cough, rash or diarrhea.
+3. His daughter recalls that he had been involved in a car accident 3 weeks prior to his admission and had a normal head CT at that time.
+4. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+460,NCT00282269,sigir-201425,"have a severe traumatic brain injury as defined by either a GCS ≤ 8 and an abnormal CT scan (intracranial hemorrhage, cerebral edema or diffuse axonal injury) or a motor score ≤ 3 and normal CT scan",Total GCS is 6/15. The neurosurgical team advised deferring CT. The note supplies neither the CT result nor the GCS motor subscore.,ct_intracranial_hemorrhage,Observation,Current head CT final report / Intracranial hemorrhage,Explicit structured report field or supported narrative sentence,MISSING_DATA,MISSING_DATA,Observation/n-1509f6222be8c4fced4d1fb251163d,"0. An 8-year-old boy fell from his bike striking his left temple on the pavement.
+1. There was no immediate loss of consciousness, and a brief examination at the scene noted his pupils were symmetrical, reactive to the light, and he was moving all four limbs.
+2. Half an hour after the fall the child became drowsy, pale, and vomited.
+3. He was transferred to the emergency department.
+4. Upon arrival the heart rate was 52/min, blood pressure of 155/98.
+5. The Glasgow Coma Scale (GCS) was 6/15, the pupils were asymmetrical and movement of the right upper and lower extremities was impaired.
+6. The neurosurgical team advised deferring the CT scan in favor of initiating immediate treatment.
+7. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+322,NCT01745731,sigir-201417,Pregnant women or women of childbearing age who do not have adequate contraception.,"The record describes a 48-year-old male. It has no contraception assessment. Separately, the frozen rule tests pregnancy directly although the source says “pregnant women.” This applicability issue warrants rule-authoring review; the replay preserved the rule.",woman_of_childbearing_age,Observation,Reproductive assessment / Patient is a woman of childbearing age,Explicit structured report field,MISSING_DATA,MISSING_DATA,,"0. A 48-year-old white male with history of common variable immunodeficiency (CVID) with acute abdominal pain, fever, dehydration, HR of 132 bpm, BP 80/40.
+1. The physical examination is remarkable for tenderness and positive Murphy sign.
+2. Abdominal ultrasound shows hepatomegaly and abundant free intraperitoneal fluid.
+3. Exploratory laparotomy reveals a ruptured liver abscess, which is then surgically drained.
+4. After surgery, the patient is taken to the ICU.
+5. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+476,NCT02378311,sigir-201425,Incidents where the injured child was injured by another rider (e.g. injured child run over by a cyclist),The fall and impact with the pavement are described. The record does not explicitly establish whether another rider caused the injury.,child_injured_by_another_rider_at_index_injury,Observation,Index pediatric injury history / Child injured by another rider,Explicit structured report field,MISSING_DATA,MISSING_DATA,,"0. An 8-year-old boy fell from his bike striking his left temple on the pavement.
+1. There was no immediate loss of consciousness, and a brief examination at the scene noted his pupils were symmetrical, reactive to the light, and he was moving all four limbs.
+2. Half an hour after the fall the child became drowsy, pale, and vomited.
+3. He was transferred to the emergency department.
+4. Upon arrival the heart rate was 52/min, blood pressure of 155/98.
+5. The Glasgow Coma Scale (GCS) was 6/15, the pupils were asymmetrical and movement of the right upper and lower extremities was impaired.
+6. The neurosurgical team advised deferring the CT scan in favor of initiating immediate treatment.
+7. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+467,NCT00282269,sigir-201425,have more than mild neurodevelopmental disability prior to injury,Post-injury changes are documented. The note gives no preinjury assessment of neurodevelopmental disability.,greater_than_mild_preinjury_neurodevelopmental_disability,Observation,Preinjury functional assessment / Neurodevelopmental disability greater than mild,Explicit structured report field,MISSING_DATA,MISSING_DATA,,"0. An 8-year-old boy fell from his bike striking his left temple on the pavement.
+1. There was no immediate loss of consciousness, and a brief examination at the scene noted his pupils were symmetrical, reactive to the light, and he was moving all four limbs.
+2. Half an hour after the fall the child became drowsy, pale, and vomited.
+3. He was transferred to the emergency department.
+4. Upon arrival the heart rate was 52/min, blood pressure of 155/98.
+5. The Glasgow Coma Scale (GCS) was 6/15, the pupils were asymmetrical and movement of the right upper and lower extremities was impaired.
+6. The neurosurgical team advised deferring the CT scan in favor of initiating immediate treatment.
+7. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+81,NCT00841789,sigir-20144,"Active severe infections within 4 weeks before screening visit, or between the screening and baseline visits.",Five days of fever and other findings are described. The record lacks a confirmed active severe infection linked to the study screening or baseline visit.,active_severe_infection_between_screening_and_baseline,Observation,Screening infection timeline / Active severe infection between screening and baseline,Explicit structured report field,MISSING_DATA,MISSING_DATA,,"0. A 2-year-old boy is brought to the emergency department by his parents for 5 days of high fever and irritability.
+1. The physical exam reveals conjunctivitis, strawberry tongue, inflammation of the hands and feet, desquamation of the skin of the fingers and toes, and cervical lymphadenopathy with the smallest node at 1.5 cm.
+2. The abdominal exam demonstrates tenderness and enlarged liver.
+3. Laboratory tests report elevated alanine aminotransferase, white blood cell count of 17,580/mm, albumin 2.1 g/dL, C-reactive protein 4.5 mg, erythrocyte sedimentation rate 60 mm/h, mild normochromic, normocytic anemia, and leukocytes in urine of 20/mL with no bacteria identified.
+4. The echocardiogram shows moderate dilation of the coronary arteries with possible coronary artery aneurysm.
+5. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+81,NCT00841789,sigir-20144,"Active severe infections within 4 weeks before screening visit, or between the screening and baseline visits.",Five days of fever and other findings are described. The record lacks a confirmed active severe infection linked to the study screening or baseline visit.,active_severe_infection_within_four_weeks_before_screening,Observation,Screening infection timeline / Active severe infection in four weeks before screening,Explicit structured report field,MISSING_DATA,MISSING_DATA,,"0. A 2-year-old boy is brought to the emergency department by his parents for 5 days of high fever and irritability.
+1. The physical exam reveals conjunctivitis, strawberry tongue, inflammation of the hands and feet, desquamation of the skin of the fingers and toes, and cervical lymphadenopathy with the smallest node at 1.5 cm.
+2. The abdominal exam demonstrates tenderness and enlarged liver.
+3. Laboratory tests report elevated alanine aminotransferase, white blood cell count of 17,580/mm, albumin 2.1 g/dL, C-reactive protein 4.5 mg, erythrocyte sedimentation rate 60 mm/h, mild normochromic, normocytic anemia, and leukocytes in urine of 20/mL with no bacteria identified.
+4. The echocardiogram shows moderate dilation of the coronary arteries with possible coronary artery aneurysm.
+5. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+460,NCT00282269,sigir-201425,"have a severe traumatic brain injury as defined by either a GCS ≤ 8 and an abnormal CT scan (intracranial hemorrhage, cerebral edema or diffuse axonal injury) or a motor score ≤ 3 and normal CT scan",Total GCS is 6/15. The neurosurgical team advised deferring CT. The note supplies neither the CT result nor the GCS motor subscore.,normal_head_ct,Observation,Current head CT final report / Entire examination normal,Explicit structured report field or supported narrative sentence,MISSING_DATA,MISSING_DATA,Observation/n-1509f6222be8c4fced4d1fb251163d,"0. An 8-year-old boy fell from his bike striking his left temple on the pavement.
+1. There was no immediate loss of consciousness, and a brief examination at the scene noted his pupils were symmetrical, reactive to the light, and he was moving all four limbs.
+2. Half an hour after the fall the child became drowsy, pale, and vomited.
+3. He was transferred to the emergency department.
+4. Upon arrival the heart rate was 52/min, blood pressure of 155/98.
+5. The Glasgow Coma Scale (GCS) was 6/15, the pupils were asymmetrical and movement of the right upper and lower extremities was impaired.
+6. The neurosurgical team advised deferring the CT scan in favor of initiating immediate treatment.
+7. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+454,NCT02229695,sigir-201424,Adults male or female over 18 year old undergoing emergency laparotomy.,Emergency ultrasound and CT identify hemorrhage due to splenic rupture. An emergency laparotomy actually underway is undocumented.,undergoing_emergency_laparotomy,Observation,Current operative record / Emergency laparotomy underway,Explicit structured report field,MISSING_DATA,MISSING_DATA,Observation/n-074b0618e915e2d0390accc8213dc0 | Observation/n-ebee0d7dd113cce30603e66dcda0e5,"0. A 33-year-old male athlete presented to the ER with acute abdominal pain.
+1. Family member says the patient fell off his bike a week earlier and suffered blunt trauma to the left hemi-abdomen, and he has had mild abdominal pain since that day.
+2. The patient's history is negative for smoking, drugs, and alcohol.
+3. BP: 60/30 mmHg, HR: 140/min.
+4. The patient is pale, the physical examination of the abdomen revealed muscle contraction and resistance.
+5. Emergency ultrasound and CT scan of the abdomen reveal extended intraperitoneal hemorrhage due to spleen rupture.
+6. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+226,NCT01624545,sigir-201414,Recurrent hematoma if the first surgery was performed before study start,A prior normal head CT is recalled. The record does not establish a recurrent hematoma or a first operation dated relative to study start.,first_surgery_before_study_start,Observation,Study timeline review / First surgery occurred before study start,Explicit structured report field,MISSING_DATA,MISSING_DATA,,"0. An 85-year-old man is brought to the ER because of gradual decrease in his level of consciousness.
+1. In the last 3 days he stopped walking and eating by himself.
+2. He has had no fever, cough, rash or diarrhea.
+3. His daughter recalls that he had been involved in a car accident 3 weeks prior to his admission and had a normal head CT at that time.
+4. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+460,NCT00282269,sigir-201425,"have a severe traumatic brain injury as defined by either a GCS ≤ 8 and an abnormal CT scan (intracranial hemorrhage, cerebral edema or diffuse axonal injury) or a motor score ≤ 3 and normal CT scan",Total GCS is 6/15. The neurosurgical team advised deferring CT. The note supplies neither the CT result nor the GCS motor subscore.,gcs_motor,Observation,Neurologic examination / Glasgow Coma Scale motor score,Explicit structured report field or supported narrative sentence,MISSING_DATA,MISSING_DATA,Observation/n-1509f6222be8c4fced4d1fb251163d,"0. An 8-year-old boy fell from his bike striking his left temple on the pavement.
+1. There was no immediate loss of consciousness, and a brief examination at the scene noted his pupils were symmetrical, reactive to the light, and he was moving all four limbs.
+2. Half an hour after the fall the child became drowsy, pale, and vomited.
+3. He was transferred to the emergency department.
+4. Upon arrival the heart rate was 52/min, blood pressure of 155/98.
+5. The Glasgow Coma Scale (GCS) was 6/15, the pupils were asymmetrical and movement of the right upper and lower extremities was impaired.
+6. The neurosurgical team advised deferring the CT scan in favor of initiating immediate treatment.
+7. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+187,NCT01526382,sigir-201411,A respiratory rate of at least 20/min or a PaCO2 of 32mmHg or lower or the use of mechanical ventilation;,"Tachypnea is documented qualitatively. There is no respiratory rate count, arterial PaCO2 value or statement of mechanical ventilation.",receiving_mechanical_ventilation,Observation,Respiratory support / Receiving mechanical ventilation,Explicit structured report field or supported narrative sentence,MISSING_DATA,MISSING_DATA,,"0. A 40-year-old woman with no past medical history presents to the ER with excruciating pain in her right arm that had started 1 hour prior to her admission.
+1. She denies trauma.
+2. On examination she is pale and in moderate discomfort, as well as tachypneic and tachycardic.
+3. Her body temperature is normal and her blood pressure is 80/60.
+4. Her right arm has no discoloration or movement limitation.
+5. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+120,NCT00015626,sigir-20146,Siblings and parents of patients with insulin resistance. Siblings and parents will be included only in the case of documented insulin resistance in the index subject. Insulin resistance will be documented by OGTT and/or IVGTT.,The patient's diabetes and elevated HbA1c do not establish a relationship to a study index subject or an insulin resistance result from either specified challenge test.,index_insulin_resistance_on_ogtt,Observation,Index subject oral glucose tolerance test / Insulin resistance established,Explicit structured report field,MISSING_DATA,MISSING_DATA,,"0. 64-year-old obese female with diagnosis of diabetes mellitus and persistently elevated HbA1c.
+1. She is reluctant to see a nutritionist and is not compliant with her diabetes medication or exercise.
+2. She complains of a painful skin lesion on the left lower leg.
+3. She has tried using topical lotions and creams but the lesion has increased in size and is now oozing.
+4. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+890,NCT00182832,sigir-201520,Cognitive impairment based on screening at time of hospital admission,The ED examination documents impaired orientation and recall. Its status as the required hospital-admission cognitive screen is unverified.,cognitive_impairment_on_admission_screen,Observation,Hospital admission cognitive screen / Impairment documented on admission screening,Explicit structured report field,MISSING_DATA,MISSING_DATA,,"0. An 89-year-old man was brought to the emergency department by his wife and son after six months of progressive changes in cognition and personality.
+1. He began to have poor memory, difficulty expressing himself, and exhibited unusual behaviors, such as pouring milk onto the table and undressing immediately after getting dressed.
+2. He is unable to dress, bathe, use the toilet, or walk independently.
+3. On examination the patient's temperature was 36.5C (97.7F), the heart rate 61 bpm in an irregular rhythm, the blood pressure 144/78 mm Hg, and the respiratory rate 18 bpm.
+4. The patient was alert and oriented to self and city but not year.
+5. He frequently interrupted the examiner.
+6. He repeatedly reached out to grab things in front of him, including the examiner's tie and face.
+7. He could not spell the word ""world"" backward, could not follow commands involving multiple steps and was unable to perform simple calculations.
+8. His speech was fluent, but he often used similar-sounding word substitutions.
+9. He could immediately recall three out of three words but recalled none of them after 5 minutes.
+10. Examination of the cranial nerves revealed clinically significant paratonic rigidity.
+11. Myoclonic jerks were seen in the arms, with symmetrically brisk reflexes.
+12. The reflexes in the legs were normal.
+13. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+108,NCT02512159,sigir-20146,Hemodynamically unstable patients.,"The note describes diabetes, elevated HbA1c and a painful skin lesion. It gives no hemodynamic assessment.",hemodynamically_unstable,Observation,Hemodynamic assessment / Currently unstable,Explicit structured report field or supported narrative sentence,MISSING_DATA,MISSING_DATA,,"0. 64-year-old obese female with diagnosis of diabetes mellitus and persistently elevated HbA1c.
+1. She is reluctant to see a nutritionist and is not compliant with her diabetes medication or exercise.
+2. She complains of a painful skin lesion on the left lower leg.
+3. She has tried using topical lotions and creams but the lesion has increased in size and is now oozing.
+4. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+870,NCT00344513,sigir-201518,Hospitalized for episode of worsening heart failure as primary cause of admission or significant heart failure symptoms that develop during the hospitalization when the initial reason for admission was not heart failure.,Three weeks of worsening symptoms are described. The record does not document the principal reason for hospitalization or new significant symptoms during an admission for another cause.,worsening_heart_failure_primary_admission_reason,Observation,Admission attribution / Worsening heart failure was primary reason for admission,Explicit structured report field,MISSING_DATA,MISSING_DATA,,"0. A 65 yo African-American male with shortness of breath related to exertion that has been worsening over the past three weeks.
+1. He also has difficulty breathing when lying flat and has started using two to three extra pillows at night.
+2. Significant physical exam findings include bibasilar lung crackles, pitting ankle edema and jugular venous distension.
+3. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+817,NCT01550588,sigir-201515,Subjects who have a non-vascular origin of the neurological symptoms after brain imaging (CT scan or MRI),"The note describes a prior cryptogenic stroke, imaging and symptom resolution. It does not establish a post-imaging determination of nonvascular origin for the qualifying symptoms.",neurologic_symptoms_nonvascular_origin_after_ct_or_mri,Observation,Post-CT or MRI neurologic assessment / Presenting neurologic symptoms established as nonvascular,Explicit structured report field,MISSING_DATA,MISSING_DATA,,"0. Karen is a 72-year-old woman with hypertension and type 2 diabetes, who was hospitalized for cryptogenic stroke two weeks ago.
+1. At the time, computed tomography was negative for brain hemorrhage and she was given thrombolytic therapy with resolution of her symptoms.
+2. Transesophageal echocardiogram and magnetic resonance angiogram of brain and great vessels found no evidence of abnormalities.
+3. She presents currently with a blood pressure of 120/70 mm Hg, normal glucose, and normal sinus rhythm on a 12-lead electrocardiogram.
+4. She reports history of occasional palpitations, shortness of breath and chest pain lasting for a few minutes and then stopping on their own.
+5. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+367,NCT02255487,sigir-201420,Has experienced acute surgical abdomen requiring open abdominal laparotomy with primary closure,The abdominal examination is described. There is no plan documenting open laparotomy and primary closure for an acute surgical abdomen.,open_laparotomy_required_for_acute_surgical_abdomen_with_primary_closure,Observation,Acute abdomen surgical plan / Open laparotomy with primary closure required for acute surgical abdomen,Explicit structured report field,MISSING_DATA,MISSING_DATA,,"0. A 32-year-old woman is admitted to the ER following a car accident.
+1. She has sustained multiple injuries including upper and lower extremity fractures.
+2. She is fully awake and alert, and she reports that she was not wearing a seat belt.
+3. Her blood pressure is 134/74 mm Hg, and her pulse is 87/min.
+4. Physical examination reveals a tender abdomen with guarding and rebound in all four quadrants.
+5. She has no bowel sounds.
+6. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+653,NCT02375451,sigir-20156,"Non-English speaking subjects will be excluded due to our lack of translation support resources at this time. Of note, participation in our study cannot benefit participants in any way.",The patient's symptom history is recorded. Ability to speak English is unspecified.,unable_to_speak_english,Observation,Language assessment / Unable to speak English,Explicit structured report field or supported narrative sentence,MISSING_DATA,MISSING_DATA,,"0. A 46-year-old woman presents  with a 9 month history of weight loss (20 lb), sweating, insomnia and diarrhea.
+1. She reports to have been eating more than normal and that her heart sometimes races for no reason.
+2. On physical examination her hands are warm and sweaty, her pulse is irregular at 110bpm and there is hyperreflexia and mild exophthalmia.
+3. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+154,NCT02615912,sigir-20149,"Healthy Subjects with Fitzpatrick Skin Types I, II or III",The descriptions of lesion color and texture do not give a Fitzpatrick phototype or a healthy-volunteer assessment.,fitzpatrick_II,Observation,Dermatology examination / Fitzpatrick phototype,Explicit structured report field or supported narrative sentence,MISSING_DATA,MISSING_DATA,,"0. A 43-year-old woman visits her dermatologist for lesions on her neck.
+1. On examination, multiple lesions are seen.
+2. Each lesion is small soft, and pedunculated.
+3. The largest lesion is about 4 mm in diameter.
+4. The color of different lesions varies from flesh colored to slightly hyperpigmented.
+5. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+475,NCT02378311,sigir-201425,Incidents where the injured child was involved in a motor vehicle collision,The boy fell from a bicycle. The account does not explicitly establish or exclude a motor vehicle's involvement.,child_involved_in_motor_vehicle_collision_at_index_injury,Observation,Index pediatric injury history / Child involved in motor vehicle collision,Explicit structured report field,MISSING_DATA,MISSING_DATA,,"0. An 8-year-old boy fell from his bike striking his left temple on the pavement.
+1. There was no immediate loss of consciousness, and a brief examination at the scene noted his pupils were symmetrical, reactive to the light, and he was moving all four limbs.
+2. Half an hour after the fall the child became drowsy, pale, and vomited.
+3. He was transferred to the emergency department.
+4. Upon arrival the heart rate was 52/min, blood pressure of 155/98.
+5. The Glasgow Coma Scale (GCS) was 6/15, the pupils were asymmetrical and movement of the right upper and lower extremities was impaired.
+6. The neurosurgical team advised deferring the CT scan in favor of initiating immediate treatment.
+7. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+435,NCT02219360,sigir-201423,"Chest CT shows lung cancer, active pulmonary tuberculosis, pulmonary thromboembolism or interstitial lung diseases",The chest X-ray shows hyperinflation without consolidation. The criterion requires findings on a chest CT.,chest_ct_showed_active_tb,Observation,Current chest CT final report / Active pulmonary tuberculosis,Explicit structured report field or supported narrative sentence,MISSING_DATA,MISSING_DATA,,"0. A 63-year-old man presents with cough and shortness of breath.
+1. His past medical history is notable for heavy smoking, spinal stenosis, diabetes, hypothyroidism and mild psoriasis.
+2. He also has a family history of early onset dementia.
+3. His symptoms began about a week prior to his admission, with productive cough, purulent sputum and difficulty breathing, requiring him to use his home oxygen for the past 24 hours.
+4. He denies fever.
+5. On examination he is cyanotic, tachypneic, with a barrel shaped chest and diffuse rales over his lungs.
+6. A chest x-ray is notable for hyperinflation with no consolidation.
+7. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+231,NCT01869855,sigir-201414,Chronic subdural hematoma verified on cranial CT or MRI,The daughter reports a normal head CT three weeks earlier. There is no current imaging confirmation of chronic subdural hematoma.,chronic_subdural_hematoma_verified_on_ct_or_mri,Observation,Current cranial CT or MRI final report / Confirmed chronic subdural hematoma,Explicit structured report field,MISSING_DATA,MISSING_DATA,,"0. An 85-year-old man is brought to the ER because of gradual decrease in his level of consciousness.
+1. In the last 3 days he stopped walking and eating by himself.
+2. He has had no fever, cough, rash or diarrhea.
+3. His daughter recalls that he had been involved in a car accident 3 weeks prior to his admission and had a normal head CT at that time.
+4. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+867,NCT01446198,sigir-201517,an aliquot is available and suitable for testing,The record gives a Pap and HPV result. It gives no specimen inventory or quality result for the requested aliquot.,aliquot_available,Observation,Specimen inventory for index sample / Aliquot available,Explicit structured report field,MISSING_DATA,MISSING_DATA,,"0. A 32 year old female with no previous medical history presents to clinic to discuss lab results from her most recent pap smear.
+1. She reports no complaints and is in general good health.
+2. The results of her PAP were cytology negative, HPV positive.
+3. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+946,NCT01207128,sigir-201522,"The patient has been administered an antifungal agent (voriconazole, itraconazole, posaconazole, caspofungin, micafungin, anidulafungin, amphotericin B, or lipid formulation of amphotericin B) for > 7 days immediately prior to randomization for treatment of the Probable, or Proven invasive aspergillosis for which the patient is being enrolled.","Sputum culture and imaging are documented. No administered antifungal course, continuous duration, index-episode linkage or randomization anchor is supplied.",qualifying_antifungal_course_days,Observation,Randomization medication administration review / Entire qualifying course consisted solely of continuous voriconazole administered for the index probable or proven invasive aspergillosis immediately before randomization | Randomization medication administration review / Entire qualifying course consisted solely of continuous itraconazole administered for the index probable or proven invasive aspergillosis immediately before randomization | Randomization medication administration review / Entire qualifying course consisted solely of continuous posaconazole administered for the index probable or proven invasive aspergillosis immediately before randomization | Randomization medication administration review / Entire qualifying course consisted solely of continuous caspofungin administered for the index probable or proven invasive aspergillosis immediately before randomization | Randomization medication administration review / Entire qualifying course consisted solely of continuous micafungin administered for the index probable or proven invasive aspergillosis immediately before randomization | Randomization medication administration review / Entire qualifying course consisted solely of continuous anidulafungin administered for the index probable or proven invasive aspergillosis immediately before randomization | Randomization medication administration review / Entire qualifying course consisted solely of continuous amphotericin B administered for the index probable or proven invasive aspergillosis immediately before randomization | Randomization medication administration review / Entire qualifying course consisted solely of continuous lipid formulation of amphotericin B administered for the index probable or proven invasive aspergillosis immediately before randomization,Explicit structured report field,MISSING_DATA,MISSING_DATA,,"0. A 65-year-old male with a history of tuberculosis has started to complain of productive cough with tinges of blood.
+1. Chest X-ray reveals a round opaque mass within a cavity in his left upper lobe.
+2. The spherical mass moved in the cavity during supine and prone CT imaging.
+3. Culture of the sputum revealed an organism with septated, low-angle branching hyphae that had straight, parallel walls.
+4. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+235,NCT00277680,sigir-201415,Menorrhagia and/or bulk symptoms associated with uterine fibroids,The ultrasound and differential mention possible fibroid degeneration. They do not establish that uterine fibroids caused the symptoms or document a clinician's bulk-symptom assessment.,bulk_symptoms,Observation,Gynecology assessment / Pelvic bulk symptoms,Explicit structured report field,MISSING_DATA,MISSING_DATA,,"0. A 36-year-old woman presents to the emergency department with 12 weeks of amenorrhea, vaginal spotting that has increased since yesterday, lower abdominal tenderness, nausea and vomiting.
+1. The physical exam reveals overall tender abdomen, 18-week sized uterus, and cervical dilation of 2 cm.
+2. The complete blood count and biochemical profile are normal.
+3. Point of care pregnancy test with cut-off sensitivity of 25 mIU/ml Beta-HCG is negative.
+4. The ultrasound reports enlarged uterus (12 cm x 9 cm x 7 cms) with multiple cystic areas in the interior.
+5. The differential diagnosis includes vesicular mole vs fibroid degeneration.
+6. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+795,NCT00827463,sigir-201514,pregnency women who don't speak french,Pregnancy is documented. The patient's ability to speak French is unspecified.,unable_to_speak_french,Observation,Language assessment / Unable to speak French,Explicit structured report field or supported narrative sentence,MISSING_DATA,MISSING_DATA,Observation/n-eae9fff96fe823ef7c7421d0e659ef,"0. A 27-year-old woman at 11 weeks gestation in her second pregnancy is found to have a hemoglobin (Hb) of 9.0 g/dL, white blood cell count 6.3 x 109/L, platelet count 119 x 109/L, mean corpuscular volume 109 fL.
+1. Further investigations reveal mild iron deficiency.
+2. She already receives iron supplementation.
+3. The obstetrician repeats the complete blood cell count 2 weeks later.
+4. The Hb is 8.9 g/dL, WBC count 7.1 x 109/L, and platelets 108 x 109/L.
+5. She describes difficulty swallowing.
+6. A reticulocyte count is performed and found elevated at 180 x 109/L.
+7. The obstetrician requests a hematology consult.
+8. The following additional results were found: Negative DAT, normal clotting screen, elevated LDH (2000 IU/L), normal urea and electrolytes, normal alanine aminotransferase (ALT), anisocytosis, poikilocytosis, no fragments, no agglutination, polychromasia and presence of hemosiderin in the urine.
+9. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+953,NCT01207128,sigir-201522,"The patient has a history of allergy, hypersensitivity, or any serious reaction to the azole or echinocandin class of antifungal agents.",There is no history establishing or ruling out a qualifying prior reaction to either antifungal class.,prior_azole_or_echinocandin_allergy_hypersensitivity_or_serious_reaction,Observation,Antifungal reaction history / Prior allergy hypersensitivity or serious reaction to azole or echinocandin,Explicit structured report field,MISSING_DATA,MISSING_DATA,,"0. A 65-year-old male with a history of tuberculosis has started to complain of productive cough with tinges of blood.
+1. Chest X-ray reveals a round opaque mass within a cavity in his left upper lobe.
+2. The spherical mass moved in the cavity during supine and prone CT imaging.
+3. Culture of the sputum revealed an organism with septated, low-angle branching hyphae that had straight, parallel walls.
+4. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."

@@ -1,0 +1,20 @@
+{
+  "product": "PocketMD criterion authoring research prototype",
+  "tested_on": "2026-11-20",
+  "clean_extraction_unittest_passed": 95,
+  "retained_runtime_checks_passed": 227,
+  "model_packets_verified": [
+    "clear",
+    "open",
+    "unmapped",
+    "answered_narrow",
+    "answered_wide",
+    "answered_unclear",
+    "neok_age",
+    "exclusion"
+  ],
+  "model_provenance": "Separate in-session model author and verifier rendered judgments on the supplied packets. The CLI replayed the recorded JSON objects through the normal implementation.",
+  "hosted_transport": "Mock-tested. No fresh credentialed hosted API call in this verification.",
+  "data": "One uploaded trial item and synthetic criteria, reviewer replies and standardized patient records. No live site connection or clinical sign-off.",
+  "worked_results": "examples/text_workflow/worked_results.json"
+}

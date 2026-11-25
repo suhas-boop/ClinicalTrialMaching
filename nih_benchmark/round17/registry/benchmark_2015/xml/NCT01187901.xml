@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="110721">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 16, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT01187901</url>
+  </required_header>
+  <id_info>
+    <org_study_id>00039278</org_study_id>
+    <secondary_id>P01CA073992</secondary_id>
+    <nct_id>NCT01187901</nct_id>
+  </id_info>
+  <brief_title>A Clinical Trial of COX and EGFR Inhibition in Familial Polyposis Patients</brief_title>
+  <acronym>FAPEST</acronym>
+  <official_title>Genetic Events Leading to APC-Dependent Colon Cancer in High-Risk Families; a Clinical Trial of COX and EGFR Inhibition in Familial Polyposis Patients</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Utah</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>National Cancer Institute (NCI)</agency>
+      <agency_class>NIH</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University of Utah</source>
+  <oversight_info>
+    <authority>United States: Food and Drug Administration</authority>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this study is to determine in a randomized, placebo-controlled, phase II
+      trial if the combination of sulindac and erlotinib causes a significant regression of
+      duodenal and colorectal adenomas in familial adenomatous polyposis (FAP) and attenuated FAP
+      patients.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This will be a single-center, phase-II, six-month-long, placebo-controlled, double blinded,
+      randomized trial of the epidermal growth factor receptor (EGFR) inhibitor, erlotinib
+      (Tarceva) and the cyclooxygenase (COX-2) inhibitor, sulindac in patients with familial
+      adenomatous polyposis (FAP) or attenuated FAP. FAP is an autosomal dominant inherited colon
+      cancer predisposition with a 100% risk of colon cancer in the absence of preventive care
+      (endoscopy and surgery). Efficacious chemoprevention for duodenal adenomas is an unmet
+      clinical need in FAP patients that would reduce the morbidity from duodenectomy and risk of
+      duodenal adenocarcinoma. Currently the only Food and Drug Administration (FDA)-approved
+      chemopreventive agent is celecoxib which results in a modest reduction of duodenal and
+      colorectal polyps and is associated with cardiac toxicity at effective doses. If it can be
+      shown that combinatorial inhibition of COX-2 and EGFR activity leads to successful
+      regression in duodenal adenomatous polyps in FAP, it could be used as an effective
+      chemopreventive regimen in FAP patients with duodenal adenomas or who have undergone
+      surgical resection of duodenal adenomas or have many rectal adenomas. FAP and AFAP patients
+      will be screened by endoscopy for presence of 5 or more duodenal polyps, then randomized to
+      either A) erlotinib at 75 mg/day and sulindac at 150 mg/day or B) placebo for 6 months. The
+      endpoint will be endoscopy at 6 months.
+
+      Primary Aim : To determine if the combination of sulindac and erlotinib causes a significant
+      regression of duodenal adenomas in FAP and attenuated FAP patients.
+
+      Secondary :
+
+        1. Measure if combination of sulindac and erlotinib cause a reduction in duodenal
+           polyposis based on Spigelman classification.
+
+        2. Determine if the combination of sulindac and erlotinib causes a significant regression
+           of colorectal adenomas.
+
+        3. Measure changes in COX-2 expression, EGFR phosphorylation, MEK1 phosphorylation, AKT
+           phosphorylation, Ki-67 expression and/or cyclin D1 expression in intestinal polyps and
+           normal intestinal mucosa with treatment.
+
+        4. Determine ß-catenin localization in adenomatous intestinal polyps with or without
+           oncogenic KRAS mutations.
+    </textblock>
+  </detailed_description>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date>April 2010</start_date>
+  <completion_date type="Anticipated">April 2015</completion_date>
+  <primary_completion_date type="Anticipated">April 2015</primary_completion_date>
+  <phase>Phase 2</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Allocation: Randomized, Endpoint Classification: Efficacy Study, Intervention Model: Parallel Assignment, Masking: Double Blind (Subject, Caregiver, Investigator), Primary Purpose: Prevention</study_design>
+  <primary_outcome>
+    <measure>Compare the change in total duodenal and colorectal polyp burden at 6 months</measure>
+    <time_frame>Every 6 months</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>A comparison of the total polyp burden in the duodenum, measured as the change in the sum if the diameters of the polyps from the duodenal segment and a comparison of the change in the total colorectal polyp burden, measured as the change in the sum of the diameters of the colorectal polyps in subjects with an intact colon. At the end of the 6-month treatment period, all visible polyps will be counted, measured, and recorded as performed in the pretreatment endoscopies. The primary analysis will be via Wilcoxon (Mann-Whitney) tests comparing the sulindac + erlotinib and placebo arms.</description>
+  </primary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">100</enrollment>
+  <condition>Adenomatous Polyposis Coli</condition>
+  <arm_group>
+    <arm_group_label>erlotinib and sulindac</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>Erlotinib in combination with sulindac will be used in this arm of the study.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Corn starch pill</arm_group_label>
+    <arm_group_type>Placebo Comparator</arm_group_type>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Erlotinib</intervention_name>
+    <description>Tarceva oral tablets are conventional, immediate-release tablets containing erlotinib as the hydrochloride salt. Erlotinib(75mg)will be taken once daily for six months in combination with sulindac.</description>
+    <arm_group_label>erlotinib and sulindac</arm_group_label>
+    <other_name>Tarceva (NDA#021743)</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Sulindac</intervention_name>
+    <description>Sulindac is a non-steroidal, anti-inflammatory indene derivative designed for the treatment of arthritic conditions. For this study, sulindac (150mg) will be taken twice daily in combination with erlotinib</description>
+    <arm_group_label>erlotinib and sulindac</arm_group_label>
+    <other_name>Sulindac (ANDA#071891)</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Placebo A</intervention_name>
+    <description>Erlotinib (Tarceva) will provide a 25 mg identical placebo. This will be provided by the Division of Cancer Prevention at the NIH who will receive the drug and placebo from the manufacturer, OSI/Genentech. Dosage for Placebo A will be 75 mg a day for 6 months.</description>
+    <arm_group_label>Corn starch pill</arm_group_label>
+    <other_name>Erlotinib placebo</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Placebo B</intervention_name>
+    <description>Sulindac will be encapsulated in 150 mg doses along with an identical encapsulated Placebo B. One 150 mg capsules of Placebo B will be taken twice per day with meals (breakfast and supper).</description>
+    <arm_group_label>Corn starch pill</arm_group_label>
+    <other_name>Sulindac placebo</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Patients who are 18 years or older with a clinical or genetic diagnosis of FAP or
+             attenuated FAP.
+
+          -  Presence of duodenal polyps with a sum of diameters ≥ 5mm.
+
+          -  Minimum of two weeks since any major surgery
+
+          -  WHO performance status ≤1
+
+          -  Adequate bone marrow function as show by: normal leukocyte count, platelet count ≥
+             120 x 109/L, Hgb &gt; 12 g/dL
+
+          -  Adequate liver function as shown by: normal serum bilirubin(≤ 1.5 Upper Limit Normal
+             {ULN}) and serum transaminases (≤ 2.0 ULN)
+
+          -  Patient must discontinue taking any Nonsteroidal anti-inflammatory drugs (NSAIDS)
+             within one month of treatment initiation.
+
+          -  Patients must be able to provide written informed consent.
+
+        Exclusion Criteria:
+
+          -  Prior treatment with any investigational drug within the preceding 4 weeks.
+
+          -  Malignancies within the past 3 years except for adequately treated carcinoma of the
+             cervix or basal or squamous cell carcinomas of the skins.
+
+          -  Patients who have any severe and/or uncontrolled medical conditions or other
+             conditions that could affect their participation in the study as determined by the
+             Principle Investigator such as:
+
+               1. Unstable angina pectoris, symptomatic congestive heart failure, myocardial
+                  infarction ≤ 6 months prior to first study treatment, serious uncontrolled
+                  cardiac arrhythmia
+
+               2. Severely impaired lung function
+
+               3. Any active (acute or chronic) or uncontrolled infection/ disorders.
+
+               4. Nonmalignant medical illnesses that are uncontrolled or whose control may be
+                  jeopardized by the treatment with the study therapy
+
+               5. Liver disease such as cirrhosis, chronic active hepatitis or chronic persistent
+                  hepatitis
+
+          -  Screening clinical laboratory values that indicate any of the following:
+
+               1. anemia
+
+               2. thrombocytopenia
+
+               3. leucopenia
+
+               4. elevations of transaminases greater than 2X ULN
+
+               5. elevation of bilirubin &gt; 1.5 X ULN
+
+               6. alkaline phosphatase elevation &gt; 1.5 X ULN
+
+               7. increased creatinine, urinary protein, or urinary casts outside the clinically
+                  normal range.
+
+          -  Gastrointestinal bleeding (symptoms including dyspnea, fatigue, angina, weakness,
+             malaise, melena, hematochezia, hematemesis, anemia or abdominal pain will require
+             clinical assessment to rule out gastrointestinal bleeding).
+
+          -  Patient who is currently taking any anti-coagulation medication.
+
+          -  Women who are pregnant or breast feeding.
+
+          -  Patients with a known hypersensitivity to sulindac or erlotinib or to their
+             excipients
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>69 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Randall Burt, MD</last_name>
+    <role>Study Chair</role>
+    <affiliation>University of Utah at Huntsman Cancer Institute</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Niloy Jewel Samadder, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Utah at Huntsman Cancer Institute</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Huntsman Cancer Institute</name>
+      <address>
+        <city>Salt Lake City</city>
+        <state>Utah</state>
+        <zip>84112</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>June 2014</verification_date>
+  <lastchanged_date>June 20, 2014</lastchanged_date>
+  <firstreceived_date>August 3, 2010</firstreceived_date>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>University of Utah</investigator_affiliation>
+    <investigator_full_name>Jewel Samadder</investigator_full_name>
+    <investigator_title>Principle Investigator</investigator_title>
+  </responsible_party>
+  <keyword>Familial Adenomatous Polyposis</keyword>
+  <keyword>Attenuated Familial Polyposis</keyword>
+  <is_fda_regulated>Yes</is_fda_regulated>
+  <is_section_801>Yes</is_section_801>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Adenomatous Polyposis Coli</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Erlotinib</mesh_term>
+    <mesh_term>Sulindac</mesh_term>
+  </intervention_browse>
+  <!-- Results have not yet been posted for this study                                -->
+</clinical_study>

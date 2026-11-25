@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="189148">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd
+ and an XML DTD at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.dtd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on December 16, 2015</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT00149227</url>
+  </required_header>
+  <id_info>
+    <org_study_id>KHS2004</org_study_id>
+    <nct_id>NCT00149227</nct_id>
+  </id_info>
+  <brief_title>Add-on Effects of Valsartan on Morbi- Mortality (KYOTO HEART Study)</brief_title>
+  <official_title>Add-on Effects of Valsartan on Morbi- Mortality in High Risk Hypertension</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Kyoto Prefectural University of Medicine</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Kyoto Prefectural University of Medicine</source>
+  <oversight_info>
+    <authority>Japan: Ministry of Health, Labor and Welfare</authority>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The KYOTO HEART Study is to assess the add-on effect of valsartan, an Angiotensin-Receptor
+      Blocker, on top of the conventional treatment in high risk patients in Japan with
+      hypertension in terms of the morbidity and mortality.
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Although many reports show that ACE inhibitors and angiotensin II receptor blockers (ARB)
+      are superior for prevention of cardiovascular events, previous data are not enough for the
+      patients who have more than one risk factor and for anti-atherosclerotic effects of ARB. In
+      Japan, there were only a few large-scale trials for cardiovascular disease prevention, and
+      it has not been clarified whether the evidence in Western countries could be unqualifiedly
+      applied to Japanese patients as a long-range strategy. The KYOTO HEART Study is to assess
+      the add-on effect of valsartan, an Angiotensin-Receptor Blocker, on top of the conventional
+      treatment in high risk patients with hypertension in terms of the morbidity and mortality.
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date>January 2004</start_date>
+  <completion_date type="Actual">January 2009</completion_date>
+  <primary_completion_date type="Actual">January 2009</primary_completion_date>
+  <phase>Phase 4</phase>
+  <study_type>Interventional</study_type>
+  <study_design>Allocation: Randomized, Endpoint Classification: Safety/Efficacy Study, Intervention Model: Parallel Assignment, Masking: Open Label, Primary Purpose: Diagnostic</study_design>
+  <primary_outcome>
+    <measure>New Onset or Recurrence of Stroke</measure>
+    <time_frame>five years</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Stroke events included brain hemorrhage, infarction, and TIA. They required hospitalization with neurological symptoms and were diagnosed by CT and/or MRI. The first of any of these events to occur in a specific patient was classified as an event to be counted in the primary endpoint by the Endpoint Committee. We estimated the number of enrolled patients to validate the hypothesis under the assumption that the valsartan add-on group achieves a 20% risk reduction compared with the conventional treatment group and gives 80% statistical power for detecting a clinical signiﬁcance with a two-tailed 5% statistical signiﬁcant level.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>New Onset or Recurrence of Transient Ischemic Attack</measure>
+    <time_frame>five years</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Transient ischemic attack (TIA) was defined as hospitalization with sudden onset of neurological deficit persisting for less than 24 hrs, and without abnormal findings using by CT and/or MRI. The first of any of these events to occur in a specific patient was classified as an event to be counted in the primary endpoint by the Endpoint Committee. We estimated the number of enrolled patients to validate the hypothesis under the assumption that the valsartan add-on group achieves a 20% risk reduction compared with the conventional treatment group and gives 80% statistical power for detecting a clinical signiﬁcance with a two-tailed 5% statistical signiﬁcant level.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>New Onset or Recurrence of Acute Myocardial Infarction</measure>
+    <time_frame>five years</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Acute myocardial infarction was diagnosed with hospitalization, ECG- change, and biomarkers for myocardial infarction. The first of any of these events to occur in a specific patient was classified as an event to be counted in the primary endpoint by the Endpoint Committee. We estimated the number of enrolled patients to validate the hypothesis under the assumption that the valsartan add-on group achieves a 20% risk reduction compared with the conventional treatment group and gives 80% statistical power for detecting a clinical signiﬁcance with a two-tailed 5% statistical signiﬁcant level.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Hospitalization Due to the New Onset, Recurrence or Worsening of Heart Failure and Additional Concomitant Use of Other Anti-heart Failure Agents or Increase of Dosage</measure>
+    <time_frame>five years</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Heart failure event was defined as requiring hospitalization and clinical symptoms together with left ventricular dysfunction by echocardiography according to the guidelines of the AHA/ACC. The first of any of these events to occur in a specific patient was classified as an event to be counted in the primary endpoint by the Endpoint Committee. We estimated the number of enrolled patients to validate the hypothesis under the assumption that the valsartan add-on group achieves a 20% risk reduction compared with the conventional treatment group and gives 80% statistical power for detecting a clinical signiﬁcance with a two-tailed 5% statistical signiﬁcant level.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Hospitalization Due to the New Onset, Occurrence or Worsening of Angina Pectoris and Additional Concomitant Use of Other Anti-anginal Agents or Increase of Dosage</measure>
+    <time_frame>five years</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Angina pectoris event required hospitalization and was diagnosed by both ECG changes corresponding with chest symptoms and coronary angiography showing 75% stenosis according to AHA/ACC guidelines. The first of any of these events to occur in a specific patient was classified as an event to be counted in the primary endpoint by the Endpoint Committee. We estimated the number of enrolled patients to validate the hypothesis under the assumption that the valsartan add-on group achieves a 20% risk reduction compared with the conventional treatment group and gives 80% statistical power for detecting a clinical signiﬁcance with a two-tailed 5% statistical signiﬁcant level.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Operation of PCI or Bypass Operation</measure>
+    <time_frame>five years</time_frame>
+    <safety_issue>No</safety_issue>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>New Onset of Acute Dissecting Aneurysm of the Aorta</measure>
+    <time_frame>five years</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Dissecting aneurysm of the aorta required hospitalization and was diagnosed by imaging technique, CT and/or MRI. The first of any of these events to occur in a specific patient was classified as an event to be counted in the primary endpoint by the Endpoint Committee. We estimated the number of enrolled patients to validate the hypothesis under the assumption that the valsartan add-on group achieves a 20% risk reduction compared with the conventional treatment group and gives 80% statistical power for detecting a clinical signiﬁcance with a two-tailed 5% statistical signiﬁcant level.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>New Onset, Recurrence or Worsening of Arteriosclerosis Obliterans</measure>
+    <time_frame>five years</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Arteriosclerosis obliterans (ASO) event was diagnosed with symptoms and CT / MRI imaging. The first of any of these events to occur in a specific patient was classified as an event to be counted in the primary endpoint by the Endpoint Committee. We estimated the number of enrolled patients to validate the hypothesis under the assumption that the valsartan add-on group achieves a 20% risk reduction compared with the conventional treatment group and gives 80% statistical power for detecting a clinical signiﬁcance with a two-tailed 5% statistical signiﬁcant level.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Transition to Dialysis, Doubling of Plasma Cr Levels</measure>
+    <time_frame>five years</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>The first of any events, &quot;transition to dialysis&quot; or &quot;doubling of plasma Cr levels compared to the entry&quot;, occurring in a specific patient was classified as an event to be counted in the primary endpoint by the Endpoint Committee. We estimated the number of enrolled patients to validate the hypothesis under the assumption that the valsartan add-on group achieves a 20% risk reduction compared with the conventional treatment group and gives 80% statistical power for detecting a clinical signiﬁcance with a two-tailed 5% statistical signiﬁcant level.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>All Cause Mortality</measure>
+    <time_frame>five years</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Worsening of Cardiac Function</measure>
+    <time_frame>five years</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>New Onset or Worsening of Arrhythmias</measure>
+    <time_frame>five years</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>New Onset or Worsening of Diabetes Mellitus or IGT</measure>
+    <time_frame>five years</time_frame>
+    <safety_issue>No</safety_issue>
+    <description>Diabetes mellitus was defined as fasting plasma glucose &gt;=126 mg/dl, causal blood glucose &gt;= 200 mg /dl, HbA1C &gt;= 6.5%, and/or plasma glucose 2hr after 75g glucose load &gt;= 200 mg/dl. The first of these events, &quot;new onset diabetes&quot; or &quot;worsening diabetes following IGT&quot;, occurring in a specific patient was classified as an event to be counted in the secondary endpoint by the Endpoint Committee. We estimated the number of enrolled patients to validate the hypothesis under the assumption that the valsartan add-on group achieves a 20% risk reduction compared with the conventional treatment group and gives 80% statistical power for detecting a clinical signiﬁcance with a two-tailed 5% statistical signiﬁcant level.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Uncontrolled Blood Pressure, Etc.</measure>
+    <time_frame>five years</time_frame>
+    <safety_issue>No</safety_issue>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Actual">3031</enrollment>
+  <condition>Hypertension</condition>
+  <condition>Ischemic Heart Disease</condition>
+  <condition>Congestive Heart Failure</condition>
+  <condition>Stroke</condition>
+  <arm_group>
+    <arm_group_label>Non-ARB</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>'Non-ARB' was defined as Conventional anti-hypertensive treatment except for ARB and ACEIs</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Valsartan</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Valsartan add-on treatment</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Valsartan</intervention_name>
+    <description>Valsartan add-on arm: valsartan 40-160 mg per day, and an additional antihypertensive drugs other than ARB and ACEI are administered if necessary.</description>
+    <arm_group_label>Valsartan</arm_group_label>
+    <other_name>Diovan</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Non-ARB</intervention_name>
+    <description>'Non-ARB' was defined conventional anti-hypertensive treatment except for ACEIs and ARBs</description>
+    <arm_group_label>Non-ARB</arm_group_label>
+    <other_name>Conventional anti-hypertensive treatment</other_name>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:
+
+          -  Clinical diagnosis of hypertension
+
+          -  Clinical diagnosis of one or more risk factors, such as diabetes, smoking habit,
+             lipid metabolism abnormality, history of ischemic heart disease (IHD) or
+             cerebrovascular disease, obesity (BMI&gt;25), chronic heart failure (NYHA II-III), and
+             electrocardiogram (ECG) abnormality (LVH)
+
+        Exclusion Criteria:
+
+          -  Patients who have already been administered ARB
+
+          -  Patients with IHD within 6 months after percutaneous coronary intervention(PCI), and
+             who are stable but are going to implement PCI or coronary artery bypass
+             grafting(CABG)
+
+          -  Severe/malignant/secondary hypertensive patients
+
+          -  Pregnant women and women of childbearing potential
+
+          -  History of heart failure, unstable angina, myocardial infarction, PTCA, or CABG
+             within the preceding 6 months
+
+          -  Arrhythmia needed to be treated or accompanied with symptoms, second or third degree
+             AV block
+
+          -  Severe renal impairment (Serum creatinine &gt;3.0 mg/dl)
+
+          -  Severe hepatic impairment (Hepatic failure, Cirrhosis, etc.)
+      </textblock>
+    </criteria>
+    <gender>Both</gender>
+    <minimum_age>20 Years</minimum_age>
+    <maximum_age>79 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Hiroaki Matsubara, MD,PhD</last_name>
+    <role>Study Chair</role>
+    <affiliation>Kyoto Prefectural University of Medicine</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Kyoto Prefectural University of Medicine</name>
+      <address>
+        <city>Kyoto</city>
+        <zip>602-8566</zip>
+        <country>Japan</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Japan</country>
+  </location_countries>
+  <reference>
+    <citation>Sawada T, Takahashi T, Yamada H, Dahlöf B, Matsubara H; KYOTO HEART Study Group. Rationale and design of the KYOTO HEART study: effects of valsartan on morbidity and mortality in uncontrolled hypertensive patients with high risk of cardiovascular events. J Hum Hypertens. 2009 Mar;23(3):188-95. doi: 10.1038/jhh.2008.116. Epub 2008 Sep 18. Erratum in: J Hum Hypertens. 2013 Sep;27(9):580.</citation>
+    <PMID>18800142</PMID>
+  </reference>
+  <results_reference>
+    <citation>Sawada T, Yamada H, Dahlöf B, Matsubara H; KYOTO HEART Study Group. Effects of valsartan on morbidity and mortality in uncontrolled hypertensive patients with high cardiovascular risks: KYOTO HEART Study. Eur Heart J. 2009 Oct;30(20):2461-9. doi: 10.1093/eurheartj/ehp363. Epub 2009 Aug 31. Retraction in: Eur Heart J. 2013 Apr;34(14):1023.</citation>
+    <PMID>19723695</PMID>
+  </results_reference>
+  <verification_date>December 2012</verification_date>
+  <lastchanged_date>December 9, 2012</lastchanged_date>
+  <firstreceived_date>September 6, 2005</firstreceived_date>
+  <firstreceived_results_date>July 5, 2011</firstreceived_results_date>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Kyoto Prefectural University of Medicine</investigator_affiliation>
+    <investigator_full_name>Hiroaki Matsubara, MD., PhD</investigator_full_name>
+    <investigator_title>Add-on Effects of Valsartan on Morbi- Mortality in High Risk Hypertension</investigator_title>
+  </responsible_party>
+  <keyword>High risk hypertension</keyword>
+  <keyword>Ischemic heart disease</keyword>
+  <keyword>Angiotensin receptor blockers</keyword>
+  <keyword>Cardiovascular mortality- morbidity</keyword>
+  <keyword>KYOTO HEART Study</keyword>
+  <is_fda_regulated>No</is_fda_regulated>
+  <has_expanded_access>No</has_expanded_access>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Coronary Artery Disease</mesh_term>
+    <mesh_term>Heart Diseases</mesh_term>
+    <mesh_term>Heart Failure</mesh_term>
+    <mesh_term>Hypertension</mesh_term>
+    <mesh_term>Myocardial Ischemia</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm  -->
+    <mesh_term>Antihypertensive Agents</mesh_term>
+    <mesh_term>Valsartan</mesh_term>
+  </intervention_browse>
+  <!-- Results are available for this study                                           -->
+</clinical_study>

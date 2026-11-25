@@ -1,0 +1,131 @@
+{
+  "answers": [],
+  "authoring_review": {
+    "audit": {
+      "author": {
+        "citations": [
+          {
+            "quote": "adult patients,  >  /  = 18 years of age",
+            "source_id": "criterion"
+          },
+          {
+            "quote": "evaluate this positive age requirement as an inclusion predicate at the selected screening encounter.",
+            "source_id": "protocol"
+          }
+        ],
+        "expression": {
+          "fact": "age",
+          "op": "ge",
+          "value": 18
+        },
+        "gaps": [],
+        "questions": [],
+        "reason": "The written comparison includes the lower bound of 18 years. Under the supplied experiment convention, the bound applies to completed age on the screening date. The word adult describes the same age requirement.",
+        "status": "EXECUTABLE"
+      },
+      "author_instructions_sha256": "2cfbcf9e0739a74bf69c2aa9f1b34a378c3abd736fa1797f373ac2cc8da2f40d",
+      "bound_facts": [
+        "age"
+      ],
+      "catalog_sha256": "551f73758e367c0849a601fe7281def4c8db3a525c3c47bd9d0e9a688d22388a",
+      "gate_version": "text-author-gate-v1",
+      "provider": {
+        "transport": "command"
+      },
+      "source_sha256": "be65e8c027492fb9d37b6bc754a150376cb4a867a3d014a048225b72000e9719",
+      "verification": {
+        "gaps": [],
+        "obligations": [
+          {
+            "coverage": "REPRESENTED",
+            "detail": "The text states an inclusive lower bound. The age leaf accepts exactly 18 and ages above 18 and rejects a known age below 18. There is no upper bound or second condition.",
+            "quote": "adult patients,  >  /  = 18 years of age",
+            "source_id": "criterion"
+          },
+          {
+            "coverage": "REPRESENTED",
+            "detail": "The synthetic encounter fixes when completed age is observed. A true leaf satisfies the positive predicate. An unavailable date of birth leaves age unknown.",
+            "quote": "evaluate this positive age requirement as an inclusion predicate at the selected screening encounter.",
+            "source_id": "protocol"
+          },
+          {
+            "coverage": "CONTEXT",
+            "detail": "Polarity and encounter timing are fixture conventions. The released excerpt supports the numeric comparison only.",
+            "quote": "The source fragment has no accompanying inclusion/exclusion heading or governing protocol.",
+            "source_id": "protocol"
+          }
+        ],
+        "questions": [],
+        "reason": "The proposed leaf and bound implement the source wording within the declared synthetic comparison. The catalog defines completed calendar years and the screening anchor.",
+        "verdict": "PASS"
+      },
+      "verify_instructions_sha256": "7cb112cbd69aac51b1dfa534574e3bbecc5c35d3b6c86b7ac8d8bd830542d986"
+    },
+    "citations": [
+      {
+        "quote": "adult patients,  >  /  = 18 years of age",
+        "source_id": "criterion"
+      },
+      {
+        "quote": "evaluate this positive age requirement as an inclusion predicate at the selected screening encounter.",
+        "source_id": "protocol"
+      }
+    ],
+    "expression": {
+      "fact": "age",
+      "op": "ge",
+      "value": 18
+    },
+    "gaps": [],
+    "questions": [],
+    "reason": "The written comparison includes the lower bound of 18 years. Under the supplied experiment convention, the bound applies to completed age on the screening date. The word adult describes the same age requirement.",
+    "status": "EXECUTABLE"
+  },
+  "bindings": [
+    "age"
+  ],
+  "catalog": {
+    "facts": {
+      "age": {
+        "context": [
+          "screening Encounter.period.start",
+          "patient identity",
+          "snapshot cutoff"
+        ],
+        "key": "age",
+        "meaning": "Age in completed calendar years on screening date",
+        "status": "FHIR_native",
+        "value": "Patient.birthDate"
+      }
+    },
+    "mode": "synthetic_research",
+    "sha256": "551f73758e367c0849a601fe7281def4c8db3a525c3c47bd9d0e9a688d22388a",
+    "source_sha256": "9be767125b04fec06365f01b1db36805cd1059d4148b13342f43ee5a17b0ab4d",
+    "version": "four-study-r4"
+  },
+  "citations": [
+    {
+      "quote": "adult patients,  >  /  = 18 years of age",
+      "source_id": "criterion"
+    },
+    {
+      "quote": "evaluate this positive age requirement as an inclusion predicate at the selected screening encounter.",
+      "source_id": "protocol"
+    }
+  ],
+  "expression": {
+    "fact": "age",
+    "op": "ge",
+    "value": 18
+  },
+  "format": "pocketmd.bounded-rule.v1",
+  "id": "dev-242",
+  "release": "research",
+  "sha256": "e4515195d81569f211b7f1e4b5a335437ed4a71d3b9e4a75c4b84fe9b3070280",
+  "sources": {
+    "criterion": "adult patients,  >  /  = 18 years of age",
+    "protocol": "Synthetic comparison convention: evaluate this positive age requirement as an inclusion predicate at the selected screening encounter. The source fragment has no accompanying inclusion/exclusion heading or governing protocol."
+  },
+  "study": "Criteria2SQL",
+  "version": "045528d70a7d788775a24763adfed6c66023c914"
+}

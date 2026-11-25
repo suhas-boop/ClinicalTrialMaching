@@ -1,0 +1,23 @@
+{
+  "assignments": 134,
+  "physician_definitive": 91,
+  "freeze_sha256": "5bacacf66f39bd5f015355fc2c7a20b58afa471b2d7c1654d15856eb0bb1baf7",
+  "changes": [
+    {
+      "case": "186",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MET",
+      "physician_reference": "MET"
+    }
+  ],
+  "strict": {
+    "agreeing": 6,
+    "disagreeing_on_definitive": 0,
+    "definitive_on_indeterminate": 0
+  },
+  "exam_arm": {
+    "agreeing": 7,
+    "disagreeing_on_definitive": 0,
+    "definitive_on_indeterminate": 0
+  }
+}

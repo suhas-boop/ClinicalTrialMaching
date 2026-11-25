@@ -1,0 +1,300 @@
+annotation_id,criterion,expert,expert_sentences,audit_category,rationale,note
+25,Severe/malignant/secondary hypertensive patients,MET,[3],Partial evidence; key qualifier unresolved,Hypertension is explicit; its severity or secondary cause is unspecified.,"0. A 58-year-old African-American woman presents to the ER with episodic pressing/burning anterior chest pain that began two days earlier for the first time in her life.
+1. The pain started while she was walking, radiates to the back, and is accompanied by nausea, diaphoresis and mild dyspnea, but is not increased on inspiration.
+2. The latest episode of pain ended half an hour prior to her arrival.
+3. She is known to have hypertension and obesity.
+4. She denies smoking, diabetes, hypercholesterolemia, or a family history of heart disease.
+5. She currently takes no medications.
+6. Physical examination is normal.
+7. The EKG shows nonspecific changes.
+8. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+29,Severe renal impairment (Serum creatinine >3.0 mg/dl),MET,[],No decisive statement in supplied narrative,No serum creatinine result or explicit assessment of severe renal impairment.,"0. A 58-year-old African-American woman presents to the ER with episodic pressing/burning anterior chest pain that began two days earlier for the first time in her life.
+1. The pain started while she was walking, radiates to the back, and is accompanied by nausea, diaphoresis and mild dyspnea, but is not increased on inspiration.
+2. The latest episode of pain ended half an hour prior to her arrival.
+3. She is known to have hypertension and obesity.
+4. She denies smoking, diabetes, hypercholesterolemia, or a family history of heart disease.
+5. She currently takes no medications.
+6. Physical examination is normal.
+7. The EKG shows nonspecific changes.
+8. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+55,"Preterm and neonates, pregnancy",MET,[0],Missing or ambiguous governing protocol text,Age is documented but wording does not resolve prematurity history versus present neonatal status.,"0. A 2-year-old boy is brought to the emergency department by his parents for 5 days of high fever and irritability.
+1. The physical exam reveals conjunctivitis, strawberry tongue, inflammation of the hands and feet, desquamation of the skin of the fingers and toes, and cervical lymphadenopathy with the smallest node at 1.5 cm.
+2. The abdominal exam demonstrates tenderness and enlarged liver.
+3. Laboratory tests report elevated alanine aminotransferase, white blood cell count of 17,580/mm, albumin 2.1 g/dL, C-reactive protein 4.5 mg, erythrocyte sedimentation rate 60 mm/h, mild normochromic, normocytic anemia, and leukocytes in urine of 20/mL with no bacteria identified.
+4. The echocardiogram shows moderate dilation of the coronary arteries with possible coronary artery aneurysm.
+5. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+81,"Active severe infections within 4 weeks before screening visit, or between the screening and baseline visits.",MET,"[0, 3]",Partial evidence; key qualifier unresolved,"Fever and inflammatory tests do not determine severity, infectious cause, or screening timing.","0. A 2-year-old boy is brought to the emergency department by his parents for 5 days of high fever and irritability.
+1. The physical exam reveals conjunctivitis, strawberry tongue, inflammation of the hands and feet, desquamation of the skin of the fingers and toes, and cervical lymphadenopathy with the smallest node at 1.5 cm.
+2. The abdominal exam demonstrates tenderness and enlarged liver.
+3. Laboratory tests report elevated alanine aminotransferase, white blood cell count of 17,580/mm, albumin 2.1 g/dL, C-reactive protein 4.5 mg, erythrocyte sedimentation rate 60 mm/h, mild normochromic, normocytic anemia, and leukocytes in urine of 20/mL with no bacteria identified.
+4. The echocardiogram shows moderate dilation of the coronary arteries with possible coronary artery aneurysm.
+5. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+108,Hemodynamically unstable patients.,MET,[],No decisive statement in supplied narrative,Lesion description supplies no hemodynamic measurements or stability assessment.,"0. 64-year-old obese female with diagnosis of diabetes mellitus and persistently elevated HbA1c.
+1. She is reluctant to see a nutritionist and is not compliant with her diabetes medication or exercise.
+2. She complains of a painful skin lesion on the left lower leg.
+3. She has tried using topical lotions and creams but the lesion has increased in size and is now oozing.
+4. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+109,Patients with septic shock from any source.,MET,[],No decisive statement in supplied narrative,No documented septic shock assessment.,"0. 64-year-old obese female with diagnosis of diabetes mellitus and persistently elevated HbA1c.
+1. She is reluctant to see a nutritionist and is not compliant with her diabetes medication or exercise.
+2. She complains of a painful skin lesion on the left lower leg.
+3. She has tried using topical lotions and creams but the lesion has increased in size and is now oozing.
+4. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+111,Patients with secondary cutaneous ulcer enteral fistula.,MET,[],No decisive statement in supplied narrative,No established fistulous cause for the ulcer.,"0. 64-year-old obese female with diagnosis of diabetes mellitus and persistently elevated HbA1c.
+1. She is reluctant to see a nutritionist and is not compliant with her diabetes medication or exercise.
+2. She complains of a painful skin lesion on the left lower leg.
+3. She has tried using topical lotions and creams but the lesion has increased in size and is now oozing.
+4. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+115,"Patients with cutaneous ulcer leishmania, insect bite.",MET,"[2, 3]",Partial evidence; key qualifier unresolved,A skin lesion is documented; cause is unspecified.,"0. 64-year-old obese female with diagnosis of diabetes mellitus and persistently elevated HbA1c.
+1. She is reluctant to see a nutritionist and is not compliant with her diabetes medication or exercise.
+2. She complains of a painful skin lesion on the left lower leg.
+3. She has tried using topical lotions and creams but the lesion has increased in size and is now oozing.
+4. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+116,Patients with cutaneous ulcer burns.,MET,"[2, 3]",Partial evidence; key qualifier unresolved,A skin lesion is documented; no burn etiology or specific denial.,"0. 64-year-old obese female with diagnosis of diabetes mellitus and persistently elevated HbA1c.
+1. She is reluctant to see a nutritionist and is not compliant with her diabetes medication or exercise.
+2. She complains of a painful skin lesion on the left lower leg.
+3. She has tried using topical lotions and creams but the lesion has increased in size and is now oozing.
+4. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+145,Active suicide ideation.,MET,[],No decisive statement in supplied narrative,No assessment of active suicidal ideation.,"0. A 62-year-old man sees a neurologist for progressive memory loss and jerking movements of the lower extremities.
+1. Neurologic examination confirms severe cognitive deficits and memory dysfunction.
+2. An electroencephalogram shows generalized periodic sharp waves.
+3. Neuroimaging studies show moderately advanced cerebral atrophy.
+4. A cortical biopsy shows diffuse vacuolar changes of the gray matter with reactive astrocytosis but no inflammatory infiltration.
+5. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+147,History of Deep Brain Stimulation surgery.,MET,[],No decisive statement in supplied narrative,No documented history or denial of deep brain stimulation.,"0. A 62-year-old man sees a neurologist for progressive memory loss and jerking movements of the lower extremities.
+1. Neurologic examination confirms severe cognitive deficits and memory dysfunction.
+2. An electroencephalogram shows generalized periodic sharp waves.
+3. Neuroimaging studies show moderately advanced cerebral atrophy.
+4. A cortical biopsy shows diffuse vacuolar changes of the gray matter with reactive astrocytosis but no inflammatory infiltration.
+5. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+217,Patients presenting with a traumatic cause of dyspnea,MET,[],No decisive statement in supplied narrative,No statement establishing or denying trauma as the cause of dyspnea.,"0. A 30-year-old generally healthy woman presents with shortness of breath that had started 2 hours before admission.
+1. She has had no health problems in the past besides 2 natural abortions.
+2. She had given birth to a healthy child 3 weeks before.
+3. On examination, she is apprehensive, tachypneic and tachycardic, her blood pressure is 110/70 and her oxygen saturation 92%.
+4. Otherwise, physical examination is unremarkable.
+5. Her chest x-ray and CBC are normal.
+6. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+218,patients with severe renal disease (serum creatinine level of more than 250 micro mmol/L,MET,[],Missing or ambiguous governing protocol text,Malformed measurement unit; locate governing source before executing comparison.,"0. A 30-year-old generally healthy woman presents with shortness of breath that had started 2 hours before admission.
+1. She has had no health problems in the past besides 2 natural abortions.
+2. She had given birth to a healthy child 3 weeks before.
+3. On examination, she is apprehensive, tachypneic and tachycardic, her blood pressure is 110/70 and her oxygen saturation 92%.
+4. Otherwise, physical examination is unremarkable.
+5. Her chest x-ray and CBC are normal.
+6. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+239,Postmenopausal women,MET,[0],Partial evidence; key qualifier unresolved,Age and recent amenorrhea are available; menopausal status is not established.,"0. A 36-year-old woman presents to the emergency department with 12 weeks of amenorrhea, vaginal spotting that has increased since yesterday, lower abdominal tenderness, nausea and vomiting.
+1. The physical exam reveals overall tender abdomen, 18-week sized uterus, and cervical dilation of 2 cm.
+2. The complete blood count and biochemical profile are normal.
+3. Point of care pregnancy test with cut-off sensitivity of 25 mIU/ml Beta-HCG is negative.
+4. The ultrasound reports enlarged uterus (12 cm x 9 cm x 7 cms) with multiple cystic areas in the interior.
+5. The differential diagnosis includes vesicular mole vs fibroid degeneration.
+6. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+328,Bleeding history in infant or family,MET,[],No decisive statement in supplied narrative,No personal or family bleeding history.,"0. A 6-month-old male infant has a urine output of less than 0.2 mL/kg/hr shortly after undergoing major surgery.
+1. On examination, he has generalized edema.
+2. His blood pressure is 115/80 mm Hg, his pulse is 141/min, and his respirations are 18/min.
+3. His blood urea nitrogen is 33 mg/dL, and his serum creatinine is 1.3 mg/dL.
+4. Initial urinalysis shows specific gravity of 1.017.
+5. Microscopic examination of the urine sample reveals 1 WBC per high-power field (HPF), 18 RBCs per HPF, and 5 granular casts per HPF.
+6. His fractional excretion of sodium is 3.3%.
+7. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+330,Gastrointestinal bleeding history,MET,[],No decisive statement in supplied narrative,Urinary RBCs do not establish gastrointestinal bleeding history.,"0. A 6-month-old male infant has a urine output of less than 0.2 mL/kg/hr shortly after undergoing major surgery.
+1. On examination, he has generalized edema.
+2. His blood pressure is 115/80 mm Hg, his pulse is 141/min, and his respirations are 18/min.
+3. His blood urea nitrogen is 33 mg/dL, and his serum creatinine is 1.3 mg/dL.
+4. Initial urinalysis shows specific gravity of 1.017.
+5. Microscopic examination of the urine sample reveals 1 WBC per high-power field (HPF), 18 RBCs per HPF, and 5 granular casts per HPF.
+6. His fractional excretion of sodium is 3.3%.
+7. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+336,refused or none consent,MET,[7],Partial evidence; key qualifier unresolved,Future willingness does not establish signed consent or authorized proxy consent for an infant.,"0. A 6-month-old male infant has a urine output of less than 0.2 mL/kg/hr shortly after undergoing major surgery.
+1. On examination, he has generalized edema.
+2. His blood pressure is 115/80 mm Hg, his pulse is 141/min, and his respirations are 18/min.
+3. His blood urea nitrogen is 33 mg/dL, and his serum creatinine is 1.3 mg/dL.
+4. Initial urinalysis shows specific gravity of 1.017.
+5. Microscopic examination of the urine sample reveals 1 WBC per high-power field (HPF), 18 RBCs per HPF, and 5 granular casts per HPF.
+6. His fractional excretion of sodium is 3.3%.
+7. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+366,"Has experienced abdominal trauma, blunt or penetrating, requiring open abdominal laparotomy with primary closure",MET,"[0, 4, 5]",Partial evidence; key qualifier unresolved,Mechanism and abdominal signs available; required laparotomy with primary closure unverified.,"0. A 32-year-old woman is admitted to the ER following a car accident.
+1. She has sustained multiple injuries including upper and lower extremity fractures.
+2. She is fully awake and alert, and she reports that she was not wearing a seat belt.
+3. Her blood pressure is 134/74 mm Hg, and her pulse is 87/min.
+4. Physical examination reveals a tender abdomen with guarding and rebound in all four quadrants.
+5. She has no bowel sounds.
+6. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+367,Has experienced acute surgical abdomen requiring open abdominal laparotomy with primary closure,MET,"[0, 4]",Partial evidence; key qualifier unresolved,Abdominal findings present; open laparotomy with primary closure unverified.,"0. A 32-year-old woman is admitted to the ER following a car accident.
+1. She has sustained multiple injuries including upper and lower extremity fractures.
+2. She is fully awake and alert, and she reports that she was not wearing a seat belt.
+3. Her blood pressure is 134/74 mm Hg, and her pulse is 87/min.
+4. Physical examination reveals a tender abdomen with guarding and rebound in all four quadrants.
+5. She has no bowel sounds.
+6. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+385,Ability to take and retain oral medication,MET,[4],Partial evidence; key qualifier unresolved,General consent does not establish ability to take and retain oral medication.,"0. A 21-year-old female is evaluated for progressive arthralgias and malaise.
+1. On examination she is found to have alopecia, a rash mainly distributed on the bridge of her nose and her cheeks, a delicate non-palpable purpura on her calves, and swelling and tenderness of her wrists and ankles.
+2. Her lab shows normocytic anemia, thrombocytopenia, a 4/4 positive ANA and anti-dsDNA.
+3. Her urine is positive for protein and RBC casts.
+4. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+396,"History of myocardial infarction or current uncontrolled angina, severe uncontrolled ventricular arrhythmias, symptomatic congestive heart failure, unstable angina pectoris, or electrocardiographic evidence of acute ischemia.",MET,[],No decisive statement in supplied narrative,"No targeted cardiac history, ECG or reliable reconciliation of the listed conditions.","0. A 21-year-old female is evaluated for progressive arthralgias and malaise.
+1. On examination she is found to have alopecia, a rash mainly distributed on the bridge of her nose and her cheeks, a delicate non-palpable purpura on her calves, and swelling and tenderness of her wrists and ankles.
+2. Her lab shows normocytic anemia, thrombocytopenia, a 4/4 positive ANA and anti-dsDNA.
+3. Her urine is positive for protein and RBC casts.
+4. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+397,"Marked baseline prolongation of QT/QTc interval (eg, repeated demonstration of a QTc interval >450 milliseconds",MET,[],No decisive statement in supplied narrative,No baseline or repeat QTc.,"0. A 21-year-old female is evaluated for progressive arthralgias and malaise.
+1. On examination she is found to have alopecia, a rash mainly distributed on the bridge of her nose and her cheeks, a delicate non-palpable purpura on her calves, and swelling and tenderness of her wrists and ankles.
+2. Her lab shows normocytic anemia, thrombocytopenia, a 4/4 positive ANA and anti-dsDNA.
+3. Her urine is positive for protein and RBC casts.
+4. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+400,"History of, or current, ischemic CNS disease.",MET,[],No decisive statement in supplied narrative,No targeted ischemic CNS history.,"0. A 21-year-old female is evaluated for progressive arthralgias and malaise.
+1. On examination she is found to have alopecia, a rash mainly distributed on the bridge of her nose and her cheeks, a delicate non-palpable purpura on her calves, and swelling and tenderness of her wrists and ankles.
+2. Her lab shows normocytic anemia, thrombocytopenia, a 4/4 positive ANA and anti-dsDNA.
+3. Her urine is positive for protein and RBC casts.
+4. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+401,Current malignancy. A 5-year cancer-free period is required with the exception of skin basal or squamous cell carcinoma or cervical cancer in situ that has been excised.,MET,[],No decisive statement in supplied narrative,No five-year cancer history.,"0. A 21-year-old female is evaluated for progressive arthralgias and malaise.
+1. On examination she is found to have alopecia, a rash mainly distributed on the bridge of her nose and her cheeks, a delicate non-palpable purpura on her calves, and swelling and tenderness of her wrists and ankles.
+2. Her lab shows normocytic anemia, thrombocytopenia, a 4/4 positive ANA and anti-dsDNA.
+3. Her urine is positive for protein and RBC casts.
+4. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+402,Current severe infection,MET,[],No decisive statement in supplied narrative,No severe-infection assessment.,"0. A 21-year-old female is evaluated for progressive arthralgias and malaise.
+1. On examination she is found to have alopecia, a rash mainly distributed on the bridge of her nose and her cheeks, a delicate non-palpable purpura on her calves, and swelling and tenderness of her wrists and ankles.
+2. Her lab shows normocytic anemia, thrombocytopenia, a 4/4 positive ANA and anti-dsDNA.
+3. Her urine is positive for protein and RBC casts.
+4. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+414,Patients without systemic Lupus erythematosus,MET,"[0, 1, 2, 3]",Clinical interpretation from findings,"Symptoms, serology and urine results support clinical review; no definitive SLE diagnosis explicitly recorded.","0. A 21-year-old female is evaluated for progressive arthralgias and malaise.
+1. On examination she is found to have alopecia, a rash mainly distributed on the bridge of her nose and her cheeks, a delicate non-palpable purpura on her calves, and swelling and tenderness of her wrists and ankles.
+2. Her lab shows normocytic anemia, thrombocytopenia, a 4/4 positive ANA and anti-dsDNA.
+3. Her urine is positive for protein and RBC casts.
+4. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+460,"have a severe traumatic brain injury as defined by either a GCS ≤ 8 and an abnormal CT scan (intracranial hemorrhage, cerebral edema or diffuse axonal injury) or a motor score ≤ 3 and normal CT scan",NOT_MET,"[0, 1, 2, 3, 4, 5, 6]",Partial evidence; key qualifier unresolved,GCS 6 documented and CT deferred. Required imaging or a qualifying alternative combination is unverified.,"0. An 8-year-old boy fell from his bike striking his left temple on the pavement.
+1. There was no immediate loss of consciousness, and a brief examination at the scene noted his pupils were symmetrical, reactive to the light, and he was moving all four limbs.
+2. Half an hour after the fall the child became drowsy, pale, and vomited.
+3. He was transferred to the emergency department.
+4. Upon arrival the heart rate was 52/min, blood pressure of 155/98.
+5. The Glasgow Coma Scale (GCS) was 6/15, the pupils were asymmetrical and movement of the right upper and lower extremities was impaired.
+6. The neurosurgical team advised deferring the CT scan in favor of initiating immediate treatment.
+7. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+467,have more than mild neurodevelopmental disability prior to injury,MET,[],No decisive statement in supplied narrative,No pre-injury disability history.,"0. An 8-year-old boy fell from his bike striking his left temple on the pavement.
+1. There was no immediate loss of consciousness, and a brief examination at the scene noted his pupils were symmetrical, reactive to the light, and he was moving all four limbs.
+2. Half an hour after the fall the child became drowsy, pale, and vomited.
+3. He was transferred to the emergency department.
+4. Upon arrival the heart rate was 52/min, blood pressure of 155/98.
+5. The Glasgow Coma Scale (GCS) was 6/15, the pupils were asymmetrical and movement of the right upper and lower extremities was impaired.
+6. The neurosurgical team advised deferring the CT scan in favor of initiating immediate treatment.
+7. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+475,Incidents where the injured child was involved in a motor vehicle collision,MET,[],No decisive statement in supplied narrative,Fall from a bike does not establish whether a vehicle was involved.,"0. An 8-year-old boy fell from his bike striking his left temple on the pavement.
+1. There was no immediate loss of consciousness, and a brief examination at the scene noted his pupils were symmetrical, reactive to the light, and he was moving all four limbs.
+2. Half an hour after the fall the child became drowsy, pale, and vomited.
+3. He was transferred to the emergency department.
+4. Upon arrival the heart rate was 52/min, blood pressure of 155/98.
+5. The Glasgow Coma Scale (GCS) was 6/15, the pupils were asymmetrical and movement of the right upper and lower extremities was impaired.
+6. The neurosurgical team advised deferring the CT scan in favor of initiating immediate treatment.
+7. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+476,Incidents where the injured child was injured by another rider (e.g. injured child run over by a cyclist),MET,[],No decisive statement in supplied narrative,Fall mechanism does not establish whether another rider was involved.,"0. An 8-year-old boy fell from his bike striking his left temple on the pavement.
+1. There was no immediate loss of consciousness, and a brief examination at the scene noted his pupils were symmetrical, reactive to the light, and he was moving all four limbs.
+2. Half an hour after the fall the child became drowsy, pale, and vomited.
+3. He was transferred to the emergency department.
+4. Upon arrival the heart rate was 52/min, blood pressure of 155/98.
+5. The Glasgow Coma Scale (GCS) was 6/15, the pupils were asymmetrical and movement of the right upper and lower extremities was impaired.
+6. The neurosurgical team advised deferring the CT scan in favor of initiating immediate treatment.
+7. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+493,"Obvious severe congenital malformation such as: spina bifida, hydrocephalus or anencepahlus",MET,[],Multiple subjects; no individual index patient,Adult group vignette; no individual infant identified.,"0. A group of 14 humanitarian service workers is preparing a trip to the Amazon Rainforest region in Brazil.
+1. All the members of the group have traveled on multiple occasions and have up-to-date vaccine certificates.
+2. Malaria Chemoprophylaxis is indicated but three of the women are in different stages of pregnancy.
+3. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+494,Twins,MET,[],Multiple subjects; no individual index patient,No single pregnancy or infant identified.,"0. A group of 14 humanitarian service workers is preparing a trip to the Amazon Rainforest region in Brazil.
+1. All the members of the group have traveled on multiple occasions and have up-to-date vaccine certificates.
+2. Malaria Chemoprophylaxis is indicated but three of the women are in different stages of pregnancy.
+3. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+496,Clinical signs of cerebral asphyxia,MET,[],Multiple subjects; no individual index patient,No individual newborn assessment.,"0. A group of 14 humanitarian service workers is preparing a trip to the Amazon Rainforest region in Brazil.
+1. All the members of the group have traveled on multiple occasions and have up-to-date vaccine certificates.
+2. Malaria Chemoprophylaxis is indicated but three of the women are in different stages of pregnancy.
+3. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+497,Clinical signs of neonatal or congenital infection,MET,[],Multiple subjects; no individual index patient,No individual newborn infection assessment.,"0. A group of 14 humanitarian service workers is preparing a trip to the Amazon Rainforest region in Brazil.
+1. All the members of the group have traveled on multiple occasions and have up-to-date vaccine certificates.
+2. Malaria Chemoprophylaxis is indicated but three of the women are in different stages of pregnancy.
+3. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+498,"Mother unreliable (deaf, mentally handicapped)",MET,[],Multiple subjects; no individual index patient,No individual mother or infant. Scope of the requested maternal judgment also needs clarification.,"0. A group of 14 humanitarian service workers is preparing a trip to the Amazon Rainforest region in Brazil.
+1. All the members of the group have traveled on multiple occasions and have up-to-date vaccine certificates.
+2. Malaria Chemoprophylaxis is indicated but three of the women are in different stages of pregnancy.
+3. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+850,Exacerbation of asthma more than 2x/week which would be characteristic of a person of moderate or severe persistent asthma as outlined in the current NHLBI guidelines for diagnosis and management of asthma.,MET,"[0, 1, 3, 6]",Partial evidence; key qualifier unresolved,Prior wheezing is denied; no documented weekly exacerbation count.,"0. A 4 year old boy presents to the emergency room with wheezing.
+1. He has had a history of allergic rhinitis, but no history of wheezing.
+2. His mother reports that 5 hours ago patient was playing in the backyard sandbox when she heard him suddenly start coughing.
+3. The coughing lasted only moments, but he has been audibly wheezing since.
+4. Mother was concerned, because his breathing has not returned to normal, so she brought him to the ED.
+5. On exam, the child is playful and well appearing.
+6. Wheezing is heard in the mid-right chest area.
+7. O2 sats are 100% on room air.
+8. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+890,Cognitive impairment based on screening at time of hospital admission,MET,"[0, 1, 2, 4, 5, 6, 7, 8, 9]",Partial evidence; key qualifier unresolved,Cognitive deficits are demonstrated; exact admission-screening event is not established.,"0. An 89-year-old man was brought to the emergency department by his wife and son after six months of progressive changes in cognition and personality.
+1. He began to have poor memory, difficulty expressing himself, and exhibited unusual behaviors, such as pouring milk onto the table and undressing immediately after getting dressed.
+2. He is unable to dress, bathe, use the toilet, or walk independently.
+3. On examination the patient's temperature was 36.5C (97.7F), the heart rate 61 bpm in an irregular rhythm, the blood pressure 144/78 mm Hg, and the respiratory rate 18 bpm.
+4. The patient was alert and oriented to self and city but not year.
+5. He frequently interrupted the examiner.
+6. He repeatedly reached out to grab things in front of him, including the examiner's tie and face.
+7. He could not spell the word ""world"" backward, could not follow commands involving multiple steps and was unable to perform simple calculations.
+8. His speech was fluent, but he often used similar-sounding word substitutions.
+9. He could immediately recall three out of three words but recalled none of them after 5 minutes.
+10. Examination of the cranial nerves revealed clinically significant paratonic rigidity.
+11. Myoclonic jerks were seen in the arms, with symmetrically brisk reflexes.
+12. The reflexes in the legs were normal.
+13. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+919,Confirmed diagnosis of severe CDAD as defined above,NOT_MET,"[0, 1, 4]",Missing or ambiguous governing protocol text,Reference to severe CDAD as defined above lacks its definition. Separate clinical confirmation is also missing.,"0. A 32-year-old male presents to your office complaining of diarrhea, abdominal cramping and flatulence.
+1. Stools are greasy and foul-smelling.
+2. He also has loss of appetite and malaise.
+3. He recently returned home from a hiking trip in the mountains where he drank water from natural sources.
+4. An iodine-stained stool smear revealed ellipsoidal cysts with smooth, well-defined walls and 2+ nuclei.
+5. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+935,Thought likely to be Mycobacterium culture positive (including NTM infected for the NIH CC) by enrolling physician,NOT_MET,[3],Specific person must supply judgment or preference,Organism description is available; enrolling physician opinion on mycobacterial culture is absent.,"0. A 65-year-old male with a history of tuberculosis has started to complain of productive cough with tinges of blood.
+1. Chest X-ray reveals a round opaque mass within a cavity in his left upper lobe.
+2. The spherical mass moved in the cavity during supine and prone CT imaging.
+3. Culture of the sputum revealed an organism with septated, low-angle branching hyphae that had straight, parallel walls.
+4. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+938,Willing to provide blood samples,MET,[4],Specific person must supply judgment or preference,Willingness to comply does not specifically address blood collection.,"0. A 65-year-old male with a history of tuberculosis has started to complain of productive cough with tinges of blood.
+1. Chest X-ray reveals a round opaque mass within a cavity in his left upper lobe.
+2. The spherical mass moved in the cavity during supine and prone CT imaging.
+3. Culture of the sputum revealed an organism with septated, low-angle branching hyphae that had straight, parallel walls.
+4. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+939,Willing to have samples stored,MET,[4],Specific person must supply judgment or preference,General trial consent does not specifically address storage of samples.,"0. A 65-year-old male with a history of tuberculosis has started to complain of productive cough with tinges of blood.
+1. Chest X-ray reveals a round opaque mass within a cavity in his left upper lobe.
+2. The spherical mass moved in the cavity during supine and prone CT imaging.
+3. Culture of the sputum revealed an organism with septated, low-angle branching hyphae that had straight, parallel walls.
+4. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+940,Acute liver or kidney disease,MET,[],No decisive statement in supplied narrative,No acute hepatic or renal assessment.,"0. A 65-year-old male with a history of tuberculosis has started to complain of productive cough with tinges of blood.
+1. Chest X-ray reveals a round opaque mass within a cavity in his left upper lobe.
+2. The spherical mass moved in the cavity during supine and prone CT imaging.
+3. Culture of the sputum revealed an organism with septated, low-angle branching hyphae that had straight, parallel walls.
+4. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+945,The patient is being treated with an unlicensed investigational drug for aspergillosis.,MET,[],No decisive statement in supplied narrative,No investigational drug history.,"0. A 65-year-old male with a history of tuberculosis has started to complain of productive cough with tinges of blood.
+1. Chest X-ray reveals a round opaque mass within a cavity in his left upper lobe.
+2. The spherical mass moved in the cavity during supine and prone CT imaging.
+3. Culture of the sputum revealed an organism with septated, low-angle branching hyphae that had straight, parallel walls.
+4. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+946,"The patient has been administered an antifungal agent (voriconazole, itraconazole, posaconazole, caspofungin, micafungin, anidulafungin, amphotericin B, or lipid formulation of amphotericin B) for > 7 days immediately prior to randomization for treatment of the Probable, or Proven invasive aspergillosis for which the patient is being enrolled.",MET,[],No decisive statement in supplied narrative,"No complete drug history, duration, or randomization anchor.","0. A 65-year-old male with a history of tuberculosis has started to complain of productive cough with tinges of blood.
+1. Chest X-ray reveals a round opaque mass within a cavity in his left upper lobe.
+2. The spherical mass moved in the cavity during supine and prone CT imaging.
+3. Culture of the sputum revealed an organism with septated, low-angle branching hyphae that had straight, parallel walls.
+4. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+952,"The patient is on artificial ventilation, and unlikely to be extubated within 24 hours of study entry.",MET,[],No decisive statement in supplied narrative,No ventilation or extubation assessment.,"0. A 65-year-old male with a history of tuberculosis has started to complain of productive cough with tinges of blood.
+1. Chest X-ray reveals a round opaque mass within a cavity in his left upper lobe.
+2. The spherical mass moved in the cavity during supine and prone CT imaging.
+3. Culture of the sputum revealed an organism with septated, low-angle branching hyphae that had straight, parallel walls.
+4. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+953,"The patient has a history of allergy, hypersensitivity, or any serious reaction to the azole or echinocandin class of antifungal agents.",MET,[],No decisive statement in supplied narrative,No reconciled antifungal allergy history.,"0. A 65-year-old male with a history of tuberculosis has started to complain of productive cough with tinges of blood.
+1. Chest X-ray reveals a round opaque mass within a cavity in his left upper lobe.
+2. The spherical mass moved in the cavity during supine and prone CT imaging.
+3. Culture of the sputum revealed an organism with septated, low-angle branching hyphae that had straight, parallel walls.
+4. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+955,"The patient has a concomitant medical condition, which in the opinion of the Investigator may create an unacceptable additional risk.",MET,[],Specific person must supply judgment or preference,No attributed investigator judgment of unacceptable additional risk.,"0. A 65-year-old male with a history of tuberculosis has started to complain of productive cough with tinges of blood.
+1. Chest X-ray reveals a round opaque mass within a cavity in his left upper lobe.
+2. The spherical mass moved in the cavity during supine and prone CT imaging.
+3. Culture of the sputum revealed an organism with septated, low-angle branching hyphae that had straight, parallel walls.
+4. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+957,The patient has a life expectancy of less than seven days.,MET,[],No decisive statement in supplied narrative,No documented prognosis.,"0. A 65-year-old male with a history of tuberculosis has started to complain of productive cough with tinges of blood.
+1. Chest X-ray reveals a round opaque mass within a cavity in his left upper lobe.
+2. The spherical mass moved in the cavity during supine and prone CT imaging.
+3. Culture of the sputum revealed an organism with septated, low-angle branching hyphae that had straight, parallel walls.
+4. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+985,Chest tubes,MET,[],No decisive statement in supplied narrative,No device inventory or statement confirming absence of a chest tube.,"0. A 31 yo male with no significant past medical history presents with productive cough and chest pain.
+1. He reports developing cold symptoms one week ago that were improving until two days ago, when he developed a new fever, chills, and worsening cough.
+2. He has right-sided chest pain that is aggravated by coughing.
+3. His wife also had cold symptoms a week ago but is now feeling well.
+4. Vitals signs include temperature 103.4, pulse 105, blood pressure 120/80, and respiratory rate 15.
+5. Lung exam reveals expiratory wheezing, decreased breath sounds, and egophany in the left lower lung field.
+6. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."

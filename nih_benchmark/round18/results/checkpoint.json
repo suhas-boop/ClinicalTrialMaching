@@ -1,0 +1,39 @@
+{
+  "base_release": "PocketMD_Screening_Evidence_R17.zip",
+  "target": 10,
+  "denominator": 91,
+  "strict_agreements": 6,
+  "strict_disagreements": 0,
+  "assignments": 134,
+  "new_actual_authority_responses": 0,
+  "prediction_freeze_sha256": "e3c4196cbdd541087838746751a6b63456506065d4c9650da3e5cd23cf43e211",
+  "strict_r17_byte_equivalence": {
+    "all_pairs.csv": "fe2ed69e8c7cf1c6b4a81e1cc89bf06f64f9efa805d60d88c4b4954f599ab022",
+    "definitive_evidence.json": "991f5d2f0fbd9068f72adee1617540716482a8aaf932fb6468e21997db207c59",
+    "score.json": "5bc7ac9b42d6059df3857a87043ac605cb74b50cb2615f8a0a690ea0b3abaf3d",
+    "retrospective_source_review.json": "6e7a31a45801d5b1fe3e1c33f25db8776e66d3ef085064c033f713ee7b1e2c2d",
+    "literal_cohort_changes.json": "69959a62da45cb8710d189db39cc6ce198adc62a8256836311fe5220070bf304"
+  },
+  "already_reviewed": [
+    "The role of the NIH-generated blanket consent/compliance suffix on every assigned patient and group.",
+    "Reported adult tachypnea and tachycardia compared with numeric trial thresholds and counterexamples.",
+    "Sponsor final study report for 322, national KAWAKINRA registrations for 55, investigator thesis and linked methods for 239.",
+    "Additional organizer materials and later-research labels for the 2014/2015 vignettes, and the documented gaps in cases 219-1000."
+  ],
+  "reopen_when": [
+    "A new independently attributable record for the same vignette identifies the exact missing finding and screening time.",
+    "A governing protocol passage or verified study-authority answer resolves a specific open question.",
+    "A new evidence binding or logic error demonstrably changes a specific individual criterion on the same frozen inputs."
+  ],
+  "pending_authority": "706 remains open. No investigator contact or response has been recorded in this run.",
+  "historical_test_discrepancy": "R10 archived test_catalog_rebuild_and_frozen_rule_equivalence fails on both sealed R17 inputs and R18. Regenerating the earlier R10 pack differs from its historical frozen file. The scored runs use the verified frozen R11 catalog.",
+  "current_score_checks": {
+    "core_tests_passed": 190,
+    "r14_top_level_tests_passed": 30,
+    "r17_tests_passed": 19,
+    "r18_source_tests_passed": 4,
+    "r16_clarification_release_tests_passed": 4,
+    "default_cli_verified_against_batch": 134,
+    "original_fhir_sources_round_tripped": 53
+  }
+}

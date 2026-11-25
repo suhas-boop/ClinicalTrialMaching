@@ -1,0 +1,506 @@
+[
+  {
+    "annotation_id": 34,
+    "patient_id": "sigir-20142",
+    "trial_id": "NCT02618655",
+    "criterion_type": "exclusion",
+    "criterion_text": "fever for non-infectious diseases such as rheumatic autoimmune disease or with tumor",
+    "note": "0. An 8-year-old male presents in March to the ER with fever up to 39 C, dyspnea and cough for 2 days.\n1. He has just returned from a 5 day vacation in Colorado.\n2. Parents report that prior to the onset of fever and cough, he had loose stools.\n3. He denies upper respiratory tract symptoms.\n4. On examination he is in respiratory distress and has bronchial respiratory sounds on the left.\n5. A chest x-ray shows bilateral lung infiltrates.\n6. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 36,
+    "patient_id": "sigir-20142",
+    "trial_id": "NCT02618655",
+    "criterion_type": "exclusion",
+    "criterion_text": "patients leave with automatic discharge",
+    "note": "0. An 8-year-old male presents in March to the ER with fever up to 39 C, dyspnea and cough for 2 days.\n1. He has just returned from a 5 day vacation in Colorado.\n2. Parents report that prior to the onset of fever and cough, he had loose stools.\n3. He denies upper respiratory tract symptoms.\n4. On examination he is in respiratory distress and has bronchial respiratory sounds on the left.\n5. A chest x-ray shows bilateral lung infiltrates.\n6. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 44,
+    "patient_id": "sigir-20143",
+    "trial_id": "NCT01452971",
+    "criterion_type": "exclusion",
+    "criterion_text": "Participant is under 18 years old.",
+    "note": "0. A 58-year-old nonsmoker white female with mild exertional dyspnea and occasional cough is found to have a left lung mass on chest x-ray.\n1. She is otherwise asymptomatic.\n2. A neurologic examination is unremarkable, but a CT scan of the head shows a solitary mass in the right frontal lobe.\n3. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 45,
+    "patient_id": "sigir-20143",
+    "trial_id": "NCT01452971",
+    "criterion_type": "exclusion",
+    "criterion_text": "Participant is not a lung cancer patient.",
+    "note": "0. A 58-year-old nonsmoker white female with mild exertional dyspnea and occasional cough is found to have a left lung mass on chest x-ray.\n1. She is otherwise asymptomatic.\n2. A neurologic examination is unremarkable, but a CT scan of the head shows a solitary mass in the right frontal lobe.\n3. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 46,
+    "patient_id": "sigir-20143",
+    "trial_id": "NCT02490059",
+    "criterion_type": "inclusion",
+    "criterion_text": "Pulmonary nodule on a recent CT",
+    "note": "0. A 58-year-old nonsmoker white female with mild exertional dyspnea and occasional cough is found to have a left lung mass on chest x-ray.\n1. She is otherwise asymptomatic.\n2. A neurologic examination is unremarkable, but a CT scan of the head shows a solitary mass in the right frontal lobe.\n3. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 130,
+    "patient_id": "sigir-20147",
+    "trial_id": "NCT00845988",
+    "criterion_type": "exclusion",
+    "criterion_text": "diagnosis of eating disorder, substance abuse, and psychotic disorder",
+    "note": "0. A 26-year-old obese woman with a history of bipolar disorder complains that her recent struggles with her weight and eating have caused her to feel depressed.\n1. She states that she has recently had difficulty sleeping and feels excessively anxious and agitated.\n2. She also states that she has had thoughts of suicide.\n3. She often finds herself fidgety and unable to sit still for extended periods of time.\n4. Her family tells her that she is increasingly irritable.\n5. Her current medications include lithium carbonate and zolpidem.\n6. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 132,
+    "patient_id": "sigir-20147",
+    "trial_id": "NCT00845988",
+    "criterion_type": "exclusion",
+    "criterion_text": "pregnant or breast feeding women",
+    "note": "0. A 26-year-old obese woman with a history of bipolar disorder complains that her recent struggles with her weight and eating have caused her to feel depressed.\n1. She states that she has recently had difficulty sleeping and feels excessively anxious and agitated.\n2. She also states that she has had thoughts of suicide.\n3. She often finds herself fidgety and unable to sit still for extended periods of time.\n4. Her family tells her that she is increasingly irritable.\n5. Her current medications include lithium carbonate and zolpidem.\n6. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 138,
+    "patient_id": "sigir-20147",
+    "trial_id": "NCT01863628",
+    "criterion_type": "exclusion",
+    "criterion_text": "was/is treated with antipsychotic drugs",
+    "note": "0. A 26-year-old obese woman with a history of bipolar disorder complains that her recent struggles with her weight and eating have caused her to feel depressed.\n1. She states that she has recently had difficulty sleeping and feels excessively anxious and agitated.\n2. She also states that she has had thoughts of suicide.\n3. She often finds herself fidgety and unable to sit still for extended periods of time.\n4. Her family tells her that she is increasingly irritable.\n5. Her current medications include lithium carbonate and zolpidem.\n6. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 140,
+    "patient_id": "sigir-20147",
+    "trial_id": "NCT01863628",
+    "criterion_type": "exclusion",
+    "criterion_text": "in pregnancy and lactation",
+    "note": "0. A 26-year-old obese woman with a history of bipolar disorder complains that her recent struggles with her weight and eating have caused her to feel depressed.\n1. She states that she has recently had difficulty sleeping and feels excessively anxious and agitated.\n2. She also states that she has had thoughts of suicide.\n3. She often finds herself fidgety and unable to sit still for extended periods of time.\n4. Her family tells her that she is increasingly irritable.\n5. Her current medications include lithium carbonate and zolpidem.\n6. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 171,
+    "patient_id": "sigir-201410",
+    "trial_id": "NCT02097186",
+    "criterion_type": "exclusion",
+    "criterion_text": "Patients with severe hepatic disease defined as an international normalised ratio >2 in the absence of systemic anticoagulation",
+    "note": "0. A physician is called to see a 67-year-old woman who underwent cardiac catheterization via the right femoral artery earlier in the morning.\n1. She is now complaining of a cool right foot.\n2. Upon examination she has a pulsatile mass in her right groin with loss of distal pulses, and auscultation reveals a bruit over the point at which the right femoral artery was entered.\n3. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 174,
+    "patient_id": "sigir-201410",
+    "trial_id": "NCT02097186",
+    "criterion_type": "exclusion",
+    "criterion_text": "Patients with previous axillary surgery",
+    "note": "0. A physician is called to see a 67-year-old woman who underwent cardiac catheterization via the right femoral artery earlier in the morning.\n1. She is now complaining of a cool right foot.\n2. Upon examination she has a pulsatile mass in her right groin with loss of distal pulses, and auscultation reveals a bruit over the point at which the right femoral artery was entered.\n3. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 177,
+    "patient_id": "sigir-201410",
+    "trial_id": "NCT02264964",
+    "criterion_type": "inclusion",
+    "criterion_text": "Maintenance hemodialysis after central vena catheterization.",
+    "note": "0. A physician is called to see a 67-year-old woman who underwent cardiac catheterization via the right femoral artery earlier in the morning.\n1. She is now complaining of a cool right foot.\n2. Upon examination she has a pulsatile mass in her right groin with loss of distal pulses, and auscultation reveals a bruit over the point at which the right femoral artery was entered.\n3. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 179,
+    "patient_id": "sigir-201410",
+    "trial_id": "NCT02264964",
+    "criterion_type": "exclusion",
+    "criterion_text": "Had been performed central venous puncture or catheterization before.",
+    "note": "0. A physician is called to see a 67-year-old woman who underwent cardiac catheterization via the right femoral artery earlier in the morning.\n1. She is now complaining of a cool right foot.\n2. Upon examination she has a pulsatile mass in her right groin with loss of distal pulses, and auscultation reveals a bruit over the point at which the right femoral artery was entered.\n3. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 184,
+    "patient_id": "sigir-201410",
+    "trial_id": "NCT02264964",
+    "criterion_type": "exclusion",
+    "criterion_text": "Other inappropriate situation",
+    "note": "0. A physician is called to see a 67-year-old woman who underwent cardiac catheterization via the right femoral artery earlier in the morning.\n1. She is now complaining of a cool right foot.\n2. Upon examination she has a pulsatile mass in her right groin with loss of distal pulses, and auscultation reveals a bruit over the point at which the right femoral artery was entered.\n3. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 185,
+    "patient_id": "sigir-201411",
+    "trial_id": "NCT01526382",
+    "criterion_type": "inclusion",
+    "criterion_text": "Patients were included if they were diagnosed with Shock, Acute respiratory distress syndrome (ARDS), or both.",
+    "note": "0. A 40-year-old woman with no past medical history presents to the ER with excruciating pain in her right arm that had started 1 hour prior to her admission.\n1. She denies trauma.\n2. On examination she is pale and in moderate discomfort, as well as tachypneic and tachycardic.\n3. Her body temperature is normal and her blood pressure is 80/60.\n4. Her right arm has no discoloration or movement limitation.\n5. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 186,
+    "patient_id": "sigir-201411",
+    "trial_id": "NCT01526382",
+    "criterion_type": "inclusion",
+    "criterion_text": "Heart rate of at least 90/min;",
+    "note": "0. A 40-year-old woman with no past medical history presents to the ER with excruciating pain in her right arm that had started 1 hour prior to her admission.\n1. She denies trauma.\n2. On examination she is pale and in moderate discomfort, as well as tachypneic and tachycardic.\n3. Her body temperature is normal and her blood pressure is 80/60.\n4. Her right arm has no discoloration or movement limitation.\n5. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 187,
+    "patient_id": "sigir-201411",
+    "trial_id": "NCT01526382",
+    "criterion_type": "inclusion",
+    "criterion_text": "A respiratory rate of at least 20/min or a PaCO2 of 32mmHg or lower or the use of mechanical ventilation;",
+    "note": "0. A 40-year-old woman with no past medical history presents to the ER with excruciating pain in her right arm that had started 1 hour prior to her admission.\n1. She denies trauma.\n2. On examination she is pale and in moderate discomfort, as well as tachypneic and tachycardic.\n3. Her body temperature is normal and her blood pressure is 80/60.\n4. Her right arm has no discoloration or movement limitation.\n5. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 196,
+    "patient_id": "sigir-201411",
+    "trial_id": "NCT01723137",
+    "criterion_type": "exclusion",
+    "criterion_text": "Less than 18 years of age",
+    "note": "0. A 40-year-old woman with no past medical history presents to the ER with excruciating pain in her right arm that had started 1 hour prior to her admission.\n1. She denies trauma.\n2. On examination she is pale and in moderate discomfort, as well as tachypneic and tachycardic.\n3. Her body temperature is normal and her blood pressure is 80/60.\n4. Her right arm has no discoloration or movement limitation.\n5. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 203,
+    "patient_id": "sigir-201412",
+    "trial_id": "NCT01551498",
+    "criterion_type": "inclusion",
+    "criterion_text": "having positive antibodies against thyroid peroxidase",
+    "note": "0. A 25-year-old woman presents to the clinic complaining of prolonged fatigue.\n1. She denies difficulty sleeping and sleeps an average of 8 hours a night.\n2. She also notes hair loss, a change in her voice and weight gain during the previous 6 months.\n3. She complains of cold intolerance.\n4. On examination she has a prominent, soft, uniform anterior cervical mass at the midline.\n5. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 226,
+    "patient_id": "sigir-201414",
+    "trial_id": "NCT01624545",
+    "criterion_type": "exclusion",
+    "criterion_text": "Recurrent hematoma if the first surgery was performed before study start",
+    "note": "0. An 85-year-old man is brought to the ER because of gradual decrease in his level of consciousness.\n1. In the last 3 days he stopped walking and eating by himself.\n2. He has had no fever, cough, rash or diarrhea.\n3. His daughter recalls that he had been involved in a car accident 3 weeks prior to his admission and had a normal head CT at that time.\n4. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 227,
+    "patient_id": "sigir-201414",
+    "trial_id": "NCT01624545",
+    "criterion_type": "exclusion",
+    "criterion_text": "CSH due to spontaneous spinal CSF fistula or meningeosis carcinomatosa",
+    "note": "0. An 85-year-old man is brought to the ER because of gradual decrease in his level of consciousness.\n1. In the last 3 days he stopped walking and eating by himself.\n2. He has had no fever, cough, rash or diarrhea.\n3. His daughter recalls that he had been involved in a car accident 3 weeks prior to his admission and had a normal head CT at that time.\n4. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 230,
+    "patient_id": "sigir-201414",
+    "trial_id": "NCT01869855",
+    "criterion_type": "inclusion",
+    "criterion_text": "Patient at least 18 years of age presenting with a symptomatic chronic subdural hematoma",
+    "note": "0. An 85-year-old man is brought to the ER because of gradual decrease in his level of consciousness.\n1. In the last 3 days he stopped walking and eating by himself.\n2. He has had no fever, cough, rash or diarrhea.\n3. His daughter recalls that he had been involved in a car accident 3 weeks prior to his admission and had a normal head CT at that time.\n4. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 231,
+    "patient_id": "sigir-201414",
+    "trial_id": "NCT01869855",
+    "criterion_type": "inclusion",
+    "criterion_text": "Chronic subdural hematoma verified on cranial CT or MRI",
+    "note": "0. An 85-year-old man is brought to the ER because of gradual decrease in his level of consciousness.\n1. In the last 3 days he stopped walking and eating by himself.\n2. He has had no fever, cough, rash or diarrhea.\n3. His daughter recalls that he had been involved in a car accident 3 weeks prior to his admission and had a normal head CT at that time.\n4. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 232,
+    "patient_id": "sigir-201414",
+    "trial_id": "NCT01869855",
+    "criterion_type": "exclusion",
+    "criterion_text": "The surgeon decides based on intraoperative conditions to perform a craniotomy (e.g. acute hematoma indicating a craniotomy)",
+    "note": "0. An 85-year-old man is brought to the ER because of gradual decrease in his level of consciousness.\n1. In the last 3 days he stopped walking and eating by himself.\n2. He has had no fever, cough, rash or diarrhea.\n3. His daughter recalls that he had been involved in a car accident 3 weeks prior to his admission and had a normal head CT at that time.\n4. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 233,
+    "patient_id": "sigir-201414",
+    "trial_id": "NCT01869855",
+    "criterion_type": "exclusion",
+    "criterion_text": "Chronic subdural hematoma caused by another underlying illness (e.g. caused by over-drainage of a vp-shunt)",
+    "note": "0. An 85-year-old man is brought to the ER because of gradual decrease in his level of consciousness.\n1. In the last 3 days he stopped walking and eating by himself.\n2. He has had no fever, cough, rash or diarrhea.\n3. His daughter recalls that he had been involved in a car accident 3 weeks prior to his admission and had a normal head CT at that time.\n4. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 307,
+    "patient_id": "sigir-201417",
+    "trial_id": "NCT01745731",
+    "criterion_type": "inclusion",
+    "criterion_text": "Patient selection should be cautious, covering basically 5 types of liver damage which must be submitted prior to liver volumetry: Metastatic Disease subsidiary right hepatectomy extended to segment IV Metastatic Disease subsidiary right hepatectomy with suspected diseased liver (neoadjuvant chemotherapy) (in cases of doubt may be used liver function test indocyanine green) Bilobar liver metastases with multiple nodules in the right lobe and more than 3 nodules greater than 30 mm in the left hepatic lobe (LHI) will perform lumpectomies the LHI + right portal branch ligation (or postoperative percutaneous embolization) in order to make right hepatectomy 4-6 weeks (two stage surgery) Subsidiary Hepatocarcinoma extended right hepatectomy Liver Injury benign / malignant (Hemangiomas, hydatid cysts or liver tumors / primary bile hepatoblastoma), which by extension threatens the viability of the remaining liver tissue.",
+    "note": "0. A 48-year-old white male with history of common variable immunodeficiency (CVID) with acute abdominal pain, fever, dehydration, HR of 132 bpm, BP 80/40.\n1. The physical examination is remarkable for tenderness and positive Murphy sign.\n2. Abdominal ultrasound shows hepatomegaly and abundant free intraperitoneal fluid.\n3. Exploratory laparotomy reveals a ruptured liver abscess, which is then surgically drained.\n4. After surgery, the patient is taken to the ICU.\n5. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 322,
+    "patient_id": "sigir-201417",
+    "trial_id": "NCT01745731",
+    "criterion_type": "exclusion",
+    "criterion_text": "Pregnant women or women of childbearing age who do not have adequate contraception.",
+    "note": "0. A 48-year-old white male with history of common variable immunodeficiency (CVID) with acute abdominal pain, fever, dehydration, HR of 132 bpm, BP 80/40.\n1. The physical examination is remarkable for tenderness and positive Murphy sign.\n2. Abdominal ultrasound shows hepatomegaly and abundant free intraperitoneal fluid.\n3. Exploratory laparotomy reveals a ruptured liver abscess, which is then surgically drained.\n4. After surgery, the patient is taken to the ICU.\n5. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 323,
+    "patient_id": "sigir-201417",
+    "trial_id": "NCT02556359",
+    "criterion_type": "inclusion",
+    "criterion_text": "Immune Deficiency and early BMF in childhood",
+    "note": "0. A 48-year-old white male with history of common variable immunodeficiency (CVID) with acute abdominal pain, fever, dehydration, HR of 132 bpm, BP 80/40.\n1. The physical examination is remarkable for tenderness and positive Murphy sign.\n2. Abdominal ultrasound shows hepatomegaly and abundant free intraperitoneal fluid.\n3. Exploratory laparotomy reveals a ruptured liver abscess, which is then surgically drained.\n4. After surgery, the patient is taken to the ICU.\n5. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 359,
+    "patient_id": "sigir-201419",
+    "trial_id": "NCT02509286",
+    "criterion_type": "exclusion",
+    "criterion_text": "Gastric carcinoma",
+    "note": "0. A 52-year-old African American man with a history of heavy smoking and drinking, describes progressive dysphagia that began several months ago.\n1. He first noticed difficulty swallowing meat.\n2. His trouble swallowing then progressed to include other solid foods, soft foods, and then liquids.\n3. He is able to locate the point where food is obstructed at the lower end of his sternum.\n4. He has lost a total of 25 pounds.\n5. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 435,
+    "patient_id": "sigir-201423",
+    "trial_id": "NCT02219360",
+    "criterion_type": "exclusion",
+    "criterion_text": "Chest CT shows lung cancer, active pulmonary tuberculosis, pulmonary thromboembolism or interstitial lung diseases",
+    "note": "0. A 63-year-old man presents with cough and shortness of breath.\n1. His past medical history is notable for heavy smoking, spinal stenosis, diabetes, hypothyroidism and mild psoriasis.\n2. He also has a family history of early onset dementia.\n3. His symptoms began about a week prior to his admission, with productive cough, purulent sputum and difficulty breathing, requiring him to use his home oxygen for the past 24 hours.\n4. He denies fever.\n5. On examination he is cyanotic, tachypneic, with a barrel shaped chest and diffuse rales over his lungs.\n6. A chest x-ray is notable for hyperinflation with no consolidation.\n7. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 437,
+    "patient_id": "sigir-201423",
+    "trial_id": "NCT00170222",
+    "criterion_type": "inclusion",
+    "criterion_text": "Acute exacerbation of COPD type I or II according to GOLD",
+    "note": "0. A 63-year-old man presents with cough and shortness of breath.\n1. His past medical history is notable for heavy smoking, spinal stenosis, diabetes, hypothyroidism and mild psoriasis.\n2. He also has a family history of early onset dementia.\n3. His symptoms began about a week prior to his admission, with productive cough, purulent sputum and difficulty breathing, requiring him to use his home oxygen for the past 24 hours.\n4. He denies fever.\n5. On examination he is cyanotic, tachypneic, with a barrel shaped chest and diffuse rales over his lungs.\n6. A chest x-ray is notable for hyperinflation with no consolidation.\n7. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 454,
+    "patient_id": "sigir-201424",
+    "trial_id": "NCT02229695",
+    "criterion_type": "inclusion",
+    "criterion_text": "Adults male or female over 18 year old undergoing emergency laparotomy.",
+    "note": "0. A 33-year-old male athlete presented to the ER with acute abdominal pain.\n1. Family member says the patient fell off his bike a week earlier and suffered blunt trauma to the left hemi-abdomen, and he has had mild abdominal pain since that day.\n2. The patient's history is negative for smoking, drugs, and alcohol.\n3. BP: 60/30 mmHg, HR: 140/min.\n4. The patient is pale, the physical examination of the abdomen revealed muscle contraction and resistance.\n5. Emergency ultrasound and CT scan of the abdomen reveal extended intraperitoneal hemorrhage due to spleen rupture.\n6. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 502,
+    "patient_id": "sigir-201427",
+    "trial_id": "NCT01187901",
+    "criterion_type": "inclusion",
+    "criterion_text": "WHO performance status \u22641",
+    "note": "0. A 21-year-old college student undergoes colonoscopy due to family history of multiple polyps in his older siblings.\n1. His brother underwent total proctocolectomy at age 22, and his sister underwent a total proctocolectomy at age 28, after both were found to have hundreds of colonic adenomas on colonoscopy.\n2. Both siblings are currently well without any findings of neoplasms.\n3. The patient undergoes sigmoidoscopy and is found to have dozens of small colonic polyps within rectosigmoid.\n4. Several of these are biopsied and are all benign adenomas.\n5. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 517,
+    "patient_id": "sigir-201427",
+    "trial_id": "NCT01713881",
+    "criterion_type": "exclusion",
+    "criterion_text": "Less than 18 years old",
+    "note": "0. A 21-year-old college student undergoes colonoscopy due to family history of multiple polyps in his older siblings.\n1. His brother underwent total proctocolectomy at age 22, and his sister underwent a total proctocolectomy at age 28, after both were found to have hundreds of colonic adenomas on colonoscopy.\n2. Both siblings are currently well without any findings of neoplasms.\n3. The patient undergoes sigmoidoscopy and is found to have dozens of small colonic polyps within rectosigmoid.\n4. Several of these are biopsied and are all benign adenomas.\n5. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 544,
+    "patient_id": "sigir-201430",
+    "trial_id": "NCT02273232",
+    "criterion_type": "exclusion",
+    "criterion_text": "Severe cardiac condition",
+    "note": "0. A 72-year-old man complains of increasing calf pain when walking uphill.\n1. The symptoms have gradually increased over the past 3 months.\n2. The patient had an uncomplicated myocardial infarction 2 years earlier and a transient ischemic attack 6 months ago.\n3. Over the past month, his blood pressure has worsened despite previous control with diltiazem, hydrochlorothiazide, and propranolol.\n4. His is currently taking isosorbide dinitrate, hydrochlorothiazide, and aspirin.\n5. On physical examination, his blood pressure is 151/91 mm Hg, and his pulse is 67/min.\n6. There is a right carotid bruit.\n7. His lower extremities are slightly cool to the touch and have diminished pulses at the dorsalis pedis.\n8. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 621,
+    "patient_id": "sigir-20153",
+    "trial_id": "NCT01326507",
+    "criterion_type": "exclusion",
+    "criterion_text": "patient without social insurance",
+    "note": "0. A 65 yo male with no significant history of cardiovascular disease presents to the emergency room with acute onset of shortness of breath, tachypnea, and left-sided chest pain that worsens with inspiration.\n1. Of note, he underwent a right total hip replacement two weeks prior to presentation and  was unable to begin physical therapy and rehabilitation for several days following the surgery due to poor pain management.\n2. Relevant physical exam findings include a respiratory rate of 35 and right calf pain.\n3. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 632,
+    "patient_id": "sigir-20153",
+    "trial_id": "NCT01139632",
+    "criterion_type": "exclusion",
+    "criterion_text": "Inability to write inform consent.",
+    "note": "0. A 65 yo male with no significant history of cardiovascular disease presents to the emergency room with acute onset of shortness of breath, tachypnea, and left-sided chest pain that worsens with inspiration.\n1. Of note, he underwent a right total hip replacement two weeks prior to presentation and  was unable to begin physical therapy and rehabilitation for several days following the surgery due to poor pain management.\n2. Relevant physical exam findings include a respiratory rate of 35 and right calf pain.\n3. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 633,
+    "patient_id": "sigir-20153",
+    "trial_id": "NCT01139632",
+    "criterion_type": "exclusion",
+    "criterion_text": "Age <18 years.",
+    "note": "0. A 65 yo male with no significant history of cardiovascular disease presents to the emergency room with acute onset of shortness of breath, tachypnea, and left-sided chest pain that worsens with inspiration.\n1. Of note, he underwent a right total hip replacement two weeks prior to presentation and  was unable to begin physical therapy and rehabilitation for several days following the surgery due to poor pain management.\n2. Relevant physical exam findings include a respiratory rate of 35 and right calf pain.\n3. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 636,
+    "patient_id": "sigir-20154",
+    "trial_id": "NCT01243255",
+    "criterion_type": "inclusion",
+    "criterion_text": "Lipid lowering drug treatment lasting at least 3 months",
+    "note": "0. An 82-year-old woman comes to the emergency department because of chest pain and shortness of breath after being awakened in the morning by stabbing substernal chest pain radiating to the left shoulder and jaw.\n1. The patient had hypertension, renal-artery stenosis with chronic renal insufficiency, hypercholesterolemia, osteoporosis and dementia.\n2. Blood pressure was 199/108 mm Hg, respiratory rate 18 bpm, oxygen saturation 98% on ambient air.\n3. The heart sounds were rapid and with no murmurs.\n4. CK-MB was 10.9 ng/ml, CK was 89 U/l, CK index was 12.2% and Troponin T was 0.40 ng/ml.\n5. An EKG showed sinus regular tachycardia of 119 bpm, with ST-segment elevations up to 3 mm in V1, V2, and V3.\n6. A chest radiograph showed low lung volumes and right basilar subsegmental atelectasis.\n7. Coronary angiography showed no stenosis or clinically significant disease.\n8. Left ventriculography revealed akinesis of the anterior wall, hypokinesis of the apical and distal inferior walls, and compensatory hyperkinesis of the basal anterior and basal inferior walls.\n9. A transthoracic echocardiogram showed severe segmental left ventricular dysfunction involving the septum, anteroseptal territory, and apex.\n10. The overall left ventricular systolic function was mildly impaired and there was mild mitral regurgitation.\n11. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 637,
+    "patient_id": "sigir-20154",
+    "trial_id": "NCT01243255",
+    "criterion_type": "inclusion",
+    "criterion_text": "No lipid lowering drug/dose change for a minimum 6 weeks prior to enrolment to the study",
+    "note": "0. An 82-year-old woman comes to the emergency department because of chest pain and shortness of breath after being awakened in the morning by stabbing substernal chest pain radiating to the left shoulder and jaw.\n1. The patient had hypertension, renal-artery stenosis with chronic renal insufficiency, hypercholesterolemia, osteoporosis and dementia.\n2. Blood pressure was 199/108 mm Hg, respiratory rate 18 bpm, oxygen saturation 98% on ambient air.\n3. The heart sounds were rapid and with no murmurs.\n4. CK-MB was 10.9 ng/ml, CK was 89 U/l, CK index was 12.2% and Troponin T was 0.40 ng/ml.\n5. An EKG showed sinus regular tachycardia of 119 bpm, with ST-segment elevations up to 3 mm in V1, V2, and V3.\n6. A chest radiograph showed low lung volumes and right basilar subsegmental atelectasis.\n7. Coronary angiography showed no stenosis or clinically significant disease.\n8. Left ventriculography revealed akinesis of the anterior wall, hypokinesis of the apical and distal inferior walls, and compensatory hyperkinesis of the basal anterior and basal inferior walls.\n9. A transthoracic echocardiogram showed severe segmental left ventricular dysfunction involving the septum, anteroseptal territory, and apex.\n10. The overall left ventricular systolic function was mildly impaired and there was mild mitral regurgitation.\n11. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 640,
+    "patient_id": "sigir-20154",
+    "trial_id": "NCT00844987",
+    "criterion_type": "inclusion",
+    "criterion_text": "typical chest pain",
+    "note": "0. An 82-year-old woman comes to the emergency department because of chest pain and shortness of breath after being awakened in the morning by stabbing substernal chest pain radiating to the left shoulder and jaw.\n1. The patient had hypertension, renal-artery stenosis with chronic renal insufficiency, hypercholesterolemia, osteoporosis and dementia.\n2. Blood pressure was 199/108 mm Hg, respiratory rate 18 bpm, oxygen saturation 98% on ambient air.\n3. The heart sounds were rapid and with no murmurs.\n4. CK-MB was 10.9 ng/ml, CK was 89 U/l, CK index was 12.2% and Troponin T was 0.40 ng/ml.\n5. An EKG showed sinus regular tachycardia of 119 bpm, with ST-segment elevations up to 3 mm in V1, V2, and V3.\n6. A chest radiograph showed low lung volumes and right basilar subsegmental atelectasis.\n7. Coronary angiography showed no stenosis or clinically significant disease.\n8. Left ventriculography revealed akinesis of the anterior wall, hypokinesis of the apical and distal inferior walls, and compensatory hyperkinesis of the basal anterior and basal inferior walls.\n9. A transthoracic echocardiogram showed severe segmental left ventricular dysfunction involving the septum, anteroseptal territory, and apex.\n10. The overall left ventricular systolic function was mildly impaired and there was mild mitral regurgitation.\n11. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 653,
+    "patient_id": "sigir-20156",
+    "trial_id": "NCT02375451",
+    "criterion_type": "exclusion",
+    "criterion_text": "Non-English speaking subjects will be excluded due to our lack of translation support resources at this time. Of note, participation in our study cannot benefit participants in any way.",
+    "note": "0. A 46-year-old woman presents  with a 9 month history of weight loss (20 lb), sweating, insomnia and diarrhea.\n1. She reports to have been eating more than normal and that her heart sometimes races for no reason.\n2. On physical examination her hands are warm and sweaty, her pulse is irregular at 110bpm and there is hyperreflexia and mild exophthalmia.\n3. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 671,
+    "patient_id": "sigir-20157",
+    "trial_id": "NCT02633449",
+    "criterion_type": "inclusion",
+    "criterion_text": "unipolar major depressive disorder",
+    "note": "0. A 20 yo female college student with no significant past medical history presents with a chief complaint of fatigue.\n1. She reports increased sleep and appetite over the past few months as well as difficulty concentrating on her schoolwork.\n2. She no longer enjoys spending time with her friends and feels guilty for not spending more time with her family.\n3. Her physical exam and laboratory tests, including hemoglobin, hematocrit and thyroid stimulating hormone, are within normal limits.\n4. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 706,
+    "patient_id": "sigir-201510",
+    "trial_id": "NCT02340533",
+    "criterion_type": "inclusion",
+    "criterion_text": "females complaining of pelvic congestion: dysmenorrhea, dyspareunia, chronic pelvic pain, menorrhagia, metrorrhagia",
+    "note": "0. A 38 year old woman complains of severe premenstrual and menstrual pelvic pain, heavy, irregular periods and occasional spotting between periods.\n1. Past medical history remarkable for  two years of infertility treatment and an ectopic pregnancy at age 26.\n2. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 720,
+    "patient_id": "sigir-201510",
+    "trial_id": "NCT01377519",
+    "criterion_type": "exclusion",
+    "criterion_text": "Unexplained menstrual irregularity",
+    "note": "0. A 38 year old woman complains of severe premenstrual and menstrual pelvic pain, heavy, irregular periods and occasional spotting between periods.\n1. Past medical history remarkable for  two years of infertility treatment and an ectopic pregnancy at age 26.\n2. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 722,
+    "patient_id": "sigir-201511",
+    "trial_id": "NCT01862510",
+    "criterion_type": "exclusion",
+    "criterion_text": "Surgical resection of thyroid tissue",
+    "note": "0. A 56-year old Caucasian female complains of being markedly more sensitive to the cold than most people.\n1. She also gets tired easily, has decreased appetite, and has recently tried home remedies for her constipation.\n2. Physical examination reveals hyporeflexia with delayed relaxation of knee and ankle reflexes, and very dry skin.\n3. She moves and talks slowly.\n4. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 723,
+    "patient_id": "sigir-201511",
+    "trial_id": "NCT01862510",
+    "criterion_type": "exclusion",
+    "criterion_text": "neck irradiation",
+    "note": "0. A 56-year old Caucasian female complains of being markedly more sensitive to the cold than most people.\n1. She also gets tired easily, has decreased appetite, and has recently tried home remedies for her constipation.\n2. Physical examination reveals hyporeflexia with delayed relaxation of knee and ankle reflexes, and very dry skin.\n3. She moves and talks slowly.\n4. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 724,
+    "patient_id": "sigir-201511",
+    "trial_id": "NCT01862510",
+    "criterion_type": "exclusion",
+    "criterion_text": "radioactive iodine therapy",
+    "note": "0. A 56-year old Caucasian female complains of being markedly more sensitive to the cold than most people.\n1. She also gets tired easily, has decreased appetite, and has recently tried home remedies for her constipation.\n2. Physical examination reveals hyporeflexia with delayed relaxation of knee and ankle reflexes, and very dry skin.\n3. She moves and talks slowly.\n4. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 725,
+    "patient_id": "sigir-201511",
+    "trial_id": "NCT01862510",
+    "criterion_type": "exclusion",
+    "criterion_text": "prior medical treatment with lithium, methimazole, propylthiouracil, ethionamide, amiodarone, or sunitinib",
+    "note": "0. A 56-year old Caucasian female complains of being markedly more sensitive to the cold than most people.\n1. She also gets tired easily, has decreased appetite, and has recently tried home remedies for her constipation.\n2. Physical examination reveals hyporeflexia with delayed relaxation of knee and ankle reflexes, and very dry skin.\n3. She moves and talks slowly.\n4. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 726,
+    "patient_id": "sigir-201511",
+    "trial_id": "NCT01862510",
+    "criterion_type": "exclusion",
+    "criterion_text": "prior serologic testing for celiac disease",
+    "note": "0. A 56-year old Caucasian female complains of being markedly more sensitive to the cold than most people.\n1. She also gets tired easily, has decreased appetite, and has recently tried home remedies for her constipation.\n2. Physical examination reveals hyporeflexia with delayed relaxation of knee and ankle reflexes, and very dry skin.\n3. She moves and talks slowly.\n4. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 734,
+    "patient_id": "sigir-201512",
+    "trial_id": "NCT02467309",
+    "criterion_type": "exclusion",
+    "criterion_text": "Congenital immunodeficiency patients",
+    "note": "0. A 44-year-old man was recently in an automobile accident where he sustained a skull fracture.\n1. In the emergency room, he noted clear fluid dripping from his nose.\n2. The following day he started complaining of severe headache and fever.\n3. Nuchal rigidity was found on physical examination.\n4. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 735,
+    "patient_id": "sigir-201512",
+    "trial_id": "NCT02467309",
+    "criterion_type": "exclusion",
+    "criterion_text": "HIV patients",
+    "note": "0. A 44-year-old man was recently in an automobile accident where he sustained a skull fracture.\n1. In the emergency room, he noted clear fluid dripping from his nose.\n2. The following day he started complaining of severe headache and fever.\n3. Nuchal rigidity was found on physical examination.\n4. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 736,
+    "patient_id": "sigir-201512",
+    "trial_id": "NCT02467309",
+    "criterion_type": "exclusion",
+    "criterion_text": "Patients with corticosteroid treatment for long time",
+    "note": "0. A 44-year-old man was recently in an automobile accident where he sustained a skull fracture.\n1. In the emergency room, he noted clear fluid dripping from his nose.\n2. The following day he started complaining of severe headache and fever.\n3. Nuchal rigidity was found on physical examination.\n4. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 737,
+    "patient_id": "sigir-201512",
+    "trial_id": "NCT02467309",
+    "criterion_type": "exclusion",
+    "criterion_text": "Patients with disorders in adrenal gland and pituitary gland and hypothalamus",
+    "note": "0. A 44-year-old man was recently in an automobile accident where he sustained a skull fracture.\n1. In the emergency room, he noted clear fluid dripping from his nose.\n2. The following day he started complaining of severe headache and fever.\n3. Nuchal rigidity was found on physical examination.\n4. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 738,
+    "patient_id": "sigir-201512",
+    "trial_id": "NCT02467309",
+    "criterion_type": "exclusion",
+    "criterion_text": "Patients with tuberculosis",
+    "note": "0. A 44-year-old man was recently in an automobile accident where he sustained a skull fracture.\n1. In the emergency room, he noted clear fluid dripping from his nose.\n2. The following day he started complaining of severe headache and fever.\n3. Nuchal rigidity was found on physical examination.\n4. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 817,
+    "patient_id": "sigir-201515",
+    "trial_id": "NCT01550588",
+    "criterion_type": "exclusion",
+    "criterion_text": "Subjects who have a non-vascular origin of the neurological symptoms after brain imaging (CT scan or MRI)",
+    "note": "0. Karen is a 72-year-old woman with hypertension and type 2 diabetes, who was hospitalized for cryptogenic stroke two weeks ago.\n1. At the time, computed tomography was negative for brain hemorrhage and she was given thrombolytic therapy with resolution of her symptoms.\n2. Transesophageal echocardiogram and magnetic resonance angiogram of brain and great vessels found no evidence of abnormalities.\n3. She presents currently with a blood pressure of 120/70 mm Hg, normal glucose, and normal sinus rhythm on a 12-lead electrocardiogram.\n4. She reports history of occasional palpitations, shortness of breath and chest pain lasting for a few minutes and then stopping on their own.\n5. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 860,
+    "patient_id": "sigir-201517",
+    "trial_id": "NCT01231945",
+    "criterion_type": "exclusion",
+    "criterion_text": "are not married AND report never having had sexual intercourse",
+    "note": "0. A 32 year old female with no previous medical history presents to clinic to discuss lab results from her most recent pap smear.\n1. She reports no complaints and is in general good health.\n2. The results of her PAP were cytology negative, HPV positive.\n3. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 866,
+    "patient_id": "sigir-201517",
+    "trial_id": "NCT01446198",
+    "criterion_type": "inclusion",
+    "criterion_text": "the sample had an aliquot with a valid positive or negative APTIMA HPV Assay TIGRIS System result (from testing under protocol 2007HPVASCUS30)",
+    "note": "0. A 32 year old female with no previous medical history presents to clinic to discuss lab results from her most recent pap smear.\n1. She reports no complaints and is in general good health.\n2. The results of her PAP were cytology negative, HPV positive.\n3. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 867,
+    "patient_id": "sigir-201517",
+    "trial_id": "NCT01446198",
+    "criterion_type": "inclusion",
+    "criterion_text": "an aliquot is available and suitable for testing",
+    "note": "0. A 32 year old female with no previous medical history presents to clinic to discuss lab results from her most recent pap smear.\n1. She reports no complaints and is in general good health.\n2. The results of her PAP were cytology negative, HPV positive.\n3. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 870,
+    "patient_id": "sigir-201518",
+    "trial_id": "NCT00344513",
+    "criterion_type": "inclusion",
+    "criterion_text": "Hospitalized for episode of worsening heart failure as primary cause of admission or significant heart failure symptoms that develop during the hospitalization when the initial reason for admission was not heart failure.",
+    "note": "0. A 65 yo African-American male with shortness of breath related to exertion that has been worsening over the past three weeks.\n1. He also has difficulty breathing when lying flat and has started using two to three extra pillows at night.\n2. Significant physical exam findings include bibasilar lung crackles, pitting ankle edema and jugular venous distension.\n3. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 875,
+    "patient_id": "sigir-201518",
+    "trial_id": "NCT00534066",
+    "criterion_type": "inclusion",
+    "criterion_text": "admission to the hospital or transfer to the Observation Unit",
+    "note": "0. A 65 yo African-American male with shortness of breath related to exertion that has been worsening over the past three weeks.\n1. He also has difficulty breathing when lying flat and has started using two to three extra pillows at night.\n2. Significant physical exam findings include bibasilar lung crackles, pitting ankle edema and jugular venous distension.\n3. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 962,
+    "patient_id": "sigir-201523",
+    "trial_id": "NCT00084240",
+    "criterion_type": "exclusion",
+    "criterion_text": "Severe or complicated malaria including subjects with any of the following: a.) Impaired consciousness, seizures or abnormal neurologic exam b.) Jaundice c.) Respiratory distress d.) Persistent vomiting e.) Hematuria, as reported by the patient f.) Parasite density > 100,000 parasites/mL g.) Presence of non-falciparum species on microscopy",
+    "note": "0. An 18-year-old male returning from a recent vacation in Asia presents to the ER with a sudden onset of high fever, chills, facial flushing, epistaxis and severe headache and joint pain.\n1. His complete blood count reveals leukopenia, increased hematocrit concentration and thrombocytopenia.\n2. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "annotation_id": 965,
+    "patient_id": "sigir-201523",
+    "trial_id": "NCT00084240",
+    "criterion_type": "exclusion",
+    "criterion_text": "Known history of blood dyscrasias (e.g., megaloblastic anemia, agranulocytosis, aplastic anemia, thrombocytopenia, leukopenia, neutropenia, hemolytic anemia)",
+    "note": "0. An 18-year-old male returning from a recent vacation in Asia presents to the ER with a sudden onset of high fever, chills, facial flushing, epistaxis and severe headache and joint pain.\n1. His complete blood count reveals leukopenia, increased hematocrit concentration and thrombocytopenia.\n2. The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  }
+]

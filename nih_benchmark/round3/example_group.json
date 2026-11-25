@@ -1,0 +1,171 @@
+{
+  "patient": "sigir-201426",
+  "note": "0. A group of 14 humanitarian service workers is preparing a trip to the Amazon Rainforest region in Brazil.\n1. All the members of the group have traveled on multiple occasions and have up-to-date vaccine certificates.\n2. Malaria Chemoprophylaxis is indicated but three of the women are in different stages of pregnancy.\n3. The patient will provide informed consent, and will comply with the trial protocol without any practical issues.",
+  "criteria": [
+    {
+      "study": "NCT00373048",
+      "id": "481",
+      "rule": {
+        "expression": {
+          "fact": "permanent_resident_luanshya"
+        },
+        "facts": {
+          "permanent_resident_luanshya": {
+            "kind": "bool",
+            "label": "permanent_resident_luanshya",
+            "role": "record",
+            "scope": "permanent resident luanshya"
+          }
+        }
+      },
+      "criterion_text": "Permanent residents of the Luanshya district"
+    },
+    {
+      "study": "NCT00497471",
+      "id": "492",
+      "rule": {
+        "expression": {
+          "fact": "born_san_francis_designated_district_hospital_ifakara"
+        },
+        "facts": {
+          "born_san_francis_designated_district_hospital_ifakara": {
+            "kind": "bool",
+            "label": "born_san_francis_designated_district_hospital_ifakara",
+            "role": "record",
+            "scope": "born san francis designated district hospital ifakara"
+          }
+        }
+      },
+      "criterion_text": "Born in San Francis Designated District Hospital of Ifakara"
+    },
+    {
+      "study": "NCT00497471",
+      "id": "493",
+      "rule": {
+        "expression": {
+          "not": {
+            "fact": "obvious_severe_congenital_malformation"
+          }
+        },
+        "facts": {
+          "obvious_severe_congenital_malformation": {
+            "kind": "bool",
+            "label": "obvious_severe_congenital_malformation",
+            "role": "record",
+            "scope": "obvious severe congenital malformation"
+          }
+        }
+      },
+      "criterion_text": "Obvious severe congenital malformation such as: spina bifida, hydrocephalus or anencepahlus"
+    },
+    {
+      "study": "NCT00497471",
+      "id": "494",
+      "rule": {
+        "expression": {
+          "not": {
+            "fact": "twin_birth"
+          }
+        },
+        "facts": {
+          "twin_birth": {
+            "kind": "bool",
+            "label": "twin_birth",
+            "role": "record",
+            "scope": "twin birth"
+          }
+        }
+      },
+      "criterion_text": "Twins"
+    },
+    {
+      "study": "NCT00497471",
+      "id": "495",
+      "rule": {
+        "expression": {
+          "not": {
+            "fact": "birth_weight_kg",
+            "op": "lt",
+            "value": 1.5
+          }
+        },
+        "facts": {
+          "birth_weight_kg": {
+            "kind": "number",
+            "label": "birth_weight_kg",
+            "role": "record",
+            "scope": "birth weight kg",
+            "unit": "kg"
+          }
+        }
+      },
+      "criterion_text": "Birth weight < 1,5 kg"
+    },
+    {
+      "study": "NCT00497471",
+      "id": "496",
+      "rule": {
+        "expression": {
+          "not": {
+            "fact": "clinical_signs_of_cerebral_asphyxia"
+          }
+        },
+        "facts": {
+          "clinical_signs_of_cerebral_asphyxia": {
+            "kind": "bool",
+            "label": "clinical_signs_of_cerebral_asphyxia",
+            "role": "record",
+            "scope": "clinical signs of cerebral asphyxia"
+          }
+        }
+      },
+      "criterion_text": "Clinical signs of cerebral asphyxia"
+    },
+    {
+      "study": "NCT00497471",
+      "id": "497",
+      "rule": {
+        "expression": {
+          "not": {
+            "any": [
+              {
+                "fact": "clinical_signs_neonatal_infection"
+              },
+              {
+                "fact": "clinical_signs_congenital_infection"
+              }
+            ]
+          }
+        },
+        "facts": {
+          "clinical_signs_congenital_infection": {
+            "kind": "bool",
+            "label": "clinical_signs_congenital_infection",
+            "role": "record",
+            "scope": "clinical signs congenital infection"
+          },
+          "clinical_signs_neonatal_infection": {
+            "kind": "bool",
+            "label": "clinical_signs_neonatal_infection",
+            "role": "record",
+            "scope": "clinical signs neonatal infection"
+          }
+        }
+      },
+      "criterion_text": "Clinical signs of neonatal or congenital infection"
+    },
+    {
+      "study": "NCT00497471",
+      "id": "498",
+      "rule": {
+        "expression": {
+          "not": {
+            "hold": "Clarify the intended maternal assessment and who determines it."
+          }
+        },
+        "facts": {}
+      },
+      "criterion_text": "Mother unreliable (deaf, mentally handicapped)"
+    }
+  ]
+}

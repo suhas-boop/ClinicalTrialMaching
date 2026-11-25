@@ -1,0 +1,10 @@
+{
+  "observations": 124,
+  "reports": 79,
+  "reports_with_result_links": 48,
+  "reports_with_presented_form": 31,
+  "observations_declaring_screening_profile": 0,
+  "reference_checks": {
+    "linked_same_subject": 121
+  }
+}

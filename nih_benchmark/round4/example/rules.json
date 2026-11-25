@@ -1,0 +1,45 @@
+{
+  "115": {
+    "expression": {
+      "not": {
+        "any": [
+          {
+            "fact": "cutaneous_ulcer_due_to_leishmania"
+          },
+          {
+            "fact": "cutaneous_ulcer_due_to_insect_bite"
+          }
+        ]
+      }
+    },
+    "facts": {
+      "cutaneous_ulcer_due_to_insect_bite": {
+        "kind": "bool",
+        "label": "cutaneous_ulcer_due_to_insect_bite",
+        "role": "record",
+        "scope": "cutaneous ulcer due to insect bite"
+      },
+      "cutaneous_ulcer_due_to_leishmania": {
+        "kind": "bool",
+        "label": "cutaneous_ulcer_due_to_leishmania",
+        "role": "record",
+        "scope": "cutaneous ulcer due to leishmania"
+      }
+    }
+  },
+  "116": {
+    "expression": {
+      "not": {
+        "fact": "cutaneous_ulcer_due_to_burns"
+      }
+    },
+    "facts": {
+      "cutaneous_ulcer_due_to_burns": {
+        "kind": "bool",
+        "label": "cutaneous_ulcer_due_to_burns",
+        "role": "record",
+        "scope": "cutaneous ulcer due to burns"
+      }
+    }
+  }
+}

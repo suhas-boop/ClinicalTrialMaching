@@ -1,0 +1,287 @@
+{
+  "reproduced_simulated_outcomes": [
+    {
+      "operator": "ANY",
+      "requirement": "symptoms_suffice",
+      "state": "MET",
+      "source_sha256": "3063f3a37fe14e1c9fc7388b6f384f234f989cf0a5282294b72aa98f1ca4542d",
+      "facts": {
+        "female_description": {
+          "label": "female_description",
+          "value": true,
+          "state": "AVAILABLE",
+          "evidence": [
+            "DocumentReference/sigir-201510-note#sha256=3063f3a37fe14e1c9fc7388b6f384f234f989cf0a5282294b72aa98f1ca4542d&line=0&start=17&end=22"
+          ],
+          "contract": "f-706fb25cbc7e6a8db0b8ff5c"
+        },
+        "dysmenorrhea": {
+          "label": "dysmenorrhea",
+          "value": true,
+          "state": "AVAILABLE",
+          "evidence": [
+            "DocumentReference/sigir-201510-note#sha256=3063f3a37fe14e1c9fc7388b6f384f234f989cf0a5282294b72aa98f1ca4542d&line=0&start=36&end=81"
+          ],
+          "contract": "f-bcf45a60e52b8c08d6b0f9c7"
+        },
+        "dyspareunia": {
+          "label": "dyspareunia",
+          "value": null,
+          "state": "MISSING_DATA",
+          "evidence": [],
+          "contract": "f-0c44d235273f357d67cdec73"
+        },
+        "chronic_pelvic_pain": {
+          "label": "chronic_pelvic_pain",
+          "value": null,
+          "state": "MISSING_DATA",
+          "evidence": [],
+          "contract": "f-1afd4a840e1c712b6e89ac0d"
+        },
+        "menorrhagia": {
+          "label": "menorrhagia",
+          "value": true,
+          "state": "AVAILABLE",
+          "evidence": [
+            "DocumentReference/sigir-201510-note#sha256=3063f3a37fe14e1c9fc7388b6f384f234f989cf0a5282294b72aa98f1ca4542d&line=0&start=83&end=107"
+          ],
+          "contract": "f-fa09d8c7436ca64dc5ea816d"
+        },
+        "metrorrhagia": {
+          "label": "metrorrhagia",
+          "value": true,
+          "state": "AVAILABLE",
+          "evidence": [
+            "DocumentReference/sigir-201510-note#sha256=3063f3a37fe14e1c9fc7388b6f384f234f989cf0a5282294b72aa98f1ca4542d&line=0&start=112&end=147"
+          ],
+          "contract": "f-268432b5afe14bc7d58ea9e7"
+        }
+      },
+      "source_spans": {
+        "DocumentReference/sigir-201510-note#sha256=3063f3a37fe14e1c9fc7388b6f384f234f989cf0a5282294b72aa98f1ca4542d&line=0&start=17&end=22": {
+          "document": "DocumentReference/sigir-201510-note",
+          "line": 0,
+          "start": 17,
+          "end": 22,
+          "quote": "woman"
+        },
+        "DocumentReference/sigir-201510-note#sha256=3063f3a37fe14e1c9fc7388b6f384f234f989cf0a5282294b72aa98f1ca4542d&line=0&start=36&end=81": {
+          "document": "DocumentReference/sigir-201510-note",
+          "line": 0,
+          "start": 36,
+          "end": 81,
+          "quote": "severe premenstrual and menstrual pelvic pain"
+        },
+        "DocumentReference/sigir-201510-note#sha256=3063f3a37fe14e1c9fc7388b6f384f234f989cf0a5282294b72aa98f1ca4542d&line=0&start=83&end=107": {
+          "document": "DocumentReference/sigir-201510-note",
+          "line": 0,
+          "start": 83,
+          "end": 107,
+          "quote": "heavy, irregular periods"
+        },
+        "DocumentReference/sigir-201510-note#sha256=3063f3a37fe14e1c9fc7388b6f384f234f989cf0a5282294b72aa98f1ca4542d&line=0&start=112&end=147": {
+          "document": "DocumentReference/sigir-201510-note",
+          "line": 0,
+          "start": 112,
+          "end": 147,
+          "quote": "occasional spotting between periods"
+        }
+      }
+    },
+    {
+      "operator": "ANY",
+      "requirement": "also_require_separate_diagnosis",
+      "state": "MISSING_DATA",
+      "source_sha256": "3063f3a37fe14e1c9fc7388b6f384f234f989cf0a5282294b72aa98f1ca4542d",
+      "facts": {
+        "female_description": {
+          "label": "female_description",
+          "value": true,
+          "state": "AVAILABLE",
+          "evidence": [
+            "DocumentReference/sigir-201510-note#sha256=3063f3a37fe14e1c9fc7388b6f384f234f989cf0a5282294b72aa98f1ca4542d&line=0&start=17&end=22"
+          ],
+          "contract": "f-706fb25cbc7e6a8db0b8ff5c"
+        },
+        "dysmenorrhea": {
+          "label": "dysmenorrhea",
+          "value": true,
+          "state": "AVAILABLE",
+          "evidence": [
+            "DocumentReference/sigir-201510-note#sha256=3063f3a37fe14e1c9fc7388b6f384f234f989cf0a5282294b72aa98f1ca4542d&line=0&start=36&end=81"
+          ],
+          "contract": "f-bcf45a60e52b8c08d6b0f9c7"
+        },
+        "dyspareunia": {
+          "label": "dyspareunia",
+          "value": null,
+          "state": "MISSING_DATA",
+          "evidence": [],
+          "contract": "f-0c44d235273f357d67cdec73"
+        },
+        "chronic_pelvic_pain": {
+          "label": "chronic_pelvic_pain",
+          "value": null,
+          "state": "MISSING_DATA",
+          "evidence": [],
+          "contract": "f-1afd4a840e1c712b6e89ac0d"
+        },
+        "menorrhagia": {
+          "label": "menorrhagia",
+          "value": true,
+          "state": "AVAILABLE",
+          "evidence": [
+            "DocumentReference/sigir-201510-note#sha256=3063f3a37fe14e1c9fc7388b6f384f234f989cf0a5282294b72aa98f1ca4542d&line=0&start=83&end=107"
+          ],
+          "contract": "f-fa09d8c7436ca64dc5ea816d"
+        },
+        "metrorrhagia": {
+          "label": "metrorrhagia",
+          "value": true,
+          "state": "AVAILABLE",
+          "evidence": [
+            "DocumentReference/sigir-201510-note#sha256=3063f3a37fe14e1c9fc7388b6f384f234f989cf0a5282294b72aa98f1ca4542d&line=0&start=112&end=147"
+          ],
+          "contract": "f-268432b5afe14bc7d58ea9e7"
+        },
+        "pelvic_congestion_diagnosed": {
+          "label": "pelvic_congestion_diagnosed",
+          "value": null,
+          "state": "MISSING_DATA",
+          "evidence": [],
+          "contract": "f-a519fd874cde216bca7984db"
+        }
+      },
+      "source_spans": {}
+    },
+    {
+      "operator": "ALL",
+      "requirement": "symptoms_suffice",
+      "state": "MISSING_DATA",
+      "source_sha256": "3063f3a37fe14e1c9fc7388b6f384f234f989cf0a5282294b72aa98f1ca4542d",
+      "facts": {
+        "female_description": {
+          "label": "female_description",
+          "value": true,
+          "state": "AVAILABLE",
+          "evidence": [
+            "DocumentReference/sigir-201510-note#sha256=3063f3a37fe14e1c9fc7388b6f384f234f989cf0a5282294b72aa98f1ca4542d&line=0&start=17&end=22"
+          ],
+          "contract": "f-706fb25cbc7e6a8db0b8ff5c"
+        },
+        "dysmenorrhea": {
+          "label": "dysmenorrhea",
+          "value": true,
+          "state": "AVAILABLE",
+          "evidence": [
+            "DocumentReference/sigir-201510-note#sha256=3063f3a37fe14e1c9fc7388b6f384f234f989cf0a5282294b72aa98f1ca4542d&line=0&start=36&end=81"
+          ],
+          "contract": "f-bcf45a60e52b8c08d6b0f9c7"
+        },
+        "dyspareunia": {
+          "label": "dyspareunia",
+          "value": null,
+          "state": "MISSING_DATA",
+          "evidence": [],
+          "contract": "f-0c44d235273f357d67cdec73"
+        },
+        "chronic_pelvic_pain": {
+          "label": "chronic_pelvic_pain",
+          "value": null,
+          "state": "MISSING_DATA",
+          "evidence": [],
+          "contract": "f-1afd4a840e1c712b6e89ac0d"
+        },
+        "menorrhagia": {
+          "label": "menorrhagia",
+          "value": true,
+          "state": "AVAILABLE",
+          "evidence": [
+            "DocumentReference/sigir-201510-note#sha256=3063f3a37fe14e1c9fc7388b6f384f234f989cf0a5282294b72aa98f1ca4542d&line=0&start=83&end=107"
+          ],
+          "contract": "f-fa09d8c7436ca64dc5ea816d"
+        },
+        "metrorrhagia": {
+          "label": "metrorrhagia",
+          "value": true,
+          "state": "AVAILABLE",
+          "evidence": [
+            "DocumentReference/sigir-201510-note#sha256=3063f3a37fe14e1c9fc7388b6f384f234f989cf0a5282294b72aa98f1ca4542d&line=0&start=112&end=147"
+          ],
+          "contract": "f-268432b5afe14bc7d58ea9e7"
+        }
+      },
+      "source_spans": {}
+    },
+    {
+      "operator": "ALL",
+      "requirement": "also_require_separate_diagnosis",
+      "state": "MISSING_DATA",
+      "source_sha256": "3063f3a37fe14e1c9fc7388b6f384f234f989cf0a5282294b72aa98f1ca4542d",
+      "facts": {
+        "female_description": {
+          "label": "female_description",
+          "value": true,
+          "state": "AVAILABLE",
+          "evidence": [
+            "DocumentReference/sigir-201510-note#sha256=3063f3a37fe14e1c9fc7388b6f384f234f989cf0a5282294b72aa98f1ca4542d&line=0&start=17&end=22"
+          ],
+          "contract": "f-706fb25cbc7e6a8db0b8ff5c"
+        },
+        "dysmenorrhea": {
+          "label": "dysmenorrhea",
+          "value": true,
+          "state": "AVAILABLE",
+          "evidence": [
+            "DocumentReference/sigir-201510-note#sha256=3063f3a37fe14e1c9fc7388b6f384f234f989cf0a5282294b72aa98f1ca4542d&line=0&start=36&end=81"
+          ],
+          "contract": "f-bcf45a60e52b8c08d6b0f9c7"
+        },
+        "dyspareunia": {
+          "label": "dyspareunia",
+          "value": null,
+          "state": "MISSING_DATA",
+          "evidence": [],
+          "contract": "f-0c44d235273f357d67cdec73"
+        },
+        "chronic_pelvic_pain": {
+          "label": "chronic_pelvic_pain",
+          "value": null,
+          "state": "MISSING_DATA",
+          "evidence": [],
+          "contract": "f-1afd4a840e1c712b6e89ac0d"
+        },
+        "menorrhagia": {
+          "label": "menorrhagia",
+          "value": true,
+          "state": "AVAILABLE",
+          "evidence": [
+            "DocumentReference/sigir-201510-note#sha256=3063f3a37fe14e1c9fc7388b6f384f234f989cf0a5282294b72aa98f1ca4542d&line=0&start=83&end=107"
+          ],
+          "contract": "f-fa09d8c7436ca64dc5ea816d"
+        },
+        "metrorrhagia": {
+          "label": "metrorrhagia",
+          "value": true,
+          "state": "AVAILABLE",
+          "evidence": [
+            "DocumentReference/sigir-201510-note#sha256=3063f3a37fe14e1c9fc7388b6f384f234f989cf0a5282294b72aa98f1ca4542d&line=0&start=112&end=147"
+          ],
+          "contract": "f-268432b5afe14bc7d58ea9e7"
+        },
+        "pelvic_congestion_diagnosed": {
+          "label": "pelvic_congestion_diagnosed",
+          "value": null,
+          "state": "MISSING_DATA",
+          "evidence": [],
+          "contract": "f-a519fd874cde216bca7984db"
+        }
+      },
+      "source_spans": {}
+    }
+  ],
+  "actual_confirmed_answers": 0,
+  "current_state": "AUTHORING_HOLD",
+  "controls_only": true,
+  "comparison": "All four outcomes, per-fact values, per-fact citations and patient source hash match the prior simulation. Trace serialization differs: the active code also includes contract IDs and emits top-level source spans for decisive verdicts."
+}

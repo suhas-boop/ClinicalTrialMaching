@@ -1,0 +1,46 @@
+{
+  "case": "187",
+  "study": "NCT01526382",
+  "benchmark_subject": "sigir-201411",
+  "patient_source_sha256": "db4467fa7cba03819df27445f2090c80d6acd145a3361057f24a2fb5877aaec1",
+  "patient_source_lines": {
+    "0": "Age 40 and emergency encounter.",
+    "2": "Present affirmative examination term tachypneic, with no number."
+  },
+  "frozen_branch_options": [
+    "respiratory_rate >= 20 /min",
+    "PaCO2 <= 32 mmHg",
+    "mechanical ventilation"
+  ],
+  "individual_patient_outcome": "No measured rate or other decisive OR branch documented. Standard-textbook convention supports the rate branch in a policy sensitivity analysis; clinical records pair the same term with measured values lower than the study cutoff, so it is unsafe to upgrade the existing source-backed requirement.",
+  "adult_clinical_definition": {
+    "source": "https://www.ncbi.nlm.nih.gov/books/NBK596716/?report=printable",
+    "locator": "Evaluate Vital Signs",
+    "finding": "Applied clinical teaching convention defines tachypnea as over 20 breaths/min."
+  },
+  "same_setting_counterexamples": [
+    {
+      "source": "https://doi.org/10.67225/001c.123373",
+      "locator": "Case description paragraph 2",
+      "other_subject": "52-year-old man at initial presentation",
+      "finding": "Described as tachypneic with RR 18/min."
+    },
+    {
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9195121/",
+      "locator": "Section 2 Case presentation",
+      "other_subject": "78-year-old woman at ED presentation",
+      "finding": "Described as mildly tachypneic at 18/min."
+    }
+  ],
+  "historical_context_specific_exception": "https://www.canada.ca/en/public-health/services/immunization/reporting-adverse-events-following-immunization/user-guide-completion-submission-aefi-reports.html",
+  "trial_report_supplement": {
+    "doi": "10.1007/s00134-014-3638-4",
+    "publisher_landing": "https://link.springer.com/article/10.1007/s00134-014-3638-4",
+    "attachment_url": "https://static-content.springer.com/esm/art%3A10.1007%2Fs00134-014-3638-4/MediaObjects/134_2014_3638_MOESM1_ESM.docx",
+    "attachment_bytes": 16301964,
+    "attachment_sha256": "8146a7cd095ef3f4f1e99f368fff6f9e0aa98d2b68d3d13f21fc282833e34da1",
+    "source_part": "word/document.xml",
+    "locator": "Supplemental Table 2, SIRS general variables vs adjacent Shock column",
+    "finding": "Qualitative tachypnea appears under the SIRS heading; the shock column uses hypotension after fluid resuscitation. Table 2 supplies no definition validating the qualitative term as a substitute for RR >=20 in the frozen registry definition. Table 1 lists other protocol changes; none crosswalk these definitions."
+  }
+}

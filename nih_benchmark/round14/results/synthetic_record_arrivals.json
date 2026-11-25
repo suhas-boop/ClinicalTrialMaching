@@ -1,0 +1,775 @@
+{
+  "controls": [
+    "identity collision rejected",
+    "unverifiable source digest rejected"
+  ],
+  "experiment": "Synthetic supplemental documents on a frozen vignette; excluded from benchmark counts",
+  "subject": "sigir-201411",
+  "study": "NCT01526382",
+  "original_note_sha256": "db4467fa7cba03819df27445f2090c80d6acd145a3361057f24a2fb5877aaec1",
+  "scenarios": {
+    "original": {
+      "criteria": {
+        "186": {
+          "state": "MISSING_DATA",
+          "reason": "Obtain source-linked heart rate.",
+          "evidence": [],
+          "facts": {
+            "heart_rate": {
+              "label": "heart_rate",
+              "value": null,
+              "state": "MISSING_DATA",
+              "evidence": []
+            }
+          },
+          "partial_evidence": [],
+          "locations": {}
+        },
+        "187": {
+          "state": "MISSING_DATA",
+          "reason": "Obtain source-linked respiratory rate. Obtain source-linked paco2 mmhg. Obtain source-linked receiving mechanical ventilation.",
+          "evidence": [],
+          "facts": {
+            "respiratory_rate": {
+              "label": "respiratory_rate",
+              "value": null,
+              "state": "MISSING_DATA",
+              "evidence": []
+            },
+            "paco2_mmhg": {
+              "label": "paco2_mmhg",
+              "value": null,
+              "state": "MISSING_DATA",
+              "evidence": []
+            },
+            "receiving_mechanical_ventilation": {
+              "label": "receiving_mechanical_ventilation",
+              "value": null,
+              "state": "MISSING_DATA",
+              "evidence": []
+            }
+          },
+          "partial_evidence": [],
+          "locations": {}
+        }
+      },
+      "requests": [
+        {
+          "id": "e4534da7b157958a138292f8346bdf6b50d92eb9bad10eb5b22402c34fd340e1",
+          "route": "retrieve_record",
+          "request": "heart rate",
+          "criteria": [
+            "186"
+          ]
+        },
+        {
+          "id": "9f364e1aaf43130f6d5636f0f07e74d7979647675b54f043802bc260911b623f",
+          "route": "retrieve_record",
+          "request": "respiratory rate",
+          "criteria": [
+            "187"
+          ]
+        },
+        {
+          "id": "1f678e7eb78feac05e519368bce4b981ba1ac6bdee9cf7493b9845c869e8fd36",
+          "route": "retrieve_record",
+          "request": "paco2 mmhg",
+          "criteria": [
+            "187"
+          ]
+        },
+        {
+          "id": "d61707e49bf92d2055fabb9cbc9f8472e9e76706291212ee2715372755f5db05",
+          "route": "retrieve_record",
+          "request": "receiving mechanical ventilation",
+          "criteria": [
+            "187"
+          ]
+        }
+      ],
+      "work": {
+        "evidence_backed_decisions": 0,
+        "human_questions": 0,
+        "record_lookups": 4,
+        "engineering_items": 0
+      },
+      "snapshot_sha256": "af6c5d206b5b17e0cc16e1c7f981731f5660fd6c4ceeaa3c62fbe284a5bb17bc",
+      "catalog_sha256": "8f74ae1b4fb2c4de07965dd52dc56fba5a04a9e82d1ae500452e9e414eaf2e66"
+    },
+    "at_boundaries": {
+      "criteria": {
+        "186": {
+          "state": "MET",
+          "reason": "heart_rate = 90 (requires ge 90).",
+          "evidence": [
+            "Observation/x-1665566958ef2b0fa18a53e2ab7de1"
+          ],
+          "facts": {
+            "heart_rate": {
+              "label": "heart_rate",
+              "value": 90,
+              "state": "AVAILABLE",
+              "evidence": [
+                "Observation/x-1665566958ef2b0fa18a53e2ab7de1"
+              ]
+            }
+          },
+          "partial_evidence": [
+            "Observation/x-1665566958ef2b0fa18a53e2ab7de1"
+          ],
+          "locations": {
+            "Observation/x-1665566958ef2b0fa18a53e2ab7de1": {
+              "document": "DocumentReference/demo-vitals-at",
+              "sha256": "c28d265058a816876f7e3d23006e8cc520b917f05db9e8c1643e9c826b9ca824",
+              "lines": [
+                0
+              ]
+            }
+          }
+        },
+        "187": {
+          "state": "MET",
+          "reason": "respiratory_rate = 20 (requires ge 20).",
+          "evidence": [
+            "Observation/x-dc982ee99e69cb32edc6d9cd170e38"
+          ],
+          "facts": {
+            "respiratory_rate": {
+              "label": "respiratory_rate",
+              "value": 20,
+              "state": "AVAILABLE",
+              "evidence": [
+                "Observation/x-dc982ee99e69cb32edc6d9cd170e38"
+              ]
+            },
+            "paco2_mmhg": {
+              "label": "paco2_mmhg",
+              "value": null,
+              "state": "MISSING_DATA",
+              "evidence": []
+            },
+            "receiving_mechanical_ventilation": {
+              "label": "receiving_mechanical_ventilation",
+              "value": null,
+              "state": "MISSING_DATA",
+              "evidence": []
+            }
+          },
+          "partial_evidence": [
+            "Observation/x-dc982ee99e69cb32edc6d9cd170e38"
+          ],
+          "locations": {
+            "Observation/x-dc982ee99e69cb32edc6d9cd170e38": {
+              "document": "DocumentReference/demo-vitals-at",
+              "sha256": "c28d265058a816876f7e3d23006e8cc520b917f05db9e8c1643e9c826b9ca824",
+              "lines": [
+                1
+              ]
+            }
+          }
+        }
+      },
+      "requests": [],
+      "work": {
+        "evidence_backed_decisions": 2,
+        "human_questions": 0,
+        "record_lookups": 0,
+        "engineering_items": 0
+      },
+      "snapshot_sha256": "23e605a6df1839713e602281bd72215877d7ff3df41f3f20c2c089b90022d648",
+      "catalog_sha256": "8f74ae1b4fb2c4de07965dd52dc56fba5a04a9e82d1ae500452e9e414eaf2e66"
+    },
+    "below": {
+      "criteria": {
+        "186": {
+          "state": "NOT_MET",
+          "reason": "heart_rate = 89 (requires ge 90).",
+          "evidence": [
+            "Observation/x-b70c3a8558b1b0ef58f6ab6c4aeb70"
+          ],
+          "facts": {
+            "heart_rate": {
+              "label": "heart_rate",
+              "value": 89,
+              "state": "AVAILABLE",
+              "evidence": [
+                "Observation/x-b70c3a8558b1b0ef58f6ab6c4aeb70"
+              ]
+            }
+          },
+          "partial_evidence": [
+            "Observation/x-b70c3a8558b1b0ef58f6ab6c4aeb70"
+          ],
+          "locations": {
+            "Observation/x-b70c3a8558b1b0ef58f6ab6c4aeb70": {
+              "document": "DocumentReference/demo-vitals-below",
+              "sha256": "4fefc29aa99b4aaad3a1a0105d173bd69c3a3faaa997c52fbe8849f282c2ca59",
+              "lines": [
+                0
+              ]
+            }
+          }
+        },
+        "187": {
+          "state": "MISSING_DATA",
+          "reason": "Obtain source-linked paco2 mmhg. Obtain source-linked receiving mechanical ventilation.",
+          "evidence": [],
+          "facts": {
+            "respiratory_rate": {
+              "label": "respiratory_rate",
+              "value": 19,
+              "state": "AVAILABLE",
+              "evidence": [
+                "Observation/x-1349365a6e139efb1bf3c21ae6ab90"
+              ]
+            },
+            "paco2_mmhg": {
+              "label": "paco2_mmhg",
+              "value": null,
+              "state": "MISSING_DATA",
+              "evidence": []
+            },
+            "receiving_mechanical_ventilation": {
+              "label": "receiving_mechanical_ventilation",
+              "value": null,
+              "state": "MISSING_DATA",
+              "evidence": []
+            }
+          },
+          "partial_evidence": [
+            "Observation/x-1349365a6e139efb1bf3c21ae6ab90"
+          ],
+          "locations": {
+            "Observation/x-1349365a6e139efb1bf3c21ae6ab90": {
+              "document": "DocumentReference/demo-vitals-below",
+              "sha256": "4fefc29aa99b4aaad3a1a0105d173bd69c3a3faaa997c52fbe8849f282c2ca59",
+              "lines": [
+                1
+              ]
+            }
+          }
+        }
+      },
+      "requests": [
+        {
+          "id": "a81b70f4d5971e51fb1f09580bf7b0013b814ca028c202c4116896dd03b805d5",
+          "route": "retrieve_record",
+          "request": "paco2 mmhg",
+          "criteria": [
+            "187"
+          ]
+        },
+        {
+          "id": "faefd120c9def89dd0b060c306a27a57fac25e3fd6b5a60e0a953ff60f30d1a0",
+          "route": "retrieve_record",
+          "request": "receiving mechanical ventilation",
+          "criteria": [
+            "187"
+          ]
+        }
+      ],
+      "work": {
+        "evidence_backed_decisions": 1,
+        "human_questions": 0,
+        "record_lookups": 2,
+        "engineering_items": 0
+      },
+      "snapshot_sha256": "8cc6b796b79fa197abd49bdabb70c03b5e15e9b676a9c22449ea4d1377585297",
+      "catalog_sha256": "8f74ae1b4fb2c4de07965dd52dc56fba5a04a9e82d1ae500452e9e414eaf2e66"
+    },
+    "complete_negative": {
+      "criteria": {
+        "186": {
+          "state": "NOT_MET",
+          "reason": "heart_rate = 89 (requires ge 90).",
+          "evidence": [
+            "Observation/x-b70c3a8558b1b0ef58f6ab6c4aeb70"
+          ],
+          "facts": {
+            "heart_rate": {
+              "label": "heart_rate",
+              "value": 89,
+              "state": "AVAILABLE",
+              "evidence": [
+                "Observation/x-b70c3a8558b1b0ef58f6ab6c4aeb70"
+              ]
+            }
+          },
+          "partial_evidence": [
+            "Observation/x-b70c3a8558b1b0ef58f6ab6c4aeb70"
+          ],
+          "locations": {
+            "Observation/x-b70c3a8558b1b0ef58f6ab6c4aeb70": {
+              "document": "DocumentReference/demo-vitals-below",
+              "sha256": "4fefc29aa99b4aaad3a1a0105d173bd69c3a3faaa997c52fbe8849f282c2ca59",
+              "lines": [
+                0
+              ]
+            }
+          }
+        },
+        "187": {
+          "state": "NOT_MET",
+          "reason": "respiratory_rate = 19 (requires ge 20). paco2_mmhg = 40.0 (requires le 32). receiving_mechanical_ventilation = False (requires eq True).",
+          "evidence": [
+            "Observation/x-11df9fc982f4f2c47f3e4c29a90cb4",
+            "Observation/x-1349365a6e139efb1bf3c21ae6ab90",
+            "Observation/x-7e7f9cef32c5bbfe252819aeb7830b"
+          ],
+          "facts": {
+            "respiratory_rate": {
+              "label": "respiratory_rate",
+              "value": 19,
+              "state": "AVAILABLE",
+              "evidence": [
+                "Observation/x-1349365a6e139efb1bf3c21ae6ab90"
+              ]
+            },
+            "paco2_mmhg": {
+              "label": "paco2_mmhg",
+              "value": 40.0,
+              "state": "AVAILABLE",
+              "evidence": [
+                "Observation/x-7e7f9cef32c5bbfe252819aeb7830b"
+              ]
+            },
+            "receiving_mechanical_ventilation": {
+              "label": "receiving_mechanical_ventilation",
+              "value": false,
+              "state": "AVAILABLE",
+              "evidence": [
+                "Observation/x-11df9fc982f4f2c47f3e4c29a90cb4"
+              ]
+            }
+          },
+          "partial_evidence": [
+            "Observation/x-11df9fc982f4f2c47f3e4c29a90cb4",
+            "Observation/x-1349365a6e139efb1bf3c21ae6ab90",
+            "Observation/x-7e7f9cef32c5bbfe252819aeb7830b"
+          ],
+          "locations": {
+            "Observation/x-11df9fc982f4f2c47f3e4c29a90cb4": {
+              "document": "DocumentReference/demo-resp",
+              "sha256": "dbb861087ca7220d8ca6fc3321055b101bb2494bf500c5ce4a9df3e24634f481",
+              "lines": [
+                0
+              ]
+            },
+            "Observation/x-1349365a6e139efb1bf3c21ae6ab90": {
+              "document": "DocumentReference/demo-vitals-below",
+              "sha256": "4fefc29aa99b4aaad3a1a0105d173bd69c3a3faaa997c52fbe8849f282c2ca59",
+              "lines": [
+                1
+              ]
+            },
+            "Observation/x-7e7f9cef32c5bbfe252819aeb7830b": {
+              "document": "DocumentReference/demo-abg",
+              "sha256": "7cb6627f770c2107d020cbbe2fcf3e483521d494a79c15ede1eddbadc25ed587",
+              "lines": [
+                0
+              ]
+            }
+          }
+        }
+      },
+      "requests": [],
+      "work": {
+        "evidence_backed_decisions": 2,
+        "human_questions": 0,
+        "record_lookups": 0,
+        "engineering_items": 0
+      },
+      "snapshot_sha256": "db355df0f4964b2770077e782cb545dfadccb34c54cd3ed6621f4b57f096c7ff",
+      "catalog_sha256": "8f74ae1b4fb2c4de07965dd52dc56fba5a04a9e82d1ae500452e9e414eaf2e66"
+    },
+    "redelivery": {
+      "criteria": {
+        "186": {
+          "state": "MET",
+          "reason": "heart_rate = 90 (requires ge 90).",
+          "evidence": [
+            "Observation/x-1665566958ef2b0fa18a53e2ab7de1"
+          ],
+          "facts": {
+            "heart_rate": {
+              "label": "heart_rate",
+              "value": 90,
+              "state": "AVAILABLE",
+              "evidence": [
+                "Observation/x-1665566958ef2b0fa18a53e2ab7de1"
+              ]
+            }
+          },
+          "partial_evidence": [
+            "Observation/x-1665566958ef2b0fa18a53e2ab7de1"
+          ],
+          "locations": {
+            "Observation/x-1665566958ef2b0fa18a53e2ab7de1": {
+              "document": "DocumentReference/demo-vitals-at",
+              "sha256": "c28d265058a816876f7e3d23006e8cc520b917f05db9e8c1643e9c826b9ca824",
+              "lines": [
+                0
+              ]
+            }
+          }
+        },
+        "187": {
+          "state": "MET",
+          "reason": "respiratory_rate = 20 (requires ge 20).",
+          "evidence": [
+            "Observation/x-dc982ee99e69cb32edc6d9cd170e38"
+          ],
+          "facts": {
+            "respiratory_rate": {
+              "label": "respiratory_rate",
+              "value": 20,
+              "state": "AVAILABLE",
+              "evidence": [
+                "Observation/x-dc982ee99e69cb32edc6d9cd170e38"
+              ]
+            },
+            "paco2_mmhg": {
+              "label": "paco2_mmhg",
+              "value": null,
+              "state": "MISSING_DATA",
+              "evidence": []
+            },
+            "receiving_mechanical_ventilation": {
+              "label": "receiving_mechanical_ventilation",
+              "value": null,
+              "state": "MISSING_DATA",
+              "evidence": []
+            }
+          },
+          "partial_evidence": [
+            "Observation/x-dc982ee99e69cb32edc6d9cd170e38"
+          ],
+          "locations": {
+            "Observation/x-dc982ee99e69cb32edc6d9cd170e38": {
+              "document": "DocumentReference/demo-vitals-at",
+              "sha256": "c28d265058a816876f7e3d23006e8cc520b917f05db9e8c1643e9c826b9ca824",
+              "lines": [
+                1
+              ]
+            }
+          }
+        }
+      },
+      "requests": [],
+      "work": {
+        "evidence_backed_decisions": 2,
+        "human_questions": 0,
+        "record_lookups": 0,
+        "engineering_items": 0
+      },
+      "snapshot_sha256": "23e605a6df1839713e602281bd72215877d7ff3df41f3f20c2c089b90022d648",
+      "catalog_sha256": "8f74ae1b4fb2c4de07965dd52dc56fba5a04a9e82d1ae500452e9e414eaf2e66"
+    },
+    "conflict": {
+      "criteria": {
+        "186": {
+          "state": "MISSING_DATA",
+          "reason": "Reconcile conflicting heart rate.",
+          "evidence": [
+            "Observation/x-1665566958ef2b0fa18a53e2ab7de1",
+            "Observation/x-b70c3a8558b1b0ef58f6ab6c4aeb70"
+          ],
+          "facts": {
+            "heart_rate": {
+              "label": "heart_rate",
+              "value": null,
+              "state": "MISSING_DATA",
+              "evidence": [
+                "Observation/x-1665566958ef2b0fa18a53e2ab7de1",
+                "Observation/x-b70c3a8558b1b0ef58f6ab6c4aeb70"
+              ]
+            }
+          },
+          "partial_evidence": [],
+          "locations": {
+            "Observation/x-1665566958ef2b0fa18a53e2ab7de1": {
+              "document": "DocumentReference/demo-vitals-at",
+              "sha256": "c28d265058a816876f7e3d23006e8cc520b917f05db9e8c1643e9c826b9ca824",
+              "lines": [
+                0
+              ]
+            },
+            "Observation/x-b70c3a8558b1b0ef58f6ab6c4aeb70": {
+              "document": "DocumentReference/demo-vitals-below",
+              "sha256": "4fefc29aa99b4aaad3a1a0105d173bd69c3a3faaa997c52fbe8849f282c2ca59",
+              "lines": [
+                0
+              ]
+            }
+          }
+        },
+        "187": {
+          "state": "MISSING_DATA",
+          "reason": "Reconcile conflicting respiratory rate. Obtain source-linked paco2 mmhg. Obtain source-linked receiving mechanical ventilation.",
+          "evidence": [
+            "Observation/x-1349365a6e139efb1bf3c21ae6ab90",
+            "Observation/x-dc982ee99e69cb32edc6d9cd170e38"
+          ],
+          "facts": {
+            "respiratory_rate": {
+              "label": "respiratory_rate",
+              "value": null,
+              "state": "MISSING_DATA",
+              "evidence": [
+                "Observation/x-1349365a6e139efb1bf3c21ae6ab90",
+                "Observation/x-dc982ee99e69cb32edc6d9cd170e38"
+              ]
+            },
+            "paco2_mmhg": {
+              "label": "paco2_mmhg",
+              "value": null,
+              "state": "MISSING_DATA",
+              "evidence": []
+            },
+            "receiving_mechanical_ventilation": {
+              "label": "receiving_mechanical_ventilation",
+              "value": null,
+              "state": "MISSING_DATA",
+              "evidence": []
+            }
+          },
+          "partial_evidence": [],
+          "locations": {
+            "Observation/x-1349365a6e139efb1bf3c21ae6ab90": {
+              "document": "DocumentReference/demo-vitals-below",
+              "sha256": "4fefc29aa99b4aaad3a1a0105d173bd69c3a3faaa997c52fbe8849f282c2ca59",
+              "lines": [
+                1
+              ]
+            },
+            "Observation/x-dc982ee99e69cb32edc6d9cd170e38": {
+              "document": "DocumentReference/demo-vitals-at",
+              "sha256": "c28d265058a816876f7e3d23006e8cc520b917f05db9e8c1643e9c826b9ca824",
+              "lines": [
+                1
+              ]
+            }
+          }
+        }
+      },
+      "requests": [
+        {
+          "id": "5ddb59dff74228c8f524bf3c82c699fe60b20b817c7874fd95d519c43903ef6f",
+          "route": "retrieve_record",
+          "request": "heart rate",
+          "criteria": [
+            "186"
+          ]
+        },
+        {
+          "id": "5ce60b595777a0c80771feeb6310648b397477da761fb75ac57dbbd4138f30b1",
+          "route": "retrieve_record",
+          "request": "respiratory rate",
+          "criteria": [
+            "187"
+          ]
+        },
+        {
+          "id": "8fe8c75ef5d841e3c0221dcba6fe5d07face8be9255ce43990359eb54af1b865",
+          "route": "retrieve_record",
+          "request": "paco2 mmhg",
+          "criteria": [
+            "187"
+          ]
+        },
+        {
+          "id": "9d03fa71d88dc24878791324e3262110d3206711404d827e3f2705002c368776",
+          "route": "retrieve_record",
+          "request": "receiving mechanical ventilation",
+          "criteria": [
+            "187"
+          ]
+        }
+      ],
+      "work": {
+        "evidence_backed_decisions": 0,
+        "human_questions": 0,
+        "record_lookups": 4,
+        "engineering_items": 0
+      },
+      "snapshot_sha256": "e5147e45df1f2b1e368a77737f6b5c9644d7a3894153c056f4586d3bb566bf04",
+      "catalog_sha256": "8f74ae1b4fb2c4de07965dd52dc56fba5a04a9e82d1ae500452e9e414eaf2e66"
+    },
+    "wrong_encounter": {
+      "criteria": {
+        "186": {
+          "state": "MISSING_DATA",
+          "reason": "Obtain source-linked heart rate.",
+          "evidence": [],
+          "facts": {
+            "heart_rate": {
+              "label": "heart_rate",
+              "value": null,
+              "state": "MISSING_DATA",
+              "evidence": []
+            }
+          },
+          "partial_evidence": [],
+          "locations": {}
+        },
+        "187": {
+          "state": "MISSING_DATA",
+          "reason": "Obtain source-linked respiratory rate. Obtain source-linked paco2 mmhg. Obtain source-linked receiving mechanical ventilation.",
+          "evidence": [],
+          "facts": {
+            "respiratory_rate": {
+              "label": "respiratory_rate",
+              "value": null,
+              "state": "MISSING_DATA",
+              "evidence": []
+            },
+            "paco2_mmhg": {
+              "label": "paco2_mmhg",
+              "value": null,
+              "state": "MISSING_DATA",
+              "evidence": []
+            },
+            "receiving_mechanical_ventilation": {
+              "label": "receiving_mechanical_ventilation",
+              "value": null,
+              "state": "MISSING_DATA",
+              "evidence": []
+            }
+          },
+          "partial_evidence": [],
+          "locations": {}
+        }
+      },
+      "requests": [
+        {
+          "id": "e4534da7b157958a138292f8346bdf6b50d92eb9bad10eb5b22402c34fd340e1",
+          "route": "retrieve_record",
+          "request": "heart rate",
+          "criteria": [
+            "186"
+          ]
+        },
+        {
+          "id": "9f364e1aaf43130f6d5636f0f07e74d7979647675b54f043802bc260911b623f",
+          "route": "retrieve_record",
+          "request": "respiratory rate",
+          "criteria": [
+            "187"
+          ]
+        },
+        {
+          "id": "1f678e7eb78feac05e519368bce4b981ba1ac6bdee9cf7493b9845c869e8fd36",
+          "route": "retrieve_record",
+          "request": "paco2 mmhg",
+          "criteria": [
+            "187"
+          ]
+        },
+        {
+          "id": "d61707e49bf92d2055fabb9cbc9f8472e9e76706291212ee2715372755f5db05",
+          "route": "retrieve_record",
+          "request": "receiving mechanical ventilation",
+          "criteria": [
+            "187"
+          ]
+        }
+      ],
+      "work": {
+        "evidence_backed_decisions": 0,
+        "human_questions": 0,
+        "record_lookups": 4,
+        "engineering_items": 0
+      },
+      "snapshot_sha256": "af6c5d206b5b17e0cc16e1c7f981731f5660fd6c4ceeaa3c62fbe284a5bb17bc",
+      "catalog_sha256": "8f74ae1b4fb2c4de07965dd52dc56fba5a04a9e82d1ae500452e9e414eaf2e66"
+    },
+    "wrong_patient": {
+      "criteria": {
+        "186": {
+          "state": "MISSING_DATA",
+          "reason": "Obtain source-linked heart rate.",
+          "evidence": [],
+          "facts": {
+            "heart_rate": {
+              "label": "heart_rate",
+              "value": null,
+              "state": "MISSING_DATA",
+              "evidence": []
+            }
+          },
+          "partial_evidence": [],
+          "locations": {}
+        },
+        "187": {
+          "state": "MISSING_DATA",
+          "reason": "Obtain source-linked respiratory rate. Obtain source-linked paco2 mmhg. Obtain source-linked receiving mechanical ventilation.",
+          "evidence": [],
+          "facts": {
+            "respiratory_rate": {
+              "label": "respiratory_rate",
+              "value": null,
+              "state": "MISSING_DATA",
+              "evidence": []
+            },
+            "paco2_mmhg": {
+              "label": "paco2_mmhg",
+              "value": null,
+              "state": "MISSING_DATA",
+              "evidence": []
+            },
+            "receiving_mechanical_ventilation": {
+              "label": "receiving_mechanical_ventilation",
+              "value": null,
+              "state": "MISSING_DATA",
+              "evidence": []
+            }
+          },
+          "partial_evidence": [],
+          "locations": {}
+        }
+      },
+      "requests": [
+        {
+          "id": "e4534da7b157958a138292f8346bdf6b50d92eb9bad10eb5b22402c34fd340e1",
+          "route": "retrieve_record",
+          "request": "heart rate",
+          "criteria": [
+            "186"
+          ]
+        },
+        {
+          "id": "9f364e1aaf43130f6d5636f0f07e74d7979647675b54f043802bc260911b623f",
+          "route": "retrieve_record",
+          "request": "respiratory rate",
+          "criteria": [
+            "187"
+          ]
+        },
+        {
+          "id": "1f678e7eb78feac05e519368bce4b981ba1ac6bdee9cf7493b9845c869e8fd36",
+          "route": "retrieve_record",
+          "request": "paco2 mmhg",
+          "criteria": [
+            "187"
+          ]
+        },
+        {
+          "id": "d61707e49bf92d2055fabb9cbc9f8472e9e76706291212ee2715372755f5db05",
+          "route": "retrieve_record",
+          "request": "receiving mechanical ventilation",
+          "criteria": [
+            "187"
+          ]
+        }
+      ],
+      "work": {
+        "evidence_backed_decisions": 0,
+        "human_questions": 0,
+        "record_lookups": 4,
+        "engineering_items": 0
+      },
+      "snapshot_sha256": "af6c5d206b5b17e0cc16e1c7f981731f5660fd6c4ceeaa3c62fbe284a5bb17bc",
+      "catalog_sha256": "8f74ae1b4fb2c4de07965dd52dc56fba5a04a9e82d1ae500452e9e414eaf2e66"
+    }
+  }
+}

@@ -1,0 +1,303 @@
+{
+  "slice": "Previously unresolved criterion rows 601\u20131000",
+  "reviewed": 29,
+  "new_strict_decisions": 0,
+  "cases": [
+    {
+      "case": "632",
+      "study": "NCT01139632",
+      "patient": "sigir-20153",
+      "criterion": "Inability to write inform consent.",
+      "patient_note_sha256": "ab965a81fb09dd678da825d447c82ac9e9ef4577ea2241d448e4bbdbbfa4e5d2",
+      "historical_registry_sha256": "739763ee80abcfa7354faeb667ded9adfcb78c1ab46ac705c868dcbc294c83cf",
+      "next_evidence_type": "patient_or_study_record",
+      "reason": "Ability to execute the written consent procedure for this study."
+    },
+    {
+      "case": "640",
+      "study": "NCT00844987",
+      "patient": "sigir-20154",
+      "criterion": "typical chest pain",
+      "patient_note_sha256": "3204ac56adccfb3970430cc9b6db59409a40cd1a9e5a9356898e4704025299da",
+      "historical_registry_sha256": "8aab00810be5ce60e20c4f7187e1fc6c8d1ca52a31932527a6340541ce760e25",
+      "next_evidence_type": "governing_definition_or_assessment",
+      "reason": "Study-approved pain characterization or definition, including how stabbing onset at rest and radiation are interpreted."
+    },
+    {
+      "case": "671",
+      "study": "NCT02633449",
+      "patient": "sigir-20157",
+      "criterion": "unipolar major depressive disorder",
+      "patient_note_sha256": "b569f430e2ef49379ddb6718ccd02d076ca5f5a20a5e833e0f3101a2cfb337dc",
+      "historical_registry_sha256": "7b2c681441f5617bdfb497d932af96575fe01d854649853107299ba9dc7874bc",
+      "next_evidence_type": "diagnostic_record",
+      "reason": "Established unipolar major depressive disorder or an authorized diagnostic assessment addressing bipolar history."
+    },
+    {
+      "case": "706",
+      "study": "NCT02340533",
+      "patient": "sigir-201510",
+      "criterion": "females complaining of pelvic congestion: dysmenorrhea, dyspareunia, chronic pelvic pain, menorrhagia, metrorrhagia",
+      "patient_note_sha256": "3063f3a37fe14e1c9fc7388b6f384f234f989cf0a5282294b72aa98f1ca4542d",
+      "historical_registry_sha256": "8d3f1231f1ebf8448d6b1dd205298591a2e355974d6ac24d7fb2db93a395beeb",
+      "next_evidence_type": "protocol_authority",
+      "reason": "The governing study version and symptom combination, chronicity and separate diagnosis requirements."
+    },
+    {
+      "case": "722",
+      "study": "NCT01862510",
+      "patient": "sigir-201511",
+      "criterion": "Surgical resection of thyroid tissue",
+      "patient_note_sha256": "ad0a2bc2a07981a7a1ba8f2f29c053736de00c07c9451a895e308e0eb5f2550a",
+      "historical_registry_sha256": "92fe7d520e614cc88121994698efea92cc9954be7e2c9c87648f35ebad0cfa1f",
+      "next_evidence_type": "history_record",
+      "reason": "A source covering the requested past thyroid procedure, medication, radiation or celiac serologic testing."
+    },
+    {
+      "case": "723",
+      "study": "NCT01862510",
+      "patient": "sigir-201511",
+      "criterion": "neck irradiation",
+      "patient_note_sha256": "ad0a2bc2a07981a7a1ba8f2f29c053736de00c07c9451a895e308e0eb5f2550a",
+      "historical_registry_sha256": "92fe7d520e614cc88121994698efea92cc9954be7e2c9c87648f35ebad0cfa1f",
+      "next_evidence_type": "history_record",
+      "reason": "A source covering the requested past thyroid procedure, medication, radiation or celiac serologic testing."
+    },
+    {
+      "case": "724",
+      "study": "NCT01862510",
+      "patient": "sigir-201511",
+      "criterion": "radioactive iodine therapy",
+      "patient_note_sha256": "ad0a2bc2a07981a7a1ba8f2f29c053736de00c07c9451a895e308e0eb5f2550a",
+      "historical_registry_sha256": "92fe7d520e614cc88121994698efea92cc9954be7e2c9c87648f35ebad0cfa1f",
+      "next_evidence_type": "history_record",
+      "reason": "A source covering the requested past thyroid procedure, medication, radiation or celiac serologic testing."
+    },
+    {
+      "case": "725",
+      "study": "NCT01862510",
+      "patient": "sigir-201511",
+      "criterion": "prior medical treatment with lithium, methimazole, propylthiouracil, ethionamide, amiodarone, or sunitinib",
+      "patient_note_sha256": "ad0a2bc2a07981a7a1ba8f2f29c053736de00c07c9451a895e308e0eb5f2550a",
+      "historical_registry_sha256": "92fe7d520e614cc88121994698efea92cc9954be7e2c9c87648f35ebad0cfa1f",
+      "next_evidence_type": "history_record",
+      "reason": "A source covering the requested past thyroid procedure, medication, radiation or celiac serologic testing."
+    },
+    {
+      "case": "726",
+      "study": "NCT01862510",
+      "patient": "sigir-201511",
+      "criterion": "prior serologic testing for celiac disease",
+      "patient_note_sha256": "ad0a2bc2a07981a7a1ba8f2f29c053736de00c07c9451a895e308e0eb5f2550a",
+      "historical_registry_sha256": "92fe7d520e614cc88121994698efea92cc9954be7e2c9c87648f35ebad0cfa1f",
+      "next_evidence_type": "history_record",
+      "reason": "A source covering the requested past thyroid procedure, medication, radiation or celiac serologic testing."
+    },
+    {
+      "case": "734",
+      "study": "NCT02467309",
+      "patient": "sigir-201512",
+      "criterion": "Congenital immunodeficiency patients",
+      "patient_note_sha256": "302503e596b522c6e7b968016369eb43b97294996317a74204fc59fb4420716d",
+      "historical_registry_sha256": "df5094b17e116ddd34f6f0c70b0a57e6e5fc5bbb6f9c891b7f2d3f14b2520dac",
+      "next_evidence_type": "history_record",
+      "reason": "Patient-specific history or testing for the criterion; teaching-vignette trauma chronology provides none."
+    },
+    {
+      "case": "735",
+      "study": "NCT02467309",
+      "patient": "sigir-201512",
+      "criterion": "HIV patients",
+      "patient_note_sha256": "302503e596b522c6e7b968016369eb43b97294996317a74204fc59fb4420716d",
+      "historical_registry_sha256": "df5094b17e116ddd34f6f0c70b0a57e6e5fc5bbb6f9c891b7f2d3f14b2520dac",
+      "next_evidence_type": "history_record",
+      "reason": "Patient-specific history or testing for the criterion; teaching-vignette trauma chronology provides none."
+    },
+    {
+      "case": "736",
+      "study": "NCT02467309",
+      "patient": "sigir-201512",
+      "criterion": "Patients with corticosteroid treatment for long time",
+      "patient_note_sha256": "302503e596b522c6e7b968016369eb43b97294996317a74204fc59fb4420716d",
+      "historical_registry_sha256": "df5094b17e116ddd34f6f0c70b0a57e6e5fc5bbb6f9c891b7f2d3f14b2520dac",
+      "next_evidence_type": "history_record",
+      "reason": "Patient-specific history or testing for the criterion; teaching-vignette trauma chronology provides none."
+    },
+    {
+      "case": "737",
+      "study": "NCT02467309",
+      "patient": "sigir-201512",
+      "criterion": "Patients with disorders in adrenal gland and pituitary gland and hypothalamus",
+      "patient_note_sha256": "302503e596b522c6e7b968016369eb43b97294996317a74204fc59fb4420716d",
+      "historical_registry_sha256": "df5094b17e116ddd34f6f0c70b0a57e6e5fc5bbb6f9c891b7f2d3f14b2520dac",
+      "next_evidence_type": "history_record",
+      "reason": "Patient-specific history or testing for the criterion; teaching-vignette trauma chronology provides none."
+    },
+    {
+      "case": "738",
+      "study": "NCT02467309",
+      "patient": "sigir-201512",
+      "criterion": "Patients with tuberculosis",
+      "patient_note_sha256": "302503e596b522c6e7b968016369eb43b97294996317a74204fc59fb4420716d",
+      "historical_registry_sha256": "df5094b17e116ddd34f6f0c70b0a57e6e5fc5bbb6f9c891b7f2d3f14b2520dac",
+      "next_evidence_type": "history_record",
+      "reason": "Patient-specific history or testing for the criterion; teaching-vignette trauma chronology provides none."
+    },
+    {
+      "case": "850",
+      "study": "NCT00839124",
+      "patient": "sigir-201516",
+      "criterion": "Exacerbation of asthma more than 2x/week which would be characteristic of a person of moderate or severe persistent asthma as outlined in the current NHLBI guidelines for diagnosis and management of asthma.",
+      "patient_note_sha256": "73647117726ddf0a51bed80ad37b62461c236078840c12fe1d5ed52cf506724a",
+      "historical_registry_sha256": "4f0a124b08138f785f29cc2b9c48485de21ecd618ad84a8798fb93bb3d6d02ea",
+      "next_evidence_type": "symptom_history",
+      "reason": "Reported frequency of asthma exacerbations across relevant weeks; no prior wheeze does not exclude nonwheezing exacerbations."
+    },
+    {
+      "case": "890",
+      "study": "NCT00182832",
+      "patient": "sigir-201520",
+      "criterion": "Cognitive impairment based on screening at time of hospital admission",
+      "patient_note_sha256": "9ed9c14c2723cba661bb535697b68507aec18368dfe8d62b158d7f7a171ec572",
+      "historical_registry_sha256": "eff5dea67d84ebe13b88ebb06481c22ac4928447b0563dc89493bfc2af7e1974",
+      "next_evidence_type": "study_screening_record",
+      "reason": "Hospital admission SPMSQ result with required adjustments or qualifying study screening disposition."
+    },
+    {
+      "case": "919",
+      "study": "NCT01959048",
+      "patient": "sigir-201521",
+      "criterion": "Confirmed diagnosis of severe CDAD as defined above",
+      "patient_note_sha256": "a3240c50f76b44e38d31c080058f4d94551935e9bd80c531bf490121a5c76e60",
+      "historical_registry_sha256": "7a7498f9877a7a989a64e2f5a15d0ef0df05c81bd8f6f3116c49c1a565cfbb1d",
+      "next_evidence_type": "protocol_and_diagnostic_record",
+      "reason": "Governing confirmation and severity criteria plus documented assessment for C. difficile. Giardiasis alone does not exclude a coinfection."
+    },
+    {
+      "case": "935",
+      "study": "NCT02534727",
+      "patient": "sigir-201522",
+      "criterion": "Thought likely to be Mycobacterium culture positive (including NTM infected for the NIH CC) by enrolling physician",
+      "patient_note_sha256": "1c4773785b16808dad463c95c334969b3049eb544ed7edf18844c3350609887b",
+      "historical_registry_sha256": "459cb54c8e084ce3fc7f6a68bd728595704688d3cc1f59d67e020b4753b54a03",
+      "next_evidence_type": "investigator_assessment",
+      "reason": "The enrolling physician\u2019s prospective mycobacterial culture assessment. Fungal culture findings address another question."
+    },
+    {
+      "case": "938",
+      "study": "NCT02534727",
+      "patient": "sigir-201522",
+      "criterion": "Willing to provide blood samples",
+      "patient_note_sha256": "1c4773785b16808dad463c95c334969b3049eb544ed7edf18844c3350609887b",
+      "historical_registry_sha256": "459cb54c8e084ce3fc7f6a68bd728595704688d3cc1f59d67e020b4753b54a03",
+      "next_evidence_type": "patient_specific_commitments",
+      "reason": "Separate affirmative/negative answers for providing blood and permitting storage; NIH code appended generic compliance text to every note."
+    },
+    {
+      "case": "939",
+      "study": "NCT02534727",
+      "patient": "sigir-201522",
+      "criterion": "Willing to have samples stored",
+      "patient_note_sha256": "1c4773785b16808dad463c95c334969b3049eb544ed7edf18844c3350609887b",
+      "historical_registry_sha256": "459cb54c8e084ce3fc7f6a68bd728595704688d3cc1f59d67e020b4753b54a03",
+      "next_evidence_type": "patient_specific_commitments",
+      "reason": "Separate affirmative/negative answers for providing blood and permitting storage; NIH code appended generic compliance text to every note."
+    },
+    {
+      "case": "940",
+      "study": "NCT02534727",
+      "patient": "sigir-201522",
+      "criterion": "Acute liver or kidney disease",
+      "patient_note_sha256": "1c4773785b16808dad463c95c334969b3049eb544ed7edf18844c3350609887b",
+      "historical_registry_sha256": "459cb54c8e084ce3fc7f6a68bd728595704688d3cc1f59d67e020b4753b54a03",
+      "next_evidence_type": "record_or_attestation",
+      "reason": "Patient-specific organ, treatment, ventilation, allergy or prognosis information for this criterion; pulmonary imaging and culture insufficient."
+    },
+    {
+      "case": "945",
+      "study": "NCT01207128",
+      "patient": "sigir-201522",
+      "criterion": "The patient is being treated with an unlicensed investigational drug for aspergillosis.",
+      "patient_note_sha256": "1c4773785b16808dad463c95c334969b3049eb544ed7edf18844c3350609887b",
+      "historical_registry_sha256": "9334ef478db4849f7a136036acdb1b7d5a7436d34906117bad4b3a2f79440d39",
+      "next_evidence_type": "record_or_attestation",
+      "reason": "Patient-specific organ, treatment, ventilation, allergy or prognosis information for this criterion; pulmonary imaging and culture insufficient."
+    },
+    {
+      "case": "946",
+      "study": "NCT01207128",
+      "patient": "sigir-201522",
+      "criterion": "The patient has been administered an antifungal agent (voriconazole, itraconazole, posaconazole, caspofungin, micafungin, anidulafungin, amphotericin B, or lipid formulation of amphotericin B) for > 7 days immediately prior to randomization for treatment of the Probable, or Proven invasive aspergillosis for which the patient is being enrolled.",
+      "patient_note_sha256": "1c4773785b16808dad463c95c334969b3049eb544ed7edf18844c3350609887b",
+      "historical_registry_sha256": "9334ef478db4849f7a136036acdb1b7d5a7436d34906117bad4b3a2f79440d39",
+      "next_evidence_type": "record_or_attestation",
+      "reason": "Patient-specific organ, treatment, ventilation, allergy or prognosis information for this criterion; pulmonary imaging and culture insufficient."
+    },
+    {
+      "case": "952",
+      "study": "NCT01207128",
+      "patient": "sigir-201522",
+      "criterion": "The patient is on artificial ventilation, and unlikely to be extubated within 24 hours of study entry.",
+      "patient_note_sha256": "1c4773785b16808dad463c95c334969b3049eb544ed7edf18844c3350609887b",
+      "historical_registry_sha256": "9334ef478db4849f7a136036acdb1b7d5a7436d34906117bad4b3a2f79440d39",
+      "next_evidence_type": "record_or_attestation",
+      "reason": "Patient-specific organ, treatment, ventilation, allergy or prognosis information for this criterion; pulmonary imaging and culture insufficient."
+    },
+    {
+      "case": "953",
+      "study": "NCT01207128",
+      "patient": "sigir-201522",
+      "criterion": "The patient has a history of allergy, hypersensitivity, or any serious reaction to the azole or echinocandin class of antifungal agents.",
+      "patient_note_sha256": "1c4773785b16808dad463c95c334969b3049eb544ed7edf18844c3350609887b",
+      "historical_registry_sha256": "9334ef478db4849f7a136036acdb1b7d5a7436d34906117bad4b3a2f79440d39",
+      "next_evidence_type": "record_or_attestation",
+      "reason": "Patient-specific organ, treatment, ventilation, allergy or prognosis information for this criterion; pulmonary imaging and culture insufficient."
+    },
+    {
+      "case": "955",
+      "study": "NCT01207128",
+      "patient": "sigir-201522",
+      "criterion": "The patient has a concomitant medical condition, which in the opinion of the Investigator may create an unacceptable additional risk.",
+      "patient_note_sha256": "1c4773785b16808dad463c95c334969b3049eb544ed7edf18844c3350609887b",
+      "historical_registry_sha256": "9334ef478db4849f7a136036acdb1b7d5a7436d34906117bad4b3a2f79440d39",
+      "next_evidence_type": "record_or_attestation",
+      "reason": "Patient-specific organ, treatment, ventilation, allergy or prognosis information for this criterion; pulmonary imaging and culture insufficient."
+    },
+    {
+      "case": "957",
+      "study": "NCT01207128",
+      "patient": "sigir-201522",
+      "criterion": "The patient has a life expectancy of less than seven days.",
+      "patient_note_sha256": "1c4773785b16808dad463c95c334969b3049eb544ed7edf18844c3350609887b",
+      "historical_registry_sha256": "9334ef478db4849f7a136036acdb1b7d5a7436d34906117bad4b3a2f79440d39",
+      "next_evidence_type": "record_or_attestation",
+      "reason": "Patient-specific organ, treatment, ventilation, allergy or prognosis information for this criterion; pulmonary imaging and culture insufficient."
+    },
+    {
+      "case": "965",
+      "study": "NCT00084240",
+      "patient": "sigir-201523",
+      "criterion": "Known history of blood dyscrasias (e.g., megaloblastic anemia, agranulocytosis, aplastic anemia, thrombocytopenia, leukopenia, neutropenia, hemolytic anemia)",
+      "patient_note_sha256": "05c36ab49e87f062f4a00d5f9ab4749c30343bae06ee419607f0cd55e7d30ed0",
+      "historical_registry_sha256": "910035df611c239d320faa36c13c81a3c7e14aac5ea8c3167baa557abc7df1c7",
+      "next_evidence_type": "prior_history",
+      "reason": "Pre-index history of one named dyscrasia or history coverage. Current acute CBC identifies leukopenia and thrombocytopenia only at presentation."
+    },
+    {
+      "case": "985",
+      "study": "NCT00711399",
+      "patient": "sigir-201524",
+      "criterion": "Chest tubes",
+      "patient_note_sha256": "38b654bd7978059e3f6e44a484cd5379e51c840ef13295969b075f50f7998f07",
+      "historical_registry_sha256": "9b68cf92c5d2d2e9b28523b2a0c15604f1b9fddaf32f6c054184d0c684f2cc77",
+      "next_evidence_type": "procedure_or_device_inventory",
+      "reason": "Whether a chest tube is present during the relevant evaluation. The record describes only symptoms, vitals and auscultation."
+    }
+  ],
+  "source_checks": {
+    "source_of_consent_line": "https://github.com/ncbi-nlp/TrialGPT/blob/main/trialgpt_matching/run_matching.py",
+    "case_890_methods": "https://doi.org/10.1007/s11606-012-1994-8",
+    "treatment_and_test_task_only_supplied_diagnoses": "https://trec.nist.gov/presentations/TREC2015/overview_24.pdf",
+    "inapplicable_case_965_study": "https://doi.org/10.2147/RRTM.S129741 (A0661120, distinct from A0661123)"
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "export_1/anchor_inventory": {
+    "normalized_first_dose_candidates": 0
+  },
+  "export_1/actual_available_context": {
+    "days": 2,
+    "platelet": {
+      "MISSING_DATA": 2
+    },
+    "criterion": {
+      "MISSING_DATA": 2
+    },
+    "missing_reasons": {
+      "Verify the actual study C1D1 date.": 2
+    }
+  },
+  "export_1/standard_units": {
+    "days": 2,
+    "platelet": {
+      "MET": 2
+    },
+    "criterion": {
+      "MISSING_DATA": 2
+    },
+    "missing_reasons": {}
+  },
+  "export_1/export_alias_enabled": {
+    "days": 2,
+    "platelet": {
+      "MET": 2
+    },
+    "criterion": {
+      "MISSING_DATA": 2
+    },
+    "missing_reasons": {}
+  },
+  "export_1/review_two_days_later": {
+    "days": 2,
+    "platelet": {
+      "MET": 2
+    },
+    "criterion": {
+      "MISSING_DATA": 2
+    },
+    "missing_reasons": {},
+    "transitions": {
+      "MET -> MET": 2
+    }
+  },
+  "export_2/anchor_inventory": {
+    "normalized_first_dose_candidates": 0
+  },
+  "export_2/actual_available_context": {
+    "days": 35,
+    "platelet": {
+      "MISSING_DATA": 35
+    },
+    "criterion": {
+      "MISSING_DATA": 35
+    },
+    "missing_reasons": {
+      "Verify the actual study C1D1 date.": 35
+    }
+  },
+  "export_2/standard_units": {
+    "days": 35,
+    "platelet": {
+      "MET": 7,
+      "MISSING_DATA": 18,
+      "NOT_MET": 10
+    },
+    "criterion": {
+      "MISSING_DATA": 25,
+      "NOT_MET": 10
+    },
+    "missing_reasons": {
+      "Retrieve an in-window final blood platelet result and its report.": 17,
+      "Reconcile different qualifying measurements before choosing one.": 1
+    }
+  },
+  "export_2/export_alias_enabled": {
+    "days": 35,
+    "platelet": {
+      "MET": 7,
+      "MISSING_DATA": 18,
+      "NOT_MET": 10
+    },
+    "criterion": {
+      "MISSING_DATA": 25,
+      "NOT_MET": 10
+    },
+    "missing_reasons": {
+      "Retrieve an in-window final blood platelet result and its report.": 17,
+      "Reconcile different qualifying measurements before choosing one.": 1
+    }
+  },
+  "export_2/review_two_days_later": {
+    "days": 35,
+    "platelet": {
+      "MET": 11,
+      "MISSING_DATA": 8,
+      "NOT_MET": 16
+    },
+    "criterion": {
+      "MISSING_DATA": 19,
+      "NOT_MET": 16
+    },
+    "missing_reasons": {
+      "Reconcile different qualifying measurements before choosing one.": 8
+    },
+    "transitions": {
+      "MET -> MET": 7,
+      "MISSING_DATA -> MISSING_DATA": 5,
+      "MISSING_DATA -> MET": 4,
+      "MISSING_DATA -> NOT_MET": 9,
+      "NOT_MET -> MISSING_DATA": 3,
+      "NOT_MET -> NOT_MET": 7
+    }
+  }
+}

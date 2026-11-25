@@ -1,0 +1,280 @@
+[
+  {
+    "case": "111",
+    "study": "NCT02512159",
+    "historical_sha256": "98950ddfd4d713fba632675403513da6659a48cb43aa7bd7d1b7fe2130aa4941",
+    "historical_date": "July 29, 2015",
+    "modern_date": "2015-07-30",
+    "sections_changed": [],
+    "word_differences": {}
+  },
+  {
+    "case": "919",
+    "study": "NCT01959048",
+    "historical_sha256": "7a7498f9877a7a989a64e2f5a15d0ef0df05c81bd8f6f3116c49c1a565cfbb1d",
+    "historical_date": "September 5, 2015",
+    "modern_date": "2019-08-21",
+    "sections_changed": [
+      "outcomes"
+    ],
+    "word_differences": {
+      "outcomes": [
+        [
+          "replace",
+          "decrease",
+          "resolution"
+        ],
+        [
+          "replace",
+          "white blood cell",
+          "wbc"
+        ],
+        [
+          "insert",
+          "",
+          "number of participants with evidence of"
+        ],
+        [
+          "insert",
+          "",
+          "of c diff associated diarrhea"
+        ]
+      ]
+    }
+  },
+  {
+    "case": "46",
+    "study": "NCT02490059",
+    "historical_sha256": "ac2cc891219dbe937346594f0de598b1ca66e2d5fe1c3d06442647da2e1ced17",
+    "historical_date": "July 1, 2015",
+    "modern_date": "2015-07-03",
+    "sections_changed": [],
+    "word_differences": {}
+  },
+  {
+    "case": "184",
+    "study": "NCT02264964",
+    "historical_sha256": "af0dcf1ae9caf76dfdd60892cde03cd37d9d2b0eb2f7d1a30d0161dffe43cce6",
+    "historical_date": "October 9, 2014",
+    "modern_date": "2014-10-15",
+    "sections_changed": [],
+    "word_differences": {}
+  },
+  {
+    "case": "401",
+    "study": "NCT00997100",
+    "historical_sha256": "6814bf724b698827d871160dd850ec8d507c176b7f71872b2b1dd068e7eac53a",
+    "historical_date": "June 24, 2015",
+    "modern_date": "2015-06-25",
+    "sections_changed": [],
+    "word_differences": {}
+  },
+  {
+    "case": "498",
+    "study": "NCT00497471",
+    "historical_sha256": "0514ed34346ead14205d01e976f4606cf5dc5a2300d04222b7e4559804c15440",
+    "historical_date": "July 5, 2007",
+    "modern_date": "2007-07-06",
+    "sections_changed": [],
+    "word_differences": {}
+  },
+  {
+    "case": "130",
+    "study": "NCT00845988",
+    "historical_sha256": "7bf54a9eccc4eea1aacb615bcdf25a74bffd9dfd42f06e56b847514391caa47d",
+    "historical_date": "December 4, 2013",
+    "modern_date": "2013-12-05",
+    "sections_changed": [],
+    "word_differences": {}
+  },
+  {
+    "case": "736",
+    "study": "NCT02467309",
+    "historical_sha256": "df5094b17e116ddd34f6f0c70b0a57e6e5fc5bbb6f9c891b7f2d3f14b2520dac",
+    "historical_date": "June 5, 2015",
+    "modern_date": "2015-06-10",
+    "sections_changed": [],
+    "word_differences": {}
+  },
+  {
+    "case": "706",
+    "study": "NCT02340533",
+    "historical_sha256": "8d3f1231f1ebf8448d6b1dd205298591a2e355974d6ac24d7fb2db93a395beeb",
+    "historical_date": "July 26, 2015",
+    "modern_date": "2015-07-28",
+    "sections_changed": [],
+    "word_differences": {}
+  },
+  {
+    "case": "397",
+    "study": "NCT00997100",
+    "historical_sha256": "6814bf724b698827d871160dd850ec8d507c176b7f71872b2b1dd068e7eac53a",
+    "historical_date": "June 24, 2015",
+    "modern_date": "2015-06-25",
+    "sections_changed": [],
+    "word_differences": {}
+  },
+  {
+    "case": "737",
+    "study": "NCT02467309",
+    "historical_sha256": "df5094b17e116ddd34f6f0c70b0a57e6e5fc5bbb6f9c891b7f2d3f14b2520dac",
+    "historical_date": "June 5, 2015",
+    "modern_date": "2015-06-10",
+    "sections_changed": [],
+    "word_differences": {}
+  },
+  {
+    "case": "544",
+    "study": "NCT02273232",
+    "historical_sha256": "73eb68e810bd1e67d73db9a220a5e4f6b39cb00a19b3769423e8caa6de5ec293",
+    "historical_date": "October 8, 2015",
+    "modern_date": "2017-09-25",
+    "sections_changed": [
+      "outcomes"
+    ],
+    "word_differences": {
+      "outcomes": [
+        [
+          "delete",
+          "magnetic resonance angiography for candidates at the beginning of trail will be compared with another mra at the end of the trial for each patient looking for new micro vessel formation it will be performed by the same radiologist who is blinded for candidates groups",
+          ""
+        ]
+      ]
+    }
+  },
+  {
+    "case": "other context",
+    "study": "NCT00163709",
+    "historical_sha256": "e12989ca53a0a2d7de8e70eaf9450a85a0627a7cb56b91f291b1f1f7fbf5b709",
+    "historical_date": "October 3, 2006",
+    "modern_date": "2006-10-04",
+    "sections_changed": [],
+    "word_differences": {}
+  },
+  {
+    "case": "other context",
+    "study": "NCT00170222",
+    "historical_sha256": "af248c07daeba7273f41b6ec994cfc529cd9e2633bd94bc9ec8438ef4a11f9d2",
+    "historical_date": "September 26, 2008",
+    "modern_date": "2008-09-29",
+    "sections_changed": [],
+    "word_differences": {}
+  },
+  {
+    "case": "other context",
+    "study": "NCT00827463",
+    "historical_sha256": "8b03b9f627f36e64fb9f6da1f0d5a6cbb08d8c41f439da6c606f1894ba0ca210",
+    "historical_date": "September 8, 2009",
+    "modern_date": "2016-08-22",
+    "sections_changed": [],
+    "word_differences": {}
+  },
+  {
+    "case": "other context",
+    "study": "NCT00839124",
+    "historical_sha256": "4f0a124b08138f785f29cc2b9c48485de21ecd618ad84a8798fb93bb3d6d02ea",
+    "historical_date": "December 4, 2012",
+    "modern_date": "2012-12-05",
+    "sections_changed": [],
+    "word_differences": {}
+  },
+  {
+    "case": "other context",
+    "study": "NCT00844987",
+    "historical_sha256": "8aab00810be5ce60e20c4f7187e1fc6c8d1ca52a31932527a6340541ce760e25",
+    "historical_date": "May 26, 2010",
+    "modern_date": "2010-05-27",
+    "sections_changed": [],
+    "word_differences": {}
+  },
+  {
+    "case": "other context",
+    "study": "NCT01207128",
+    "historical_sha256": "9334ef478db4849f7a136036acdb1b7d5a7436d34906117bad4b3a2f79440d39",
+    "historical_date": "April 18, 2012",
+    "modern_date": "2012-04-20",
+    "sections_changed": [],
+    "word_differences": {}
+  },
+  {
+    "case": "other context",
+    "study": "NCT01745731",
+    "historical_sha256": "0597d48c8a9547c069ba98552490d2a0eeb0c99a3a972634726e549588d08563",
+    "historical_date": "December 11, 2015",
+    "modern_date": "2015-12-14",
+    "sections_changed": [],
+    "word_differences": {}
+  },
+  {
+    "case": "other context",
+    "study": "NCT01863628",
+    "historical_sha256": "5a54441fc7f2b1e48e0fa76b829876a4d074a3520d9ddf0dbf1b084cdc591cdc",
+    "historical_date": "March 14, 2015",
+    "modern_date": "2015-03-17",
+    "sections_changed": [],
+    "word_differences": {}
+  },
+  {
+    "case": "other context",
+    "study": "NCT02390596",
+    "historical_sha256": "dfa2ceccbedb64eae342268849666e3d1a1cbd67261efd6d35e5afa73f6ace14",
+    "historical_date": "December 8, 2015",
+    "modern_date": "2019-07-02",
+    "sections_changed": [
+      "eligibility",
+      "detail",
+      "outcomes"
+    ],
+    "word_differences": {
+      "eligibility": [
+        [
+          "replace",
+          "8",
+          "3"
+        ],
+        [
+          "replace",
+          "10kg",
+          "5 kg"
+        ],
+        [
+          "replace",
+          "10kg",
+          "5kg"
+        ]
+      ],
+      "detail": [
+        [
+          "replace",
+          "2",
+          "3"
+        ]
+      ],
+      "outcomes": [
+        [
+          "delete",
+          "at d15 at latest",
+          ""
+        ]
+      ]
+    }
+  },
+  {
+    "case": "other context",
+    "study": "NCT02556359",
+    "historical_sha256": "66d536962639d98f2a1bd0a4c56e18403e424bd67793d2577f99cad35c8f6a6f",
+    "historical_date": "September 21, 2015",
+    "modern_date": "2016-04-18",
+    "sections_changed": [],
+    "word_differences": {}
+  },
+  {
+    "case": "other context",
+    "study": "NCT02618655",
+    "historical_sha256": "5ecf4469adaded673ddc407fc80a59752adc30c76835c05d521d9b0a33d00099",
+    "historical_date": "December 11, 2015",
+    "modern_date": "2016-07-26",
+    "sections_changed": [],
+    "word_differences": {}
+  }
+]

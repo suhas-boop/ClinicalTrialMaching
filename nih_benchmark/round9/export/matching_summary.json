@@ -1,0 +1,16 @@
+{
+  "prediction_sha256": "b551d4ef5404bdfd7ef56086391990558c93741a62adfb2a5cf256003b865356",
+  "cases": 134,
+  "changed": 0,
+  "fhir_results": {
+    "MISSING_DATA": 93,
+    "AUTHORING_HOLD": 18,
+    "MET": 6,
+    "INVESTIGATOR_ACTIONS": 6,
+    "STUDY_ACTION": 2,
+    "SOURCE_SCOPE_HOLD": 7,
+    "PATIENT_SURVEY": 2
+  },
+  "binary_agreement": 6,
+  "definite_results": 6
+}

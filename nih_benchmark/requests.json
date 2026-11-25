@@ -1,0 +1,394 @@
+[
+  {
+    "criteria": [
+      "25"
+    ],
+    "id": "013f1a455da5940df7c3440dba9e7071ae6e1a8de40f6bdab860d213f591e2cc",
+    "request": "severe hypertension",
+    "route": "retrieve_record"
+  },
+  {
+    "criteria": [
+      "25"
+    ],
+    "id": "9f048159e87e05d1f2074d415ee05bd20a46a7cd7cb24359e8993532bab988c4",
+    "request": "malignant hypertension",
+    "route": "retrieve_record"
+  },
+  {
+    "criteria": [
+      "25"
+    ],
+    "id": "a9731dc21f71ac2b1a27cdb8da53e150e8dff78024f7021e6396175ebfa32b02",
+    "request": "secondary hypertension",
+    "route": "retrieve_record"
+  },
+  {
+    "criteria": [
+      "26"
+    ],
+    "id": "3cd4b0900d8a2c7a955da213fcc36dc255207127163bca022f283c6fa9b3db7d",
+    "request": "pregnant",
+    "route": "retrieve_record"
+  },
+  {
+    "criteria": [
+      "26"
+    ],
+    "id": "4d361f19276ecd71b81269f31ad61f7a7e4d60be30c8e3ae31056fa44e96a46e",
+    "request": "childbearing potential",
+    "route": "retrieve_record"
+  },
+  {
+    "criteria": [
+      "29"
+    ],
+    "id": "9f90606f3383d5c487a287390eef5728a7c35b7f01ab4af42249ebcb7d4028b0",
+    "request": "serum creatinine mg dl",
+    "route": "retrieve_record"
+  },
+  {
+    "criteria": [
+      "145"
+    ],
+    "id": "0cce2833d4d08c34487e57772ae01540101d898ddb032a3e70b005c26e3ea332",
+    "request": "active suicidal ideation",
+    "route": "retrieve_record"
+  },
+  {
+    "criteria": [
+      "147"
+    ],
+    "id": "b82dd07f03035f9788e8b852017789c35974915cb7606c9a3afee2d9ac11b19a",
+    "request": "previous deep brain stimulation surgery",
+    "route": "retrieve_record"
+  },
+  {
+    "criteria": [
+      "150"
+    ],
+    "id": "a1bec0ca49739ea8a134c610ebe7e148d2bff2af029b6d63dcb3cd65d2453b8a",
+    "request": "enrolled two year blinded ASA trial",
+    "route": "study_team"
+  },
+  {
+    "criteria": [
+      "150"
+    ],
+    "id": "d0e9d462b3329adc5d5ccd67b27d74d15e68fbfaeb3299e33dc755871054e098",
+    "request": "entered three year ASA extension",
+    "route": "study_team"
+  },
+  {
+    "criteria": [
+      "154"
+    ],
+    "id": "7c19a16158a3acec93d0fc722a686b02bdb3396c1bc29707a446bb4c56d58c7f",
+    "request": "healthy subject",
+    "route": "retrieve_record"
+  },
+  {
+    "criteria": [
+      "154"
+    ],
+    "id": "699f38c0bc10bf059d42a236f40e792521278147d6a2b392ff82b7e447ef0ea2",
+    "request": "fitzpatrick I",
+    "route": "retrieve_record"
+  },
+  {
+    "criteria": [
+      "154"
+    ],
+    "id": "c45503da36ed3df430508fd5d12eb4031b3185ca5ee39b3cf1a2bcd2dc03f1bf",
+    "request": "fitzpatrick II",
+    "route": "retrieve_record"
+  },
+  {
+    "criteria": [
+      "154"
+    ],
+    "id": "a1ed382328aca3c08b6aa722149d1d32ce81030b3b75e85ecb0012cff13dbe8b",
+    "request": "fitzpatrick III",
+    "route": "retrieve_record"
+  },
+  {
+    "criteria": [
+      "217"
+    ],
+    "id": "c40c676edcddb05cfe863f4fe2e522ca72ed451a1f247bbc4253189fda600d88",
+    "request": "traumatic cause of presenting dyspnea",
+    "route": "retrieve_record"
+  },
+  {
+    "criteria": [
+      "218"
+    ],
+    "id": "7234c799178b264f79978d47e706433c463bd7805a5c80675e7be65e2cfee8db",
+    "request": "Confirm malformed serum creatinine unit in the supplied excerpt.",
+    "route": "protocol_review"
+  },
+  {
+    "criteria": [
+      "385"
+    ],
+    "id": "ca6365a2aaaf517cebaea3da898da3d5540d1121c982a7df08dde9ff06cfa5fa",
+    "request": "can take oral medication",
+    "route": "retrieve_record"
+  },
+  {
+    "criteria": [
+      "385"
+    ],
+    "id": "b6fd74942168c4d715511ab9d3756ac2675b5ee7cf13bf5502484f504c33ccb2",
+    "request": "can retain oral medication",
+    "route": "retrieve_record"
+  },
+  {
+    "criteria": [
+      "396"
+    ],
+    "id": "aeca76142818e38ddb1a11266f408864018d8358ad8644f5d06025eee64397f2",
+    "request": "history of mi",
+    "route": "retrieve_record"
+  },
+  {
+    "criteria": [
+      "396"
+    ],
+    "id": "9bb9bf0329f46ee38eed919b3b334a96fb2bcdee786b29d7e628fd74351c8a42",
+    "request": "current uncontrolled angina",
+    "route": "retrieve_record"
+  },
+  {
+    "criteria": [
+      "396"
+    ],
+    "id": "22c8f888c7a31194ee158655f85d722303bc8f823e8409d3da42574e0fb6c487",
+    "request": "severe uncontrolled ventricular arrhythmia",
+    "route": "retrieve_record"
+  },
+  {
+    "criteria": [
+      "396"
+    ],
+    "id": "679cb66ec15035f038899912244877d244df9db8c3465f18a7cc098753f44ef1",
+    "request": "symptomatic congestive heart failure",
+    "route": "retrieve_record"
+  },
+  {
+    "criteria": [
+      "396"
+    ],
+    "id": "bd8c6c745f703dd82c9ce39f416e3f46f7cac986f36cc87e79fca3633f08c0bc",
+    "request": "unstable angina",
+    "route": "retrieve_record"
+  },
+  {
+    "criteria": [
+      "396"
+    ],
+    "id": "9f8bd7b3e6a98dbdc1b8f7f390a2daaca041a0b344afa88f1cb398d7443a3f40",
+    "request": "ecg acute ischemia",
+    "route": "retrieve_record"
+  },
+  {
+    "criteria": [
+      "397"
+    ],
+    "id": "20af629bd2bf941295560b6dc4bbe3c64f6699cc81fefd158921b814f1d38c88",
+    "request": "marked baseline qt prolongation",
+    "route": "retrieve_record"
+  },
+  {
+    "criteria": [
+      "400"
+    ],
+    "id": "612503f0e5658f73d91140c81a35bf005871b4a7c9217d867f53c4680c8f47d3",
+    "request": "history ischemic cns disease",
+    "route": "retrieve_record"
+  },
+  {
+    "criteria": [
+      "400"
+    ],
+    "id": "a227b2531c60a7ff79ce3f1119d68fe8613714e0927c8ec8cf1765adf8f28163",
+    "request": "current ischemic cns disease",
+    "route": "retrieve_record"
+  },
+  {
+    "criteria": [
+      "401"
+    ],
+    "id": "c48b07fe8770c8c698dcf36dfa5b602aa77ac8251bff647fdaa4d361d4f7c93e",
+    "request": "current or prior five year malignancy outside specified exceptions",
+    "route": "retrieve_record"
+  },
+  {
+    "criteria": [
+      "402"
+    ],
+    "id": "e6ff0e8d165d2605711d95b8d9bc56b1916e1be364ae71ffa90e5c4ea6d7b1a3",
+    "request": "current severe infection",
+    "route": "retrieve_record"
+  },
+  {
+    "criteria": [
+      "414"
+    ],
+    "id": "889456401de0ffb3fd884948749dbdd0b38f8c9b7e63514c07d90406c8fc325a",
+    "request": "systemic lupus erythematosus",
+    "route": "retrieve_record"
+  },
+  {
+    "criteria": [
+      "418"
+    ],
+    "id": "34c31415e4342cf606236742a6cfc197fe50bc011b996d262e853cc635ebe215",
+    "request": "failed mri metal screen",
+    "route": "retrieve_record"
+  },
+  {
+    "criteria": [
+      "419"
+    ],
+    "id": "c8598e201347cc7f3ccdc17b7061ac2778ecdc35540707b4be474ade88dfb109",
+    "request": "claustrophobia",
+    "route": "retrieve_record"
+  },
+  {
+    "criteria": [
+      "419"
+    ],
+    "id": "ec2f45972345d83edb9ccc7600fb70db45f772d7058f3d5628e0b1e458a29a99",
+    "request": "sedation required to hold still",
+    "route": "retrieve_record"
+  },
+  {
+    "criteria": [
+      "850"
+    ],
+    "id": "afd79fc7b26f1ba5b9cb36aab1719931906c8b122c0b41842180b0872beb351a",
+    "request": "asthma exacerbations per week",
+    "route": "retrieve_record"
+  },
+  {
+    "criteria": [
+      "890"
+    ],
+    "id": "1fa2f1363ff9fb2c48f0c7f97ec81e738a57fee80f7a435a79a0546a4b0e831e",
+    "request": "cognitive impairment on admission screen",
+    "route": "retrieve_record"
+  },
+  {
+    "criteria": [
+      "919"
+    ],
+    "id": "81ce479acd6e355db74c907fec99516f9dd100c278f0ae5a8a02c615a1109004",
+    "request": "Definition of severe CDAD referenced above is absent.",
+    "route": "protocol_review"
+  },
+  {
+    "criteria": [
+      "935"
+    ],
+    "id": "576e17457b2c9ed4fed68578256bd07873cc52f830a9d1e1fa5a500c25b376e1",
+    "request": "enrolling physician considers mycobacterial culture likely positive",
+    "route": "investigator"
+  },
+  {
+    "criteria": [
+      "936"
+    ],
+    "id": "7485379b10ac83a976a2f39effc5396c10af75f1f8c6506491e0eaf4bdcc4838",
+    "request": "china subject",
+    "route": "study_team"
+  },
+  {
+    "criteria": [
+      "938"
+    ],
+    "id": "67e990b39936d8a3fb30f3e0fcd52024eb7d28ae764832068273a18971e69f9d",
+    "request": "willing to provide blood samples",
+    "route": "patient"
+  },
+  {
+    "criteria": [
+      "939"
+    ],
+    "id": "ca447b8c31b9a6ebc80958dfd0695903f1fd81b52bd21b3b948285c4057b8f26",
+    "request": "willing to store samples",
+    "route": "patient"
+  },
+  {
+    "criteria": [
+      "940"
+    ],
+    "id": "026c5470beb3cb8be5242d7438a9bb1403a090f211d377194a3ab68ee83358de",
+    "request": "acute liver disease",
+    "route": "retrieve_record"
+  },
+  {
+    "criteria": [
+      "940"
+    ],
+    "id": "d0c707ff1d8b40691e7678634913025f5d924a09ae9a1c41a6a45bad84bfe44f",
+    "request": "acute kidney disease",
+    "route": "retrieve_record"
+  },
+  {
+    "criteria": [
+      "945"
+    ],
+    "id": "fc8850bc3e329a8d09512c30d1746a2382e1a9eb96643e2b0219caee700192d8",
+    "request": "current unlicensed investigational aspergillosis drug",
+    "route": "retrieve_record"
+  },
+  {
+    "criteria": [
+      "946"
+    ],
+    "id": "603f97e6a4704385292ba189deec314ac1596e9ebe782b4dfc92d6de9281509a",
+    "request": "listed antifungal for index probable or proven aspergillosis over seven days immediately before randomization",
+    "route": "retrieve_record"
+  },
+  {
+    "criteria": [
+      "952"
+    ],
+    "id": "ab1f81d4d1cebd632b8c8c3d2328a0527701c2e8aa4308daba3653486023123a",
+    "request": "on artificial ventilation",
+    "route": "retrieve_record"
+  },
+  {
+    "criteria": [
+      "952"
+    ],
+    "id": "29ad5ce012da46aa815dfd6bfebba3a671da15ff1e17617f09fc937b6b2e2df9",
+    "request": "extubation unlikely within 24h of entry",
+    "route": "retrieve_record"
+  },
+  {
+    "criteria": [
+      "953"
+    ],
+    "id": "a21c6810d9edb4120b3cd2e6c4f36dcd590c98b49bbd4057dad1869db5bc0dac",
+    "request": "prior azole or echinocandin allergy hypersensitivity or serious reaction",
+    "route": "retrieve_record"
+  },
+  {
+    "criteria": [
+      "955"
+    ],
+    "id": "ac79aa8ae2998f47cf8bf4a86ca8f9df0297dccb239fc1a58dab13e83622548c",
+    "request": "investigator identified unacceptable risk from concomitant condition",
+    "route": "investigator"
+  },
+  {
+    "criteria": [
+      "957"
+    ],
+    "id": "b13e99f5fae4779c38111127d1bae7a1a8a71643af69aac9efdb294963467964",
+    "request": "life expectancy under seven days",
+    "route": "retrieve_record"
+  }
+]

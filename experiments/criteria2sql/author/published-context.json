@@ -1,0 +1,37 @@
+{
+  "source": "data/dev.jsonl",
+  "dev_line": 242,
+  "criterion": "adult patients,  >  /  = 18 years of age",
+  "phase": "1",
+  "table_id": "50",
+  "table_schema": {
+    "id": "50",
+    "header": [
+      "id",
+      "gender",
+      "hemoglobin_a1c_hba1c",
+      "diabetic",
+      "estimated_glomerular_filtration_rate_egfr",
+      "hba1c",
+      "age",
+      "NOUSE"
+    ],
+    "types": [
+      "int",
+      "string",
+      "float",
+      "string",
+      "int",
+      "float",
+      "float",
+      "float"
+    ]
+  },
+  "revision": "045528d70a7d788775a24763adfed6c66023c914",
+  "dev_sha256": "00dbac8202e0f3b1c8ec85dfc333c6bafb2f92e60ab3f3242bcc38a3b2a89f4b",
+  "tables_source": "data/dev.tables.jsonl",
+  "tables_sha256": "102ac079098d1015532752b68bdbdbc15ca98270958f118636d6d2edb5e4ac54",
+  "tables_line": 50,
+  "dataset_context": "The published record has no NCT identifier, versioned clinical protocol, governing clauses or adjudicated answers. Phase is a source dataset field.",
+  "units": "The criterion names age in years; the source schema only specifies float."
+}

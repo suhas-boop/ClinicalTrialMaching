@@ -1,0 +1,21 @@
+{
+  "status": "EXECUTABLE",
+  "expression": {
+    "fact": "age",
+    "op": "ge",
+    "value": 18
+  },
+  "questions": [],
+  "gaps": [],
+  "citations": [
+    {
+      "source_id": "criterion",
+      "quote": "adult patients,  >  /  = 18 years of age"
+    },
+    {
+      "source_id": "protocol",
+      "quote": "evaluate this positive age requirement as an inclusion predicate at the selected screening encounter."
+    }
+  ],
+  "reason": "The written comparison includes the lower bound of 18 years. Under the supplied experiment convention, the bound applies to completed age on the screening date. The word adult describes the same age requirement."
+}

@@ -1,0 +1,58 @@
+{
+  "chart_validation": {
+    "schema": "HL7 FHIR R4 4.0.1 JSON schema",
+    "bundles": 53,
+    "unique_resources": 1008,
+    "within_bundle_reference_occurrences": 2289,
+    "source_note_round_trips": 53,
+    "index_agrees_with_export": true,
+    "scope": "Schema, local references, subject isolation and provenance. No full terminology or implementation-guide certification."
+  },
+  "replay_checks": {
+    "r17_shipped_export": {
+      "cases": 134,
+      "definite": 6,
+      "agreed_definite": 6,
+      "prediction_sha256": "783a4f86ca1cfb93f58ae1f775b1042ede0cf9fb97cf4180778e8bc8b41caa85",
+      "distinct_requests": {
+        "identify_subject": 1,
+        "investigator": 8,
+        "patient": 3,
+        "protocol_review": 15,
+        "retrieve_record": 166,
+        "study_team": 3
+      }
+    },
+    "r17_rebuilt_without_source_guard": {
+      "cases": 134,
+      "definite": 6,
+      "agreed_definite": 6,
+      "prediction_sha256": "783a4f86ca1cfb93f58ae1f775b1042ede0cf9fb97cf4180778e8bc8b41caa85",
+      "distinct_requests": {
+        "identify_subject": 1,
+        "investigator": 8,
+        "patient": 3,
+        "protocol_review": 15,
+        "retrieve_record": 164,
+        "study_team": 3
+      }
+    },
+    "r18_rebuilt": {
+      "cases": 134,
+      "definite": 6,
+      "agreed_definite": 6,
+      "prediction_sha256": "783a4f86ca1cfb93f58ae1f775b1042ede0cf9fb97cf4180778e8bc8b41caa85",
+      "distinct_requests": {
+        "identify_subject": 1,
+        "investigator": 8,
+        "patient": 3,
+        "protocol_review": 15,
+        "retrieve_record": 164,
+        "study_team": 3
+      }
+    }
+  },
+  "removed_observations_compared_with_fresh_r17": 104,
+  "added_observations_compared_with_fresh_r17": 0,
+  "scope": "The fresh unguarded conversion isolates the benchmark-source change. The originally packaged R17 chart was older than its extractor."
+}

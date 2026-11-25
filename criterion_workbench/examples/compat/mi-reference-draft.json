@@ -1,0 +1,61 @@
+{
+  "criterion_id": "MI-LMS-01",
+  "study": "NCT05653388",
+  "protocol_sha256": "f920e02d5b194d147a76e2c60e94884f599d3982cda8e7ecfaee2a10a5f3f08b",
+  "catalog_version": "four-study-r4",
+  "polarity": "inclusion",
+  "disposition": "EXECUTABLE",
+  "obligations": [
+    {
+      "id": "obligation-1",
+      "statement": "Document leiomyosarcoma on this cancer episode.",
+      "source_locator": "§2.1 Eligibility Criteria, bullet 1, word paragraph 423CE7E7"
+    },
+    {
+      "id": "obligation-2",
+      "statement": "The same episode is unresectable or metastatic. No age requirement.",
+      "source_locator": "§2.1 Eligibility Criteria, bullet 1, word paragraph 423CE7E7"
+    }
+  ],
+  "draft": {
+    "all": [
+      "lms",
+      {
+        "any": [
+          "unresectable",
+          "metastatic"
+        ]
+      }
+    ]
+  },
+  "bindings": [
+    {
+      "fact": "lms",
+      "status": "BOUND",
+      "catalog_key": "lms"
+    },
+    {
+      "fact": "unresectable",
+      "status": "BOUND",
+      "catalog_key": "unresectable"
+    },
+    {
+      "fact": "metastatic",
+      "status": "BOUND",
+      "catalog_key": "metastatic"
+    }
+  ],
+  "clinical_questions": [],
+  "executable": {
+    "all": [
+      "lms",
+      {
+        "any": [
+          "unresectable",
+          "metastatic"
+        ]
+      }
+    ]
+  },
+  "rationale": "Compatibility fixture derived from the previously registered rule. No new model generation."
+}

@@ -1,0 +1,13 @@
+{
+  "criteria": 12,
+  "original_topics": 10,
+  "initial_chart_lookups": 10,
+  "new_definite": 0,
+  "states": {
+    "MISSING_DATA": 12
+  },
+  "source_sha256": {
+    "2014": "8fa33d3a258da436c05d6009fc5713cc56038cc488535e52eccd6c19a11fc9e9",
+    "2015": "511f8992b7b2676a14a14cf556b2995a1084004691f2e7c031151d3eeac4e59c"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "bundle": {
+    "entry": [
+      {
+        "resource": {
+          "id": "sigir-201522",
+          "meta": {
+            "lastUpdated": "2026-05-01T12:00:00Z",
+            "versionId": "1"
+          },
+          "resourceType": "Patient"
+        }
+      },
+      {
+        "resource": {
+          "id": "index-sigir-201522",
+          "meta": {
+            "lastUpdated": "2026-05-01T12:00:00Z",
+            "versionId": "1"
+          },
+          "resourceType": "Condition",
+          "subject": {
+            "reference": "Patient/sigir-201522"
+          }
+        }
+      },
+      {
+        "resource": {
+          "class": {
+            "code": "AMB",
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode"
+          },
+          "id": "screen-86d8f3a374c17dc2747805d7",
+          "identifier": [
+            {
+              "system": "urn:pocketmd:research:protocol-screening",
+              "value": "NCT01207128|6f2f3e34ef249cb8fe83484dad9b9bcdb4c8206cf97f69c29235689aed7e04d3|screening"
+            },
+            {
+              "system": "urn:pocketmd:demo:screening-study",
+              "value": "NCT01207128"
+            }
+          ],
+          "meta": {
+            "lastUpdated": "2026-05-01T12:00:00Z",
+            "versionId": "1"
+          },
+          "period": {
+            "start": "2026-05-01T12:00:00Z"
+          },
+          "resourceType": "Encounter",
+          "status": "in-progress",
+          "subject": {
+            "reference": "Patient/sigir-201522"
+          }
+        }
+      }
+    ],
+    "resourceType": "Bundle",
+    "type": "collection"
+  },
+  "context": {
+    "as_of": "2026-05-01T12:00:00Z",
+    "enabled_contracts": [
+      "f-04b554ad8dea2f70b5cc24a9",
+      "f-134dc312cd2222569a48f779",
+      "f-823e151c41ea9f9a190c358d",
+      "f-a2623ff55a19c91b276c3a18",
+      "f-e9447b29cc440ec760fe2ef5",
+      "f-eb15ca93db2daac2a32ff139",
+      "f-f9f25cbe46d7dbd191933912"
+    ],
+    "encounter": "screen-86d8f3a374c17dc2747805d7",
+    "episode": "index-sigir-201522",
+    "patient": "sigir-201522",
+    "protocol_sha256": "6f2f3e34ef249cb8fe83484dad9b9bcdb4c8206cf97f69c29235689aed7e04d3",
+    "site_zone": "UTC",
+    "study": "NCT01207128",
+    "trusted_roles": {
+      "investigator": [
+        "PractitionerRole/demo-investigator"
+      ],
+      "record": [
+        "Organization/demo-record"
+      ],
+      "site": [
+        "Organization/demo-site"
+      ]
+    }
+  }
+}

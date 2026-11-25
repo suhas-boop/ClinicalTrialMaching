@@ -1,0 +1,43 @@
+{
+  "prediction_sha256": "bde5ccd5104332851d4772ecedeb0aedd5a095df26632f64cdb8cdee5fb350ff",
+  "reference_sha256": "71b5272e3fac79f17fced1433c3f017a58bb3c73ca025cf2240ee7a469c0c88d",
+  "pairs": 68,
+  "counts_by_disposition": {
+    "CONTINUE_SCREENING": {
+      "0": 0,
+      "1": 30,
+      "2": 32,
+      "UNJUDGED": 0
+    },
+    "NOT_ELIGIBLE_AT_PRESENTATION": {
+      "0": 0,
+      "1": 3,
+      "2": 3,
+      "UNJUDGED": 0
+    }
+  },
+  "total_referral_grades": {
+    "0": 0,
+    "1": 33,
+    "2": 35,
+    "UNJUDGED": 0
+  },
+  "excluded_despite_high_referral": [
+    {
+      "patient": "sigir-201413",
+      "study": "NCT00163709",
+      "gate": "registered_age_window"
+    },
+    {
+      "patient": "sigir-201418",
+      "study": "NCT00557219",
+      "gate": "registered_age_window"
+    },
+    {
+      "patient": "sigir-201512",
+      "study": "NCT02467309",
+      "gate": "registered_age_window"
+    }
+  ],
+  "interpretation": "Screening dispositions and medical assessor referral judgments answer different questions. The selected cases lack a grade-zero non-referral comparator. These numbers do not estimate clinical eligibility accuracy or specificity."
+}

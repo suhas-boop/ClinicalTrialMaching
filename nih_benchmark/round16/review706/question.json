@@ -1,0 +1,35 @@
+{
+  "study": "NCT02340533",
+  "criterion_id": "706",
+  "registry_sha256": "3e1e69b3de29bb43f7f63af2f5d5b4df98a76f966e71531b51e12488b0683733",
+  "criterion_text": "females complaining of pelvic congestion: dysmenorrhea, dyspareunia, chronic pelvic pain, menorrhagia, metrorrhagia",
+  "question": "For this registered inclusion criterion, must the patient report any one, all five, or a different combination of the five symptoms? Do these symptoms alone establish the complaint, or must pelvic congestion be separately diagnosed? Can the current presenting complaint and a source description of the participant as a woman or female be used without an additional duration, scale or assessment? Identify the governing protocol version and clause.",
+  "governing_protocol_sha256": null,
+  "governing_version": null,
+  "source_locator": null,
+  "response_fields": {
+    "operator": [
+      "ANY",
+      "ALL",
+      "other_requires_followup"
+    ],
+    "requirement": [
+      "symptoms_suffice",
+      "also_require_separate_diagnosis",
+      "other_requires_followup"
+    ],
+    "target": [
+      "screened_patient_current_presentation",
+      "other_requires_followup"
+    ],
+    "population_evidence": [
+      "explicit_female_or_woman_patient_description",
+      "other_requires_followup"
+    ],
+    "additional_thresholds": [
+      "none",
+      "other_requires_followup"
+    ]
+  },
+  "answer": null
+}

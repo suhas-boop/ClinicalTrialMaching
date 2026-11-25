@@ -1,0 +1,128 @@
+{
+  "pairs": 134,
+  "definitive_reference": 91,
+  "prediction_sha256": "f0eb605ec1998262c2b2d6071b8e866a46bd744788abcff076255aab6de21d1a",
+  "arms": {
+    "strict": {
+      "agreeing": 6,
+      "wrong_definitive": 0,
+      "definitive_on_indeterminate": 0,
+      "pending": {
+        "MISSING_DATA": 62,
+        "AUTHORING_HOLD": 12,
+        "INVESTIGATOR_ACTIONS": 5,
+        "SOURCE_SCOPE_HOLD": 4,
+        "PATIENT_SURVEY": 2
+      }
+    },
+    "literal_synthetic_cohort": {
+      "agreeing": 7,
+      "wrong_definitive": 0,
+      "definitive_on_indeterminate": 0,
+      "pending": {
+        "MISSING_DATA": 61,
+        "AUTHORING_HOLD": 12,
+        "INVESTIGATOR_ACTIONS": 5,
+        "SOURCE_SCOPE_HOLD": 4,
+        "PATIENT_SURVEY": 2
+      }
+    },
+    "supported_exam": {
+      "agreeing": 7,
+      "wrong_definitive": 0,
+      "definitive_on_indeterminate": 0,
+      "pending": {
+        "MISSING_DATA": 61,
+        "AUTHORING_HOLD": 12,
+        "INVESTIGATOR_ACTIONS": 5,
+        "SOURCE_SCOPE_HOLD": 4,
+        "PATIENT_SURVEY": 2
+      }
+    },
+    "user_interpretation": {
+      "agreeing": 7,
+      "wrong_definitive": 0,
+      "definitive_on_indeterminate": 0,
+      "pending": {
+        "MISSING_DATA": 62,
+        "AUTHORING_HOLD": 11,
+        "INVESTIGATOR_ACTIONS": 5,
+        "SOURCE_SCOPE_HOLD": 4,
+        "PATIENT_SURVEY": 2
+      }
+    },
+    "literal_plus_exam": {
+      "agreeing": 8,
+      "wrong_definitive": 0,
+      "definitive_on_indeterminate": 0,
+      "pending": {
+        "MISSING_DATA": 60,
+        "AUTHORING_HOLD": 12,
+        "INVESTIGATOR_ACTIONS": 5,
+        "SOURCE_SCOPE_HOLD": 4,
+        "PATIENT_SURVEY": 2
+      }
+    },
+    "exam_plus_user": {
+      "agreeing": 8,
+      "wrong_definitive": 0,
+      "definitive_on_indeterminate": 0,
+      "pending": {
+        "MISSING_DATA": 61,
+        "AUTHORING_HOLD": 11,
+        "INVESTIGATOR_ACTIONS": 5,
+        "SOURCE_SCOPE_HOLD": 4,
+        "PATIENT_SURVEY": 2
+      }
+    },
+    "combined_experimental": {
+      "agreeing": 9,
+      "wrong_definitive": 0,
+      "definitive_on_indeterminate": 0,
+      "pending": {
+        "MISSING_DATA": 60,
+        "AUTHORING_HOLD": 11,
+        "INVESTIGATOR_ACTIONS": 5,
+        "SOURCE_SCOPE_HOLD": 4,
+        "PATIENT_SURVEY": 2
+      }
+    }
+  },
+  "changed_cases": {
+    "186": {
+      "condition": "numeric lower bound inferred by optional examination terminology policy",
+      "lines": [
+        0,
+        2
+      ],
+      "policy": "supported_exam",
+      "resources": [
+        "Observation/x-5afa550df507089a1427470e47fda7",
+        "Observation/x-bfae9f5861f5f7a14cd6cf0e9b3b84"
+      ]
+    },
+    "322": {
+      "condition": "literal adult descriptor, frozen public vignettes only",
+      "lines": [
+        0
+      ],
+      "policy": "literal_synthetic_cohort",
+      "resources": [
+        "Observation/x-85e389df28e4a610af51e890063ba5"
+      ]
+    },
+    "706": {
+      "condition": "user interpretation only; no governing sponsor clause verified",
+      "lines": [
+        0
+      ],
+      "policy": "user_interpretation",
+      "resources": [
+        "DocumentReference/pinned-public-note#sha256=3063f3a37fe14e1c9fc7388b6f384f234f989cf0a5282294b72aa98f1ca4542d&line=0&start=112&end=147",
+        "DocumentReference/pinned-public-note#sha256=3063f3a37fe14e1c9fc7388b6f384f234f989cf0a5282294b72aa98f1ca4542d&line=0&start=17&end=22",
+        "DocumentReference/pinned-public-note#sha256=3063f3a37fe14e1c9fc7388b6f384f234f989cf0a5282294b72aa98f1ca4542d&line=0&start=36&end=81",
+        "DocumentReference/pinned-public-note#sha256=3063f3a37fe14e1c9fc7388b6f384f234f989cf0a5282294b72aa98f1ca4542d&line=0&start=83&end=107"
+      ]
+    }
+  }
+}

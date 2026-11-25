@@ -1,0 +1,1147 @@
+{
+  "policy": {
+    "policy": "adult-exam-tachycardia-v1",
+    "term": "tachycardia",
+    "fact": "heart_rate",
+    "unit": "/min",
+    "open_lower_bound": 100,
+    "population": "Adults with an affirmative clinical examination finding at the indexed encounter",
+    "definition": "https://www.mayoclinic.org/diseases-conditions/tachycardia/symptoms-causes/syc-20355127",
+    "resting_definition": "https://www.heart.org/en/health-topics/arrhythmia/about-arrhythmia/tachycardia--fast-heart-rate/",
+    "interpretation": "Apply the general adult clinical term at the documented exam. A separate definition explicitly limited to rest would also require rest to be documented.",
+    "governing_criteria": [
+      {
+        "study": "NCT01526382",
+        "text": "Heart rate of at least 90/min;",
+        "type": "inclusion",
+        "predicate": {
+          "fact": "heart_rate",
+          "op": "ge",
+          "value": 90
+        },
+        "evaluation_scope": "single listed predicate at the recorded examination",
+        "registry_locator": "eligibility/criteria/textblock",
+        "registry_sha256": "601eb5649d5812e9bf570284fc7c0fc9ec7272df7959caba59737dc41bd77a76",
+        "parent_rule": "Shock was defined by the presence 4 criteria:",
+        "screening_source": "https://doi.org/10.1007/s00134-014-3638-4",
+        "screening_context": "Study recruitment evaluated patients in the first 24 hours after ICU admission. The isolated item does not establish the complete shock definition, ICU timing or trial eligibility."
+      }
+    ]
+  },
+  "catalog_sha256": "8f74ae1b4fb2c4de07965dd52dc56fba5a04a9e82d1ae500452e9e414eaf2e66",
+  "rows": [
+    {
+      "subject": "Patient/sigir-20141",
+      "study": "NCT01397994",
+      "case": "20",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "2f12c68c43f30f489cf4cd56b180bdde99acef642cdaeec017d7ad18a2d93202"
+    },
+    {
+      "subject": "Patient/sigir-20141",
+      "study": "NCT00149227",
+      "case": "25",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "2f12c68c43f30f489cf4cd56b180bdde99acef642cdaeec017d7ad18a2d93202"
+    },
+    {
+      "subject": "Patient/sigir-20141",
+      "study": "NCT00149227",
+      "case": "26",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "2f12c68c43f30f489cf4cd56b180bdde99acef642cdaeec017d7ad18a2d93202"
+    },
+    {
+      "subject": "Patient/sigir-20141",
+      "study": "NCT00149227",
+      "case": "29",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "2f12c68c43f30f489cf4cd56b180bdde99acef642cdaeec017d7ad18a2d93202"
+    },
+    {
+      "subject": "Patient/sigir-20142",
+      "study": "NCT02618655",
+      "case": "34",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "190e19212725660d52bc5b51c635644cf2b6af8ff037128327d7563220118625"
+    },
+    {
+      "subject": "Patient/sigir-20142",
+      "study": "NCT02618655",
+      "case": "36",
+      "strict": "AUTHORING_HOLD",
+      "exam_arm": "AUTHORING_HOLD",
+      "source_sha256": "190e19212725660d52bc5b51c635644cf2b6af8ff037128327d7563220118625"
+    },
+    {
+      "subject": "Patient/sigir-20143",
+      "study": "NCT01452971",
+      "case": "44",
+      "strict": "MET",
+      "exam_arm": "MET",
+      "source_sha256": "7db7b98d01354acf855cd7b610383ea9dd1df80ead35eeb47b9ba43467b559ad"
+    },
+    {
+      "subject": "Patient/sigir-20143",
+      "study": "NCT01452971",
+      "case": "45",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "7db7b98d01354acf855cd7b610383ea9dd1df80ead35eeb47b9ba43467b559ad"
+    },
+    {
+      "subject": "Patient/sigir-20143",
+      "study": "NCT02490059",
+      "case": "46",
+      "strict": "AUTHORING_HOLD",
+      "exam_arm": "AUTHORING_HOLD",
+      "source_sha256": "7db7b98d01354acf855cd7b610383ea9dd1df80ead35eeb47b9ba43467b559ad"
+    },
+    {
+      "subject": "Patient/sigir-20144",
+      "study": "NCT02390596",
+      "case": "55",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "b84f8404e9c22885aa68fdc3dcafea94221f249e77b257611aa12581d9195e7b"
+    },
+    {
+      "subject": "Patient/sigir-20144",
+      "study": "NCT00841789",
+      "case": "81",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "b84f8404e9c22885aa68fdc3dcafea94221f249e77b257611aa12581d9195e7b"
+    },
+    {
+      "subject": "Patient/sigir-20146",
+      "study": "NCT02512159",
+      "case": "108",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "22f6ea5a775d6019acbaea70d047802924963c446af7e6dc2e61ef9f88c0abe9"
+    },
+    {
+      "subject": "Patient/sigir-20146",
+      "study": "NCT02512159",
+      "case": "109",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "22f6ea5a775d6019acbaea70d047802924963c446af7e6dc2e61ef9f88c0abe9"
+    },
+    {
+      "subject": "Patient/sigir-20146",
+      "study": "NCT02512159",
+      "case": "111",
+      "strict": "AUTHORING_HOLD",
+      "exam_arm": "AUTHORING_HOLD",
+      "source_sha256": "22f6ea5a775d6019acbaea70d047802924963c446af7e6dc2e61ef9f88c0abe9"
+    },
+    {
+      "subject": "Patient/sigir-20146",
+      "study": "NCT02512159",
+      "case": "115",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "22f6ea5a775d6019acbaea70d047802924963c446af7e6dc2e61ef9f88c0abe9"
+    },
+    {
+      "subject": "Patient/sigir-20146",
+      "study": "NCT02512159",
+      "case": "116",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "22f6ea5a775d6019acbaea70d047802924963c446af7e6dc2e61ef9f88c0abe9"
+    },
+    {
+      "subject": "Patient/sigir-20146",
+      "study": "NCT00015626",
+      "case": "120",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "22f6ea5a775d6019acbaea70d047802924963c446af7e6dc2e61ef9f88c0abe9"
+    },
+    {
+      "subject": "Patient/sigir-20147",
+      "study": "NCT00845988",
+      "case": "130",
+      "strict": "AUTHORING_HOLD",
+      "exam_arm": "AUTHORING_HOLD",
+      "source_sha256": "867d6d6173382ea0098563cdd4ba6bca14e5b05368f31b6aa0d696316fd9160b"
+    },
+    {
+      "subject": "Patient/sigir-20147",
+      "study": "NCT00845988",
+      "case": "132",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "867d6d6173382ea0098563cdd4ba6bca14e5b05368f31b6aa0d696316fd9160b"
+    },
+    {
+      "subject": "Patient/sigir-20147",
+      "study": "NCT01863628",
+      "case": "138",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "867d6d6173382ea0098563cdd4ba6bca14e5b05368f31b6aa0d696316fd9160b"
+    },
+    {
+      "subject": "Patient/sigir-20147",
+      "study": "NCT01863628",
+      "case": "140",
+      "strict": "AUTHORING_HOLD",
+      "exam_arm": "AUTHORING_HOLD",
+      "source_sha256": "867d6d6173382ea0098563cdd4ba6bca14e5b05368f31b6aa0d696316fd9160b"
+    },
+    {
+      "subject": "Patient/sigir-20148",
+      "study": "NCT01519271",
+      "case": "142",
+      "strict": "INVESTIGATOR_ACTIONS",
+      "exam_arm": "INVESTIGATOR_ACTIONS",
+      "source_sha256": "1223a13fef1f8204929da1d739cdd28442607067f1ab2ef56d02ea928dab2253"
+    },
+    {
+      "subject": "Patient/sigir-20148",
+      "study": "NCT01519271",
+      "case": "145",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "1223a13fef1f8204929da1d739cdd28442607067f1ab2ef56d02ea928dab2253"
+    },
+    {
+      "subject": "Patient/sigir-20148",
+      "study": "NCT01519271",
+      "case": "147",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "1223a13fef1f8204929da1d739cdd28442607067f1ab2ef56d02ea928dab2253"
+    },
+    {
+      "subject": "Patient/sigir-20148",
+      "study": "NCT01628315",
+      "case": "150",
+      "strict": "STUDY_ACTION",
+      "exam_arm": "STUDY_ACTION",
+      "source_sha256": "1223a13fef1f8204929da1d739cdd28442607067f1ab2ef56d02ea928dab2253"
+    },
+    {
+      "subject": "Patient/sigir-20149",
+      "study": "NCT02615912",
+      "case": "154",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "2092b6ca515b1931f317a278b8742d3598cf2e09c5e5cc0f6ff779618ecd8a32"
+    },
+    {
+      "subject": "Patient/sigir-20149",
+      "study": "NCT02615912",
+      "case": "155",
+      "strict": "MET",
+      "exam_arm": "MET",
+      "source_sha256": "2092b6ca515b1931f317a278b8742d3598cf2e09c5e5cc0f6ff779618ecd8a32"
+    },
+    {
+      "subject": "Patient/sigir-201410",
+      "study": "NCT02097186",
+      "case": "171",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "d75a03711fc9b2a5995355dd47a4a7618bfc96838c461f73d2d687f0cd1abb8d"
+    },
+    {
+      "subject": "Patient/sigir-201410",
+      "study": "NCT02097186",
+      "case": "174",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "d75a03711fc9b2a5995355dd47a4a7618bfc96838c461f73d2d687f0cd1abb8d"
+    },
+    {
+      "subject": "Patient/sigir-201410",
+      "study": "NCT02264964",
+      "case": "177",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "d75a03711fc9b2a5995355dd47a4a7618bfc96838c461f73d2d687f0cd1abb8d"
+    },
+    {
+      "subject": "Patient/sigir-201410",
+      "study": "NCT02264964",
+      "case": "179",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "d75a03711fc9b2a5995355dd47a4a7618bfc96838c461f73d2d687f0cd1abb8d"
+    },
+    {
+      "subject": "Patient/sigir-201410",
+      "study": "NCT02264964",
+      "case": "184",
+      "strict": "AUTHORING_HOLD",
+      "exam_arm": "AUTHORING_HOLD",
+      "source_sha256": "d75a03711fc9b2a5995355dd47a4a7618bfc96838c461f73d2d687f0cd1abb8d"
+    },
+    {
+      "subject": "Patient/sigir-201411",
+      "study": "NCT01526382",
+      "case": "185",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "db4467fa7cba03819df27445f2090c80d6acd145a3361057f24a2fb5877aaec1"
+    },
+    {
+      "subject": "Patient/sigir-201411",
+      "study": "NCT01526382",
+      "case": "186",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MET",
+      "source_sha256": "db4467fa7cba03819df27445f2090c80d6acd145a3361057f24a2fb5877aaec1",
+      "evidence": {
+        "document": "DocumentReference/sigir-201411-note",
+        "citations": [
+          {
+            "resource": "Observation/x-5afa550df507089a1427470e47fda7",
+            "lines": [
+              {
+                "line": 0,
+                "text": "0. A 40-year-old woman with no past medical history presents to the ER with excruciating pain in her right arm that had started 1 hour prior to her admission."
+              }
+            ]
+          },
+          {
+            "resource": "Observation/x-bfae9f5861f5f7a14cd6cf0e9b3b84",
+            "lines": [
+              {
+                "line": 2,
+                "text": "2. On examination she is pale and in moderate discomfort, as well as tachypneic and tachycardic."
+              }
+            ]
+          }
+        ],
+        "source_value": "tachycardia",
+        "age_years": 40,
+        "unit": "/min",
+        "definition": "https://www.mayoclinic.org/diseases-conditions/tachycardia/symptoms-causes/syc-20355127",
+        "open_lower_bound": 100,
+        "evidence_type": "inferred lower bound",
+        "comparison": {
+          "fact": "heart_rate",
+          "op": "ge",
+          "value": 90
+        },
+        "evaluation_scope": "single listed predicate at the recorded examination",
+        "criterion": "Heart rate of at least 90/min;",
+        "registry_sha256": "601eb5649d5812e9bf570284fc7c0fc9ec7272df7959caba59737dc41bd77a76",
+        "registry_locator": "eligibility/criteria/textblock",
+        "study_screening": "not evaluated",
+        "study_screening_context": "Study recruitment evaluated patients in the first 24 hours after ICU admission. The isolated item does not establish the complete shock definition, ICU timing or trial eligibility.",
+        "study_screening_source": "https://doi.org/10.1007/s00134-014-3638-4"
+      }
+    },
+    {
+      "subject": "Patient/sigir-201411",
+      "study": "NCT01526382",
+      "case": "187",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "db4467fa7cba03819df27445f2090c80d6acd145a3361057f24a2fb5877aaec1"
+    },
+    {
+      "subject": "Patient/sigir-201411",
+      "study": "NCT01723137",
+      "case": "196",
+      "strict": "MET",
+      "exam_arm": "MET",
+      "source_sha256": "db4467fa7cba03819df27445f2090c80d6acd145a3361057f24a2fb5877aaec1"
+    },
+    {
+      "subject": "Patient/sigir-201412",
+      "study": "NCT01551498",
+      "case": "203",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "a0eac65bc8ed1f16677856cb71a94f7da8d1202cd92ef1c5ffc0e912f9ac0020"
+    },
+    {
+      "subject": "Patient/sigir-201413",
+      "study": "NCT02264769",
+      "case": "212",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "2c46cae14a71d4b21ec7a1e407c6049b8d4f6f766d29508adcfd33d4172d2b54"
+    },
+    {
+      "subject": "Patient/sigir-201413",
+      "study": "NCT00163709",
+      "case": "217",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "2c46cae14a71d4b21ec7a1e407c6049b8d4f6f766d29508adcfd33d4172d2b54"
+    },
+    {
+      "subject": "Patient/sigir-201413",
+      "study": "NCT00163709",
+      "case": "218",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "2c46cae14a71d4b21ec7a1e407c6049b8d4f6f766d29508adcfd33d4172d2b54"
+    },
+    {
+      "subject": "Patient/sigir-201414",
+      "study": "NCT01624545",
+      "case": "226",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "907ec481451b6bd039e1d00846ab29534a5a5dc42174521b3ee1bd25b2f4d7ea"
+    },
+    {
+      "subject": "Patient/sigir-201414",
+      "study": "NCT01624545",
+      "case": "227",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "907ec481451b6bd039e1d00846ab29534a5a5dc42174521b3ee1bd25b2f4d7ea"
+    },
+    {
+      "subject": "Patient/sigir-201414",
+      "study": "NCT01869855",
+      "case": "230",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "907ec481451b6bd039e1d00846ab29534a5a5dc42174521b3ee1bd25b2f4d7ea"
+    },
+    {
+      "subject": "Patient/sigir-201414",
+      "study": "NCT01869855",
+      "case": "231",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "907ec481451b6bd039e1d00846ab29534a5a5dc42174521b3ee1bd25b2f4d7ea"
+    },
+    {
+      "subject": "Patient/sigir-201414",
+      "study": "NCT01869855",
+      "case": "232",
+      "strict": "INVESTIGATOR_ACTIONS",
+      "exam_arm": "INVESTIGATOR_ACTIONS",
+      "source_sha256": "907ec481451b6bd039e1d00846ab29534a5a5dc42174521b3ee1bd25b2f4d7ea"
+    },
+    {
+      "subject": "Patient/sigir-201414",
+      "study": "NCT01869855",
+      "case": "233",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "907ec481451b6bd039e1d00846ab29534a5a5dc42174521b3ee1bd25b2f4d7ea"
+    },
+    {
+      "subject": "Patient/sigir-201415",
+      "study": "NCT00277680",
+      "case": "235",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "7b48f13174fdecd15aa559fbbd74cd92129139b36b7967ee727b622d21f891c6"
+    },
+    {
+      "subject": "Patient/sigir-201415",
+      "study": "NCT00277680",
+      "case": "239",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "7b48f13174fdecd15aa559fbbd74cd92129139b36b7967ee727b622d21f891c6"
+    },
+    {
+      "subject": "Patient/sigir-201417",
+      "study": "NCT01745731",
+      "case": "307",
+      "strict": "AUTHORING_HOLD",
+      "exam_arm": "AUTHORING_HOLD",
+      "source_sha256": "844349228fe841ce2694e062a791d890bf1ec69be986c3274ce2f92b88d12679"
+    },
+    {
+      "subject": "Patient/sigir-201417",
+      "study": "NCT01745731",
+      "case": "322",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "844349228fe841ce2694e062a791d890bf1ec69be986c3274ce2f92b88d12679"
+    },
+    {
+      "subject": "Patient/sigir-201417",
+      "study": "NCT02556359",
+      "case": "323",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "844349228fe841ce2694e062a791d890bf1ec69be986c3274ce2f92b88d12679"
+    },
+    {
+      "subject": "Patient/sigir-201418",
+      "study": "NCT01260883",
+      "case": "328",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "45c7d130440b3c40921fc87377a04f39e7ddbc476aabda31592b467122d21f32"
+    },
+    {
+      "subject": "Patient/sigir-201418",
+      "study": "NCT01260883",
+      "case": "329",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "45c7d130440b3c40921fc87377a04f39e7ddbc476aabda31592b467122d21f32"
+    },
+    {
+      "subject": "Patient/sigir-201418",
+      "study": "NCT01260883",
+      "case": "330",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "45c7d130440b3c40921fc87377a04f39e7ddbc476aabda31592b467122d21f32"
+    },
+    {
+      "subject": "Patient/sigir-201418",
+      "study": "NCT01260883",
+      "case": "332",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "45c7d130440b3c40921fc87377a04f39e7ddbc476aabda31592b467122d21f32"
+    },
+    {
+      "subject": "Patient/sigir-201418",
+      "study": "NCT00557219",
+      "case": "336",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "45c7d130440b3c40921fc87377a04f39e7ddbc476aabda31592b467122d21f32"
+    },
+    {
+      "subject": "Patient/sigir-201419",
+      "study": "NCT02509286",
+      "case": "359",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "fba0e3ed73e228dbe2f6761be1b0d5bffb98dad13d43c66538cce256d9fe2d81"
+    },
+    {
+      "subject": "Patient/sigir-201420",
+      "study": "NCT02255487",
+      "case": "366",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "d8155cb491f1c6e54e280188d7b8e7e2d4526ff0bf14bafb246daf8a3a76ed83"
+    },
+    {
+      "subject": "Patient/sigir-201420",
+      "study": "NCT02255487",
+      "case": "367",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "d8155cb491f1c6e54e280188d7b8e7e2d4526ff0bf14bafb246daf8a3a76ed83"
+    },
+    {
+      "subject": "Patient/sigir-201420",
+      "study": "NCT01594385",
+      "case": "379",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "d8155cb491f1c6e54e280188d7b8e7e2d4526ff0bf14bafb246daf8a3a76ed83"
+    },
+    {
+      "subject": "Patient/sigir-201421",
+      "study": "NCT00997100",
+      "case": "385",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "5a9a482e5e1a855f91d433f92f8171f5ad2ae2feb5c2c6c5cdffe3511d13c5e7"
+    },
+    {
+      "subject": "Patient/sigir-201421",
+      "study": "NCT00997100",
+      "case": "396",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "5a9a482e5e1a855f91d433f92f8171f5ad2ae2feb5c2c6c5cdffe3511d13c5e7"
+    },
+    {
+      "subject": "Patient/sigir-201421",
+      "study": "NCT00997100",
+      "case": "397",
+      "strict": "AUTHORING_HOLD",
+      "exam_arm": "AUTHORING_HOLD",
+      "source_sha256": "5a9a482e5e1a855f91d433f92f8171f5ad2ae2feb5c2c6c5cdffe3511d13c5e7"
+    },
+    {
+      "subject": "Patient/sigir-201421",
+      "study": "NCT00997100",
+      "case": "400",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "5a9a482e5e1a855f91d433f92f8171f5ad2ae2feb5c2c6c5cdffe3511d13c5e7"
+    },
+    {
+      "subject": "Patient/sigir-201421",
+      "study": "NCT00997100",
+      "case": "401",
+      "strict": "AUTHORING_HOLD",
+      "exam_arm": "AUTHORING_HOLD",
+      "source_sha256": "5a9a482e5e1a855f91d433f92f8171f5ad2ae2feb5c2c6c5cdffe3511d13c5e7"
+    },
+    {
+      "subject": "Patient/sigir-201421",
+      "study": "NCT00997100",
+      "case": "402",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "5a9a482e5e1a855f91d433f92f8171f5ad2ae2feb5c2c6c5cdffe3511d13c5e7"
+    },
+    {
+      "subject": "Patient/sigir-201421",
+      "study": "NCT01520155",
+      "case": "414",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "5a9a482e5e1a855f91d433f92f8171f5ad2ae2feb5c2c6c5cdffe3511d13c5e7"
+    },
+    {
+      "subject": "Patient/sigir-201422",
+      "study": "NCT00723788",
+      "case": "418",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "804fec507dd57e54c001abd21546a58f0fdaaed3b9d153d2fcdad7a6d4f3b411"
+    },
+    {
+      "subject": "Patient/sigir-201422",
+      "study": "NCT00723788",
+      "case": "419",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "804fec507dd57e54c001abd21546a58f0fdaaed3b9d153d2fcdad7a6d4f3b411"
+    },
+    {
+      "subject": "Patient/sigir-201423",
+      "study": "NCT02219360",
+      "case": "435",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "8e530421201a2a4d556991baa714d579a84687eaa8b991ed837e5d05f0365d5f"
+    },
+    {
+      "subject": "Patient/sigir-201423",
+      "study": "NCT00170222",
+      "case": "437",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "8e530421201a2a4d556991baa714d579a84687eaa8b991ed837e5d05f0365d5f"
+    },
+    {
+      "subject": "Patient/sigir-201424",
+      "study": "NCT02229695",
+      "case": "454",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "c793d7320c8a16a8c71b768394696ee0f2b478b6157e1ef6a06afca6842d300e"
+    },
+    {
+      "subject": "Patient/sigir-201425",
+      "study": "NCT00282269",
+      "case": "460",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "5b417970f16785d4e7019681dd5b4d5656d774dad0c859520884c165ef16ec87"
+    },
+    {
+      "subject": "Patient/sigir-201425",
+      "study": "NCT00282269",
+      "case": "467",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "5b417970f16785d4e7019681dd5b4d5656d774dad0c859520884c165ef16ec87"
+    },
+    {
+      "subject": "Patient/sigir-201425",
+      "study": "NCT00282269",
+      "case": "468",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "5b417970f16785d4e7019681dd5b4d5656d774dad0c859520884c165ef16ec87"
+    },
+    {
+      "subject": "Patient/sigir-201425",
+      "study": "NCT02378311",
+      "case": "475",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "5b417970f16785d4e7019681dd5b4d5656d774dad0c859520884c165ef16ec87"
+    },
+    {
+      "subject": "Patient/sigir-201425",
+      "study": "NCT02378311",
+      "case": "476",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "5b417970f16785d4e7019681dd5b4d5656d774dad0c859520884c165ef16ec87"
+    },
+    {
+      "subject": "Patient/sigir-201425",
+      "study": "NCT02378311",
+      "case": "477",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "5b417970f16785d4e7019681dd5b4d5656d774dad0c859520884c165ef16ec87"
+    },
+    {
+      "subject": "Group/sigir-201426",
+      "study": "NCT00373048",
+      "case": "481",
+      "strict": "SOURCE_SCOPE_HOLD",
+      "exam_arm": "SOURCE_SCOPE_HOLD",
+      "source_sha256": "6450a46fdea7dd8d7b314e62295bcdef612fdb730a2a4eebb77c5a3c2cd9136d"
+    },
+    {
+      "subject": "Group/sigir-201426",
+      "study": "NCT00497471",
+      "case": "492",
+      "strict": "SOURCE_SCOPE_HOLD",
+      "exam_arm": "SOURCE_SCOPE_HOLD",
+      "source_sha256": "6450a46fdea7dd8d7b314e62295bcdef612fdb730a2a4eebb77c5a3c2cd9136d"
+    },
+    {
+      "subject": "Group/sigir-201426",
+      "study": "NCT00497471",
+      "case": "493",
+      "strict": "SOURCE_SCOPE_HOLD",
+      "exam_arm": "SOURCE_SCOPE_HOLD",
+      "source_sha256": "6450a46fdea7dd8d7b314e62295bcdef612fdb730a2a4eebb77c5a3c2cd9136d"
+    },
+    {
+      "subject": "Group/sigir-201426",
+      "study": "NCT00497471",
+      "case": "494",
+      "strict": "SOURCE_SCOPE_HOLD",
+      "exam_arm": "SOURCE_SCOPE_HOLD",
+      "source_sha256": "6450a46fdea7dd8d7b314e62295bcdef612fdb730a2a4eebb77c5a3c2cd9136d"
+    },
+    {
+      "subject": "Group/sigir-201426",
+      "study": "NCT00497471",
+      "case": "495",
+      "strict": "SOURCE_SCOPE_HOLD",
+      "exam_arm": "SOURCE_SCOPE_HOLD",
+      "source_sha256": "6450a46fdea7dd8d7b314e62295bcdef612fdb730a2a4eebb77c5a3c2cd9136d"
+    },
+    {
+      "subject": "Group/sigir-201426",
+      "study": "NCT00497471",
+      "case": "496",
+      "strict": "SOURCE_SCOPE_HOLD",
+      "exam_arm": "SOURCE_SCOPE_HOLD",
+      "source_sha256": "6450a46fdea7dd8d7b314e62295bcdef612fdb730a2a4eebb77c5a3c2cd9136d"
+    },
+    {
+      "subject": "Group/sigir-201426",
+      "study": "NCT00497471",
+      "case": "497",
+      "strict": "SOURCE_SCOPE_HOLD",
+      "exam_arm": "SOURCE_SCOPE_HOLD",
+      "source_sha256": "6450a46fdea7dd8d7b314e62295bcdef612fdb730a2a4eebb77c5a3c2cd9136d"
+    },
+    {
+      "subject": "Group/sigir-201426",
+      "study": "NCT00497471",
+      "case": "498",
+      "strict": "AUTHORING_HOLD",
+      "exam_arm": "AUTHORING_HOLD",
+      "source_sha256": "6450a46fdea7dd8d7b314e62295bcdef612fdb730a2a4eebb77c5a3c2cd9136d"
+    },
+    {
+      "subject": "Patient/sigir-201427",
+      "study": "NCT01187901",
+      "case": "502",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "01945d0051cbf9d8ce14afd398b15c5587d600aa5dea251561509793d615f273"
+    },
+    {
+      "subject": "Patient/sigir-201427",
+      "study": "NCT01713881",
+      "case": "517",
+      "strict": "MET",
+      "exam_arm": "MET",
+      "source_sha256": "01945d0051cbf9d8ce14afd398b15c5587d600aa5dea251561509793d615f273"
+    },
+    {
+      "subject": "Patient/sigir-201430",
+      "study": "NCT02273232",
+      "case": "544",
+      "strict": "AUTHORING_HOLD",
+      "exam_arm": "AUTHORING_HOLD",
+      "source_sha256": "50630321ca620a55842aff122934ae739f2d97132998b99c267a265e2e68e91a"
+    },
+    {
+      "subject": "Patient/sigir-20151",
+      "study": "NCT01142245",
+      "case": "577",
+      "strict": "MET",
+      "exam_arm": "MET",
+      "source_sha256": "90feb6e2e42b1dda71b8a19974faa30b3a05570b5a27035a6f244848e689f105"
+    },
+    {
+      "subject": "Patient/sigir-20153",
+      "study": "NCT01326507",
+      "case": "621",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "ab965a81fb09dd678da825d447c82ac9e9ef4577ea2241d448e4bbdbbfa4e5d2"
+    },
+    {
+      "subject": "Patient/sigir-20153",
+      "study": "NCT01139632",
+      "case": "632",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "ab965a81fb09dd678da825d447c82ac9e9ef4577ea2241d448e4bbdbbfa4e5d2"
+    },
+    {
+      "subject": "Patient/sigir-20153",
+      "study": "NCT01139632",
+      "case": "633",
+      "strict": "MET",
+      "exam_arm": "MET",
+      "source_sha256": "ab965a81fb09dd678da825d447c82ac9e9ef4577ea2241d448e4bbdbbfa4e5d2"
+    },
+    {
+      "subject": "Patient/sigir-20154",
+      "study": "NCT01243255",
+      "case": "636",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "3204ac56adccfb3970430cc9b6db59409a40cd1a9e5a9356898e4704025299da"
+    },
+    {
+      "subject": "Patient/sigir-20154",
+      "study": "NCT01243255",
+      "case": "637",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "3204ac56adccfb3970430cc9b6db59409a40cd1a9e5a9356898e4704025299da"
+    },
+    {
+      "subject": "Patient/sigir-20154",
+      "study": "NCT00844987",
+      "case": "640",
+      "strict": "INVESTIGATOR_ACTIONS",
+      "exam_arm": "INVESTIGATOR_ACTIONS",
+      "source_sha256": "3204ac56adccfb3970430cc9b6db59409a40cd1a9e5a9356898e4704025299da"
+    },
+    {
+      "subject": "Patient/sigir-20156",
+      "study": "NCT02375451",
+      "case": "653",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "e74a17dee86c2d8c5929fdac4c0c4a5cae04b7b613cb1c0b1ce54932935fc503"
+    },
+    {
+      "subject": "Patient/sigir-20157",
+      "study": "NCT02633449",
+      "case": "671",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "b569f430e2ef49379ddb6718ccd02d076ca5f5a20a5e833e0f3101a2cfb337dc"
+    },
+    {
+      "subject": "Patient/sigir-201510",
+      "study": "NCT02340533",
+      "case": "706",
+      "strict": "AUTHORING_HOLD",
+      "exam_arm": "AUTHORING_HOLD",
+      "source_sha256": "3063f3a37fe14e1c9fc7388b6f384f234f989cf0a5282294b72aa98f1ca4542d"
+    },
+    {
+      "subject": "Patient/sigir-201510",
+      "study": "NCT01377519",
+      "case": "720",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "3063f3a37fe14e1c9fc7388b6f384f234f989cf0a5282294b72aa98f1ca4542d"
+    },
+    {
+      "subject": "Patient/sigir-201511",
+      "study": "NCT01862510",
+      "case": "722",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "ad0a2bc2a07981a7a1ba8f2f29c053736de00c07c9451a895e308e0eb5f2550a"
+    },
+    {
+      "subject": "Patient/sigir-201511",
+      "study": "NCT01862510",
+      "case": "723",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "ad0a2bc2a07981a7a1ba8f2f29c053736de00c07c9451a895e308e0eb5f2550a"
+    },
+    {
+      "subject": "Patient/sigir-201511",
+      "study": "NCT01862510",
+      "case": "724",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "ad0a2bc2a07981a7a1ba8f2f29c053736de00c07c9451a895e308e0eb5f2550a"
+    },
+    {
+      "subject": "Patient/sigir-201511",
+      "study": "NCT01862510",
+      "case": "725",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "ad0a2bc2a07981a7a1ba8f2f29c053736de00c07c9451a895e308e0eb5f2550a"
+    },
+    {
+      "subject": "Patient/sigir-201511",
+      "study": "NCT01862510",
+      "case": "726",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "ad0a2bc2a07981a7a1ba8f2f29c053736de00c07c9451a895e308e0eb5f2550a"
+    },
+    {
+      "subject": "Patient/sigir-201512",
+      "study": "NCT02467309",
+      "case": "734",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "302503e596b522c6e7b968016369eb43b97294996317a74204fc59fb4420716d"
+    },
+    {
+      "subject": "Patient/sigir-201512",
+      "study": "NCT02467309",
+      "case": "735",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "302503e596b522c6e7b968016369eb43b97294996317a74204fc59fb4420716d"
+    },
+    {
+      "subject": "Patient/sigir-201512",
+      "study": "NCT02467309",
+      "case": "736",
+      "strict": "AUTHORING_HOLD",
+      "exam_arm": "AUTHORING_HOLD",
+      "source_sha256": "302503e596b522c6e7b968016369eb43b97294996317a74204fc59fb4420716d"
+    },
+    {
+      "subject": "Patient/sigir-201512",
+      "study": "NCT02467309",
+      "case": "737",
+      "strict": "AUTHORING_HOLD",
+      "exam_arm": "AUTHORING_HOLD",
+      "source_sha256": "302503e596b522c6e7b968016369eb43b97294996317a74204fc59fb4420716d"
+    },
+    {
+      "subject": "Patient/sigir-201512",
+      "study": "NCT02467309",
+      "case": "738",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "302503e596b522c6e7b968016369eb43b97294996317a74204fc59fb4420716d"
+    },
+    {
+      "subject": "Patient/sigir-201514",
+      "study": "NCT00827463",
+      "case": "795",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "15f4ae4ac277be2315b46530d91485319f9c8d9e955b44706864e5ddd54b3c53"
+    },
+    {
+      "subject": "Patient/sigir-201515",
+      "study": "NCT01550588",
+      "case": "817",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "b25bac4dfc715f73e9ef9852088829e3c77bbbefdf498bdb34e5f4b5b5265a30"
+    },
+    {
+      "subject": "Patient/sigir-201516",
+      "study": "NCT00839124",
+      "case": "850",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "73647117726ddf0a51bed80ad37b62461c236078840c12fe1d5ed52cf506724a"
+    },
+    {
+      "subject": "Patient/sigir-201517",
+      "study": "NCT01231945",
+      "case": "860",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "979c0084e926434300939d9f6de81d59a3b40298094903699048867268e703b4"
+    },
+    {
+      "subject": "Patient/sigir-201517",
+      "study": "NCT01446198",
+      "case": "866",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "979c0084e926434300939d9f6de81d59a3b40298094903699048867268e703b4"
+    },
+    {
+      "subject": "Patient/sigir-201517",
+      "study": "NCT01446198",
+      "case": "867",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "979c0084e926434300939d9f6de81d59a3b40298094903699048867268e703b4"
+    },
+    {
+      "subject": "Patient/sigir-201518",
+      "study": "NCT00344513",
+      "case": "870",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "c9b60d817b819ef688a8af674b13ecacd17ce2e9814b2bb70bc50bf5368afb3e"
+    },
+    {
+      "subject": "Patient/sigir-201518",
+      "study": "NCT00534066",
+      "case": "875",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "c9b60d817b819ef688a8af674b13ecacd17ce2e9814b2bb70bc50bf5368afb3e"
+    },
+    {
+      "subject": "Patient/sigir-201520",
+      "study": "NCT00182832",
+      "case": "890",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "9ed9c14c2723cba661bb535697b68507aec18368dfe8d62b158d7f7a171ec572"
+    },
+    {
+      "subject": "Patient/sigir-201521",
+      "study": "NCT01959048",
+      "case": "919",
+      "strict": "AUTHORING_HOLD",
+      "exam_arm": "AUTHORING_HOLD",
+      "source_sha256": "a3240c50f76b44e38d31c080058f4d94551935e9bd80c531bf490121a5c76e60"
+    },
+    {
+      "subject": "Patient/sigir-201522",
+      "study": "NCT02534727",
+      "case": "935",
+      "strict": "INVESTIGATOR_ACTIONS",
+      "exam_arm": "INVESTIGATOR_ACTIONS",
+      "source_sha256": "1c4773785b16808dad463c95c334969b3049eb544ed7edf18844c3350609887b"
+    },
+    {
+      "subject": "Patient/sigir-201522",
+      "study": "NCT02534727",
+      "case": "936",
+      "strict": "STUDY_ACTION",
+      "exam_arm": "STUDY_ACTION",
+      "source_sha256": "1c4773785b16808dad463c95c334969b3049eb544ed7edf18844c3350609887b"
+    },
+    {
+      "subject": "Patient/sigir-201522",
+      "study": "NCT02534727",
+      "case": "938",
+      "strict": "PATIENT_SURVEY",
+      "exam_arm": "PATIENT_SURVEY",
+      "source_sha256": "1c4773785b16808dad463c95c334969b3049eb544ed7edf18844c3350609887b"
+    },
+    {
+      "subject": "Patient/sigir-201522",
+      "study": "NCT02534727",
+      "case": "939",
+      "strict": "PATIENT_SURVEY",
+      "exam_arm": "PATIENT_SURVEY",
+      "source_sha256": "1c4773785b16808dad463c95c334969b3049eb544ed7edf18844c3350609887b"
+    },
+    {
+      "subject": "Patient/sigir-201522",
+      "study": "NCT02534727",
+      "case": "940",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "1c4773785b16808dad463c95c334969b3049eb544ed7edf18844c3350609887b"
+    },
+    {
+      "subject": "Patient/sigir-201522",
+      "study": "NCT01207128",
+      "case": "945",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "1c4773785b16808dad463c95c334969b3049eb544ed7edf18844c3350609887b"
+    },
+    {
+      "subject": "Patient/sigir-201522",
+      "study": "NCT01207128",
+      "case": "946",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "1c4773785b16808dad463c95c334969b3049eb544ed7edf18844c3350609887b"
+    },
+    {
+      "subject": "Patient/sigir-201522",
+      "study": "NCT01207128",
+      "case": "952",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "1c4773785b16808dad463c95c334969b3049eb544ed7edf18844c3350609887b"
+    },
+    {
+      "subject": "Patient/sigir-201522",
+      "study": "NCT01207128",
+      "case": "953",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "1c4773785b16808dad463c95c334969b3049eb544ed7edf18844c3350609887b"
+    },
+    {
+      "subject": "Patient/sigir-201522",
+      "study": "NCT01207128",
+      "case": "955",
+      "strict": "INVESTIGATOR_ACTIONS",
+      "exam_arm": "INVESTIGATOR_ACTIONS",
+      "source_sha256": "1c4773785b16808dad463c95c334969b3049eb544ed7edf18844c3350609887b"
+    },
+    {
+      "subject": "Patient/sigir-201522",
+      "study": "NCT01207128",
+      "case": "957",
+      "strict": "INVESTIGATOR_ACTIONS",
+      "exam_arm": "INVESTIGATOR_ACTIONS",
+      "source_sha256": "1c4773785b16808dad463c95c334969b3049eb544ed7edf18844c3350609887b"
+    },
+    {
+      "subject": "Patient/sigir-201523",
+      "study": "NCT00084240",
+      "case": "962",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "05c36ab49e87f062f4a00d5f9ab4749c30343bae06ee419607f0cd55e7d30ed0"
+    },
+    {
+      "subject": "Patient/sigir-201523",
+      "study": "NCT00084240",
+      "case": "965",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "05c36ab49e87f062f4a00d5f9ab4749c30343bae06ee419607f0cd55e7d30ed0"
+    },
+    {
+      "subject": "Patient/sigir-201524",
+      "study": "NCT00711399",
+      "case": "985",
+      "strict": "MISSING_DATA",
+      "exam_arm": "MISSING_DATA",
+      "source_sha256": "38b654bd7978059e3f6e44a484cd5379e51c840ef13295969b075f50f7998f07"
+    }
+  ]
+}

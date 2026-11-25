@@ -1,0 +1,268 @@
+{
+  "reviewed": 29,
+  "direct_promotions": 0,
+  "study_414_methods": "https://www.kup.at/kup/pdf/14124.pdf",
+  "rows": [
+    {
+      "case": "227",
+      "study": "NCT01624545",
+      "patient": "sigir-201414",
+      "criterion": "CSH due to spontaneous spinal CSF fistula or meningeosis carcinomatosa",
+      "note_sha256": "907ec481451b6bd039e1d00846ab29534a5a5dc42174521b3ee1bd25b2f4d7ea",
+      "reason": "A preceding accident and a CT that was normal three weeks earlier do not establish the cause of a subsequently suspected subdural collection.",
+      "record_needed": "Contemporaneous diagnosis and attribution."
+    },
+    {
+      "case": "233",
+      "study": "NCT01869855",
+      "patient": "sigir-201414",
+      "criterion": "Chronic subdural hematoma caused by another underlying illness (e.g. caused by over-drainage of a vp-shunt)",
+      "note_sha256": "907ec481451b6bd039e1d00846ab29534a5a5dc42174521b3ee1bd25b2f4d7ea",
+      "reason": "A preceding accident and a CT that was normal three weeks earlier do not establish the cause of a subsequently suspected subdural collection.",
+      "record_needed": "Contemporaneous diagnosis and attribution."
+    },
+    {
+      "case": "239",
+      "study": "NCT00277680",
+      "patient": "sigir-201415",
+      "criterion": "Postmenopausal women",
+      "note_sha256": "7b48f13174fdecd15aa559fbbd74cd92129139b36b7967ee727b622d21f891c6",
+      "reason": "A twelve-week presenting interval of amenorrhea and recent spotting do not establish prior menopausal status, prior true menses, or an induced menopause history. The Endocrine Society distinguishes spontaneous from surgical menopause.",
+      "record_needed": "Documented menopausal history or an adequate menstrual/surgical history."
+    },
+    {
+      "case": "322",
+      "study": "NCT01745731",
+      "patient": "sigir-201417",
+      "criterion": "Pregnant women or women of childbearing age who do not have adequate contraception.",
+      "note_sha256": "844349228fe841ce2694e062a791d890bf1ec69be986c3274ce2f92b88d12679",
+      "reason": "Both branches are qualified by membership in the protocol women population. The written demographic description can support the existing benchmark demographic-scope arm; the strict rule asks for protocol applicability.",
+      "record_needed": "Verified interpretation of the source demographic evidence for this particular cohort."
+    },
+    {
+      "case": "328",
+      "study": "NCT01260883",
+      "patient": "sigir-201418",
+      "criterion": "Bleeding history in infant or family",
+      "note_sha256": "45c7d130440b3c40921fc87377a04f39e7ddbc476aabda31592b467122d21f32",
+      "reason": "Red cells in postoperative urine do not address a previous gastrointestinal bleed or personal/family bleeding history.",
+      "record_needed": "Targeted individual or family bleeding histories."
+    },
+    {
+      "case": "330",
+      "study": "NCT01260883",
+      "patient": "sigir-201418",
+      "criterion": "Gastrointestinal bleeding history",
+      "note_sha256": "45c7d130440b3c40921fc87377a04f39e7ddbc476aabda31592b467122d21f32",
+      "reason": "Red cells in postoperative urine do not address a previous gastrointestinal bleed or personal/family bleeding history.",
+      "record_needed": "Targeted individual or family bleeding histories."
+    },
+    {
+      "case": "336",
+      "study": "NCT00557219",
+      "patient": "sigir-201418",
+      "criterion": "refused or none consent",
+      "note_sha256": "45c7d130440b3c40921fc87377a04f39e7ddbc476aabda31592b467122d21f32",
+      "reason": "An asserted future intention to consent does not establish completed consent from an appropriate respondent for a six-month-old.",
+      "record_needed": "Current informed-consent record or explicit status from the study."
+    },
+    {
+      "case": "359",
+      "study": "NCT02509286",
+      "patient": "sigir-201419",
+      "criterion": "Gastric carcinoma",
+      "note_sha256": "fba0e3ed73e228dbe2f6761be1b0d5bffb98dad13d43c66538cce256d9fe2d81",
+      "reason": "Progressive dysphagia, weight loss and anatomical localization do not establish or rule out gastric carcinoma.",
+      "record_needed": "Pathology, adequate diagnostic evaluation or cancer history."
+    },
+    {
+      "case": "366",
+      "study": "NCT02255487",
+      "patient": "sigir-201420",
+      "criterion": "Has experienced abdominal trauma, blunt or penetrating, requiring open abdominal laparotomy with primary closure",
+      "note_sha256": "d8155cb491f1c6e54e280188d7b8e7e2d4526ff0bf14bafb246daf8a3a76ed83",
+      "reason": "Trauma and peritoneal signs make an operation plausible. The protocol specifically requires both an open laparotomy and primary closure.",
+      "record_needed": "Operating plan or procedure and closure record."
+    },
+    {
+      "case": "367",
+      "study": "NCT02255487",
+      "patient": "sigir-201420",
+      "criterion": "Has experienced acute surgical abdomen requiring open abdominal laparotomy with primary closure",
+      "note_sha256": "d8155cb491f1c6e54e280188d7b8e7e2d4526ff0bf14bafb246daf8a3a76ed83",
+      "reason": "Trauma and peritoneal signs make an operation plausible. The protocol specifically requires both an open laparotomy and primary closure.",
+      "record_needed": "Operating plan or procedure and closure record."
+    },
+    {
+      "case": "385",
+      "study": "NCT00997100",
+      "patient": "sigir-201421",
+      "criterion": "Ability to take and retain oral medication",
+      "note_sha256": "5a9a482e5e1a855f91d433f92f8171f5ad2ae2feb5c2c6c5cdffe3511d13c5e7",
+      "reason": "Rheumatology examination, abnormal urinalysis and serology do not establish the oral medication, ECG, ischemic history, cancer history or infection findings specified by the individual criterion.",
+      "record_needed": "Targeted records, and protocol interpretation for clauses 397 and 401."
+    },
+    {
+      "case": "396",
+      "study": "NCT00997100",
+      "patient": "sigir-201421",
+      "criterion": "History of myocardial infarction or current uncontrolled angina, severe uncontrolled ventricular arrhythmias, symptomatic congestive heart failure, unstable angina pectoris, or electrocardiographic evidence of acute ischemia.",
+      "note_sha256": "5a9a482e5e1a855f91d433f92f8171f5ad2ae2feb5c2c6c5cdffe3511d13c5e7",
+      "reason": "Rheumatology examination, abnormal urinalysis and serology do not establish the oral medication, ECG, ischemic history, cancer history or infection findings specified by the individual criterion.",
+      "record_needed": "Targeted records, and protocol interpretation for clauses 397 and 401."
+    },
+    {
+      "case": "397",
+      "study": "NCT00997100",
+      "patient": "sigir-201421",
+      "criterion": "Marked baseline prolongation of QT/QTc interval (eg, repeated demonstration of a QTc interval >450 milliseconds",
+      "note_sha256": "5a9a482e5e1a855f91d433f92f8171f5ad2ae2feb5c2c6c5cdffe3511d13c5e7",
+      "reason": "Rheumatology examination, abnormal urinalysis and serology do not establish the oral medication, ECG, ischemic history, cancer history or infection findings specified by the individual criterion.",
+      "record_needed": "Targeted records, and protocol interpretation for clauses 397 and 401."
+    },
+    {
+      "case": "400",
+      "study": "NCT00997100",
+      "patient": "sigir-201421",
+      "criterion": "History of, or current, ischemic CNS disease.",
+      "note_sha256": "5a9a482e5e1a855f91d433f92f8171f5ad2ae2feb5c2c6c5cdffe3511d13c5e7",
+      "reason": "Rheumatology examination, abnormal urinalysis and serology do not establish the oral medication, ECG, ischemic history, cancer history or infection findings specified by the individual criterion.",
+      "record_needed": "Targeted records, and protocol interpretation for clauses 397 and 401."
+    },
+    {
+      "case": "401",
+      "study": "NCT00997100",
+      "patient": "sigir-201421",
+      "criterion": "Current malignancy. A 5-year cancer-free period is required with the exception of skin basal or squamous cell carcinoma or cervical cancer in situ that has been excised.",
+      "note_sha256": "5a9a482e5e1a855f91d433f92f8171f5ad2ae2feb5c2c6c5cdffe3511d13c5e7",
+      "reason": "Rheumatology examination, abnormal urinalysis and serology do not establish the oral medication, ECG, ischemic history, cancer history or infection findings specified by the individual criterion.",
+      "record_needed": "Targeted records, and protocol interpretation for clauses 397 and 401."
+    },
+    {
+      "case": "402",
+      "study": "NCT00997100",
+      "patient": "sigir-201421",
+      "criterion": "Current severe infection",
+      "note_sha256": "5a9a482e5e1a855f91d433f92f8171f5ad2ae2feb5c2c6c5cdffe3511d13c5e7",
+      "reason": "Rheumatology examination, abnormal urinalysis and serology do not establish the oral medication, ECG, ischemic history, cancer history or infection findings specified by the individual criterion.",
+      "record_needed": "Targeted records, and protocol interpretation for clauses 397 and 401."
+    },
+    {
+      "case": "414",
+      "study": "NCT01520155",
+      "patient": "sigir-201421",
+      "criterion": "Patients without systemic Lupus erythematosus",
+      "note_sha256": "5a9a482e5e1a855f91d433f92f8171f5ad2ae2feb5c2c6c5cdffe3511d13c5e7",
+      "reason": "The official supplemental diagnosis reads lupus. A separate physician retrospective differential uses the systemic subtype. The trial reports recruitment from clinic patients with SLE. Neither a source diagnostic classification rule nor an established subtype diagnosis is supplied.",
+      "record_needed": "Independent clinician interpretation of the named source records, registered separately as adjudication, or a subtype-specific established diagnosis."
+    },
+    {
+      "case": "437",
+      "study": "NCT00170222",
+      "patient": "sigir-201423",
+      "criterion": "Acute exacerbation of COPD type I or II according to GOLD",
+      "note_sha256": "8e530421201a2a4d556991baa714d579a84687eaa8b991ed837e5d05f0365d5f",
+      "reason": "Home oxygen, worsening dyspnea and purulent sputum support an exacerbation hypothesis. The original study asks for established COPD stage and exacerbation type. The generic history and differential leave the specific established diagnosis and stage unresolved.",
+      "record_needed": "Baseline COPD staging and required current episode findings."
+    },
+    {
+      "case": "454",
+      "study": "NCT02229695",
+      "patient": "sigir-201424",
+      "criterion": "Adults male or female over 18 year old undergoing emergency laparotomy.",
+      "note_sha256": "c793d7320c8a16a8c71b768394696ee0f2b478b6157e1ef6a06afca6842d300e",
+      "reason": "Imaging proves splenic rupture and hemorrhage. The underlying criterion requires undergoing emergency laparotomy.",
+      "record_needed": "Actual operative or verified disposition record."
+    },
+    {
+      "case": "460",
+      "study": "NCT00282269",
+      "patient": "sigir-201425",
+      "criterion": "have a severe traumatic brain injury as defined by either a GCS \u2264 8 and an abnormal CT scan (intracranial hemorrhage, cerebral edema or diffuse axonal injury) or a motor score \u2264 3 and normal CT scan",
+      "note_sha256": "5b417970f16785d4e7019681dd5b4d5656d774dad0c859520884c165ef16ec87",
+      "reason": "Low total GCS is documented. Advice to defer CT supplies neither a scan result nor contemporaneous proof that a governed mandatory test failed at an irreversible cutoff.",
+      "record_needed": "Imaging, or a governing final assessment and explicit documentation the scan was not performed."
+    },
+    {
+      "case": "467",
+      "study": "NCT00282269",
+      "patient": "sigir-201425",
+      "criterion": "have more than mild neurodevelopmental disability prior to injury",
+      "note_sha256": "5b417970f16785d4e7019681dd5b4d5656d774dad0c859520884c165ef16ec87",
+      "reason": "New impaired movement after trauma does not establish preinjury neurodevelopmental ability.",
+      "record_needed": "Preinjury function, preferably caregiver/clinical history."
+    },
+    {
+      "case": "475",
+      "study": "NCT02378311",
+      "patient": "sigir-201425",
+      "criterion": "Incidents where the injured child was involved in a motor vehicle collision",
+      "note_sha256": "5b417970f16785d4e7019681dd5b4d5656d774dad0c859520884c165ef16ec87",
+      "reason": "Pavement impact after a bicycle fall does not describe whether a vehicle or another rider precipitated it.",
+      "record_needed": "One account of the crash from the patient, caregiver or scene can answer both."
+    },
+    {
+      "case": "476",
+      "study": "NCT02378311",
+      "patient": "sigir-201425",
+      "criterion": "Incidents where the injured child was injured by another rider (e.g. injured child run over by a cyclist)",
+      "note_sha256": "5b417970f16785d4e7019681dd5b4d5656d774dad0c859520884c165ef16ec87",
+      "reason": "Pavement impact after a bicycle fall does not describe whether a vehicle or another rider precipitated it.",
+      "record_needed": "One account of the crash from the patient, caregiver or scene can answer both."
+    },
+    {
+      "case": "493",
+      "study": "NCT00497471",
+      "patient": "sigir-201426",
+      "criterion": "Obvious severe congenital malformation such as: spina bifida, hydrocephalus or anencepahlus",
+      "note_sha256": "6450a46fdea7dd8d7b314e62295bcdef612fdb730a2a4eebb77c5a3c2cd9136d",
+      "reason": "The record describes humanitarian workers and pregnancies. It does not identify or describe an individual eligible newborn and its mother.",
+      "record_needed": "Identified newborn/mother and corresponding source record."
+    },
+    {
+      "case": "494",
+      "study": "NCT00497471",
+      "patient": "sigir-201426",
+      "criterion": "Twins",
+      "note_sha256": "6450a46fdea7dd8d7b314e62295bcdef612fdb730a2a4eebb77c5a3c2cd9136d",
+      "reason": "The record describes humanitarian workers and pregnancies. It does not identify or describe an individual eligible newborn and its mother.",
+      "record_needed": "Identified newborn/mother and corresponding source record."
+    },
+    {
+      "case": "496",
+      "study": "NCT00497471",
+      "patient": "sigir-201426",
+      "criterion": "Clinical signs of cerebral asphyxia",
+      "note_sha256": "6450a46fdea7dd8d7b314e62295bcdef612fdb730a2a4eebb77c5a3c2cd9136d",
+      "reason": "The record describes humanitarian workers and pregnancies. It does not identify or describe an individual eligible newborn and its mother.",
+      "record_needed": "Identified newborn/mother and corresponding source record."
+    },
+    {
+      "case": "497",
+      "study": "NCT00497471",
+      "patient": "sigir-201426",
+      "criterion": "Clinical signs of neonatal or congenital infection",
+      "note_sha256": "6450a46fdea7dd8d7b314e62295bcdef612fdb730a2a4eebb77c5a3c2cd9136d",
+      "reason": "The record describes humanitarian workers and pregnancies. It does not identify or describe an individual eligible newborn and its mother.",
+      "record_needed": "Identified newborn/mother and corresponding source record."
+    },
+    {
+      "case": "498",
+      "study": "NCT00497471",
+      "patient": "sigir-201426",
+      "criterion": "Mother unreliable (deaf, mentally handicapped)",
+      "note_sha256": "6450a46fdea7dd8d7b314e62295bcdef612fdb730a2a4eebb77c5a3c2cd9136d",
+      "reason": "The record describes humanitarian workers and pregnancies. It does not identify or describe an individual eligible newborn and its mother.",
+      "record_needed": "Identified newborn/mother and corresponding source record."
+    },
+    {
+      "case": "544",
+      "study": "NCT02273232",
+      "patient": "sigir-201430",
+      "criterion": "Severe cardiac condition",
+      "note_sha256": "50630321ca620a55842aff122934ae739f2d97132998b99c267a265e2e68e91a",
+      "reason": "A remote uncomplicated MI and TIA do not establish current severe cardiac disease. The sponsor treats exercise risk classification as a separate exclusion.",
+      "record_needed": "Trial clarification or qualified contemporary severity assessment."
+    }
+  ]
+}

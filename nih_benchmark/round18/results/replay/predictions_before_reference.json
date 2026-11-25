@@ -1,0 +1,1196 @@
+{
+  "rows": [
+    {
+      "case": "20",
+      "study": "NCT01397994",
+      "patient": "sigir-20141",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "25",
+      "study": "NCT00149227",
+      "patient": "sigir-20141",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "26",
+      "study": "NCT00149227",
+      "patient": "sigir-20141",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "29",
+      "study": "NCT00149227",
+      "patient": "sigir-20141",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "34",
+      "study": "NCT02618655",
+      "patient": "sigir-20142",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "36",
+      "study": "NCT02618655",
+      "patient": "sigir-20142",
+      "original_strict": "AUTHORING_HOLD",
+      "with_authority": "AUTHORING_HOLD",
+      "literal_cohort": "AUTHORING_HOLD"
+    },
+    {
+      "case": "44",
+      "study": "NCT01452971",
+      "patient": "sigir-20143",
+      "original_strict": "MET",
+      "with_authority": "MET",
+      "literal_cohort": "MET"
+    },
+    {
+      "case": "45",
+      "study": "NCT01452971",
+      "patient": "sigir-20143",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "46",
+      "study": "NCT02490059",
+      "patient": "sigir-20143",
+      "original_strict": "AUTHORING_HOLD",
+      "with_authority": "AUTHORING_HOLD",
+      "literal_cohort": "AUTHORING_HOLD"
+    },
+    {
+      "case": "55",
+      "study": "NCT02390596",
+      "patient": "sigir-20144",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "81",
+      "study": "NCT00841789",
+      "patient": "sigir-20144",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "108",
+      "study": "NCT02512159",
+      "patient": "sigir-20146",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "109",
+      "study": "NCT02512159",
+      "patient": "sigir-20146",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "111",
+      "study": "NCT02512159",
+      "patient": "sigir-20146",
+      "original_strict": "AUTHORING_HOLD",
+      "with_authority": "AUTHORING_HOLD",
+      "literal_cohort": "AUTHORING_HOLD"
+    },
+    {
+      "case": "115",
+      "study": "NCT02512159",
+      "patient": "sigir-20146",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "116",
+      "study": "NCT02512159",
+      "patient": "sigir-20146",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "120",
+      "study": "NCT00015626",
+      "patient": "sigir-20146",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "130",
+      "study": "NCT00845988",
+      "patient": "sigir-20147",
+      "original_strict": "AUTHORING_HOLD",
+      "with_authority": "AUTHORING_HOLD",
+      "literal_cohort": "AUTHORING_HOLD"
+    },
+    {
+      "case": "132",
+      "study": "NCT00845988",
+      "patient": "sigir-20147",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "138",
+      "study": "NCT01863628",
+      "patient": "sigir-20147",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "140",
+      "study": "NCT01863628",
+      "patient": "sigir-20147",
+      "original_strict": "AUTHORING_HOLD",
+      "with_authority": "AUTHORING_HOLD",
+      "literal_cohort": "AUTHORING_HOLD"
+    },
+    {
+      "case": "142",
+      "study": "NCT01519271",
+      "patient": "sigir-20148",
+      "original_strict": "INVESTIGATOR_ACTIONS",
+      "with_authority": "INVESTIGATOR_ACTIONS",
+      "literal_cohort": "INVESTIGATOR_ACTIONS"
+    },
+    {
+      "case": "145",
+      "study": "NCT01519271",
+      "patient": "sigir-20148",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "147",
+      "study": "NCT01519271",
+      "patient": "sigir-20148",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "150",
+      "study": "NCT01628315",
+      "patient": "sigir-20148",
+      "original_strict": "STUDY_ACTION",
+      "with_authority": "STUDY_ACTION",
+      "literal_cohort": "STUDY_ACTION"
+    },
+    {
+      "case": "154",
+      "study": "NCT02615912",
+      "patient": "sigir-20149",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "155",
+      "study": "NCT02615912",
+      "patient": "sigir-20149",
+      "original_strict": "MET",
+      "with_authority": "MET",
+      "literal_cohort": "MET"
+    },
+    {
+      "case": "171",
+      "study": "NCT02097186",
+      "patient": "sigir-201410",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "174",
+      "study": "NCT02097186",
+      "patient": "sigir-201410",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "177",
+      "study": "NCT02264964",
+      "patient": "sigir-201410",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "179",
+      "study": "NCT02264964",
+      "patient": "sigir-201410",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "184",
+      "study": "NCT02264964",
+      "patient": "sigir-201410",
+      "original_strict": "AUTHORING_HOLD",
+      "with_authority": "AUTHORING_HOLD",
+      "literal_cohort": "AUTHORING_HOLD"
+    },
+    {
+      "case": "185",
+      "study": "NCT01526382",
+      "patient": "sigir-201411",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "186",
+      "study": "NCT01526382",
+      "patient": "sigir-201411",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "187",
+      "study": "NCT01526382",
+      "patient": "sigir-201411",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "196",
+      "study": "NCT01723137",
+      "patient": "sigir-201411",
+      "original_strict": "MET",
+      "with_authority": "MET",
+      "literal_cohort": "MET"
+    },
+    {
+      "case": "203",
+      "study": "NCT01551498",
+      "patient": "sigir-201412",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "212",
+      "study": "NCT02264769",
+      "patient": "sigir-201413",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "217",
+      "study": "NCT00163709",
+      "patient": "sigir-201413",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "218",
+      "study": "NCT00163709",
+      "patient": "sigir-201413",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "226",
+      "study": "NCT01624545",
+      "patient": "sigir-201414",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "227",
+      "study": "NCT01624545",
+      "patient": "sigir-201414",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "230",
+      "study": "NCT01869855",
+      "patient": "sigir-201414",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "231",
+      "study": "NCT01869855",
+      "patient": "sigir-201414",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "232",
+      "study": "NCT01869855",
+      "patient": "sigir-201414",
+      "original_strict": "INVESTIGATOR_ACTIONS",
+      "with_authority": "INVESTIGATOR_ACTIONS",
+      "literal_cohort": "INVESTIGATOR_ACTIONS"
+    },
+    {
+      "case": "233",
+      "study": "NCT01869855",
+      "patient": "sigir-201414",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "235",
+      "study": "NCT00277680",
+      "patient": "sigir-201415",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "239",
+      "study": "NCT00277680",
+      "patient": "sigir-201415",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "307",
+      "study": "NCT01745731",
+      "patient": "sigir-201417",
+      "original_strict": "AUTHORING_HOLD",
+      "with_authority": "AUTHORING_HOLD",
+      "literal_cohort": "AUTHORING_HOLD"
+    },
+    {
+      "case": "322",
+      "study": "NCT01745731",
+      "patient": "sigir-201417",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MET"
+    },
+    {
+      "case": "323",
+      "study": "NCT02556359",
+      "patient": "sigir-201417",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "328",
+      "study": "NCT01260883",
+      "patient": "sigir-201418",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "329",
+      "study": "NCT01260883",
+      "patient": "sigir-201418",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "330",
+      "study": "NCT01260883",
+      "patient": "sigir-201418",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "332",
+      "study": "NCT01260883",
+      "patient": "sigir-201418",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "336",
+      "study": "NCT00557219",
+      "patient": "sigir-201418",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "359",
+      "study": "NCT02509286",
+      "patient": "sigir-201419",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "366",
+      "study": "NCT02255487",
+      "patient": "sigir-201420",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "367",
+      "study": "NCT02255487",
+      "patient": "sigir-201420",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "379",
+      "study": "NCT01594385",
+      "patient": "sigir-201420",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "385",
+      "study": "NCT00997100",
+      "patient": "sigir-201421",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "396",
+      "study": "NCT00997100",
+      "patient": "sigir-201421",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "397",
+      "study": "NCT00997100",
+      "patient": "sigir-201421",
+      "original_strict": "AUTHORING_HOLD",
+      "with_authority": "AUTHORING_HOLD",
+      "literal_cohort": "AUTHORING_HOLD"
+    },
+    {
+      "case": "400",
+      "study": "NCT00997100",
+      "patient": "sigir-201421",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "401",
+      "study": "NCT00997100",
+      "patient": "sigir-201421",
+      "original_strict": "AUTHORING_HOLD",
+      "with_authority": "AUTHORING_HOLD",
+      "literal_cohort": "AUTHORING_HOLD"
+    },
+    {
+      "case": "402",
+      "study": "NCT00997100",
+      "patient": "sigir-201421",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "414",
+      "study": "NCT01520155",
+      "patient": "sigir-201421",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "418",
+      "study": "NCT00723788",
+      "patient": "sigir-201422",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "419",
+      "study": "NCT00723788",
+      "patient": "sigir-201422",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "435",
+      "study": "NCT02219360",
+      "patient": "sigir-201423",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "437",
+      "study": "NCT00170222",
+      "patient": "sigir-201423",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "454",
+      "study": "NCT02229695",
+      "patient": "sigir-201424",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "460",
+      "study": "NCT00282269",
+      "patient": "sigir-201425",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "467",
+      "study": "NCT00282269",
+      "patient": "sigir-201425",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "468",
+      "study": "NCT00282269",
+      "patient": "sigir-201425",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "475",
+      "study": "NCT02378311",
+      "patient": "sigir-201425",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "476",
+      "study": "NCT02378311",
+      "patient": "sigir-201425",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "477",
+      "study": "NCT02378311",
+      "patient": "sigir-201425",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "481",
+      "study": "NCT00373048",
+      "patient": "sigir-201426",
+      "original_strict": "SOURCE_SCOPE_HOLD",
+      "with_authority": "SOURCE_SCOPE_HOLD",
+      "literal_cohort": "SOURCE_SCOPE_HOLD"
+    },
+    {
+      "case": "492",
+      "study": "NCT00497471",
+      "patient": "sigir-201426",
+      "original_strict": "SOURCE_SCOPE_HOLD",
+      "with_authority": "SOURCE_SCOPE_HOLD",
+      "literal_cohort": "SOURCE_SCOPE_HOLD"
+    },
+    {
+      "case": "493",
+      "study": "NCT00497471",
+      "patient": "sigir-201426",
+      "original_strict": "SOURCE_SCOPE_HOLD",
+      "with_authority": "SOURCE_SCOPE_HOLD",
+      "literal_cohort": "SOURCE_SCOPE_HOLD"
+    },
+    {
+      "case": "494",
+      "study": "NCT00497471",
+      "patient": "sigir-201426",
+      "original_strict": "SOURCE_SCOPE_HOLD",
+      "with_authority": "SOURCE_SCOPE_HOLD",
+      "literal_cohort": "SOURCE_SCOPE_HOLD"
+    },
+    {
+      "case": "495",
+      "study": "NCT00497471",
+      "patient": "sigir-201426",
+      "original_strict": "SOURCE_SCOPE_HOLD",
+      "with_authority": "SOURCE_SCOPE_HOLD",
+      "literal_cohort": "SOURCE_SCOPE_HOLD"
+    },
+    {
+      "case": "496",
+      "study": "NCT00497471",
+      "patient": "sigir-201426",
+      "original_strict": "SOURCE_SCOPE_HOLD",
+      "with_authority": "SOURCE_SCOPE_HOLD",
+      "literal_cohort": "SOURCE_SCOPE_HOLD"
+    },
+    {
+      "case": "497",
+      "study": "NCT00497471",
+      "patient": "sigir-201426",
+      "original_strict": "SOURCE_SCOPE_HOLD",
+      "with_authority": "SOURCE_SCOPE_HOLD",
+      "literal_cohort": "SOURCE_SCOPE_HOLD"
+    },
+    {
+      "case": "498",
+      "study": "NCT00497471",
+      "patient": "sigir-201426",
+      "original_strict": "AUTHORING_HOLD",
+      "with_authority": "AUTHORING_HOLD",
+      "literal_cohort": "AUTHORING_HOLD"
+    },
+    {
+      "case": "502",
+      "study": "NCT01187901",
+      "patient": "sigir-201427",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "517",
+      "study": "NCT01713881",
+      "patient": "sigir-201427",
+      "original_strict": "MET",
+      "with_authority": "MET",
+      "literal_cohort": "MET"
+    },
+    {
+      "case": "544",
+      "study": "NCT02273232",
+      "patient": "sigir-201430",
+      "original_strict": "AUTHORING_HOLD",
+      "with_authority": "AUTHORING_HOLD",
+      "literal_cohort": "AUTHORING_HOLD"
+    },
+    {
+      "case": "577",
+      "study": "NCT01142245",
+      "patient": "sigir-20151",
+      "original_strict": "MET",
+      "with_authority": "MET",
+      "literal_cohort": "MET"
+    },
+    {
+      "case": "621",
+      "study": "NCT01326507",
+      "patient": "sigir-20153",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "632",
+      "study": "NCT01139632",
+      "patient": "sigir-20153",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "633",
+      "study": "NCT01139632",
+      "patient": "sigir-20153",
+      "original_strict": "MET",
+      "with_authority": "MET",
+      "literal_cohort": "MET"
+    },
+    {
+      "case": "636",
+      "study": "NCT01243255",
+      "patient": "sigir-20154",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "637",
+      "study": "NCT01243255",
+      "patient": "sigir-20154",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "640",
+      "study": "NCT00844987",
+      "patient": "sigir-20154",
+      "original_strict": "INVESTIGATOR_ACTIONS",
+      "with_authority": "INVESTIGATOR_ACTIONS",
+      "literal_cohort": "INVESTIGATOR_ACTIONS"
+    },
+    {
+      "case": "653",
+      "study": "NCT02375451",
+      "patient": "sigir-20156",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "671",
+      "study": "NCT02633449",
+      "patient": "sigir-20157",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "706",
+      "study": "NCT02340533",
+      "patient": "sigir-201510",
+      "original_strict": "AUTHORING_HOLD",
+      "with_authority": "AUTHORING_HOLD",
+      "literal_cohort": "AUTHORING_HOLD"
+    },
+    {
+      "case": "720",
+      "study": "NCT01377519",
+      "patient": "sigir-201510",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "722",
+      "study": "NCT01862510",
+      "patient": "sigir-201511",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "723",
+      "study": "NCT01862510",
+      "patient": "sigir-201511",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "724",
+      "study": "NCT01862510",
+      "patient": "sigir-201511",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "725",
+      "study": "NCT01862510",
+      "patient": "sigir-201511",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "726",
+      "study": "NCT01862510",
+      "patient": "sigir-201511",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "734",
+      "study": "NCT02467309",
+      "patient": "sigir-201512",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "735",
+      "study": "NCT02467309",
+      "patient": "sigir-201512",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "736",
+      "study": "NCT02467309",
+      "patient": "sigir-201512",
+      "original_strict": "AUTHORING_HOLD",
+      "with_authority": "AUTHORING_HOLD",
+      "literal_cohort": "AUTHORING_HOLD"
+    },
+    {
+      "case": "737",
+      "study": "NCT02467309",
+      "patient": "sigir-201512",
+      "original_strict": "AUTHORING_HOLD",
+      "with_authority": "AUTHORING_HOLD",
+      "literal_cohort": "AUTHORING_HOLD"
+    },
+    {
+      "case": "738",
+      "study": "NCT02467309",
+      "patient": "sigir-201512",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "795",
+      "study": "NCT00827463",
+      "patient": "sigir-201514",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "817",
+      "study": "NCT01550588",
+      "patient": "sigir-201515",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "850",
+      "study": "NCT00839124",
+      "patient": "sigir-201516",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "860",
+      "study": "NCT01231945",
+      "patient": "sigir-201517",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "866",
+      "study": "NCT01446198",
+      "patient": "sigir-201517",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "867",
+      "study": "NCT01446198",
+      "patient": "sigir-201517",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "870",
+      "study": "NCT00344513",
+      "patient": "sigir-201518",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "875",
+      "study": "NCT00534066",
+      "patient": "sigir-201518",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "890",
+      "study": "NCT00182832",
+      "patient": "sigir-201520",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "919",
+      "study": "NCT01959048",
+      "patient": "sigir-201521",
+      "original_strict": "AUTHORING_HOLD",
+      "with_authority": "AUTHORING_HOLD",
+      "literal_cohort": "AUTHORING_HOLD"
+    },
+    {
+      "case": "935",
+      "study": "NCT02534727",
+      "patient": "sigir-201522",
+      "original_strict": "INVESTIGATOR_ACTIONS",
+      "with_authority": "INVESTIGATOR_ACTIONS",
+      "literal_cohort": "INVESTIGATOR_ACTIONS"
+    },
+    {
+      "case": "936",
+      "study": "NCT02534727",
+      "patient": "sigir-201522",
+      "original_strict": "STUDY_ACTION",
+      "with_authority": "STUDY_ACTION",
+      "literal_cohort": "STUDY_ACTION"
+    },
+    {
+      "case": "938",
+      "study": "NCT02534727",
+      "patient": "sigir-201522",
+      "original_strict": "PATIENT_SURVEY",
+      "with_authority": "PATIENT_SURVEY",
+      "literal_cohort": "PATIENT_SURVEY"
+    },
+    {
+      "case": "939",
+      "study": "NCT02534727",
+      "patient": "sigir-201522",
+      "original_strict": "PATIENT_SURVEY",
+      "with_authority": "PATIENT_SURVEY",
+      "literal_cohort": "PATIENT_SURVEY"
+    },
+    {
+      "case": "940",
+      "study": "NCT02534727",
+      "patient": "sigir-201522",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "945",
+      "study": "NCT01207128",
+      "patient": "sigir-201522",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "946",
+      "study": "NCT01207128",
+      "patient": "sigir-201522",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "952",
+      "study": "NCT01207128",
+      "patient": "sigir-201522",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "953",
+      "study": "NCT01207128",
+      "patient": "sigir-201522",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "955",
+      "study": "NCT01207128",
+      "patient": "sigir-201522",
+      "original_strict": "INVESTIGATOR_ACTIONS",
+      "with_authority": "INVESTIGATOR_ACTIONS",
+      "literal_cohort": "INVESTIGATOR_ACTIONS"
+    },
+    {
+      "case": "957",
+      "study": "NCT01207128",
+      "patient": "sigir-201522",
+      "original_strict": "INVESTIGATOR_ACTIONS",
+      "with_authority": "INVESTIGATOR_ACTIONS",
+      "literal_cohort": "INVESTIGATOR_ACTIONS"
+    },
+    {
+      "case": "962",
+      "study": "NCT00084240",
+      "patient": "sigir-201523",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "965",
+      "study": "NCT00084240",
+      "patient": "sigir-201523",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    },
+    {
+      "case": "985",
+      "study": "NCT00711399",
+      "patient": "sigir-201524",
+      "original_strict": "MISSING_DATA",
+      "with_authority": "MISSING_DATA",
+      "literal_cohort": "MISSING_DATA"
+    }
+  ],
+  "definitive_evidence": {
+    "44": {
+      "subject": "Patient/sigir-20143",
+      "study": "NCT01452971",
+      "criterion": "44",
+      "criterion_type": "exclusion",
+      "criterion_text": "Participant is under 18 years old.",
+      "state": "MET",
+      "source_sha256": "7db7b98d01354acf855cd7b610383ea9dd1df80ead35eeb47b9ba43467b559ad",
+      "catalog_sha256": "8f74ae1b4fb2c4de07965dd52dc56fba5a04a9e82d1ae500452e9e414eaf2e66",
+      "references": [
+        "Observation/x-89fd4ea4646207d8907a8cd7e401ad"
+      ],
+      "cited_lines": [
+        {
+          "line": 0,
+          "text": "0. A 58-year-old nonsmoker white female with mild exertional dyspnea and occasional cough is found to have a left lung mass on chest x-ray."
+        }
+      ]
+    },
+    "155": {
+      "subject": "Patient/sigir-20149",
+      "study": "NCT02615912",
+      "criterion": "155",
+      "criterion_type": "inclusion",
+      "criterion_text": "Subjects with visible skin disease, tattoos, skin condition, or abnormal skin color",
+      "state": "MET",
+      "source_sha256": "2092b6ca515b1931f317a278b8742d3598cf2e09c5e5cc0f6ff779618ecd8a32",
+      "catalog_sha256": "8f74ae1b4fb2c4de07965dd52dc56fba5a04a9e82d1ae500452e9e414eaf2e66",
+      "references": [
+        "Observation/x-e1a9b5a654de4380eb0cc3861254f8"
+      ],
+      "cited_lines": [
+        {
+          "line": 0,
+          "text": "0. A 43-year-old woman visits her dermatologist for lesions on her neck."
+        },
+        {
+          "line": 1,
+          "text": "1. On examination, multiple lesions are seen."
+        }
+      ]
+    },
+    "196": {
+      "subject": "Patient/sigir-201411",
+      "study": "NCT01723137",
+      "criterion": "196",
+      "criterion_type": "exclusion",
+      "criterion_text": "Less than 18 years of age",
+      "state": "MET",
+      "source_sha256": "db4467fa7cba03819df27445f2090c80d6acd145a3361057f24a2fb5877aaec1",
+      "catalog_sha256": "8f74ae1b4fb2c4de07965dd52dc56fba5a04a9e82d1ae500452e9e414eaf2e66",
+      "references": [
+        "Observation/x-5afa550df507089a1427470e47fda7"
+      ],
+      "cited_lines": [
+        {
+          "line": 0,
+          "text": "0. A 40-year-old woman with no past medical history presents to the ER with excruciating pain in her right arm that had started 1 hour prior to her admission."
+        }
+      ]
+    },
+    "517": {
+      "subject": "Patient/sigir-201427",
+      "study": "NCT01713881",
+      "criterion": "517",
+      "criterion_type": "exclusion",
+      "criterion_text": "Less than 18 years old",
+      "state": "MET",
+      "source_sha256": "01945d0051cbf9d8ce14afd398b15c5587d600aa5dea251561509793d615f273",
+      "catalog_sha256": "8f74ae1b4fb2c4de07965dd52dc56fba5a04a9e82d1ae500452e9e414eaf2e66",
+      "references": [
+        "Observation/x-7355df5bc9de96f32f577f01647486"
+      ],
+      "cited_lines": [
+        {
+          "line": 0,
+          "text": "0. A 21-year-old college student undergoes colonoscopy due to family history of multiple polyps in his older siblings."
+        }
+      ]
+    },
+    "577": {
+      "subject": "Patient/sigir-20151",
+      "study": "NCT01142245",
+      "criterion": "577",
+      "criterion_type": "exclusion",
+      "criterion_text": "Moribund patients in whom active treatment of any form is not considered.",
+      "state": "MET",
+      "source_sha256": "90feb6e2e42b1dda71b8a19974faa30b3a05570b5a27035a6f244848e689f105",
+      "catalog_sha256": "8f74ae1b4fb2c4de07965dd52dc56fba5a04a9e82d1ae500452e9e414eaf2e66",
+      "references": [
+        "Observation/x-1680fa87fb5aac0b6751e7770260b3"
+      ],
+      "cited_lines": [
+        {
+          "line": 3,
+          "text": "3. He receives a rapid infusion of crystalloid solution followed by packed red blood cell transfusion and is admitted to the ICU for further care."
+        }
+      ]
+    },
+    "633": {
+      "subject": "Patient/sigir-20153",
+      "study": "NCT01139632",
+      "criterion": "633",
+      "criterion_type": "exclusion",
+      "criterion_text": "Age <18 years.",
+      "state": "MET",
+      "source_sha256": "ab965a81fb09dd678da825d447c82ac9e9ef4577ea2241d448e4bbdbbfa4e5d2",
+      "catalog_sha256": "8f74ae1b4fb2c4de07965dd52dc56fba5a04a9e82d1ae500452e9e414eaf2e66",
+      "references": [
+        "Observation/x-ed3708d09e7dd22d62124cf4235a22"
+      ],
+      "cited_lines": [
+        {
+          "line": 0,
+          "text": "0. A 65 yo male with no significant history of cardiovascular disease presents to the emergency room with acute onset of shortness of breath, tachypnea, and left-sided chest pain that worsens with inspiration."
+        }
+      ]
+    }
+  }
+}

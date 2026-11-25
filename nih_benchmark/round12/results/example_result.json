@@ -1,0 +1,61 @@
+{
+  "criteria": {
+    "435": {
+      "state": "NOT_MET",
+      "reason": "Negated protocol condition. chest_ct_showed_pulmonary_thromboembolism = True (requires eq True).",
+      "evidence": [
+        "Observation/x-0ca1b19a3d938c4778cfd5f8085c4c"
+      ],
+      "facts": {
+        "chest_ct_showed_lung_cancer": {
+          "label": "chest_ct_showed_lung_cancer",
+          "value": null,
+          "state": "MISSING_DATA",
+          "evidence": [],
+          "contract": "f-9b6beb1b277277fa845c23a2"
+        },
+        "chest_ct_showed_active_tb": {
+          "label": "chest_ct_showed_active_tb",
+          "value": null,
+          "state": "MISSING_DATA",
+          "evidence": [],
+          "contract": "f-e7cbcbc014663af855498365"
+        },
+        "chest_ct_showed_pulmonary_thromboembolism": {
+          "label": "chest_ct_showed_pulmonary_thromboembolism",
+          "value": true,
+          "state": "AVAILABLE",
+          "evidence": [
+            "Observation/x-0ca1b19a3d938c4778cfd5f8085c4c"
+          ],
+          "contract": "f-5dbfd45774969d145afa3eee"
+        },
+        "chest_ct_showed_ild": {
+          "label": "chest_ct_showed_ild",
+          "value": false,
+          "state": "AVAILABLE",
+          "evidence": [
+            "Observation/x-22c9c8f1beb22ea9585ba99ab67c30"
+          ],
+          "contract": "f-250f6f1859dacb592ec08f28"
+        }
+      },
+      "partial_evidence": [
+        "Observation/x-0ca1b19a3d938c4778cfd5f8085c4c",
+        "Observation/x-22c9c8f1beb22ea9585ba99ab67c30"
+      ],
+      "source_sentences": [
+        1
+      ]
+    }
+  },
+  "requests": [],
+  "work": {
+    "evidence_backed_decisions": 1,
+    "human_questions": 0,
+    "record_lookups": 0,
+    "engineering_items": 0
+  },
+  "catalog_sha256": "a89c4020b0c68a0758681ca3189e07c44659b3ba8dc140e9dda724e8ef6514d8",
+  "source_sha256": "534fe8d94c868b3292577e7582331bb688809cca87e21e8e0671cde934accc16"
+}

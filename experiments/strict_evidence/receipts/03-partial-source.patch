@@ -1,0 +1,68 @@
+--- a/nih_benchmark/round11/match.py
++++ b/nih_benchmark/round11/match.py
+@@ -8,7 +8,7 @@
+ from catalog import HERE,R9,verify
+ from chart import open_chart,search
+ from native import NativeChart
+-from evidence_review import screen_snapshot
++from evidence_review import DECIDED, screen_snapshot
+ from run import fingerprint
+ 
+ def read_json(path):
+@@ -36,6 +36,10 @@
+                 if context:
+                     f['related_findings'] = context
+         v['source_sentences']=sorted({n for ref in v['evidence'] for n in snap.refs[ref]})
++        if v['state'] not in DECIDED and v['partial_evidence']:
++            v['partial_source_sentences'] = sorted({
++                line for ref in v['partial_evidence'] for line in snap.refs[ref]
++            })
+     out.update(catalog_sha256=pack['sha256'],source_sha256=snap.hash)
+     return out
+ 
+--- a/nih_benchmark/round18/test_benchmark_source.py
++++ b/nih_benchmark/round18/test_benchmark_source.py
+@@ -9,7 +9,7 @@
+ 
+ BENCH = Path(__file__).resolve().parents[1]
+ sys.path.insert(0,str(BENCH/'round16'))
+-from literal_scope import frozen_assignments
++from literal_scope import R11, frozen_assignments, screen, verify
+ from benchmark_source import APPENDED,PRODUCER,ROLE
+ from intake import benchmark_chart, plain_chart
+ 
+@@ -74,6 +74,34 @@
+             self.assertIn(approved[subject], [x['value'] for x in doc['identifier']])
+         self.assertEqual(count,134)
+ 
++    def test_single_note_partial_and_decisive_source_lines(self):
++        pack = verify(text(R11 / 'compiled.json'))
++        expected = {
++            '26': ('MISSING_DATA', [0], [0]),  # the evaluated conditional gate already has evidence
++            '454': ('MISSING_DATA', [], [0]),  # age and sex from the same sentence
++            '460': ('MISSING_DATA', [], [5]),  # GCS with no CT result
++            '467': ('MISSING_DATA', [], None),
++            '481': ('SOURCE_SCOPE_HOLD', [], None),
++            '517': ('MET', [0], None),
++        }
++        checked = set()
++        for assignment, subject, items, _ in frozen_assignments():
++            key = str(assignment['annotation_id'])
++            if key in expected:
++                checked.add(key)
++                with self.subTest(criterion=key):
++                    state, source_lines, partial = expected[key]
++                    row = screen(items, subject, pack, assignment['study'], key)['criteria'][key]
++                    self.assertEqual(row['state'], state)
++                    self.assertEqual(row['source_sentences'], source_lines)
++                    self.assertEqual(bool(row['evidence']), bool(source_lines))
++                    if partial is None:
++                        self.assertNotIn('partial_source_sentences', row)
++                    else:
++                        self.assertEqual(row['partial_source_sentences'], partial)
++                        self.assertTrue(row['partial_evidence'])
++        self.assertEqual(checked, set(expected))
++
+     def test_normal_cli_ordinary_frozen_and_bulk_modes(self):
+         with tempfile.TemporaryDirectory() as directory:
+             tmp=Path(directory)

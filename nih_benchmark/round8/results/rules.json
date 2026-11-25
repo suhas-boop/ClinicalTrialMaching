@@ -1,0 +1,4022 @@
+{
+  "108": {
+    "rule": {
+      "expression": {
+        "not": {
+          "fact": "hemodynamically_unstable"
+        }
+      },
+      "facts": {
+        "hemodynamically_unstable": {
+          "kind": "bool",
+          "label": "hemodynamically_unstable",
+          "role": "record",
+          "scope": "hemodynamically unstable"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "Hemodynamically unstable patients.",
+      "criterion_type": "exclusion",
+      "registry": {
+        "criterion_in_eligibility_text": true,
+        "last_update": "2015-07-30",
+        "registry_sha256": "6b4eda9dc43489b252cb7b0f634a2ba4173612f274f71251c65dd0941b4aac4a",
+        "registry_url": "https://clinicaltrials.gov/study/NCT02512159"
+      },
+      "trial_id": "NCT02512159"
+    }
+  },
+  "109": {
+    "rule": {
+      "expression": {
+        "not": {
+          "fact": "septic_shock"
+        }
+      },
+      "facts": {
+        "septic_shock": {
+          "kind": "bool",
+          "label": "septic_shock",
+          "role": "record",
+          "scope": "septic shock"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "Patients with septic shock from any source.",
+      "criterion_type": "exclusion",
+      "registry": {
+        "criterion_in_eligibility_text": true,
+        "last_update": "2015-07-30",
+        "registry_sha256": "6b4eda9dc43489b252cb7b0f634a2ba4173612f274f71251c65dd0941b4aac4a",
+        "registry_url": "https://clinicaltrials.gov/study/NCT02512159"
+      },
+      "trial_id": "NCT02512159"
+    }
+  },
+  "111": {
+    "rule": {
+      "expression": {
+        "hold": "Must the enteral fistula be the documented cause of the ulcer, or is coexistence sufficient?"
+      },
+      "facts": {}
+    },
+    "source": {
+      "criterion_text": "Patients with secondary cutaneous ulcer enteral fistula.",
+      "criterion_type": "exclusion",
+      "registry": {
+        "criterion_in_eligibility_text": true,
+        "last_update": "2015-07-30",
+        "registry_sha256": "6b4eda9dc43489b252cb7b0f634a2ba4173612f274f71251c65dd0941b4aac4a",
+        "registry_url": "https://clinicaltrials.gov/study/NCT02512159"
+      },
+      "trial_id": "NCT02512159"
+    }
+  },
+  "115": {
+    "rule": {
+      "expression": {
+        "not": {
+          "any": [
+            {
+              "fact": "cutaneous_ulcer_due_to_leishmania"
+            },
+            {
+              "fact": "cutaneous_ulcer_due_to_insect_bite"
+            }
+          ]
+        }
+      },
+      "facts": {
+        "cutaneous_ulcer_due_to_insect_bite": {
+          "kind": "bool",
+          "label": "cutaneous_ulcer_due_to_insect_bite",
+          "role": "record",
+          "scope": "cutaneous ulcer due to insect bite"
+        },
+        "cutaneous_ulcer_due_to_leishmania": {
+          "kind": "bool",
+          "label": "cutaneous_ulcer_due_to_leishmania",
+          "role": "record",
+          "scope": "cutaneous ulcer due to leishmania"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "Patients with cutaneous ulcer leishmania, insect bite.",
+      "criterion_type": "exclusion",
+      "registry": {
+        "criterion_in_eligibility_text": true,
+        "last_update": "2015-07-30",
+        "registry_sha256": "6b4eda9dc43489b252cb7b0f634a2ba4173612f274f71251c65dd0941b4aac4a",
+        "registry_url": "https://clinicaltrials.gov/study/NCT02512159"
+      },
+      "trial_id": "NCT02512159"
+    }
+  },
+  "116": {
+    "rule": {
+      "expression": {
+        "not": {
+          "fact": "cutaneous_ulcer_due_to_burns"
+        }
+      },
+      "facts": {
+        "cutaneous_ulcer_due_to_burns": {
+          "kind": "bool",
+          "label": "cutaneous_ulcer_due_to_burns",
+          "role": "record",
+          "scope": "cutaneous ulcer due to burns"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "Patients with cutaneous ulcer burns.",
+      "criterion_type": "exclusion",
+      "registry": {
+        "criterion_in_eligibility_text": true,
+        "last_update": "2015-07-30",
+        "registry_sha256": "6b4eda9dc43489b252cb7b0f634a2ba4173612f274f71251c65dd0941b4aac4a",
+        "registry_url": "https://clinicaltrials.gov/study/NCT02512159"
+      },
+      "trial_id": "NCT02512159"
+    }
+  },
+  "120": {
+    "rule": {
+      "expression": {
+        "all": [
+          {
+            "any": [
+              {
+                "fact": "sibling_of_index_subject"
+              },
+              {
+                "fact": "parent_of_index_subject"
+              }
+            ]
+          },
+          {
+            "any": [
+              {
+                "fact": "index_insulin_resistance_on_ogtt"
+              },
+              {
+                "fact": "index_insulin_resistance_on_ivgtt"
+              }
+            ]
+          }
+        ]
+      },
+      "facts": {
+        "index_insulin_resistance_on_ivgtt": {
+          "kind": "bool",
+          "label": "index_insulin_resistance_on_ivgtt",
+          "role": "record",
+          "scope": "index insulin resistance on ivgtt"
+        },
+        "index_insulin_resistance_on_ogtt": {
+          "kind": "bool",
+          "label": "index_insulin_resistance_on_ogtt",
+          "role": "record",
+          "scope": "index insulin resistance on ogtt"
+        },
+        "parent_of_index_subject": {
+          "kind": "bool",
+          "label": "parent_of_index_subject",
+          "role": "record",
+          "scope": "parent of index subject"
+        },
+        "sibling_of_index_subject": {
+          "kind": "bool",
+          "label": "sibling_of_index_subject",
+          "role": "record",
+          "scope": "sibling of index subject"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "Siblings and parents of patients with insulin resistance. Siblings and parents will be included only in the case of documented insulin resistance in the index subject. Insulin resistance will be documented by OGTT and/or IVGTT.",
+      "criterion_type": "inclusion",
+      "trial_id": "NCT00015626"
+    }
+  },
+  "130": {
+    "rule": {
+      "expression": {
+        "hold": "Are eating disorder, substance abuse and psychotic disorder three independent exclusions, or must all coexist?"
+      },
+      "facts": {}
+    },
+    "source": {
+      "criterion_text": "diagnosis of eating disorder, substance abuse, and psychotic disorder",
+      "criterion_type": "exclusion",
+      "registry": {
+        "criterion_in_eligibility_text": true,
+        "last_update": "2013-12-05",
+        "registry_sha256": "c8981bdcdb9d76a3cf0cc6d8c812f45f7e97003530818bb77f818f96b0a87093",
+        "registry_url": "https://clinicaltrials.gov/study/NCT00845988"
+      },
+      "trial_id": "NCT00845988"
+    }
+  },
+  "132": {
+    "rule": {
+      "expression": {
+        "not": {
+          "any": [
+            {
+              "fact": "pregnant"
+            },
+            {
+              "fact": "breastfeeding"
+            }
+          ]
+        }
+      },
+      "facts": {
+        "breastfeeding": {
+          "kind": "bool",
+          "label": "breastfeeding",
+          "role": "record",
+          "scope": "breastfeeding"
+        },
+        "pregnant": {
+          "kind": "bool",
+          "label": "pregnant",
+          "role": "record",
+          "scope": "pregnant"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "pregnant or breast feeding women",
+      "criterion_type": "exclusion",
+      "registry": {
+        "criterion_in_eligibility_text": true,
+        "last_update": "2013-12-05",
+        "registry_sha256": "c8981bdcdb9d76a3cf0cc6d8c812f45f7e97003530818bb77f818f96b0a87093",
+        "registry_url": "https://clinicaltrials.gov/study/NCT00845988"
+      },
+      "trial_id": "NCT00845988"
+    }
+  },
+  "138": {
+    "rule": {
+      "expression": {
+        "not": {
+          "fact": "any_past_or_current_antipsychotic_treatment"
+        }
+      },
+      "facts": {
+        "any_past_or_current_antipsychotic_treatment": {
+          "kind": "bool",
+          "label": "any_past_or_current_antipsychotic_treatment",
+          "role": "record",
+          "scope": "any past or current antipsychotic treatment"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "was/is treated with antipsychotic drugs",
+      "criterion_type": "exclusion",
+      "registry": {
+        "criterion_in_eligibility_text": true,
+        "last_update": "2015-03-17",
+        "registry_sha256": "79b02d43b7b720dd6409f09b1f8371e084e8f3382463dd22d34317dd675bb422",
+        "registry_url": "https://clinicaltrials.gov/study/NCT01863628"
+      },
+      "trial_id": "NCT01863628"
+    }
+  },
+  "140": {
+    "rule": {
+      "expression": {
+        "hold": "Does pregnancy alone or lactation alone trigger exclusion, or must both be present?"
+      },
+      "facts": {}
+    },
+    "source": {
+      "criterion_text": "in pregnancy and lactation",
+      "criterion_type": "exclusion",
+      "registry": {
+        "criterion_in_eligibility_text": true,
+        "last_update": "2015-03-17",
+        "registry_sha256": "79b02d43b7b720dd6409f09b1f8371e084e8f3382463dd22d34317dd675bb422",
+        "registry_url": "https://clinicaltrials.gov/study/NCT01863628"
+      },
+      "trial_id": "NCT01863628"
+    }
+  },
+  "142": {
+    "rule": {
+      "expression": {
+        "fact": "study_personnel_confirm_current_mci_symptoms"
+      },
+      "facts": {
+        "study_personnel_confirm_current_mci_symptoms": {
+          "kind": "bool",
+          "label": "study_personnel_confirm_current_mci_symptoms",
+          "role": "investigator",
+          "scope": "study personnel confirm current mci symptoms"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "Participants must be experiencing symptoms of mild cognitive impairment; this will be determined by study personnel.",
+      "criterion_type": "inclusion",
+      "trial_id": "NCT01519271"
+    }
+  },
+  "145": {
+    "rule": {
+      "expression": {
+        "not": {
+          "fact": "active_suicidal_ideation"
+        }
+      },
+      "facts": {
+        "active_suicidal_ideation": {
+          "kind": "bool",
+          "label": "active_suicidal_ideation",
+          "role": "record",
+          "scope": "active suicidal ideation"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "Active suicide ideation.",
+      "criterion_type": "exclusion",
+      "trial_id": "NCT01519271"
+    }
+  },
+  "147": {
+    "rule": {
+      "expression": {
+        "not": {
+          "fact": "previous_deep_brain_stimulation_surgery"
+        }
+      },
+      "facts": {
+        "previous_deep_brain_stimulation_surgery": {
+          "kind": "bool",
+          "label": "previous_deep_brain_stimulation_surgery",
+          "role": "record",
+          "scope": "previous deep brain stimulation surgery"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "History of Deep Brain Stimulation surgery.",
+      "criterion_type": "exclusion",
+      "trial_id": "NCT01519271"
+    }
+  },
+  "150": {
+    "rule": {
+      "expression": {
+        "all": [
+          {
+            "fact": "enrolled_two_year_blinded_ASA_trial"
+          },
+          {
+            "fact": "entered_three_year_ASA_extension"
+          }
+        ]
+      },
+      "facts": {
+        "enrolled_two_year_blinded_ASA_trial": {
+          "kind": "bool",
+          "label": "enrolled_two_year_blinded_ASA_trial",
+          "role": "site",
+          "scope": "enrolled two year blinded ASA trial"
+        },
+        "entered_three_year_ASA_extension": {
+          "kind": "bool",
+          "label": "entered_three_year_ASA_extension",
+          "role": "site",
+          "scope": "entered three year ASA extension"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "Enrolled into the 2-year, double-blind, placebo-controlled ASA study and entered 3 year extension study",
+      "criterion_type": "inclusion",
+      "trial_id": "NCT01628315"
+    }
+  },
+  "154": {
+    "rule": {
+      "expression": {
+        "all": [
+          {
+            "fact": "healthy_subject"
+          },
+          {
+            "any": [
+              {
+                "fact": "fitzpatrick_I"
+              },
+              {
+                "fact": "fitzpatrick_II"
+              },
+              {
+                "fact": "fitzpatrick_III"
+              }
+            ]
+          }
+        ]
+      },
+      "facts": {
+        "fitzpatrick_I": {
+          "kind": "bool",
+          "label": "fitzpatrick_I",
+          "role": "record",
+          "scope": "fitzpatrick I"
+        },
+        "fitzpatrick_II": {
+          "kind": "bool",
+          "label": "fitzpatrick_II",
+          "role": "record",
+          "scope": "fitzpatrick II"
+        },
+        "fitzpatrick_III": {
+          "kind": "bool",
+          "label": "fitzpatrick_III",
+          "role": "record",
+          "scope": "fitzpatrick III"
+        },
+        "healthy_subject": {
+          "kind": "bool",
+          "label": "healthy_subject",
+          "role": "record",
+          "scope": "healthy subject"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "Healthy Subjects with Fitzpatrick Skin Types I, II or III",
+      "criterion_type": "inclusion",
+      "trial_id": "NCT02615912"
+    }
+  },
+  "155": {
+    "rule": {
+      "expression": {
+        "any": [
+          {
+            "fact": "visible_skin_disease"
+          },
+          {
+            "fact": "tattoos"
+          },
+          {
+            "fact": "skin_condition"
+          },
+          {
+            "fact": "abnormal_skin_color"
+          }
+        ]
+      },
+      "facts": {
+        "abnormal_skin_color": {
+          "kind": "bool",
+          "label": "abnormal_skin_color",
+          "role": "record",
+          "scope": "abnormal skin color"
+        },
+        "skin_condition": {
+          "kind": "bool",
+          "label": "skin_condition",
+          "role": "record",
+          "scope": "skin condition"
+        },
+        "tattoos": {
+          "kind": "bool",
+          "label": "tattoos",
+          "role": "record",
+          "scope": "tattoos"
+        },
+        "visible_skin_disease": {
+          "kind": "bool",
+          "label": "visible_skin_disease",
+          "role": "record",
+          "scope": "visible skin disease"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "Subjects with visible skin disease, tattoos, skin condition, or abnormal skin color",
+      "criterion_type": "inclusion",
+      "trial_id": "NCT02615912"
+    }
+  },
+  "171": {
+    "rule": {
+      "expression": {
+        "not": {
+          "all": [
+            {
+              "fact": "inr",
+              "op": "gt",
+              "value": 2
+            },
+            {
+              "not": {
+                "fact": "systemic_anticoagulation"
+              }
+            }
+          ]
+        }
+      },
+      "facts": {
+        "inr": {
+          "kind": "number",
+          "label": "inr",
+          "role": "record",
+          "scope": "inr",
+          "unit": "1"
+        },
+        "systemic_anticoagulation": {
+          "kind": "bool",
+          "label": "systemic_anticoagulation",
+          "role": "record",
+          "scope": "systemic anticoagulation"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "Patients with severe hepatic disease defined as an international normalised ratio >2 in the absence of systemic anticoagulation",
+      "criterion_type": "exclusion",
+      "trial_id": "NCT02097186"
+    }
+  },
+  "174": {
+    "rule": {
+      "expression": {
+        "not": {
+          "fact": "prior_axillary_surgery"
+        }
+      },
+      "facts": {
+        "prior_axillary_surgery": {
+          "kind": "bool",
+          "label": "prior_axillary_surgery",
+          "role": "record",
+          "scope": "prior axillary surgery"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "Patients with previous axillary surgery",
+      "criterion_type": "exclusion",
+      "trial_id": "NCT02097186"
+    }
+  },
+  "177": {
+    "rule": {
+      "expression": {
+        "fact": "maintenance_hemodialysis_after_central_venous_catheterization"
+      },
+      "facts": {
+        "maintenance_hemodialysis_after_central_venous_catheterization": {
+          "kind": "bool",
+          "label": "maintenance_hemodialysis_after_central_venous_catheterization",
+          "role": "record",
+          "scope": "maintenance hemodialysis after central venous catheterization"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "Maintenance hemodialysis after central vena catheterization.",
+      "criterion_type": "inclusion",
+      "registry": {
+        "criterion_in_eligibility_text": true,
+        "last_update": "2014-10-15",
+        "registry_sha256": "3ee0dac65a5587268c60f0e2db0f3ac5b5093fd5ec751a586bcb1c9bbd17cf4b",
+        "registry_url": "https://clinicaltrials.gov/study/NCT02264964"
+      },
+      "trial_id": "NCT02264964"
+    }
+  },
+  "179": {
+    "rule": {
+      "expression": {
+        "not": {
+          "fact": "prior_central_venous_puncture_or_catheterization"
+        }
+      },
+      "facts": {
+        "prior_central_venous_puncture_or_catheterization": {
+          "kind": "bool",
+          "label": "prior_central_venous_puncture_or_catheterization",
+          "role": "record",
+          "scope": "prior central venous puncture or catheterization"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "Had been performed central venous puncture or catheterization before.",
+      "criterion_type": "exclusion",
+      "registry": {
+        "criterion_in_eligibility_text": true,
+        "last_update": "2014-10-15",
+        "registry_sha256": "3ee0dac65a5587268c60f0e2db0f3ac5b5093fd5ec751a586bcb1c9bbd17cf4b",
+        "registry_url": "https://clinicaltrials.gov/study/NCT02264964"
+      },
+      "trial_id": "NCT02264964"
+    }
+  },
+  "184": {
+    "rule": {
+      "expression": {
+        "hold": "Who can designate an ‘other inappropriate situation’, and what documented determination governs exclusion?"
+      },
+      "facts": {}
+    },
+    "source": {
+      "criterion_text": "Other inappropriate situation",
+      "criterion_type": "exclusion",
+      "registry": {
+        "criterion_in_eligibility_text": true,
+        "last_update": "2014-10-15",
+        "registry_sha256": "3ee0dac65a5587268c60f0e2db0f3ac5b5093fd5ec751a586bcb1c9bbd17cf4b",
+        "registry_url": "https://clinicaltrials.gov/study/NCT02264964"
+      },
+      "trial_id": "NCT02264964"
+    }
+  },
+  "185": {
+    "rule": {
+      "expression": {
+        "any": [
+          {
+            "fact": "diagnosed_shock"
+          },
+          {
+            "fact": "diagnosed_ards"
+          }
+        ]
+      },
+      "facts": {
+        "diagnosed_ards": {
+          "kind": "bool",
+          "label": "diagnosed_ards",
+          "role": "record",
+          "scope": "diagnosed ards"
+        },
+        "diagnosed_shock": {
+          "kind": "bool",
+          "label": "diagnosed_shock",
+          "role": "record",
+          "scope": "diagnosed shock"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "Patients were included if they were diagnosed with Shock, Acute respiratory distress syndrome (ARDS), or both.",
+      "criterion_type": "inclusion",
+      "trial_id": "NCT01526382"
+    }
+  },
+  "186": {
+    "rule": {
+      "expression": {
+        "fact": "heart_rate",
+        "op": "ge",
+        "value": 90
+      },
+      "facts": {
+        "heart_rate": {
+          "kind": "number",
+          "label": "heart_rate",
+          "role": "record",
+          "scope": "heart rate",
+          "unit": "/min"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "Heart rate of at least 90/min;",
+      "criterion_type": "inclusion",
+      "trial_id": "NCT01526382"
+    }
+  },
+  "187": {
+    "rule": {
+      "expression": {
+        "any": [
+          {
+            "fact": "respiratory_rate",
+            "op": "ge",
+            "value": 20
+          },
+          {
+            "fact": "paco2_mmhg",
+            "op": "le",
+            "value": 32
+          },
+          {
+            "fact": "receiving_mechanical_ventilation"
+          }
+        ]
+      },
+      "facts": {
+        "paco2_mmhg": {
+          "kind": "number",
+          "label": "paco2_mmhg",
+          "role": "record",
+          "scope": "paco2 mmhg",
+          "unit": "mm[Hg]"
+        },
+        "receiving_mechanical_ventilation": {
+          "kind": "bool",
+          "label": "receiving_mechanical_ventilation",
+          "role": "record",
+          "scope": "receiving mechanical ventilation"
+        },
+        "respiratory_rate": {
+          "kind": "number",
+          "label": "respiratory_rate",
+          "role": "record",
+          "scope": "respiratory rate",
+          "unit": "/min"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "A respiratory rate of at least 20/min or a PaCO2 of 32mmHg or lower or the use of mechanical ventilation;",
+      "criterion_type": "inclusion",
+      "trial_id": "NCT01526382"
+    }
+  },
+  "196": {
+    "rule": {
+      "expression": {
+        "not": {
+          "fact": "age_years",
+          "op": "lt",
+          "value": 18
+        }
+      },
+      "facts": {
+        "age_years": {
+          "kind": "number",
+          "label": "age_years",
+          "role": "record",
+          "scope": "age years",
+          "unit": "a"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "Less than 18 years of age",
+      "criterion_type": "exclusion",
+      "trial_id": "NCT01723137"
+    }
+  },
+  "20": {
+    "rule": {
+      "expression": {
+        "not": {
+          "fact": "unable_to_travel_for_treatment_or_followup"
+        }
+      },
+      "facts": {
+        "unable_to_travel_for_treatment_or_followup": {
+          "kind": "bool",
+          "label": "unable_to_travel_for_treatment_or_followup",
+          "role": "record",
+          "scope": "unable to travel for treatment or followup"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "Geographical inaccessibility for treatment or follow-up evaluations",
+      "criterion_type": "exclusion",
+      "trial_id": "NCT01397994"
+    }
+  },
+  "203": {
+    "rule": {
+      "expression": {
+        "fact": "positive_thyroid_peroxidase_antibodies"
+      },
+      "facts": {
+        "positive_thyroid_peroxidase_antibodies": {
+          "kind": "bool",
+          "label": "positive_thyroid_peroxidase_antibodies",
+          "role": "record",
+          "scope": "positive thyroid peroxidase antibodies"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "having positive antibodies against thyroid peroxidase",
+      "criterion_type": "inclusion",
+      "trial_id": "NCT01551498"
+    }
+  },
+  "212": {
+    "rule": {
+      "expression": {
+        "not": {
+          "fact": "refused_written_consent"
+        }
+      },
+      "facts": {
+        "refused_written_consent": {
+          "kind": "bool",
+          "label": "refused_written_consent",
+          "role": "record",
+          "scope": "refused written consent"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "Refusal to give written informed consent.",
+      "criterion_type": "exclusion",
+      "trial_id": "NCT02264769"
+    }
+  },
+  "217": {
+    "rule": {
+      "expression": {
+        "not": {
+          "fact": "traumatic_cause_of_presenting_dyspnea"
+        }
+      },
+      "facts": {
+        "traumatic_cause_of_presenting_dyspnea": {
+          "kind": "bool",
+          "label": "traumatic_cause_of_presenting_dyspnea",
+          "role": "record",
+          "scope": "traumatic cause of presenting dyspnea"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "Patients presenting with a traumatic cause of dyspnea",
+      "criterion_type": "exclusion",
+      "registry": {
+        "criterion_in_eligibility_text": true,
+        "last_update": "2006-10-04",
+        "registry_sha256": "de9bc1388ef99d618c92afeb7faf6dbffcb734aad12e667f45ddd77ffa55498e",
+        "registry_url": "https://clinicaltrials.gov/study/NCT00163709"
+      },
+      "trial_id": "NCT00163709"
+    }
+  },
+  "218": {
+    "rule": {
+      "expression": {
+        "hold": "What unit belongs with the creatinine threshold of 250? The registered text says ‘micro mmol/L’."
+      },
+      "facts": {}
+    },
+    "source": {
+      "criterion_text": "patients with severe renal disease (serum creatinine level of more than 250 micro mmol/L",
+      "criterion_type": "exclusion",
+      "registry": {
+        "criterion_in_eligibility_text": true,
+        "last_update": "2006-10-04",
+        "registry_sha256": "de9bc1388ef99d618c92afeb7faf6dbffcb734aad12e667f45ddd77ffa55498e",
+        "registry_url": "https://clinicaltrials.gov/study/NCT00163709"
+      },
+      "trial_id": "NCT00163709"
+    }
+  },
+  "226": {
+    "rule": {
+      "expression": {
+        "not": {
+          "all": [
+            {
+              "fact": "recurrent_hematoma"
+            },
+            {
+              "fact": "first_surgery_before_study_start"
+            }
+          ]
+        }
+      },
+      "facts": {
+        "first_surgery_before_study_start": {
+          "kind": "bool",
+          "label": "first_surgery_before_study_start",
+          "role": "record",
+          "scope": "first surgery before study start"
+        },
+        "recurrent_hematoma": {
+          "kind": "bool",
+          "label": "recurrent_hematoma",
+          "role": "record",
+          "scope": "recurrent hematoma"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "Recurrent hematoma if the first surgery was performed before study start",
+      "criterion_type": "exclusion",
+      "trial_id": "NCT01624545"
+    }
+  },
+  "227": {
+    "rule": {
+      "expression": {
+        "not": {
+          "any": [
+            {
+              "fact": "csh_due_to_spinal_csf_fistula"
+            },
+            {
+              "fact": "csh_due_to_meningeosis_carcinomatosa"
+            }
+          ]
+        }
+      },
+      "facts": {
+        "csh_due_to_meningeosis_carcinomatosa": {
+          "kind": "bool",
+          "label": "csh_due_to_meningeosis_carcinomatosa",
+          "role": "record",
+          "scope": "csh due to meningeosis carcinomatosa"
+        },
+        "csh_due_to_spinal_csf_fistula": {
+          "kind": "bool",
+          "label": "csh_due_to_spinal_csf_fistula",
+          "role": "record",
+          "scope": "csh due to spinal csf fistula"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "CSH due to spontaneous spinal CSF fistula or meningeosis carcinomatosa",
+      "criterion_type": "exclusion",
+      "trial_id": "NCT01624545"
+    }
+  },
+  "230": {
+    "rule": {
+      "expression": {
+        "all": [
+          {
+            "fact": "age_years",
+            "op": "ge",
+            "value": 18
+          },
+          {
+            "fact": "symptomatic_chronic_subdural_hematoma"
+          }
+        ]
+      },
+      "facts": {
+        "age_years": {
+          "kind": "number",
+          "label": "age_years",
+          "role": "record",
+          "scope": "age years",
+          "unit": "a"
+        },
+        "symptomatic_chronic_subdural_hematoma": {
+          "kind": "bool",
+          "label": "symptomatic_chronic_subdural_hematoma",
+          "role": "record",
+          "scope": "symptomatic chronic subdural hematoma"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "Patient at least 18 years of age presenting with a symptomatic chronic subdural hematoma",
+      "criterion_type": "inclusion",
+      "trial_id": "NCT01869855"
+    }
+  },
+  "231": {
+    "rule": {
+      "expression": {
+        "fact": "chronic_subdural_hematoma_verified_on_ct_or_mri"
+      },
+      "facts": {
+        "chronic_subdural_hematoma_verified_on_ct_or_mri": {
+          "kind": "bool",
+          "label": "chronic_subdural_hematoma_verified_on_ct_or_mri",
+          "role": "record",
+          "scope": "chronic subdural hematoma verified on ct or mri"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "Chronic subdural hematoma verified on cranial CT or MRI",
+      "criterion_type": "inclusion",
+      "trial_id": "NCT01869855"
+    }
+  },
+  "232": {
+    "rule": {
+      "expression": {
+        "not": {
+          "fact": "surgeon_decided_craniotomy_intraoperatively"
+        }
+      },
+      "facts": {
+        "surgeon_decided_craniotomy_intraoperatively": {
+          "kind": "bool",
+          "label": "surgeon_decided_craniotomy_intraoperatively",
+          "role": "investigator",
+          "scope": "surgeon decided craniotomy intraoperatively"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "The surgeon decides based on intraoperative conditions to perform a craniotomy (e.g. acute hematoma indicating a craniotomy)",
+      "criterion_type": "exclusion",
+      "trial_id": "NCT01869855"
+    }
+  },
+  "233": {
+    "rule": {
+      "expression": {
+        "not": {
+          "fact": "csh_due_to_underlying_illness"
+        }
+      },
+      "facts": {
+        "csh_due_to_underlying_illness": {
+          "kind": "bool",
+          "label": "csh_due_to_underlying_illness",
+          "role": "record",
+          "scope": "csh due to underlying illness"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "Chronic subdural hematoma caused by another underlying illness (e.g. caused by over-drainage of a vp-shunt)",
+      "criterion_type": "exclusion",
+      "trial_id": "NCT01869855"
+    }
+  },
+  "235": {
+    "rule": {
+      "expression": {
+        "all": [
+          {
+            "any": [
+              {
+                "fact": "menorrhagia"
+              },
+              {
+                "fact": "bulk_symptoms"
+              }
+            ]
+          },
+          {
+            "fact": "symptoms_attributed_to_uterine_fibroids"
+          }
+        ]
+      },
+      "facts": {
+        "bulk_symptoms": {
+          "kind": "bool",
+          "label": "bulk_symptoms",
+          "role": "record",
+          "scope": "bulk symptoms"
+        },
+        "menorrhagia": {
+          "kind": "bool",
+          "label": "menorrhagia",
+          "role": "record",
+          "scope": "menorrhagia"
+        },
+        "symptoms_attributed_to_uterine_fibroids": {
+          "kind": "bool",
+          "label": "symptoms_attributed_to_uterine_fibroids",
+          "role": "record",
+          "scope": "symptoms attributed to uterine fibroids"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "Menorrhagia and/or bulk symptoms associated with uterine fibroids",
+      "criterion_type": "inclusion",
+      "trial_id": "NCT00277680"
+    }
+  },
+  "239": {
+    "rule": {
+      "expression": {
+        "not": {
+          "fact": "postmenopausal_woman"
+        }
+      },
+      "facts": {
+        "postmenopausal_woman": {
+          "kind": "bool",
+          "label": "postmenopausal_woman",
+          "role": "record",
+          "scope": "postmenopausal woman"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "Postmenopausal women",
+      "criterion_type": "exclusion",
+      "trial_id": "NCT00277680"
+    }
+  },
+  "25": {
+    "rule": {
+      "expression": {
+        "not": {
+          "any": [
+            {
+              "fact": "severe_hypertension"
+            },
+            {
+              "fact": "malignant_hypertension"
+            },
+            {
+              "fact": "secondary_hypertension"
+            }
+          ]
+        }
+      },
+      "facts": {
+        "malignant_hypertension": {
+          "kind": "bool",
+          "label": "malignant_hypertension",
+          "role": "record",
+          "scope": "malignant hypertension"
+        },
+        "secondary_hypertension": {
+          "kind": "bool",
+          "label": "secondary_hypertension",
+          "role": "record",
+          "scope": "secondary hypertension"
+        },
+        "severe_hypertension": {
+          "kind": "bool",
+          "label": "severe_hypertension",
+          "role": "record",
+          "scope": "severe hypertension"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "Severe/malignant/secondary hypertensive patients",
+      "criterion_type": "exclusion",
+      "trial_id": "NCT00149227"
+    }
+  },
+  "26": {
+    "rule": {
+      "applies": {
+        "fact": "woman"
+      },
+      "expression": {
+        "not": {
+          "any": [
+            {
+              "fact": "pregnant"
+            },
+            {
+              "fact": "childbearing_potential"
+            }
+          ]
+        }
+      },
+      "facts": {
+        "childbearing_potential": {
+          "kind": "bool",
+          "label": "childbearing_potential",
+          "role": "record",
+          "scope": "childbearing potential"
+        },
+        "pregnant": {
+          "kind": "bool",
+          "label": "pregnant",
+          "role": "record",
+          "scope": "pregnant"
+        },
+        "woman": {
+          "kind": "bool",
+          "label": "woman",
+          "role": "record",
+          "scope": "woman"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "Pregnant women and women of childbearing potential",
+      "criterion_type": "exclusion",
+      "trial_id": "NCT00149227"
+    }
+  },
+  "29": {
+    "rule": {
+      "expression": {
+        "not": {
+          "fact": "serum_creatinine_mg_dl",
+          "op": "gt",
+          "value": 3.0
+        }
+      },
+      "facts": {
+        "serum_creatinine_mg_dl": {
+          "kind": "number",
+          "label": "serum_creatinine_mg_dl",
+          "role": "record",
+          "scope": "serum creatinine mg dl",
+          "unit": "mg/dL"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "Severe renal impairment (Serum creatinine >3.0 mg/dl)",
+      "criterion_type": "exclusion",
+      "trial_id": "NCT00149227"
+    }
+  },
+  "307": {
+    "rule": {
+      "expression": {
+        "hold": "Are the five surgical pathways exhaustive, and which planned procedures must be documented before volumetry?"
+      },
+      "facts": {}
+    },
+    "source": {
+      "criterion_text": "Patient selection should be cautious, covering basically 5 types of liver damage which must be submitted prior to liver volumetry: Metastatic Disease subsidiary right hepatectomy extended to segment IV Metastatic Disease subsidiary right hepatectomy with suspected diseased liver (neoadjuvant chemotherapy) (in cases of doubt may be used liver function test indocyanine green) Bilobar liver metastases with multiple nodules in the right lobe and more than 3 nodules greater than 30 mm in the left hepatic lobe (LHI) will perform lumpectomies the LHI + right portal branch ligation (or postoperative percutaneous embolization) in order to make right hepatectomy 4-6 weeks (two stage surgery) Subsidiary Hepatocarcinoma extended right hepatectomy Liver Injury benign / malignant (Hemangiomas, hydatid cysts or liver tumors / primary bile hepatoblastoma), which by extension threatens the viability of the remaining liver tissue.",
+      "criterion_type": "inclusion",
+      "registry": {
+        "criterion_in_eligibility_text": false,
+        "last_update": "2015-12-14",
+        "registry_sha256": "0ab88ce90e531df67bf22c3823087705957754cc68b1a996e51f8fd5063a825b",
+        "registry_url": "https://clinicaltrials.gov/study/NCT01745731"
+      },
+      "trial_id": "NCT01745731"
+    }
+  },
+  "322": {
+    "rule": {
+      "expression": {
+        "not": {
+          "any": [
+            {
+              "fact": "pregnant"
+            },
+            {
+              "all": [
+                {
+                  "fact": "woman_of_childbearing_age"
+                },
+                {
+                  "not": {
+                    "fact": "adequate_contraception"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "facts": {
+        "adequate_contraception": {
+          "kind": "bool",
+          "label": "adequate_contraception",
+          "role": "record",
+          "scope": "adequate contraception"
+        },
+        "pregnant": {
+          "kind": "bool",
+          "label": "pregnant",
+          "role": "record",
+          "scope": "pregnant"
+        },
+        "woman_of_childbearing_age": {
+          "kind": "bool",
+          "label": "woman_of_childbearing_age",
+          "role": "record",
+          "scope": "woman of childbearing age"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "Pregnant women or women of childbearing age who do not have adequate contraception.",
+      "criterion_type": "exclusion",
+      "registry": {
+        "criterion_in_eligibility_text": true,
+        "last_update": "2015-12-14",
+        "registry_sha256": "0ab88ce90e531df67bf22c3823087705957754cc68b1a996e51f8fd5063a825b",
+        "registry_url": "https://clinicaltrials.gov/study/NCT01745731"
+      },
+      "trial_id": "NCT01745731"
+    }
+  },
+  "323": {
+    "rule": {
+      "expression": {
+        "all": [
+          {
+            "fact": "immune_deficiency"
+          },
+          {
+            "fact": "early_bone_marrow_failure_in_childhood"
+          }
+        ]
+      },
+      "facts": {
+        "early_bone_marrow_failure_in_childhood": {
+          "kind": "bool",
+          "label": "early_bone_marrow_failure_in_childhood",
+          "role": "record",
+          "scope": "early bone marrow failure in childhood"
+        },
+        "immune_deficiency": {
+          "kind": "bool",
+          "label": "immune_deficiency",
+          "role": "record",
+          "scope": "immune deficiency"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "Immune Deficiency and early BMF in childhood",
+      "criterion_type": "inclusion",
+      "registry": {
+        "criterion_in_eligibility_text": true,
+        "last_update": "2016-04-18",
+        "registry_sha256": "acc8084448ad5d34c7ab65dd3447424babb85fdbc43cee584696b905b1c79992",
+        "registry_url": "https://clinicaltrials.gov/study/NCT02556359"
+      },
+      "trial_id": "NCT02556359"
+    }
+  },
+  "328": {
+    "rule": {
+      "expression": {
+        "not": {
+          "any": [
+            {
+              "fact": "infant_history_of_bleeding"
+            },
+            {
+              "fact": "family_history_of_bleeding"
+            }
+          ]
+        }
+      },
+      "facts": {
+        "family_history_of_bleeding": {
+          "kind": "bool",
+          "label": "family_history_of_bleeding",
+          "role": "record",
+          "scope": "family history of bleeding"
+        },
+        "infant_history_of_bleeding": {
+          "kind": "bool",
+          "label": "infant_history_of_bleeding",
+          "role": "record",
+          "scope": "infant history of bleeding"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "Bleeding history in infant or family",
+      "criterion_type": "exclusion",
+      "trial_id": "NCT01260883"
+    }
+  },
+  "329": {
+    "rule": {
+      "expression": {
+        "not": {
+          "fact": "coagulopathy"
+        }
+      },
+      "facts": {
+        "coagulopathy": {
+          "kind": "bool",
+          "label": "coagulopathy",
+          "role": "record",
+          "scope": "coagulopathy"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "Coagulopathy",
+      "criterion_type": "exclusion",
+      "trial_id": "NCT01260883"
+    }
+  },
+  "330": {
+    "rule": {
+      "expression": {
+        "not": {
+          "fact": "history_of_gi_bleeding"
+        }
+      },
+      "facts": {
+        "history_of_gi_bleeding": {
+          "kind": "bool",
+          "label": "history_of_gi_bleeding",
+          "role": "record",
+          "scope": "history of gi bleeding"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "Gastrointestinal bleeding history",
+      "criterion_type": "exclusion",
+      "trial_id": "NCT01260883"
+    }
+  },
+  "332": {
+    "rule": {
+      "expression": {
+        "not": {
+          "fact": "gestation_at_birth_weeks",
+          "op": "lt",
+          "value": 36
+        }
+      },
+      "facts": {
+        "gestation_at_birth_weeks": {
+          "kind": "number",
+          "label": "gestation_at_birth_weeks",
+          "role": "record",
+          "scope": "gestation at birth weeks",
+          "unit": "wk"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "Premature birth (<36 weeks gestation)",
+      "criterion_type": "exclusion",
+      "trial_id": "NCT01260883"
+    }
+  },
+  "336": {
+    "rule": {
+      "expression": {
+        "not": {
+          "any": [
+            {
+              "fact": "consent_refused"
+            },
+            {
+              "fact": "consent_absent"
+            }
+          ]
+        }
+      },
+      "facts": {
+        "consent_absent": {
+          "kind": "bool",
+          "label": "consent_absent",
+          "role": "record",
+          "scope": "consent absent"
+        },
+        "consent_refused": {
+          "kind": "bool",
+          "label": "consent_refused",
+          "role": "record",
+          "scope": "consent refused"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "refused or none consent",
+      "criterion_type": "exclusion",
+      "trial_id": "NCT00557219"
+    }
+  },
+  "34": {
+    "rule": {
+      "expression": {
+        "not": {
+          "fact": "fever_due_to_noninfectious_cause"
+        }
+      },
+      "facts": {
+        "fever_due_to_noninfectious_cause": {
+          "kind": "bool",
+          "label": "fever_due_to_noninfectious_cause",
+          "role": "record",
+          "scope": "fever due to noninfectious cause"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "fever for non-infectious diseases such as rheumatic autoimmune disease or with tumor",
+      "criterion_type": "exclusion",
+      "registry": {
+        "criterion_in_eligibility_text": true,
+        "last_update": "2016-07-26",
+        "registry_sha256": "fbaf17afb1e459dff97f0ff2a1a5d86e09a189a6a1a2242678c990703a76bb50",
+        "registry_url": "https://clinicaltrials.gov/study/NCT02618655"
+      },
+      "trial_id": "NCT02618655"
+    }
+  },
+  "359": {
+    "rule": {
+      "expression": {
+        "not": {
+          "fact": "gastric_carcinoma"
+        }
+      },
+      "facts": {
+        "gastric_carcinoma": {
+          "kind": "bool",
+          "label": "gastric_carcinoma",
+          "role": "record",
+          "scope": "gastric carcinoma"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "Gastric carcinoma",
+      "criterion_type": "exclusion",
+      "trial_id": "NCT02509286"
+    }
+  },
+  "36": {
+    "rule": {
+      "expression": {
+        "hold": "Which discharge disposition does ‘automatic discharge’ denote, and when must it occur?"
+      },
+      "facts": {}
+    },
+    "source": {
+      "criterion_text": "patients leave with automatic discharge",
+      "criterion_type": "exclusion",
+      "registry": {
+        "criterion_in_eligibility_text": true,
+        "last_update": "2016-07-26",
+        "registry_sha256": "fbaf17afb1e459dff97f0ff2a1a5d86e09a189a6a1a2242678c990703a76bb50",
+        "registry_url": "https://clinicaltrials.gov/study/NCT02618655"
+      },
+      "trial_id": "NCT02618655"
+    }
+  },
+  "366": {
+    "rule": {
+      "expression": {
+        "all": [
+          {
+            "any": [
+              {
+                "fact": "blunt_abdominal_trauma"
+              },
+              {
+                "fact": "penetrating_abdominal_trauma"
+              }
+            ]
+          },
+          {
+            "fact": "open_laparotomy_required_for_abdominal_trauma_with_primary_closure"
+          }
+        ]
+      },
+      "facts": {
+        "blunt_abdominal_trauma": {
+          "kind": "bool",
+          "label": "blunt_abdominal_trauma",
+          "role": "record",
+          "scope": "blunt abdominal trauma"
+        },
+        "open_laparotomy_required_for_abdominal_trauma_with_primary_closure": {
+          "kind": "bool",
+          "label": "open_laparotomy_required_for_abdominal_trauma_with_primary_closure",
+          "role": "record",
+          "scope": "open laparotomy required for abdominal trauma with primary closure"
+        },
+        "penetrating_abdominal_trauma": {
+          "kind": "bool",
+          "label": "penetrating_abdominal_trauma",
+          "role": "record",
+          "scope": "penetrating abdominal trauma"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "Has experienced abdominal trauma, blunt or penetrating, requiring open abdominal laparotomy with primary closure",
+      "criterion_type": "inclusion",
+      "trial_id": "NCT02255487"
+    }
+  },
+  "367": {
+    "rule": {
+      "expression": {
+        "all": [
+          {
+            "fact": "acute_surgical_abdomen"
+          },
+          {
+            "fact": "open_laparotomy_required_for_acute_surgical_abdomen_with_primary_closure"
+          }
+        ]
+      },
+      "facts": {
+        "acute_surgical_abdomen": {
+          "kind": "bool",
+          "label": "acute_surgical_abdomen",
+          "role": "record",
+          "scope": "acute surgical abdomen"
+        },
+        "open_laparotomy_required_for_acute_surgical_abdomen_with_primary_closure": {
+          "kind": "bool",
+          "label": "open_laparotomy_required_for_acute_surgical_abdomen_with_primary_closure",
+          "role": "record",
+          "scope": "open laparotomy required for acute surgical abdomen with primary closure"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "Has experienced acute surgical abdomen requiring open abdominal laparotomy with primary closure",
+      "criterion_type": "inclusion",
+      "trial_id": "NCT02255487"
+    }
+  },
+  "379": {
+    "rule": {
+      "expression": {
+        "not": {
+          "fact": "pregnant"
+        }
+      },
+      "facts": {
+        "pregnant": {
+          "kind": "bool",
+          "label": "pregnant",
+          "role": "record",
+          "scope": "pregnant"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "Pregnant patients",
+      "criterion_type": "exclusion",
+      "trial_id": "NCT01594385"
+    }
+  },
+  "385": {
+    "rule": {
+      "expression": {
+        "all": [
+          {
+            "fact": "can_take_oral_medication"
+          },
+          {
+            "fact": "can_retain_oral_medication"
+          }
+        ]
+      },
+      "facts": {
+        "can_retain_oral_medication": {
+          "kind": "bool",
+          "label": "can_retain_oral_medication",
+          "role": "record",
+          "scope": "can retain oral medication"
+        },
+        "can_take_oral_medication": {
+          "kind": "bool",
+          "label": "can_take_oral_medication",
+          "role": "record",
+          "scope": "can take oral medication"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "Ability to take and retain oral medication",
+      "criterion_type": "inclusion",
+      "registry": {
+        "criterion_in_eligibility_text": true,
+        "last_update": "2015-06-25",
+        "registry_sha256": "19767b7ff586bb1c817d366ee35e562c0db27e78fc2b487a9da59ef1a0288420",
+        "registry_url": "https://clinicaltrials.gov/study/NCT00997100"
+      },
+      "trial_id": "NCT00997100"
+    }
+  },
+  "396": {
+    "rule": {
+      "expression": {
+        "not": {
+          "any": [
+            {
+              "fact": "history_of_mi"
+            },
+            {
+              "fact": "current_uncontrolled_angina"
+            },
+            {
+              "fact": "severe_uncontrolled_ventricular_arrhythmia"
+            },
+            {
+              "fact": "symptomatic_congestive_heart_failure"
+            },
+            {
+              "fact": "unstable_angina"
+            },
+            {
+              "fact": "ecg_acute_ischemia"
+            }
+          ]
+        }
+      },
+      "facts": {
+        "current_uncontrolled_angina": {
+          "kind": "bool",
+          "label": "current_uncontrolled_angina",
+          "role": "record",
+          "scope": "current uncontrolled angina"
+        },
+        "ecg_acute_ischemia": {
+          "kind": "bool",
+          "label": "ecg_acute_ischemia",
+          "role": "record",
+          "scope": "ecg acute ischemia"
+        },
+        "history_of_mi": {
+          "kind": "bool",
+          "label": "history_of_mi",
+          "role": "record",
+          "scope": "history of mi"
+        },
+        "severe_uncontrolled_ventricular_arrhythmia": {
+          "kind": "bool",
+          "label": "severe_uncontrolled_ventricular_arrhythmia",
+          "role": "record",
+          "scope": "severe uncontrolled ventricular arrhythmia"
+        },
+        "symptomatic_congestive_heart_failure": {
+          "kind": "bool",
+          "label": "symptomatic_congestive_heart_failure",
+          "role": "record",
+          "scope": "symptomatic congestive heart failure"
+        },
+        "unstable_angina": {
+          "kind": "bool",
+          "label": "unstable_angina",
+          "role": "record",
+          "scope": "unstable angina"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "History of myocardial infarction or current uncontrolled angina, severe uncontrolled ventricular arrhythmias, symptomatic congestive heart failure, unstable angina pectoris, or electrocardiographic evidence of acute ischemia.",
+      "criterion_type": "exclusion",
+      "registry": {
+        "criterion_in_eligibility_text": true,
+        "last_update": "2015-06-25",
+        "registry_sha256": "19767b7ff586bb1c817d366ee35e562c0db27e78fc2b487a9da59ef1a0288420",
+        "registry_url": "https://clinicaltrials.gov/study/NCT00997100"
+      },
+      "trial_id": "NCT00997100"
+    }
+  },
+  "397": {
+    "rule": {
+      "expression": {
+        "hold": "Can a documented assessment establish marked baseline QT prolongation independently of repeated QTc >450 ms, and what qualifies as repeated?"
+      },
+      "facts": {}
+    },
+    "source": {
+      "criterion_text": "Marked baseline prolongation of QT/QTc interval (eg, repeated demonstration of a QTc interval >450 milliseconds",
+      "criterion_type": "exclusion",
+      "registry": {
+        "criterion_in_eligibility_text": false,
+        "last_update": "2015-06-25",
+        "registry_sha256": "19767b7ff586bb1c817d366ee35e562c0db27e78fc2b487a9da59ef1a0288420",
+        "registry_url": "https://clinicaltrials.gov/study/NCT00997100"
+      },
+      "trial_id": "NCT00997100"
+    }
+  },
+  "400": {
+    "rule": {
+      "expression": {
+        "not": {
+          "any": [
+            {
+              "fact": "history_ischemic_cns_disease"
+            },
+            {
+              "fact": "current_ischemic_cns_disease"
+            }
+          ]
+        }
+      },
+      "facts": {
+        "current_ischemic_cns_disease": {
+          "kind": "bool",
+          "label": "current_ischemic_cns_disease",
+          "role": "record",
+          "scope": "current ischemic cns disease"
+        },
+        "history_ischemic_cns_disease": {
+          "kind": "bool",
+          "label": "history_ischemic_cns_disease",
+          "role": "record",
+          "scope": "history ischemic cns disease"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "History of, or current, ischemic CNS disease.",
+      "criterion_type": "exclusion",
+      "registry": {
+        "criterion_in_eligibility_text": true,
+        "last_update": "2015-06-25",
+        "registry_sha256": "19767b7ff586bb1c817d366ee35e562c0db27e78fc2b487a9da59ef1a0288420",
+        "registry_url": "https://clinicaltrials.gov/study/NCT00997100"
+      },
+      "trial_id": "NCT00997100"
+    }
+  },
+  "401": {
+    "rule": {
+      "expression": {
+        "hold": "Which listed cancers require documented excision to qualify for the five-year cancer-free exception?"
+      },
+      "facts": {}
+    },
+    "source": {
+      "criterion_text": "Current malignancy. A 5-year cancer-free period is required with the exception of skin basal or squamous cell carcinoma or cervical cancer in situ that has been excised.",
+      "criterion_type": "exclusion",
+      "registry": {
+        "criterion_in_eligibility_text": true,
+        "last_update": "2015-06-25",
+        "registry_sha256": "19767b7ff586bb1c817d366ee35e562c0db27e78fc2b487a9da59ef1a0288420",
+        "registry_url": "https://clinicaltrials.gov/study/NCT00997100"
+      },
+      "trial_id": "NCT00997100"
+    }
+  },
+  "402": {
+    "rule": {
+      "expression": {
+        "not": {
+          "fact": "current_severe_infection"
+        }
+      },
+      "facts": {
+        "current_severe_infection": {
+          "kind": "bool",
+          "label": "current_severe_infection",
+          "role": "record",
+          "scope": "current severe infection"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "Current severe infection",
+      "criterion_type": "exclusion",
+      "registry": {
+        "criterion_in_eligibility_text": true,
+        "last_update": "2015-06-25",
+        "registry_sha256": "19767b7ff586bb1c817d366ee35e562c0db27e78fc2b487a9da59ef1a0288420",
+        "registry_url": "https://clinicaltrials.gov/study/NCT00997100"
+      },
+      "trial_id": "NCT00997100"
+    }
+  },
+  "414": {
+    "rule": {
+      "expression": {
+        "not": {
+          "not": {
+            "fact": "systemic_lupus_erythematosus"
+          }
+        }
+      },
+      "facts": {
+        "systemic_lupus_erythematosus": {
+          "kind": "bool",
+          "label": "systemic_lupus_erythematosus",
+          "role": "record",
+          "scope": "systemic lupus erythematosus"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "Patients without systemic Lupus erythematosus",
+      "criterion_type": "exclusion",
+      "trial_id": "NCT01520155"
+    }
+  },
+  "418": {
+    "rule": {
+      "expression": {
+        "not": {
+          "fact": "failed_mri_metal_screen"
+        }
+      },
+      "facts": {
+        "failed_mri_metal_screen": {
+          "kind": "bool",
+          "label": "failed_mri_metal_screen",
+          "role": "record",
+          "scope": "failed mri metal screen"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "Failure to pass MRI metal screening",
+      "criterion_type": "exclusion",
+      "trial_id": "NCT00723788"
+    }
+  },
+  "419": {
+    "rule": {
+      "expression": {
+        "not": {
+          "any": [
+            {
+              "fact": "claustrophobia"
+            },
+            {
+              "fact": "sedation_required_to_hold_still"
+            }
+          ]
+        }
+      },
+      "facts": {
+        "claustrophobia": {
+          "kind": "bool",
+          "label": "claustrophobia",
+          "role": "record",
+          "scope": "claustrophobia"
+        },
+        "sedation_required_to_hold_still": {
+          "kind": "bool",
+          "label": "sedation_required_to_hold_still",
+          "role": "record",
+          "scope": "sedation required to hold still"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "Claustrophobia or need for sedation due to inability to hold still",
+      "criterion_type": "exclusion",
+      "trial_id": "NCT00723788"
+    }
+  },
+  "435": {
+    "rule": {
+      "expression": {
+        "not": {
+          "any": [
+            {
+              "fact": "chest_ct_showed_lung_cancer"
+            },
+            {
+              "fact": "chest_ct_showed_active_tb"
+            },
+            {
+              "fact": "chest_ct_showed_pulmonary_thromboembolism"
+            },
+            {
+              "fact": "chest_ct_showed_ild"
+            }
+          ]
+        }
+      },
+      "facts": {
+        "chest_ct_showed_active_tb": {
+          "kind": "bool",
+          "label": "chest_ct_showed_active_tb",
+          "role": "record",
+          "scope": "chest ct showed active tb"
+        },
+        "chest_ct_showed_ild": {
+          "kind": "bool",
+          "label": "chest_ct_showed_ild",
+          "role": "record",
+          "scope": "chest ct showed ild"
+        },
+        "chest_ct_showed_lung_cancer": {
+          "kind": "bool",
+          "label": "chest_ct_showed_lung_cancer",
+          "role": "record",
+          "scope": "chest ct showed lung cancer"
+        },
+        "chest_ct_showed_pulmonary_thromboembolism": {
+          "kind": "bool",
+          "label": "chest_ct_showed_pulmonary_thromboembolism",
+          "role": "record",
+          "scope": "chest ct showed pulmonary thromboembolism"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "Chest CT shows lung cancer, active pulmonary tuberculosis, pulmonary thromboembolism or interstitial lung diseases",
+      "criterion_type": "exclusion",
+      "trial_id": "NCT02219360"
+    }
+  },
+  "437": {
+    "rule": {
+      "expression": {
+        "hold": "Which classification and definitions establish the required type I or II COPD exacerbation?"
+      },
+      "facts": {}
+    },
+    "source": {
+      "criterion_text": "Acute exacerbation of COPD type I or II according to GOLD",
+      "criterion_type": "inclusion",
+      "registry": {
+        "criterion_in_eligibility_text": true,
+        "last_update": "2008-09-29",
+        "registry_sha256": "2a18810b739a35802c51b945df9dac0c47dad321eaf7004cbc351fdbe1f49210",
+        "registry_url": "https://clinicaltrials.gov/study/NCT00170222"
+      },
+      "trial_id": "NCT00170222"
+    }
+  },
+  "44": {
+    "rule": {
+      "expression": {
+        "not": {
+          "fact": "age_years",
+          "op": "lt",
+          "value": 18
+        }
+      },
+      "facts": {
+        "age_years": {
+          "kind": "number",
+          "label": "age_years",
+          "role": "record",
+          "scope": "age years",
+          "unit": "a"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "Participant is under 18 years old.",
+      "criterion_type": "exclusion",
+      "trial_id": "NCT01452971"
+    }
+  },
+  "45": {
+    "rule": {
+      "expression": {
+        "not": {
+          "not": {
+            "fact": "lung_cancer"
+          }
+        }
+      },
+      "facts": {
+        "lung_cancer": {
+          "kind": "bool",
+          "label": "lung_cancer",
+          "role": "record",
+          "scope": "lung cancer"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "Participant is not a lung cancer patient.",
+      "criterion_type": "exclusion",
+      "trial_id": "NCT01452971"
+    }
+  },
+  "454": {
+    "rule": {
+      "expression": {
+        "all": [
+          {
+            "fact": "age_years",
+            "op": "gt",
+            "value": 18
+          },
+          {
+            "fact": "male_or_female"
+          },
+          {
+            "fact": "undergoing_emergency_laparotomy"
+          }
+        ]
+      },
+      "facts": {
+        "age_years": {
+          "kind": "number",
+          "label": "age_years",
+          "role": "record",
+          "scope": "age years",
+          "unit": "a"
+        },
+        "male_or_female": {
+          "kind": "bool",
+          "label": "male_or_female",
+          "role": "record",
+          "scope": "male or female"
+        },
+        "undergoing_emergency_laparotomy": {
+          "kind": "bool",
+          "label": "undergoing_emergency_laparotomy",
+          "role": "record",
+          "scope": "undergoing emergency laparotomy"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "Adults male or female over 18 year old undergoing emergency laparotomy.",
+      "criterion_type": "inclusion",
+      "trial_id": "NCT02229695"
+    }
+  },
+  "46": {
+    "rule": {
+      "expression": {
+        "hold": "What interval and screening anchor define a ‘recent’ chest CT?"
+      },
+      "facts": {}
+    },
+    "source": {
+      "criterion_text": "Pulmonary nodule on a recent CT",
+      "criterion_type": "inclusion",
+      "registry": {
+        "criterion_in_eligibility_text": true,
+        "last_update": "2015-07-03",
+        "registry_sha256": "2a07426209c5947f0e2cfe46eb652c1f8772f5623df9ad76febfdf4b3240dfb9",
+        "registry_url": "https://clinicaltrials.gov/study/NCT02490059"
+      },
+      "trial_id": "NCT02490059"
+    }
+  },
+  "460": {
+    "rule": {
+      "expression": {
+        "all": [
+          {
+            "fact": "traumatic_brain_injury"
+          },
+          {
+            "any": [
+              {
+                "all": [
+                  {
+                    "fact": "gcs",
+                    "op": "le",
+                    "value": 8
+                  },
+                  {
+                    "any": [
+                      {
+                        "fact": "ct_intracranial_hemorrhage"
+                      },
+                      {
+                        "fact": "ct_cerebral_edema"
+                      },
+                      {
+                        "fact": "ct_diffuse_axonal_injury"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "fact": "gcs_motor",
+                    "op": "le",
+                    "value": 3
+                  },
+                  {
+                    "fact": "normal_head_ct"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "facts": {
+        "ct_cerebral_edema": {
+          "kind": "bool",
+          "label": "ct_cerebral_edema",
+          "role": "record",
+          "scope": "ct cerebral edema"
+        },
+        "ct_diffuse_axonal_injury": {
+          "kind": "bool",
+          "label": "ct_diffuse_axonal_injury",
+          "role": "record",
+          "scope": "ct diffuse axonal injury"
+        },
+        "ct_intracranial_hemorrhage": {
+          "kind": "bool",
+          "label": "ct_intracranial_hemorrhage",
+          "role": "record",
+          "scope": "ct intracranial hemorrhage"
+        },
+        "gcs": {
+          "kind": "number",
+          "label": "gcs",
+          "role": "record",
+          "scope": "gcs",
+          "unit": "1"
+        },
+        "gcs_motor": {
+          "kind": "number",
+          "label": "gcs_motor",
+          "role": "record",
+          "scope": "gcs motor",
+          "unit": "1"
+        },
+        "normal_head_ct": {
+          "kind": "bool",
+          "label": "normal_head_ct",
+          "role": "record",
+          "scope": "normal head ct"
+        },
+        "traumatic_brain_injury": {
+          "kind": "bool",
+          "label": "traumatic_brain_injury",
+          "role": "record",
+          "scope": "traumatic brain injury"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "have a severe traumatic brain injury as defined by either a GCS ≤ 8 and an abnormal CT scan (intracranial hemorrhage, cerebral edema or diffuse axonal injury) or a motor score ≤ 3 and normal CT scan",
+      "criterion_type": "inclusion",
+      "trial_id": "NCT00282269"
+    }
+  },
+  "467": {
+    "rule": {
+      "expression": {
+        "not": {
+          "fact": "greater_than_mild_preinjury_neurodevelopmental_disability"
+        }
+      },
+      "facts": {
+        "greater_than_mild_preinjury_neurodevelopmental_disability": {
+          "kind": "bool",
+          "label": "greater_than_mild_preinjury_neurodevelopmental_disability",
+          "role": "record",
+          "scope": "greater than mild preinjury neurodevelopmental disability"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "have more than mild neurodevelopmental disability prior to injury",
+      "criterion_type": "exclusion",
+      "trial_id": "NCT00282269"
+    }
+  },
+  "468": {
+    "rule": {
+      "expression": {
+        "not": {
+          "all": [
+            {
+              "fact": "acute_isolated_epidural_hematoma"
+            },
+            {
+              "fact": "rapid_recovery_expected_after_surgical_removal"
+            }
+          ]
+        }
+      },
+      "facts": {
+        "acute_isolated_epidural_hematoma": {
+          "kind": "bool",
+          "label": "acute_isolated_epidural_hematoma",
+          "role": "record",
+          "scope": "acute isolated epidural hematoma"
+        },
+        "rapid_recovery_expected_after_surgical_removal": {
+          "kind": "bool",
+          "label": "rapid_recovery_expected_after_surgical_removal",
+          "role": "investigator",
+          "scope": "rapid recovery expected after surgical removal"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "have an acute isolated epidural hematoma and are expected to recover rapidly after surgical removal",
+      "criterion_type": "exclusion",
+      "trial_id": "NCT00282269"
+    }
+  },
+  "475": {
+    "rule": {
+      "expression": {
+        "not": {
+          "fact": "child_involved_in_motor_vehicle_collision_at_index_injury"
+        }
+      },
+      "facts": {
+        "child_involved_in_motor_vehicle_collision_at_index_injury": {
+          "kind": "bool",
+          "label": "child_involved_in_motor_vehicle_collision_at_index_injury",
+          "role": "record",
+          "scope": "child involved in motor vehicle collision at index injury"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "Incidents where the injured child was involved in a motor vehicle collision",
+      "criterion_type": "exclusion",
+      "trial_id": "NCT02378311"
+    }
+  },
+  "476": {
+    "rule": {
+      "expression": {
+        "not": {
+          "fact": "child_injured_by_another_rider_at_index_injury"
+        }
+      },
+      "facts": {
+        "child_injured_by_another_rider_at_index_injury": {
+          "kind": "bool",
+          "label": "child_injured_by_another_rider_at_index_injury",
+          "role": "record",
+          "scope": "child injured by another rider at index injury"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "Incidents where the injured child was injured by another rider (e.g. injured child run over by a cyclist)",
+      "criterion_type": "exclusion",
+      "trial_id": "NCT02378311"
+    }
+  },
+  "477": {
+    "rule": {
+      "expression": {
+        "not": {
+          "fact": "index_incident_involved_bicycle_with_bull_bars"
+        }
+      },
+      "facts": {
+        "index_incident_involved_bicycle_with_bull_bars": {
+          "kind": "bool",
+          "label": "index_incident_involved_bicycle_with_bull_bars",
+          "role": "record",
+          "scope": "index incident involved bicycle with bull bars"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "Incidents involving a bicycle fitted with 'bull bars'",
+      "criterion_type": "exclusion",
+      "trial_id": "NCT02378311"
+    }
+  },
+  "481": {
+    "rule": {
+      "expression": {
+        "fact": "permanent_resident_luanshya"
+      },
+      "facts": {
+        "permanent_resident_luanshya": {
+          "kind": "bool",
+          "label": "permanent_resident_luanshya",
+          "role": "record",
+          "scope": "permanent resident luanshya"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "Permanent residents of the Luanshya district",
+      "criterion_type": "inclusion",
+      "trial_id": "NCT00373048"
+    }
+  },
+  "492": {
+    "rule": {
+      "expression": {
+        "fact": "born_san_francis_designated_district_hospital_ifakara"
+      },
+      "facts": {
+        "born_san_francis_designated_district_hospital_ifakara": {
+          "kind": "bool",
+          "label": "born_san_francis_designated_district_hospital_ifakara",
+          "role": "record",
+          "scope": "born san francis designated district hospital ifakara"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "Born in San Francis Designated District Hospital of Ifakara",
+      "criterion_type": "inclusion",
+      "registry": {
+        "criterion_in_eligibility_text": true,
+        "last_update": "2007-07-06",
+        "registry_sha256": "9d2ed621aa88c8ccde7f5ae718866cbd3fed4017d1b006255efd4720966ab12c",
+        "registry_url": "https://clinicaltrials.gov/study/NCT00497471"
+      },
+      "trial_id": "NCT00497471"
+    }
+  },
+  "493": {
+    "rule": {
+      "expression": {
+        "not": {
+          "fact": "obvious_severe_congenital_malformation"
+        }
+      },
+      "facts": {
+        "obvious_severe_congenital_malformation": {
+          "kind": "bool",
+          "label": "obvious_severe_congenital_malformation",
+          "role": "record",
+          "scope": "obvious severe congenital malformation"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "Obvious severe congenital malformation such as: spina bifida, hydrocephalus or anencepahlus",
+      "criterion_type": "exclusion",
+      "registry": {
+        "criterion_in_eligibility_text": true,
+        "last_update": "2007-07-06",
+        "registry_sha256": "9d2ed621aa88c8ccde7f5ae718866cbd3fed4017d1b006255efd4720966ab12c",
+        "registry_url": "https://clinicaltrials.gov/study/NCT00497471"
+      },
+      "trial_id": "NCT00497471"
+    }
+  },
+  "494": {
+    "rule": {
+      "expression": {
+        "not": {
+          "fact": "twin_birth"
+        }
+      },
+      "facts": {
+        "twin_birth": {
+          "kind": "bool",
+          "label": "twin_birth",
+          "role": "record",
+          "scope": "twin birth"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "Twins",
+      "criterion_type": "exclusion",
+      "registry": {
+        "criterion_in_eligibility_text": true,
+        "last_update": "2007-07-06",
+        "registry_sha256": "9d2ed621aa88c8ccde7f5ae718866cbd3fed4017d1b006255efd4720966ab12c",
+        "registry_url": "https://clinicaltrials.gov/study/NCT00497471"
+      },
+      "trial_id": "NCT00497471"
+    }
+  },
+  "495": {
+    "rule": {
+      "expression": {
+        "not": {
+          "fact": "birth_weight_kg",
+          "op": "lt",
+          "value": 1.5
+        }
+      },
+      "facts": {
+        "birth_weight_kg": {
+          "kind": "number",
+          "label": "birth_weight_kg",
+          "role": "record",
+          "scope": "birth weight kg",
+          "unit": "kg"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "Birth weight < 1,5 kg",
+      "criterion_type": "exclusion",
+      "registry": {
+        "criterion_in_eligibility_text": false,
+        "last_update": "2007-07-06",
+        "registry_sha256": "9d2ed621aa88c8ccde7f5ae718866cbd3fed4017d1b006255efd4720966ab12c",
+        "registry_url": "https://clinicaltrials.gov/study/NCT00497471"
+      },
+      "trial_id": "NCT00497471"
+    }
+  },
+  "496": {
+    "rule": {
+      "expression": {
+        "not": {
+          "fact": "clinical_signs_of_cerebral_asphyxia"
+        }
+      },
+      "facts": {
+        "clinical_signs_of_cerebral_asphyxia": {
+          "kind": "bool",
+          "label": "clinical_signs_of_cerebral_asphyxia",
+          "role": "record",
+          "scope": "clinical signs of cerebral asphyxia"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "Clinical signs of cerebral asphyxia",
+      "criterion_type": "exclusion",
+      "registry": {
+        "criterion_in_eligibility_text": true,
+        "last_update": "2007-07-06",
+        "registry_sha256": "9d2ed621aa88c8ccde7f5ae718866cbd3fed4017d1b006255efd4720966ab12c",
+        "registry_url": "https://clinicaltrials.gov/study/NCT00497471"
+      },
+      "trial_id": "NCT00497471"
+    }
+  },
+  "497": {
+    "rule": {
+      "expression": {
+        "not": {
+          "any": [
+            {
+              "fact": "clinical_signs_neonatal_infection"
+            },
+            {
+              "fact": "clinical_signs_congenital_infection"
+            }
+          ]
+        }
+      },
+      "facts": {
+        "clinical_signs_congenital_infection": {
+          "kind": "bool",
+          "label": "clinical_signs_congenital_infection",
+          "role": "record",
+          "scope": "clinical signs congenital infection"
+        },
+        "clinical_signs_neonatal_infection": {
+          "kind": "bool",
+          "label": "clinical_signs_neonatal_infection",
+          "role": "record",
+          "scope": "clinical signs neonatal infection"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "Clinical signs of neonatal or congenital infection",
+      "criterion_type": "exclusion",
+      "registry": {
+        "criterion_in_eligibility_text": true,
+        "last_update": "2007-07-06",
+        "registry_sha256": "9d2ed621aa88c8ccde7f5ae718866cbd3fed4017d1b006255efd4720966ab12c",
+        "registry_url": "https://clinicaltrials.gov/study/NCT00497471"
+      },
+      "trial_id": "NCT00497471"
+    }
+  },
+  "498": {
+    "rule": {
+      "expression": {
+        "hold": "What functional assessment and authorized reviewer establish the maternal reliability criterion?"
+      },
+      "facts": {}
+    },
+    "source": {
+      "criterion_text": "Mother unreliable (deaf, mentally handicapped)",
+      "criterion_type": "exclusion",
+      "registry": {
+        "criterion_in_eligibility_text": true,
+        "last_update": "2007-07-06",
+        "registry_sha256": "9d2ed621aa88c8ccde7f5ae718866cbd3fed4017d1b006255efd4720966ab12c",
+        "registry_url": "https://clinicaltrials.gov/study/NCT00497471"
+      },
+      "trial_id": "NCT00497471"
+    }
+  },
+  "502": {
+    "rule": {
+      "expression": {
+        "fact": "who_performance_status",
+        "op": "le",
+        "value": 1
+      },
+      "facts": {
+        "who_performance_status": {
+          "kind": "number",
+          "label": "who_performance_status",
+          "role": "record",
+          "scope": "who performance status",
+          "unit": "1"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "WHO performance status ≤1",
+      "criterion_type": "inclusion",
+      "trial_id": "NCT01187901"
+    }
+  },
+  "517": {
+    "rule": {
+      "expression": {
+        "not": {
+          "fact": "age_years",
+          "op": "lt",
+          "value": 18
+        }
+      },
+      "facts": {
+        "age_years": {
+          "kind": "number",
+          "label": "age_years",
+          "role": "record",
+          "scope": "age years",
+          "unit": "a"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "Less than 18 years old",
+      "criterion_type": "exclusion",
+      "trial_id": "NCT01713881"
+    }
+  },
+  "544": {
+    "rule": {
+      "expression": {
+        "hold": "Which findings or authorized assessment establish a ‘severe cardiac condition’ for this study?"
+      },
+      "facts": {}
+    },
+    "source": {
+      "criterion_text": "Severe cardiac condition",
+      "criterion_type": "exclusion",
+      "registry": {
+        "criterion_in_eligibility_text": true,
+        "last_update": "2017-09-25",
+        "registry_sha256": "77bb35f509f1f01ee1dc501e8decf689d5bae54e85d096749ddfda56b59b9a1a",
+        "registry_url": "https://clinicaltrials.gov/study/NCT02273232"
+      },
+      "trial_id": "NCT02273232"
+    }
+  },
+  "55": {
+    "rule": {
+      "expression": {
+        "hold": "Does a history of preterm birth exclude older children, or does the restriction apply only during the neonatal period?"
+      },
+      "facts": {}
+    },
+    "source": {
+      "criterion_text": "Preterm and neonates, pregnancy",
+      "criterion_type": "exclusion",
+      "registry": {
+        "criterion_in_eligibility_text": true,
+        "last_update": "2019-07-02",
+        "registry_sha256": "747f90e70170b4059b997c76300e2d9ad815bd3858260cb10a5f48e6d6cfe217",
+        "registry_url": "https://clinicaltrials.gov/study/NCT02390596"
+      },
+      "trial_id": "NCT02390596"
+    }
+  },
+  "577": {
+    "rule": {
+      "expression": {
+        "not": {
+          "all": [
+            {
+              "fact": "moribund"
+            },
+            {
+              "fact": "active_treatment_of_any_form_not_considered"
+            }
+          ]
+        }
+      },
+      "facts": {
+        "active_treatment_of_any_form_not_considered": {
+          "kind": "bool",
+          "label": "active_treatment_of_any_form_not_considered",
+          "role": "record",
+          "scope": "active treatment of any form not considered"
+        },
+        "moribund": {
+          "kind": "bool",
+          "label": "moribund",
+          "role": "record",
+          "scope": "moribund"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "Moribund patients in whom active treatment of any form is not considered.",
+      "criterion_type": "exclusion",
+      "trial_id": "NCT01142245"
+    }
+  },
+  "621": {
+    "rule": {
+      "expression": {
+        "not": {
+          "not": {
+            "fact": "has_social_insurance"
+          }
+        }
+      },
+      "facts": {
+        "has_social_insurance": {
+          "kind": "bool",
+          "label": "has_social_insurance",
+          "role": "record",
+          "scope": "has social insurance"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "patient without social insurance",
+      "criterion_type": "exclusion",
+      "trial_id": "NCT01326507"
+    }
+  },
+  "632": {
+    "rule": {
+      "expression": {
+        "not": {
+          "fact": "unable_to_provide_written_consent"
+        }
+      },
+      "facts": {
+        "unable_to_provide_written_consent": {
+          "kind": "bool",
+          "label": "unable_to_provide_written_consent",
+          "role": "record",
+          "scope": "unable to provide written consent"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "Inability to write inform consent.",
+      "criterion_type": "exclusion",
+      "trial_id": "NCT01139632"
+    }
+  },
+  "633": {
+    "rule": {
+      "expression": {
+        "not": {
+          "fact": "age_years",
+          "op": "lt",
+          "value": 18
+        }
+      },
+      "facts": {
+        "age_years": {
+          "kind": "number",
+          "label": "age_years",
+          "role": "record",
+          "scope": "age years",
+          "unit": "a"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "Age <18 years.",
+      "criterion_type": "exclusion",
+      "trial_id": "NCT01139632"
+    }
+  },
+  "636": {
+    "rule": {
+      "expression": {
+        "fact": "lipid_lowering_treatment_months",
+        "op": "ge",
+        "value": 3
+      },
+      "facts": {
+        "lipid_lowering_treatment_months": {
+          "kind": "number",
+          "label": "lipid_lowering_treatment_months",
+          "role": "record",
+          "scope": "lipid lowering treatment months",
+          "unit": "mo"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "Lipid lowering drug treatment lasting at least 3 months",
+      "criterion_type": "inclusion",
+      "trial_id": "NCT01243255"
+    }
+  },
+  "637": {
+    "rule": {
+      "expression": {
+        "fact": "lipid_lowering_regimen_stable_six_weeks_immediately_before_enrolment"
+      },
+      "facts": {
+        "lipid_lowering_regimen_stable_six_weeks_immediately_before_enrolment": {
+          "kind": "bool",
+          "label": "lipid_lowering_regimen_stable_six_weeks_immediately_before_enrolment",
+          "role": "record",
+          "scope": "lipid lowering regimen stable six weeks immediately before enrolment"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "No lipid lowering drug/dose change for a minimum 6 weeks prior to enrolment to the study",
+      "criterion_type": "inclusion",
+      "trial_id": "NCT01243255"
+    }
+  },
+  "640": {
+    "rule": {
+      "expression": {
+        "fact": "typical_chest_pain"
+      },
+      "facts": {
+        "typical_chest_pain": {
+          "kind": "bool",
+          "label": "typical_chest_pain",
+          "role": "investigator",
+          "scope": "typical chest pain"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "typical chest pain",
+      "criterion_type": "inclusion",
+      "registry": {
+        "criterion_in_eligibility_text": true,
+        "last_update": "2010-05-27",
+        "registry_sha256": "489f9f7dbcbdb9cc58c4e451087c5a36b29be28c2b0b7ee6ccefedca24e9b05b",
+        "registry_url": "https://clinicaltrials.gov/study/NCT00844987"
+      },
+      "trial_id": "NCT00844987"
+    }
+  },
+  "653": {
+    "rule": {
+      "expression": {
+        "not": {
+          "fact": "unable_to_speak_english"
+        }
+      },
+      "facts": {
+        "unable_to_speak_english": {
+          "kind": "bool",
+          "label": "unable_to_speak_english",
+          "role": "record",
+          "scope": "unable to speak english"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "Non-English speaking subjects will be excluded due to our lack of translation support resources at this time. Of note, participation in our study cannot benefit participants in any way.",
+      "criterion_type": "exclusion",
+      "trial_id": "NCT02375451"
+    }
+  },
+  "671": {
+    "rule": {
+      "expression": {
+        "fact": "unipolar_major_depressive_disorder"
+      },
+      "facts": {
+        "unipolar_major_depressive_disorder": {
+          "kind": "bool",
+          "label": "unipolar_major_depressive_disorder",
+          "role": "record",
+          "scope": "unipolar major depressive disorder"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "unipolar major depressive disorder",
+      "criterion_type": "inclusion",
+      "trial_id": "NCT02633449"
+    }
+  },
+  "706": {
+    "rule": {
+      "expression": {
+        "hold": "Do the listed pelvic symptoms all have to be present, or can a subset establish symptomatic pelvic congestion?"
+      },
+      "facts": {}
+    },
+    "source": {
+      "criterion_text": "females complaining of pelvic congestion: dysmenorrhea, dyspareunia, chronic pelvic pain, menorrhagia, metrorrhagia",
+      "criterion_type": "inclusion",
+      "registry": {
+        "criterion_in_eligibility_text": true,
+        "last_update": "2015-07-28",
+        "registry_sha256": "3e1e69b3de29bb43f7f63af2f5d5b4df98a76f966e71531b51e12488b0683733",
+        "registry_url": "https://clinicaltrials.gov/study/NCT02340533"
+      },
+      "trial_id": "NCT02340533"
+    }
+  },
+  "720": {
+    "rule": {
+      "expression": {
+        "not": {
+          "fact": "unexplained_menstrual_irregularity"
+        }
+      },
+      "facts": {
+        "unexplained_menstrual_irregularity": {
+          "kind": "bool",
+          "label": "unexplained_menstrual_irregularity",
+          "role": "record",
+          "scope": "unexplained menstrual irregularity"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "Unexplained menstrual irregularity",
+      "criterion_type": "exclusion",
+      "trial_id": "NCT01377519"
+    }
+  },
+  "722": {
+    "rule": {
+      "expression": {
+        "not": {
+          "fact": "prior_thyroid_tissue_resection"
+        }
+      },
+      "facts": {
+        "prior_thyroid_tissue_resection": {
+          "kind": "bool",
+          "label": "prior_thyroid_tissue_resection",
+          "role": "record",
+          "scope": "prior thyroid tissue resection"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "Surgical resection of thyroid tissue",
+      "criterion_type": "exclusion",
+      "trial_id": "NCT01862510"
+    }
+  },
+  "723": {
+    "rule": {
+      "expression": {
+        "not": {
+          "fact": "prior_neck_irradiation"
+        }
+      },
+      "facts": {
+        "prior_neck_irradiation": {
+          "kind": "bool",
+          "label": "prior_neck_irradiation",
+          "role": "record",
+          "scope": "prior neck irradiation"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "neck irradiation",
+      "criterion_type": "exclusion",
+      "trial_id": "NCT01862510"
+    }
+  },
+  "724": {
+    "rule": {
+      "expression": {
+        "not": {
+          "fact": "prior_radioactive_iodine_therapy"
+        }
+      },
+      "facts": {
+        "prior_radioactive_iodine_therapy": {
+          "kind": "bool",
+          "label": "prior_radioactive_iodine_therapy",
+          "role": "record",
+          "scope": "prior radioactive iodine therapy"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "radioactive iodine therapy",
+      "criterion_type": "exclusion",
+      "trial_id": "NCT01862510"
+    }
+  },
+  "725": {
+    "rule": {
+      "expression": {
+        "not": {
+          "any": [
+            {
+              "fact": "prior_treatment_lithium"
+            },
+            {
+              "fact": "prior_treatment_methimazole"
+            },
+            {
+              "fact": "prior_treatment_propylthiouracil"
+            },
+            {
+              "fact": "prior_treatment_ethionamide"
+            },
+            {
+              "fact": "prior_treatment_amiodarone"
+            },
+            {
+              "fact": "prior_treatment_sunitinib"
+            }
+          ]
+        }
+      },
+      "facts": {
+        "prior_treatment_amiodarone": {
+          "kind": "bool",
+          "label": "prior_treatment_amiodarone",
+          "role": "record",
+          "scope": "prior treatment amiodarone"
+        },
+        "prior_treatment_ethionamide": {
+          "kind": "bool",
+          "label": "prior_treatment_ethionamide",
+          "role": "record",
+          "scope": "prior treatment ethionamide"
+        },
+        "prior_treatment_lithium": {
+          "kind": "bool",
+          "label": "prior_treatment_lithium",
+          "role": "record",
+          "scope": "prior treatment lithium"
+        },
+        "prior_treatment_methimazole": {
+          "kind": "bool",
+          "label": "prior_treatment_methimazole",
+          "role": "record",
+          "scope": "prior treatment methimazole"
+        },
+        "prior_treatment_propylthiouracil": {
+          "kind": "bool",
+          "label": "prior_treatment_propylthiouracil",
+          "role": "record",
+          "scope": "prior treatment propylthiouracil"
+        },
+        "prior_treatment_sunitinib": {
+          "kind": "bool",
+          "label": "prior_treatment_sunitinib",
+          "role": "record",
+          "scope": "prior treatment sunitinib"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "prior medical treatment with lithium, methimazole, propylthiouracil, ethionamide, amiodarone, or sunitinib",
+      "criterion_type": "exclusion",
+      "trial_id": "NCT01862510"
+    }
+  },
+  "726": {
+    "rule": {
+      "expression": {
+        "not": {
+          "fact": "prior_celiac_serology"
+        }
+      },
+      "facts": {
+        "prior_celiac_serology": {
+          "kind": "bool",
+          "label": "prior_celiac_serology",
+          "role": "record",
+          "scope": "prior celiac serology"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "prior serologic testing for celiac disease",
+      "criterion_type": "exclusion",
+      "trial_id": "NCT01862510"
+    }
+  },
+  "734": {
+    "rule": {
+      "expression": {
+        "not": {
+          "fact": "congenital_immunodeficiency"
+        }
+      },
+      "facts": {
+        "congenital_immunodeficiency": {
+          "kind": "bool",
+          "label": "congenital_immunodeficiency",
+          "role": "record",
+          "scope": "congenital immunodeficiency"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "Congenital immunodeficiency patients",
+      "criterion_type": "exclusion",
+      "registry": {
+        "criterion_in_eligibility_text": true,
+        "last_update": "2015-06-10",
+        "registry_sha256": "a9ac7bc8fc3200193fde7aff92ce1d9aac07013597e59b31b6acdc45582902c0",
+        "registry_url": "https://clinicaltrials.gov/study/NCT02467309"
+      },
+      "trial_id": "NCT02467309"
+    }
+  },
+  "735": {
+    "rule": {
+      "expression": {
+        "not": {
+          "fact": "hiv"
+        }
+      },
+      "facts": {
+        "hiv": {
+          "kind": "bool",
+          "label": "hiv",
+          "role": "record",
+          "scope": "hiv"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "HIV patients",
+      "criterion_type": "exclusion",
+      "registry": {
+        "criterion_in_eligibility_text": true,
+        "last_update": "2015-06-10",
+        "registry_sha256": "a9ac7bc8fc3200193fde7aff92ce1d9aac07013597e59b31b6acdc45582902c0",
+        "registry_url": "https://clinicaltrials.gov/study/NCT02467309"
+      },
+      "trial_id": "NCT02467309"
+    }
+  },
+  "736": {
+    "rule": {
+      "expression": {
+        "hold": "What exposure duration and continuity qualify corticosteroid therapy as long-term?"
+      },
+      "facts": {}
+    },
+    "source": {
+      "criterion_text": "Patients with corticosteroid treatment for long time",
+      "criterion_type": "exclusion",
+      "registry": {
+        "criterion_in_eligibility_text": true,
+        "last_update": "2015-06-10",
+        "registry_sha256": "a9ac7bc8fc3200193fde7aff92ce1d9aac07013597e59b31b6acdc45582902c0",
+        "registry_url": "https://clinicaltrials.gov/study/NCT02467309"
+      },
+      "trial_id": "NCT02467309"
+    }
+  },
+  "737": {
+    "rule": {
+      "expression": {
+        "hold": "Does a disorder in any listed gland system exclude the patient, or must all three systems be involved?"
+      },
+      "facts": {}
+    },
+    "source": {
+      "criterion_text": "Patients with disorders in adrenal gland and pituitary gland and hypothalamus",
+      "criterion_type": "exclusion",
+      "registry": {
+        "criterion_in_eligibility_text": true,
+        "last_update": "2015-06-10",
+        "registry_sha256": "a9ac7bc8fc3200193fde7aff92ce1d9aac07013597e59b31b6acdc45582902c0",
+        "registry_url": "https://clinicaltrials.gov/study/NCT02467309"
+      },
+      "trial_id": "NCT02467309"
+    }
+  },
+  "738": {
+    "rule": {
+      "expression": {
+        "not": {
+          "fact": "tuberculosis"
+        }
+      },
+      "facts": {
+        "tuberculosis": {
+          "kind": "bool",
+          "label": "tuberculosis",
+          "role": "record",
+          "scope": "tuberculosis"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "Patients with tuberculosis",
+      "criterion_type": "exclusion",
+      "registry": {
+        "criterion_in_eligibility_text": true,
+        "last_update": "2015-06-10",
+        "registry_sha256": "a9ac7bc8fc3200193fde7aff92ce1d9aac07013597e59b31b6acdc45582902c0",
+        "registry_url": "https://clinicaltrials.gov/study/NCT02467309"
+      },
+      "trial_id": "NCT02467309"
+    }
+  },
+  "795": {
+    "rule": {
+      "expression": {
+        "not": {
+          "all": [
+            {
+              "fact": "pregnant"
+            },
+            {
+              "fact": "unable_to_speak_french"
+            }
+          ]
+        }
+      },
+      "facts": {
+        "pregnant": {
+          "kind": "bool",
+          "label": "pregnant",
+          "role": "record",
+          "scope": "pregnant"
+        },
+        "unable_to_speak_french": {
+          "kind": "bool",
+          "label": "unable_to_speak_french",
+          "role": "record",
+          "scope": "unable to speak french"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "pregnency women who don't speak french",
+      "criterion_type": "exclusion",
+      "registry": {
+        "criterion_in_eligibility_text": true,
+        "last_update": "2016-08-22",
+        "registry_sha256": "9c8f990570d291faf6677115248ca07170c5d0cde7d3e1deb37f85e48bb564ed",
+        "registry_url": "https://clinicaltrials.gov/study/NCT00827463"
+      },
+      "trial_id": "NCT00827463"
+    }
+  },
+  "81": {
+    "rule": {
+      "expression": {
+        "not": {
+          "any": [
+            {
+              "fact": "active_severe_infection_within_four_weeks_before_screening"
+            },
+            {
+              "fact": "active_severe_infection_between_screening_and_baseline"
+            }
+          ]
+        }
+      },
+      "facts": {
+        "active_severe_infection_between_screening_and_baseline": {
+          "kind": "bool",
+          "label": "active_severe_infection_between_screening_and_baseline",
+          "role": "record",
+          "scope": "active severe infection between screening and baseline"
+        },
+        "active_severe_infection_within_four_weeks_before_screening": {
+          "kind": "bool",
+          "label": "active_severe_infection_within_four_weeks_before_screening",
+          "role": "record",
+          "scope": "active severe infection within four weeks before screening"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "Active severe infections within 4 weeks before screening visit, or between the screening and baseline visits.",
+      "criterion_type": "exclusion",
+      "trial_id": "NCT00841789"
+    }
+  },
+  "817": {
+    "rule": {
+      "expression": {
+        "not": {
+          "fact": "neurologic_symptoms_nonvascular_origin_after_ct_or_mri"
+        }
+      },
+      "facts": {
+        "neurologic_symptoms_nonvascular_origin_after_ct_or_mri": {
+          "kind": "bool",
+          "label": "neurologic_symptoms_nonvascular_origin_after_ct_or_mri",
+          "role": "record",
+          "scope": "neurologic symptoms nonvascular origin after ct or mri"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "Subjects who have a non-vascular origin of the neurological symptoms after brain imaging (CT scan or MRI)",
+      "criterion_type": "exclusion",
+      "trial_id": "NCT01550588"
+    }
+  },
+  "850": {
+    "rule": {
+      "expression": {
+        "not": {
+          "fact": "asthma_exacerbations_per_week",
+          "op": "gt",
+          "value": 2
+        }
+      },
+      "facts": {
+        "asthma_exacerbations_per_week": {
+          "kind": "number",
+          "label": "asthma_exacerbations_per_week",
+          "role": "record",
+          "scope": "asthma exacerbations per week",
+          "unit": "/wk"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "Exacerbation of asthma more than 2x/week which would be characteristic of a person of moderate or severe persistent asthma as outlined in the current NHLBI guidelines for diagnosis and management of asthma.",
+      "criterion_type": "exclusion",
+      "registry": {
+        "criterion_in_eligibility_text": true,
+        "last_update": "2012-12-05",
+        "registry_sha256": "0f93d10cb25c886bc1876b1e81e78846b6b63ac3f548e2325ccd958912f84a5b",
+        "registry_url": "https://clinicaltrials.gov/study/NCT00839124"
+      },
+      "trial_id": "NCT00839124"
+    }
+  },
+  "860": {
+    "rule": {
+      "expression": {
+        "not": {
+          "all": [
+            {
+              "fact": "unmarried"
+            },
+            {
+              "fact": "reports_never_had_sexual_intercourse"
+            }
+          ]
+        }
+      },
+      "facts": {
+        "reports_never_had_sexual_intercourse": {
+          "kind": "bool",
+          "label": "reports_never_had_sexual_intercourse",
+          "role": "patient",
+          "scope": "reports never had sexual intercourse"
+        },
+        "unmarried": {
+          "kind": "bool",
+          "label": "unmarried",
+          "role": "record",
+          "scope": "unmarried"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "are not married AND report never having had sexual intercourse",
+      "criterion_type": "exclusion",
+      "trial_id": "NCT01231945"
+    }
+  },
+  "866": {
+    "rule": {
+      "expression": {
+        "fact": "aliquot_with_valid_aptima_hpv_tigris_result_from_2007HPVASCUS30"
+      },
+      "facts": {
+        "aliquot_with_valid_aptima_hpv_tigris_result_from_2007HPVASCUS30": {
+          "kind": "bool",
+          "label": "aliquot_with_valid_aptima_hpv_tigris_result_from_2007HPVASCUS30",
+          "role": "record",
+          "scope": "aliquot with valid aptima hpv tigris result from 2007HPVASCUS30"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "the sample had an aliquot with a valid positive or negative APTIMA HPV Assay TIGRIS System result (from testing under protocol 2007HPVASCUS30)",
+      "criterion_type": "inclusion",
+      "trial_id": "NCT01446198"
+    }
+  },
+  "867": {
+    "rule": {
+      "expression": {
+        "all": [
+          {
+            "fact": "aliquot_available"
+          },
+          {
+            "fact": "aliquot_suitable_for_testing"
+          }
+        ]
+      },
+      "facts": {
+        "aliquot_available": {
+          "kind": "bool",
+          "label": "aliquot_available",
+          "role": "record",
+          "scope": "aliquot available"
+        },
+        "aliquot_suitable_for_testing": {
+          "kind": "bool",
+          "label": "aliquot_suitable_for_testing",
+          "role": "record",
+          "scope": "aliquot suitable for testing"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "an aliquot is available and suitable for testing",
+      "criterion_type": "inclusion",
+      "trial_id": "NCT01446198"
+    }
+  },
+  "870": {
+    "rule": {
+      "expression": {
+        "any": [
+          {
+            "fact": "worsening_heart_failure_primary_admission_reason"
+          },
+          {
+            "fact": "significant_heart_failure_symptoms_developed_in_hospital_initially_admitted_for_other_reason"
+          }
+        ]
+      },
+      "facts": {
+        "significant_heart_failure_symptoms_developed_in_hospital_initially_admitted_for_other_reason": {
+          "kind": "bool",
+          "label": "significant_heart_failure_symptoms_developed_in_hospital_initially_admitted_for_other_reason",
+          "role": "record",
+          "scope": "significant heart failure symptoms developed in hospital initially admitted for other reason"
+        },
+        "worsening_heart_failure_primary_admission_reason": {
+          "kind": "bool",
+          "label": "worsening_heart_failure_primary_admission_reason",
+          "role": "record",
+          "scope": "worsening heart failure primary admission reason"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "Hospitalized for episode of worsening heart failure as primary cause of admission or significant heart failure symptoms that develop during the hospitalization when the initial reason for admission was not heart failure.",
+      "criterion_type": "inclusion",
+      "trial_id": "NCT00344513"
+    }
+  },
+  "875": {
+    "rule": {
+      "expression": {
+        "any": [
+          {
+            "fact": "hospital_admission"
+          },
+          {
+            "fact": "transferred_to_observation_unit"
+          }
+        ]
+      },
+      "facts": {
+        "hospital_admission": {
+          "kind": "bool",
+          "label": "hospital_admission",
+          "role": "record",
+          "scope": "hospital admission"
+        },
+        "transferred_to_observation_unit": {
+          "kind": "bool",
+          "label": "transferred_to_observation_unit",
+          "role": "record",
+          "scope": "transferred to observation unit"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "admission to the hospital or transfer to the Observation Unit",
+      "criterion_type": "inclusion",
+      "trial_id": "NCT00534066"
+    }
+  },
+  "890": {
+    "rule": {
+      "expression": {
+        "fact": "cognitive_impairment_on_admission_screen"
+      },
+      "facts": {
+        "cognitive_impairment_on_admission_screen": {
+          "kind": "bool",
+          "label": "cognitive_impairment_on_admission_screen",
+          "role": "record",
+          "scope": "cognitive impairment on admission screen"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "Cognitive impairment based on screening at time of hospital admission",
+      "criterion_type": "inclusion",
+      "trial_id": "NCT00182832"
+    }
+  },
+  "919": {
+    "rule": {
+      "expression": {
+        "hold": "Please provide the governing passage defining a confirmed severe CDAD case, including the diagnostic and severity requirements."
+      },
+      "facts": {}
+    },
+    "source": {
+      "criterion_text": "Confirmed diagnosis of severe CDAD as defined above",
+      "criterion_type": "inclusion",
+      "registry": {
+        "criterion_in_eligibility_text": true,
+        "last_update": "2019-08-21",
+        "registry_sha256": "7f1ad00ef45e1dbd66bac1755ef0da718e623c366dfa5f99e4455125b7e0444e",
+        "registry_url": "https://clinicaltrials.gov/study/NCT01959048"
+      },
+      "trial_id": "NCT01959048"
+    }
+  },
+  "935": {
+    "rule": {
+      "expression": {
+        "fact": "enrolling_physician_considers_mycobacterial_culture_likely_positive"
+      },
+      "facts": {
+        "enrolling_physician_considers_mycobacterial_culture_likely_positive": {
+          "kind": "bool",
+          "label": "enrolling_physician_considers_mycobacterial_culture_likely_positive",
+          "role": "investigator",
+          "scope": "enrolling physician considers mycobacterial culture likely positive"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "Thought likely to be Mycobacterium culture positive (including NTM infected for the NIH CC) by enrolling physician",
+      "criterion_type": "inclusion",
+      "trial_id": "NCT02534727"
+    }
+  },
+  "936": {
+    "rule": {
+      "applies": {
+        "fact": "china_subject"
+      },
+      "expression": {
+        "fact": "positive_sputum_genexpert_mtb_rif"
+      },
+      "facts": {
+        "china_subject": {
+          "kind": "bool",
+          "label": "china_subject",
+          "role": "site",
+          "scope": "china subject"
+        },
+        "positive_sputum_genexpert_mtb_rif": {
+          "kind": "bool",
+          "label": "positive_sputum_genexpert_mtb_rif",
+          "role": "record",
+          "scope": "positive sputum genexpert mtb rif"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "GeneXpert MTB/RIF sputum TBpositive (China subjects only)",
+      "criterion_type": "inclusion",
+      "trial_id": "NCT02534727"
+    }
+  },
+  "938": {
+    "rule": {
+      "expression": {
+        "fact": "willing_to_provide_blood_samples"
+      },
+      "facts": {
+        "willing_to_provide_blood_samples": {
+          "kind": "bool",
+          "label": "willing_to_provide_blood_samples",
+          "role": "patient",
+          "scope": "willing to provide blood samples"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "Willing to provide blood samples",
+      "criterion_type": "inclusion",
+      "trial_id": "NCT02534727"
+    }
+  },
+  "939": {
+    "rule": {
+      "expression": {
+        "fact": "willing_to_store_samples"
+      },
+      "facts": {
+        "willing_to_store_samples": {
+          "kind": "bool",
+          "label": "willing_to_store_samples",
+          "role": "patient",
+          "scope": "willing to store samples"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "Willing to have samples stored",
+      "criterion_type": "inclusion",
+      "trial_id": "NCT02534727"
+    }
+  },
+  "940": {
+    "rule": {
+      "expression": {
+        "not": {
+          "any": [
+            {
+              "fact": "acute_liver_disease"
+            },
+            {
+              "fact": "acute_kidney_disease"
+            }
+          ]
+        }
+      },
+      "facts": {
+        "acute_kidney_disease": {
+          "kind": "bool",
+          "label": "acute_kidney_disease",
+          "role": "record",
+          "scope": "acute kidney disease"
+        },
+        "acute_liver_disease": {
+          "kind": "bool",
+          "label": "acute_liver_disease",
+          "role": "record",
+          "scope": "acute liver disease"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "Acute liver or kidney disease",
+      "criterion_type": "exclusion",
+      "trial_id": "NCT02534727"
+    }
+  },
+  "945": {
+    "rule": {
+      "expression": {
+        "not": {
+          "fact": "current_unlicensed_investigational_aspergillosis_drug"
+        }
+      },
+      "facts": {
+        "current_unlicensed_investigational_aspergillosis_drug": {
+          "kind": "bool",
+          "label": "current_unlicensed_investigational_aspergillosis_drug",
+          "role": "record",
+          "scope": "current unlicensed investigational aspergillosis drug"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "The patient is being treated with an unlicensed investigational drug for aspergillosis.",
+      "criterion_type": "exclusion",
+      "registry": {
+        "criterion_in_eligibility_text": true,
+        "last_update": "2012-04-20",
+        "registry_sha256": "6e344f9e7e460669bd3f2b3b112c7f0dd6d53e7aba96bc7fdd5d8011e6e321f4",
+        "registry_url": "https://clinicaltrials.gov/study/NCT01207128"
+      },
+      "trial_id": "NCT01207128"
+    }
+  },
+  "946": {
+    "rule": {
+      "expression": {
+        "not": {
+          "fact": "qualifying_antifungal_course_days",
+          "op": "gt",
+          "value": 7
+        }
+      },
+      "facts": {
+        "qualifying_antifungal_course_days": {
+          "kind": "number",
+          "label": "qualifying_antifungal_course_days",
+          "role": "record",
+          "scope": "continuous days of administered voriconazole, itraconazole, posaconazole, caspofungin, micafungin, anidulafungin, amphotericin B or its lipid formulation, for the index probable or proven invasive aspergillosis episode, immediately preceding randomization",
+          "unit": "d"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "The patient has been administered an antifungal agent (voriconazole, itraconazole, posaconazole, caspofungin, micafungin, anidulafungin, amphotericin B, or lipid formulation of amphotericin B) for > 7 days immediately prior to randomization for treatment of the Probable, or Proven invasive aspergillosis for which the patient is being enrolled.",
+      "criterion_type": "exclusion",
+      "registry": {
+        "criterion_in_eligibility_text": false,
+        "last_update": "2012-04-20",
+        "registry_sha256": "6e344f9e7e460669bd3f2b3b112c7f0dd6d53e7aba96bc7fdd5d8011e6e321f4",
+        "registry_url": "https://clinicaltrials.gov/study/NCT01207128"
+      },
+      "trial_id": "NCT01207128"
+    }
+  },
+  "952": {
+    "rule": {
+      "expression": {
+        "not": {
+          "all": [
+            {
+              "fact": "on_artificial_ventilation"
+            },
+            {
+              "fact": "extubation_unlikely_within_24h_of_entry"
+            }
+          ]
+        }
+      },
+      "facts": {
+        "extubation_unlikely_within_24h_of_entry": {
+          "kind": "bool",
+          "label": "extubation_unlikely_within_24h_of_entry",
+          "role": "investigator",
+          "scope": "extubation unlikely within 24h of entry"
+        },
+        "on_artificial_ventilation": {
+          "kind": "bool",
+          "label": "on_artificial_ventilation",
+          "role": "record",
+          "scope": "on artificial ventilation"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "The patient is on artificial ventilation, and unlikely to be extubated within 24 hours of study entry.",
+      "criterion_type": "exclusion",
+      "registry": {
+        "criterion_in_eligibility_text": true,
+        "last_update": "2012-04-20",
+        "registry_sha256": "6e344f9e7e460669bd3f2b3b112c7f0dd6d53e7aba96bc7fdd5d8011e6e321f4",
+        "registry_url": "https://clinicaltrials.gov/study/NCT01207128"
+      },
+      "trial_id": "NCT01207128"
+    }
+  },
+  "953": {
+    "rule": {
+      "expression": {
+        "not": {
+          "fact": "prior_azole_or_echinocandin_allergy_hypersensitivity_or_serious_reaction"
+        }
+      },
+      "facts": {
+        "prior_azole_or_echinocandin_allergy_hypersensitivity_or_serious_reaction": {
+          "kind": "bool",
+          "label": "prior_azole_or_echinocandin_allergy_hypersensitivity_or_serious_reaction",
+          "role": "record",
+          "scope": "prior azole or echinocandin allergy hypersensitivity or serious reaction"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "The patient has a history of allergy, hypersensitivity, or any serious reaction to the azole or echinocandin class of antifungal agents.",
+      "criterion_type": "exclusion",
+      "registry": {
+        "criterion_in_eligibility_text": true,
+        "last_update": "2012-04-20",
+        "registry_sha256": "6e344f9e7e460669bd3f2b3b112c7f0dd6d53e7aba96bc7fdd5d8011e6e321f4",
+        "registry_url": "https://clinicaltrials.gov/study/NCT01207128"
+      },
+      "trial_id": "NCT01207128"
+    }
+  },
+  "955": {
+    "rule": {
+      "expression": {
+        "not": {
+          "fact": "investigator_identified_unacceptable_risk_from_concomitant_condition"
+        }
+      },
+      "facts": {
+        "investigator_identified_unacceptable_risk_from_concomitant_condition": {
+          "kind": "bool",
+          "label": "investigator_identified_unacceptable_risk_from_concomitant_condition",
+          "role": "investigator",
+          "scope": "investigator identified unacceptable risk from concomitant condition"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "The patient has a concomitant medical condition, which in the opinion of the Investigator may create an unacceptable additional risk.",
+      "criterion_type": "exclusion",
+      "registry": {
+        "criterion_in_eligibility_text": true,
+        "last_update": "2012-04-20",
+        "registry_sha256": "6e344f9e7e460669bd3f2b3b112c7f0dd6d53e7aba96bc7fdd5d8011e6e321f4",
+        "registry_url": "https://clinicaltrials.gov/study/NCT01207128"
+      },
+      "trial_id": "NCT01207128"
+    }
+  },
+  "957": {
+    "rule": {
+      "expression": {
+        "not": {
+          "fact": "estimated_remaining_life_days",
+          "op": "lt",
+          "value": 7
+        }
+      },
+      "facts": {
+        "estimated_remaining_life_days": {
+          "kind": "number",
+          "label": "estimated_remaining_life_days",
+          "role": "investigator",
+          "scope": "estimated remaining life days",
+          "unit": "d"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "The patient has a life expectancy of less than seven days.",
+      "criterion_type": "exclusion",
+      "registry": {
+        "criterion_in_eligibility_text": true,
+        "last_update": "2012-04-20",
+        "registry_sha256": "6e344f9e7e460669bd3f2b3b112c7f0dd6d53e7aba96bc7fdd5d8011e6e321f4",
+        "registry_url": "https://clinicaltrials.gov/study/NCT01207128"
+      },
+      "trial_id": "NCT01207128"
+    }
+  },
+  "962": {
+    "rule": {
+      "expression": {
+        "not": {
+          "all": [
+            {
+              "fact": "malaria"
+            },
+            {
+              "any": [
+                {
+                  "fact": "severe_or_complicated_malaria"
+                },
+                {
+                  "fact": "impaired_consciousness"
+                },
+                {
+                  "fact": "seizures"
+                },
+                {
+                  "fact": "abnormal_neurologic_exam"
+                },
+                {
+                  "fact": "jaundice"
+                },
+                {
+                  "fact": "respiratory_distress"
+                },
+                {
+                  "fact": "persistent_vomiting"
+                },
+                {
+                  "fact": "patient_reported_hematuria"
+                },
+                {
+                  "fact": "parasites_per_ml",
+                  "op": "gt",
+                  "value": 100000
+                },
+                {
+                  "fact": "non_falciparum_species_on_microscopy"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "facts": {
+        "abnormal_neurologic_exam": {
+          "kind": "bool",
+          "label": "abnormal_neurologic_exam",
+          "role": "record",
+          "scope": "abnormal neurologic exam"
+        },
+        "impaired_consciousness": {
+          "kind": "bool",
+          "label": "impaired_consciousness",
+          "role": "record",
+          "scope": "impaired consciousness"
+        },
+        "jaundice": {
+          "kind": "bool",
+          "label": "jaundice",
+          "role": "record",
+          "scope": "jaundice"
+        },
+        "malaria": {
+          "kind": "bool",
+          "label": "malaria",
+          "role": "record",
+          "scope": "malaria"
+        },
+        "non_falciparum_species_on_microscopy": {
+          "kind": "bool",
+          "label": "non_falciparum_species_on_microscopy",
+          "role": "record",
+          "scope": "non falciparum species on microscopy"
+        },
+        "parasites_per_ml": {
+          "kind": "number",
+          "label": "parasites_per_ml",
+          "role": "record",
+          "scope": "parasites per ml",
+          "unit": "/mL"
+        },
+        "patient_reported_hematuria": {
+          "kind": "bool",
+          "label": "patient_reported_hematuria",
+          "role": "record",
+          "scope": "patient reported hematuria"
+        },
+        "persistent_vomiting": {
+          "kind": "bool",
+          "label": "persistent_vomiting",
+          "role": "record",
+          "scope": "persistent vomiting"
+        },
+        "respiratory_distress": {
+          "kind": "bool",
+          "label": "respiratory_distress",
+          "role": "record",
+          "scope": "respiratory distress"
+        },
+        "seizures": {
+          "kind": "bool",
+          "label": "seizures",
+          "role": "record",
+          "scope": "seizures"
+        },
+        "severe_or_complicated_malaria": {
+          "kind": "bool",
+          "label": "severe_or_complicated_malaria",
+          "role": "record",
+          "scope": "severe or complicated malaria"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "Severe or complicated malaria including subjects with any of the following: a.) Impaired consciousness, seizures or abnormal neurologic exam b.) Jaundice c.) Respiratory distress d.) Persistent vomiting e.) Hematuria, as reported by the patient f.) Parasite density > 100,000 parasites/mL g.) Presence of non-falciparum species on microscopy",
+      "criterion_type": "exclusion",
+      "trial_id": "NCT00084240"
+    }
+  },
+  "965": {
+    "rule": {
+      "expression": {
+        "not": {
+          "fact": "history_of_blood_dyscrasia"
+        }
+      },
+      "facts": {
+        "history_of_blood_dyscrasia": {
+          "kind": "bool",
+          "label": "history_of_blood_dyscrasia",
+          "role": "record",
+          "scope": "history of blood dyscrasia"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "Known history of blood dyscrasias (e.g., megaloblastic anemia, agranulocytosis, aplastic anemia, thrombocytopenia, leukopenia, neutropenia, hemolytic anemia)",
+      "criterion_type": "exclusion",
+      "trial_id": "NCT00084240"
+    }
+  },
+  "985": {
+    "rule": {
+      "expression": {
+        "not": {
+          "fact": "chest_tube_in_place"
+        }
+      },
+      "facts": {
+        "chest_tube_in_place": {
+          "kind": "bool",
+          "label": "chest_tube_in_place",
+          "role": "record",
+          "scope": "chest tube in place"
+        }
+      }
+    },
+    "source": {
+      "criterion_text": "Chest tubes",
+      "criterion_type": "exclusion",
+      "trial_id": "NCT00711399"
+    }
+  }
+}

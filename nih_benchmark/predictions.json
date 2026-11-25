@@ -1,0 +1,376 @@
+[
+  {
+    "annotation_id": 20,
+    "patient_id": "sigir-20141",
+    "trial_id": "NCT01397994",
+    "criterion_type": "exclusion",
+    "criterion_text": "Geographical inaccessibility for treatment or follow-up evaluations",
+    "state": "MET",
+    "sentences": [
+      8
+    ],
+    "reason": "Negated protocol condition. unable_to_travel_for_treatment_or_followup = False (requires eq True)."
+  },
+  {
+    "annotation_id": 25,
+    "patient_id": "sigir-20141",
+    "trial_id": "NCT00149227",
+    "criterion_type": "exclusion",
+    "criterion_text": "Severe/malignant/secondary hypertensive patients",
+    "state": "MISSING_DATA",
+    "sentences": [],
+    "reason": "Negated protocol condition. Obtain severe_hypertension. Obtain malignant_hypertension. Obtain secondary_hypertension."
+  },
+  {
+    "annotation_id": 26,
+    "patient_id": "sigir-20141",
+    "trial_id": "NCT00149227",
+    "criterion_type": "exclusion",
+    "criterion_text": "Pregnant women and women of childbearing potential",
+    "state": "MISSING_DATA",
+    "sentences": [
+      0
+    ],
+    "reason": "Negated protocol condition. Obtain pregnant. Obtain childbearing_potential."
+  },
+  {
+    "annotation_id": 29,
+    "patient_id": "sigir-20141",
+    "trial_id": "NCT00149227",
+    "criterion_type": "exclusion",
+    "criterion_text": "Severe renal impairment (Serum creatinine >3.0 mg/dl)",
+    "state": "MISSING_DATA",
+    "sentences": [],
+    "reason": "Negated protocol condition. Obtain serum_creatinine_mg_dl."
+  },
+  {
+    "annotation_id": 142,
+    "patient_id": "sigir-20148",
+    "trial_id": "NCT01519271",
+    "criterion_type": "inclusion",
+    "criterion_text": "Participants must be experiencing symptoms of mild cognitive impairment; this will be determined by study personnel.",
+    "state": "NOT_MET",
+    "sentences": [
+      0,
+      1
+    ],
+    "reason": "symptoms_of_mild_cognitive_impairment = False (requires eq True)."
+  },
+  {
+    "annotation_id": 145,
+    "patient_id": "sigir-20148",
+    "trial_id": "NCT01519271",
+    "criterion_type": "exclusion",
+    "criterion_text": "Active suicide ideation.",
+    "state": "MISSING_DATA",
+    "sentences": [],
+    "reason": "Negated protocol condition. Obtain active_suicidal_ideation."
+  },
+  {
+    "annotation_id": 147,
+    "patient_id": "sigir-20148",
+    "trial_id": "NCT01519271",
+    "criterion_type": "exclusion",
+    "criterion_text": "History of Deep Brain Stimulation surgery.",
+    "state": "MISSING_DATA",
+    "sentences": [],
+    "reason": "Negated protocol condition. Obtain previous_deep_brain_stimulation_surgery."
+  },
+  {
+    "annotation_id": 150,
+    "patient_id": "sigir-20148",
+    "trial_id": "NCT01628315",
+    "criterion_type": "inclusion",
+    "criterion_text": "Enrolled into the 2-year, double-blind, placebo-controlled ASA study and entered 3 year extension study",
+    "state": "MISSING_DATA",
+    "sentences": [],
+    "reason": "Obtain enrolled_two_year_blinded_ASA_trial. Obtain entered_three_year_ASA_extension."
+  },
+  {
+    "annotation_id": 154,
+    "patient_id": "sigir-20149",
+    "trial_id": "NCT02615912",
+    "criterion_type": "inclusion",
+    "criterion_text": "Healthy Subjects with Fitzpatrick Skin Types I, II or III",
+    "state": "MISSING_DATA",
+    "sentences": [],
+    "reason": "Obtain healthy_subject. Obtain fitzpatrick_I. Obtain fitzpatrick_II. Obtain fitzpatrick_III."
+  },
+  {
+    "annotation_id": 155,
+    "patient_id": "sigir-20149",
+    "trial_id": "NCT02615912",
+    "criterion_type": "inclusion",
+    "criterion_text": "Subjects with visible skin disease, tattoos, skin condition, or abnormal skin color",
+    "state": "MET",
+    "sentences": [
+      0,
+      1,
+      2,
+      4
+    ],
+    "reason": "visible_skin_disease = True (requires eq True). skin_condition = True (requires eq True). abnormal_skin_color = True (requires eq True)."
+  },
+  {
+    "annotation_id": 212,
+    "patient_id": "sigir-201413",
+    "trial_id": "NCT02264769",
+    "criterion_type": "exclusion",
+    "criterion_text": "Refusal to give written informed consent.",
+    "state": "MET",
+    "sentences": [
+      6
+    ],
+    "reason": "Negated protocol condition. refused_written_consent = False (requires eq True)."
+  },
+  {
+    "annotation_id": 217,
+    "patient_id": "sigir-201413",
+    "trial_id": "NCT00163709",
+    "criterion_type": "exclusion",
+    "criterion_text": "Patients presenting with a traumatic cause of dyspnea",
+    "state": "MISSING_DATA",
+    "sentences": [],
+    "reason": "Negated protocol condition. Obtain traumatic_cause_of_presenting_dyspnea."
+  },
+  {
+    "annotation_id": 218,
+    "patient_id": "sigir-201413",
+    "trial_id": "NCT00163709",
+    "criterion_type": "exclusion",
+    "criterion_text": "patients with severe renal disease (serum creatinine level of more than 250 micro mmol/L",
+    "state": "AUTHORING_HOLD",
+    "sentences": [],
+    "reason": "Negated protocol condition. Confirm malformed serum creatinine unit in the supplied excerpt."
+  },
+  {
+    "annotation_id": 385,
+    "patient_id": "sigir-201421",
+    "trial_id": "NCT00997100",
+    "criterion_type": "inclusion",
+    "criterion_text": "Ability to take and retain oral medication",
+    "state": "MISSING_DATA",
+    "sentences": [],
+    "reason": "Obtain can_take_oral_medication. Obtain can_retain_oral_medication."
+  },
+  {
+    "annotation_id": 396,
+    "patient_id": "sigir-201421",
+    "trial_id": "NCT00997100",
+    "criterion_type": "exclusion",
+    "criterion_text": "History of myocardial infarction or current uncontrolled angina, severe uncontrolled ventricular arrhythmias, symptomatic congestive heart failure, unstable angina pectoris, or electrocardiographic evidence of acute ischemia.",
+    "state": "MISSING_DATA",
+    "sentences": [],
+    "reason": "Negated protocol condition. Obtain history_of_mi. Obtain current_uncontrolled_angina. Obtain severe_uncontrolled_ventricular_arrhythmia. Obtain symptomatic_congestive_heart_failure. Obtain unstable_angina. Obtain ecg_acute_ischemia."
+  },
+  {
+    "annotation_id": 397,
+    "patient_id": "sigir-201421",
+    "trial_id": "NCT00997100",
+    "criterion_type": "exclusion",
+    "criterion_text": "Marked baseline prolongation of QT/QTc interval (eg, repeated demonstration of a QTc interval >450 milliseconds",
+    "state": "MISSING_DATA",
+    "sentences": [],
+    "reason": "Negated protocol condition. Obtain marked_baseline_qt_prolongation."
+  },
+  {
+    "annotation_id": 400,
+    "patient_id": "sigir-201421",
+    "trial_id": "NCT00997100",
+    "criterion_type": "exclusion",
+    "criterion_text": "History of, or current, ischemic CNS disease.",
+    "state": "MISSING_DATA",
+    "sentences": [],
+    "reason": "Negated protocol condition. Obtain history_ischemic_cns_disease. Obtain current_ischemic_cns_disease."
+  },
+  {
+    "annotation_id": 401,
+    "patient_id": "sigir-201421",
+    "trial_id": "NCT00997100",
+    "criterion_type": "exclusion",
+    "criterion_text": "Current malignancy. A 5-year cancer-free period is required with the exception of skin basal or squamous cell carcinoma or cervical cancer in situ that has been excised.",
+    "state": "MISSING_DATA",
+    "sentences": [],
+    "reason": "Negated protocol condition. Obtain current_or_prior_five_year_malignancy_outside_specified_exceptions."
+  },
+  {
+    "annotation_id": 402,
+    "patient_id": "sigir-201421",
+    "trial_id": "NCT00997100",
+    "criterion_type": "exclusion",
+    "criterion_text": "Current severe infection",
+    "state": "MISSING_DATA",
+    "sentences": [],
+    "reason": "Negated protocol condition. Obtain current_severe_infection."
+  },
+  {
+    "annotation_id": 414,
+    "patient_id": "sigir-201421",
+    "trial_id": "NCT01520155",
+    "criterion_type": "exclusion",
+    "criterion_text": "Patients without systemic Lupus erythematosus",
+    "state": "MISSING_DATA",
+    "sentences": [],
+    "reason": "Negated protocol condition. Negated protocol condition. Obtain systemic_lupus_erythematosus."
+  },
+  {
+    "annotation_id": 418,
+    "patient_id": "sigir-201422",
+    "trial_id": "NCT00723788",
+    "criterion_type": "exclusion",
+    "criterion_text": "Failure to pass MRI metal screening",
+    "state": "MISSING_DATA",
+    "sentences": [],
+    "reason": "Negated protocol condition. Obtain failed_mri_metal_screen."
+  },
+  {
+    "annotation_id": 419,
+    "patient_id": "sigir-201422",
+    "trial_id": "NCT00723788",
+    "criterion_type": "exclusion",
+    "criterion_text": "Claustrophobia or need for sedation due to inability to hold still",
+    "state": "MISSING_DATA",
+    "sentences": [],
+    "reason": "Negated protocol condition. Obtain claustrophobia. Obtain sedation_required_to_hold_still."
+  },
+  {
+    "annotation_id": 850,
+    "patient_id": "sigir-201516",
+    "trial_id": "NCT00839124",
+    "criterion_type": "exclusion",
+    "criterion_text": "Exacerbation of asthma more than 2x/week which would be characteristic of a person of moderate or severe persistent asthma as outlined in the current NHLBI guidelines for diagnosis and management of asthma.",
+    "state": "MISSING_DATA",
+    "sentences": [],
+    "reason": "Negated protocol condition. Obtain asthma_exacerbations_per_week."
+  },
+  {
+    "annotation_id": 890,
+    "patient_id": "sigir-201520",
+    "trial_id": "NCT00182832",
+    "criterion_type": "inclusion",
+    "criterion_text": "Cognitive impairment based on screening at time of hospital admission",
+    "state": "MISSING_DATA",
+    "sentences": [],
+    "reason": "Obtain cognitive_impairment_on_admission_screen."
+  },
+  {
+    "annotation_id": 919,
+    "patient_id": "sigir-201521",
+    "trial_id": "NCT01959048",
+    "criterion_type": "inclusion",
+    "criterion_text": "Confirmed diagnosis of severe CDAD as defined above",
+    "state": "AUTHORING_HOLD",
+    "sentences": [],
+    "reason": "Definition of severe CDAD referenced above is absent."
+  },
+  {
+    "annotation_id": 935,
+    "patient_id": "sigir-201522",
+    "trial_id": "NCT02534727",
+    "criterion_type": "inclusion",
+    "criterion_text": "Thought likely to be Mycobacterium culture positive (including NTM infected for the NIH CC) by enrolling physician",
+    "state": "MISSING_DATA",
+    "sentences": [],
+    "reason": "Obtain enrolling_physician_considers_mycobacterial_culture_likely_positive."
+  },
+  {
+    "annotation_id": 936,
+    "patient_id": "sigir-201522",
+    "trial_id": "NCT02534727",
+    "criterion_type": "inclusion",
+    "criterion_text": "GeneXpert MTB/RIF sputum TBpositive (China subjects only)",
+    "state": "MISSING_DATA",
+    "sentences": [],
+    "reason": "Obtain china_subject."
+  },
+  {
+    "annotation_id": 938,
+    "patient_id": "sigir-201522",
+    "trial_id": "NCT02534727",
+    "criterion_type": "inclusion",
+    "criterion_text": "Willing to provide blood samples",
+    "state": "MISSING_DATA",
+    "sentences": [],
+    "reason": "Obtain willing_to_provide_blood_samples."
+  },
+  {
+    "annotation_id": 939,
+    "patient_id": "sigir-201522",
+    "trial_id": "NCT02534727",
+    "criterion_type": "inclusion",
+    "criterion_text": "Willing to have samples stored",
+    "state": "MISSING_DATA",
+    "sentences": [],
+    "reason": "Obtain willing_to_store_samples."
+  },
+  {
+    "annotation_id": 940,
+    "patient_id": "sigir-201522",
+    "trial_id": "NCT02534727",
+    "criterion_type": "exclusion",
+    "criterion_text": "Acute liver or kidney disease",
+    "state": "MISSING_DATA",
+    "sentences": [],
+    "reason": "Negated protocol condition. Obtain acute_liver_disease. Obtain acute_kidney_disease."
+  },
+  {
+    "annotation_id": 945,
+    "patient_id": "sigir-201522",
+    "trial_id": "NCT01207128",
+    "criterion_type": "exclusion",
+    "criterion_text": "The patient is being treated with an unlicensed investigational drug for aspergillosis.",
+    "state": "MISSING_DATA",
+    "sentences": [],
+    "reason": "Negated protocol condition. Obtain current_unlicensed_investigational_aspergillosis_drug."
+  },
+  {
+    "annotation_id": 946,
+    "patient_id": "sigir-201522",
+    "trial_id": "NCT01207128",
+    "criterion_type": "exclusion",
+    "criterion_text": "The patient has been administered an antifungal agent (voriconazole, itraconazole, posaconazole, caspofungin, micafungin, anidulafungin, amphotericin B, or lipid formulation of amphotericin B) for > 7 days immediately prior to randomization for treatment of the Probable, or Proven invasive aspergillosis for which the patient is being enrolled.",
+    "state": "MISSING_DATA",
+    "sentences": [],
+    "reason": "Negated protocol condition. Obtain listed_antifungal_for_index_probable_or_proven_aspergillosis_over_seven_days_immediately_before_randomization."
+  },
+  {
+    "annotation_id": 952,
+    "patient_id": "sigir-201522",
+    "trial_id": "NCT01207128",
+    "criterion_type": "exclusion",
+    "criterion_text": "The patient is on artificial ventilation, and unlikely to be extubated within 24 hours of study entry.",
+    "state": "MISSING_DATA",
+    "sentences": [],
+    "reason": "Negated protocol condition. Obtain on_artificial_ventilation. Obtain extubation_unlikely_within_24h_of_entry."
+  },
+  {
+    "annotation_id": 953,
+    "patient_id": "sigir-201522",
+    "trial_id": "NCT01207128",
+    "criterion_type": "exclusion",
+    "criterion_text": "The patient has a history of allergy, hypersensitivity, or any serious reaction to the azole or echinocandin class of antifungal agents.",
+    "state": "MISSING_DATA",
+    "sentences": [],
+    "reason": "Negated protocol condition. Obtain prior_azole_or_echinocandin_allergy_hypersensitivity_or_serious_reaction."
+  },
+  {
+    "annotation_id": 955,
+    "patient_id": "sigir-201522",
+    "trial_id": "NCT01207128",
+    "criterion_type": "exclusion",
+    "criterion_text": "The patient has a concomitant medical condition, which in the opinion of the Investigator may create an unacceptable additional risk.",
+    "state": "MISSING_DATA",
+    "sentences": [],
+    "reason": "Negated protocol condition. Obtain investigator_identified_unacceptable_risk_from_concomitant_condition."
+  },
+  {
+    "annotation_id": 957,
+    "patient_id": "sigir-201522",
+    "trial_id": "NCT01207128",
+    "criterion_type": "exclusion",
+    "criterion_text": "The patient has a life expectancy of less than seven days.",
+    "state": "MISSING_DATA",
+    "sentences": [],
+    "reason": "Negated protocol condition. Obtain life_expectancy_under_seven_days."
+  }
+]

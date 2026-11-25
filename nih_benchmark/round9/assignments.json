@@ -1,0 +1,672 @@
+[
+  {
+    "annotation_id": 20,
+    "patient": "sigir-20141",
+    "study": "NCT01397994"
+  },
+  {
+    "annotation_id": 25,
+    "patient": "sigir-20141",
+    "study": "NCT00149227"
+  },
+  {
+    "annotation_id": 26,
+    "patient": "sigir-20141",
+    "study": "NCT00149227"
+  },
+  {
+    "annotation_id": 29,
+    "patient": "sigir-20141",
+    "study": "NCT00149227"
+  },
+  {
+    "annotation_id": 34,
+    "patient": "sigir-20142",
+    "study": "NCT02618655"
+  },
+  {
+    "annotation_id": 36,
+    "patient": "sigir-20142",
+    "study": "NCT02618655"
+  },
+  {
+    "annotation_id": 44,
+    "patient": "sigir-20143",
+    "study": "NCT01452971"
+  },
+  {
+    "annotation_id": 45,
+    "patient": "sigir-20143",
+    "study": "NCT01452971"
+  },
+  {
+    "annotation_id": 46,
+    "patient": "sigir-20143",
+    "study": "NCT02490059"
+  },
+  {
+    "annotation_id": 55,
+    "patient": "sigir-20144",
+    "study": "NCT02390596"
+  },
+  {
+    "annotation_id": 81,
+    "patient": "sigir-20144",
+    "study": "NCT00841789"
+  },
+  {
+    "annotation_id": 108,
+    "patient": "sigir-20146",
+    "study": "NCT02512159"
+  },
+  {
+    "annotation_id": 109,
+    "patient": "sigir-20146",
+    "study": "NCT02512159"
+  },
+  {
+    "annotation_id": 111,
+    "patient": "sigir-20146",
+    "study": "NCT02512159"
+  },
+  {
+    "annotation_id": 115,
+    "patient": "sigir-20146",
+    "study": "NCT02512159"
+  },
+  {
+    "annotation_id": 116,
+    "patient": "sigir-20146",
+    "study": "NCT02512159"
+  },
+  {
+    "annotation_id": 120,
+    "patient": "sigir-20146",
+    "study": "NCT00015626"
+  },
+  {
+    "annotation_id": 130,
+    "patient": "sigir-20147",
+    "study": "NCT00845988"
+  },
+  {
+    "annotation_id": 132,
+    "patient": "sigir-20147",
+    "study": "NCT00845988"
+  },
+  {
+    "annotation_id": 138,
+    "patient": "sigir-20147",
+    "study": "NCT01863628"
+  },
+  {
+    "annotation_id": 140,
+    "patient": "sigir-20147",
+    "study": "NCT01863628"
+  },
+  {
+    "annotation_id": 142,
+    "patient": "sigir-20148",
+    "study": "NCT01519271"
+  },
+  {
+    "annotation_id": 145,
+    "patient": "sigir-20148",
+    "study": "NCT01519271"
+  },
+  {
+    "annotation_id": 147,
+    "patient": "sigir-20148",
+    "study": "NCT01519271"
+  },
+  {
+    "annotation_id": 150,
+    "patient": "sigir-20148",
+    "study": "NCT01628315"
+  },
+  {
+    "annotation_id": 154,
+    "patient": "sigir-20149",
+    "study": "NCT02615912"
+  },
+  {
+    "annotation_id": 155,
+    "patient": "sigir-20149",
+    "study": "NCT02615912"
+  },
+  {
+    "annotation_id": 171,
+    "patient": "sigir-201410",
+    "study": "NCT02097186"
+  },
+  {
+    "annotation_id": 174,
+    "patient": "sigir-201410",
+    "study": "NCT02097186"
+  },
+  {
+    "annotation_id": 177,
+    "patient": "sigir-201410",
+    "study": "NCT02264964"
+  },
+  {
+    "annotation_id": 179,
+    "patient": "sigir-201410",
+    "study": "NCT02264964"
+  },
+  {
+    "annotation_id": 184,
+    "patient": "sigir-201410",
+    "study": "NCT02264964"
+  },
+  {
+    "annotation_id": 185,
+    "patient": "sigir-201411",
+    "study": "NCT01526382"
+  },
+  {
+    "annotation_id": 186,
+    "patient": "sigir-201411",
+    "study": "NCT01526382"
+  },
+  {
+    "annotation_id": 187,
+    "patient": "sigir-201411",
+    "study": "NCT01526382"
+  },
+  {
+    "annotation_id": 196,
+    "patient": "sigir-201411",
+    "study": "NCT01723137"
+  },
+  {
+    "annotation_id": 203,
+    "patient": "sigir-201412",
+    "study": "NCT01551498"
+  },
+  {
+    "annotation_id": 212,
+    "patient": "sigir-201413",
+    "study": "NCT02264769"
+  },
+  {
+    "annotation_id": 217,
+    "patient": "sigir-201413",
+    "study": "NCT00163709"
+  },
+  {
+    "annotation_id": 218,
+    "patient": "sigir-201413",
+    "study": "NCT00163709"
+  },
+  {
+    "annotation_id": 226,
+    "patient": "sigir-201414",
+    "study": "NCT01624545"
+  },
+  {
+    "annotation_id": 227,
+    "patient": "sigir-201414",
+    "study": "NCT01624545"
+  },
+  {
+    "annotation_id": 230,
+    "patient": "sigir-201414",
+    "study": "NCT01869855"
+  },
+  {
+    "annotation_id": 231,
+    "patient": "sigir-201414",
+    "study": "NCT01869855"
+  },
+  {
+    "annotation_id": 232,
+    "patient": "sigir-201414",
+    "study": "NCT01869855"
+  },
+  {
+    "annotation_id": 233,
+    "patient": "sigir-201414",
+    "study": "NCT01869855"
+  },
+  {
+    "annotation_id": 235,
+    "patient": "sigir-201415",
+    "study": "NCT00277680"
+  },
+  {
+    "annotation_id": 239,
+    "patient": "sigir-201415",
+    "study": "NCT00277680"
+  },
+  {
+    "annotation_id": 307,
+    "patient": "sigir-201417",
+    "study": "NCT01745731"
+  },
+  {
+    "annotation_id": 322,
+    "patient": "sigir-201417",
+    "study": "NCT01745731"
+  },
+  {
+    "annotation_id": 323,
+    "patient": "sigir-201417",
+    "study": "NCT02556359"
+  },
+  {
+    "annotation_id": 328,
+    "patient": "sigir-201418",
+    "study": "NCT01260883"
+  },
+  {
+    "annotation_id": 329,
+    "patient": "sigir-201418",
+    "study": "NCT01260883"
+  },
+  {
+    "annotation_id": 330,
+    "patient": "sigir-201418",
+    "study": "NCT01260883"
+  },
+  {
+    "annotation_id": 332,
+    "patient": "sigir-201418",
+    "study": "NCT01260883"
+  },
+  {
+    "annotation_id": 336,
+    "patient": "sigir-201418",
+    "study": "NCT00557219"
+  },
+  {
+    "annotation_id": 359,
+    "patient": "sigir-201419",
+    "study": "NCT02509286"
+  },
+  {
+    "annotation_id": 366,
+    "patient": "sigir-201420",
+    "study": "NCT02255487"
+  },
+  {
+    "annotation_id": 367,
+    "patient": "sigir-201420",
+    "study": "NCT02255487"
+  },
+  {
+    "annotation_id": 379,
+    "patient": "sigir-201420",
+    "study": "NCT01594385"
+  },
+  {
+    "annotation_id": 385,
+    "patient": "sigir-201421",
+    "study": "NCT00997100"
+  },
+  {
+    "annotation_id": 396,
+    "patient": "sigir-201421",
+    "study": "NCT00997100"
+  },
+  {
+    "annotation_id": 397,
+    "patient": "sigir-201421",
+    "study": "NCT00997100"
+  },
+  {
+    "annotation_id": 400,
+    "patient": "sigir-201421",
+    "study": "NCT00997100"
+  },
+  {
+    "annotation_id": 401,
+    "patient": "sigir-201421",
+    "study": "NCT00997100"
+  },
+  {
+    "annotation_id": 402,
+    "patient": "sigir-201421",
+    "study": "NCT00997100"
+  },
+  {
+    "annotation_id": 414,
+    "patient": "sigir-201421",
+    "study": "NCT01520155"
+  },
+  {
+    "annotation_id": 418,
+    "patient": "sigir-201422",
+    "study": "NCT00723788"
+  },
+  {
+    "annotation_id": 419,
+    "patient": "sigir-201422",
+    "study": "NCT00723788"
+  },
+  {
+    "annotation_id": 435,
+    "patient": "sigir-201423",
+    "study": "NCT02219360"
+  },
+  {
+    "annotation_id": 437,
+    "patient": "sigir-201423",
+    "study": "NCT00170222"
+  },
+  {
+    "annotation_id": 454,
+    "patient": "sigir-201424",
+    "study": "NCT02229695"
+  },
+  {
+    "annotation_id": 460,
+    "patient": "sigir-201425",
+    "study": "NCT00282269"
+  },
+  {
+    "annotation_id": 467,
+    "patient": "sigir-201425",
+    "study": "NCT00282269"
+  },
+  {
+    "annotation_id": 468,
+    "patient": "sigir-201425",
+    "study": "NCT00282269"
+  },
+  {
+    "annotation_id": 475,
+    "patient": "sigir-201425",
+    "study": "NCT02378311"
+  },
+  {
+    "annotation_id": 476,
+    "patient": "sigir-201425",
+    "study": "NCT02378311"
+  },
+  {
+    "annotation_id": 477,
+    "patient": "sigir-201425",
+    "study": "NCT02378311"
+  },
+  {
+    "annotation_id": 481,
+    "patient": "sigir-201426",
+    "study": "NCT00373048"
+  },
+  {
+    "annotation_id": 492,
+    "patient": "sigir-201426",
+    "study": "NCT00497471"
+  },
+  {
+    "annotation_id": 493,
+    "patient": "sigir-201426",
+    "study": "NCT00497471"
+  },
+  {
+    "annotation_id": 494,
+    "patient": "sigir-201426",
+    "study": "NCT00497471"
+  },
+  {
+    "annotation_id": 495,
+    "patient": "sigir-201426",
+    "study": "NCT00497471"
+  },
+  {
+    "annotation_id": 496,
+    "patient": "sigir-201426",
+    "study": "NCT00497471"
+  },
+  {
+    "annotation_id": 497,
+    "patient": "sigir-201426",
+    "study": "NCT00497471"
+  },
+  {
+    "annotation_id": 498,
+    "patient": "sigir-201426",
+    "study": "NCT00497471"
+  },
+  {
+    "annotation_id": 502,
+    "patient": "sigir-201427",
+    "study": "NCT01187901"
+  },
+  {
+    "annotation_id": 517,
+    "patient": "sigir-201427",
+    "study": "NCT01713881"
+  },
+  {
+    "annotation_id": 544,
+    "patient": "sigir-201430",
+    "study": "NCT02273232"
+  },
+  {
+    "annotation_id": 577,
+    "patient": "sigir-20151",
+    "study": "NCT01142245"
+  },
+  {
+    "annotation_id": 621,
+    "patient": "sigir-20153",
+    "study": "NCT01326507"
+  },
+  {
+    "annotation_id": 632,
+    "patient": "sigir-20153",
+    "study": "NCT01139632"
+  },
+  {
+    "annotation_id": 633,
+    "patient": "sigir-20153",
+    "study": "NCT01139632"
+  },
+  {
+    "annotation_id": 636,
+    "patient": "sigir-20154",
+    "study": "NCT01243255"
+  },
+  {
+    "annotation_id": 637,
+    "patient": "sigir-20154",
+    "study": "NCT01243255"
+  },
+  {
+    "annotation_id": 640,
+    "patient": "sigir-20154",
+    "study": "NCT00844987"
+  },
+  {
+    "annotation_id": 653,
+    "patient": "sigir-20156",
+    "study": "NCT02375451"
+  },
+  {
+    "annotation_id": 671,
+    "patient": "sigir-20157",
+    "study": "NCT02633449"
+  },
+  {
+    "annotation_id": 706,
+    "patient": "sigir-201510",
+    "study": "NCT02340533"
+  },
+  {
+    "annotation_id": 720,
+    "patient": "sigir-201510",
+    "study": "NCT01377519"
+  },
+  {
+    "annotation_id": 722,
+    "patient": "sigir-201511",
+    "study": "NCT01862510"
+  },
+  {
+    "annotation_id": 723,
+    "patient": "sigir-201511",
+    "study": "NCT01862510"
+  },
+  {
+    "annotation_id": 724,
+    "patient": "sigir-201511",
+    "study": "NCT01862510"
+  },
+  {
+    "annotation_id": 725,
+    "patient": "sigir-201511",
+    "study": "NCT01862510"
+  },
+  {
+    "annotation_id": 726,
+    "patient": "sigir-201511",
+    "study": "NCT01862510"
+  },
+  {
+    "annotation_id": 734,
+    "patient": "sigir-201512",
+    "study": "NCT02467309"
+  },
+  {
+    "annotation_id": 735,
+    "patient": "sigir-201512",
+    "study": "NCT02467309"
+  },
+  {
+    "annotation_id": 736,
+    "patient": "sigir-201512",
+    "study": "NCT02467309"
+  },
+  {
+    "annotation_id": 737,
+    "patient": "sigir-201512",
+    "study": "NCT02467309"
+  },
+  {
+    "annotation_id": 738,
+    "patient": "sigir-201512",
+    "study": "NCT02467309"
+  },
+  {
+    "annotation_id": 795,
+    "patient": "sigir-201514",
+    "study": "NCT00827463"
+  },
+  {
+    "annotation_id": 817,
+    "patient": "sigir-201515",
+    "study": "NCT01550588"
+  },
+  {
+    "annotation_id": 850,
+    "patient": "sigir-201516",
+    "study": "NCT00839124"
+  },
+  {
+    "annotation_id": 860,
+    "patient": "sigir-201517",
+    "study": "NCT01231945"
+  },
+  {
+    "annotation_id": 866,
+    "patient": "sigir-201517",
+    "study": "NCT01446198"
+  },
+  {
+    "annotation_id": 867,
+    "patient": "sigir-201517",
+    "study": "NCT01446198"
+  },
+  {
+    "annotation_id": 870,
+    "patient": "sigir-201518",
+    "study": "NCT00344513"
+  },
+  {
+    "annotation_id": 875,
+    "patient": "sigir-201518",
+    "study": "NCT00534066"
+  },
+  {
+    "annotation_id": 890,
+    "patient": "sigir-201520",
+    "study": "NCT00182832"
+  },
+  {
+    "annotation_id": 919,
+    "patient": "sigir-201521",
+    "study": "NCT01959048"
+  },
+  {
+    "annotation_id": 935,
+    "patient": "sigir-201522",
+    "study": "NCT02534727"
+  },
+  {
+    "annotation_id": 936,
+    "patient": "sigir-201522",
+    "study": "NCT02534727"
+  },
+  {
+    "annotation_id": 938,
+    "patient": "sigir-201522",
+    "study": "NCT02534727"
+  },
+  {
+    "annotation_id": 939,
+    "patient": "sigir-201522",
+    "study": "NCT02534727"
+  },
+  {
+    "annotation_id": 940,
+    "patient": "sigir-201522",
+    "study": "NCT02534727"
+  },
+  {
+    "annotation_id": 945,
+    "patient": "sigir-201522",
+    "study": "NCT01207128"
+  },
+  {
+    "annotation_id": 946,
+    "patient": "sigir-201522",
+    "study": "NCT01207128"
+  },
+  {
+    "annotation_id": 952,
+    "patient": "sigir-201522",
+    "study": "NCT01207128"
+  },
+  {
+    "annotation_id": 953,
+    "patient": "sigir-201522",
+    "study": "NCT01207128"
+  },
+  {
+    "annotation_id": 955,
+    "patient": "sigir-201522",
+    "study": "NCT01207128"
+  },
+  {
+    "annotation_id": 957,
+    "patient": "sigir-201522",
+    "study": "NCT01207128"
+  },
+  {
+    "annotation_id": 962,
+    "patient": "sigir-201523",
+    "study": "NCT00084240"
+  },
+  {
+    "annotation_id": 965,
+    "patient": "sigir-201523",
+    "study": "NCT00084240"
+  },
+  {
+    "annotation_id": 985,
+    "patient": "sigir-201524",
+    "study": "NCT00711399"
+  }
+]

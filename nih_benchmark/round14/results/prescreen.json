@@ -1,0 +1,55 @@
+{
+  "assignments": 134,
+  "reference_definite": 91,
+  "direct_states_changed": [
+    "55",
+    "218",
+    "437"
+  ],
+  "direct_agreeing": 6,
+  "additional_prescreen_supported": {
+    "186": {
+      "policy": "adult-exam-terms-r1",
+      "state": "SUPPORTED_PENDING_MEASUREMENT",
+      "assumptions": "Use the adult textbook definitions for a contemporaneous patient examination; resting state and site-specific convention are unverified.",
+      "proof": [
+        {
+          "method": "term_implies_lower_bound",
+          "fact": "heart_rate",
+          "comparator": "ge",
+          "target": 90,
+          "sign": "tachycardia",
+          "assumed_open_lower_bound": 100,
+          "age_years": 40,
+          "resources": [
+            "Observation/x-5afa550df507089a1427470e47fda7",
+            "Observation/x-bfae9f5861f5f7a14cd6cf0e9b3b84"
+          ],
+          "reference": "https://www.ncbi.nlm.nih.gov/books/NBK591819/table/ch8oxygenation.T.symptoms_and_signs_of_r/"
+        }
+      ]
+    },
+    "187": {
+      "policy": "adult-exam-terms-r1",
+      "state": "SUPPORTED_PENDING_MEASUREMENT",
+      "assumptions": "Use the adult textbook definitions for a contemporaneous patient examination; resting state and site-specific convention are unverified.",
+      "proof": [
+        {
+          "method": "term_implies_lower_bound",
+          "fact": "respiratory_rate",
+          "comparator": "ge",
+          "target": 20,
+          "sign": "tachypnea",
+          "assumed_open_lower_bound": 20,
+          "age_years": 40,
+          "resources": [
+            "Observation/x-5afa550df507089a1427470e47fda7",
+            "Observation/x-0b3bb2afd9b582ca4a916d3dac8ca0"
+          ],
+          "reference": "https://www.ncbi.nlm.nih.gov/books/NBK591819/table/ch8oxygenation.T.symptoms_and_signs_of_r/"
+        }
+      ]
+    }
+  },
+  "additional_prescreen_labeled_met": 2
+}

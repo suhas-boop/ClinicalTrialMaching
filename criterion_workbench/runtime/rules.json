@@ -1,0 +1,177 @@
+{
+  "106S01-I15": {
+    "fact": "qtcf",
+    "operator": "lt",
+    "threshold": 470,
+    "acquisitions": "single",
+    "context": "\u00a75.2.2(15), \u00a78.4.3 and screening schedule",
+    "screen_before_cycle_start": true
+  },
+  "NEOK001-1-I02": {
+    "fact": "age",
+    "operator": "ge",
+    "threshold": 18,
+    "context": "\u00a75.1(2), age on the dated screening assessment"
+  },
+  "NEOK001-1-E15": {
+    "fact": "qtcf",
+    "operator": "lt",
+    "threshold": 470,
+    "acquisitions": "triplicate",
+    "context": "\u00a75.2(15), Table 4 footnote k and \u00a78.3.4. Mixed-threshold triplicates require a scoped interpretation."
+  },
+  "REC-1245-101-E07": {
+    "fact": "qtcf",
+    "operator": "le",
+    "threshold": 470,
+    "acquisitions": "screening_and_history",
+    "context": "\u00a76.2(7) and \u00a710.6.4. Singlet screening. A high initial ECG prompts repeat testing. A repeat average is specified for toxicity grading. Mixed threshold results need review."
+  },
+  "106S01-I05": {
+    "fact": "appropriate_candidate",
+    "kind": "boolean",
+    "expected": true,
+    "context": "Signed Amendment 1, page 47, inclusion criterion 5.",
+    "assessment_workflow": {
+      "category": "INVESTIGATOR_ACTIONS",
+      "required_role": "investigator",
+      "action": "Document whether the investigator considers this patient an appropriate candidate for experimental therapy."
+    }
+  },
+  "106S01-E06": {
+    "fact": "severe_preexisting",
+    "kind": "boolean",
+    "expected": false
+  },
+  "106S01-E12": {
+    "fact": "substance_abuse",
+    "kind": "boolean",
+    "expected": false
+  },
+  "106S01-E15": {
+    "fact": "major_ventricular_arrhythmia_history",
+    "kind": "boolean",
+    "expected": false
+  },
+  "106S01-E07": {
+    "fact": "interstitial_pneumonitis_history",
+    "facts": [
+      "interstitial_pneumonitis_history",
+      "pulmonary_fibrosis_history"
+    ],
+    "kind": "exclude_any"
+  },
+  "106S01-E16": {
+    "fact": "congenital_longqt",
+    "facts": [
+      "congenital_longqt",
+      "family_congenital_longqt"
+    ],
+    "kind": "exclude_any"
+  },
+  "NEOK001-1-I06": {
+    "fact": "ecog",
+    "kind": "performance",
+    "accepted": [
+      0,
+      1
+    ]
+  },
+  "106S01-I03": {
+    "fact": "ecog",
+    "kind": "performance",
+    "accepted": [
+      0,
+      1
+    ],
+    "exception_score": 2,
+    "agreement": "ecog2_clearance"
+  },
+  "REC-1245-101-I05": {
+    "fact": "ecog",
+    "kind": "performance",
+    "accepted": [
+      0,
+      1
+    ],
+    "age_routing": true
+  },
+  "106S01-I08": {
+    "kind": "all_minimum_labs",
+    "minimum": {
+      "anc": 1.5,
+      "platelets": 100,
+      "hemoglobin": 9
+    },
+    "window_days": 7
+  },
+  "106S01-I12": {
+    "kind": "all_minimum_labs",
+    "minimum": {
+      "albumin": 3
+    },
+    "window_days": 7
+  },
+  "106S01-E04": {
+    "kind": "last_event_exclusion",
+    "fact": "rbc_review",
+    "days": 14
+  },
+  "106S01-I04": {
+    "kind": "duration_minimum",
+    "fact": "estimated_survival",
+    "minimum_months": 3,
+    "context": "Signed Amendment 1, page 47, inclusion criterion 4",
+    "assessment_workflow": {
+      "category": "INVESTIGATOR_ACTIONS",
+      "required_role": "investigator",
+      "action": "Document or confirm the investigator\u2019s estimate of life expectancy at screening."
+    }
+  },
+  "106S01-I06": {
+    "kind": "prescreen_tissue_assay",
+    "contract": "sotio-lrrc15-ihc",
+    "minimum_percent": 1,
+    "prescreen_days": 90,
+    "archival_fallback": [
+      "unsafe",
+      "site-inaccessible"
+    ],
+    "archival_scope_question": "SOTIO-I06-ARCHIVE",
+    "context": "Signed Amendment 1. Sections 1.3.1 and 1.3.2, including footnote 2, 4.1.2.1, 4.1.3.1, 5.2.1(6), 8.2 and 8.6.1.",
+    "review_comparisons": {
+      "SOTIO-I06-ARCHIVE": {
+        "fixed_facts": "Same patient, same adequate archival FFPE specimen, same qualifying central IHC result, same verified consent dates and screening attempt.",
+        "changed_fact": "medical feasibility of obtaining fresh tumor tissue",
+        "cases": [
+          {
+            "fresh_biopsy_feasible": false,
+            "documented_reason": "unsafe",
+            "current_expected": "MET"
+          },
+          {
+            "fresh_biopsy_feasible": true,
+            "documented_reason": "safe-and-accessible",
+            "current_expected": "AUTHORING_HOLD"
+          }
+        ],
+        "choices": {
+          "archival_sufficient": "Qualifying archival tissue is acceptable even when fresh biopsy is feasible.",
+          "infeasibility_required": "A documented safety or accessibility reason is required for the archival route.",
+          "conditional": "A different or conditional instruction applies. Supply the precise condition."
+        }
+      }
+    }
+  },
+  "106S01-I07": {
+    "kind": "respondent_agreement",
+    "contract": "other-interventional-agreement",
+    "adult_age": 18,
+    "agreement_scope": {
+      "other_study_type": "interventional clinical trial",
+      "period": "enrollment in this trial",
+      "exception": "survival follow-up period"
+    },
+    "context": "Signed Amendment 1, section 5.2.1 item 7, page 47. See item 2 for consent and assent, page 62 for survival assessments and section 11.3 for consent documentation."
+  }
+}

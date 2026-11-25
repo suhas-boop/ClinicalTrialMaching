@@ -1,0 +1,26 @@
+{
+  "current_binary": 6,
+  "distinct_contracts": 186,
+  "executable_rules_all_leaves_have_note_adapter": 37,
+  "executable_rules_normalized_input_only": 61,
+  "executable_rules_some_leaves_have_note_adapter": 18,
+  "prior_binary": 9,
+  "prior_to_open": [
+    {
+      "criterion": "20",
+      "new": "MISSING_DATA",
+      "old": "MET"
+    },
+    {
+      "criterion": "142",
+      "new": "INVESTIGATOR_ACTIONS",
+      "old": "NOT_MET"
+    },
+    {
+      "criterion": "212",
+      "new": "MISSING_DATA",
+      "old": "MET"
+    }
+  ],
+  "supported_by_note_adapter": 74
+}

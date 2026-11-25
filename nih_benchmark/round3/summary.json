@@ -1,0 +1,40 @@
+{
+  "patients": 24,
+  "trials": 37,
+  "criteria": 63,
+  "physician_decided": 37,
+  "assisted_baseline": {
+    "states": {
+      "MISSING_DATA": 52,
+      "AUTHORING_HOLD": 7,
+      "MET": 4
+    },
+    "decided": 4,
+    "agree": 4,
+    "exact_sentences": 2,
+    "overlap": 3
+  },
+  "automatic": {
+    "states": {
+      "MISSING_DATA": 52,
+      "AUTHORING_HOLD": 7,
+      "MET": 4
+    },
+    "decided": 4,
+    "agree": 4,
+    "exact_sentences": 2,
+    "overlap": 3
+  },
+  "combined": {
+    "states": {
+      "MISSING_DATA": 52,
+      "AUTHORING_HOLD": 7,
+      "MET": 4
+    },
+    "decided": 4,
+    "agree": 4,
+    "exact_sentences": 2,
+    "overlap": 3
+  },
+  "baseline_to_combined_changes": 0
+}

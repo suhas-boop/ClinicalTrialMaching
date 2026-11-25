@@ -1,0 +1,42 @@
+{
+  "lithium carbonate": {
+    "rxcui": "42351",
+    "name": "lithium carbonate",
+    "tty": "IN"
+  },
+  "zolpidem": {
+    "rxcui": "39993",
+    "name": "zolpidem",
+    "tty": "IN"
+  },
+  "isosorbide dinitrate": {
+    "rxcui": "6058",
+    "name": "isosorbide dinitrate",
+    "tty": "IN"
+  },
+  "hydrochlorothiazide": {
+    "rxcui": "5487",
+    "name": "hydrochlorothiazide",
+    "tty": "IN"
+  },
+  "aspirin": {
+    "rxcui": "1191",
+    "name": "aspirin",
+    "tty": "IN"
+  },
+  "prednisone": {
+    "rxcui": "8640",
+    "name": "prednisone",
+    "tty": "IN"
+  },
+  "diltiazem": {
+    "rxcui": "3443",
+    "name": "diltiazem",
+    "tty": "IN"
+  },
+  "propranolol": {
+    "rxcui": "8787",
+    "name": "propranolol",
+    "tty": "IN"
+  }
+}

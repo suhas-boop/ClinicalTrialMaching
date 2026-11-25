@@ -1,0 +1,39 @@
+{
+  "full": {
+    "passed": 190
+  },
+  "r14": {
+    "passed": 30
+  },
+  "r17": {
+    "passed": 19
+  },
+  "r12": {
+    "passed": 4
+  },
+  "elig": {
+    "passed": 4
+  },
+  "release": {
+    "passed": 4
+  },
+  "catalog": {
+    "passed": 7
+  },
+  "historical": {
+    "passed": 4
+  },
+  "source": {
+    "passed": 2
+  },
+  "frozen_criterion_replay": {
+    "assignments": 134,
+    "prediction_csv_sha256": "0fca22d9b7f96ff37d330a19742a0f9a6a823c332ee5e3fbbab845de0798c9db",
+    "traces_sha256": "90649e8e9edd61a4ce02b415767d233c33e6dbf864933db580160127a48bfa2f",
+    "equal_to_previous": true
+  },
+  "trial_dispositions_prior_to_referral_grading_sha256": "bde5ccd5104332851d4772ecedeb0aedd5a095df26632f64cdb8cdee5fb350ff",
+  "expanded_predictions_prior_to_referral_grading_sha256": "02781f9bc54d1ffd2b4f62799d116edcf02db91d7988628a25994790235db865",
+  "frozen_release_input_sha256": "d7541ff80d5adeddf04717aa424b45d8c413bbbf7a640f9a2f8fc55fcbacb765",
+  "same_68_decisions_in_current_cli": true
+}

@@ -1,0 +1,4773 @@
+[
+  {
+    "subject": "Patient/sigir-20141",
+    "resource": "Observation/n-0ff61c2e47cfed67a174a4c1c9ab13",
+    "document": "DocumentReference/sigir-20141-note",
+    "sentences": [
+      0
+    ],
+    "context": "age at vignette presentation",
+    "excerpt": "A 58-year-old"
+  },
+  {
+    "subject": "Patient/sigir-20141",
+    "resource": "Observation/n-b4f4348070651eebd84639288deaef",
+    "document": "DocumentReference/sigir-20141-note",
+    "sentences": [
+      8
+    ],
+    "context": "prospective benchmark statement; written consent unverified",
+    "excerpt": "The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "subject": "Patient/sigir-20141",
+    "resource": "Observation/n-27beb57390c87f49ff91e182e22812",
+    "document": "DocumentReference/sigir-20141-note",
+    "sentences": [
+      0
+    ],
+    "context": "note abstraction",
+    "excerpt": null
+  },
+  {
+    "subject": "Patient/sigir-20141",
+    "resource": "Observation/n-f2f8f6c835da6bf737fefe29bae239",
+    "document": "DocumentReference/sigir-20141-note",
+    "sentences": [
+      0
+    ],
+    "context": "note abstraction",
+    "excerpt": null
+  },
+  {
+    "subject": "Patient/sigir-20141",
+    "resource": "Condition/n-cd854fc3b253d92d254b77b75d7375",
+    "document": "DocumentReference/sigir-20141-note",
+    "sentences": [
+      3
+    ],
+    "context": "documented",
+    "excerpt": "hypertension"
+  },
+  {
+    "subject": "Patient/sigir-20141",
+    "resource": "Condition/n-ec7c5c01e1a2886c112f50c988bf03",
+    "document": "DocumentReference/sigir-20141-note",
+    "sentences": [
+      3
+    ],
+    "context": "documented",
+    "excerpt": "obesity"
+  },
+  {
+    "subject": "Patient/sigir-20141",
+    "resource": "Observation/n-88cead0199eb2b22750ae9391b8e60",
+    "document": "DocumentReference/sigir-20141-note",
+    "sentences": [
+      4
+    ],
+    "context": "patient-report",
+    "excerpt": "denies smoking, diabetes"
+  },
+  {
+    "subject": "Patient/sigir-20141",
+    "resource": "Observation/n-9057bcd43a3a087c432347050ab2d7",
+    "document": "DocumentReference/sigir-20141-note",
+    "sentences": [
+      5
+    ],
+    "context": "patient-report",
+    "excerpt": "currently takes no medications"
+  },
+  {
+    "subject": "Patient/sigir-20141",
+    "resource": "Observation/n-78c46ab10eaca63ad7895979fd5f23",
+    "document": "DocumentReference/sigir-20141-note",
+    "sentences": [
+      1
+    ],
+    "context": "presenting symptom",
+    "excerpt": "pain started while she was walking"
+  },
+  {
+    "subject": "Patient/sigir-20141",
+    "resource": "Observation/n-3044c0aa4589b125e45bdc207d9aa5",
+    "document": "DocumentReference/sigir-20141-note",
+    "sentences": [
+      2
+    ],
+    "context": "before arrival",
+    "excerpt": "latest episode of pain ended half an hour prior to her arrival"
+  },
+  {
+    "subject": "Patient/sigir-20141",
+    "resource": "Observation/n-08af96aba32e1d9b5e20e7a67cd853",
+    "document": "DocumentReference/sigir-20141-note",
+    "sentences": [
+      6
+    ],
+    "context": "examination",
+    "excerpt": "Physical examination is normal"
+  },
+  {
+    "subject": "Patient/sigir-20141",
+    "resource": "Observation/n-73d69216e8ac3aa1cc9b5e15c58e41",
+    "document": "DocumentReference/sigir-20141-note",
+    "sentences": [
+      7
+    ],
+    "context": "ECG",
+    "excerpt": "EKG shows nonspecific changes"
+  },
+  {
+    "subject": "Patient/sigir-201410",
+    "resource": "Observation/n-7e55e3065da851771ef1102898bd84",
+    "document": "DocumentReference/sigir-201410-note",
+    "sentences": [
+      0
+    ],
+    "context": "age at vignette presentation",
+    "excerpt": "A physician is called to see a 67-year-old"
+  },
+  {
+    "subject": "Patient/sigir-201410",
+    "resource": "Observation/n-55ebf1fa01b6c88274b8498037eb69",
+    "document": "DocumentReference/sigir-201410-note",
+    "sentences": [
+      3
+    ],
+    "context": "prospective benchmark statement; written consent unverified",
+    "excerpt": "The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "subject": "Patient/sigir-201410",
+    "resource": "Procedure/n-e5bfe64c96799364f404bb85ae55a0",
+    "document": "DocumentReference/sigir-201410-note",
+    "sentences": [
+      0
+    ],
+    "context": "earlier that morning",
+    "excerpt": "cardiac catheterization via the right femoral artery"
+  },
+  {
+    "subject": "Patient/sigir-201410",
+    "resource": "Observation/n-b46916fcf2d4ce3b072afffbd51a30",
+    "document": "DocumentReference/sigir-201410-note",
+    "sentences": [
+      2
+    ],
+    "context": "examination",
+    "excerpt": "pulsatile mass in her right groin"
+  },
+  {
+    "subject": "Patient/sigir-201410",
+    "resource": "Observation/n-d71c1cc43371355e1adebe27ac6b1a",
+    "document": "DocumentReference/sigir-201410-note",
+    "sentences": [
+      1
+    ],
+    "context": "reported symptom",
+    "excerpt": "cool right foot"
+  },
+  {
+    "subject": "Patient/sigir-201411",
+    "resource": "Observation/n-9aece1e1e5134394884fad7ad638e1",
+    "document": "DocumentReference/sigir-201411-note",
+    "sentences": [
+      0
+    ],
+    "context": "age at vignette presentation",
+    "excerpt": "A 40-year-old"
+  },
+  {
+    "subject": "Patient/sigir-201411",
+    "resource": "Observation/n-2f2a375147b51a6b385ec30406820e",
+    "document": "DocumentReference/sigir-201411-note",
+    "sentences": [
+      3
+    ],
+    "context": "as documented; units supplied only if explicit",
+    "excerpt": "blood pressure is 80/60"
+  },
+  {
+    "subject": "Patient/sigir-201411",
+    "resource": "Observation/n-beb7c67382fcb2a746c9e1a4b2f5b4",
+    "document": "DocumentReference/sigir-201411-note",
+    "sentences": [
+      5
+    ],
+    "context": "prospective benchmark statement; written consent unverified",
+    "excerpt": "The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "subject": "Patient/sigir-201411",
+    "resource": "Observation/n-758b67a6901afb17651bceead891f4",
+    "document": "DocumentReference/sigir-201411-note",
+    "sentences": [
+      0
+    ],
+    "context": "note abstraction",
+    "excerpt": null
+  },
+  {
+    "subject": "Patient/sigir-201411",
+    "resource": "Observation/n-056d2ab6abd1be5202cee145b67c61",
+    "document": "DocumentReference/sigir-201411-note",
+    "sentences": [
+      0
+    ],
+    "context": "note abstraction",
+    "excerpt": null
+  },
+  {
+    "subject": "Patient/sigir-201411",
+    "resource": "Observation/n-2cb728ec588723195861658cde7afe",
+    "document": "DocumentReference/sigir-201411-note",
+    "sentences": [
+      1
+    ],
+    "context": "patient-report",
+    "excerpt": "denies trauma"
+  },
+  {
+    "subject": "Patient/sigir-201411",
+    "resource": "Observation/n-18a2768904358b934e660e36768e43",
+    "document": "DocumentReference/sigir-201411-note",
+    "sentences": [
+      2
+    ],
+    "context": "examination",
+    "excerpt": "tachycardic"
+  },
+  {
+    "subject": "Patient/sigir-201411",
+    "resource": "Observation/n-04fbdb6a34eb294fbc49d85aaa328d",
+    "document": "DocumentReference/sigir-201411-note",
+    "sentences": [
+      2
+    ],
+    "context": "examination",
+    "excerpt": "tachypneic"
+  },
+  {
+    "subject": "Patient/sigir-201411",
+    "resource": "Observation/n-f305dc1b8b0d514a525ed833557e47",
+    "document": "DocumentReference/sigir-201411-note",
+    "sentences": [
+      3
+    ],
+    "context": "qualitative only",
+    "excerpt": "body temperature is normal"
+  },
+  {
+    "subject": "Patient/sigir-201411",
+    "resource": "Observation/n-9df8844ea05b22e62c6f9d6747395e",
+    "document": "DocumentReference/sigir-201411-note",
+    "sentences": [
+      4
+    ],
+    "context": "right arm examination",
+    "excerpt": "no discoloration or movement limitation"
+  },
+  {
+    "subject": "Patient/sigir-201412",
+    "resource": "Observation/n-976dcaf73f082c05fccc6528b6517b",
+    "document": "DocumentReference/sigir-201412-note",
+    "sentences": [
+      0
+    ],
+    "context": "age at vignette presentation",
+    "excerpt": "A 25-year-old"
+  },
+  {
+    "subject": "Patient/sigir-201412",
+    "resource": "Observation/n-60a19e1951b6cb12a0034777899bf3",
+    "document": "DocumentReference/sigir-201412-note",
+    "sentences": [
+      5
+    ],
+    "context": "prospective benchmark statement; written consent unverified",
+    "excerpt": "The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "subject": "Patient/sigir-201412",
+    "resource": "Observation/n-5359c03478eef26d61bfe50c64ae28",
+    "document": "DocumentReference/sigir-201412-note",
+    "sentences": [
+      0
+    ],
+    "context": "note abstraction",
+    "excerpt": null
+  },
+  {
+    "subject": "Patient/sigir-201412",
+    "resource": "Observation/n-a1ba205be4295ac0ec015f79aa2373",
+    "document": "DocumentReference/sigir-201412-note",
+    "sentences": [
+      0
+    ],
+    "context": "note abstraction",
+    "excerpt": null
+  },
+  {
+    "subject": "Patient/sigir-201412",
+    "resource": "Observation/n-94b54178be45919749cded8a13cd1f",
+    "document": "DocumentReference/sigir-201412-note",
+    "sentences": [
+      3
+    ],
+    "context": "patient-report",
+    "excerpt": "cold intolerance"
+  },
+  {
+    "subject": "Patient/sigir-201412",
+    "resource": "Observation/n-0ec3becb51a2b5cc02aa0cbb003d13",
+    "document": "DocumentReference/sigir-201412-note",
+    "sentences": [
+      1
+    ],
+    "context": "per night",
+    "excerpt": "average of 8 hours a night"
+  },
+  {
+    "subject": "Patient/sigir-201412",
+    "resource": "Observation/n-d862fd8563b503a8f21331827510ef",
+    "document": "DocumentReference/sigir-201412-note",
+    "sentences": [
+      4
+    ],
+    "context": "examination",
+    "excerpt": "prominent, soft, uniform anterior cervical mass"
+  },
+  {
+    "subject": "Patient/sigir-201412",
+    "resource": "Observation/n-3925efb5c33e6db865cbac081570cf",
+    "document": "DocumentReference/sigir-201412-note",
+    "sentences": [
+      2
+    ],
+    "context": "reported",
+    "excerpt": "weight gain during the previous 6 months"
+  },
+  {
+    "subject": "Patient/sigir-201413",
+    "resource": "Observation/n-0153ee92f6f13fd37e3c6a0a5721fe",
+    "document": "DocumentReference/sigir-201413-note",
+    "sentences": [
+      0
+    ],
+    "context": "age at vignette presentation",
+    "excerpt": "A 30-year-old"
+  },
+  {
+    "subject": "Patient/sigir-201413",
+    "resource": "Observation/n-a16da609fb8369b55f805233f0538a",
+    "document": "DocumentReference/sigir-201413-note",
+    "sentences": [
+      3
+    ],
+    "context": "as documented; units supplied only if explicit",
+    "excerpt": "blood pressure is 110/70"
+  },
+  {
+    "subject": "Patient/sigir-201413",
+    "resource": "Observation/n-e5f269b5507051553d38eca9722ec0",
+    "document": "DocumentReference/sigir-201413-note",
+    "sentences": [
+      6
+    ],
+    "context": "prospective benchmark statement; written consent unverified",
+    "excerpt": "The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "subject": "Patient/sigir-201413",
+    "resource": "Observation/n-b58ba71c8ea7892bbec10562c867e1",
+    "document": "DocumentReference/sigir-201413-note",
+    "sentences": [
+      0
+    ],
+    "context": "note abstraction",
+    "excerpt": null
+  },
+  {
+    "subject": "Patient/sigir-201413",
+    "resource": "Observation/n-73c68a53a060bd3dc78ecc0249c2d7",
+    "document": "DocumentReference/sigir-201413-note",
+    "sentences": [
+      0
+    ],
+    "context": "note abstraction",
+    "excerpt": null
+  },
+  {
+    "subject": "Patient/sigir-201413",
+    "resource": "Observation/n-953935bc15a5b5d6a52651273d46e9",
+    "document": "DocumentReference/sigir-201413-note",
+    "sentences": [
+      3
+    ],
+    "context": "method unspecified",
+    "excerpt": "oxygen saturation 92%"
+  },
+  {
+    "subject": "Patient/sigir-201413",
+    "resource": "Observation/n-219c392c5820c0bd7b3cfadbfcfa90",
+    "document": "DocumentReference/sigir-201413-note",
+    "sentences": [
+      2
+    ],
+    "context": "three weeks before presentation",
+    "excerpt": "given birth to a healthy child 3 weeks before"
+  },
+  {
+    "subject": "Patient/sigir-201413",
+    "resource": "Observation/n-25c851f8ff25c8ebde0a414d3019b7",
+    "document": "DocumentReference/sigir-201413-note",
+    "sentences": [
+      5
+    ],
+    "context": "qualitative only",
+    "excerpt": "chest x-ray and CBC are normal"
+  },
+  {
+    "subject": "Patient/sigir-201413",
+    "resource": "Observation/n-827d0ee893fe91dcacd670a01e8fcd",
+    "document": "DocumentReference/sigir-201413-note",
+    "sentences": [
+      1
+    ],
+    "context": "history",
+    "excerpt": "2 natural abortions"
+  },
+  {
+    "subject": "Patient/sigir-201413",
+    "resource": "Observation/n-660cdcb9d8845ebcafda2f8bba3857",
+    "document": "DocumentReference/sigir-201413-note",
+    "sentences": [
+      4
+    ],
+    "context": "other findings in preceding sentence remain present",
+    "excerpt": "Otherwise, physical examination is unremarkable"
+  },
+  {
+    "subject": "Patient/sigir-201414",
+    "resource": "Observation/n-f149312ea2058fc891a424311f82b3",
+    "document": "DocumentReference/sigir-201414-note",
+    "sentences": [
+      0
+    ],
+    "context": "age at vignette presentation",
+    "excerpt": "An 85-year-old"
+  },
+  {
+    "subject": "Patient/sigir-201414",
+    "resource": "Observation/n-f5059a4ed51ada26046c29a6f3060b",
+    "document": "DocumentReference/sigir-201414-note",
+    "sentences": [
+      4
+    ],
+    "context": "prospective benchmark statement; written consent unverified",
+    "excerpt": "The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "subject": "Patient/sigir-201414",
+    "resource": "Observation/n-5f0341a61a5a1a114b35dd38948364",
+    "document": "DocumentReference/sigir-201414-note",
+    "sentences": [
+      0
+    ],
+    "context": "note abstraction",
+    "excerpt": null
+  },
+  {
+    "subject": "Patient/sigir-201414",
+    "resource": "Observation/n-89168992145666971a5ddabff35664",
+    "document": "DocumentReference/sigir-201414-note",
+    "sentences": [
+      0
+    ],
+    "context": "note abstraction",
+    "excerpt": null
+  },
+  {
+    "subject": "Patient/sigir-201414",
+    "resource": "Observation/n-f1c70fd9650cdabfdc7d7bf9ac87f3",
+    "document": "DocumentReference/sigir-201414-note",
+    "sentences": [
+      3
+    ],
+    "context": "three weeks before admission; daughter report",
+    "excerpt": "normal head CT at that time"
+  },
+  {
+    "subject": "Patient/sigir-201414",
+    "resource": "Observation/n-c971267a0fbbb7124ed4dff6b5e69a",
+    "document": "DocumentReference/sigir-201414-note",
+    "sentences": [
+      2
+    ],
+    "context": "reported recent history",
+    "excerpt": "has had no fever"
+  },
+  {
+    "subject": "Patient/sigir-201414",
+    "resource": "Observation/n-d5d28c0b7330e97e4682f78f2d4a61",
+    "document": "DocumentReference/sigir-201414-note",
+    "sentences": [
+      1
+    ],
+    "context": "last three days",
+    "excerpt": "stopped walking and eating by himself"
+  },
+  {
+    "subject": "Patient/sigir-201415",
+    "resource": "Observation/n-993b8fbf2a423e5c784e19b67b1583",
+    "document": "DocumentReference/sigir-201415-note",
+    "sentences": [
+      0
+    ],
+    "context": "age at vignette presentation",
+    "excerpt": "A 36-year-old"
+  },
+  {
+    "subject": "Patient/sigir-201415",
+    "resource": "Observation/n-6a647672008e752ddf4d5484922a2e",
+    "document": "DocumentReference/sigir-201415-note",
+    "sentences": [
+      6
+    ],
+    "context": "prospective benchmark statement; written consent unverified",
+    "excerpt": "The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "subject": "Patient/sigir-201415",
+    "resource": "Observation/n-f603707db0a5999246cd86941e8e39",
+    "document": "DocumentReference/sigir-201415-note",
+    "sentences": [
+      0
+    ],
+    "context": "note abstraction",
+    "excerpt": null
+  },
+  {
+    "subject": "Patient/sigir-201415",
+    "resource": "Observation/n-55ec799c75f6a9812ee55b0981cec2",
+    "document": "DocumentReference/sigir-201415-note",
+    "sentences": [
+      0
+    ],
+    "context": "note abstraction",
+    "excerpt": null
+  },
+  {
+    "subject": "Patient/sigir-201415",
+    "resource": "Observation/n-d2304074ea840bca88ec0b1216bc93",
+    "document": "DocumentReference/sigir-201415-note",
+    "sentences": [
+      3
+    ],
+    "context": "point of care",
+    "excerpt": "pregnancy test with cut-off sensitivity of 25 mIU/ml Beta-HCG is negative"
+  },
+  {
+    "subject": "Patient/sigir-201415",
+    "resource": "Observation/n-1e5fd06a0dd5535ddbfb45163f51e5",
+    "document": "DocumentReference/sigir-201415-note",
+    "sentences": [
+      5
+    ],
+    "context": "differential only",
+    "excerpt": "differential diagnosis includes vesicular mole vs fibroid degeneration"
+  },
+  {
+    "subject": "Patient/sigir-201415",
+    "resource": "Observation/n-d6bc48930a91c4e795a9d27f1a15e2",
+    "document": "DocumentReference/sigir-201415-note",
+    "sentences": [
+      4
+    ],
+    "context": "uterine ultrasound",
+    "excerpt": "multiple cystic areas in the interior"
+  },
+  {
+    "subject": "Patient/sigir-201415",
+    "resource": "Observation/n-a78a54306f56d385c269aae8ca3578",
+    "document": "DocumentReference/sigir-201415-note",
+    "sentences": [
+      1
+    ],
+    "context": "examination",
+    "excerpt": "cervical dilation of 2 cm"
+  },
+  {
+    "subject": "Patient/sigir-201415",
+    "resource": "Observation/n-6de3f2bdf2a5e134934c65b3bcabfa",
+    "document": "DocumentReference/sigir-201415-note",
+    "sentences": [
+      2
+    ],
+    "context": "qualitative only",
+    "excerpt": "complete blood count and biochemical profile are normal"
+  },
+  {
+    "subject": "Patient/sigir-201416",
+    "resource": "Observation/n-0b42cde2bb3e6cca40ced2d35e003a",
+    "document": "DocumentReference/sigir-201416-note",
+    "sentences": [
+      0
+    ],
+    "context": "age at vignette presentation",
+    "excerpt": "A 28-year-old"
+  },
+  {
+    "subject": "Patient/sigir-201416",
+    "resource": "Observation/n-1dbab7fd7268ee1b8d3c7d9e6b5b7c",
+    "document": "DocumentReference/sigir-201416-note",
+    "sentences": [
+      4
+    ],
+    "context": "prospective benchmark statement; written consent unverified",
+    "excerpt": "The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "subject": "Patient/sigir-201416",
+    "resource": "Observation/n-1fddfde55f2e1cffc9c57954ec2b69",
+    "document": "DocumentReference/sigir-201416-note",
+    "sentences": [
+      0
+    ],
+    "context": "note abstraction",
+    "excerpt": null
+  },
+  {
+    "subject": "Patient/sigir-201416",
+    "resource": "Observation/n-dce2979097f749b134d048594accf2",
+    "document": "DocumentReference/sigir-201416-note",
+    "sentences": [
+      0
+    ],
+    "context": "note abstraction",
+    "excerpt": null
+  },
+  {
+    "subject": "Patient/sigir-201416",
+    "resource": "Observation/n-b6f80bae1769baaf256653180d74f4",
+    "document": "DocumentReference/sigir-201416-note",
+    "sentences": [
+      2
+    ],
+    "context": "prescription only",
+    "excerpt": "prescribed NSAIDS"
+  },
+  {
+    "subject": "Patient/sigir-201416",
+    "resource": "Observation/n-0a21ef2342a356480b2a8af36c3c9a",
+    "document": "DocumentReference/sigir-201416-note",
+    "sentences": [
+      1
+    ],
+    "context": "examination",
+    "excerpt": "slight tremors"
+  },
+  {
+    "subject": "Patient/sigir-201416",
+    "resource": "Observation/n-68a587559bcef38b566b92635cdce9",
+    "document": "DocumentReference/sigir-201416-note",
+    "sentences": [
+      3
+    ],
+    "context": "three days later",
+    "excerpt": "marked hydrophobia"
+  },
+  {
+    "subject": "Patient/sigir-201417",
+    "resource": "Observation/n-1550c734ecb356b72af62b24922911",
+    "document": "DocumentReference/sigir-201417-note",
+    "sentences": [
+      0
+    ],
+    "context": "age at vignette presentation",
+    "excerpt": "A 48-year-old"
+  },
+  {
+    "subject": "Patient/sigir-201417",
+    "resource": "Observation/n-725e8ea9de151c7127fc3ec67c333f",
+    "document": "DocumentReference/sigir-201417-note",
+    "sentences": [
+      0
+    ],
+    "context": "as documented; units supplied only if explicit",
+    "excerpt": "BP 80/40"
+  },
+  {
+    "subject": "Patient/sigir-201417",
+    "resource": "Observation/n-09b49cfaa5cf15ca81ef37ed1e45d1",
+    "document": "DocumentReference/sigir-201417-note",
+    "sentences": [
+      5
+    ],
+    "context": "prospective benchmark statement; written consent unverified",
+    "excerpt": "The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "subject": "Patient/sigir-201417",
+    "resource": "Observation/n-c65ef752c218d1f9b13d9cafaad263",
+    "document": "DocumentReference/sigir-201417-note",
+    "sentences": [
+      0
+    ],
+    "context": "note abstraction",
+    "excerpt": null
+  },
+  {
+    "subject": "Patient/sigir-201417",
+    "resource": "Observation/n-b809f275c050befae273a69ba8fc89",
+    "document": "DocumentReference/sigir-201417-note",
+    "sentences": [
+      0
+    ],
+    "context": "note abstraction",
+    "excerpt": null
+  },
+  {
+    "subject": "Patient/sigir-201417",
+    "resource": "Observation/n-b3328f79760e9ac8bed0b9e0965636",
+    "document": "DocumentReference/sigir-201417-note",
+    "sentences": [
+      0
+    ],
+    "context": "note abstraction",
+    "excerpt": null
+  },
+  {
+    "subject": "Patient/sigir-201417",
+    "resource": "Condition/n-af751421ca4a2b618bad4b1bbb9db9",
+    "document": "DocumentReference/sigir-201417-note",
+    "sentences": [
+      0
+    ],
+    "context": "history",
+    "excerpt": "history of common variable immunodeficiency"
+  },
+  {
+    "subject": "Patient/sigir-201417",
+    "resource": "Procedure/n-c5c560ae40472ef77a9a3f00b0ba2c",
+    "document": "DocumentReference/sigir-201417-note",
+    "sentences": [
+      3
+    ],
+    "context": "completed",
+    "excerpt": "Exploratory laparotomy"
+  },
+  {
+    "subject": "Patient/sigir-201417",
+    "resource": "Procedure/n-5310f4c26b22c339331270e3e0fad1",
+    "document": "DocumentReference/sigir-201417-note",
+    "sentences": [
+      3
+    ],
+    "context": "completed",
+    "excerpt": "ruptured liver abscess, which is then surgically drained"
+  },
+  {
+    "subject": "Patient/sigir-201417",
+    "resource": "Condition/n-d2e71dcace6cb631fffb61bd4198c2",
+    "document": "DocumentReference/sigir-201417-note",
+    "sentences": [
+      3
+    ],
+    "context": "operative finding",
+    "excerpt": "ruptured liver abscess"
+  },
+  {
+    "subject": "Patient/sigir-201417",
+    "resource": "Observation/n-be3fed3afe07547cd3e02e9f9171de",
+    "document": "DocumentReference/sigir-201417-note",
+    "sentences": [
+      1
+    ],
+    "context": "examination",
+    "excerpt": "positive Murphy sign"
+  },
+  {
+    "subject": "Patient/sigir-201417",
+    "resource": "Observation/n-2832f3a854f9686c53218c6dbb1895",
+    "document": "DocumentReference/sigir-201417-note",
+    "sentences": [
+      2
+    ],
+    "context": "ultrasound",
+    "excerpt": "abundant free intraperitoneal fluid"
+  },
+  {
+    "subject": "Patient/sigir-201417",
+    "resource": "Observation/n-46db7d818f4906ad89dc0c92613c43",
+    "document": "DocumentReference/sigir-201417-note",
+    "sentences": [
+      4
+    ],
+    "context": "postoperative",
+    "excerpt": "After surgery, the patient is taken to the ICU"
+  },
+  {
+    "subject": "Patient/sigir-201418",
+    "resource": "Observation/n-2c1c4b575dcd5f536b6232ca30bebf",
+    "document": "DocumentReference/sigir-201418-note",
+    "sentences": [
+      0
+    ],
+    "context": "age at vignette presentation",
+    "excerpt": "A 6-month-old"
+  },
+  {
+    "subject": "Patient/sigir-201418",
+    "resource": "Observation/n-7444d064b62e217f90bfb53182ac33",
+    "document": "DocumentReference/sigir-201418-note",
+    "sentences": [
+      2
+    ],
+    "context": "as documented; units supplied only if explicit",
+    "excerpt": "blood pressure is 115/80 mm Hg"
+  },
+  {
+    "subject": "Patient/sigir-201418",
+    "resource": "Observation/n-4a4d5247225111baa4cb90e949a4de",
+    "document": "DocumentReference/sigir-201418-note",
+    "sentences": [
+      7
+    ],
+    "context": "prospective benchmark statement; written consent unverified",
+    "excerpt": "The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "subject": "Patient/sigir-201418",
+    "resource": "Observation/n-b5ea831a9eef5d16a1642668d3b70e",
+    "document": "DocumentReference/sigir-201418-note",
+    "sentences": [
+      3
+    ],
+    "context": "presentation",
+    "excerpt": "serum creatinine is 1.3 mg/dL"
+  },
+  {
+    "subject": "Patient/sigir-201418",
+    "resource": "Observation/n-621263ebdc13cac7e472fe0bbbf721",
+    "document": "DocumentReference/sigir-201418-note",
+    "sentences": [
+      3
+    ],
+    "context": "laboratory",
+    "excerpt": "blood urea nitrogen is 33 mg/dL"
+  },
+  {
+    "subject": "Patient/sigir-201418",
+    "resource": "Observation/n-8010380e5e95f4368683a5a6e3e7b5",
+    "document": "DocumentReference/sigir-201418-note",
+    "sentences": [
+      2
+    ],
+    "context": "presentation",
+    "excerpt": "pulse is 141/min"
+  },
+  {
+    "subject": "Patient/sigir-201418",
+    "resource": "Observation/n-c5056cfd5270c57cf8a9ef4ec32743",
+    "document": "DocumentReference/sigir-201418-note",
+    "sentences": [
+      2
+    ],
+    "context": "presentation",
+    "excerpt": "respirations are 18/min"
+  },
+  {
+    "subject": "Patient/sigir-201418",
+    "resource": "Observation/n-9732440ef72d8c6f3b13c6c02d56b7",
+    "document": "DocumentReference/sigir-201418-note",
+    "sentences": [
+      4
+    ],
+    "context": "urinalysis",
+    "excerpt": "specific gravity of 1.017"
+  },
+  {
+    "subject": "Patient/sigir-201418",
+    "resource": "Observation/n-6295cb9db9acce332dc4cae74960fd",
+    "document": "DocumentReference/sigir-201418-note",
+    "sentences": [
+      6
+    ],
+    "context": "laboratory",
+    "excerpt": "fractional excretion of sodium is 3.3%"
+  },
+  {
+    "subject": "Patient/sigir-201418",
+    "resource": "Observation/n-a3fc2592f0603be97f89a66d33ce35",
+    "document": "DocumentReference/sigir-201418-note",
+    "sentences": [
+      1
+    ],
+    "context": "examination",
+    "excerpt": "generalized edema"
+  },
+  {
+    "subject": "Patient/sigir-201418",
+    "resource": "Observation/n-4679d0981c370e5501683735b0eb42",
+    "document": "DocumentReference/sigir-201418-note",
+    "sentences": [
+      5
+    ],
+    "context": "urine microscopy",
+    "excerpt": "18 RBCs per HPF"
+  },
+  {
+    "subject": "Patient/sigir-201419",
+    "resource": "Observation/n-290c2dd3ae233ebf87fb3226a93eff",
+    "document": "DocumentReference/sigir-201419-note",
+    "sentences": [
+      0
+    ],
+    "context": "age at vignette presentation",
+    "excerpt": "A 52-year-old"
+  },
+  {
+    "subject": "Patient/sigir-201419",
+    "resource": "Observation/n-5928ee91664c3b2ce57838223062ee",
+    "document": "DocumentReference/sigir-201419-note",
+    "sentences": [
+      5
+    ],
+    "context": "prospective benchmark statement; written consent unverified",
+    "excerpt": "The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "subject": "Patient/sigir-201419",
+    "resource": "Observation/n-70c6866e0e60678614ccdaa2bdf319",
+    "document": "DocumentReference/sigir-201419-note",
+    "sentences": [
+      0
+    ],
+    "context": "note abstraction",
+    "excerpt": null
+  },
+  {
+    "subject": "Patient/sigir-201419",
+    "resource": "Observation/n-cc191bab446c05fd982eeb4308c837",
+    "document": "DocumentReference/sigir-201419-note",
+    "sentences": [
+      0
+    ],
+    "context": "note abstraction",
+    "excerpt": null
+  },
+  {
+    "subject": "Patient/sigir-201419",
+    "resource": "Observation/n-b7b5570fa78974daa6b2560a6818e2",
+    "document": "DocumentReference/sigir-201419-note",
+    "sentences": [
+      4
+    ],
+    "context": "reported change",
+    "excerpt": "lost a total of 25 pounds"
+  },
+  {
+    "subject": "Patient/sigir-201419",
+    "resource": "Observation/n-07a8eee06891af39d4992923e254dd",
+    "document": "DocumentReference/sigir-201419-note",
+    "sentences": [
+      3
+    ],
+    "context": "patient report",
+    "excerpt": "lower end of his sternum"
+  },
+  {
+    "subject": "Patient/sigir-201419",
+    "resource": "Observation/n-cfc5725db60f5cc2f9f36cd1ac9ee3",
+    "document": "DocumentReference/sigir-201419-note",
+    "sentences": [
+      1
+    ],
+    "context": "initial symptom",
+    "excerpt": "difficulty swallowing meat"
+  },
+  {
+    "subject": "Patient/sigir-201419",
+    "resource": "Observation/n-a0391a5e960f8886e0f5dbf6b2d1a0",
+    "document": "DocumentReference/sigir-201419-note",
+    "sentences": [
+      2
+    ],
+    "context": "progression",
+    "excerpt": "other solid foods, soft foods, and then liquids"
+  },
+  {
+    "subject": "Patient/sigir-20142",
+    "resource": "Observation/n-b4ee08cc3eb8be5ff348b3a2d9f5cb",
+    "document": "DocumentReference/sigir-20142-note",
+    "sentences": [
+      0
+    ],
+    "context": "age at vignette presentation",
+    "excerpt": "An 8-year-old"
+  },
+  {
+    "subject": "Patient/sigir-20142",
+    "resource": "Observation/n-67d91627123daa7a06174cadf52699",
+    "document": "DocumentReference/sigir-20142-note",
+    "sentences": [
+      6
+    ],
+    "context": "prospective benchmark statement; written consent unverified",
+    "excerpt": "The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "subject": "Patient/sigir-20142",
+    "resource": "Observation/n-d174bca33255860d79ecc8b0abcfeb",
+    "document": "DocumentReference/sigir-20142-note",
+    "sentences": [
+      0
+    ],
+    "context": "note abstraction",
+    "excerpt": null
+  },
+  {
+    "subject": "Patient/sigir-20142",
+    "resource": "Observation/n-38ba0a52c5ca52d4216668183c7fca",
+    "document": "DocumentReference/sigir-20142-note",
+    "sentences": [
+      0
+    ],
+    "context": "note abstraction",
+    "excerpt": null
+  },
+  {
+    "subject": "Patient/sigir-20142",
+    "resource": "Observation/n-681c75a44c7d2d17e58c0fe6894ffa",
+    "document": "DocumentReference/sigir-20142-note",
+    "sentences": [
+      4
+    ],
+    "context": "current",
+    "excerpt": "in respiratory distress"
+  },
+  {
+    "subject": "Patient/sigir-20142",
+    "resource": "Observation/n-1a343add6d0671e31604e00a2c6634",
+    "document": "DocumentReference/sigir-20142-note",
+    "sentences": [
+      5
+    ],
+    "context": "chest x-ray",
+    "excerpt": "bilateral lung infiltrates"
+  },
+  {
+    "subject": "Patient/sigir-20142",
+    "resource": "Observation/n-b181b99f6014f07058956fde46015d",
+    "document": "DocumentReference/sigir-20142-note",
+    "sentences": [
+      2
+    ],
+    "context": "earlier; parent report",
+    "excerpt": "prior to the onset of fever and cough, he had loose stools"
+  },
+  {
+    "subject": "Patient/sigir-20142",
+    "resource": "Observation/n-c4ff4d246f315861ed7277ecbab89f",
+    "document": "DocumentReference/sigir-20142-note",
+    "sentences": [
+      1
+    ],
+    "context": "recent",
+    "excerpt": "5 day vacation in Colorado"
+  },
+  {
+    "subject": "Patient/sigir-20142",
+    "resource": "Observation/n-695076d8afd9d0e5ad26e842c48b5d",
+    "document": "DocumentReference/sigir-20142-note",
+    "sentences": [
+      3
+    ],
+    "context": "patient-report",
+    "excerpt": "denies upper respiratory tract symptoms"
+  },
+  {
+    "subject": "Patient/sigir-201420",
+    "resource": "Observation/n-a7076a8def3d785033c18926dc0ae6",
+    "document": "DocumentReference/sigir-201420-note",
+    "sentences": [
+      0
+    ],
+    "context": "age at vignette presentation",
+    "excerpt": "A 32-year-old"
+  },
+  {
+    "subject": "Patient/sigir-201420",
+    "resource": "Observation/n-b94e01ef92fe944d24df8ea31b5fc1",
+    "document": "DocumentReference/sigir-201420-note",
+    "sentences": [
+      3
+    ],
+    "context": "as documented; units supplied only if explicit",
+    "excerpt": "blood pressure is 134/74 mm Hg"
+  },
+  {
+    "subject": "Patient/sigir-201420",
+    "resource": "Observation/n-1074b24487208cda42b59cec88c1c8",
+    "document": "DocumentReference/sigir-201420-note",
+    "sentences": [
+      6
+    ],
+    "context": "prospective benchmark statement; written consent unverified",
+    "excerpt": "The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "subject": "Patient/sigir-201420",
+    "resource": "Observation/n-2f348f2d1b51d6d6aa2d237f5a8329",
+    "document": "DocumentReference/sigir-201420-note",
+    "sentences": [
+      0
+    ],
+    "context": "note abstraction",
+    "excerpt": null
+  },
+  {
+    "subject": "Patient/sigir-201420",
+    "resource": "Observation/n-5b2ddcef448cc6f1df5e5c06cf3912",
+    "document": "DocumentReference/sigir-201420-note",
+    "sentences": [
+      0
+    ],
+    "context": "note abstraction",
+    "excerpt": null
+  },
+  {
+    "subject": "Patient/sigir-201420",
+    "resource": "Observation/n-23dddbf35b225fe41efcfc131a112a",
+    "document": "DocumentReference/sigir-201420-note",
+    "sentences": [
+      3
+    ],
+    "context": "presentation",
+    "excerpt": "pulse is 87/min"
+  },
+  {
+    "subject": "Patient/sigir-201420",
+    "resource": "Observation/n-76770abd96214d243c0e5b8bb83ebd",
+    "document": "DocumentReference/sigir-201420-note",
+    "sentences": [
+      1
+    ],
+    "context": "following car accident",
+    "excerpt": "upper and lower extremity fractures"
+  },
+  {
+    "subject": "Patient/sigir-201420",
+    "resource": "Observation/n-71e904557de937072bbae05a5a1f8e",
+    "document": "DocumentReference/sigir-201420-note",
+    "sentences": [
+      5
+    ],
+    "context": "examination",
+    "excerpt": "no bowel sounds"
+  },
+  {
+    "subject": "Patient/sigir-201420",
+    "resource": "Observation/n-679db564a8520ac99735b2f5ce4c6f",
+    "document": "DocumentReference/sigir-201420-note",
+    "sentences": [
+      2
+    ],
+    "context": "index crash; patient report",
+    "excerpt": "not wearing a seat belt"
+  },
+  {
+    "subject": "Patient/sigir-201420",
+    "resource": "Observation/n-44420e9df9565190606af028e74aab",
+    "document": "DocumentReference/sigir-201420-note",
+    "sentences": [
+      4
+    ],
+    "context": "examination",
+    "excerpt": "guarding and rebound in all four quadrants"
+  },
+  {
+    "subject": "Patient/sigir-201421",
+    "resource": "Observation/n-d620dc3862ed4597d8596ba5567851",
+    "document": "DocumentReference/sigir-201421-note",
+    "sentences": [
+      0
+    ],
+    "context": "age at vignette presentation",
+    "excerpt": "A 21-year-old"
+  },
+  {
+    "subject": "Patient/sigir-201421",
+    "resource": "Observation/n-99a111e939f193b9591a68fe3a4707",
+    "document": "DocumentReference/sigir-201421-note",
+    "sentences": [
+      4
+    ],
+    "context": "prospective benchmark statement; written consent unverified",
+    "excerpt": "The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "subject": "Patient/sigir-201421",
+    "resource": "Observation/n-283382b6d8bf66efcb14fc67a3bc15",
+    "document": "DocumentReference/sigir-201421-note",
+    "sentences": [
+      0
+    ],
+    "context": "note abstraction",
+    "excerpt": null
+  },
+  {
+    "subject": "Patient/sigir-201421",
+    "resource": "Observation/n-9d0eda6cdb22b507eb904b22d40517",
+    "document": "DocumentReference/sigir-201421-note",
+    "sentences": [
+      0
+    ],
+    "context": "note abstraction",
+    "excerpt": null
+  },
+  {
+    "subject": "Patient/sigir-201421",
+    "resource": "Condition/n-f229b349163cc9196bb74c2fa3c144",
+    "document": "DocumentReference/sigir-201421-note",
+    "sentences": [
+      2
+    ],
+    "context": "current laboratory finding",
+    "excerpt": "thrombocytopenia"
+  },
+  {
+    "subject": "Patient/sigir-201421",
+    "resource": "Observation/n-66f5bb0679895033ba976a9203513c",
+    "document": "DocumentReference/sigir-201421-note",
+    "sentences": [
+      2
+    ],
+    "context": "laboratory",
+    "excerpt": "4/4 positive ANA"
+  },
+  {
+    "subject": "Patient/sigir-201421",
+    "resource": "Observation/n-47bbf4af0c5f189cc545060567b0cb",
+    "document": "DocumentReference/sigir-201421-note",
+    "sentences": [
+      3
+    ],
+    "context": "urinalysis",
+    "excerpt": "RBC casts"
+  },
+  {
+    "subject": "Patient/sigir-201421",
+    "resource": "Observation/n-b0a5c9e99ba582c69d04a53f7f83fa",
+    "document": "DocumentReference/sigir-201421-note",
+    "sentences": [
+      1
+    ],
+    "context": "examination",
+    "excerpt": "rash mainly distributed on the bridge of her nose and her cheeks"
+  },
+  {
+    "subject": "Patient/sigir-201422",
+    "resource": "Observation/n-9950b3876bed1b487b3f8869cf080a",
+    "document": "DocumentReference/sigir-201422-note",
+    "sentences": [
+      0
+    ],
+    "context": "age at vignette presentation",
+    "excerpt": "A 15-year-old"
+  },
+  {
+    "subject": "Patient/sigir-201422",
+    "resource": "Observation/n-6e525b4a2b1da72668f0f190843784",
+    "document": "DocumentReference/sigir-201422-note",
+    "sentences": [
+      6
+    ],
+    "context": "prospective benchmark statement; written consent unverified",
+    "excerpt": "The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "subject": "Patient/sigir-201422",
+    "resource": "Observation/n-610340a7ef392ce6c9fcbfcf222e70",
+    "document": "DocumentReference/sigir-201422-note",
+    "sentences": [
+      0
+    ],
+    "context": "note abstraction",
+    "excerpt": null
+  },
+  {
+    "subject": "Patient/sigir-201422",
+    "resource": "Observation/n-e06c1ae2d95407700b94e304a89f64",
+    "document": "DocumentReference/sigir-201422-note",
+    "sentences": [
+      0
+    ],
+    "context": "note abstraction",
+    "excerpt": null
+  },
+  {
+    "subject": "Patient/sigir-201422",
+    "resource": "Observation/n-df6af93246063e2fe227dbe942ce72",
+    "document": "DocumentReference/sigir-201422-note",
+    "sentences": [
+      3
+    ],
+    "context": "reported history",
+    "excerpt": "has had no sexual partners"
+  },
+  {
+    "subject": "Patient/sigir-201422",
+    "resource": "Observation/n-d1df6093733faacecaec52ee6d84b6",
+    "document": "DocumentReference/sigir-201422-note",
+    "sentences": [
+      5
+    ],
+    "context": "abdominal ultrasound",
+    "excerpt": "markedly edematous appendix"
+  },
+  {
+    "subject": "Patient/sigir-201422",
+    "resource": "Observation/n-b0553b9c80c73981fc155c606f8b4a",
+    "document": "DocumentReference/sigir-201422-note",
+    "sentences": [
+      4
+    ],
+    "context": "examination",
+    "excerpt": "rebound tenderness over the right lower quadrant"
+  },
+  {
+    "subject": "Patient/sigir-201422",
+    "resource": "Observation/n-042fdde6bf5b9fc560a466f23a6f0c",
+    "document": "DocumentReference/sigir-201422-note",
+    "sentences": [
+      1
+    ],
+    "context": "symptom course",
+    "excerpt": "localizing to the right lower quadrant over hours"
+  },
+  {
+    "subject": "Patient/sigir-201422",
+    "resource": "Observation/n-afc1f0dfeb63c91084b6de691829b9",
+    "document": "DocumentReference/sigir-201422-note",
+    "sentences": [
+      2
+    ],
+    "context": "patient-report",
+    "excerpt": "denies diarrhea"
+  },
+  {
+    "subject": "Patient/sigir-201423",
+    "resource": "Observation/n-bc9b6bef0ed8441631c0f72ad49fb0",
+    "document": "DocumentReference/sigir-201423-note",
+    "sentences": [
+      0
+    ],
+    "context": "age at vignette presentation",
+    "excerpt": "A 63-year-old"
+  },
+  {
+    "subject": "Patient/sigir-201423",
+    "resource": "Observation/n-bcb44a0fcf51e6dac632e966559a61",
+    "document": "DocumentReference/sigir-201423-note",
+    "sentences": [
+      7
+    ],
+    "context": "prospective benchmark statement; written consent unverified",
+    "excerpt": "The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "subject": "Patient/sigir-201423",
+    "resource": "Observation/n-8c6eb7b8083506d8d764ccb91b183e",
+    "document": "DocumentReference/sigir-201423-note",
+    "sentences": [
+      0
+    ],
+    "context": "note abstraction",
+    "excerpt": null
+  },
+  {
+    "subject": "Patient/sigir-201423",
+    "resource": "Observation/n-7d356688a7884b704969fa91356835",
+    "document": "DocumentReference/sigir-201423-note",
+    "sentences": [
+      0
+    ],
+    "context": "note abstraction",
+    "excerpt": null
+  },
+  {
+    "subject": "Patient/sigir-201423",
+    "resource": "Condition/n-f1342e813451dfa303d57d1c2023ec",
+    "document": "DocumentReference/sigir-201423-note",
+    "sentences": [
+      1
+    ],
+    "context": "history",
+    "excerpt": "spinal stenosis"
+  },
+  {
+    "subject": "Patient/sigir-201423",
+    "resource": "Condition/n-0d424ee23166984bdb93a1fa672681",
+    "document": "DocumentReference/sigir-201423-note",
+    "sentences": [
+      1
+    ],
+    "context": "history; type unspecified",
+    "excerpt": "diabetes"
+  },
+  {
+    "subject": "Patient/sigir-201423",
+    "resource": "Condition/n-c4fe68e73b0a94c79d0b1b50e8bdbc",
+    "document": "DocumentReference/sigir-201423-note",
+    "sentences": [
+      1
+    ],
+    "context": "history",
+    "excerpt": "hypothyroidism"
+  },
+  {
+    "subject": "Patient/sigir-201423",
+    "resource": "Condition/n-afe9b3f5617dae048652a11a75984c",
+    "document": "DocumentReference/sigir-201423-note",
+    "sentences": [
+      1
+    ],
+    "context": "history",
+    "excerpt": "mild psoriasis"
+  },
+  {
+    "subject": "Patient/sigir-201423",
+    "resource": "FamilyMemberHistory/n-2472c83aa0e980fc937c0639337256",
+    "document": "DocumentReference/sigir-201423-note",
+    "sentences": [
+      2
+    ],
+    "context": "unspecified relative",
+    "excerpt": "family history of early onset dementia"
+  },
+  {
+    "subject": "Patient/sigir-201423",
+    "resource": "Observation/n-5dc7d0ecbb887b0f293422e89bec72",
+    "document": "DocumentReference/sigir-201423-note",
+    "sentences": [
+      3
+    ],
+    "context": "preceding 24 hours",
+    "excerpt": "use his home oxygen for the past 24 hours"
+  },
+  {
+    "subject": "Patient/sigir-201423",
+    "resource": "Observation/n-b1782b3b626eb6aa4ef33f523c3493",
+    "document": "DocumentReference/sigir-201423-note",
+    "sentences": [
+      4
+    ],
+    "context": "reported",
+    "excerpt": "denies fever"
+  },
+  {
+    "subject": "Patient/sigir-201423",
+    "resource": "Observation/n-404c05a7beec7c2bfae8f9589537ae",
+    "document": "DocumentReference/sigir-201423-note",
+    "sentences": [
+      6
+    ],
+    "context": "chest x-ray",
+    "excerpt": "hyperinflation with no consolidation"
+  },
+  {
+    "subject": "Patient/sigir-201423",
+    "resource": "Observation/n-7eca08b54ae2ada3a7efd19bf854bc",
+    "document": "DocumentReference/sigir-201423-note",
+    "sentences": [
+      5
+    ],
+    "context": "examination",
+    "excerpt": "cyanotic"
+  },
+  {
+    "subject": "Patient/sigir-201424",
+    "resource": "Observation/n-074b0618e915e2d0390accc8213dc0",
+    "document": "DocumentReference/sigir-201424-note",
+    "sentences": [
+      0
+    ],
+    "context": "age at vignette presentation",
+    "excerpt": "A 33-year-old"
+  },
+  {
+    "subject": "Patient/sigir-201424",
+    "resource": "Observation/n-f7a59f8a373091223b95bb3f8e1336",
+    "document": "DocumentReference/sigir-201424-note",
+    "sentences": [
+      3
+    ],
+    "context": "as documented; units supplied only if explicit",
+    "excerpt": "BP: 60/30 mmHg"
+  },
+  {
+    "subject": "Patient/sigir-201424",
+    "resource": "Observation/n-2bdda35337036cc73da3e89d4ed780",
+    "document": "DocumentReference/sigir-201424-note",
+    "sentences": [
+      6
+    ],
+    "context": "prospective benchmark statement; written consent unverified",
+    "excerpt": "The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "subject": "Patient/sigir-201424",
+    "resource": "Observation/n-ebee0d7dd113cce30603e66dcda0e5",
+    "document": "DocumentReference/sigir-201424-note",
+    "sentences": [
+      0
+    ],
+    "context": "note abstraction",
+    "excerpt": null
+  },
+  {
+    "subject": "Patient/sigir-201424",
+    "resource": "Observation/n-87835e89afd8559c8684a64683664b",
+    "document": "DocumentReference/sigir-201424-note",
+    "sentences": [
+      0
+    ],
+    "context": "note abstraction",
+    "excerpt": null
+  },
+  {
+    "subject": "Patient/sigir-201424",
+    "resource": "Condition/n-973d06802bb3f965bc9d81631d1b87",
+    "document": "DocumentReference/sigir-201424-note",
+    "sentences": [
+      5
+    ],
+    "context": "ultrasound and CT",
+    "excerpt": "spleen rupture"
+  },
+  {
+    "subject": "Patient/sigir-201424",
+    "resource": "Observation/n-7b0f0a0bb0b58f65193733ab47eeec",
+    "document": "DocumentReference/sigir-201424-note",
+    "sentences": [
+      3
+    ],
+    "context": "presentation",
+    "excerpt": "HR: 140/min"
+  },
+  {
+    "subject": "Patient/sigir-201424",
+    "resource": "Observation/n-500b803a5ca7846baf16d7bfd78719",
+    "document": "DocumentReference/sigir-201424-note",
+    "sentences": [
+      1
+    ],
+    "context": "family report about patient; one week earlier",
+    "excerpt": "blunt trauma to the left hemi-abdomen"
+  },
+  {
+    "subject": "Patient/sigir-201424",
+    "resource": "Observation/n-c6d5996152b0be627250fc27c4aecf",
+    "document": "DocumentReference/sigir-201424-note",
+    "sentences": [
+      2
+    ],
+    "context": "reported history",
+    "excerpt": "history is negative for smoking, drugs, and alcohol"
+  },
+  {
+    "subject": "Patient/sigir-201424",
+    "resource": "Observation/n-516dd1aca5be582034bc06ddebabf5",
+    "document": "DocumentReference/sigir-201424-note",
+    "sentences": [
+      4
+    ],
+    "context": "abdominal examination",
+    "excerpt": "muscle contraction and resistance"
+  },
+  {
+    "subject": "Patient/sigir-201425",
+    "resource": "Observation/n-77d88863f2cbf3b077156215dc9670",
+    "document": "DocumentReference/sigir-201425-note",
+    "sentences": [
+      0
+    ],
+    "context": "age at vignette presentation",
+    "excerpt": "An 8-year-old"
+  },
+  {
+    "subject": "Patient/sigir-201425",
+    "resource": "Observation/n-70a674e1b8fba32c90699f56a23900",
+    "document": "DocumentReference/sigir-201425-note",
+    "sentences": [
+      4
+    ],
+    "context": "as documented; units supplied only if explicit",
+    "excerpt": "blood pressure of 155/98"
+  },
+  {
+    "subject": "Patient/sigir-201425",
+    "resource": "Observation/n-94c0f7ebe52d76c5bf0a2dc4298ae8",
+    "document": "DocumentReference/sigir-201425-note",
+    "sentences": [
+      7
+    ],
+    "context": "prospective benchmark statement; written consent unverified",
+    "excerpt": "The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "subject": "Patient/sigir-201425",
+    "resource": "Observation/n-c23cc4af0e2a844b4925702cd6a76d",
+    "document": "DocumentReference/sigir-201425-note",
+    "sentences": [
+      0
+    ],
+    "context": "note abstraction",
+    "excerpt": null
+  },
+  {
+    "subject": "Patient/sigir-201425",
+    "resource": "Observation/n-ed7641ee8361b337ae7f925f042d46",
+    "document": "DocumentReference/sigir-201425-note",
+    "sentences": [
+      0
+    ],
+    "context": "note abstraction",
+    "excerpt": null
+  },
+  {
+    "subject": "Patient/sigir-201425",
+    "resource": "Observation/n-af43d95fd9b42f3ed5b77409e3581f",
+    "document": "DocumentReference/sigir-201425-note",
+    "sentences": [
+      4
+    ],
+    "context": "presentation",
+    "excerpt": "heart rate was 52/min"
+  },
+  {
+    "subject": "Patient/sigir-201425",
+    "resource": "Observation/n-1509f6222be8c4fced4d1fb251163d",
+    "document": "DocumentReference/sigir-201425-note",
+    "sentences": [
+      5
+    ],
+    "context": "presentation",
+    "excerpt": "Glasgow Coma Scale (GCS) was 6/15"
+  },
+  {
+    "subject": "Patient/sigir-201425",
+    "resource": "Observation/n-9553d95029687ab9756b36d5f2b0bf",
+    "document": "DocumentReference/sigir-201425-note",
+    "sentences": [
+      6
+    ],
+    "context": "recommended deferral; no CT result",
+    "excerpt": "deferring the CT scan"
+  },
+  {
+    "subject": "Patient/sigir-201425",
+    "resource": "Observation/n-d8af37d36530d5f88e6e91d60c4619",
+    "document": "DocumentReference/sigir-201425-note",
+    "sentences": [
+      1
+    ],
+    "context": "at scene",
+    "excerpt": "no immediate loss of consciousness"
+  },
+  {
+    "subject": "Patient/sigir-201425",
+    "resource": "Observation/n-aa6be0346bbdcc5a259106c4810fb9",
+    "document": "DocumentReference/sigir-201425-note",
+    "sentences": [
+      2
+    ],
+    "context": "after injury",
+    "excerpt": "Half an hour after the fall the child became drowsy, pale, and vomited"
+  },
+  {
+    "subject": "Patient/sigir-201425",
+    "resource": "Observation/n-ac82dc461f358ab7ceb5216ff07678",
+    "document": "DocumentReference/sigir-201425-note",
+    "sentences": [
+      3
+    ],
+    "context": "transfer; not inpatient admission",
+    "excerpt": "transferred to the emergency department"
+  },
+  {
+    "subject": "Patient/sigir-201427",
+    "resource": "Observation/n-72fa883443ed9672ee48a28337239c",
+    "document": "DocumentReference/sigir-201427-note",
+    "sentences": [
+      0
+    ],
+    "context": "age at vignette presentation",
+    "excerpt": "A 21-year-old"
+  },
+  {
+    "subject": "Patient/sigir-201427",
+    "resource": "Observation/n-89f934373fcdf181853baad28629dd",
+    "document": "DocumentReference/sigir-201427-note",
+    "sentences": [
+      5
+    ],
+    "context": "prospective benchmark statement; written consent unverified",
+    "excerpt": "The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "subject": "Patient/sigir-201427",
+    "resource": "FamilyMemberHistory/n-4ae3b86e5c3469cc7fdd0f0d6eb806",
+    "document": "DocumentReference/sigir-201427-note",
+    "sentences": [
+      1
+    ],
+    "context": "brother",
+    "excerpt": "both were found to have hundreds of colonic adenomas"
+  },
+  {
+    "subject": "Patient/sigir-201427",
+    "resource": "FamilyMemberHistory/n-48b38a8f628d853351a7a029e3b1cb",
+    "document": "DocumentReference/sigir-201427-note",
+    "sentences": [
+      1
+    ],
+    "context": "sister",
+    "excerpt": "both were found to have hundreds of colonic adenomas"
+  },
+  {
+    "subject": "Patient/sigir-201427",
+    "resource": "Procedure/n-b080252023e9931aa48d935f2282c8",
+    "document": "DocumentReference/sigir-201427-note",
+    "sentences": [
+      3
+    ],
+    "context": "completed",
+    "excerpt": "patient undergoes sigmoidoscopy"
+  },
+  {
+    "subject": "Patient/sigir-201427",
+    "resource": "Observation/n-e4c84dc96ee453398bbb78b445973f",
+    "document": "DocumentReference/sigir-201427-note",
+    "sentences": [
+      4
+    ],
+    "context": "biopsied lesions",
+    "excerpt": "all benign adenomas"
+  },
+  {
+    "subject": "Patient/sigir-201427",
+    "resource": "Procedure/n-9c579f730f1ff77574ce945381efb4",
+    "document": "DocumentReference/sigir-201427-note",
+    "sentences": [
+      0
+    ],
+    "context": "completed",
+    "excerpt": "undergoes colonoscopy"
+  },
+  {
+    "subject": "Patient/sigir-201429",
+    "resource": "Observation/n-fb68403ca9df06524fe4145873dfc0",
+    "document": "DocumentReference/sigir-201429-note",
+    "sentences": [
+      0
+    ],
+    "context": "age at vignette presentation",
+    "excerpt": "A 51-year-old"
+  },
+  {
+    "subject": "Patient/sigir-201429",
+    "resource": "Observation/n-1cfb7bb28970a48f59eaf9c5a75011",
+    "document": "DocumentReference/sigir-201429-note",
+    "sentences": [
+      5
+    ],
+    "context": "prospective benchmark statement; written consent unverified",
+    "excerpt": "The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "subject": "Patient/sigir-201429",
+    "resource": "Observation/n-0345f583b2ee3d1df246ca2c303df1",
+    "document": "DocumentReference/sigir-201429-note",
+    "sentences": [
+      0
+    ],
+    "context": "note abstraction",
+    "excerpt": null
+  },
+  {
+    "subject": "Patient/sigir-201429",
+    "resource": "Observation/n-7f2ba00d014f5b4c2ec244eb736a0d",
+    "document": "DocumentReference/sigir-201429-note",
+    "sentences": [
+      0
+    ],
+    "context": "note abstraction",
+    "excerpt": null
+  },
+  {
+    "subject": "Patient/sigir-201429",
+    "resource": "Condition/n-13d27c7b52bff2450dffcadf45b41c",
+    "document": "DocumentReference/sigir-201429-note",
+    "sentences": [
+      1
+    ],
+    "context": "history",
+    "excerpt": "history of significant hypertension"
+  },
+  {
+    "subject": "Patient/sigir-201429",
+    "resource": "Condition/n-ef273097aa77c478f646ef55553341",
+    "document": "DocumentReference/sigir-201429-note",
+    "sentences": [
+      1
+    ],
+    "context": "history; type unspecified",
+    "excerpt": "diet-controlled diabetes mellitus"
+  },
+  {
+    "subject": "Patient/sigir-201429",
+    "resource": "Observation/n-f89655ecb1db0f6a5dc558341d62b0",
+    "document": "DocumentReference/sigir-201429-note",
+    "sentences": [
+      3
+    ],
+    "context": "within the last year",
+    "excerpt": "documented by previous LH and FSH levels to be in menopause"
+  },
+  {
+    "subject": "Patient/sigir-201429",
+    "resource": "Observation/n-2e5074d9db711f4c62c702256963df",
+    "document": "DocumentReference/sigir-201429-note",
+    "sentences": [
+      2
+    ],
+    "context": "current",
+    "excerpt": "currently smokes 1 pack of cigarettes per day"
+  },
+  {
+    "subject": "Patient/sigir-201429",
+    "resource": "Observation/n-b8629d91a5b91da0b3edf0b24bfeb6",
+    "document": "DocumentReference/sigir-201429-note",
+    "sentences": [
+      4
+    ],
+    "context": "reason for consultation",
+    "excerpt": "seeking advice on osteoporosis prevention"
+  },
+  {
+    "subject": "Patient/sigir-20143",
+    "resource": "Observation/n-e118633b2b17678f325668ae665f3c",
+    "document": "DocumentReference/sigir-20143-note",
+    "sentences": [
+      0
+    ],
+    "context": "age at vignette presentation",
+    "excerpt": "A 58-year-old"
+  },
+  {
+    "subject": "Patient/sigir-20143",
+    "resource": "Observation/n-5564fd7fc36fd5aa2eb96220b24309",
+    "document": "DocumentReference/sigir-20143-note",
+    "sentences": [
+      3
+    ],
+    "context": "prospective benchmark statement; written consent unverified",
+    "excerpt": "The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "subject": "Patient/sigir-20143",
+    "resource": "Observation/n-547a07953c734209c2bfe78a7aedd0",
+    "document": "DocumentReference/sigir-20143-note",
+    "sentences": [
+      0
+    ],
+    "context": "note abstraction",
+    "excerpt": null
+  },
+  {
+    "subject": "Patient/sigir-20143",
+    "resource": "Observation/n-e4e2e5517f6577993e966f3d22c55c",
+    "document": "DocumentReference/sigir-20143-note",
+    "sentences": [
+      0
+    ],
+    "context": "note abstraction",
+    "excerpt": null
+  },
+  {
+    "subject": "Patient/sigir-20143",
+    "resource": "Observation/n-17fbb673004066806c62e9bf5df751",
+    "document": "DocumentReference/sigir-20143-note",
+    "sentences": [
+      0
+    ],
+    "context": "chest x-ray",
+    "excerpt": "left lung mass on chest x-ray"
+  },
+  {
+    "subject": "Patient/sigir-20143",
+    "resource": "Observation/n-f13d22549ea7dc1081d9ea7d37ca0d",
+    "document": "DocumentReference/sigir-20143-note",
+    "sentences": [
+      2
+    ],
+    "context": "head CT",
+    "excerpt": "CT scan of the head shows a solitary mass in the right frontal lobe"
+  },
+  {
+    "subject": "Patient/sigir-20143",
+    "resource": "Observation/n-6bec0dde9a206d414acdd84402cdeb",
+    "document": "DocumentReference/sigir-20143-note",
+    "sentences": [
+      1
+    ],
+    "context": "limited to other symptoms",
+    "excerpt": "otherwise asymptomatic"
+  },
+  {
+    "subject": "Patient/sigir-201430",
+    "resource": "Observation/n-c15ae14d8f6349c9ccb0d5b4332246",
+    "document": "DocumentReference/sigir-201430-note",
+    "sentences": [
+      0
+    ],
+    "context": "age at vignette presentation",
+    "excerpt": "A 72-year-old"
+  },
+  {
+    "subject": "Patient/sigir-201430",
+    "resource": "Observation/n-ab5878bbdf9da5458f69f924c8876d",
+    "document": "DocumentReference/sigir-201430-note",
+    "sentences": [
+      5
+    ],
+    "context": "as documented; units supplied only if explicit",
+    "excerpt": "blood pressure is 151/91 mm Hg"
+  },
+  {
+    "subject": "Patient/sigir-201430",
+    "resource": "Observation/n-ff7d6621b25ae239fd62c2718c4cab",
+    "document": "DocumentReference/sigir-201430-note",
+    "sentences": [
+      8
+    ],
+    "context": "prospective benchmark statement; written consent unverified",
+    "excerpt": "The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "subject": "Patient/sigir-201430",
+    "resource": "Observation/n-2f76e6af0840ca45df8a7403da6961",
+    "document": "DocumentReference/sigir-201430-note",
+    "sentences": [
+      0
+    ],
+    "context": "note abstraction",
+    "excerpt": null
+  },
+  {
+    "subject": "Patient/sigir-201430",
+    "resource": "Observation/n-86d0ae3904d3cb2db222d007c902c3",
+    "document": "DocumentReference/sigir-201430-note",
+    "sentences": [
+      0
+    ],
+    "context": "note abstraction",
+    "excerpt": null
+  },
+  {
+    "subject": "Patient/sigir-201430",
+    "resource": "Condition/n-8f61668d1a51a53f5f15a4b7191ca8",
+    "document": "DocumentReference/sigir-201430-note",
+    "sentences": [
+      2
+    ],
+    "context": "history; two years earlier",
+    "excerpt": "uncomplicated myocardial infarction 2 years earlier"
+  },
+  {
+    "subject": "Patient/sigir-201430",
+    "resource": "Condition/n-b3ffca02b1bd0dc5cbe351f8ac82a8",
+    "document": "DocumentReference/sigir-201430-note",
+    "sentences": [
+      2
+    ],
+    "context": "six months ago",
+    "excerpt": "transient ischemic attack 6 months ago"
+  },
+  {
+    "subject": "Patient/sigir-201430",
+    "resource": "MedicationStatement/n-932238c6212863d852b6c723b1eca2",
+    "document": "DocumentReference/sigir-201430-note",
+    "sentences": [
+      3
+    ],
+    "context": "historical-status-unknown",
+    "excerpt": "previous control with diltiazem"
+  },
+  {
+    "subject": "Patient/sigir-201430",
+    "resource": "MedicationStatement/n-6b126795e90f5fcf0e94229fc6eefe",
+    "document": "DocumentReference/sigir-201430-note",
+    "sentences": [
+      3
+    ],
+    "context": "historical-status-unknown",
+    "excerpt": "propranolol"
+  },
+  {
+    "subject": "Patient/sigir-201430",
+    "resource": "MedicationStatement/n-6fec6802855618230ff2594df5d623",
+    "document": "DocumentReference/sigir-201430-note",
+    "sentences": [
+      4
+    ],
+    "context": "active",
+    "excerpt": "isosorbide dinitrate"
+  },
+  {
+    "subject": "Patient/sigir-201430",
+    "resource": "MedicationStatement/n-27cde3b1a64931d4cb747095b27cd8",
+    "document": "DocumentReference/sigir-201430-note",
+    "sentences": [
+      4
+    ],
+    "context": "active",
+    "excerpt": "hydrochlorothiazide"
+  },
+  {
+    "subject": "Patient/sigir-201430",
+    "resource": "MedicationStatement/n-b470bb7df255dde266b1779868d12d",
+    "document": "DocumentReference/sigir-201430-note",
+    "sentences": [
+      4
+    ],
+    "context": "active",
+    "excerpt": "aspirin"
+  },
+  {
+    "subject": "Patient/sigir-201430",
+    "resource": "Observation/n-fd166feb17c324d211f5f28362f457",
+    "document": "DocumentReference/sigir-201430-note",
+    "sentences": [
+      5
+    ],
+    "context": "presentation",
+    "excerpt": "pulse is 67/min"
+  },
+  {
+    "subject": "Patient/sigir-201430",
+    "resource": "Observation/n-cf70ea76856cba29d27b9b63b71197",
+    "document": "DocumentReference/sigir-201430-note",
+    "sentences": [
+      6
+    ],
+    "context": "examination",
+    "excerpt": "right carotid bruit"
+  },
+  {
+    "subject": "Patient/sigir-201430",
+    "resource": "Observation/n-37070cd8172792ef92df4a1783b04d",
+    "document": "DocumentReference/sigir-201430-note",
+    "sentences": [
+      1
+    ],
+    "context": "history",
+    "excerpt": "symptoms have gradually increased over the past 3 months"
+  },
+  {
+    "subject": "Patient/sigir-201430",
+    "resource": "Observation/n-8c6f367ae50d0c9eb226783f86cf76",
+    "document": "DocumentReference/sigir-201430-note",
+    "sentences": [
+      7
+    ],
+    "context": "examination",
+    "excerpt": "diminished pulses at the dorsalis pedis"
+  },
+  {
+    "subject": "Patient/sigir-20144",
+    "resource": "Observation/n-5558d0a9eab18afde91c89435a50a3",
+    "document": "DocumentReference/sigir-20144-note",
+    "sentences": [
+      0
+    ],
+    "context": "age at vignette presentation",
+    "excerpt": "A 2-year-old"
+  },
+  {
+    "subject": "Patient/sigir-20144",
+    "resource": "Observation/n-4862982dbfd7c49d622c7beb11756b",
+    "document": "DocumentReference/sigir-20144-note",
+    "sentences": [
+      5
+    ],
+    "context": "prospective benchmark statement; written consent unverified",
+    "excerpt": "The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "subject": "Patient/sigir-20144",
+    "resource": "Observation/n-d9e7b6fbe98cd3229a4f628ee65098",
+    "document": "DocumentReference/sigir-20144-note",
+    "sentences": [
+      0
+    ],
+    "context": "note abstraction",
+    "excerpt": null
+  },
+  {
+    "subject": "Patient/sigir-20144",
+    "resource": "Observation/n-f1c7e4a7f0c0bc9a69036ff8ce54ee",
+    "document": "DocumentReference/sigir-20144-note",
+    "sentences": [
+      0
+    ],
+    "context": "note abstraction",
+    "excerpt": null
+  },
+  {
+    "subject": "Patient/sigir-20144",
+    "resource": "Observation/n-2cea1d76717c331bbf3833dd039163",
+    "document": "DocumentReference/sigir-20144-note",
+    "sentences": [
+      3
+    ],
+    "context": "laboratory specimen unspecified",
+    "excerpt": "albumin 2.1 g/dL"
+  },
+  {
+    "subject": "Patient/sigir-20144",
+    "resource": "Observation/n-1f8294ff1270d0ba26339eac5d3ec3",
+    "document": "DocumentReference/sigir-20144-note",
+    "sentences": [
+      3
+    ],
+    "context": "laboratory",
+    "excerpt": "erythrocyte sedimentation rate 60 mm/h"
+  },
+  {
+    "subject": "Patient/sigir-20144",
+    "resource": "Observation/n-93756ce85807c16cd2292ebbb0491e",
+    "document": "DocumentReference/sigir-20144-note",
+    "sentences": [
+      1
+    ],
+    "context": "examination",
+    "excerpt": "cervical lymphadenopathy"
+  },
+  {
+    "subject": "Patient/sigir-20144",
+    "resource": "Observation/n-fb43edf286d6525b6dec3377db1c98",
+    "document": "DocumentReference/sigir-20144-note",
+    "sentences": [
+      2
+    ],
+    "context": "examination",
+    "excerpt": "enlarged liver"
+  },
+  {
+    "subject": "Patient/sigir-20144",
+    "resource": "Observation/n-dbdb7c93c47310b17e5e5921cacfe1",
+    "document": "DocumentReference/sigir-20144-note",
+    "sentences": [
+      4
+    ],
+    "context": "echocardiogram",
+    "excerpt": "moderate dilation of the coronary arteries"
+  },
+  {
+    "subject": "Patient/sigir-20145",
+    "resource": "Observation/n-09b4fa2f6f3356d5f9089847aac14e",
+    "document": "DocumentReference/sigir-20145-note",
+    "sentences": [
+      0
+    ],
+    "context": "age at vignette presentation",
+    "excerpt": "A 56-year-old"
+  },
+  {
+    "subject": "Patient/sigir-20145",
+    "resource": "Observation/n-5a909ac1e608d3dae3f825e8f3757e",
+    "document": "DocumentReference/sigir-20145-note",
+    "sentences": [
+      6
+    ],
+    "context": "prospective benchmark statement; written consent unverified",
+    "excerpt": "The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "subject": "Patient/sigir-20145",
+    "resource": "Observation/n-008035802773846cff606db48e6937",
+    "document": "DocumentReference/sigir-20145-note",
+    "sentences": [
+      0
+    ],
+    "context": "note abstraction",
+    "excerpt": null
+  },
+  {
+    "subject": "Patient/sigir-20145",
+    "resource": "Observation/n-298b1d4003c0d10f4dce93b22b6107",
+    "document": "DocumentReference/sigir-20145-note",
+    "sentences": [
+      0
+    ],
+    "context": "note abstraction",
+    "excerpt": null
+  },
+  {
+    "subject": "Patient/sigir-20145",
+    "resource": "Procedure/n-0b5692b51a083e5720b09302f6b603",
+    "document": "DocumentReference/sigir-20145-note",
+    "sentences": [
+      0
+    ],
+    "context": "20 days before presentation",
+    "excerpt": "20th day post-left mastectomy"
+  },
+  {
+    "subject": "Patient/sigir-20145",
+    "resource": "Observation/n-14a32e3a7688217c594d3abb75cefa",
+    "document": "DocumentReference/sigir-20145-note",
+    "sentences": [
+      5
+    ],
+    "context": "laboratory",
+    "excerpt": "elevated D-dimer"
+  },
+  {
+    "subject": "Patient/sigir-20145",
+    "resource": "Observation/n-ae750fff9e05f941a8fa33ce335ad1",
+    "document": "DocumentReference/sigir-20145-note",
+    "sentences": [
+      1
+    ],
+    "context": "patient report",
+    "excerpt": "remained in bed for the last two weeks"
+  },
+  {
+    "subject": "Patient/sigir-20145",
+    "resource": "Observation/n-6a2eb65b052eab77e2e0298b386321",
+    "document": "DocumentReference/sigir-20145-note",
+    "sentences": [
+      3
+    ],
+    "context": "incision examination",
+    "excerpt": "surgical incision shows no bleeding"
+  },
+  {
+    "subject": "Patient/sigir-20145",
+    "resource": "Observation/n-a46bf177591f182893b953c025fc28",
+    "document": "DocumentReference/sigir-20145-note",
+    "sentences": [
+      2
+    ],
+    "context": "examination",
+    "excerpt": "tenderness on the left upper thoracic wall and right calf"
+  },
+  {
+    "subject": "Patient/sigir-20145",
+    "resource": "Observation/n-5f71a91c0ff8c9516e49bc65297623",
+    "document": "DocumentReference/sigir-20145-note",
+    "sentences": [
+      4
+    ],
+    "context": "examination",
+    "excerpt": "bilateral decreased breath sounds, especially at the right base"
+  },
+  {
+    "subject": "Patient/sigir-20146",
+    "resource": "Observation/n-5b0d7bfa3cba095ea096f7ddd6ad4f",
+    "document": "DocumentReference/sigir-20146-note",
+    "sentences": [
+      0
+    ],
+    "context": "age at vignette presentation",
+    "excerpt": "64-year-old"
+  },
+  {
+    "subject": "Patient/sigir-20146",
+    "resource": "Observation/n-a210f83bbb0160b7e62fad58da52c2",
+    "document": "DocumentReference/sigir-20146-note",
+    "sentences": [
+      4
+    ],
+    "context": "prospective benchmark statement; written consent unverified",
+    "excerpt": "The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "subject": "Patient/sigir-20146",
+    "resource": "Condition/n-7dfaed83e39b20cf1370c812287307",
+    "document": "DocumentReference/sigir-20146-note",
+    "sentences": [
+      0
+    ],
+    "context": "type unspecified",
+    "excerpt": "diagnosis of diabetes mellitus"
+  },
+  {
+    "subject": "Patient/sigir-20146",
+    "resource": "Observation/n-345ba28271abbe7128b9402c36359d",
+    "document": "DocumentReference/sigir-20146-note",
+    "sentences": [
+      0
+    ],
+    "context": "qualitative only",
+    "excerpt": "persistently elevated HbA1c"
+  },
+  {
+    "subject": "Patient/sigir-20146",
+    "resource": "Observation/n-c94885f2e916d5f48170960da27760",
+    "document": "DocumentReference/sigir-20146-note",
+    "sentences": [
+      2
+    ],
+    "context": "patient report",
+    "excerpt": "painful skin lesion on the left lower leg"
+  },
+  {
+    "subject": "Patient/sigir-20146",
+    "resource": "Observation/n-9f2854187a67d70b2a90eb501a07c1",
+    "document": "DocumentReference/sigir-20146-note",
+    "sentences": [
+      1
+    ],
+    "context": "documented history",
+    "excerpt": "not compliant with her diabetes medication"
+  },
+  {
+    "subject": "Patient/sigir-20146",
+    "resource": "Observation/n-23b745128f16b61703b1af9a8aab2d",
+    "document": "DocumentReference/sigir-20146-note",
+    "sentences": [
+      3
+    ],
+    "context": "course",
+    "excerpt": "lesion has increased in size and is now oozing"
+  },
+  {
+    "subject": "Patient/sigir-20147",
+    "resource": "Observation/n-c7b30fc7d8a4343295563b01de6e11",
+    "document": "DocumentReference/sigir-20147-note",
+    "sentences": [
+      0
+    ],
+    "context": "age at vignette presentation",
+    "excerpt": "A 26-year-old"
+  },
+  {
+    "subject": "Patient/sigir-20147",
+    "resource": "Observation/n-478bba387e5605c207ae63419a2cc9",
+    "document": "DocumentReference/sigir-20147-note",
+    "sentences": [
+      6
+    ],
+    "context": "prospective benchmark statement; written consent unverified",
+    "excerpt": "The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "subject": "Patient/sigir-20147",
+    "resource": "Observation/n-bbe3595e9370978bb0915c6c103bc6",
+    "document": "DocumentReference/sigir-20147-note",
+    "sentences": [
+      0
+    ],
+    "context": "note abstraction",
+    "excerpt": null
+  },
+  {
+    "subject": "Patient/sigir-20147",
+    "resource": "Observation/n-7ede58bdfd6af3c198ebd1e392a809",
+    "document": "DocumentReference/sigir-20147-note",
+    "sentences": [
+      0
+    ],
+    "context": "note abstraction",
+    "excerpt": null
+  },
+  {
+    "subject": "Patient/sigir-20147",
+    "resource": "Condition/n-a8fd17a24651fb87bfafbbdfa253f0",
+    "document": "DocumentReference/sigir-20147-note",
+    "sentences": [
+      0
+    ],
+    "context": "history",
+    "excerpt": "history of bipolar disorder"
+  },
+  {
+    "subject": "Patient/sigir-20147",
+    "resource": "MedicationStatement/n-931c2ac755ce541ebf2407de9b826f",
+    "document": "DocumentReference/sigir-20147-note",
+    "sentences": [
+      5
+    ],
+    "context": "active",
+    "excerpt": "lithium carbonate"
+  },
+  {
+    "subject": "Patient/sigir-20147",
+    "resource": "MedicationStatement/n-c50f8b8dcaa40adfdd357317cca30d",
+    "document": "DocumentReference/sigir-20147-note",
+    "sentences": [
+      5
+    ],
+    "context": "active",
+    "excerpt": "zolpidem"
+  },
+  {
+    "subject": "Patient/sigir-20147",
+    "resource": "Observation/n-f92326a75a70bb439ffc3bc16cce76",
+    "document": "DocumentReference/sigir-20147-note",
+    "sentences": [
+      2
+    ],
+    "context": "time of ideation unspecified",
+    "excerpt": "has had thoughts of suicide"
+  },
+  {
+    "subject": "Patient/sigir-20147",
+    "resource": "Observation/n-cf515d6df78a652b8bfedd226a31a9",
+    "document": "DocumentReference/sigir-20147-note",
+    "sentences": [
+      1
+    ],
+    "context": "patient-report",
+    "excerpt": "recently had difficulty sleeping"
+  },
+  {
+    "subject": "Patient/sigir-20147",
+    "resource": "Observation/n-6183142810508824195c7b06682f6b",
+    "document": "DocumentReference/sigir-20147-note",
+    "sentences": [
+      3
+    ],
+    "context": "patient-report",
+    "excerpt": "unable to sit still for extended periods of time"
+  },
+  {
+    "subject": "Patient/sigir-20147",
+    "resource": "Observation/n-a287903d4e206c547f5e47d03fca1e",
+    "document": "DocumentReference/sigir-20147-note",
+    "sentences": [
+      4
+    ],
+    "context": "family account of patient",
+    "excerpt": "increasingly irritable"
+  },
+  {
+    "subject": "Patient/sigir-20148",
+    "resource": "Observation/n-2128ed7ca38543e644b4b5c879347a",
+    "document": "DocumentReference/sigir-20148-note",
+    "sentences": [
+      0
+    ],
+    "context": "age at vignette presentation",
+    "excerpt": "A 62-year-old"
+  },
+  {
+    "subject": "Patient/sigir-20148",
+    "resource": "Observation/n-3cce7bbd7248f17c20e6c365cc9049",
+    "document": "DocumentReference/sigir-20148-note",
+    "sentences": [
+      5
+    ],
+    "context": "prospective benchmark statement; written consent unverified",
+    "excerpt": "The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "subject": "Patient/sigir-20148",
+    "resource": "Observation/n-52dde2af38c07b06f7565ef8aebdfd",
+    "document": "DocumentReference/sigir-20148-note",
+    "sentences": [
+      0
+    ],
+    "context": "note abstraction",
+    "excerpt": null
+  },
+  {
+    "subject": "Patient/sigir-20148",
+    "resource": "Observation/n-4a3a260bf48041d63b9d6b0a5fceb8",
+    "document": "DocumentReference/sigir-20148-note",
+    "sentences": [
+      0
+    ],
+    "context": "note abstraction",
+    "excerpt": null
+  },
+  {
+    "subject": "Patient/sigir-20148",
+    "resource": "Observation/n-2ccbbeabac8b579341e4d72bd07db5",
+    "document": "DocumentReference/sigir-20148-note",
+    "sentences": [
+      1
+    ],
+    "context": "neurologic examination",
+    "excerpt": "severe cognitive deficits"
+  },
+  {
+    "subject": "Patient/sigir-20148",
+    "resource": "Procedure/n-62e48ce8cf08269b7ccafb0beaf7bf",
+    "document": "DocumentReference/sigir-20148-note",
+    "sentences": [
+      4
+    ],
+    "context": "completed",
+    "excerpt": "A cortical biopsy shows"
+  },
+  {
+    "subject": "Patient/sigir-20148",
+    "resource": "Observation/n-2800d117cf1f5c08b42d1fa0e9222f",
+    "document": "DocumentReference/sigir-20148-note",
+    "sentences": [
+      2
+    ],
+    "context": "EEG",
+    "excerpt": "generalized periodic sharp waves"
+  },
+  {
+    "subject": "Patient/sigir-20148",
+    "resource": "Observation/n-44e91f18c0407034ca93c71bd8af3a",
+    "document": "DocumentReference/sigir-20148-note",
+    "sentences": [
+      3
+    ],
+    "context": "neuroimaging",
+    "excerpt": "moderately advanced cerebral atrophy"
+  },
+  {
+    "subject": "Patient/sigir-20149",
+    "resource": "Observation/n-f98e9b9e9a1ac2e384fa4278b141ae",
+    "document": "DocumentReference/sigir-20149-note",
+    "sentences": [
+      0
+    ],
+    "context": "age at vignette presentation",
+    "excerpt": "A 43-year-old"
+  },
+  {
+    "subject": "Patient/sigir-20149",
+    "resource": "Observation/n-cfa99975698d90576aca6883014a72",
+    "document": "DocumentReference/sigir-20149-note",
+    "sentences": [
+      5
+    ],
+    "context": "prospective benchmark statement; written consent unverified",
+    "excerpt": "The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "subject": "Patient/sigir-20149",
+    "resource": "Observation/n-84d898fbcf974cd6317dbd546ea246",
+    "document": "DocumentReference/sigir-20149-note",
+    "sentences": [
+      0
+    ],
+    "context": "note abstraction",
+    "excerpt": null
+  },
+  {
+    "subject": "Patient/sigir-20149",
+    "resource": "Observation/n-67cf449a81c57276aeec5f51a2f617",
+    "document": "DocumentReference/sigir-20149-note",
+    "sentences": [
+      0
+    ],
+    "context": "note abstraction",
+    "excerpt": null
+  },
+  {
+    "subject": "Patient/sigir-20149",
+    "resource": "Observation/n-9a690aaeb14511e0c0bb1551196f72",
+    "document": "DocumentReference/sigir-20149-note",
+    "sentences": [
+      0,
+      1
+    ],
+    "context": "note abstraction",
+    "excerpt": null
+  },
+  {
+    "subject": "Patient/sigir-20149",
+    "resource": "Observation/n-73a3d5749a2f175f52c2732b73865c",
+    "document": "DocumentReference/sigir-20149-note",
+    "sentences": [
+      3
+    ],
+    "context": "approximate",
+    "excerpt": "about 4 mm in diameter"
+  },
+  {
+    "subject": "Patient/sigir-20149",
+    "resource": "Observation/n-27bfcedee2bde773ad11beb4084ad8",
+    "document": "DocumentReference/sigir-20149-note",
+    "sentences": [
+      4
+    ],
+    "context": "examination",
+    "excerpt": "flesh colored to slightly hyperpigmented"
+  },
+  {
+    "subject": "Patient/sigir-20149",
+    "resource": "Observation/n-009c485af755fa7e1fc0ce05bca76b",
+    "document": "DocumentReference/sigir-20149-note",
+    "sentences": [
+      2
+    ],
+    "context": "examination",
+    "excerpt": "small soft, and pedunculated"
+  },
+  {
+    "subject": "Patient/sigir-20151",
+    "resource": "Observation/n-b404f8d9e89a489d45834e4ee570dd",
+    "document": "DocumentReference/sigir-20151-note",
+    "sentences": [
+      0
+    ],
+    "context": "age at vignette presentation",
+    "excerpt": "A 44 yo"
+  },
+  {
+    "subject": "Patient/sigir-20151",
+    "resource": "Observation/n-edf53baa83a0860cb7b5fff3ef5751",
+    "document": "DocumentReference/sigir-20151-note",
+    "sentences": [
+      1
+    ],
+    "context": "as documented; units supplied only if explicit",
+    "excerpt": "blood pressure is 70/40 mmHg"
+  },
+  {
+    "subject": "Patient/sigir-20151",
+    "resource": "Observation/n-d3edc45183bcd1720cb3f7fdc6ad1a",
+    "document": "DocumentReference/sigir-20151-note",
+    "sentences": [
+      4
+    ],
+    "context": "prospective benchmark statement; written consent unverified",
+    "excerpt": "The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "subject": "Patient/sigir-20151",
+    "resource": "Observation/n-cd4d6a895196584fe1d4e2258fe2bc",
+    "document": "DocumentReference/sigir-20151-note",
+    "sentences": [
+      0
+    ],
+    "context": "note abstraction",
+    "excerpt": null
+  },
+  {
+    "subject": "Patient/sigir-20151",
+    "resource": "Observation/n-8eb5f5ef82eb9c9835e144456301e4",
+    "document": "DocumentReference/sigir-20151-note",
+    "sentences": [
+      0
+    ],
+    "context": "note abstraction",
+    "excerpt": null
+  },
+  {
+    "subject": "Patient/sigir-20151",
+    "resource": "Observation/n-914d95a79be42abfdd734a1e1ce48d",
+    "document": "DocumentReference/sigir-20151-note",
+    "sentences": [
+      3
+    ],
+    "context": "note abstraction",
+    "excerpt": null
+  },
+  {
+    "subject": "Patient/sigir-20151",
+    "resource": "Observation/n-a635cf4ab9cb06c1f801fc9d70b862",
+    "document": "DocumentReference/sigir-20151-note",
+    "sentences": [
+      3
+    ],
+    "context": "note abstraction",
+    "excerpt": null
+  },
+  {
+    "subject": "Patient/sigir-20151",
+    "resource": "Observation/n-e62944526a351e222d41b5129ea36c",
+    "document": "DocumentReference/sigir-20151-note",
+    "sentences": [
+      1
+    ],
+    "context": "presentation",
+    "excerpt": "heart rate is 135 bpm"
+  },
+  {
+    "subject": "Patient/sigir-20151",
+    "resource": "Procedure/n-4ba3e7a8c740c58896d99da0879c9b",
+    "document": "DocumentReference/sigir-20151-note",
+    "sentences": [
+      3
+    ],
+    "context": "completed",
+    "excerpt": "packed red blood cell transfusion"
+  },
+  {
+    "subject": "Patient/sigir-20151",
+    "resource": "Observation/n-428e93d5551aa2e694b0fe2f7b829b",
+    "document": "DocumentReference/sigir-20151-note",
+    "sentences": [
+      2
+    ],
+    "context": "examination",
+    "excerpt": "decreased mental status"
+  },
+  {
+    "subject": "Patient/sigir-201510",
+    "resource": "Observation/n-612c0b66eb04d08fdd4cd9658e9c34",
+    "document": "DocumentReference/sigir-201510-note",
+    "sentences": [
+      0
+    ],
+    "context": "age at vignette presentation",
+    "excerpt": "A 38 year old"
+  },
+  {
+    "subject": "Patient/sigir-201510",
+    "resource": "Observation/n-6da2a50eb6704067c719d5cae8b0a6",
+    "document": "DocumentReference/sigir-201510-note",
+    "sentences": [
+      2
+    ],
+    "context": "prospective benchmark statement; written consent unverified",
+    "excerpt": "The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "subject": "Patient/sigir-201510",
+    "resource": "Observation/n-5f1266fb2921e6e8b0f94eb798ff07",
+    "document": "DocumentReference/sigir-201510-note",
+    "sentences": [
+      0
+    ],
+    "context": "note abstraction",
+    "excerpt": null
+  },
+  {
+    "subject": "Patient/sigir-201510",
+    "resource": "Observation/n-4bf7ccc607c526bc8fd067256b13f0",
+    "document": "DocumentReference/sigir-201510-note",
+    "sentences": [
+      0
+    ],
+    "context": "note abstraction",
+    "excerpt": null
+  },
+  {
+    "subject": "Patient/sigir-201510",
+    "resource": "Condition/n-a4b4431b4ebddf5987f7f8bc4a46c5",
+    "document": "DocumentReference/sigir-201510-note",
+    "sentences": [
+      1
+    ],
+    "context": "history at age 26",
+    "excerpt": "an ectopic pregnancy at age 26"
+  },
+  {
+    "subject": "Patient/sigir-201510",
+    "resource": "Observation/n-5677cfcfee74b965e1692334a76db6",
+    "document": "DocumentReference/sigir-201510-note",
+    "sentences": [
+      0
+    ],
+    "context": "reported",
+    "excerpt": "heavy, irregular periods"
+  },
+  {
+    "subject": "Patient/sigir-201511",
+    "resource": "Observation/n-a7ec4439c9a158c927000cbe33dc7f",
+    "document": "DocumentReference/sigir-201511-note",
+    "sentences": [
+      0
+    ],
+    "context": "age at vignette presentation",
+    "excerpt": "A 56-year old"
+  },
+  {
+    "subject": "Patient/sigir-201511",
+    "resource": "Observation/n-a5b44092faba28552f86b5520543ff",
+    "document": "DocumentReference/sigir-201511-note",
+    "sentences": [
+      4
+    ],
+    "context": "prospective benchmark statement; written consent unverified",
+    "excerpt": "The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "subject": "Patient/sigir-201511",
+    "resource": "Observation/n-9cb2be31656fc84252ff7fe7d62c44",
+    "document": "DocumentReference/sigir-201511-note",
+    "sentences": [
+      0
+    ],
+    "context": "note abstraction",
+    "excerpt": null
+  },
+  {
+    "subject": "Patient/sigir-201511",
+    "resource": "Observation/n-55429f2f2aa6e0b3b659c7f7e8b1d0",
+    "document": "DocumentReference/sigir-201511-note",
+    "sentences": [
+      0
+    ],
+    "context": "note abstraction",
+    "excerpt": null
+  },
+  {
+    "subject": "Patient/sigir-201511",
+    "resource": "Observation/n-10f8879c7427a3a8787f1377728f46",
+    "document": "DocumentReference/sigir-201511-note",
+    "sentences": [
+      2
+    ],
+    "context": "examination",
+    "excerpt": "hyporeflexia with delayed relaxation of knee and ankle reflexes"
+  },
+  {
+    "subject": "Patient/sigir-201511",
+    "resource": "Observation/n-8f2bce6155d6cb49252fb9cae661aa",
+    "document": "DocumentReference/sigir-201511-note",
+    "sentences": [
+      3
+    ],
+    "context": "examination",
+    "excerpt": "talks slowly"
+  },
+  {
+    "subject": "Patient/sigir-201511",
+    "resource": "Observation/n-719821d823192b3a33c0df7c8f6aa3",
+    "document": "DocumentReference/sigir-201511-note",
+    "sentences": [
+      1
+    ],
+    "context": "patient-report",
+    "excerpt": "decreased appetite"
+  },
+  {
+    "subject": "Patient/sigir-201512",
+    "resource": "Observation/n-449204327de835e163afb28b67687a",
+    "document": "DocumentReference/sigir-201512-note",
+    "sentences": [
+      0
+    ],
+    "context": "age at vignette presentation",
+    "excerpt": "A 44-year-old"
+  },
+  {
+    "subject": "Patient/sigir-201512",
+    "resource": "Observation/n-de98c50773ea71999b2db77d47276d",
+    "document": "DocumentReference/sigir-201512-note",
+    "sentences": [
+      4
+    ],
+    "context": "prospective benchmark statement; written consent unverified",
+    "excerpt": "The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "subject": "Patient/sigir-201512",
+    "resource": "Observation/n-70667bfa23f420be6d73c1bafa3325",
+    "document": "DocumentReference/sigir-201512-note",
+    "sentences": [
+      0
+    ],
+    "context": "note abstraction",
+    "excerpt": null
+  },
+  {
+    "subject": "Patient/sigir-201512",
+    "resource": "Observation/n-7e4a93c580a9f51d0bd33fa6a5d592",
+    "document": "DocumentReference/sigir-201512-note",
+    "sentences": [
+      0
+    ],
+    "context": "note abstraction",
+    "excerpt": null
+  },
+  {
+    "subject": "Patient/sigir-201512",
+    "resource": "Condition/n-c29ad28c8fc218eecf6ee664acd7f5",
+    "document": "DocumentReference/sigir-201512-note",
+    "sentences": [
+      0
+    ],
+    "context": "recent injury",
+    "excerpt": "sustained a skull fracture"
+  },
+  {
+    "subject": "Patient/sigir-201512",
+    "resource": "Observation/n-656b34fbda7b654af8554dbc5881f0",
+    "document": "DocumentReference/sigir-201512-note",
+    "sentences": [
+      3
+    ],
+    "context": "examination",
+    "excerpt": "Nuchal rigidity"
+  },
+  {
+    "subject": "Patient/sigir-201512",
+    "resource": "Observation/n-f5b5f3e3cfdd9de709c18b3d954a0a",
+    "document": "DocumentReference/sigir-201512-note",
+    "sentences": [
+      1
+    ],
+    "context": "reported; composition unknown",
+    "excerpt": "clear fluid dripping from his nose"
+  },
+  {
+    "subject": "Patient/sigir-201512",
+    "resource": "Observation/n-b5196fe2c50c4c7cc65dd60dc77a8d",
+    "document": "DocumentReference/sigir-201512-note",
+    "sentences": [
+      2
+    ],
+    "context": "following day",
+    "excerpt": "severe headache and fever"
+  },
+  {
+    "subject": "Patient/sigir-201513",
+    "resource": "Observation/n-e3deb1c59ffaf11881d31a3c12ad86",
+    "document": "DocumentReference/sigir-201513-note",
+    "sentences": [
+      0
+    ],
+    "context": "age at vignette presentation",
+    "excerpt": "A 5-year-old"
+  },
+  {
+    "subject": "Patient/sigir-201513",
+    "resource": "Observation/n-d4c8e09947ad7217dc9b7c6044a375",
+    "document": "DocumentReference/sigir-201513-note",
+    "sentences": [
+      4
+    ],
+    "context": "prospective benchmark statement; written consent unverified",
+    "excerpt": "The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "subject": "Patient/sigir-201513",
+    "resource": "Observation/n-a0023c54a549bad2a606a419f49b58",
+    "document": "DocumentReference/sigir-201513-note",
+    "sentences": [
+      0
+    ],
+    "context": "note abstraction",
+    "excerpt": null
+  },
+  {
+    "subject": "Patient/sigir-201513",
+    "resource": "Observation/n-d95bceca443e8da40083676fff4223",
+    "document": "DocumentReference/sigir-201513-note",
+    "sentences": [
+      0
+    ],
+    "context": "note abstraction",
+    "excerpt": null
+  },
+  {
+    "subject": "Patient/sigir-201513",
+    "resource": "Observation/n-b57198a6e7aeaaa6fcb43a2414fa75",
+    "document": "DocumentReference/sigir-201513-note",
+    "sentences": [
+      2
+    ],
+    "context": "examination",
+    "excerpt": "He is drooling"
+  },
+  {
+    "subject": "Patient/sigir-201513",
+    "resource": "Observation/n-772528cba70c918c800a27e35cf32b",
+    "document": "DocumentReference/sigir-201513-note",
+    "sentences": [
+      3
+    ],
+    "context": "parent report",
+    "excerpt": "parents deny the possibility of foreign body ingestion"
+  },
+  {
+    "subject": "Patient/sigir-201513",
+    "resource": "Observation/n-f937e52e4a131713db41548c67bb41",
+    "document": "DocumentReference/sigir-201513-note",
+    "sentences": [
+      1
+    ],
+    "context": "examination",
+    "excerpt": "toxic-appearing"
+  },
+  {
+    "subject": "Patient/sigir-201514",
+    "resource": "Observation/n-bf6688714c734cd3005ccba90de493",
+    "document": "DocumentReference/sigir-201514-note",
+    "sentences": [
+      0
+    ],
+    "context": "age at vignette presentation",
+    "excerpt": "A 27-year-old"
+  },
+  {
+    "subject": "Patient/sigir-201514",
+    "resource": "Observation/n-a1b77b354d906eaf1da2d8da86f93a",
+    "document": "DocumentReference/sigir-201514-note",
+    "sentences": [
+      9
+    ],
+    "context": "prospective benchmark statement; written consent unverified",
+    "excerpt": "The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "subject": "Patient/sigir-201514",
+    "resource": "Observation/n-f12e1a8f7e6a88ffb058ca459c5c0a",
+    "document": "DocumentReference/sigir-201514-note",
+    "sentences": [
+      0
+    ],
+    "context": "note abstraction",
+    "excerpt": null
+  },
+  {
+    "subject": "Patient/sigir-201514",
+    "resource": "Observation/n-813feb0245007ed04dbd4f117e7a2f",
+    "document": "DocumentReference/sigir-201514-note",
+    "sentences": [
+      0
+    ],
+    "context": "note abstraction",
+    "excerpt": null
+  },
+  {
+    "subject": "Patient/sigir-201514",
+    "resource": "Observation/n-eae9fff96fe823ef7c7421d0e659ef",
+    "document": "DocumentReference/sigir-201514-note",
+    "sentences": [
+      0
+    ],
+    "context": "note abstraction",
+    "excerpt": null
+  },
+  {
+    "subject": "Patient/sigir-201514",
+    "resource": "Observation/n-9feeded5d0d30aa6d4761ac0eeef6d",
+    "document": "DocumentReference/sigir-201514-note",
+    "sentences": [
+      0
+    ],
+    "context": "initial",
+    "excerpt": "11 weeks gestation"
+  },
+  {
+    "subject": "Patient/sigir-201514",
+    "resource": "Observation/n-229eba27cf3facae93238c44beabc6",
+    "document": "DocumentReference/sigir-201514-note",
+    "sentences": [
+      0
+    ],
+    "context": "initial",
+    "excerpt": "hemoglobin (Hb) of 9.0 g/dL"
+  },
+  {
+    "subject": "Patient/sigir-201514",
+    "resource": "Observation/n-2eaaf09e274e91da9eeaf7eab64908",
+    "document": "DocumentReference/sigir-201514-note",
+    "sentences": [
+      4
+    ],
+    "context": "repeat CBC two weeks later",
+    "excerpt": "Hb is 8.9 g/dL"
+  },
+  {
+    "subject": "Patient/sigir-201514",
+    "resource": "MedicationStatement/n-aa666ca0026d1fd9d6ceed704fb7b6",
+    "document": "DocumentReference/sigir-201514-note",
+    "sentences": [
+      2
+    ],
+    "context": "active",
+    "excerpt": "already receives iron supplementation"
+  },
+  {
+    "subject": "Patient/sigir-201514",
+    "resource": "Condition/n-6299ae57ae4cb68b44e516f1cc94e8",
+    "document": "DocumentReference/sigir-201514-note",
+    "sentences": [
+      1
+    ],
+    "context": "documented",
+    "excerpt": "mild iron deficiency"
+  },
+  {
+    "subject": "Patient/sigir-201514",
+    "resource": "Observation/n-dcf1154591e59a4ba8e922390d1bd5",
+    "document": "DocumentReference/sigir-201514-note",
+    "sentences": [
+      0
+    ],
+    "context": "initial",
+    "excerpt": "mean corpuscular volume 109 fL"
+  },
+  {
+    "subject": "Patient/sigir-201514",
+    "resource": "Procedure/n-acd9b793fb913cd7564e913a101c6a",
+    "document": "DocumentReference/sigir-201514-note",
+    "sentences": [
+      3
+    ],
+    "context": "two weeks after initial CBC",
+    "excerpt": "repeats the complete blood cell count 2 weeks later"
+  },
+  {
+    "subject": "Patient/sigir-201514",
+    "resource": "Observation/n-e8ce44fb82769a80e0e8696976a3ec",
+    "document": "DocumentReference/sigir-201514-note",
+    "sentences": [
+      8
+    ],
+    "context": "repeat investigation",
+    "excerpt": "Negative DAT"
+  },
+  {
+    "subject": "Patient/sigir-201514",
+    "resource": "Observation/n-06d48ea851d748130d8b0b899c00a3",
+    "document": "DocumentReference/sigir-201514-note",
+    "sentences": [
+      5
+    ],
+    "context": "patient-report",
+    "excerpt": "difficulty swallowing"
+  },
+  {
+    "subject": "Patient/sigir-201514",
+    "resource": "Observation/n-9bad2a51f6213aa358a95e2dbac0a8",
+    "document": "DocumentReference/sigir-201514-note",
+    "sentences": [
+      6
+    ],
+    "context": "laboratory; raw exponent notation preserved",
+    "excerpt": "found elevated at 180 x 109/L"
+  },
+  {
+    "subject": "Patient/sigir-201514",
+    "resource": "Observation/n-4fd664975db1119cffbc12cce8a5ff",
+    "document": "DocumentReference/sigir-201514-note",
+    "sentences": [
+      7
+    ],
+    "context": "request; completion unknown",
+    "excerpt": "requests a hematology consult"
+  },
+  {
+    "subject": "Patient/sigir-201515",
+    "resource": "Observation/n-0564fe6fe9ccb46499ec2ef9a83f65",
+    "document": "DocumentReference/sigir-201515-note",
+    "sentences": [
+      0
+    ],
+    "context": "age at vignette presentation",
+    "excerpt": "Karen is a 72-year-old"
+  },
+  {
+    "subject": "Patient/sigir-201515",
+    "resource": "Observation/n-4082a654c87684bd663b9650390a18",
+    "document": "DocumentReference/sigir-201515-note",
+    "sentences": [
+      3
+    ],
+    "context": "as documented; units supplied only if explicit",
+    "excerpt": "blood pressure of 120/70 mm Hg"
+  },
+  {
+    "subject": "Patient/sigir-201515",
+    "resource": "Observation/n-ea1ad67602ef72ecfa990acdaf05d4",
+    "document": "DocumentReference/sigir-201515-note",
+    "sentences": [
+      5
+    ],
+    "context": "prospective benchmark statement; written consent unverified",
+    "excerpt": "The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "subject": "Patient/sigir-201515",
+    "resource": "Condition/n-1f1d7add3f84810fa062a0c2504451",
+    "document": "DocumentReference/sigir-201515-note",
+    "sentences": [
+      0
+    ],
+    "context": "documented",
+    "excerpt": "type 2 diabetes"
+  },
+  {
+    "subject": "Patient/sigir-201515",
+    "resource": "Condition/n-030506c029bfe4140c7234b2f7c50d",
+    "document": "DocumentReference/sigir-201515-note",
+    "sentences": [
+      0
+    ],
+    "context": "documented",
+    "excerpt": "hypertension"
+  },
+  {
+    "subject": "Patient/sigir-201515",
+    "resource": "Condition/n-7317fc649576ff72d5a396d0f8321c",
+    "document": "DocumentReference/sigir-201515-note",
+    "sentences": [
+      0
+    ],
+    "context": "two weeks ago",
+    "excerpt": "cryptogenic stroke two weeks ago"
+  },
+  {
+    "subject": "Patient/sigir-201515",
+    "resource": "Observation/n-e18ee5ea5d93994c55bcf15d9399e1",
+    "document": "DocumentReference/sigir-201515-note",
+    "sentences": [
+      1
+    ],
+    "context": "two weeks ago",
+    "excerpt": "computed tomography was negative for brain hemorrhage"
+  },
+  {
+    "subject": "Patient/sigir-201515",
+    "resource": "Observation/n-85b5c13ade0f574087700670768ec9",
+    "document": "DocumentReference/sigir-201515-note",
+    "sentences": [
+      1
+    ],
+    "context": "previous stroke episode; agent unspecified",
+    "excerpt": "given thrombolytic therapy"
+  },
+  {
+    "subject": "Patient/sigir-201515",
+    "resource": "Observation/n-e8dccd905a83f15cfffd974b5bb095",
+    "document": "DocumentReference/sigir-201515-note",
+    "sentences": [
+      3
+    ],
+    "context": "current presentation",
+    "excerpt": "normal sinus rhythm on a 12-lead electrocardiogram"
+  },
+  {
+    "subject": "Patient/sigir-201515",
+    "resource": "Observation/n-9bf9c1f136c5fe7fb3d0efd562ee7a",
+    "document": "DocumentReference/sigir-201515-note",
+    "sentences": [
+      2
+    ],
+    "context": "prior workup",
+    "excerpt": "Transesophageal echocardiogram and magnetic resonance angiogram of brain and great vessels found no evidence of abnormalities"
+  },
+  {
+    "subject": "Patient/sigir-201515",
+    "resource": "Observation/n-ec636881c4dcf2938bbfcbed969c93",
+    "document": "DocumentReference/sigir-201515-note",
+    "sentences": [
+      4
+    ],
+    "context": "patient-report",
+    "excerpt": "history of occasional palpitations"
+  },
+  {
+    "subject": "Patient/sigir-201516",
+    "resource": "Observation/n-be3d97d60fc1d41ec49b6e6db1625f",
+    "document": "DocumentReference/sigir-201516-note",
+    "sentences": [
+      0
+    ],
+    "context": "age at vignette presentation",
+    "excerpt": "A 4 year old"
+  },
+  {
+    "subject": "Patient/sigir-201516",
+    "resource": "Observation/n-02456464f0e03e359f7268c0031108",
+    "document": "DocumentReference/sigir-201516-note",
+    "sentences": [
+      8
+    ],
+    "context": "prospective benchmark statement; written consent unverified",
+    "excerpt": "The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "subject": "Patient/sigir-201516",
+    "resource": "Observation/n-963cfa742263eba1a4187b9948b214",
+    "document": "DocumentReference/sigir-201516-note",
+    "sentences": [
+      0
+    ],
+    "context": "note abstraction",
+    "excerpt": null
+  },
+  {
+    "subject": "Patient/sigir-201516",
+    "resource": "Observation/n-3b558a7e5215382bf72d8be7f61c53",
+    "document": "DocumentReference/sigir-201516-note",
+    "sentences": [
+      0
+    ],
+    "context": "note abstraction",
+    "excerpt": null
+  },
+  {
+    "subject": "Patient/sigir-201516",
+    "resource": "Condition/n-85f2a512c0a1215ea9c5bbcd52a5d8",
+    "document": "DocumentReference/sigir-201516-note",
+    "sentences": [
+      1
+    ],
+    "context": "history",
+    "excerpt": "history of allergic rhinitis"
+  },
+  {
+    "subject": "Patient/sigir-201516",
+    "resource": "Observation/n-646c553bb058e623e3a5bb09517fc3",
+    "document": "DocumentReference/sigir-201516-note",
+    "sentences": [
+      7
+    ],
+    "context": "room air",
+    "excerpt": "O2 sats are 100% on room air"
+  },
+  {
+    "subject": "Patient/sigir-201516",
+    "resource": "Observation/n-759143394b7faa2d83cd8c4de39590",
+    "document": "DocumentReference/sigir-201516-note",
+    "sentences": [
+      6
+    ],
+    "context": "examination",
+    "excerpt": "Wheezing is heard in the mid-right chest area"
+  },
+  {
+    "subject": "Patient/sigir-201516",
+    "resource": "Observation/n-9038f7b475d31df2e26d71162b0147",
+    "document": "DocumentReference/sigir-201516-note",
+    "sentences": [
+      2
+    ],
+    "context": "mother reporting about child",
+    "excerpt": "heard him suddenly start coughing"
+  },
+  {
+    "subject": "Patient/sigir-201516",
+    "resource": "Observation/n-70b8bb8ed424df143cd5866a3e5b99",
+    "document": "DocumentReference/sigir-201516-note",
+    "sentences": [
+      3
+    ],
+    "context": "reported course",
+    "excerpt": "audibly wheezing since"
+  },
+  {
+    "subject": "Patient/sigir-201516",
+    "resource": "Observation/n-3e4af07a869cdde367dc4677078ab3",
+    "document": "DocumentReference/sigir-201516-note",
+    "sentences": [
+      4
+    ],
+    "context": "mother reporting about child",
+    "excerpt": "breathing has not returned to normal"
+  },
+  {
+    "subject": "Patient/sigir-201516",
+    "resource": "Observation/n-b986f3f39652242de652bb4b5a3613",
+    "document": "DocumentReference/sigir-201516-note",
+    "sentences": [
+      5
+    ],
+    "context": "examination",
+    "excerpt": "playful and well appearing"
+  },
+  {
+    "subject": "Patient/sigir-201517",
+    "resource": "Observation/n-26d34489e32725fd2e15bd09843476",
+    "document": "DocumentReference/sigir-201517-note",
+    "sentences": [
+      0
+    ],
+    "context": "age at vignette presentation",
+    "excerpt": "A 32 year old"
+  },
+  {
+    "subject": "Patient/sigir-201517",
+    "resource": "Observation/n-95a2d2e3979e30ecbf3792fac288b9",
+    "document": "DocumentReference/sigir-201517-note",
+    "sentences": [
+      3
+    ],
+    "context": "prospective benchmark statement; written consent unverified",
+    "excerpt": "The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "subject": "Patient/sigir-201517",
+    "resource": "Observation/n-ebc949634646bc92295dbfc2ff53cd",
+    "document": "DocumentReference/sigir-201517-note",
+    "sentences": [
+      0
+    ],
+    "context": "note abstraction",
+    "excerpt": null
+  },
+  {
+    "subject": "Patient/sigir-201517",
+    "resource": "Observation/n-cb1901a42b2f5a673af4b0ac764811",
+    "document": "DocumentReference/sigir-201517-note",
+    "sentences": [
+      0
+    ],
+    "context": "note abstraction",
+    "excerpt": null
+  },
+  {
+    "subject": "Patient/sigir-201517",
+    "resource": "Observation/n-b1cfb99a588b897abc392f130581a8",
+    "document": "DocumentReference/sigir-201517-note",
+    "sentences": [
+      2
+    ],
+    "context": "PAP specimen",
+    "excerpt": "cytology negative"
+  },
+  {
+    "subject": "Patient/sigir-201517",
+    "resource": "Observation/n-9d368ed27f3a6a4a89ae1e2c60e106",
+    "document": "DocumentReference/sigir-201517-note",
+    "sentences": [
+      2
+    ],
+    "context": "PAP specimen; assay unspecified",
+    "excerpt": "HPV positive"
+  },
+  {
+    "subject": "Patient/sigir-201517",
+    "resource": "Observation/n-ecd2e5eab89467229bbc3415f6b466",
+    "document": "DocumentReference/sigir-201517-note",
+    "sentences": [
+      1
+    ],
+    "context": "patient report",
+    "excerpt": "reports no complaints"
+  },
+  {
+    "subject": "Patient/sigir-201518",
+    "resource": "Observation/n-829c6d23618438ae0d85a45aeffa9e",
+    "document": "DocumentReference/sigir-201518-note",
+    "sentences": [
+      0
+    ],
+    "context": "age at vignette presentation",
+    "excerpt": "A 65 yo"
+  },
+  {
+    "subject": "Patient/sigir-201518",
+    "resource": "Observation/n-cbfd592a9755703ed76c99c8f4a101",
+    "document": "DocumentReference/sigir-201518-note",
+    "sentences": [
+      3
+    ],
+    "context": "prospective benchmark statement; written consent unverified",
+    "excerpt": "The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "subject": "Patient/sigir-201518",
+    "resource": "Observation/n-2946138372f89aa4edbd8c754f98e9",
+    "document": "DocumentReference/sigir-201518-note",
+    "sentences": [
+      0
+    ],
+    "context": "note abstraction",
+    "excerpt": null
+  },
+  {
+    "subject": "Patient/sigir-201518",
+    "resource": "Observation/n-e73128706d56f693d3a10c67eb7c6c",
+    "document": "DocumentReference/sigir-201518-note",
+    "sentences": [
+      0
+    ],
+    "context": "note abstraction",
+    "excerpt": null
+  },
+  {
+    "subject": "Patient/sigir-201518",
+    "resource": "Observation/n-5dd419fbaa10eb2634e85d01c47a40",
+    "document": "DocumentReference/sigir-201518-note",
+    "sentences": [
+      2
+    ],
+    "context": "examination",
+    "excerpt": "jugular venous distension"
+  },
+  {
+    "subject": "Patient/sigir-201518",
+    "resource": "Observation/n-3d7358b69256f29fc96bca1d32c359",
+    "document": "DocumentReference/sigir-201518-note",
+    "sentences": [
+      1
+    ],
+    "context": "patient report",
+    "excerpt": "difficulty breathing when lying flat"
+  },
+  {
+    "subject": "Patient/sigir-201519",
+    "resource": "Observation/n-6a54fcbf4df870b3dc1e656b16dd7d",
+    "document": "DocumentReference/sigir-201519-note",
+    "sentences": [
+      0
+    ],
+    "context": "age at vignette presentation",
+    "excerpt": "A 66yo"
+  },
+  {
+    "subject": "Patient/sigir-201519",
+    "resource": "Observation/n-3e917d01f3a0dce5e960351cca68aa",
+    "document": "DocumentReference/sigir-201519-note",
+    "sentences": [
+      4
+    ],
+    "context": "prospective benchmark statement; written consent unverified",
+    "excerpt": "The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "subject": "Patient/sigir-201519",
+    "resource": "Observation/n-983e750c0e8828344e2d4c6f34de92",
+    "document": "DocumentReference/sigir-201519-note",
+    "sentences": [
+      3
+    ],
+    "context": "patient-report",
+    "excerpt": "past 47 years"
+  },
+  {
+    "subject": "Patient/sigir-201519",
+    "resource": "Observation/n-c67f96b9d941fd395ac712ad8f0371",
+    "document": "DocumentReference/sigir-201519-note",
+    "sentences": [
+      2
+    ],
+    "context": "examination",
+    "excerpt": "mildly distended neck veins"
+  },
+  {
+    "subject": "Patient/sigir-201519",
+    "resource": "Observation/n-fc80a84496b145c34d48d562256b5d",
+    "document": "DocumentReference/sigir-201519-note",
+    "sentences": [
+      1
+    ],
+    "context": "following exertion",
+    "excerpt": "moderate respiratory distress after walking"
+  },
+  {
+    "subject": "Patient/sigir-20152",
+    "resource": "Observation/n-4002a632c97495ad8667499bcd6be1",
+    "document": "DocumentReference/sigir-20152-note",
+    "sentences": [
+      0
+    ],
+    "context": "age at vignette presentation",
+    "excerpt": "A 62 yo"
+  },
+  {
+    "subject": "Patient/sigir-20152",
+    "resource": "Observation/n-04133c0be985a66ca317be28e9e503",
+    "document": "DocumentReference/sigir-20152-note",
+    "sentences": [
+      4
+    ],
+    "context": "prospective benchmark statement; written consent unverified",
+    "excerpt": "The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "subject": "Patient/sigir-20152",
+    "resource": "Observation/n-9b057b49a31c7837ce162a2b5d617f",
+    "document": "DocumentReference/sigir-20152-note",
+    "sentences": [
+      0
+    ],
+    "context": "note abstraction",
+    "excerpt": null
+  },
+  {
+    "subject": "Patient/sigir-20152",
+    "resource": "Observation/n-637ccfd670802af8e2abba1c7a4664",
+    "document": "DocumentReference/sigir-20152-note",
+    "sentences": [
+      0
+    ],
+    "context": "note abstraction",
+    "excerpt": null
+  },
+  {
+    "subject": "Patient/sigir-20152",
+    "resource": "MedicationStatement/n-8431ac3042906ee5476e1904570a44",
+    "document": "DocumentReference/sigir-20152-note",
+    "sentences": [
+      1
+    ],
+    "context": "active",
+    "excerpt": "immunosuppressive medications, including prednisone"
+  },
+  {
+    "subject": "Patient/sigir-20152",
+    "resource": "Observation/n-56bb141518294f1ed3834f0ac12213",
+    "document": "DocumentReference/sigir-20152-note",
+    "sentences": [
+      3
+    ],
+    "context": "BAL specimen",
+    "excerpt": "owl's eye inclusion bodies"
+  },
+  {
+    "subject": "Patient/sigir-20152",
+    "resource": "Observation/n-71806f2d1393fd108dba8975720c38",
+    "document": "DocumentReference/sigir-20152-note",
+    "sentences": [
+      2
+    ],
+    "context": "current admission",
+    "excerpt": "admitted to the hospital"
+  },
+  {
+    "subject": "Patient/sigir-201520",
+    "resource": "Observation/n-af8f290b0c5f44324684bd38384721",
+    "document": "DocumentReference/sigir-201520-note",
+    "sentences": [
+      0
+    ],
+    "context": "age at vignette presentation",
+    "excerpt": "An 89-year-old"
+  },
+  {
+    "subject": "Patient/sigir-201520",
+    "resource": "Observation/n-771cccf4d361bcda48775451ad39bb",
+    "document": "DocumentReference/sigir-201520-note",
+    "sentences": [
+      3
+    ],
+    "context": "as documented; units supplied only if explicit",
+    "excerpt": "blood pressure 144/78 mm Hg"
+  },
+  {
+    "subject": "Patient/sigir-201520",
+    "resource": "Observation/n-641b0feeaa0f19a74799be6025d746",
+    "document": "DocumentReference/sigir-201520-note",
+    "sentences": [
+      13
+    ],
+    "context": "prospective benchmark statement; written consent unverified",
+    "excerpt": "The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "subject": "Patient/sigir-201520",
+    "resource": "Observation/n-bfbc1211d7545b5e5fed2828cc9b56",
+    "document": "DocumentReference/sigir-201520-note",
+    "sentences": [
+      3
+    ],
+    "context": "presentation",
+    "excerpt": "temperature was 36.5C"
+  },
+  {
+    "subject": "Patient/sigir-201520",
+    "resource": "Observation/n-9d82d99a1ce7c3e23e4cfe994c3216",
+    "document": "DocumentReference/sigir-201520-note",
+    "sentences": [
+      3
+    ],
+    "context": "presentation",
+    "excerpt": "heart rate 61 bpm"
+  },
+  {
+    "subject": "Patient/sigir-201520",
+    "resource": "Observation/n-5ddcf8b73b7026f48bf0d8c1098f56",
+    "document": "DocumentReference/sigir-201520-note",
+    "sentences": [
+      3
+    ],
+    "context": "presentation",
+    "excerpt": "respiratory rate 18 bpm"
+  },
+  {
+    "subject": "Patient/sigir-201520",
+    "resource": "Observation/n-2fe0a4444ca76f6d00a191d73fc27f",
+    "document": "DocumentReference/sigir-201520-note",
+    "sentences": [
+      4
+    ],
+    "context": "examination",
+    "excerpt": "oriented to self and city but not year"
+  },
+  {
+    "subject": "Patient/sigir-201520",
+    "resource": "Observation/n-82fcb1b2b2989740456d9478d5e449",
+    "document": "DocumentReference/sigir-201520-note",
+    "sentences": [
+      9
+    ],
+    "context": "cognitive examination",
+    "excerpt": "recalled none of them after 5 minutes"
+  },
+  {
+    "subject": "Patient/sigir-201520",
+    "resource": "Observation/n-2b88ff2e985ce30776bc254e83d04b",
+    "document": "DocumentReference/sigir-201520-note",
+    "sentences": [
+      1
+    ],
+    "context": "evolving symptoms",
+    "excerpt": "poor memory"
+  },
+  {
+    "subject": "Patient/sigir-201520",
+    "resource": "Observation/n-3133eae6ef9cd66003d42092923f3c",
+    "document": "DocumentReference/sigir-201520-note",
+    "sentences": [
+      2
+    ],
+    "context": "reported function",
+    "excerpt": "unable to dress, bathe, use the toilet, or walk independently"
+  },
+  {
+    "subject": "Patient/sigir-201520",
+    "resource": "Observation/n-bdc2407480c2227eac73abb3d9daf6",
+    "document": "DocumentReference/sigir-201520-note",
+    "sentences": [
+      5
+    ],
+    "context": "during assessment",
+    "excerpt": "frequently interrupted the examiner"
+  },
+  {
+    "subject": "Patient/sigir-201520",
+    "resource": "Observation/n-01d7e294a5c0b73f308bd1a1169e53",
+    "document": "DocumentReference/sigir-201520-note",
+    "sentences": [
+      6
+    ],
+    "context": "during assessment",
+    "excerpt": "repeatedly reached out to grab things in front of him"
+  },
+  {
+    "subject": "Patient/sigir-201520",
+    "resource": "Observation/n-2a37d941622b07c5c396743456532f",
+    "document": "DocumentReference/sigir-201520-note",
+    "sentences": [
+      7
+    ],
+    "context": "cognitive examination",
+    "excerpt": "could not follow commands involving multiple steps"
+  },
+  {
+    "subject": "Patient/sigir-201520",
+    "resource": "Observation/n-9f68e649215f118b764e6fc40f242f",
+    "document": "DocumentReference/sigir-201520-note",
+    "sentences": [
+      8
+    ],
+    "context": "examination",
+    "excerpt": "similar-sounding word substitutions"
+  },
+  {
+    "subject": "Patient/sigir-201520",
+    "resource": "Observation/n-e749f07fa8f27851705fec94ea5af4",
+    "document": "DocumentReference/sigir-201520-note",
+    "sentences": [
+      10
+    ],
+    "context": "examination",
+    "excerpt": "clinically significant paratonic rigidity"
+  },
+  {
+    "subject": "Patient/sigir-201520",
+    "resource": "Observation/n-32b9270abbde62d527f8ac0ac8cae1",
+    "document": "DocumentReference/sigir-201520-note",
+    "sentences": [
+      11
+    ],
+    "context": "examination",
+    "excerpt": "Myoclonic jerks were seen in the arms"
+  },
+  {
+    "subject": "Patient/sigir-201520",
+    "resource": "Observation/n-3aa4b7b7aa1a835cfac25440d03832",
+    "document": "DocumentReference/sigir-201520-note",
+    "sentences": [
+      12
+    ],
+    "context": "examination",
+    "excerpt": "reflexes in the legs were normal"
+  },
+  {
+    "subject": "Patient/sigir-201521",
+    "resource": "Observation/n-c316121a41a0b50f495d7aafd51ed4",
+    "document": "DocumentReference/sigir-201521-note",
+    "sentences": [
+      0
+    ],
+    "context": "age at vignette presentation",
+    "excerpt": "A 32-year-old"
+  },
+  {
+    "subject": "Patient/sigir-201521",
+    "resource": "Observation/n-fc5f7b8106791dd5835802b8afb160",
+    "document": "DocumentReference/sigir-201521-note",
+    "sentences": [
+      5
+    ],
+    "context": "prospective benchmark statement; written consent unverified",
+    "excerpt": "The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "subject": "Patient/sigir-201521",
+    "resource": "Observation/n-35b825de7acbb47512926c253cfe9f",
+    "document": "DocumentReference/sigir-201521-note",
+    "sentences": [
+      0
+    ],
+    "context": "note abstraction",
+    "excerpt": null
+  },
+  {
+    "subject": "Patient/sigir-201521",
+    "resource": "Observation/n-87933b69e3782e19c741dfc9bfac84",
+    "document": "DocumentReference/sigir-201521-note",
+    "sentences": [
+      0
+    ],
+    "context": "note abstraction",
+    "excerpt": null
+  },
+  {
+    "subject": "Patient/sigir-201521",
+    "resource": "Observation/n-75c4df34136b406be456f0f1d94f17",
+    "document": "DocumentReference/sigir-201521-note",
+    "sentences": [
+      4
+    ],
+    "context": "stool smear",
+    "excerpt": "ellipsoidal cysts with smooth, well-defined walls and 2+ nuclei"
+  },
+  {
+    "subject": "Patient/sigir-201521",
+    "resource": "Observation/n-5acf5c7771d507bfde4dad50fe552d",
+    "document": "DocumentReference/sigir-201521-note",
+    "sentences": [
+      1
+    ],
+    "context": "reported",
+    "excerpt": "greasy and foul-smelling"
+  },
+  {
+    "subject": "Patient/sigir-201521",
+    "resource": "Observation/n-c20d9afed67e3efdd22449fbf489b1",
+    "document": "DocumentReference/sigir-201521-note",
+    "sentences": [
+      2
+    ],
+    "context": "reported",
+    "excerpt": "loss of appetite"
+  },
+  {
+    "subject": "Patient/sigir-201521",
+    "resource": "Observation/n-0783db96612b3518b1a96f178284f4",
+    "document": "DocumentReference/sigir-201521-note",
+    "sentences": [
+      3
+    ],
+    "context": "hiking trip",
+    "excerpt": "drank water from natural sources"
+  },
+  {
+    "subject": "Patient/sigir-201522",
+    "resource": "Observation/n-f4fb48403839a118f731fbadd25cd6",
+    "document": "DocumentReference/sigir-201522-note",
+    "sentences": [
+      0
+    ],
+    "context": "age at vignette presentation",
+    "excerpt": "A 65-year-old"
+  },
+  {
+    "subject": "Patient/sigir-201522",
+    "resource": "Observation/n-7c01f5b6372a606748f361504f67d1",
+    "document": "DocumentReference/sigir-201522-note",
+    "sentences": [
+      4
+    ],
+    "context": "prospective benchmark statement; written consent unverified",
+    "excerpt": "The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "subject": "Patient/sigir-201522",
+    "resource": "Observation/n-5c4ffbaf2a780cf26f9c962d329bbb",
+    "document": "DocumentReference/sigir-201522-note",
+    "sentences": [
+      0
+    ],
+    "context": "note abstraction",
+    "excerpt": null
+  },
+  {
+    "subject": "Patient/sigir-201522",
+    "resource": "Observation/n-b4ea1b42ed818e0341c43224d493db",
+    "document": "DocumentReference/sigir-201522-note",
+    "sentences": [
+      0
+    ],
+    "context": "note abstraction",
+    "excerpt": null
+  },
+  {
+    "subject": "Patient/sigir-201522",
+    "resource": "Condition/n-4997dec2f945d8866eb55239e64527",
+    "document": "DocumentReference/sigir-201522-note",
+    "sentences": [
+      0
+    ],
+    "context": "history",
+    "excerpt": "a history of tuberculosis"
+  },
+  {
+    "subject": "Patient/sigir-201522",
+    "resource": "Observation/n-caa6ac53139a70287b103daeb86a83",
+    "document": "DocumentReference/sigir-201522-note",
+    "sentences": [
+      1
+    ],
+    "context": "chest x-ray",
+    "excerpt": "round opaque mass within a cavity in his left upper lobe"
+  },
+  {
+    "subject": "Patient/sigir-201522",
+    "resource": "Observation/n-2e32df78b35c917c6b6ffa477ed05e",
+    "document": "DocumentReference/sigir-201522-note",
+    "sentences": [
+      3
+    ],
+    "context": "organism not named in source",
+    "excerpt": "septated, low-angle branching hyphae"
+  },
+  {
+    "subject": "Patient/sigir-201522",
+    "resource": "Observation/n-f475b58591f45838004e8fbd4495d2",
+    "document": "DocumentReference/sigir-201522-note",
+    "sentences": [
+      2
+    ],
+    "context": "CT imaging",
+    "excerpt": "mass moved in the cavity during supine and prone CT imaging"
+  },
+  {
+    "subject": "Patient/sigir-201523",
+    "resource": "Observation/n-a4d370ef4cd0845d839a296ba0cb4a",
+    "document": "DocumentReference/sigir-201523-note",
+    "sentences": [
+      0
+    ],
+    "context": "age at vignette presentation",
+    "excerpt": "An 18-year-old"
+  },
+  {
+    "subject": "Patient/sigir-201523",
+    "resource": "Observation/n-b992a477e3f741bd6004c420d75d87",
+    "document": "DocumentReference/sigir-201523-note",
+    "sentences": [
+      2
+    ],
+    "context": "prospective benchmark statement; written consent unverified",
+    "excerpt": "The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "subject": "Patient/sigir-201523",
+    "resource": "Observation/n-55e6384275acf39bbd75dd6fccdc02",
+    "document": "DocumentReference/sigir-201523-note",
+    "sentences": [
+      0
+    ],
+    "context": "note abstraction",
+    "excerpt": null
+  },
+  {
+    "subject": "Patient/sigir-201523",
+    "resource": "Observation/n-be7054c7765985af20acfe3f35c0f5",
+    "document": "DocumentReference/sigir-201523-note",
+    "sentences": [
+      0
+    ],
+    "context": "note abstraction",
+    "excerpt": null
+  },
+  {
+    "subject": "Patient/sigir-201523",
+    "resource": "Condition/n-e2671ca1003e1e25062b008eee4b3d",
+    "document": "DocumentReference/sigir-201523-note",
+    "sentences": [
+      1
+    ],
+    "context": "current laboratory finding",
+    "excerpt": "leukopenia"
+  },
+  {
+    "subject": "Patient/sigir-201523",
+    "resource": "Condition/n-c25f0c4295f25c340caed7006eabd0",
+    "document": "DocumentReference/sigir-201523-note",
+    "sentences": [
+      1
+    ],
+    "context": "current laboratory finding",
+    "excerpt": "thrombocytopenia"
+  },
+  {
+    "subject": "Patient/sigir-201523",
+    "resource": "Observation/n-992fbb9b600e6d2294366e12fa6644",
+    "document": "DocumentReference/sigir-201523-note",
+    "sentences": [
+      0
+    ],
+    "context": "presentation",
+    "excerpt": "epistaxis"
+  },
+  {
+    "subject": "Patient/sigir-201524",
+    "resource": "Observation/n-5841b73918db05720df0407d3104bc",
+    "document": "DocumentReference/sigir-201524-note",
+    "sentences": [
+      0
+    ],
+    "context": "age at vignette presentation",
+    "excerpt": "A 31 yo"
+  },
+  {
+    "subject": "Patient/sigir-201524",
+    "resource": "Observation/n-051336357d9a767394bb3e5f059e0e",
+    "document": "DocumentReference/sigir-201524-note",
+    "sentences": [
+      4
+    ],
+    "context": "as documented; units supplied only if explicit",
+    "excerpt": "blood pressure 120/80"
+  },
+  {
+    "subject": "Patient/sigir-201524",
+    "resource": "Observation/n-7e8e10b63395f141858e8e397060a7",
+    "document": "DocumentReference/sigir-201524-note",
+    "sentences": [
+      6
+    ],
+    "context": "prospective benchmark statement; written consent unverified",
+    "excerpt": "The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "subject": "Patient/sigir-201524",
+    "resource": "Observation/n-72fd853de383f210d0fac6dbedb3fe",
+    "document": "DocumentReference/sigir-201524-note",
+    "sentences": [
+      0
+    ],
+    "context": "note abstraction",
+    "excerpt": null
+  },
+  {
+    "subject": "Patient/sigir-201524",
+    "resource": "Observation/n-edbc3b934cea9597c2606d40816c82",
+    "document": "DocumentReference/sigir-201524-note",
+    "sentences": [
+      0
+    ],
+    "context": "note abstraction",
+    "excerpt": null
+  },
+  {
+    "subject": "Patient/sigir-201524",
+    "resource": "Observation/n-7ff0d206cdf99ca85a6457af32287a",
+    "document": "DocumentReference/sigir-201524-note",
+    "sentences": [
+      5
+    ],
+    "context": "examination",
+    "excerpt": "expiratory wheezing"
+  },
+  {
+    "subject": "Patient/sigir-201524",
+    "resource": "Observation/n-eee77f90ed2e9826e061465b911620",
+    "document": "DocumentReference/sigir-201524-note",
+    "sentences": [
+      3
+    ],
+    "context": "household contact; describes wife",
+    "excerpt": "wife also had cold symptoms a week ago"
+  },
+  {
+    "subject": "Patient/sigir-201524",
+    "resource": "Observation/n-c4d6ceaadc5bd1fe5d1f2a38314909",
+    "document": "DocumentReference/sigir-201524-note",
+    "sentences": [
+      4
+    ],
+    "context": "unit missing",
+    "excerpt": "temperature 103.4"
+  },
+  {
+    "subject": "Patient/sigir-201524",
+    "resource": "Observation/n-e265b6cb868bdd9024add1e61dcdc1",
+    "document": "DocumentReference/sigir-201524-note",
+    "sentences": [
+      1
+    ],
+    "context": "two days before presentation",
+    "excerpt": "new fever, chills, and worsening cough"
+  },
+  {
+    "subject": "Patient/sigir-201524",
+    "resource": "Observation/n-895d88471de8047b57601323b909f6",
+    "document": "DocumentReference/sigir-201524-note",
+    "sentences": [
+      2
+    ],
+    "context": "patient-report",
+    "excerpt": "right-sided chest pain that is aggravated by coughing"
+  },
+  {
+    "subject": "Patient/sigir-20153",
+    "resource": "Observation/n-cad920b07777249324d5389b72193b",
+    "document": "DocumentReference/sigir-20153-note",
+    "sentences": [
+      0
+    ],
+    "context": "age at vignette presentation",
+    "excerpt": "A 65 yo"
+  },
+  {
+    "subject": "Patient/sigir-20153",
+    "resource": "Observation/n-d488ee0430a3c464575263ba034fad",
+    "document": "DocumentReference/sigir-20153-note",
+    "sentences": [
+      3
+    ],
+    "context": "prospective benchmark statement; written consent unverified",
+    "excerpt": "The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "subject": "Patient/sigir-20153",
+    "resource": "Observation/n-1f1f260ed525075dadb91e3723277d",
+    "document": "DocumentReference/sigir-20153-note",
+    "sentences": [
+      0
+    ],
+    "context": "note abstraction",
+    "excerpt": null
+  },
+  {
+    "subject": "Patient/sigir-20153",
+    "resource": "Observation/n-ab65343c80b65321df4beb35bc5c6c",
+    "document": "DocumentReference/sigir-20153-note",
+    "sentences": [
+      0
+    ],
+    "context": "note abstraction",
+    "excerpt": null
+  },
+  {
+    "subject": "Patient/sigir-20153",
+    "resource": "Procedure/n-7fd6f07376c632af0a49f8ef07c1db",
+    "document": "DocumentReference/sigir-20153-note",
+    "sentences": [
+      1
+    ],
+    "context": "two weeks prior",
+    "excerpt": "right total hip replacement two weeks prior"
+  },
+  {
+    "subject": "Patient/sigir-20153",
+    "resource": "Observation/n-9589e437cf172997440392398202d6",
+    "document": "DocumentReference/sigir-20153-note",
+    "sentences": [
+      2
+    ],
+    "context": "unit missing",
+    "excerpt": "respiratory rate of 35"
+  },
+  {
+    "subject": "Patient/sigir-20153",
+    "resource": "Observation/n-a4c1c117fac13d71088df60aa6129b",
+    "document": "DocumentReference/sigir-20153-note",
+    "sentences": [
+      2
+    ],
+    "context": "examination",
+    "excerpt": "right calf pain"
+  },
+  {
+    "subject": "Patient/sigir-20154",
+    "resource": "Observation/n-f342189cac7b58b23fd099146cce85",
+    "document": "DocumentReference/sigir-20154-note",
+    "sentences": [
+      0
+    ],
+    "context": "age at vignette presentation",
+    "excerpt": "An 82-year-old"
+  },
+  {
+    "subject": "Patient/sigir-20154",
+    "resource": "Observation/n-7cb422e48ff1f752a7f9cb69cbcb70",
+    "document": "DocumentReference/sigir-20154-note",
+    "sentences": [
+      2
+    ],
+    "context": "as documented; units supplied only if explicit",
+    "excerpt": "Blood pressure was 199/108 mm Hg"
+  },
+  {
+    "subject": "Patient/sigir-20154",
+    "resource": "Observation/n-49ba682d2fea04a44c6959d57129fa",
+    "document": "DocumentReference/sigir-20154-note",
+    "sentences": [
+      11
+    ],
+    "context": "prospective benchmark statement; written consent unverified",
+    "excerpt": "The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "subject": "Patient/sigir-20154",
+    "resource": "Observation/n-5dde83c77f69713049b8dfeaf3bbca",
+    "document": "DocumentReference/sigir-20154-note",
+    "sentences": [
+      0
+    ],
+    "context": "note abstraction",
+    "excerpt": null
+  },
+  {
+    "subject": "Patient/sigir-20154",
+    "resource": "Observation/n-dddbd6685d543a741eaf7b65cf1a9f",
+    "document": "DocumentReference/sigir-20154-note",
+    "sentences": [
+      0
+    ],
+    "context": "note abstraction",
+    "excerpt": null
+  },
+  {
+    "subject": "Patient/sigir-20154",
+    "resource": "Condition/n-510b1ec122c8bc3f1d99df42d81d16",
+    "document": "DocumentReference/sigir-20154-note",
+    "sentences": [
+      1
+    ],
+    "context": "history",
+    "excerpt": "had hypertension"
+  },
+  {
+    "subject": "Patient/sigir-20154",
+    "resource": "Condition/n-976b85982de5b5441aed5015692144",
+    "document": "DocumentReference/sigir-20154-note",
+    "sentences": [
+      1
+    ],
+    "context": "history",
+    "excerpt": "renal-artery stenosis"
+  },
+  {
+    "subject": "Patient/sigir-20154",
+    "resource": "Condition/n-4427bfbcb4b769d2f9d8a9f8aa5dc9",
+    "document": "DocumentReference/sigir-20154-note",
+    "sentences": [
+      1
+    ],
+    "context": "history",
+    "excerpt": "hypercholesterolemia"
+  },
+  {
+    "subject": "Patient/sigir-20154",
+    "resource": "Condition/n-6c54f3862f4b49c3f333f03d338693",
+    "document": "DocumentReference/sigir-20154-note",
+    "sentences": [
+      1
+    ],
+    "context": "history",
+    "excerpt": "dementia"
+  },
+  {
+    "subject": "Patient/sigir-20154",
+    "resource": "Observation/n-c0ffb007245c0bf5ddf3be780b7cf6",
+    "document": "DocumentReference/sigir-20154-note",
+    "sentences": [
+      2
+    ],
+    "context": "presentation",
+    "excerpt": "respiratory rate 18 bpm"
+  },
+  {
+    "subject": "Patient/sigir-20154",
+    "resource": "Observation/n-ef64650a9c4d16674e95e80a7d4986",
+    "document": "DocumentReference/sigir-20154-note",
+    "sentences": [
+      2
+    ],
+    "context": "ambient air",
+    "excerpt": "oxygen saturation 98%"
+  },
+  {
+    "subject": "Patient/sigir-20154",
+    "resource": "Procedure/n-8f2da11a74d36ec8a56967e1cbc602",
+    "document": "DocumentReference/sigir-20154-note",
+    "sentences": [
+      7
+    ],
+    "context": "completed",
+    "excerpt": "Coronary angiography showed"
+  },
+  {
+    "subject": "Patient/sigir-20154",
+    "resource": "Observation/n-fde12812b8a0fb7408706a2d6f19d9",
+    "document": "DocumentReference/sigir-20154-note",
+    "sentences": [
+      4
+    ],
+    "context": "laboratory",
+    "excerpt": "Troponin T was 0.40 ng/ml"
+  },
+  {
+    "subject": "Patient/sigir-20154",
+    "resource": "Observation/n-7c730695d3243341599475891a4508",
+    "document": "DocumentReference/sigir-20154-note",
+    "sentences": [
+      5
+    ],
+    "context": "ECG",
+    "excerpt": "sinus regular tachycardia of 119 bpm"
+  },
+  {
+    "subject": "Patient/sigir-20154",
+    "resource": "Observation/n-8f8200a47cba7325fdce99225e3a17",
+    "document": "DocumentReference/sigir-20154-note",
+    "sentences": [
+      8
+    ],
+    "context": "left ventriculography; anterior wall akinetic, apex hypokinetic",
+    "excerpt": "akinesis of the anterior wall, hypokinesis of the apical and distal inferior walls"
+  },
+  {
+    "subject": "Patient/sigir-20154",
+    "resource": "Observation/n-c4b6e5fe3b4e8fb457636f5d7c0130",
+    "document": "DocumentReference/sigir-20154-note",
+    "sentences": [
+      3
+    ],
+    "context": "examination",
+    "excerpt": "heart sounds were rapid and with no murmurs"
+  },
+  {
+    "subject": "Patient/sigir-20154",
+    "resource": "Observation/n-4cd144bca001b057a0ee2304f65f70",
+    "document": "DocumentReference/sigir-20154-note",
+    "sentences": [
+      6
+    ],
+    "context": "chest radiograph",
+    "excerpt": "right basilar subsegmental atelectasis"
+  },
+  {
+    "subject": "Patient/sigir-20154",
+    "resource": "Observation/n-bde53a58cb63d3ea42c780d378a2a4",
+    "document": "DocumentReference/sigir-20154-note",
+    "sentences": [
+      9
+    ],
+    "context": "echocardiogram",
+    "excerpt": "severe segmental left ventricular dysfunction"
+  },
+  {
+    "subject": "Patient/sigir-20154",
+    "resource": "Observation/n-fb10f1b5c8ed60a91112f207e78631",
+    "document": "DocumentReference/sigir-20154-note",
+    "sentences": [
+      10
+    ],
+    "context": "echocardiogram",
+    "excerpt": "mild mitral regurgitation"
+  },
+  {
+    "subject": "Patient/sigir-20155",
+    "resource": "Observation/n-9151af00aaac4211cdac9253f40433",
+    "document": "DocumentReference/sigir-20155-note",
+    "sentences": [
+      0
+    ],
+    "context": "age at vignette presentation",
+    "excerpt": "A 31-year-old"
+  },
+  {
+    "subject": "Patient/sigir-20155",
+    "resource": "Observation/n-6e81dc58efe915dec22a10d48ddcd8",
+    "document": "DocumentReference/sigir-20155-note",
+    "sentences": [
+      4
+    ],
+    "context": "prospective benchmark statement; written consent unverified",
+    "excerpt": "The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "subject": "Patient/sigir-20155",
+    "resource": "Observation/n-1a575e08196de6171d04c552a64acd",
+    "document": "DocumentReference/sigir-20155-note",
+    "sentences": [
+      0
+    ],
+    "context": "note abstraction",
+    "excerpt": null
+  },
+  {
+    "subject": "Patient/sigir-20155",
+    "resource": "Observation/n-e1d83d3afc9bebd5694781f75be9a1",
+    "document": "DocumentReference/sigir-20155-note",
+    "sentences": [
+      0
+    ],
+    "context": "note abstraction",
+    "excerpt": null
+  },
+  {
+    "subject": "Patient/sigir-20155",
+    "resource": "Observation/n-f2c8a432e8cadca9a36f627746ad09",
+    "document": "DocumentReference/sigir-20155-note",
+    "sentences": [
+      3
+    ],
+    "context": "reported range",
+    "excerpt": "intermittent fevers ranging from 38.2 to 39.4 degrees Celsius"
+  },
+  {
+    "subject": "Patient/sigir-20155",
+    "resource": "Observation/n-1b91fc03ae219e648c1b9f8c49b86b",
+    "document": "DocumentReference/sigir-20155-note",
+    "sentences": [
+      1
+    ],
+    "context": "historical; resolved",
+    "excerpt": "right ankle swelling and difficulty standing up and walking, all of which resolved"
+  },
+  {
+    "subject": "Patient/sigir-20155",
+    "resource": "Observation/n-ad0d9040993271337e44c14d940ce8",
+    "document": "DocumentReference/sigir-20155-note",
+    "sentences": [
+      2
+    ],
+    "context": "several days",
+    "excerpt": "pain, swelling and stiffness in her knees, hips and right elbow"
+  },
+  {
+    "subject": "Patient/sigir-20156",
+    "resource": "Observation/n-71d2596b59df1c6a5d0caa1694906b",
+    "document": "DocumentReference/sigir-20156-note",
+    "sentences": [
+      0
+    ],
+    "context": "age at vignette presentation",
+    "excerpt": "A 46-year-old"
+  },
+  {
+    "subject": "Patient/sigir-20156",
+    "resource": "Observation/n-a1a0ad072a178af76b7c211fef3b5e",
+    "document": "DocumentReference/sigir-20156-note",
+    "sentences": [
+      3
+    ],
+    "context": "prospective benchmark statement; written consent unverified",
+    "excerpt": "The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "subject": "Patient/sigir-20156",
+    "resource": "Observation/n-74dbc56a6a3a0a5e14f9b1d4ba1020",
+    "document": "DocumentReference/sigir-20156-note",
+    "sentences": [
+      0
+    ],
+    "context": "note abstraction",
+    "excerpt": null
+  },
+  {
+    "subject": "Patient/sigir-20156",
+    "resource": "Observation/n-b8a25e37ef975c6018b84f614279f4",
+    "document": "DocumentReference/sigir-20156-note",
+    "sentences": [
+      0
+    ],
+    "context": "note abstraction",
+    "excerpt": null
+  },
+  {
+    "subject": "Patient/sigir-20156",
+    "resource": "Observation/n-1ed264da722f03de494d6ebcc8f625",
+    "document": "DocumentReference/sigir-20156-note",
+    "sentences": [
+      2
+    ],
+    "context": "presentation",
+    "excerpt": "pulse is irregular at 110bpm"
+  },
+  {
+    "subject": "Patient/sigir-20156",
+    "resource": "Observation/n-83676cdd9a936279ed72e28a1aa23f",
+    "document": "DocumentReference/sigir-20156-note",
+    "sentences": [
+      2
+    ],
+    "context": "examination",
+    "excerpt": "hyperreflexia"
+  },
+  {
+    "subject": "Patient/sigir-20156",
+    "resource": "Observation/n-10e1ced3041a43063f191748b8a76f",
+    "document": "DocumentReference/sigir-20156-note",
+    "sentences": [
+      1
+    ],
+    "context": "patient-report; no measured rate",
+    "excerpt": "heart sometimes races"
+  },
+  {
+    "subject": "Patient/sigir-20157",
+    "resource": "Observation/n-2deed3db258f14f49de34269422c1d",
+    "document": "DocumentReference/sigir-20157-note",
+    "sentences": [
+      0
+    ],
+    "context": "age at vignette presentation",
+    "excerpt": "A 20 yo"
+  },
+  {
+    "subject": "Patient/sigir-20157",
+    "resource": "Observation/n-1d0e7c1104c2f2cd5079e58ae1f3cb",
+    "document": "DocumentReference/sigir-20157-note",
+    "sentences": [
+      4
+    ],
+    "context": "prospective benchmark statement; written consent unverified",
+    "excerpt": "The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "subject": "Patient/sigir-20157",
+    "resource": "Observation/n-9021747a4900326e38d5229ae8666d",
+    "document": "DocumentReference/sigir-20157-note",
+    "sentences": [
+      0
+    ],
+    "context": "note abstraction",
+    "excerpt": null
+  },
+  {
+    "subject": "Patient/sigir-20157",
+    "resource": "Observation/n-3f712dd427f95b3b86b4836d51b80e",
+    "document": "DocumentReference/sigir-20157-note",
+    "sentences": [
+      0
+    ],
+    "context": "note abstraction",
+    "excerpt": null
+  },
+  {
+    "subject": "Patient/sigir-20157",
+    "resource": "Observation/n-5cea2edddc2e9eb5c16e7c9c67fb80",
+    "document": "DocumentReference/sigir-20157-note",
+    "sentences": [
+      3
+    ],
+    "context": "qualitative only",
+    "excerpt": "hemoglobin, hematocrit and thyroid stimulating hormone, are within normal limits"
+  },
+  {
+    "subject": "Patient/sigir-20157",
+    "resource": "Observation/n-1c10163e2c15d7112644015cca4ee4",
+    "document": "DocumentReference/sigir-20157-note",
+    "sentences": [
+      1
+    ],
+    "context": "reported",
+    "excerpt": "difficulty concentrating on her schoolwork"
+  },
+  {
+    "subject": "Patient/sigir-20157",
+    "resource": "Observation/n-4b389502afefed4d447cadbb804596",
+    "document": "DocumentReference/sigir-20157-note",
+    "sentences": [
+      2
+    ],
+    "context": "patient-report",
+    "excerpt": "no longer enjoys spending time with her friends"
+  },
+  {
+    "subject": "Patient/sigir-20158",
+    "resource": "Observation/n-fbed0d593442cc88aea39c92a912e8",
+    "document": "DocumentReference/sigir-20158-note",
+    "sentences": [
+      0
+    ],
+    "context": "age at vignette presentation",
+    "excerpt": "A 10 yo"
+  },
+  {
+    "subject": "Patient/sigir-20158",
+    "resource": "Observation/n-53224b7a2e34a2577eca00e310b1e2",
+    "document": "DocumentReference/sigir-20158-note",
+    "sentences": [
+      3
+    ],
+    "context": "prospective benchmark statement; written consent unverified",
+    "excerpt": "The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "subject": "Patient/sigir-20158",
+    "resource": "Observation/n-2d73517669aa7fae3f2d37f0d73f93",
+    "document": "DocumentReference/sigir-20158-note",
+    "sentences": [
+      0
+    ],
+    "context": "note abstraction",
+    "excerpt": null
+  },
+  {
+    "subject": "Patient/sigir-20158",
+    "resource": "Observation/n-024991c972e610ff838cbaa2ffebe3",
+    "document": "DocumentReference/sigir-20158-note",
+    "sentences": [
+      0
+    ],
+    "context": "note abstraction",
+    "excerpt": null
+  },
+  {
+    "subject": "Patient/sigir-20158",
+    "resource": "Observation/n-9c894daea95e174f1a0068057e407e",
+    "document": "DocumentReference/sigir-20158-note",
+    "sentences": [
+      0
+    ],
+    "context": "reported symptom",
+    "excerpt": "nighttime snoring"
+  },
+  {
+    "subject": "Patient/sigir-20158",
+    "resource": "Observation/n-b3fa8c1fb9f2ab984eecded1548736",
+    "document": "DocumentReference/sigir-20158-note",
+    "sentences": [
+      2
+    ],
+    "context": "teacher report about child",
+    "excerpt": "excessive sleepiness during class"
+  },
+  {
+    "subject": "Patient/sigir-20158",
+    "resource": "Observation/n-8125a2ee2fcfa612207dcebea9d231",
+    "document": "DocumentReference/sigir-20158-note",
+    "sentences": [
+      1
+    ],
+    "context": "negative history",
+    "excerpt": "No history of headache"
+  },
+  {
+    "subject": "Patient/sigir-20159",
+    "resource": "Observation/n-400ba6917aaee9685efe41b9639483",
+    "document": "DocumentReference/sigir-20159-note",
+    "sentences": [
+      0
+    ],
+    "context": "age at vignette presentation",
+    "excerpt": "A 10 year old"
+  },
+  {
+    "subject": "Patient/sigir-20159",
+    "resource": "Observation/n-69e233dba9a1fe17d07bbaa25b7dc5",
+    "document": "DocumentReference/sigir-20159-note",
+    "sentences": [
+      3
+    ],
+    "context": "as documented; units supplied only if explicit",
+    "excerpt": "BP: 90/60"
+  },
+  {
+    "subject": "Patient/sigir-20159",
+    "resource": "Observation/n-1d974bd92280955b1b57363624071c",
+    "document": "DocumentReference/sigir-20159-note",
+    "sentences": [
+      6
+    ],
+    "context": "prospective benchmark statement; written consent unverified",
+    "excerpt": "The patient will provide informed consent, and will comply with the trial protocol without any practical issues."
+  },
+  {
+    "subject": "Patient/sigir-20159",
+    "resource": "Observation/n-20606ed3011b170908b7f5a41421f4",
+    "document": "DocumentReference/sigir-20159-note",
+    "sentences": [
+      3
+    ],
+    "context": "presentation",
+    "excerpt": "HR: 120/min"
+  },
+  {
+    "subject": "Patient/sigir-20159",
+    "resource": "Observation/n-e708abb4bc75a3d34a1e752f899f58",
+    "document": "DocumentReference/sigir-20159-note",
+    "sentences": [
+      3
+    ],
+    "context": "presentation",
+    "excerpt": "RR: 40/min"
+  },
+  {
+    "subject": "Patient/sigir-20159",
+    "resource": "Observation/n-1c150314b135ea043f09d3a048b7a2",
+    "document": "DocumentReference/sigir-20159-note",
+    "sentences": [
+      3
+    ],
+    "context": "presentation",
+    "excerpt": "T: 39.5 C"
+  },
+  {
+    "subject": "Patient/sigir-20159",
+    "resource": "Condition/n-0e00dc8259839721c5c04914ef601d",
+    "document": "DocumentReference/sigir-20159-note",
+    "sentences": [
+      1
+    ],
+    "context": "two weeks prior",
+    "excerpt": "diagnosed with a viral illness"
+  },
+  {
+    "subject": "Patient/sigir-20159",
+    "resource": "Observation/n-30d8fb6d96a5a1666e69fbfc96ce8d",
+    "document": "DocumentReference/sigir-20159-note",
+    "sentences": [
+      4
+    ],
+    "context": "examination",
+    "excerpt": "marked periorbital edema"
+  },
+  {
+    "subject": "Patient/sigir-20159",
+    "resource": "Observation/n-6f2f3fc8f48800a57e6341e5316283",
+    "document": "DocumentReference/sigir-20159-note",
+    "sentences": [
+      2
+    ],
+    "context": "three weeks earlier",
+    "excerpt": "stay with relatives on a farm that raises domestic pigs"
+  },
+  {
+    "subject": "Patient/sigir-20159",
+    "resource": "Observation/n-8f364273459c8dea9d6cf7c8ffea99",
+    "document": "DocumentReference/sigir-20159-note",
+    "sentences": [
+      5
+    ],
+    "context": "laboratory",
+    "excerpt": "25% Eosinophils"
+  }
+]

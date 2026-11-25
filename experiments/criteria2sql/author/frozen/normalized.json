@@ -1,0 +1,79 @@
+[
+  {
+    "id": 101,
+    "patient_id": "synthetic-101",
+    "scope": "complete",
+    "rule_sha256": "e4515195d81569f211b7f1e4b5a335437ed4a71d3b9e4a75c4b84fe9b3070280",
+    "state": "NOT_MET",
+    "reason": "The normalized facts fail the expression.",
+    "evidence": [
+      "urn:pocketmd:criteria2sql:synthetic-controls-v1:flat:101/age"
+    ]
+  },
+  {
+    "id": 102,
+    "patient_id": "synthetic-102",
+    "scope": "complete",
+    "rule_sha256": "e4515195d81569f211b7f1e4b5a335437ed4a71d3b9e4a75c4b84fe9b3070280",
+    "state": "MET",
+    "reason": "The normalized facts satisfy the expression.",
+    "evidence": [
+      "urn:pocketmd:criteria2sql:synthetic-controls-v1:flat:102/age"
+    ]
+  },
+  {
+    "id": 103,
+    "patient_id": "synthetic-103",
+    "scope": "complete",
+    "rule_sha256": "e4515195d81569f211b7f1e4b5a335437ed4a71d3b9e4a75c4b84fe9b3070280",
+    "state": "MET",
+    "reason": "The normalized facts satisfy the expression.",
+    "evidence": [
+      "urn:pocketmd:criteria2sql:synthetic-controls-v1:flat:103/age"
+    ]
+  },
+  {
+    "id": 104,
+    "patient_id": "synthetic-104",
+    "scope": "complete",
+    "rule_sha256": "e4515195d81569f211b7f1e4b5a335437ed4a71d3b9e4a75c4b84fe9b3070280",
+    "state": "MET",
+    "reason": "The normalized facts satisfy the expression.",
+    "evidence": [
+      "urn:pocketmd:criteria2sql:synthetic-controls-v1:flat:104/age"
+    ]
+  },
+  {
+    "id": 105,
+    "patient_id": "synthetic-105",
+    "scope": "complete",
+    "rule_sha256": "e4515195d81569f211b7f1e4b5a335437ed4a71d3b9e4a75c4b84fe9b3070280",
+    "state": "NOT_MET",
+    "reason": "The normalized facts fail the expression.",
+    "evidence": [
+      "urn:pocketmd:criteria2sql:synthetic-controls-v1:flat:105/age"
+    ]
+  },
+  {
+    "id": 106,
+    "patient_id": "synthetic-106",
+    "scope": "complete",
+    "rule_sha256": "e4515195d81569f211b7f1e4b5a335437ed4a71d3b9e4a75c4b84fe9b3070280",
+    "state": "MET",
+    "reason": "The normalized facts satisfy the expression.",
+    "evidence": [
+      "urn:pocketmd:criteria2sql:synthetic-controls-v1:flat:106/age"
+    ]
+  },
+  {
+    "id": 107,
+    "patient_id": "synthetic-107",
+    "scope": "missing",
+    "rule_sha256": "e4515195d81569f211b7f1e4b5a335437ed4a71d3b9e4a75c4b84fe9b3070280",
+    "state": "MISSING_DATA",
+    "reason": "A required normalized fact is unavailable.",
+    "evidence": [
+      "urn:pocketmd:criteria2sql:synthetic-controls-v1:flat:107/age"
+    ]
+  }
+]

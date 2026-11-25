@@ -1,0 +1,681 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en-us">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link rel='stylesheet' type='text/css' href='./mss.css'>
+  <script type="text/javascript" src="./hyphenate.js"></script>
+  <title>2015 TREC Clinical Decision Support Track</title>
+ </head>
+
+ <body>
+
+<div id="top">
+ <h1>
+  TREC Precision Medicine / Clinical Decision Support Track
+ </h1>
+</div>
+<div id="left">
+ <ul class="none">
+  <li><a href="./">Home</a></li>
+  <li><a href="http://groups.google.com/d/forum/trec-cds">Mailing List</a></li>
+  <li><a href="http://trec.nist.gov/">TREC</a></li>
+ </ul>
+</div>
+
+  <div id="right">
+
+   <h2>2015 Clinical Decision Support Track</h2>
+   <div class="hyphenate">
+    <p>
+     Similar to the 2014 track, the focus of the 2015 Clinical Decision Support Track will be the
+     retrieval of biomedical articles relevant for answering generic clinical
+     questions about medical records.
+    </p>
+    <p>
+     We will be using short case reports, such as those published
+     in biomedical articles, as idealized representations of actual medical
+     records. A case report typically describes a challenging medical case, and
+     it is often organized as a well-formed narrative summarizing the portions
+     of a patient's medical record that are pertinent to the case. 
+    </p>
+    <p>
+     Participants of the track will be challenged with retrieving for a given
+     case report full-text biomedical articles that answer questions related to
+     several types of clinical information needs. Each topic will consist of a
+     case report and one of three generic clinical question types, such as
+     "What is the patient's diagnosis?" Retrieved articles will be judged
+     relevant if they provide information of the specified type that is
+     pertinent to the given case. The evaluation of submissions will follow
+     standard TREC evaluation procedures.
+    </p>
+   </div>
+
+   <h2>Tentative Schedule</h2>
+   <table>
+    <thead>
+    <tr>
+     <th>Date</th>
+     <th>Note</th>
+    </tr>
+    </thead>
+    <tbody>
+     <tr>
+	     <td>February, 2015</td>
+      <td>
+       <a href="#documents">Document collection</a> available for download.
+      </td>
+     </tr>
+     <tr>
+	     <td>March, 2015</td>
+      <td>
+       <a href="https://ir.nist.gov/trecsubmit.open/application.html">Applications</a>
+       for participation in TREC 2015 due.
+      </td>
+     </tr>
+     <tr>
+	     <td>April, 2015</td>
+      <td>
+       <a href="#topics">Topics</a> available for download.
+      </td>
+     </tr>
+     <tr>
+	     <td>28 July, 2015</td>
+      <td>
+       Task A submission deadline.
+      </td>
+     </tr>
+     <tr>
+	     <td>30 July, 2015</td>
+      <td>
+       Task B submission deadline.
+      </td>
+     </tr>
+     <tr>
+	     <td>October, 2015</td>
+      <td>
+       Relevance judgments and individual evaluation scores released.
+      </td>
+     </tr>
+     <tr>
+	     <td>November 17&ndash;20, 2015</td>
+      <td>
+	      TREC 2015 conference at NIST in Gaithersburg, MD, USA.
+      </td>
+     </tr>
+    </tbody>
+   </table>
+
+   <h2>Task Description</h2>
+
+   <a name="documents"><h3>Documents</h3>
+   <div class="hyphenate">
+	   <p>
+     The target document collection for the track is the <a
+     href="http://www.ncbi.nlm.nih.gov/pmc/tools/openftlist/">Open Access
+     Subset</a> of <a href="http://www.ncbi.nlm.nih.gov/pmc/">PubMed
+     Central</a> (PMC). PMC is an online digital database of freely available
+     full-text biomedical literature. Because documents are constantly being
+     added to PMC, to ensure the consistency of the collection, for the 2014 task we obtained a
+     snapshot of the open access subset on January 21, 2014, which contained a
+     total of 733,138 articles. For continuity with last year's track, we will be using the same snapshot.
+     </p>
+
+     <p>
+     While out of date (over 18 months old by the submission deadline),
+	     this allows for better utilization of the 2014 topics and judgements.
+     The full text of each article in the open
+     access subset is represented as an NXML file (XML encoded using the <a
+     href="http://jats.nlm.nih.gov/archiving/versions.html">NLM Journal
+     Archiving and Interchange Tag Library</a>), and images and other
+     supplemental materials are also available.
+    </p>
+
+    <h4>Document Identifiers</h4>
+
+    <p> 
+     Each article in the collection is identified by a unique number (PMCID)
+     that will be used for run submissions. The PMCID is specified by the <a
+     href="http://jats.nlm.nih.gov/archiving/tag-library/1.0/n-hzc0.html">
+     <span class="code">&lt;article-id&gt;</span></a> element within each
+     article's NXML file. Please note that although each article is represented
+     by multiple identifiers (e.g., PubMed, PMC, Publisher, etc.), we
+     are only concerned with PMCIDs for this task. The various identifier types
+     are specified using the <a
+     href="http://jats.nlm.nih.gov/archiving/tag-library/1.0/n-j532.html"><span
+     class="code">pub-id-type</span></a> attribute of the <a
+     href="http://jats.nlm.nih.gov/archiving/tag-library/1.0/n-hzc0.html">
+     <span class="code">&lt;article-id&gt;</span></a> element. Valid values of
+     <a href="http://jats.nlm.nih.gov/archiving/tag-library/1.0/n-j532.html"><span
+     class="code">pub-id-type</span></a> that indicate a PMCID include <span
+     class="code">pmc</span> and <span class="code">pmcid</span>.
+    </p>
+
+    <p>
+     For example, the PMCID of article <a
+     href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3148967/">3148967</a>
+     may be specified in the article's NXML file as follows.
+    </p>
+
+    <div class="code"><!--
+     -->&lt;article-id pub-id-type="pmc"&gt;3148967&lt;/article-id&gt;<!--
+    --></div>
+
+    <p>
+     To make processing the documents easier, we have also renamed each
+     article NXML according to the article's PMCID. For example, the document for
+     article 
+     <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3148967/">3148967</a>
+     is named <span class="code">3148967.nxml</span>.
+    </p>
+
+    <h4>Obtaining the Collection</h4>
+
+    <p>
+     The document collection may be obtained in one of two ways. For
+     participants who are only interested in indexing the text of the articles
+     in the collection (most participants), we have prepared 4 bundles
+     containing all 733,138 articles in the January 21, 2014 snapshot, which
+     can be downloaded from the links below.
+    </p>
+
+    <ol>
+     <li><a href="http://ceb.nlm.nih.gov/~simpsonmatt/pmc-text-00.tar.gz">pmc-text-00.tar.gz</a></li>
+     <li><a href="http://ceb.nlm.nih.gov/~simpsonmatt/pmc-text-01.tar.gz">pmc-text-01.tar.gz</a></li>
+     <li><a href="http://ceb.nlm.nih.gov/~simpsonmatt/pmc-text-02.tar.gz">pmc-text-02.tar.gz</a></li>
+     <li><a href="http://ceb.nlm.nih.gov/~simpsonmatt/pmc-text-03.tar.gz">pmc-text-03.tar.gz</a></li>
+    </ol>
+
+    <p> 
+     Each of the 4 files listed above is around 2&ndash;3 GB in size. The
+     article NXMLs in each archive are split into multiple directories to allow
+     for easy directory listings. Please note that the directory structure was 
+     created merely as a convenience and is not meant to convey any
+     information about the articles.
+    </p>
+
+    <p>
+     Participants wishing to utilize additional media other than text, such as
+     the images and videos included in the articles, can download the full
+     document bundles directly from the 
+     <a href="http://www.ncbi.nlm.nih.gov/pmc/tools/ftp/">PMC Open
+     Access FTP Service</a>. However, be aware that the size of the full
+     collection is around 2 TB with the additional media and takes several days
+     to completely download.
+    </p>
+
+    <p>
+     We have prepared a simple python script for participants wishing to
+     obtain the full collection. The script downloads only the articles
+     present in the January 21, 2014 snapshot and can be obtained from the
+     links below.
+    </p>
+
+    <ol>
+     <li><a href="http://ceb.nlm.nih.gov/~simpsonmatt/download.py">download.py</a></li>
+     <li><a href="http://ceb.nlm.nih.gov/~simpsonmatt/file_list.txt.gz">file_list.txt.gz</a></li>
+    </ol>
+
+    <p>
+     The script should work with most recent versions of python and has
+     been tested with versions 2.6, 2.7, and 3.3 on Linux, OS X, and Windows.
+     Please let the organizers know if you encounter any trouble using it.
+     Participants can use the above script to download the entire collection,
+     including images and videos, by executing the following shell command.
+    </p>
+
+    <div class="code"><!--
+     -->$ python download.py -i file_list.txt.gz -o TREC-CDS<!--
+    --></div>
+
+    <p>
+     <span class="code">file_list.txt.gz</span> is a compressed list of the
+     article archives included in the January 21, 2014 snapshot and  <span
+     class="code">TREC-CDS</span> is the local directory where the collection
+     will be downloaded. For additional usage information, please enter the
+     following.
+    </p>
+
+    <div class="code"><!--
+     -->$ python download.py --help<!--
+    --></div>
+
+    <p>
+     Interested participants are free to devise their own method for obtaining
+     the full collection. However, please note that the articles listed in
+     <span class="code">file_list.txt.gz</span> constitute the definitive
+     collection for the track. Because articles are added to the PMC Open
+     Access Subset every day, you will still want to use <span
+     class="code">file_list.txt.gz</span> in order to restrict the downloaded
+    files to those present in the January 21, 2014 snapshot.
+    </p>
+
+    <p>
+     Downloading the additional media associated with the full-text articles is
+     entirely optional. None of the topics will require this information.
+     However, we are providing this option for participants who may be
+     interested in analyzing  the medical images included in many of the
+     articles as part of their retrieval strategies.
+    </p>
+
+    <p>
+     <b>Alternatively</b>, for those who do not wish to parse the NXML, a recent
+     text file snapshot of the Open Access Subset has been made
+     <a href="http://www.ncbi.nlm.nih.gov/pmc/about/new-in-pmc/#2015-02-05">available
+	     from PMC</a>.
+     <i>Note</i>, since this snapshot was taken at a different time, their text
+     file document collection likely has many more articles than the official
+     PMC snapshot for the task.
+     Additionally, it is likely missing a few documents from the official
+     collection.
+     <i>Any article that is not in the official PMC snaphot will not be evaluated,
+	     so use with care.</i>
+     We only mention this alternate collection because last year several
+     participants were concerned with the difficulties of parsing the PMC NXML.
+     The organizers have never used this alternate collection, and thus cannot
+     vouch for it in any way.
+     <font color="red">Update:</font>
+     If you intend to use the text-only files, we have made a list of the valid
+     PMCIDs (<a href="./pmcid.list.txt">pmcid.list.txt</a>), a mapping file between the
+     latest text-only snapshot and the valid PMCIDs
+     (<a href="./pmcid.map.1.txt">pmcid.map.1.txt</a>,
+      <a href="./pmcid.map.2.txt">pmcid.map.2.txt</a>), as well as a map of the
+     articles that appear to be missing
+     (<a href="./pmcid.missing.map.txt">pmcid.missing.map.txt</a>).
+     <i>Again</i>, you use these at your own risk.  We believe that given the
+     latest snapshot and proper use of the above files, the vast majority of the
+     valid articles will be available, yet we cannot guarantee this.
+    </p>
+
+
+    <a name="duplicates"><h4>Duplicate PMCIDs</h4>
+    <p>
+     We have been made aware of the existence of duplicated documents in the
+     collection. While the duplicates will likely not impact retrieval results,
+     we are not going to consider them when conducting the relevance
+     assessment. Participating groups have provided lists of the files that
+     will not be judged, as they are duplicates of other files remaining in the
+     collection. The lists of files can be obtained from the link below.
+    </p>
+
+    <ol>
+     <li><a href="./duplicates-1.txt">duplicates-1.txt</a></li>
+     <li><a href="./duplicates-2.txt">duplicates-2.txt</a></li>
+    </ol>
+
+   </div>
+
+   <a name="topics"><h3>Topics</h3>
+
+   <div class="hyphenate">
+    <p>
+     The topics for the track are medical case narratives created by expert
+     topic developers that will serve as idealized representations of actual
+     medical records. The case narratives describe information such as a
+     patient's medical history, the patient's current symptoms, tests performed
+     by a physician to diagnose the patient's condition, the patient's eventual
+     diagnosis, and finally, the steps taken by a physician to treat the
+     patient. 
+    </p>
+    <p>
+     There are many clinically relevant questions that can be asked of a given
+     case narrative. In order to simulate the actual information needs of
+     physicians, the topics are annotated according to the three most common
+     generic clinical question types (<a
+     href="http://dx.doi.org/10.1136/bmj.321.7258.429">Ely et al., 2000)</a>
+     shown in the table below. Participants will be tasked with retrieving
+     biomedical articles useful for answering generic questions of the
+     specified type about each case report.
+    </p>
+   </div>
+
+   <table>
+    <thead>
+     <tr>
+      <th>Type</th>
+      <th>Generic Clinical Question</th>
+      <th>Number of Topics</th>
+     </tr>
+    </thead>
+    <tbody>
+     <tr>
+      <td>Diagnosis</td>
+      <td>What is the patient's diagnosis?</td>
+      <td>10</td>
+     </tr>
+     <tr>
+      <td>Test</td>
+      <td>What tests should the patient receive?</td>
+      <td>10</td>
+     </tr>
+     <tr>
+      <td>Treatment</td>
+      <td>How should the patient be treated?</td>
+      <td>10</td>
+     </tr>
+    </tbody>
+   </table>
+
+   <div class="hyphenate">
+    <p>
+     For example, for a case report labeled "diagnosis" participants should
+     retrieve PMC articles a physician would find useful for determining the
+     diagnosis of the patient described in the report. Similarly, for a case
+     report labeled "treatment," participants should retrieve articles that
+     suggest to a physician the best treatment plan for the condition exhibited
+     by the patient described in the report. Finally, for "test" case reports 
+     participants should retrieve articles that suggest relevant
+     interventions that a physician might undertake in diagnosing the patient.
+    </p>
+
+    <p>
+     In addition to annotating the topics according to the type of clinical
+     information required, we are also providing two versions of the case
+     narratives. The topic "descriptions" contain a complete account of the
+     patients' visits, including details such as their vital statistics, drug
+     dosages, etc., whereas the topic "summaries" are simplified versions of
+     the narratives that contain less irrelevant information.  A topic's
+     description and its summary are functionally equivalent: the set of
+     relevant documents is identical for each version. However, we are
+     providing the summary versions for participants who are not interested in
+     or equipped for processing the detailed descriptions. 
+    </p>
+
+    <p>
+     In order to make the results of the track more meaningful, we require that
+     participants use only all topic descriptions or only all topic summaries
+     for any given run submission. Participants are, of course, free to submit
+     multiple runs so that they can experiment with the different
+     representations. Participants will be required to indicate on the run
+     submission form which version of the topics they used.
+    </p>
+
+    <p>
+     The table below shows examples of the kind of case-based topics we will
+     be using for the track.
+     The PMCIDs listed in the last column are relevant for the given cases
+     because they can assist a physician in determining the patient's
+     diagnosis or treatment.
+    </p>
+   </div>
+
+   <table>
+    <thead>
+     <tr>
+      <th>No.</th>
+      <th>Type</th>
+      <th>Summary</th>
+      <th>Relevant Articles</th>
+     </tr>
+    </thead>
+    <tbody>
+     <tr>
+      <td>1.</td>
+      <td>Diagnosis</td>
+      <td class="hyphenate">
+       <b>Description:</b> A 26-year-old obese woman with a history of bipolar
+       disorder complains that her recent struggles with her weight and eating
+       have caused her to feel depressed.
+       She states that she has recently had difficulty sleeping and feels
+       excessively anxious and agitated.
+       She also states that she has had thoughts of suicide.
+       She often finds herself fidgety and unable to sit still for extended
+       periods of time.
+       Her family tells her that she is increasingly irritable.
+       Her current medications include lithium carbonate and zolpidem.<br>
+       <b>Summary:</b> 26-year-old obese woman with bipolar disorder, on
+       zolpidem and lithium, with recent difficulty sleeping, agitation,
+       suicidal ideation, and irritability.
+      </td>
+      <td>
+	      <ul class="none">
+		      <li><a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1087494">1087494</a>
+		      <li><a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1434505">1434505</a>
+		      <li><a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2031887">2031887</a>
+	      </ul>
+      </td>
+     </tr>
+     <tr>
+      <td>2.</td>
+      <td>Treatment</td>
+      <td class="hyphenate">
+        <b>Description:</b> A 21-year-old female is evaluated for progressive
+        arthralgias and malaise.
+        On examination she is found to have alopecia, a rash mainly distributed
+        on the bridge of her nose and her cheeks, a delicate non-palpable
+        purpura on her calves, and swelling and tenderness of her wrists and
+        ankles.
+        Her lab shows normocytic anemia, thrombocytopenia, a 4/4 positive ANA
+        and anti-dsDNA.
+	Her urine is positive for protein and RBC casts.<br>
+        <b>Summary:</b> 21-year-old female with progressive arthralgias,
+        fatigue, and butterfly-shaped facial rash.
+        Labs are significant for positive ANA and anti-double-stranded DNA, as
+        well as proteinuria and RBC casts.
+      </td>
+      <td>
+	      <ul class="none">
+		      <li><a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1065341">1065341</a>
+		      <li><a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1459118">1459118</a>
+		      <li><a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1526641">1526641</a>
+	      </ul>
+      </td>
+     </tr> 
+    </tbody>
+   </table>
+
+   <p>
+   Additionally, based on participant feedback, we will conduct two rounds of
+   evaluation (Tasks A &amp; B).
+   Teams may participate in either or both tasks.
+   Task A will be identical to the 2014 track.
+   In Task B, participants will be provided with a diagnosis field for the
+   treatment and test topics.
+   This field will be free text much like the description and summary.
+   For instance, the diagnosis of the treatment topic above is
+   &quot;lupus&quot;.
+   The diagnosis is not guaranteed to be stated in the description or summary
+   for treatment and test cases, which is consistent with how physicians write
+   cases in practice.
+   Presumably, providing the diagnosis may improve retrieval systems by
+   (a) providing additional relevant information if the diagnosis is not stated
+   in the case, or
+   (b) emphasizing a key piece of information in the case if the diagnosis is
+   stated.
+   Note that in some cases more than one diagnosis is possible.
+   <b>Further</b>, these will only be made available after the deadline for
+   Task A, ensuring participants in the first task can only utilize the
+   description or summary.
+   </p>
+
+   <h4>Obtaining the Topics</h4>
+   <div class="hyphenate">
+    <p>
+    The topics for Tasks A and B are provided below.
+    </p>
+     <ol>
+	     <li><a href="topics2015A.xml">topics2015A.xml</a></li>
+	     <li><a href="topics2015B.xml">topics2015B.xml</a></li>
+    </ol>
+    <p>
+     Topic numbers are specified using the <span class="code">number</span>
+     attribute of each <span class="code">&lt;topic&gt;</span> element and
+     topic types (i.e., diagnosis, test, and treatment) are specified with the
+     <span class="code">type</span> attribute. Topic descriptions are given in
+     <span class="code">&lt;description&gt;</span> elements and topic summaries
+     are given in <span class="code">&lt;summary&gt;</span> elements. Below is
+     an example of the format.
+    </p>
+   </div>
+
+    <div class="code"><!--
+-->&lt;topics&gt;
+ &lt;topic number="1" type="test"&gt;
+  &lt;description&gt;Description of topic 1&lt;/description&gt;
+  &lt;summary&gt;Summary of topic 1&lt;/summary&gt;
+  &lt;diagnosis&gt;Diagnosis or List of Diagnoses&lt;/diagnosis&gt;
+ &lt;/topic&gt;
+ ...
+&lt;/topics&gt;<!--
+    --></div>
+
+  <a name="sample_topics"><h4>Sample Topics</h4>
+   <div class="hyphenate">
+    <p>
+     Participants are free to use last year's topics and judgements in designing
+     their systems:
+     <ol>
+	     <li><a href="topics2014.xml">topics2014.xml</a>
+	     <li><a href="qrels2014.txt">qrels2014.txt</a>
+     </ol>
+     Note these topics do not have a <span class="code">&lt;diagnosis&gt;</span>
+     field, as that is a new feature of this year's track.
+    </p>
+    <p>
+     Additionally, the 
+     <a href="http://www.imageclef.org/2013/medical">2013 ImageCLEF medical
+     task</a> utilized similar cases:
+    </p>
+     <ol>
+     <li><a href="./case-based-topics-imageclef-2013.xml">case-based-topics-imageclef-2013.xml</a></li>
+    </ol>
+    <p>
+     Please take extreme caution when using the ImageCLEF topics. They are
+     provided here only for reference. We have reformatted them somewhat to
+     match this track's topic format, but differences remain. In particular,
+     the ImageCLEF topics only contain the shorter <span
+     class="code">&lt;summary&gt;</span> tags, and all the topics should be
+     considered to be of type <span class="code">diagnosis</span>.
+
+
+    </p>
+   </div>
+
+  <h3>Evaluation</h3>
+
+  <div class="hyphenate">
+   <p>
+    The evaluation will follow standard TREC evaluation
+    procedures for ad hoc retrieval tasks. Participants may submit a maximum of
+    five automatic or manual runs, each consisting of a ranked list of up to
+    one thousand PMCIDs. The highest ranked articles for each topic will be
+    pooled and judged by medical librarians and physicians trained in medical
+    informatics. Assessors will be instructed to judge articles as either
+    "definitely relevant" for answering questions of the specified type about
+    the given case report, "definitely not relevant," or "potentially
+    relevant." The latter judgement may be used if an article is not
+    immediately informative on its own, but the assessor believes it may be
+    relevant in the context of a broader literature review. Because we plan to
+    use a graded relevance scale, the performance of the retrieval submissions
+    will be measured using normalized discounted cumulative gain (NDCG).
+   </p>
+
+   <p>
+    As in past evaluations of medically-oriented TREC tracks, we are fortunate
+    to have the assessment conducted by the Department of Medical Informatics
+    of the Oregon Health and Science University (OHSU). We are extremely
+    grateful for their participation.
+   </p>
+  </div>
+
+  <a name="submission"><h2>Submission Instructions</h2>
+
+  <div class="hyphenate">
+   <!--<p>
+    The TREC runs submission system is now open for the track.  The submission
+    form is linked to from both the Tracks page in the Active Participants'
+    part of the TREC web site and the Results Submission page (which in turn is
+    linked from the main page of the Active Participants' section).
+   </p>-->
+   <p>
+   The submission deadline is currently projected to be 28 July 2015 (Task A)
+   and 30 July 2015 (Task B).
+   <!--A submission deadline of July 28
+    effectively means that you must successfully submit your run prior to NIST
+    staff arriving at NIST on July 29&mdash;basically by 7:00am EDT on July 29.-->
+   </p>
+   <!--<p>
+    To submit a run, fill in the submission form by answering questions that
+    describe the run and specify the file to upload.  After you click submit,
+    the submission system will run a validation script that will test the
+    submission file for various kinds of formatting errors.  A pointer to this
+    script is on both the active participants' track page and in the 'Tools'
+    section of the active participants' web site.  Over the years NIST has
+    found that strict checking of the "sanity" of an input file leads to far
+    fewer problems down the line as it catches a lot of mistakes in the run at
+    a time that the submitter can actually correct them.  You are strongly
+    encouraged to use the script to test your submission file prior to
+    submitting the file to NIST.  Invoke the script giving the run file name as
+    the argument to the script and an error log file will be created.  The
+    error log will contain error messages if any errors exist, and will say
+    that the run was successfully processed otherwise.   If any errors are
+    found by the script at the time the run is submitted, the submission system
+    will reject the run.  <i>Rejected runs are not considered to be
+    submitted</i>; indeed, no information is retained about rejected runs.
+    Submitting a run through the submission system is the only acceptable way
+    to send a run to NIST.  In particular, <b>do not email</b> submission files
+    to NIST as they will be deleted without being read.
+   </p>
+   <p>
+    Once you submit a run, you cannot delete it using the submission system.
+    This means you cannot submit a "corrected" version of a run by using the
+    same run tag.  The prohibition against remote removal of runs is a safety
+    precaution to ensure no one mistakenly (or deliberately!) overwrites
+    someone else's run.  If you need to correct a run, contact NIST with
+    details of the problem.  If you need to correct a run on the last night
+    before the submission deadline, submit a new run with a different run tag,
+    and send NIST email describing the problem and stating which run the new run
+    should replace.
+   </p>
+   <p>
+    One field in the submission form is a list of organizations that have both
+    applied to participate in TREC 2015 and <i>have submitted the required
+    "Dissemination of TREC Results" form to NIST</i>. The list is sorted by
+    Group ID (the ID you selected for your team when you applied). Make sure
+    you are listed in that field, and contact NIST if you are not.  You should
+    make that check now since it could take some time to resolve the issue of
+    why you are not already in the list and to get your group inserted into it.
+    The submission deadline is a firm deadline.
+   </p>-->
+  </div>
+
+  <h3>Submission File Format</h3>
+  <div class="hyphenate">
+   <p>
+    The format for run submssions is standard <a
+    href="http://trec.nist.gov/trec_eval/">trec_eval</a> format. Each line of
+    the submission file should follow the form:
+   </p>
+  </div>
+  <div class="code"><!--
+   -->TOPIC_NO  Q0  PMCID  RANK  SCORE  RUN_NAME<!--
+  --></div>
+  <div class="hyphenate">
+   <p>
+    where <span class="code">TOPIC_NO</span> is the topic number (1&ndash;30),
+    <span class="code">0</span> is a required but ignored constant, <span
+    class="code">PMCID</span> is the PubMed Central identifier of the retrieved
+    document, <span class="code">RANK</span> is the rank (1&ndash;1000) of the
+    retrieved document, <span class="code">SCORE</span> is a floating point
+    value reprenting the similarity score of the document, and <span
+    class="code">RUN_NAME</span> is an identifier for the run. The <span
+    class="code">RUN_NAME</span> is limited to 12 alphanumeric characters (no
+    punctuation). The file is assumed to be sorted numerically by <span
+    class="code">TOPIC_NO</span>, and <span class="code">SCORE</span> is
+    assumed to be greater for docments that should be retrieved first. For example,
+    the following would be a valid line of a run submission file:
+   </p>
+  </div>
+  <div class="code"><!--
+   -->1  Q0  3148967  1  0.9999  my-run<!--
+  --></div>
+  <div class="hyphenate">
+   <p>
+    The above line indicates that the run named "my-run" retrieves for topic
+    number 1 document <a
+    href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3148967/">3148967</a> at
+    rank 1 with a score of 0.9999.
+   </p>
+  </div>
+  </div>
+ </body>
+</html>

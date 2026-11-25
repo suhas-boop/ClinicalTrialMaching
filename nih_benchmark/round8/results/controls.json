@@ -1,0 +1,638 @@
+{
+  "108": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "109": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "111": [
+    "authoring hold"
+  ],
+  "115": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "116": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "120": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "130": [
+    "authoring hold"
+  ],
+  "132": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "138": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "140": [
+    "authoring hold"
+  ],
+  "142": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "145": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "147": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "150": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "154": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "155": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "171": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "174": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "177": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "179": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "184": [
+    "authoring hold"
+  ],
+  "185": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "186": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "187": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "196": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "20": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "203": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "212": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "217": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "218": [
+    "authoring hold"
+  ],
+  "226": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "227": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "230": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "231": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "232": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "233": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "235": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "239": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "25": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "26": [
+    "MET",
+    "NOT_MET",
+    "NOT_APPLICABLE",
+    "empty evidence"
+  ],
+  "29": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "307": [
+    "authoring hold"
+  ],
+  "322": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "323": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "328": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "329": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "330": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "332": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "336": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "34": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "359": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "36": [
+    "authoring hold"
+  ],
+  "366": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "367": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "379": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "385": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "396": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "397": [
+    "authoring hold"
+  ],
+  "400": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "401": [
+    "authoring hold"
+  ],
+  "402": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "414": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "418": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "419": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "435": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "437": [
+    "authoring hold"
+  ],
+  "44": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "45": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "454": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "46": [
+    "authoring hold"
+  ],
+  "460": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "467": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "468": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "475": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "476": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "477": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "481": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "492": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "493": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "494": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "495": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "496": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "497": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "498": [
+    "authoring hold"
+  ],
+  "502": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "517": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "544": [
+    "authoring hold"
+  ],
+  "55": [
+    "authoring hold"
+  ],
+  "577": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "621": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "632": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "633": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "636": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "637": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "640": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "653": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "671": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "706": [
+    "authoring hold"
+  ],
+  "720": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "722": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "723": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "724": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "725": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "726": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "734": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "735": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "736": [
+    "authoring hold"
+  ],
+  "737": [
+    "authoring hold"
+  ],
+  "738": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "795": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "81": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "817": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "850": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "860": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "866": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "867": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "870": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "875": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "890": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "919": [
+    "authoring hold"
+  ],
+  "935": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "936": [
+    "MET",
+    "NOT_MET",
+    "NOT_APPLICABLE",
+    "empty evidence"
+  ],
+  "938": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "939": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "940": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "945": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "946": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "952": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "953": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "955": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "957": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "962": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "965": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ],
+  "985": [
+    "MET",
+    "NOT_MET",
+    "empty evidence"
+  ]
+}

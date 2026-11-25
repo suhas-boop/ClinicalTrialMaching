@@ -1,0 +1,6 @@
+{
+ "sigir-201418":{"consent_refused":[false,[7]]},
+ "sigir-201420":{"blunt_abdominal_trauma":[true,[0,1,4,5]],"acute_surgical_abdomen":[true,[4,5]]},
+ "sigir-201425":{"gcs":[6,[5]],"traumatic_brain_injury":[true,[0,2,5]]},
+ "sigir-20151":{"active_treatment_of_any_form_not_considered":[false,[3]]}
+}

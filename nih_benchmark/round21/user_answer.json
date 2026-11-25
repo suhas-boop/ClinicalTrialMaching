@@ -1,0 +1,11 @@
+{
+  "study": "NCT02340533",
+  "protocol_id": "AD0152015",
+  "criterion": "706",
+  "source_role": "user",
+  "question": "For protocol AD0152015, does any one of the five listed symptoms satisfy the inclusion criterion without a separate diagnosis of pelvic congestion? If so, please identify the protocol version and clause.",
+  "answer": "Yes",
+  "governing_protocol_version": null,
+  "governing_protocol_clause": null,
+  "source_authority_verified": false
+}

@@ -1,0 +1,1389 @@
+{
+  "assignments": 134,
+  "patient_study_pairs": 68,
+  "pair_dispositions": {
+    "CONTINUE_SCREENING": 62,
+    "NOT_ELIGIBLE_AT_PRESENTATION": 6
+  },
+  "age_screen_coverage": {
+    "EXCLUDED_BY_AGE_AT_PRESENTATION": 5,
+    "NO_DEFINITE_AGE_EXCLUSION": 43,
+    "UNRATED": 20
+  },
+  "criteria_in_excluded_pairs": [
+    34,
+    36,
+    138,
+    140,
+    217,
+    218,
+    336,
+    734,
+    735,
+    736,
+    737,
+    738,
+    850
+  ],
+  "pair_results": [
+    {
+      "study": "NCT00149227",
+      "subject": "Patient/sigir-20141",
+      "disposition": "CONTINUE_SCREENING",
+      "decisive_findings": [],
+      "age_screen": {
+        "state": "NO_DEFINITE_AGE_EXCLUSION",
+        "reason": "NO_PROVEN_AGE_VIOLATION"
+      },
+      "fever_duration": null,
+      "assigned_criteria": [
+        25,
+        26,
+        29
+      ]
+    },
+    {
+      "study": "NCT01397994",
+      "subject": "Patient/sigir-20141",
+      "disposition": "CONTINUE_SCREENING",
+      "decisive_findings": [],
+      "age_screen": {
+        "state": "NO_DEFINITE_AGE_EXCLUSION",
+        "reason": "NO_PROVEN_AGE_VIOLATION"
+      },
+      "fever_duration": null,
+      "assigned_criteria": [
+        20
+      ]
+    },
+    {
+      "study": "NCT02097186",
+      "subject": "Patient/sigir-201410",
+      "disposition": "CONTINUE_SCREENING",
+      "decisive_findings": [],
+      "age_screen": {
+        "state": "UNRATED",
+        "reason": "INDEX_PATIENT_PRESENTATION_AGE_UNVERIFIED"
+      },
+      "fever_duration": null,
+      "assigned_criteria": [
+        171,
+        174
+      ]
+    },
+    {
+      "study": "NCT02264964",
+      "subject": "Patient/sigir-201410",
+      "disposition": "CONTINUE_SCREENING",
+      "decisive_findings": [],
+      "age_screen": {
+        "state": "UNRATED",
+        "reason": "INDEX_PATIENT_PRESENTATION_AGE_UNVERIFIED"
+      },
+      "fever_duration": null,
+      "assigned_criteria": [
+        177,
+        179,
+        184
+      ]
+    },
+    {
+      "study": "NCT01526382",
+      "subject": "Patient/sigir-201411",
+      "disposition": "CONTINUE_SCREENING",
+      "decisive_findings": [],
+      "age_screen": {
+        "state": "NO_DEFINITE_AGE_EXCLUSION",
+        "reason": "NO_PROVEN_AGE_VIOLATION"
+      },
+      "fever_duration": null,
+      "assigned_criteria": [
+        185,
+        186,
+        187
+      ]
+    },
+    {
+      "study": "NCT01723137",
+      "subject": "Patient/sigir-201411",
+      "disposition": "CONTINUE_SCREENING",
+      "decisive_findings": [],
+      "age_screen": {
+        "state": "NO_DEFINITE_AGE_EXCLUSION",
+        "reason": "NO_PROVEN_AGE_VIOLATION"
+      },
+      "fever_duration": null,
+      "assigned_criteria": [
+        196
+      ]
+    },
+    {
+      "study": "NCT01551498",
+      "subject": "Patient/sigir-201412",
+      "disposition": "CONTINUE_SCREENING",
+      "decisive_findings": [],
+      "age_screen": {
+        "state": "NO_DEFINITE_AGE_EXCLUSION",
+        "reason": "NO_PROVEN_AGE_VIOLATION"
+      },
+      "fever_duration": null,
+      "assigned_criteria": [
+        203
+      ]
+    },
+    {
+      "study": "NCT00163709",
+      "subject": "Patient/sigir-201413",
+      "disposition": "NOT_ELIGIBLE_AT_PRESENTATION",
+      "decisive_findings": [
+        {
+          "gate": "registered_age_window",
+          "receipt": {
+            "scope": "study_age_at_presentation",
+            "subject": "Patient/sigir-201413",
+            "study": "NCT00163709",
+            "catalog_sha256": "8f74ae1b4fb2c4de07965dd52dc56fba5a04a9e82d1ae500452e9e414eaf2e66",
+            "criterion_ids_for_study": [
+              "217",
+              "218"
+            ],
+            "registration": {
+              "url": "https://clinicaltrials.gov/study/NCT00163709",
+              "sha256": "e12989ca53a0a2d7de8e70eaf9450a85a0627a7cb56b91f291b1f1f7fbf5b709",
+              "original_xml": "xml/NCT00163709.xml",
+              "archive_member": "clinicaltrials.gov-16_dec_2015/NCT00163709.xml",
+              "archive_sha256": "10e63f2f3e06315546243ac7114383ea31ac52930cb1d1c04aeee46afec20f80",
+              "archive_url": "https://data.csiro.au/dap/ws/v2/collections/17152/data/48639721",
+              "snapshot_date": "2015-12-16",
+              "last_update": "October 3, 2006",
+              "locator": "clinical_study/eligibility/{minimum_age,maximum_age}",
+              "raw_bounds": {
+                "minimumAge": "40 Years",
+                "maximumAge": "N/A"
+              },
+              "bounds": {
+                "minimumAge": "40 Years"
+              },
+              "catalog_criterion_ids": [
+                "217",
+                "218"
+              ],
+              "benchmark_version_verified": true
+            },
+            "patient_age": {
+              "value": 30,
+              "unit": "a",
+              "completed_years": 30,
+              "source": "DocumentReference/sigir-201413-note",
+              "source_sha256": "2c46cae14a71d4b21ec7a1e407c6049b8d4f6f766d29508adcfd33d4172d2b54",
+              "line_index": 0,
+              "excerpt": "0. A 30-year-old generally healthy woman presents with shortness of breath that had started 2 hours before admission.",
+              "resources": [
+                "Observation/n-0153ee92f6f13fd37e3c6a0a5721fe"
+              ],
+              "anchor": "documented presentation"
+            },
+            "scope_review": "Emergency-department population; the narrative requires over 40. The structured lower limit alone cannot decide whether a 40-year-old meets the narrative wording.",
+            "state": "EXCLUDED_BY_AGE_AT_PRESENTATION",
+            "reason": "BELOW_MINIMUM",
+            "assigned_criterion_ids": [
+              217,
+              218
+            ]
+          }
+        }
+      ],
+      "age_screen": {
+        "state": "EXCLUDED_BY_AGE_AT_PRESENTATION",
+        "reason": "BELOW_MINIMUM"
+      },
+      "fever_duration": null,
+      "assigned_criteria": [
+        217,
+        218
+      ]
+    },
+    {
+      "study": "NCT02264769",
+      "subject": "Patient/sigir-201413",
+      "disposition": "CONTINUE_SCREENING",
+      "decisive_findings": [],
+      "age_screen": {
+        "state": "NO_DEFINITE_AGE_EXCLUSION",
+        "reason": "NO_PROVEN_AGE_VIOLATION"
+      },
+      "fever_duration": null,
+      "assigned_criteria": [
+        212
+      ]
+    },
+    {
+      "study": "NCT01624545",
+      "subject": "Patient/sigir-201414",
+      "disposition": "CONTINUE_SCREENING",
+      "decisive_findings": [],
+      "age_screen": {
+        "state": "NO_DEFINITE_AGE_EXCLUSION",
+        "reason": "NO_PROVEN_AGE_VIOLATION"
+      },
+      "fever_duration": null,
+      "assigned_criteria": [
+        226,
+        227
+      ]
+    },
+    {
+      "study": "NCT01869855",
+      "subject": "Patient/sigir-201414",
+      "disposition": "CONTINUE_SCREENING",
+      "decisive_findings": [],
+      "age_screen": {
+        "state": "NO_DEFINITE_AGE_EXCLUSION",
+        "reason": "NO_PROVEN_AGE_VIOLATION"
+      },
+      "fever_duration": null,
+      "assigned_criteria": [
+        230,
+        231,
+        232,
+        233
+      ]
+    },
+    {
+      "study": "NCT00277680",
+      "subject": "Patient/sigir-201415",
+      "disposition": "CONTINUE_SCREENING",
+      "decisive_findings": [],
+      "age_screen": {
+        "state": "NO_DEFINITE_AGE_EXCLUSION",
+        "reason": "NO_PROVEN_AGE_VIOLATION"
+      },
+      "fever_duration": null,
+      "assigned_criteria": [
+        235,
+        239
+      ]
+    },
+    {
+      "study": "NCT01745731",
+      "subject": "Patient/sigir-201417",
+      "disposition": "CONTINUE_SCREENING",
+      "decisive_findings": [],
+      "age_screen": {
+        "state": "UNRATED",
+        "reason": "INDEX_PATIENT_PRESENTATION_AGE_UNVERIFIED"
+      },
+      "fever_duration": null,
+      "assigned_criteria": [
+        307,
+        322
+      ]
+    },
+    {
+      "study": "NCT02556359",
+      "subject": "Patient/sigir-201417",
+      "disposition": "CONTINUE_SCREENING",
+      "decisive_findings": [],
+      "age_screen": {
+        "state": "UNRATED",
+        "reason": "INDEX_PATIENT_PRESENTATION_AGE_UNVERIFIED"
+      },
+      "fever_duration": null,
+      "assigned_criteria": [
+        323
+      ]
+    },
+    {
+      "study": "NCT00557219",
+      "subject": "Patient/sigir-201418",
+      "disposition": "NOT_ELIGIBLE_AT_PRESENTATION",
+      "decisive_findings": [
+        {
+          "gate": "registered_age_window",
+          "receipt": {
+            "scope": "study_age_at_presentation",
+            "subject": "Patient/sigir-201418",
+            "study": "NCT00557219",
+            "catalog_sha256": "8f74ae1b4fb2c4de07965dd52dc56fba5a04a9e82d1ae500452e9e414eaf2e66",
+            "criterion_ids_for_study": [
+              "336"
+            ],
+            "registration": {
+              "url": "https://clinicaltrials.gov/study/NCT00557219",
+              "sha256": "9e5fe5fed6294932ca9d515a375eaec1fda2c7ce1dac9e4166762937bc14646d",
+              "original_xml": "xml/NCT00557219.xml",
+              "archive_member": "clinicaltrials.gov-16_dec_2015/NCT00557219.xml",
+              "archive_sha256": "10e63f2f3e06315546243ac7114383ea31ac52930cb1d1c04aeee46afec20f80",
+              "archive_url": "https://data.csiro.au/dap/ws/v2/collections/17152/data/48639721",
+              "snapshot_date": "2015-12-16",
+              "last_update": "April 9, 2015",
+              "locator": "clinical_study/eligibility/{minimum_age,maximum_age}",
+              "raw_bounds": {
+                "minimumAge": "18 Years",
+                "maximumAge": "N/A"
+              },
+              "bounds": {
+                "minimumAge": "18 Years"
+              },
+              "catalog_criterion_ids": [
+                "336"
+              ],
+              "benchmark_version_verified": true
+            },
+            "patient_age": {
+              "value": 6,
+              "unit": "mo",
+              "completed_years": null,
+              "source": "DocumentReference/sigir-201418-note",
+              "source_sha256": "45c7d130440b3c40921fc87377a04f39e7ddbc476aabda31592b467122d21f32",
+              "line_index": 0,
+              "excerpt": "0. A 6-month-old male infant has a urine output of less than 0.2 mL/kg/hr shortly after undergoing major surgery.",
+              "resources": [
+                "Observation/n-2c1c4b575dcd5f536b6232ca30bebf"
+              ],
+              "anchor": "documented presentation"
+            },
+            "scope_review": "The participant is the surgical patient. A legal representative may provide consent in defined circumstances.",
+            "state": "EXCLUDED_BY_AGE_AT_PRESENTATION",
+            "reason": "BELOW_MINIMUM",
+            "assigned_criterion_ids": [
+              336
+            ]
+          }
+        }
+      ],
+      "age_screen": {
+        "state": "EXCLUDED_BY_AGE_AT_PRESENTATION",
+        "reason": "BELOW_MINIMUM"
+      },
+      "fever_duration": null,
+      "assigned_criteria": [
+        336
+      ]
+    },
+    {
+      "study": "NCT01260883",
+      "subject": "Patient/sigir-201418",
+      "disposition": "CONTINUE_SCREENING",
+      "decisive_findings": [],
+      "age_screen": {
+        "state": "NO_DEFINITE_AGE_EXCLUSION",
+        "reason": "NO_PROVEN_AGE_VIOLATION"
+      },
+      "fever_duration": null,
+      "assigned_criteria": [
+        328,
+        329,
+        330,
+        332
+      ]
+    },
+    {
+      "study": "NCT02509286",
+      "subject": "Patient/sigir-201419",
+      "disposition": "CONTINUE_SCREENING",
+      "decisive_findings": [],
+      "age_screen": {
+        "state": "NO_DEFINITE_AGE_EXCLUSION",
+        "reason": "NO_PROVEN_AGE_VIOLATION"
+      },
+      "fever_duration": null,
+      "assigned_criteria": [
+        359
+      ]
+    },
+    {
+      "study": "NCT02618655",
+      "subject": "Patient/sigir-20142",
+      "disposition": "NOT_ELIGIBLE_AT_PRESENTATION",
+      "decisive_findings": [
+        {
+          "gate": "required_fever_duration",
+          "receipt": {
+            "study": "NCT02618655",
+            "subject": "Patient/sigir-20142",
+            "gate": "inclusion-fever-duration",
+            "state": "NOT_MET",
+            "source_sha256": "190e19212725660d52bc5b51c635644cf2b6af8ff037128327d7563220118625",
+            "evidence": [
+              "DocumentReference/sigir-20142-note#sha256=190e19212725660d52bc5b51c635644cf2b6af8ff037128327d7563220118625&line=0&start=3&end=102",
+              "DocumentReference/sigir-20142-note#sha256=190e19212725660d52bc5b51c635644cf2b6af8ff037128327d7563220118625&line=2&start=165&end=244"
+            ],
+            "source_spans": {
+              "DocumentReference/sigir-20142-note#sha256=190e19212725660d52bc5b51c635644cf2b6af8ff037128327d7563220118625&line=0&start=3&end=102": {
+                "line": 0,
+                "start": 3,
+                "end": 102,
+                "document": "DocumentReference/sigir-20142-note",
+                "quote": "An 8-year-old male presents in March to the ER with fever up to 39 C, dyspnea and cough for 2 days."
+              },
+              "DocumentReference/sigir-20142-note#sha256=190e19212725660d52bc5b51c635644cf2b6af8ff037128327d7563220118625&line=2&start=165&end=244": {
+                "line": 2,
+                "start": 165,
+                "end": 244,
+                "document": "DocumentReference/sigir-20142-note",
+                "quote": "Parents report that prior to the onset of fever and cough, he had loose stools."
+              }
+            },
+            "protocol": {
+              "trial_id": "NCT02618655",
+              "criterion_type": "inclusion",
+              "criterion_text": "patients have fever more than one week",
+              "registry_url": "https://clinicaltrials.gov/study/NCT02618655",
+              "registry_sha256": "fbaf17afb1e459dff97f0ff2a1a5d86e09a189a6a1a2242678c990703a76bb50",
+              "registry_date": "2016-07-26",
+              "location": "protocolSection.eligibilityModule.eligibilityCriteria / inclusion item 1",
+              "start": 23,
+              "end": 61
+            },
+            "value_days": 2,
+            "operator": "gt",
+            "threshold_days": 7,
+            "catalog_sha256": "2d1feeaa78045c238c56f48b67ab4bff7aeb24b7017c38b8d3cf0e1828c8b98d",
+            "linked_frozen_criteria": [
+              34,
+              36
+            ]
+          }
+        }
+      ],
+      "age_screen": {
+        "state": "UNRATED",
+        "reason": "AGE_BOUND_ABSENT_OR_UNSUPPORTED"
+      },
+      "fever_duration": "NOT_MET",
+      "assigned_criteria": [
+        34,
+        36
+      ]
+    },
+    {
+      "study": "NCT01594385",
+      "subject": "Patient/sigir-201420",
+      "disposition": "CONTINUE_SCREENING",
+      "decisive_findings": [],
+      "age_screen": {
+        "state": "NO_DEFINITE_AGE_EXCLUSION",
+        "reason": "NO_PROVEN_AGE_VIOLATION"
+      },
+      "fever_duration": null,
+      "assigned_criteria": [
+        379
+      ]
+    },
+    {
+      "study": "NCT02255487",
+      "subject": "Patient/sigir-201420",
+      "disposition": "CONTINUE_SCREENING",
+      "decisive_findings": [],
+      "age_screen": {
+        "state": "UNRATED",
+        "reason": "BENCHMARK_REGISTRATION_VERSION_UNVERIFIED"
+      },
+      "fever_duration": null,
+      "assigned_criteria": [
+        366,
+        367
+      ]
+    },
+    {
+      "study": "NCT00997100",
+      "subject": "Patient/sigir-201421",
+      "disposition": "CONTINUE_SCREENING",
+      "decisive_findings": [],
+      "age_screen": {
+        "state": "NO_DEFINITE_AGE_EXCLUSION",
+        "reason": "NO_PROVEN_AGE_VIOLATION"
+      },
+      "fever_duration": null,
+      "assigned_criteria": [
+        385,
+        396,
+        397,
+        400,
+        401,
+        402
+      ]
+    },
+    {
+      "study": "NCT01520155",
+      "subject": "Patient/sigir-201421",
+      "disposition": "CONTINUE_SCREENING",
+      "decisive_findings": [],
+      "age_screen": {
+        "state": "NO_DEFINITE_AGE_EXCLUSION",
+        "reason": "NO_PROVEN_AGE_VIOLATION"
+      },
+      "fever_duration": null,
+      "assigned_criteria": [
+        414
+      ]
+    },
+    {
+      "study": "NCT00723788",
+      "subject": "Patient/sigir-201422",
+      "disposition": "CONTINUE_SCREENING",
+      "decisive_findings": [],
+      "age_screen": {
+        "state": "NO_DEFINITE_AGE_EXCLUSION",
+        "reason": "NO_PROVEN_AGE_VIOLATION"
+      },
+      "fever_duration": null,
+      "assigned_criteria": [
+        418,
+        419
+      ]
+    },
+    {
+      "study": "NCT00170222",
+      "subject": "Patient/sigir-201423",
+      "disposition": "CONTINUE_SCREENING",
+      "decisive_findings": [],
+      "age_screen": {
+        "state": "NO_DEFINITE_AGE_EXCLUSION",
+        "reason": "NO_PROVEN_AGE_VIOLATION"
+      },
+      "fever_duration": null,
+      "assigned_criteria": [
+        437
+      ]
+    },
+    {
+      "study": "NCT02219360",
+      "subject": "Patient/sigir-201423",
+      "disposition": "CONTINUE_SCREENING",
+      "decisive_findings": [],
+      "age_screen": {
+        "state": "NO_DEFINITE_AGE_EXCLUSION",
+        "reason": "NO_PROVEN_AGE_VIOLATION"
+      },
+      "fever_duration": null,
+      "assigned_criteria": [
+        435
+      ]
+    },
+    {
+      "study": "NCT02229695",
+      "subject": "Patient/sigir-201424",
+      "disposition": "CONTINUE_SCREENING",
+      "decisive_findings": [],
+      "age_screen": {
+        "state": "NO_DEFINITE_AGE_EXCLUSION",
+        "reason": "NO_PROVEN_AGE_VIOLATION"
+      },
+      "fever_duration": null,
+      "assigned_criteria": [
+        454
+      ]
+    },
+    {
+      "study": "NCT00282269",
+      "subject": "Patient/sigir-201425",
+      "disposition": "CONTINUE_SCREENING",
+      "decisive_findings": [],
+      "age_screen": {
+        "state": "NO_DEFINITE_AGE_EXCLUSION",
+        "reason": "NO_PROVEN_AGE_VIOLATION"
+      },
+      "fever_duration": null,
+      "assigned_criteria": [
+        460,
+        467,
+        468
+      ]
+    },
+    {
+      "study": "NCT02378311",
+      "subject": "Patient/sigir-201425",
+      "disposition": "CONTINUE_SCREENING",
+      "decisive_findings": [],
+      "age_screen": {
+        "state": "UNRATED",
+        "reason": "BENCHMARK_REGISTRATION_VERSION_UNVERIFIED"
+      },
+      "fever_duration": null,
+      "assigned_criteria": [
+        475,
+        476,
+        477
+      ]
+    },
+    {
+      "study": "NCT00373048",
+      "subject": "Group/sigir-201426",
+      "disposition": "CONTINUE_SCREENING",
+      "decisive_findings": [],
+      "age_screen": {
+        "state": "UNRATED",
+        "reason": "INDIVIDUAL_PATIENT_REQUIRED"
+      },
+      "fever_duration": null,
+      "assigned_criteria": [
+        481
+      ]
+    },
+    {
+      "study": "NCT00497471",
+      "subject": "Group/sigir-201426",
+      "disposition": "CONTINUE_SCREENING",
+      "decisive_findings": [],
+      "age_screen": {
+        "state": "UNRATED",
+        "reason": "BENCHMARK_REGISTRATION_VERSION_UNVERIFIED"
+      },
+      "fever_duration": null,
+      "assigned_criteria": [
+        492,
+        493,
+        494,
+        495,
+        496,
+        497,
+        498
+      ]
+    },
+    {
+      "study": "NCT01187901",
+      "subject": "Patient/sigir-201427",
+      "disposition": "CONTINUE_SCREENING",
+      "decisive_findings": [],
+      "age_screen": {
+        "state": "UNRATED",
+        "reason": "INDEX_PATIENT_PRESENTATION_AGE_UNVERIFIED"
+      },
+      "fever_duration": null,
+      "assigned_criteria": [
+        502
+      ]
+    },
+    {
+      "study": "NCT01713881",
+      "subject": "Patient/sigir-201427",
+      "disposition": "CONTINUE_SCREENING",
+      "decisive_findings": [],
+      "age_screen": {
+        "state": "UNRATED",
+        "reason": "INDEX_PATIENT_PRESENTATION_AGE_UNVERIFIED"
+      },
+      "fever_duration": null,
+      "assigned_criteria": [
+        517
+      ]
+    },
+    {
+      "study": "NCT01452971",
+      "subject": "Patient/sigir-20143",
+      "disposition": "CONTINUE_SCREENING",
+      "decisive_findings": [],
+      "age_screen": {
+        "state": "NO_DEFINITE_AGE_EXCLUSION",
+        "reason": "NO_PROVEN_AGE_VIOLATION"
+      },
+      "fever_duration": null,
+      "assigned_criteria": [
+        44,
+        45
+      ]
+    },
+    {
+      "study": "NCT02490059",
+      "subject": "Patient/sigir-20143",
+      "disposition": "CONTINUE_SCREENING",
+      "decisive_findings": [],
+      "age_screen": {
+        "state": "NO_DEFINITE_AGE_EXCLUSION",
+        "reason": "NO_PROVEN_AGE_VIOLATION"
+      },
+      "fever_duration": null,
+      "assigned_criteria": [
+        46
+      ]
+    },
+    {
+      "study": "NCT02273232",
+      "subject": "Patient/sigir-201430",
+      "disposition": "CONTINUE_SCREENING",
+      "decisive_findings": [],
+      "age_screen": {
+        "state": "NO_DEFINITE_AGE_EXCLUSION",
+        "reason": "NO_PROVEN_AGE_VIOLATION"
+      },
+      "fever_duration": null,
+      "assigned_criteria": [
+        544
+      ]
+    },
+    {
+      "study": "NCT00841789",
+      "subject": "Patient/sigir-20144",
+      "disposition": "CONTINUE_SCREENING",
+      "decisive_findings": [],
+      "age_screen": {
+        "state": "NO_DEFINITE_AGE_EXCLUSION",
+        "reason": "NO_PROVEN_AGE_VIOLATION"
+      },
+      "fever_duration": null,
+      "assigned_criteria": [
+        81
+      ]
+    },
+    {
+      "study": "NCT02390596",
+      "subject": "Patient/sigir-20144",
+      "disposition": "CONTINUE_SCREENING",
+      "decisive_findings": [],
+      "age_screen": {
+        "state": "UNRATED",
+        "reason": "BENCHMARK_REGISTRATION_VERSION_UNVERIFIED"
+      },
+      "fever_duration": null,
+      "assigned_criteria": [
+        55
+      ]
+    },
+    {
+      "study": "NCT00015626",
+      "subject": "Patient/sigir-20146",
+      "disposition": "CONTINUE_SCREENING",
+      "decisive_findings": [],
+      "age_screen": {
+        "state": "UNRATED",
+        "reason": "INDEX_PATIENT_PRESENTATION_AGE_UNVERIFIED"
+      },
+      "fever_duration": null,
+      "assigned_criteria": [
+        120
+      ]
+    },
+    {
+      "study": "NCT02512159",
+      "subject": "Patient/sigir-20146",
+      "disposition": "CONTINUE_SCREENING",
+      "decisive_findings": [],
+      "age_screen": {
+        "state": "UNRATED",
+        "reason": "INDEX_PATIENT_PRESENTATION_AGE_UNVERIFIED"
+      },
+      "fever_duration": null,
+      "assigned_criteria": [
+        108,
+        109,
+        111,
+        115,
+        116
+      ]
+    },
+    {
+      "study": "NCT00845988",
+      "subject": "Patient/sigir-20147",
+      "disposition": "CONTINUE_SCREENING",
+      "decisive_findings": [],
+      "age_screen": {
+        "state": "NO_DEFINITE_AGE_EXCLUSION",
+        "reason": "NO_PROVEN_AGE_VIOLATION"
+      },
+      "fever_duration": null,
+      "assigned_criteria": [
+        130,
+        132
+      ]
+    },
+    {
+      "study": "NCT01863628",
+      "subject": "Patient/sigir-20147",
+      "disposition": "NOT_ELIGIBLE_AT_PRESENTATION",
+      "decisive_findings": [
+        {
+          "gate": "registered_age_window",
+          "receipt": {
+            "scope": "study_age_at_presentation",
+            "subject": "Patient/sigir-20147",
+            "study": "NCT01863628",
+            "catalog_sha256": "8f74ae1b4fb2c4de07965dd52dc56fba5a04a9e82d1ae500452e9e414eaf2e66",
+            "criterion_ids_for_study": [
+              "138",
+              "140"
+            ],
+            "registration": {
+              "url": "https://clinicaltrials.gov/study/NCT01863628",
+              "sha256": "5a54441fc7f2b1e48e0fa76b829876a4d074a3520d9ddf0dbf1b084cdc591cdc",
+              "original_xml": "xml/NCT01863628.xml",
+              "archive_member": "clinicaltrials.gov-16_dec_2015/NCT01863628.xml",
+              "archive_sha256": "10e63f2f3e06315546243ac7114383ea31ac52930cb1d1c04aeee46afec20f80",
+              "archive_url": "https://data.csiro.au/dap/ws/v2/collections/17152/data/48639721",
+              "snapshot_date": "2015-12-16",
+              "last_update": "March 14, 2015",
+              "locator": "clinical_study/eligibility/{minimum_age,maximum_age}",
+              "raw_bounds": {
+                "minimumAge": "10 Years",
+                "maximumAge": "25 Years"
+              },
+              "bounds": {
+                "minimumAge": "10 Years",
+                "maximumAge": "25 Years"
+              },
+              "catalog_criterion_ids": [
+                "138",
+                "140"
+              ],
+              "benchmark_version_verified": true
+            },
+            "patient_age": {
+              "value": 26,
+              "unit": "a",
+              "completed_years": 26,
+              "source": "DocumentReference/sigir-20147-note",
+              "source_sha256": "867d6d6173382ea0098563cdd4ba6bca14e5b05368f31b6aa0d696316fd9160b",
+              "line_index": 0,
+              "excerpt": "0. A 26-year-old obese woman with a history of bipolar disorder complains that her recent struggles with her weight and eating have caused her to feel depressed.",
+              "resources": [
+                "Observation/n-c7b30fc7d8a4343295563b01de6e11"
+              ],
+              "anchor": "documented presentation"
+            },
+            "scope_review": "Subjects and treatment specifies offspring aged 10 to 25. Parent diagnostic interviews support the offspring screening. Scope is the registered study.",
+            "state": "EXCLUDED_BY_AGE_AT_PRESENTATION",
+            "reason": "ABOVE_MAXIMUM",
+            "assigned_criterion_ids": [
+              138,
+              140
+            ]
+          }
+        }
+      ],
+      "age_screen": {
+        "state": "EXCLUDED_BY_AGE_AT_PRESENTATION",
+        "reason": "ABOVE_MAXIMUM"
+      },
+      "fever_duration": null,
+      "assigned_criteria": [
+        138,
+        140
+      ]
+    },
+    {
+      "study": "NCT01519271",
+      "subject": "Patient/sigir-20148",
+      "disposition": "CONTINUE_SCREENING",
+      "decisive_findings": [],
+      "age_screen": {
+        "state": "UNRATED",
+        "reason": "BENCHMARK_REGISTRATION_VERSION_UNVERIFIED"
+      },
+      "fever_duration": null,
+      "assigned_criteria": [
+        142,
+        145,
+        147
+      ]
+    },
+    {
+      "study": "NCT01628315",
+      "subject": "Patient/sigir-20148",
+      "disposition": "CONTINUE_SCREENING",
+      "decisive_findings": [],
+      "age_screen": {
+        "state": "UNRATED",
+        "reason": "HISTORICAL_ENROLLMENT_AGE_REQUIRED"
+      },
+      "fever_duration": null,
+      "assigned_criteria": [
+        150
+      ]
+    },
+    {
+      "study": "NCT02615912",
+      "subject": "Patient/sigir-20149",
+      "disposition": "CONTINUE_SCREENING",
+      "decisive_findings": [],
+      "age_screen": {
+        "state": "NO_DEFINITE_AGE_EXCLUSION",
+        "reason": "NO_PROVEN_AGE_VIOLATION"
+      },
+      "fever_duration": null,
+      "assigned_criteria": [
+        154,
+        155
+      ]
+    },
+    {
+      "study": "NCT01142245",
+      "subject": "Patient/sigir-20151",
+      "disposition": "CONTINUE_SCREENING",
+      "decisive_findings": [],
+      "age_screen": {
+        "state": "NO_DEFINITE_AGE_EXCLUSION",
+        "reason": "NO_PROVEN_AGE_VIOLATION"
+      },
+      "fever_duration": null,
+      "assigned_criteria": [
+        577
+      ]
+    },
+    {
+      "study": "NCT01377519",
+      "subject": "Patient/sigir-201510",
+      "disposition": "CONTINUE_SCREENING",
+      "decisive_findings": [],
+      "age_screen": {
+        "state": "UNRATED",
+        "reason": "BENCHMARK_REGISTRATION_VERSION_UNVERIFIED"
+      },
+      "fever_duration": null,
+      "assigned_criteria": [
+        720
+      ]
+    },
+    {
+      "study": "NCT02340533",
+      "subject": "Patient/sigir-201510",
+      "disposition": "CONTINUE_SCREENING",
+      "decisive_findings": [],
+      "age_screen": {
+        "state": "NO_DEFINITE_AGE_EXCLUSION",
+        "reason": "NO_PROVEN_AGE_VIOLATION"
+      },
+      "fever_duration": null,
+      "assigned_criteria": [
+        706
+      ]
+    },
+    {
+      "study": "NCT01862510",
+      "subject": "Patient/sigir-201511",
+      "disposition": "CONTINUE_SCREENING",
+      "decisive_findings": [],
+      "age_screen": {
+        "state": "NO_DEFINITE_AGE_EXCLUSION",
+        "reason": "NO_PROVEN_AGE_VIOLATION"
+      },
+      "fever_duration": null,
+      "assigned_criteria": [
+        722,
+        723,
+        724,
+        725,
+        726
+      ]
+    },
+    {
+      "study": "NCT02467309",
+      "subject": "Patient/sigir-201512",
+      "disposition": "NOT_ELIGIBLE_AT_PRESENTATION",
+      "decisive_findings": [
+        {
+          "gate": "registered_age_window",
+          "receipt": {
+            "scope": "study_age_at_presentation",
+            "subject": "Patient/sigir-201512",
+            "study": "NCT02467309",
+            "catalog_sha256": "8f74ae1b4fb2c4de07965dd52dc56fba5a04a9e82d1ae500452e9e414eaf2e66",
+            "criterion_ids_for_study": [
+              "734",
+              "735",
+              "736",
+              "737",
+              "738"
+            ],
+            "registration": {
+              "url": "https://clinicaltrials.gov/study/NCT02467309",
+              "sha256": "df5094b17e116ddd34f6f0c70b0a57e6e5fc5bbb6f9c891b7f2d3f14b2520dac",
+              "original_xml": "xml/NCT02467309.xml",
+              "archive_member": "clinicaltrials.gov-16_dec_2015/NCT02467309.xml",
+              "archive_sha256": "10e63f2f3e06315546243ac7114383ea31ac52930cb1d1c04aeee46afec20f80",
+              "archive_url": "https://data.csiro.au/dap/ws/v2/collections/17152/data/48639721",
+              "snapshot_date": "2015-12-16",
+              "last_update": "June 5, 2015",
+              "locator": "clinical_study/eligibility/{minimum_age,maximum_age}",
+              "raw_bounds": {
+                "minimumAge": "1 Month",
+                "maximumAge": "18 Years"
+              },
+              "bounds": {
+                "minimumAge": "1 Month",
+                "maximumAge": "18 Years"
+              },
+              "catalog_criterion_ids": [
+                "734",
+                "735",
+                "736",
+                "737",
+                "738"
+              ],
+              "benchmark_version_verified": true
+            },
+            "patient_age": {
+              "value": 44,
+              "unit": "a",
+              "completed_years": 44,
+              "source": "DocumentReference/sigir-201512-note",
+              "source_sha256": "302503e596b522c6e7b968016369eb43b97294996317a74204fc59fb4420716d",
+              "line_index": 0,
+              "excerpt": "0. A 44-year-old man was recently in an automobile accident where he sustained a skull fracture.",
+              "resources": [
+                "Observation/n-449204327de835e163afb28b67687a"
+              ],
+              "anchor": "documented presentation"
+            },
+            "scope_review": "The registered population is children with bacterial meningitis. There is no adult arm in this registration.",
+            "state": "EXCLUDED_BY_AGE_AT_PRESENTATION",
+            "reason": "ABOVE_MAXIMUM",
+            "assigned_criterion_ids": [
+              734,
+              735,
+              736,
+              737,
+              738
+            ]
+          }
+        }
+      ],
+      "age_screen": {
+        "state": "EXCLUDED_BY_AGE_AT_PRESENTATION",
+        "reason": "ABOVE_MAXIMUM"
+      },
+      "fever_duration": null,
+      "assigned_criteria": [
+        734,
+        735,
+        736,
+        737,
+        738
+      ]
+    },
+    {
+      "study": "NCT00827463",
+      "subject": "Patient/sigir-201514",
+      "disposition": "CONTINUE_SCREENING",
+      "decisive_findings": [],
+      "age_screen": {
+        "state": "NO_DEFINITE_AGE_EXCLUSION",
+        "reason": "NO_PROVEN_AGE_VIOLATION"
+      },
+      "fever_duration": null,
+      "assigned_criteria": [
+        795
+      ]
+    },
+    {
+      "study": "NCT01550588",
+      "subject": "Patient/sigir-201515",
+      "disposition": "CONTINUE_SCREENING",
+      "decisive_findings": [],
+      "age_screen": {
+        "state": "UNRATED",
+        "reason": "INDEX_PATIENT_PRESENTATION_AGE_UNVERIFIED"
+      },
+      "fever_duration": null,
+      "assigned_criteria": [
+        817
+      ]
+    },
+    {
+      "study": "NCT00839124",
+      "subject": "Patient/sigir-201516",
+      "disposition": "NOT_ELIGIBLE_AT_PRESENTATION",
+      "decisive_findings": [
+        {
+          "gate": "registered_age_window",
+          "receipt": {
+            "scope": "study_age_at_presentation",
+            "subject": "Patient/sigir-201516",
+            "study": "NCT00839124",
+            "catalog_sha256": "8f74ae1b4fb2c4de07965dd52dc56fba5a04a9e82d1ae500452e9e414eaf2e66",
+            "criterion_ids_for_study": [
+              "850"
+            ],
+            "registration": {
+              "url": "https://clinicaltrials.gov/study/NCT00839124",
+              "sha256": "4f0a124b08138f785f29cc2b9c48485de21ecd618ad84a8798fb93bb3d6d02ea",
+              "original_xml": "xml/NCT00839124.xml",
+              "archive_member": "clinicaltrials.gov-16_dec_2015/NCT00839124.xml",
+              "archive_sha256": "10e63f2f3e06315546243ac7114383ea31ac52930cb1d1c04aeee46afec20f80",
+              "archive_url": "https://data.csiro.au/dap/ws/v2/collections/17152/data/48639721",
+              "snapshot_date": "2015-12-16",
+              "last_update": "December 4, 2012",
+              "locator": "clinical_study/eligibility/{minimum_age,maximum_age}",
+              "raw_bounds": {
+                "minimumAge": "18 Years",
+                "maximumAge": "50 Years"
+              },
+              "bounds": {
+                "minimumAge": "18 Years",
+                "maximumAge": "50 Years"
+              },
+              "catalog_criterion_ids": [
+                "850"
+              ],
+              "benchmark_version_verified": true
+            },
+            "patient_age": {
+              "value": 4,
+              "unit": "a",
+              "completed_years": 4,
+              "source": "DocumentReference/sigir-201516-note",
+              "source_sha256": "73647117726ddf0a51bed80ad37b62461c236078840c12fe1d5ed52cf506724a",
+              "line_index": 0,
+              "excerpt": "0. A 4 year old boy presents to the emergency room with wheezing.",
+              "resources": [
+                "Observation/n-be3d97d60fc1d41ec49b6e6db1625f"
+              ],
+              "anchor": "documented presentation"
+            },
+            "scope_review": "Healthy-control and allergic-asthma arms use the registered age range. The age-six clause concerns symptom onset.",
+            "state": "EXCLUDED_BY_AGE_AT_PRESENTATION",
+            "reason": "BELOW_MINIMUM",
+            "assigned_criterion_ids": [
+              850
+            ]
+          }
+        }
+      ],
+      "age_screen": {
+        "state": "EXCLUDED_BY_AGE_AT_PRESENTATION",
+        "reason": "BELOW_MINIMUM"
+      },
+      "fever_duration": null,
+      "assigned_criteria": [
+        850
+      ]
+    },
+    {
+      "study": "NCT01231945",
+      "subject": "Patient/sigir-201517",
+      "disposition": "CONTINUE_SCREENING",
+      "decisive_findings": [],
+      "age_screen": {
+        "state": "NO_DEFINITE_AGE_EXCLUSION",
+        "reason": "NO_PROVEN_AGE_VIOLATION"
+      },
+      "fever_duration": null,
+      "assigned_criteria": [
+        860
+      ]
+    },
+    {
+      "study": "NCT01446198",
+      "subject": "Patient/sigir-201517",
+      "disposition": "CONTINUE_SCREENING",
+      "decisive_findings": [],
+      "age_screen": {
+        "state": "NO_DEFINITE_AGE_EXCLUSION",
+        "reason": "NO_PROVEN_AGE_VIOLATION"
+      },
+      "fever_duration": null,
+      "assigned_criteria": [
+        866,
+        867
+      ]
+    },
+    {
+      "study": "NCT00344513",
+      "subject": "Patient/sigir-201518",
+      "disposition": "CONTINUE_SCREENING",
+      "decisive_findings": [],
+      "age_screen": {
+        "state": "UNRATED",
+        "reason": "AGE_BOUND_ABSENT_OR_UNSUPPORTED"
+      },
+      "fever_duration": null,
+      "assigned_criteria": [
+        870
+      ]
+    },
+    {
+      "study": "NCT00534066",
+      "subject": "Patient/sigir-201518",
+      "disposition": "CONTINUE_SCREENING",
+      "decisive_findings": [],
+      "age_screen": {
+        "state": "NO_DEFINITE_AGE_EXCLUSION",
+        "reason": "NO_PROVEN_AGE_VIOLATION"
+      },
+      "fever_duration": null,
+      "assigned_criteria": [
+        875
+      ]
+    },
+    {
+      "study": "NCT00182832",
+      "subject": "Patient/sigir-201520",
+      "disposition": "CONTINUE_SCREENING",
+      "decisive_findings": [],
+      "age_screen": {
+        "state": "NO_DEFINITE_AGE_EXCLUSION",
+        "reason": "NO_PROVEN_AGE_VIOLATION"
+      },
+      "fever_duration": null,
+      "assigned_criteria": [
+        890
+      ]
+    },
+    {
+      "study": "NCT01959048",
+      "subject": "Patient/sigir-201521",
+      "disposition": "CONTINUE_SCREENING",
+      "decisive_findings": [],
+      "age_screen": {
+        "state": "NO_DEFINITE_AGE_EXCLUSION",
+        "reason": "NO_PROVEN_AGE_VIOLATION"
+      },
+      "fever_duration": null,
+      "assigned_criteria": [
+        919
+      ]
+    },
+    {
+      "study": "NCT01207128",
+      "subject": "Patient/sigir-201522",
+      "disposition": "CONTINUE_SCREENING",
+      "decisive_findings": [],
+      "age_screen": {
+        "state": "NO_DEFINITE_AGE_EXCLUSION",
+        "reason": "NO_PROVEN_AGE_VIOLATION"
+      },
+      "fever_duration": null,
+      "assigned_criteria": [
+        945,
+        946,
+        952,
+        953,
+        955,
+        957
+      ]
+    },
+    {
+      "study": "NCT02534727",
+      "subject": "Patient/sigir-201522",
+      "disposition": "CONTINUE_SCREENING",
+      "decisive_findings": [],
+      "age_screen": {
+        "state": "UNRATED",
+        "reason": "BENCHMARK_REGISTRATION_VERSION_UNVERIFIED"
+      },
+      "fever_duration": null,
+      "assigned_criteria": [
+        935,
+        936,
+        938,
+        939,
+        940
+      ]
+    },
+    {
+      "study": "NCT00084240",
+      "subject": "Patient/sigir-201523",
+      "disposition": "CONTINUE_SCREENING",
+      "decisive_findings": [],
+      "age_screen": {
+        "state": "NO_DEFINITE_AGE_EXCLUSION",
+        "reason": "NO_PROVEN_AGE_VIOLATION"
+      },
+      "fever_duration": null,
+      "assigned_criteria": [
+        962,
+        965
+      ]
+    },
+    {
+      "study": "NCT00711399",
+      "subject": "Patient/sigir-201524",
+      "disposition": "CONTINUE_SCREENING",
+      "decisive_findings": [],
+      "age_screen": {
+        "state": "NO_DEFINITE_AGE_EXCLUSION",
+        "reason": "NO_PROVEN_AGE_VIOLATION"
+      },
+      "fever_duration": null,
+      "assigned_criteria": [
+        985
+      ]
+    },
+    {
+      "study": "NCT01139632",
+      "subject": "Patient/sigir-20153",
+      "disposition": "CONTINUE_SCREENING",
+      "decisive_findings": [],
+      "age_screen": {
+        "state": "NO_DEFINITE_AGE_EXCLUSION",
+        "reason": "NO_PROVEN_AGE_VIOLATION"
+      },
+      "fever_duration": null,
+      "assigned_criteria": [
+        632,
+        633
+      ]
+    },
+    {
+      "study": "NCT01326507",
+      "subject": "Patient/sigir-20153",
+      "disposition": "CONTINUE_SCREENING",
+      "decisive_findings": [],
+      "age_screen": {
+        "state": "NO_DEFINITE_AGE_EXCLUSION",
+        "reason": "NO_PROVEN_AGE_VIOLATION"
+      },
+      "fever_duration": null,
+      "assigned_criteria": [
+        621
+      ]
+    },
+    {
+      "study": "NCT00844987",
+      "subject": "Patient/sigir-20154",
+      "disposition": "CONTINUE_SCREENING",
+      "decisive_findings": [],
+      "age_screen": {
+        "state": "NO_DEFINITE_AGE_EXCLUSION",
+        "reason": "NO_PROVEN_AGE_VIOLATION"
+      },
+      "fever_duration": null,
+      "assigned_criteria": [
+        640
+      ]
+    },
+    {
+      "study": "NCT01243255",
+      "subject": "Patient/sigir-20154",
+      "disposition": "CONTINUE_SCREENING",
+      "decisive_findings": [],
+      "age_screen": {
+        "state": "NO_DEFINITE_AGE_EXCLUSION",
+        "reason": "NO_PROVEN_AGE_VIOLATION"
+      },
+      "fever_duration": null,
+      "assigned_criteria": [
+        636,
+        637
+      ]
+    },
+    {
+      "study": "NCT02375451",
+      "subject": "Patient/sigir-20156",
+      "disposition": "CONTINUE_SCREENING",
+      "decisive_findings": [],
+      "age_screen": {
+        "state": "NO_DEFINITE_AGE_EXCLUSION",
+        "reason": "NO_PROVEN_AGE_VIOLATION"
+      },
+      "fever_duration": null,
+      "assigned_criteria": [
+        653
+      ]
+    },
+    {
+      "study": "NCT02633449",
+      "subject": "Patient/sigir-20157",
+      "disposition": "CONTINUE_SCREENING",
+      "decisive_findings": [],
+      "age_screen": {
+        "state": "NO_DEFINITE_AGE_EXCLUSION",
+        "reason": "NO_PROVEN_AGE_VIOLATION"
+      },
+      "fever_duration": null,
+      "assigned_criteria": [
+        671
+      ]
+    }
+  ]
+}
